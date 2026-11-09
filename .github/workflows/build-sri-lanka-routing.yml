@@ -273,8 +273,18 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config http.postBuffer 524288000
-          git add -A && git commit -q -m "Routing graphs" || echo "Nothing to commit"
-          git push -q origin "HEAD:${MAIN_BRANCH}"
+          git add -A -- public/routing public/roads
+          if ! git diff --cached --quiet; then git commit -q -m "Routing graphs"; fi
+          # Preserve commits pushed by concurrent UI/deployment work.
+          # Never force-push or overwrite unrelated main-branch files.
+          for attempt in 1 2 3; do
+            if git push -q origin "HEAD:${MAIN_BRANCH}"; then exit 0; fi
+            echo "::warning::main changed concurrently; rebasing routing commit (attempt ${attempt})"
+            git fetch -q origin "${MAIN_BRANCH}"
+            git rebase FETCH_HEAD || { git rebase --abort; echo "::error::Conflicting routing data update; manual reconciliation required"; exit 1; }
+          done
+          echo "::error::Could not push after three safe retries"
+          exit 1
 
       - name: Prepare Pages artifact
         if: ${{ inputs.deploy_pages }}
