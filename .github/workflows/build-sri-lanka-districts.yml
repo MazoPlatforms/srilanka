@@ -1,550 +1,135 @@
-name: Build Sri Lanka map district by district
-
-# Builds districts incrementally from main/public and publishes only to main/public.
-# No separate site branch. Each district run can deploy Pages from its working output.
+name: Build Sri Lanka map from OpenStreetMap and Mazo Maps places
+# Main-only: rendering-zone data only, never changes routing or page UI.
 on:
   workflow_dispatch:
     inputs:
       start_index:
-        description: "First district to build (0 = Ampara ... 24 = Vavuniya, alphabetical)"
+        description: "Start rendering zone (0-24)"
         default: "0"
+        required: true
       end_index:
-        description: "Last district to build"
+        description: "Last rendering zone (0-24)"
         default: "24"
+        required: true
       chain:
-        description: "Automatically start the next district when this one finishes"
+        description: "Automatically build subsequent zones"
         type: boolean
         default: true
       deploy_pages:
-        description: "Deploy GitHub Pages after each district (Settings > Pages > Source: GitHub Actions)"
+        description: "Deploy generated main/public after each zone"
         type: boolean
         default: true
-      site_title:
-        description: "Title shown on the map page"
-        default: "Sri Lanka Map"
-      overturemaps_version:
-        description: "Pin overturemaps pip version (blank = latest release)"
-        default: ""
-
-concurrency:
-  group: sri-lanka-districts
-  cancel-in-progress: false
-
+      source_snapshot:
+        description: "OSM cache version; change to refresh source data"
+        default: "2026-11-09"
+        required: true
 permissions:
   contents: write
   actions: write
-
+concurrency:
+  group: sri-lanka-osm-publish
+  cancel-in-progress: false
 env:
-  IDX: ${{ inputs.start_index || '0' }}
-  END_INDEX: ${{ inputs.end_index || '24' }}
-  SITE_TITLE: ${{ inputs.site_title || 'Sri Lanka Map' }}
-  OVERTURE_PIN: ${{ inputs.overturemaps_version }}
-  TT_DIR: /mnt/tt
-
+  IDX: ${{ inputs.start_index }}
+  END_INDEX: ${{ inputs.end_index }}
+  SOURCE_SNAPSHOT: ${{ inputs.source_snapshot }}
 jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 300
     steps:
-      - name: Free disk space
-        run: |
-          sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /opt/hostedtoolcache/CodeQL
-          sudo mkdir -p /mnt/tt && sudo chown "$USER" /mnt/tt
-          df -h / /mnt
-
+      - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
-      - name: Install overturemaps CLI
+      - name: Validate and install builders
         run: |
-          if [ -n "$OVERTURE_PIN" ]; then pip install "overturemaps==$OVERTURE_PIN"; else pip install -U overturemaps; fi
-
-      - name: Cache tippecanoe
-        id: tip
-        uses: actions/cache@v4
-        with:
-          path: ~/tippecanoe-bin
-          key: tippecanoe-2.72.0-${{ runner.os }}
-
-      - name: Build tippecanoe
-        if: steps.tip.outputs.cache-hit != 'true'
-        run: |
+          python - <<'PY'
+          import os
+          a,b=int(os.environ["IDX"]),int(os.environ["END_INDEX"])
+          assert 0<=a<=b<=24
+          PY
           sudo apt-get update
-          sudo apt-get install -y build-essential libsqlite3-dev zlib1g-dev
+          sudo apt-get install -y osmium-tool build-essential libsqlite3-dev zlib1g-dev
+          pip install osmium==4.3.2
           git clone --depth 1 --branch 2.72.0 https://github.com/felt/tippecanoe.git /tmp/tippecanoe
           make -C /tmp/tippecanoe -j"$(nproc)"
-          mkdir -p ~/tippecanoe-bin
-          cp /tmp/tippecanoe/tippecanoe ~/tippecanoe-bin/
-
-      - name: Write builder script (inline)
+          echo "/tmp/tippecanoe" >> "$GITHUB_PATH"
+          python -m py_compile scripts/build_osm_map.py
+      - name: Clone reviewed Mazo Maps places for build (not runtime)
         run: |
-          mkdir -p build
-          cat > build/builder.py <<'PYEOF'
-          #!/usr/bin/env python3
-          """Build ONE Sri Lanka district zone: JSON places (999/folder), search shards, PMTiles."""
-          import glob, json, os, shutil, subprocess, sys, time, uuid
-
-          IDX = int(os.environ["IDX"])
-          W0, S0, E0, N0 = 79.45, 5.85, 81.95, 9.9            # all of Sri Lanka
-          SITE = "site"
-          DATA = SITE + "/data"
-          TMP = os.environ.get("TT_DIR", "/tmp")
-          PER_FOLDER = 999
-          LIMIT = 95_000_000                                   # GitHub 100 MB file limit
-          CROCKFORD = "0123456789ABCDEFGHJKMNPQRSTVWXYZ"
-          STATUS = {"open": "OPEN", "permanently_closed": "CLOSED_PERMANENTLY",
-                    "temporarily_closed": "CLOSED_TEMPORARILY"}
-          SEP = set(" \t\n,.;:()[]/\\-_&'\"")
-
-          # slug, name, centre lat, centre lon. A feature belongs to the nearest centre,
-          # so the 25 zones cover every point of the country with no gaps and no overlaps.
-          DISTRICTS = [
-              ("ampara", "Ampara", 7.20, 81.60), ("anuradhapura", "Anuradhapura", 8.40, 80.40),
-              ("badulla", "Badulla", 6.95, 81.05), ("batticaloa", "Batticaloa", 7.70, 81.60),
-              ("colombo", "Colombo", 6.90, 79.90), ("galle", "Galle", 6.10, 80.20),
-              ("gampaha", "Gampaha", 7.05, 80.05), ("hambantota", "Hambantota", 6.25, 81.10),
-              ("jaffna", "Jaffna", 9.70, 80.10), ("kalutara", "Kalutara", 6.55, 80.05),
-              ("kandy", "Kandy", 7.30, 80.65), ("kegalle", "Kegalle", 7.20, 80.35),
-              ("kilinochchi", "Kilinochchi", 9.40, 80.40), ("kurunegala", "Kurunegala", 7.60, 80.35),
-              ("mannar", "Mannar", 8.90, 79.95), ("matale", "Matale", 7.60, 80.65),
-              ("matara", "Matara", 5.98, 80.55), ("monaragala", "Monaragala", 6.85, 81.35),
-              ("mullaitivu", "Mullaitivu", 9.10, 80.70), ("nuwara-eliya", "Nuwara Eliya", 6.95, 80.75),
-              ("polonnaruwa", "Polonnaruwa", 7.90, 81.00), ("puttalam", "Puttalam", 8.05, 79.90),
-              ("ratnapura", "Ratnapura", 6.70, 80.50), ("trincomalee", "Trincomalee", 8.60, 81.15),
-              ("vavuniya", "Vavuniya", 8.75, 80.50),
-          ]
-          if not 0 <= IDX < len(DISTRICTS):
-              sys.exit(f"IDX must be 0..{len(DISTRICTS) - 1}")
-          SLUG, NAME = DISTRICTS[IDX][0], DISTRICTS[IDX][1]
-          DDIR = f"{DATA}/districts/{SLUG}"
-
-          # ---------- zone geometry ----------
-          def owner(lon, lat):
-              best, bd = 0, 1e9
-              for i, (_, _, la, lo) in enumerate(DISTRICTS):
-                  d = ((lon - lo) * 0.99) ** 2 + (lat - la) ** 2
-                  if d < bd:
-                      best, bd = i, d
-              return best
-
-          def zone_window(idx, step=0.01, pad=0.03):
-              xs, ys = [], []
-              lat = S0
-              while lat <= N0:
-                  lon = W0
-                  while lon <= E0:
-                      if owner(lon, lat) == idx:
-                          xs.append(lon); ys.append(lat)
-                      lon += step
-                  lat += step
-              return [round(min(xs) - pad, 4), round(min(ys) - pad, 4),
-                      round(max(xs) + pad, 4), round(max(ys) + pad, 4)]
-
-          def rep_point(g):
-              c = g.get("coordinates")
-              while isinstance(c, list) and c and isinstance(c[0], list):
-                  c = c[0]
-              return (c[0], c[1]) if isinstance(c, list) and len(c) > 1 else (None, None)
-
-          def mine(f):
-              x, y = rep_point(f.get("geometry") or {})
-              return x is not None and owner(x, y) == IDX
-
-          # ---------- helpers ----------
-          def to_ulid(oid):
-              try:
-                  n = uuid.UUID(str(oid)).int
-              except ValueError:
-                  n = uuid.uuid5(uuid.NAMESPACE_URL, str(oid)).int
-              s = ""
-              for _ in range(26):
-                  s = CROCKFORD[n & 31] + s
-                  n >>= 5
-              return s
-
-          def humanize(s):
-              s = str(s).replace("_", " ").strip()
-              return s[:1].upper() + s[1:]
-
-          def tokens(name):
-              out, cur = [], []
-              for ch in name.lower():
-                  if ch in SEP:
-                      if cur:
-                          out.append("".join(cur)); cur = []
-                  else:
-                      cur.append(ch)
-              if cur:
-                  out.append("".join(cur))
-              return out
-
-          def shard_key(tok):
-              return "-".join(format(ord(c), "x") for c in tok[:2])
-
-          def stream(otype, bbox):
-              cmd = ["overturemaps", "download", "--bbox=" + ",".join(map(str, bbox)),
-                     "-f", "geojsonseq", f"--type={otype}"]
-              p = subprocess.Popen(cmd, stdout=subprocess.PIPE, text=True, encoding="utf-8", bufsize=1 << 20)
-              for line in p.stdout:
-                  line = line.strip().lstrip("\x1e")
-                  if line:
-                      yield json.loads(line)
-              if p.wait() != 0:
-                  sys.exit(f"overturemaps download failed for {otype}")
-
-          def feature_id(f):
-              return f.get("id") or (f.get("properties") or {}).get("id")
-
-          def names_of(p):
-              names = p.get("names")
-              if not isinstance(names, dict):
-                  return None, None
-              common = names.get("common")
-              return names.get("primary"), (common.get("en") if isinstance(common, dict) else None)
-
-          # ---------- places ----------
-          def is_valid_place(f):
-              g, p = f.get("geometry") or {}, f.get("properties") or {}
-              return g.get("type") == "Point" and bool(names_of(p)[0]) and bool(feature_id(f))
-
-          def place_categories(p):
-              raw = []
-              tax = p.get("taxonomy")
-              if isinstance(tax, dict) and tax.get("primary"):
-                  raw.append(tax["primary"])
-              cats = p.get("categories")
-              if isinstance(cats, dict):
-                  if cats.get("primary"):
-                      raw.append(cats["primary"])
-                  raw += cats.get("alternate") or []
-              out = []
-              for c in raw:
-                  h = humanize(c)
-                  if h not in out:
-                      out.append(h)
-              return out
-
-          def place_address(p):
-              a = p.get("addresses")
-              if not (isinstance(a, list) and a and isinstance(a[0], dict)):
-                  return ""
-              a = a[0]
-              tail = " ".join(x for x in [a.get("locality"), a.get("postcode")] if x)
-              return ", ".join(x for x in [a.get("freeform"), tail] if x)
-
-          def place_record(f, ulid):
-              p = f["properties"]
-              lon, lat = f["geometry"]["coordinates"][:2]
-              phones = p.get("phones") or []
-              return {"name": names_of(p)[0],
-                      "coordinates": {"latitude": round(lat, 7), "longitude": round(lon, 7)},
-                      "address": place_address(p), "categories": place_categories(p),
-                      "phone": str(phones[0]).strip() if phones else "", "hours": [],
-                      "business_status": STATUS.get(p.get("operating_status"), "UNKNOWN"), "id": ulid}
-
-          def merge_search(new):
-              sdir = DATA + "/search"
-              os.makedirs(sdir, exist_ok=True)
-              seen = set()
-              for path in glob.glob(sdir + "/*.json"):
-                  key = os.path.basename(path)[:-5]
-                  seen.add(key)
-                  with open(path, encoding="utf-8") as fh:
-                      entries = [e for e in json.load(fh) if e[5] != IDX]
-                  entries += new.get(key, [])
-                  write_shard(path, entries)
-              for key, entries in new.items():
-                  if key not in seen:
-                      write_shard(f"{sdir}/{key}.json", list(entries))
-
-          def write_shard(path, entries):
-              if not entries:
-                  os.remove(path); return
-              entries.sort(key=lambda e: e[0].lower())
-              with open(path, "w", encoding="utf-8") as fo:
-                  json.dump(entries, fo, ensure_ascii=False, separators=(",", ":"))
-
-          def process_places(win):
-              out_dir, tmp, ids = DDIR + "/places", "build/places.jsonl", set()
-              with open(tmp, "w", encoding="utf-8") as fo:                      # pass A
-                  for f in stream("place", win):
-                      if not (is_valid_place(f) and mine(f)):
-                          continue
-                      ulid = to_ulid(feature_id(f))
-                      if ulid in ids:
-                          continue
-                      ids.add(ulid)
-                      fo.write(json.dumps({"r": place_record(f, ulid), "g": f["geometry"],
-                                           "en": names_of(f["properties"])[1]}, ensure_ascii=False) + "\n")
-              order = sorted(ids)
-              total = len(order)
-              folders = max(1, -(-total // PER_FOLDER))
-              width = max(4, len(str(folders)))
-              rank = {u: i for i, u in enumerate(order)}
-              os.makedirs(out_dir, exist_ok=True)
-              made, search = set(), {}
-              with open(tmp, encoding="utf-8") as fi, open("build/place.geojsonseq", "w", encoding="utf-8") as tiles:
-                  for line in fi:                                               # pass B
-                      o = json.loads(line)
-                      rec, ulid = o["r"], o["r"]["id"]
-                      folder = str(rank[ulid] // PER_FOLDER + 1).zfill(width)
-                      d = os.path.join(out_dir, folder)
-                      if d not in made:
-                          os.makedirs(d, exist_ok=True); made.add(d)
-                      with open(os.path.join(d, ulid + ".json"), "w", encoding="utf-8") as fo:
-                          json.dump(rec, fo, ensure_ascii=False, separators=(",", ":"))
-                      cats = rec["categories"]
-                      props = {"id": ulid, "f": folder, "d": IDX, "name": rec["name"],
-                               "category": cats[0] if cats else ""}
-                      if o.get("en"):
-                          props["name_en"] = o["en"]
-                      tiles.write(json.dumps({"type": "Feature", "geometry": o["g"], "properties": props},
-                                             ensure_ascii=False) + "\n")
-                      entry = [rec["name"], round(rec["coordinates"]["longitude"], 6),
-                               round(rec["coordinates"]["latitude"], 6), ulid, folder, IDX]
-                      for k in {shard_key(t) for t in tokens(rec["name"]) if len(t) >= 2}:
-                          search.setdefault(k, []).append(entry)
-              os.remove(tmp)
-              merge_search(search)
-              manifest = {"schema": 1, "per_folder": PER_FOLDER, "folder_width": width,
-                          "total": total, "folders": folders}
-              with open(out_dir + "/manifest.json", "w") as fo:
-                  json.dump(manifest, fo)
-              return manifest
-
-          # ---------- other layers ----------
-          KEEP = {"land_use": {"class", "subtype"}, "water": {"class", "subtype"},
-                  "segment": {"class", "subtype"},
-                  "building": {"height", "num_floors", "class", "subtype"}}
-
-          def convert_layer(layer, win, owned):
-              keep, n = KEEP[layer], 0
-              with open(f"build/{layer}.geojsonseq", "w", encoding="utf-8") as fo:
-                  for f in stream(layer, win):
-                      if owned and not mine(f):
-                          continue
-                      p = f.get("properties") or {}
-                      props = {k: p[k] for k in keep if p.get(k) is not None and not isinstance(p[k], (dict, list))}
-                      name, en = names_of(p)
-                      if name:
-                          props["name"] = name
-                      if en:
-                          props["name_en"] = en
-                      fo.write(json.dumps({"type": "Feature", "geometry": f["geometry"], "properties": props},
-                                          ensure_ascii=False) + "\n")
-                      n += 1
-              print(f"   {layer}: {n} features", flush=True)
-              return n
-
-          # ---------- tiles ----------
-          def run_tippecanoe(out, args, minz, maxz, tile_bytes, extra=()):
-              cmd = ["tippecanoe", "-o", out, "--force", f"-Z{minz}", f"-z{maxz}",
-                     "--drop-densest-as-needed", "--read-parallel", "-Q",
-                     f"--temporary-directory={TMP}", f"--maximum-tile-bytes={tile_bytes}",
-                     "--attribution=Overture Maps Foundation", *extra, *args]
-              with open("build/tippecanoe.log", "w") as log:     # keep Actions logs small
-                  r = subprocess.run(cmd, stdout=log, stderr=subprocess.STDOUT)
-              if r.returncode != 0:
-                  print(open("build/tippecanoe.log", errors="replace").read()[-6000:])
-                  subprocess.run(["df", "-h", "/", "/mnt"])
-                  subprocess.run(["free", "-m"])
-                  sys.exit(f"tippecanoe failed (exit {r.returncode}) for {out}")
-              return os.path.getsize(out)
-
-          def tiles_fit(out, args, minz, maxz, extra=()):
-              for tb in (500000, 250000, 120000):
-                  size = run_tippecanoe(out, args, minz, maxz, tb, extra)
-                  print(f"   {os.path.basename(out)}: {size // 1024} KB (max tile {tb})", flush=True)
-                  if size <= LIMIT:
-                      return True
-              os.remove(out)
-              return False
-
-          def split_bands(src, n, win):
-              files = [f"build/bband{i}.geojsonseq" for i in range(n)]
-              outs = [open(f, "w", encoding="utf-8") for f in files]
-              s, step = win[1], (win[3] - win[1]) / n
-              with open(src, encoding="utf-8") as fi:
-                  for line in fi:
-                      y = rep_point(json.loads(line)["geometry"])[1]
-                      outs[min(n - 1, max(0, int(((y if y is not None else s) - s) / step)))].write(line)
-              for o in outs:
-                  o.close()
-              return files
-
-          def build_buildings(win, counts):
-              counts["building"] = convert_layer("building", win, True)
-              if not counts["building"]:
-                  return []
-              for bands in (1, 2, 4, 8):
-                  for old in glob.glob(DDIR + "/buildings-*.pmtiles"):
-                      os.remove(old)
-                  ok, outs = True, []
-                  for i, f in enumerate(split_bands("build/building.geojsonseq", bands, win)):
-                      if os.path.getsize(f) == 0:
-                          os.remove(f); continue
-                      out = f"{DDIR}/buildings-{i}.pmtiles"
-                      size = run_tippecanoe(out, ["-l", "building", f], 15, 15, 500000)
-                      os.remove(f)
-                      if size > LIMIT:
-                          ok = False; break
-                      outs.append(os.path.basename(out))
-                  for left in glob.glob("build/bband*.geojsonseq"):
-                      os.remove(left)
-                  if ok:
-                      return outs
-                  print(f"   building file over limit, splitting into {bands * 2}", flush=True)
-              for old in glob.glob(DDIR + "/buildings-*.pmtiles"):
-                  os.remove(old)
-              print("::warning::Buildings skipped for this district (could not fit 100 MB file limit)")
-              return []
-
-          # ---------- index ----------
-          def update_index(entry):
-              path = DATA + "/districts.json"
-              cur = json.load(open(path)) if os.path.exists(path) else {}
-              items = {d["slug"]: d for d in cur.get("districts", [])}
-              items[SLUG] = entry
-              with open(path, "w") as fo:
-                  json.dump({"bbox": [W0, S0, E0, N0],
-                             "districts": [items[d[0]] for d in DISTRICTS if d[0] in items]}, fo)
-
-          def main():
-              t0 = time.time()
-              os.makedirs("build", exist_ok=True)
-              shutil.rmtree(DDIR, ignore_errors=True)
-              os.makedirs(DDIR)
-              win = zone_window(IDX)
-              print(f"== District {IDX + 1}/{len(DISTRICTS)}: {NAME}  window {win}", flush=True)
-              counts, files = {}, {"areas": False, "base": False, "buildings": []}
-
-              area_args = []
-              for layer, minz in (("land_use", 6), ("water", 0)):
-                  counts[layer] = convert_layer(layer, win, False)
-                  if counts[layer]:
-                      area_args += ["-L", json.dumps({"file": f"build/{layer}.geojsonseq", "layer": layer, "minzoom": minz})]
-              if area_args:
-                  files["areas"] = tiles_fit(f"{DDIR}/areas.pmtiles", area_args, 5, 14,
-                                             ["--clip-bounding-box=" + ",".join(map(str, win))])
-                  if not files["areas"]:
-                      print("::warning::areas.pmtiles too large, skipped")
-
-              base_args = []
-              counts["segment"] = convert_layer("segment", win, True)
-              if counts["segment"]:
-                  base_args += ["-L", json.dumps({"file": "build/segment.geojsonseq", "layer": "segment", "minzoom": 8})]
-              manifest = process_places(win)
-              counts["place"] = manifest["total"]
-              print(f"   place: {manifest['total']} JSON files in {manifest['folders']} folders", flush=True)
-              if manifest["total"]:
-                  base_args += ["-L", json.dumps({"file": "build/place.geojsonseq", "layer": "place", "minzoom": 12})]
-              if base_args:
-                  files["base"] = tiles_fit(f"{DDIR}/base.pmtiles", base_args, 8, 14)
-                  if not files["base"]:
-                      sys.exit("base.pmtiles does not fit 95 MB")
-
-              try:
-                  files["buildings"] = build_buildings(win, counts)
-              except Exception as e:
-                  print(f"::warning::Buildings failed: {e}")
-
-              update_index({"idx": IDX, "slug": SLUG, "name": NAME, "window": win, "files": files,
-                            "counts": counts, "places": manifest,
-                            "built": time.strftime("%Y-%m-%d", time.gmtime())})
-              print(f"== Done {NAME} in {int(time.time() - t0)} s: {counts}", flush=True)
-
-          if __name__ == "__main__":
-              main()
-          PYEOF
-
-      - name: Prepare working site from main/public
-        uses: actions/checkout@v4
+          git clone --depth 1 https://github.com/MazoPlatforms/newmaps.git /tmp/newmaps
+          test -f /tmp/newmaps/scripts/place_eligibility.py
+          test -d /tmp/newmaps/data/places
+      - name: Cache Sri Lanka OSM PBF
+        id: osm
+        uses: actions/cache@v4
         with:
-          path: src
-      - name: Copy canonical main/public assets
+          path: sri-lanka.osm.pbf
+          key: geofabrik-sl-${{ inputs.source_snapshot }}
+      - name: Download OpenStreetMap source snapshot
+        if: steps.osm.outputs.cache-hit != 'true'
         run: |
-          mkdir -p site
-          if [ -d src/public ]; then cp -a src/public/. site/; fi
-          mkdir -p site/data
-
-      - name: Build this district
+          curl -fL --retry 4 --retry-delay 8 \
+            https://download.geofabrik.de/asia/sri-lanka-latest.osm.pbf -o sri-lanka.osm.pbf
+          test -s sri-lanka.osm.pbf
+      - name: Extract current rendering zone
         run: |
-          export PATH="$HOME/tippecanoe-bin:$PATH"
-          python build/builder.py
-
-      - name: Map page, libraries and fonts
+          BBOX=$(python - <<'PY'
+          import os,sys
+          sys.path.insert(0,"scripts")
+          from build_osm_map import window
+          print(",".join(map(str,window(int(os.environ["IDX"])))))
+          PY
+          )
+          osmium extract --strategy smart -b "$BBOX" -o zone.osm.pbf sri-lanka.osm.pbf
+      - name: Build OSM layers and public newmaps places
         run: |
-          if [ ! -f site/vendor/maplibre-gl.js ]; then
-            mkdir -p site/vendor /tmp/npm
-            (cd /tmp/npm && npm pack maplibre-gl@4.7.1 pmtiles@3.2.0 >/dev/null &&
-              for f in *.tgz; do mkdir -p "x-$f" && tar -xzf "$f" -C "x-$f"; done)
-            cp /tmp/npm/x-maplibre-gl-*/package/dist/maplibre-gl.js  site/vendor/
-            cp /tmp/npm/x-maplibre-gl-*/package/dist/maplibre-gl.css site/vendor/
-            cp /tmp/npm/x-pmtiles-*/package/dist/pmtiles.js          site/vendor/
+          python scripts/build_osm_map.py --index "$IDX" --pbf zone.osm.pbf \
+            --newmaps /tmp/newmaps --public public
+      - name: Verify unrelated files are untouched
+        run: |
+          git diff --exit-code -- public/index.html public/routing.js public/data/routing
+          test -s public/data/districts.json
+          test -s public/index.html
+          if find public -type f -size +99M -print | grep .; then
+            echo "::error::Oversized file detected"
+            exit 1
           fi
-          if [ ! -d site/fonts/NotoSans-Regular ]; then
-            mkdir -p site/fonts
-            curl -fsSL https://github.com/protomaps/basemaps-assets/archive/refs/heads/main.tar.gz | tar -xz -C /tmp
-            cp -r "/tmp/basemaps-assets-main/fonts/Noto Sans Regular" site/fonts/NotoSans-Regular
-          fi
-          # The published UI is maintained in main/public/index.html, never generated here.
-          # Fetch the current main version, not the workflow's old inline template.
-          cp src/public/index.html site/index.html
-          test -s site/index.html
-          touch site/.nojekyll
-
-      - name: Check limits
+      - name: Commit only map data to main
         run: |
-          echo "Site: $(du -sm --apparent-size --exclude=.git site | cut -f1) MB, $(find site -path site/.git -prune -o -type f -print | wc -l) files"
-          if find site -path site/.git -prune -o -type f -size +99M -print | grep -q .; then
-            echo "::error::A file exceeds GitHub's 100 MB limit"; exit 1
-          fi
-          [ "$(du -sm --apparent-size --exclude=.git site | cut -f1)" -le 950 ] || echo "::warning::Site is approaching the 1 GB Pages limit"
-
-      - name: Publish district data to main/public only
-        env:
-          GH_TOKEN: ${{ github.token }}
-          MAIN_BRANCH: ${{ github.event.repository.default_branch }}
-        run: |
-          URL="https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
-          git clone --depth 1 --branch "$MAIN_BRANCH" "$URL" mainrepo
-          mkdir -p mainrepo/public/data/districts mainrepo/public/data/search
-          DISTRICT=$(python -c 'import json,os; d=json.load(open("site/data/districts.json"))["districts"]; print(next(x["slug"] for x in d if x["idx"]==int(os.environ["IDX"])))')
-          rm -rf "mainrepo/public/data/districts/$DISTRICT"
-          cp -a "site/data/districts/$DISTRICT" "mainrepo/public/data/districts/$DISTRICT"
-          cp -a site/data/districts.json mainrepo/public/data/districts.json
-          rsync -a --delete site/data/search/ mainrepo/public/data/search/
-          for part in vendor fonts; do
-            if [ -d "site/$part" ]; then mkdir -p "mainrepo/public/$part"; cp -a "site/$part/." "mainrepo/public/$part/"; fi
-          done
-          cd mainrepo
+          SLUG=$(python - <<'PY'
+          import os,sys
+          sys.path.insert(0,"scripts")
+          from build_osm_map import DISTRICTS
+          print(DISTRICTS[int(os.environ["IDX"])][0])
+          PY
+          )
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A -- public/data public/vendor public/fonts
-          if ! git diff --cached --quiet; then
-            git commit -q -m "Build district $DISTRICT"
-            for attempt in 1 2 3; do
-              if git push -q origin "HEAD:$MAIN_BRANCH"; then break; fi
-              git fetch -q origin "$MAIN_BRANCH"
-              git rebase FETCH_HEAD || { git rebase --abort; exit 1; }
-              if [ "$attempt" = "3" ]; then exit 1; fi
-            done
-          fi
-
-      - name: Prepare Pages artifact from main/public
-        if: ${{ inputs.deploy_pages || inputs.deploy_pages == null }}
-        run: rsync -a --exclude .git site/ pages/
+          git add -A -- "public/data/districts/$SLUG" public/data/districts.json public/data/search
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -q -m "Generate OSM map data for $SLUG"
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then exit 0; fi
+            git fetch origin main
+            git rebase FETCH_HEAD || { git rebase --abort; exit 1; }
+          done
+          exit 1
+      - name: Prepare current main for Pages
+        if: ${{ inputs.deploy_pages }}
+        run: |
+          git fetch origin main
+          git checkout --detach FETCH_HEAD
+          touch public/.nojekyll
       - uses: actions/upload-pages-artifact@v3
-        if: ${{ inputs.deploy_pages || inputs.deploy_pages == null }}
+        if: ${{ inputs.deploy_pages }}
         with:
-          path: pages
-
+          path: public
   deploy:
     needs: build
-    if: ${{ inputs.deploy_pages || inputs.deploy_pages == null }}
+    if: ${{ inputs.deploy_pages }}
     runs-on: ubuntu-latest
-    continue-on-error: true
     permissions:
       pages: write
       id-token: write
@@ -552,23 +137,18 @@ jobs:
       name: github-pages
     steps:
       - uses: actions/deploy-pages@v4
-
   next:
     needs: build
-    if: ${{ always() && needs.build.result != 'cancelled' && (inputs.chain || inputs.chain == null) }}
+    if: ${{ inputs.chain && needs.build.result == 'success' }}
     runs-on: ubuntu-latest
     steps:
-      - name: Start the next district
+      - name: Build next zone
         env:
           GH_TOKEN: ${{ github.token }}
-          REF: ${{ github.ref_name }}
-          CHAIN_DEPLOY: ${{ inputs.deploy_pages == false && 'false' || 'true' }}
-          BUILD_RESULT: ${{ needs.build.result }}
+          DEPLOY: ${{ inputs.deploy_pages }}
         run: |
-          echo "District ${IDX} finished: ${BUILD_RESULT}"
           NEXT=$((IDX + 1))
-          if [ "$NEXT" -gt "$END_INDEX" ]; then echo "All requested districts done."; exit 0; fi
-          gh workflow run build-sri-lanka-districts.yml --repo "$GITHUB_REPOSITORY" --ref "$REF" \
-            -f start_index="$NEXT" -f end_index="$END_INDEX" -f chain=true \
-            -f deploy_pages="$CHAIN_DEPLOY" -f site_title="$SITE_TITLE" \
-            -f overturemaps_version="$OVERTURE_PIN"
+          if [ "$NEXT" -gt "$END_INDEX" ]; then exit 0; fi
+          gh workflow run build-sri-lanka-districts.yml --repo "$GITHUB_REPOSITORY" --ref main \
+            -f start_index="$NEXT" -f end_index="$END_INDEX" \
+            -f chain=true -f deploy_pages="$DEPLOY" -f source_snapshot="$SOURCE_SNAPSHOT"
