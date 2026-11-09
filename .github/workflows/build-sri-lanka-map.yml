@@ -1,39 +1,56 @@
-name: Build Sri Lanka map (Overture + GitHub Pages)
+name: Build Sri Lanka map district by district
 
+# Run once (start_index 0). Each run builds ONE district, saves it to the `site`
+# branch, deploys Pages, then automatically starts a new run for the next district.
 on:
   workflow_dispatch:
     inputs:
+      start_index:
+        description: "First district to build (0 = Ampara ... 24 = Vavuniya, alphabetical)"
+        default: "0"
+      end_index:
+        description: "Last district to build"
+        default: "24"
+      chain:
+        description: "Automatically start the next district when this one finishes"
+        type: boolean
+        default: true
+      deploy_pages:
+        description: "Deploy GitHub Pages after each district (Settings > Pages > Source: GitHub Actions)"
+        type: boolean
+        default: true
       site_title:
         description: "Title shown on the map page"
         default: "Sri Lanka Map"
-      deploy_pages:
-        description: "Also deploy to GitHub Pages from this repo (Settings > Pages > Source: GitHub Actions)"
-        type: boolean
-        default: false
       overturemaps_version:
-        description: "Pin the overturemaps pip version (blank = latest Overture release)"
+        description: "Pin overturemaps pip version (blank = latest release)"
         default: ""
-  push:
-    paths:
-      - ".github/workflows/build-sri-lanka-map.yml"
+
+concurrency:
+  group: sri-lanka-districts
+  cancel-in-progress: false
 
 permissions:
-  contents: read
+  contents: write
+  actions: write
 
 env:
-  BBOX: "79.45,5.85,81.95,9.9"          # all of Sri Lanka incl. nearby islands
+  IDX: ${{ inputs.start_index || '0' }}
+  END_INDEX: ${{ inputs.end_index || '24' }}
   SITE_TITLE: ${{ inputs.site_title || 'Sri Lanka Map' }}
   OVERTURE_PIN: ${{ inputs.overturemaps_version }}
+  TT_DIR: /mnt/tt
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 330
+    timeout-minutes: 300
     steps:
       - name: Free disk space
         run: |
           sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /opt/hostedtoolcache/CodeQL
-          df -h /
+          sudo mkdir -p /mnt/tt && sudo chown "$USER" /mnt/tt
+          df -h / /mnt
 
       - uses: actions/setup-python@v5
         with:
@@ -42,7 +59,6 @@ jobs:
       - name: Install overturemaps CLI
         run: |
           if [ -n "$OVERTURE_PIN" ]; then pip install "overturemaps==$OVERTURE_PIN"; else pip install -U overturemaps; fi
-          overturemaps download --help | head -20
 
       - name: Cache tippecanoe
         id: tip
@@ -63,21 +79,77 @@ jobs:
 
       - name: Write builder script (inline)
         run: |
-          mkdir -p build site
+          mkdir -p build
           cat > build/builder.py <<'PYEOF'
           #!/usr/bin/env python3
-          """Sri Lanka Overture builder: JSON places (999/folder), search shards, PMTiles."""
-          import glob, json, os, subprocess, sys, time, uuid
+          """Build ONE Sri Lanka district zone: JSON places (999/folder), search shards, PMTiles."""
+          import glob, json, os, shutil, subprocess, sys, time, uuid
 
-          BBOX = os.environ.get("BBOX", "79.45,5.85,81.95,9.9")
-          W, S, E, N = [float(x) for x in BBOX.split(",")]
-          DATA = "site/data"
+          IDX = int(os.environ["IDX"])
+          W0, S0, E0, N0 = 79.45, 5.85, 81.95, 9.9            # all of Sri Lanka
+          SITE = "site"
+          DATA = SITE + "/data"
+          TMP = os.environ.get("TT_DIR", "/tmp")
           PER_FOLDER = 999
-          LIMIT = 95_000_000            # stay under GitHub's 100 MB per-file limit
+          LIMIT = 95_000_000                                   # GitHub 100 MB file limit
           CROCKFORD = "0123456789ABCDEFGHJKMNPQRSTVWXYZ"
           STATUS = {"open": "OPEN", "permanently_closed": "CLOSED_PERMANENTLY",
                     "temporarily_closed": "CLOSED_TEMPORARILY"}
           SEP = set(" \t\n,.;:()[]/\\-_&'\"")
+
+          # slug, name, centre lat, centre lon. A feature belongs to the nearest centre,
+          # so the 25 zones cover every point of the country with no gaps and no overlaps.
+          DISTRICTS = [
+              ("ampara", "Ampara", 7.20, 81.60), ("anuradhapura", "Anuradhapura", 8.40, 80.40),
+              ("badulla", "Badulla", 6.95, 81.05), ("batticaloa", "Batticaloa", 7.70, 81.60),
+              ("colombo", "Colombo", 6.90, 79.90), ("galle", "Galle", 6.10, 80.20),
+              ("gampaha", "Gampaha", 7.05, 80.05), ("hambantota", "Hambantota", 6.25, 81.10),
+              ("jaffna", "Jaffna", 9.70, 80.10), ("kalutara", "Kalutara", 6.55, 80.05),
+              ("kandy", "Kandy", 7.30, 80.65), ("kegalle", "Kegalle", 7.20, 80.35),
+              ("kilinochchi", "Kilinochchi", 9.40, 80.40), ("kurunegala", "Kurunegala", 7.60, 80.35),
+              ("mannar", "Mannar", 8.90, 79.95), ("matale", "Matale", 7.60, 80.65),
+              ("matara", "Matara", 5.98, 80.55), ("monaragala", "Monaragala", 6.85, 81.35),
+              ("mullaitivu", "Mullaitivu", 9.10, 80.70), ("nuwara-eliya", "Nuwara Eliya", 6.95, 80.75),
+              ("polonnaruwa", "Polonnaruwa", 7.90, 81.00), ("puttalam", "Puttalam", 8.05, 79.90),
+              ("ratnapura", "Ratnapura", 6.70, 80.50), ("trincomalee", "Trincomalee", 8.60, 81.15),
+              ("vavuniya", "Vavuniya", 8.75, 80.50),
+          ]
+          if not 0 <= IDX < len(DISTRICTS):
+              sys.exit(f"IDX must be 0..{len(DISTRICTS) - 1}")
+          SLUG, NAME = DISTRICTS[IDX][0], DISTRICTS[IDX][1]
+          DDIR = f"{DATA}/districts/{SLUG}"
+
+          # ---------- zone geometry ----------
+          def owner(lon, lat):
+              best, bd = 0, 1e9
+              for i, (_, _, la, lo) in enumerate(DISTRICTS):
+                  d = ((lon - lo) * 0.99) ** 2 + (lat - la) ** 2
+                  if d < bd:
+                      best, bd = i, d
+              return best
+
+          def zone_window(idx, step=0.01, pad=0.03):
+              xs, ys = [], []
+              lat = S0
+              while lat <= N0:
+                  lon = W0
+                  while lon <= E0:
+                      if owner(lon, lat) == idx:
+                          xs.append(lon); ys.append(lat)
+                      lon += step
+                  lat += step
+              return [round(min(xs) - pad, 4), round(min(ys) - pad, 4),
+                      round(max(xs) + pad, 4), round(max(ys) + pad, 4)]
+
+          def rep_point(g):
+              c = g.get("coordinates")
+              while isinstance(c, list) and c and isinstance(c[0], list):
+                  c = c[0]
+              return (c[0], c[1]) if isinstance(c, list) and len(c) > 1 else (None, None)
+
+          def mine(f):
+              x, y = rep_point(f.get("geometry") or {})
+              return x is not None and owner(x, y) == IDX
 
           # ---------- helpers ----------
           def to_ulid(oid):
@@ -110,9 +182,9 @@ jobs:
           def shard_key(tok):
               return "-".join(format(ord(c), "x") for c in tok[:2])
 
-          def stream(otype):
-              """Stream features straight from the Overture CLI (no giant temp file)."""
-              cmd = ["overturemaps", "download", f"--bbox={BBOX}", "-f", "geojsonseq", f"--type={otype}"]
+          def stream(otype, bbox):
+              cmd = ["overturemaps", "download", "--bbox=" + ",".join(map(str, bbox)),
+                     "-f", "geojsonseq", f"--type={otype}"]
               p = subprocess.Popen(cmd, stdout=subprocess.PIPE, text=True, encoding="utf-8", bufsize=1 << 20)
               for line in p.stdout:
                   line = line.strip().lstrip("\x1e")
@@ -129,13 +201,11 @@ jobs:
               if not isinstance(names, dict):
                   return None, None
               common = names.get("common")
-              en = common.get("en") if isinstance(common, dict) else None
-              return names.get("primary"), en
+              return names.get("primary"), (common.get("en") if isinstance(common, dict) else None)
 
           # ---------- places ----------
           def is_valid_place(f):
-              g = f.get("geometry") or {}
-              p = f.get("properties") or {}
+              g, p = f.get("geometry") or {}, f.get("properties") or {}
               return g.get("type") == "Point" and bool(names_of(p)[0]) and bool(feature_id(f))
 
           def place_categories(p):
@@ -167,25 +237,39 @@ jobs:
               p = f["properties"]
               lon, lat = f["geometry"]["coordinates"][:2]
               phones = p.get("phones") or []
-              return {
-                  "name": names_of(p)[0],
-                  "coordinates": {"latitude": round(lat, 7), "longitude": round(lon, 7)},
-                  "address": place_address(p),
-                  "categories": place_categories(p),
-                  "phone": str(phones[0]).strip() if phones else "",
-                  "hours": [],
-                  "business_status": STATUS.get(p.get("operating_status"), "UNKNOWN"),
-                  "id": ulid,
-              }
+              return {"name": names_of(p)[0],
+                      "coordinates": {"latitude": round(lat, 7), "longitude": round(lon, 7)},
+                      "address": place_address(p), "categories": place_categories(p),
+                      "phone": str(phones[0]).strip() if phones else "", "hours": [],
+                      "business_status": STATUS.get(p.get("operating_status"), "UNKNOWN"), "id": ulid}
 
-          def process_places():
-              out_dir = os.path.join(DATA, "places")
-              sdir = os.path.join(DATA, "search")
-              tmp = "build/places.jsonl"
-              ids = set()
-              with open(tmp, "w", encoding="utf-8") as fo:               # pass A: spool
-                  for f in stream("place"):
-                      if not is_valid_place(f):
+          def merge_search(new):
+              sdir = DATA + "/search"
+              os.makedirs(sdir, exist_ok=True)
+              seen = set()
+              for path in glob.glob(sdir + "/*.json"):
+                  key = os.path.basename(path)[:-5]
+                  seen.add(key)
+                  with open(path, encoding="utf-8") as fh:
+                      entries = [e for e in json.load(fh) if e[5] != IDX]
+                  entries += new.get(key, [])
+                  write_shard(path, entries)
+              for key, entries in new.items():
+                  if key not in seen:
+                      write_shard(f"{sdir}/{key}.json", list(entries))
+
+          def write_shard(path, entries):
+              if not entries:
+                  os.remove(path); return
+              entries.sort(key=lambda e: e[0].lower())
+              with open(path, "w", encoding="utf-8") as fo:
+                  json.dump(entries, fo, ensure_ascii=False, separators=(",", ":"))
+
+          def process_places(win):
+              out_dir, tmp, ids = DDIR + "/places", "build/places.jsonl", set()
+              with open(tmp, "w", encoding="utf-8") as fo:                      # pass A
+                  for f in stream("place", win):
+                      if not (is_valid_place(f) and mine(f)):
                           continue
                       ulid = to_ulid(feature_id(f))
                       if ulid in ids:
@@ -199,57 +283,47 @@ jobs:
               width = max(4, len(str(folders)))
               rank = {u: i for i, u in enumerate(order)}
               os.makedirs(out_dir, exist_ok=True)
-              os.makedirs(sdir, exist_ok=True)
-
               made, search = set(), {}
               with open(tmp, encoding="utf-8") as fi, open("build/place.geojsonseq", "w", encoding="utf-8") as tiles:
-                  for line in fi:                                         # pass B: write
+                  for line in fi:                                               # pass B
                       o = json.loads(line)
                       rec, ulid = o["r"], o["r"]["id"]
                       folder = str(rank[ulid] // PER_FOLDER + 1).zfill(width)
                       d = os.path.join(out_dir, folder)
                       if d not in made:
-                          os.makedirs(d, exist_ok=True)
-                          made.add(d)
+                          os.makedirs(d, exist_ok=True); made.add(d)
                       with open(os.path.join(d, ulid + ".json"), "w", encoding="utf-8") as fo:
                           json.dump(rec, fo, ensure_ascii=False, separators=(",", ":"))
                       cats = rec["categories"]
-                      props = {"id": ulid, "f": folder, "name": rec["name"],
+                      props = {"id": ulid, "f": folder, "d": IDX, "name": rec["name"],
                                "category": cats[0] if cats else ""}
                       if o.get("en"):
                           props["name_en"] = o["en"]
                       tiles.write(json.dumps({"type": "Feature", "geometry": o["g"], "properties": props},
                                              ensure_ascii=False) + "\n")
                       entry = [rec["name"], round(rec["coordinates"]["longitude"], 6),
-                               round(rec["coordinates"]["latitude"], 6), ulid, folder]
-                      keys = {shard_key(t) for t in tokens(rec["name"]) if len(t) >= 2}
-                      for k in keys:
+                               round(rec["coordinates"]["latitude"], 6), ulid, folder, IDX]
+                      for k in {shard_key(t) for t in tokens(rec["name"]) if len(t) >= 2}:
                           search.setdefault(k, []).append(entry)
               os.remove(tmp)
-              for k, entries in search.items():
-                  entries.sort(key=lambda e: e[0].lower())
-                  with open(os.path.join(sdir, k + ".json"), "w", encoding="utf-8") as fo:
-                      json.dump(entries, fo, ensure_ascii=False, separators=(",", ":"))
+              merge_search(search)
               manifest = {"schema": 1, "per_folder": PER_FOLDER, "folder_width": width,
-                          "total": total, "folders": folders, "path": "places/{folder}/{id}.json"}
-              with open(os.path.join(out_dir, "manifest.json"), "w") as fo:
+                          "total": total, "folders": folders}
+              with open(out_dir + "/manifest.json", "w") as fo:
                   json.dump(manifest, fo)
               return manifest
 
           # ---------- other layers ----------
-          KEEP = {
-              "land": {"class", "subtype"},
-              "land_use": {"class", "subtype"},
-              "water": {"class", "subtype"},
-              "division_area": {"subtype", "class", "country", "region"},
-              "segment": {"class", "subtype"},
-              "building": {"height", "num_floors", "class", "subtype"},
-          }
+          KEEP = {"land_use": {"class", "subtype"}, "water": {"class", "subtype"},
+                  "segment": {"class", "subtype"},
+                  "building": {"height", "num_floors", "class", "subtype"}}
 
-          def convert_layer(layer, otype):
+          def convert_layer(layer, win, owned):
               keep, n = KEEP[layer], 0
               with open(f"build/{layer}.geojsonseq", "w", encoding="utf-8") as fo:
-                  for f in stream(otype):
+                  for f in stream(layer, win):
+                      if owned and not mine(f):
+                          continue
                       p = f.get("properties") or {}
                       props = {k: p[k] for k in keep if p.get(k) is not None and not isinstance(p[k], (dict, list))}
                       name, en = names_of(p)
@@ -264,127 +338,159 @@ jobs:
               return n
 
           # ---------- tiles ----------
-          def tippecanoe(out, args, minz, maxz, tile_bytes, coalesce):
+          def run_tippecanoe(out, args, minz, maxz, tile_bytes, extra=()):
               cmd = ["tippecanoe", "-o", out, "--force", f"-Z{minz}", f"-z{maxz}",
-                     "--drop-densest-as-needed", "--read-parallel",
-                     f"--maximum-tile-bytes={tile_bytes}",
-                     "--attribution=Overture Maps Foundation"]
-              if coalesce:
-                  cmd.append("--coalesce-densest-as-needed")
-              subprocess.run(cmd + args, check=True)
+                     "--drop-densest-as-needed", "--read-parallel", "-Q",
+                     f"--temporary-directory={TMP}", f"--maximum-tile-bytes={tile_bytes}",
+                     "--attribution=Overture Maps Foundation", *extra, *args]
+              with open("build/tippecanoe.log", "w") as log:     # keep Actions logs small
+                  r = subprocess.run(cmd, stdout=log, stderr=subprocess.STDOUT)
+              if r.returncode != 0:
+                  print(open("build/tippecanoe.log", errors="replace").read()[-6000:])
+                  subprocess.run(["df", "-h", "/", "/mnt"])
+                  subprocess.run(["free", "-m"])
+                  sys.exit(f"tippecanoe failed (exit {r.returncode}) for {out}")
               return os.path.getsize(out)
 
-          def first_y(g):
-              c = g.get("coordinates")
-              while isinstance(c, list) and c and isinstance(c[0], list):
-                  c = c[0]
-              return c[1] if isinstance(c, list) and len(c) > 1 else S
+          def tiles_fit(out, args, minz, maxz, extra=()):
+              for tb in (500000, 250000, 120000):
+                  size = run_tippecanoe(out, args, minz, maxz, tb, extra)
+                  print(f"   {os.path.basename(out)}: {size // 1024} KB (max tile {tb})", flush=True)
+                  if size <= LIMIT:
+                      return True
+              os.remove(out)
+              return False
 
-          def split_bands(src, n):
+          def split_bands(src, n, win):
               files = [f"build/bband{i}.geojsonseq" for i in range(n)]
               outs = [open(f, "w", encoding="utf-8") for f in files]
-              step = (N - S) / n
+              s, step = win[1], (win[3] - win[1]) / n
               with open(src, encoding="utf-8") as fi:
                   for line in fi:
-                      y = first_y(json.loads(line)["geometry"])
-                      outs[min(n - 1, max(0, int((y - S) / step)))].write(line)
+                      y = rep_point(json.loads(line)["geometry"])[1]
+                      outs[min(n - 1, max(0, int(((y if y is not None else s) - s) / step)))].write(line)
               for o in outs:
                   o.close()
               return files
 
-          def build_buildings(counts):
-              counts["building"] = convert_layer("building", "building")
+          def build_buildings(win, counts):
+              counts["building"] = convert_layer("building", win, True)
               if not counts["building"]:
                   return []
-              for bands in (3, 6, 12):
-                  for old in glob.glob(f"{DATA}/buildings-*.pmtiles"):
+              for bands in (1, 2, 4, 8):
+                  for old in glob.glob(DDIR + "/buildings-*.pmtiles"):
                       os.remove(old)
-                  print(f"== buildings: {bands} files ==", flush=True)
                   ok, outs = True, []
-                  for i, f in enumerate(split_bands("build/building.geojsonseq", bands)):
+                  for i, f in enumerate(split_bands("build/building.geojsonseq", bands, win)):
                       if os.path.getsize(f) == 0:
-                          os.remove(f)
-                          continue
-                      out = f"{DATA}/buildings-{i}.pmtiles"
-                      size = tippecanoe(out, ["-l", "building", f], 15, 15, 500000, False)
+                          os.remove(f); continue
+                      out = f"{DDIR}/buildings-{i}.pmtiles"
+                      size = run_tippecanoe(out, ["-l", "building", f], 15, 15, 500000)
                       os.remove(f)
                       if size > LIMIT:
-                          ok = False
-                          break
+                          ok = False; break
                       outs.append(os.path.basename(out))
                   for left in glob.glob("build/bband*.geojsonseq"):
                       os.remove(left)
                   if ok:
                       return outs
-                  print(f"   a file exceeded {LIMIT} bytes, splitting finer", flush=True)
-              for old in glob.glob(f"{DATA}/buildings-*.pmtiles"):
+                  print(f"   building file over limit, splitting into {bands * 2}", flush=True)
+              for old in glob.glob(DDIR + "/buildings-*.pmtiles"):
                   os.remove(old)
-              print("::warning::Buildings skipped: could not fit GitHub's 100 MB file limit")
+              print("::warning::Buildings skipped for this district (could not fit 100 MB file limit)")
               return []
 
-          def main():
-              os.makedirs("build", exist_ok=True)
-              os.makedirs(DATA, exist_ok=True)
-              counts, base_args = {}, []
-              for layer, otype, minz in [("land", "land", 0), ("land_use", "land_use", 6),
-                                         ("water", "water", 0), ("division_area", "division_area", 4),
-                                         ("segment", "segment", 8)]:
-                  print(f"== {layer} ==", flush=True)
-                  counts[layer] = convert_layer(layer, otype)
-                  if counts[layer]:
-                      base_args += ["-L", json.dumps({"file": f"build/{layer}.geojsonseq",
-                                                      "layer": layer, "minzoom": minz})]
-              print("== place ==", flush=True)
-              manifest = process_places()
-              counts["place"] = manifest["total"]
-              if manifest["total"]:
-                  base_args += ["-L", json.dumps({"file": "build/place.geojsonseq",
-                                                  "layer": "place", "minzoom": 12})]
-              print(f"   place: {manifest['total']} JSON files in {manifest['folders']} folders", flush=True)
+          # ---------- index ----------
+          def update_index(entry):
+              path = DATA + "/districts.json"
+              cur = json.load(open(path)) if os.path.exists(path) else {}
+              items = {d["slug"]: d for d in cur.get("districts", [])}
+              items[SLUG] = entry
+              with open(path, "w") as fo:
+                  json.dump({"bbox": [W0, S0, E0, N0],
+                             "districts": [items[d[0]] for d in DISTRICTS if d[0] in items]}, fo)
 
-              base = f"{DATA}/base.pmtiles"
-              for tb in (500000, 250000, 120000):
-                  print(f"== base tiles (max tile {tb} bytes) ==", flush=True)
-                  if tippecanoe(base, base_args, 0, 14, tb, True) <= LIMIT:
-                      break
-              else:
-                  sys.exit("base.pmtiles is larger than 95 MB even at the smallest setting")
+          def main():
+              t0 = time.time()
+              os.makedirs("build", exist_ok=True)
+              shutil.rmtree(DDIR, ignore_errors=True)
+              os.makedirs(DDIR)
+              win = zone_window(IDX)
+              print(f"== District {IDX + 1}/{len(DISTRICTS)}: {NAME}  window {win}", flush=True)
+              counts, files = {}, {"areas": False, "base": False, "buildings": []}
+
+              area_args = []
+              for layer, minz in (("land_use", 6), ("water", 0)):
+                  counts[layer] = convert_layer(layer, win, False)
+                  if counts[layer]:
+                      area_args += ["-L", json.dumps({"file": f"build/{layer}.geojsonseq", "layer": layer, "minzoom": minz})]
+              if area_args:
+                  files["areas"] = tiles_fit(f"{DDIR}/areas.pmtiles", area_args, 5, 14,
+                                             ["--clip-bounding-box=" + ",".join(map(str, win))])
+                  if not files["areas"]:
+                      print("::warning::areas.pmtiles too large, skipped")
+
+              base_args = []
+              counts["segment"] = convert_layer("segment", win, True)
+              if counts["segment"]:
+                  base_args += ["-L", json.dumps({"file": "build/segment.geojsonseq", "layer": "segment", "minzoom": 8})]
+              manifest = process_places(win)
+              counts["place"] = manifest["total"]
+              print(f"   place: {manifest['total']} JSON files in {manifest['folders']} folders", flush=True)
+              if manifest["total"]:
+                  base_args += ["-L", json.dumps({"file": "build/place.geojsonseq", "layer": "place", "minzoom": 12})]
+              if base_args:
+                  files["base"] = tiles_fit(f"{DDIR}/base.pmtiles", base_args, 8, 14)
+                  if not files["base"]:
+                      sys.exit("base.pmtiles does not fit 95 MB")
 
               try:
-                  buildings = build_buildings(counts)
-              except Exception as e:                       # keep the rest of the map working
+                  files["buildings"] = build_buildings(win, counts)
+              except Exception as e:
                   print(f"::warning::Buildings failed: {e}")
-                  buildings = []
 
-              with open(f"{DATA}/meta.json", "w") as fo:
-                  json.dump({"bbox": [W, S, E, N], "counts": counts, "buildings": buildings,
-                             "places": manifest, "built": time.strftime("%Y-%m-%d", time.gmtime())}, fo)
+              update_index({"idx": IDX, "slug": SLUG, "name": NAME, "window": win, "files": files,
+                            "counts": counts, "places": manifest,
+                            "built": time.strftime("%Y-%m-%d", time.gmtime())})
+              print(f"== Done {NAME} in {int(time.time() - t0)} s: {counts}", flush=True)
 
           if __name__ == "__main__":
               main()
           PYEOF
 
-      - name: Download Overture data and build tiles + place JSON
+      - name: Check out the data branch (created on first run)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          URL="https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          if git ls-remote --exit-code --heads "$URL" site >/dev/null 2>&1; then
+            git clone --depth 1 --branch site "$URL" site
+          else
+            mkdir site && git -C site init -q -b site && git -C site remote add origin "$URL"
+          fi
+          git -C site config user.name "github-actions[bot]"
+          git -C site config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Build this district
         run: |
           export PATH="$HOME/tippecanoe-bin:$PATH"
           python build/builder.py
 
-      - name: Vendor MapLibre, PMTiles and fonts
+      - name: Map page, libraries and fonts
         run: |
-          mkdir -p site/vendor site/fonts /tmp/npm
-          cd /tmp/npm
-          npm pack maplibre-gl@4.7.1 pmtiles@3.2.0 >/dev/null
-          for f in *.tgz; do mkdir -p "x-$f" && tar -xzf "$f" -C "x-$f"; done
-          cd "$GITHUB_WORKSPACE"
-          cp /tmp/npm/x-maplibre-gl-*/package/dist/maplibre-gl.js  site/vendor/
-          cp /tmp/npm/x-maplibre-gl-*/package/dist/maplibre-gl.css site/vendor/
-          cp /tmp/npm/x-pmtiles-*/package/dist/pmtiles.js          site/vendor/
-          curl -fsSL https://github.com/protomaps/basemaps-assets/archive/refs/heads/main.tar.gz | tar -xz -C /tmp
-          test -d "/tmp/basemaps-assets-main/fonts/Noto Sans Regular"
-          cp -r "/tmp/basemaps-assets-main/fonts/Noto Sans Regular" site/fonts/NotoSans-Regular
-
-      - name: Write map page and Pages workflow (inline)
-        run: |
+          if [ ! -f site/vendor/maplibre-gl.js ]; then
+            mkdir -p site/vendor /tmp/npm
+            (cd /tmp/npm && npm pack maplibre-gl@4.7.1 pmtiles@3.2.0 >/dev/null &&
+              for f in *.tgz; do mkdir -p "x-$f" && tar -xzf "$f" -C "x-$f"; done)
+            cp /tmp/npm/x-maplibre-gl-*/package/dist/maplibre-gl.js  site/vendor/
+            cp /tmp/npm/x-maplibre-gl-*/package/dist/maplibre-gl.css site/vendor/
+            cp /tmp/npm/x-pmtiles-*/package/dist/pmtiles.js          site/vendor/
+          fi
+          if [ ! -d site/fonts/NotoSans-Regular ]; then
+            mkdir -p site/fonts
+            curl -fsSL https://github.com/protomaps/basemaps-assets/archive/refs/heads/main.tar.gz | tar -xz -C /tmp
+            cp -r "/tmp/basemaps-assets-main/fonts/Noto Sans Regular" site/fonts/NotoSans-Regular
+          fi
           cat > build/index.tpl.html <<'HTMLEOF'
           <!doctype html>
           <html lang="en">
@@ -421,7 +527,6 @@ jobs:
             .maplibregl-popup-anchor-bottom .maplibregl-popup-tip { border-top-color:var(--panel); }
             .maplibregl-popup-anchor-top .maplibregl-popup-tip { border-bottom-color:var(--panel); }
             .maplibregl-popup-close-button { color:var(--ink); }
-            .muted { color:var(--muted); font-size:12px; }
           </style>
           </head>
           <body>
@@ -440,56 +545,61 @@ jobs:
           const abs = p => new URL(DATA + p, location.href).href;
           maplibregl.addProtocol("pmtiles", new pmtiles.Protocol().tile);
 
-          fetch(DATA + "meta.json").then(r => r.json()).then(meta => {
-            const sources = { o: { type: "vector", url: "pmtiles://" + abs("base.pmtiles"), attribution: "© Overture Maps Foundation" } };
-            const L = [{ id: "bg", type: "background", paint: { "background-color": "#eaf0e8" } }];
-            const has = k => (meta.counts[k] || 0) > 0;
-            const lbl = ["coalesce", ["get", "name_en"], ["get", "name"]];
+          fetch(DATA + "districts.json", { cache: "no-cache" }).then(r => r.json()).then(init)
+            .catch(() => { document.getElementById("meta").textContent = "No districts built yet. Run the workflow."; });
 
-            if (has("land")) L.push({ id: "land", type: "fill", source: "o", "source-layer": "land", paint: { "fill-color": "#e2ebdc" } });
-            if (has("land_use")) L.push({ id: "land_use", type: "fill", source: "o", "source-layer": "land_use",
+          function init(index) {
+            const D = index.districts, ATTR = "© Overture Maps Foundation";
+            const slugOf = {}; D.forEach(d => slugOf[d.idx] = d.slug);
+            const sources = {}, L = [{ id: "bg", type: "background", paint: { "background-color": "#e2ebdc" } }];
+            const G = { Roads: [], Buildings: [], Places: [], Water: [], "Land use": [] };
+            const add = (g, layer) => { L.push(layer); G[g].push(layer.id); };
+            const src = (id, file) => { sources[id] = { type: "vector", url: "pmtiles://" + abs(file), attribution: ATTR }; };
+            D.forEach(d => {
+              if (d.files.areas) src("a_" + d.slug, `districts/${d.slug}/areas.pmtiles`);
+              if (d.files.base) src("o_" + d.slug, `districts/${d.slug}/base.pmtiles`);
+              d.files.buildings.forEach((f, i) => src(`b_${d.slug}_${i}`, `districts/${d.slug}/${f}`));
+            });
+            const lbl = ["coalesce", ["get", "name_en"], ["get", "name"]];
+            const major = ["motorway", "trunk", "primary"], road = ["==", ["get", "subtype"], "road"];
+            const each = fn => D.forEach(fn);
+
+            each(d => d.files.areas && add("Land use", { id: "lu-" + d.slug, type: "fill", source: "a_" + d.slug, "source-layer": "land_use",
               paint: { "fill-opacity": 0.85, "fill-color": ["match", ["get", "class"],
                 ["park", "protected", "recreation", "golf", "garden", "grass", "forest", "wood"], "#c9e3bd",
                 ["agriculture", "farmland", "orchard", "plantation"], "#dfe8c3",
-                ["residential"], "#e9ece2", ["industrial", "construction"], "#dcd8e2", "#e4e8dc"] } });
-            if (has("water")) L.push({ id: "water", type: "fill", source: "o", "source-layer": "water", paint: { "fill-color": "#9fd0dc" } });
-            if (has("division_area")) L.push({ id: "division_area", type: "line", source: "o", "source-layer": "division_area",
-              paint: { "line-color": "#8a8fb0", "line-width": 1, "line-dasharray": [4, 2] } });
-            if (has("segment")) {
-              const road = ["==", ["get", "subtype"], "road"];
-              const major = ["motorway", "trunk", "primary"];
-              L.push({ id: "roads_casing", type: "line", source: "o", "source-layer": "segment", filter: road,
-                layout: { "line-cap": "round", "line-join": "round" },
-                paint: { "line-color": "#b7beb2", "line-width": ["interpolate", ["linear"], ["zoom"], 8, 0.4, 14,
-                  ["match", ["get", "class"], major, 6, ["secondary", "tertiary"], 4, 2.5], 18, 12] } });
-              L.push({ id: "roads", type: "line", source: "o", "source-layer": "segment", filter: road,
-                layout: { "line-cap": "round", "line-join": "round" },
-                paint: { "line-color": ["match", ["get", "class"], ["motorway", "trunk"], "#f2a65a", "primary", "#f6cf8a", "#ffffff"],
-                  "line-width": ["interpolate", ["linear"], ["zoom"], 8, 0.2, 14,
-                  ["match", ["get", "class"], major, 4.5, ["secondary", "tertiary"], 3, 1.5], 18, 9] } });
-              L.push({ id: "rail", type: "line", source: "o", "source-layer": "segment", filter: ["==", ["get", "subtype"], "rail"],
-                paint: { "line-color": "#80857d", "line-width": 1, "line-dasharray": [3, 2] } });
-              L.push({ id: "road_label", type: "symbol", source: "o", "source-layer": "segment", minzoom: 13, filter: road,
-                layout: { "symbol-placement": "line", "text-field": lbl, "text-font": ["NotoSans-Regular"], "text-size": 11 },
-                paint: { "text-color": "#44504d", "text-halo-color": "#fff", "text-halo-width": 1.5 } });
-            }
-            (meta.buildings || []).forEach((file, i) => {
-              sources["b" + i] = { type: "vector", url: "pmtiles://" + abs(file), attribution: "© Overture Maps Foundation" };
-              L.push({ id: "building-" + i, type: "fill-extrusion", source: "b" + i, "source-layer": "building", minzoom: 15,
-                paint: { "fill-extrusion-color": "#cfc7b6", "fill-extrusion-opacity": 0.85,
-                  "fill-extrusion-height": ["to-number", ["get", "height"], 6] } });
-            });
-            if (has("place")) {
-              L.push({ id: "place_dot", type: "circle", source: "o", "source-layer": "place", minzoom: 12,
-                paint: { "circle-radius": ["interpolate", ["linear"], ["zoom"], 12, 2, 16, 5], "circle-color": "#0b7f86",
-                  "circle-stroke-width": 1, "circle-stroke-color": "#fff" } });
-              L.push({ id: "place_label", type: "symbol", source: "o", "source-layer": "place", minzoom: 15,
+                ["residential"], "#e9ece2", ["industrial", "construction"], "#dcd8e2", "#e4e8dc"] } }));
+            each(d => d.files.areas && add("Water", { id: "wa-" + d.slug, type: "fill", source: "a_" + d.slug, "source-layer": "water",
+              paint: { "fill-color": "#9fd0dc" } }));
+            each(d => d.files.base && add("Roads", { id: "rc-" + d.slug, type: "line", source: "o_" + d.slug, "source-layer": "segment", filter: road,
+              layout: { "line-cap": "round", "line-join": "round" },
+              paint: { "line-color": "#b7beb2", "line-width": ["interpolate", ["linear"], ["zoom"], 8, 0.4, 14,
+                ["match", ["get", "class"], major, 6, ["secondary", "tertiary"], 4, 2.5], 18, 12] } }));
+            each(d => d.files.base && add("Roads", { id: "rd-" + d.slug, type: "line", source: "o_" + d.slug, "source-layer": "segment", filter: road,
+              layout: { "line-cap": "round", "line-join": "round" },
+              paint: { "line-color": ["match", ["get", "class"], ["motorway", "trunk"], "#f2a65a", "primary", "#f6cf8a", "#ffffff"],
+                "line-width": ["interpolate", ["linear"], ["zoom"], 8, 0.2, 14,
+                ["match", ["get", "class"], major, 4.5, ["secondary", "tertiary"], 3, 1.5], 18, 9] } }));
+            each(d => d.files.base && add("Roads", { id: "rl-" + d.slug, type: "line", source: "o_" + d.slug, "source-layer": "segment",
+              filter: ["==", ["get", "subtype"], "rail"], paint: { "line-color": "#80857d", "line-width": 1, "line-dasharray": [3, 2] } }));
+            each(d => d.files.buildings.forEach((_, i) => add("Buildings", { id: `bu-${d.slug}-${i}`, type: "fill-extrusion",
+              source: `b_${d.slug}_${i}`, "source-layer": "building", minzoom: 15,
+              paint: { "fill-extrusion-color": "#cfc7b6", "fill-extrusion-opacity": 0.85,
+                "fill-extrusion-height": ["to-number", ["get", "height"], 6] } })));
+            each(d => d.files.base && add("Roads", { id: "rt-" + d.slug, type: "symbol", source: "o_" + d.slug, "source-layer": "segment", minzoom: 13, filter: road,
+              layout: { "symbol-placement": "line", "text-field": lbl, "text-font": ["NotoSans-Regular"], "text-size": 11 },
+              paint: { "text-color": "#44504d", "text-halo-color": "#fff", "text-halo-width": 1.5 } }));
+            const placeIds = [];
+            each(d => d.files.base && d.counts.place && (add("Places", { id: "pd-" + d.slug, type: "circle", source: "o_" + d.slug, "source-layer": "place", minzoom: 12,
+              paint: { "circle-radius": ["interpolate", ["linear"], ["zoom"], 12, 2, 16, 5], "circle-color": "#0b7f86",
+                "circle-stroke-width": 1, "circle-stroke-color": "#fff" } }),
+              add("Places", { id: "pt-" + d.slug, type: "symbol", source: "o_" + d.slug, "source-layer": "place", minzoom: 15,
                 layout: { "text-field": lbl, "text-font": ["NotoSans-Regular"], "text-size": 11, "text-offset": [0, 0.9],
                   "text-anchor": "top", "text-optional": true },
-                paint: { "text-color": "#10343a", "text-halo-color": "#fff", "text-halo-width": 1.2 } });
-            }
+                paint: { "text-color": "#10343a", "text-halo-color": "#fff", "text-halo-width": 1.2 } }),
+              placeIds.push("pd-" + d.slug, "pt-" + d.slug)));
 
-            const [w, s, e, n] = meta.bbox;
+            const [w, s, e, n] = index.bbox;
             const map = new maplibregl.Map({
               container: "map", hash: true, minZoom: 6, maxBounds: [[w - 0.5, s - 0.5], [e + 0.5, n + 0.5]],
               style: { version: 8, glyphs: new URL("fonts/{fontstack}/{range}.pbf", location.href).href, sources, layers: L },
@@ -503,11 +613,11 @@ jobs:
             let popup = null;
             const mk = (box, tag, text, css) => { const x = document.createElement(tag); x.textContent = text;
               if (css) x.style.cssText = css; box.appendChild(x); return x; };
-            async function openPlace(id, f, lngLat, name) {
+            async function openPlace(d, id, f, lngLat, name) {
               const box = document.createElement("div");
               mk(box, "strong", name || "");
               try {
-                const r = await fetch(DATA + `places/${f}/${id}.json`);
+                const r = await fetch(DATA + `districts/${slugOf[d]}/places/${f}/${id}.json`);
                 if (!r.ok) throw new Error(r.status);
                 const p = await r.json();
                 box.replaceChildren();
@@ -521,15 +631,14 @@ jobs:
               if (popup) popup.remove();
               popup = new maplibregl.Popup({ maxWidth: "280px" }).setLngLat(lngLat).setDOMContent(box).addTo(map);
             }
-            ["place_dot", "place_label"].forEach(l => {
-              map.on("click", l, e => { const p = e.features[0].properties; openPlace(p.id, p.f, e.lngLat, p.name); });
+            placeIds.forEach(l => {
+              map.on("click", l, e => { const p = e.features[0].properties; openPlace(p.d, p.id, p.f, e.lngLat, p.name); });
               map.on("mouseenter", l, () => map.getCanvas().style.cursor = "pointer");
               map.on("mouseleave", l, () => map.getCanvas().style.cursor = "");
             });
 
-            // ----- search -----
-            const SEP = /[\s,.;:()\[\]\/\\\-_&'"]+/;
-            const shards = new Map();
+            // ----- search (all districts built so far) -----
+            const SEP = /[\s,.;:()\[\]\/\\\-_&'"]+/, shards = new Map();
             async function shard(key) {
               if (shards.has(key)) return shards.get(key);
               let d = [];
@@ -547,30 +656,27 @@ jobs:
               const key = Array.from(lead).slice(0, 2).map(c => c.codePointAt(0).toString(16)).join("-");
               const hits = (await shard(key)).filter(x => { const nm = x[0].toLowerCase(); return qt.every(t => nm.includes(t)); }).slice(0, 8);
               if (!hits.length) { const li = document.createElement("li"); li.className = "none"; li.textContent = "No places found"; list.appendChild(li); return; }
-              hits.forEach(([name, lon, lat, id, f]) => {
+              hits.forEach(([name, lon, lat, id, f, d]) => {
                 const li = document.createElement("li"), b = document.createElement("button");
                 b.type = "button"; b.textContent = name;
-                b.addEventListener("click", () => { map.flyTo({ center: [lon, lat], zoom: 17 }); openPlace(id, f, [lon, lat], name); });
+                b.addEventListener("click", () => { map.flyTo({ center: [lon, lat], zoom: 17 }); openPlace(d, id, f, [lon, lat], name); });
                 li.appendChild(b); list.appendChild(li);
               });
             }
 
             // ----- layer toggles -----
-            const bIds = (meta.buildings || []).map((_, i) => "building-" + i);
-            const groups = { Roads: ["roads_casing", "roads", "rail", "road_label"], Buildings: bIds,
-              Places: ["place_dot", "place_label"], Water: ["water"], "Land use": ["land_use"], Boundaries: ["division_area"] };
             const box = document.getElementById("toggles");
-            for (const [name, ids] of Object.entries(groups)) {
-              const present = ids.filter(i => L.some(l => l.id === i));
-              if (!present.length) continue;
-              const lab = document.createElement("label");
-              const cb = document.createElement("input"); cb.type = "checkbox"; cb.checked = true;
-              cb.addEventListener("change", () => present.forEach(i => map.setLayoutProperty(i, "visibility", cb.checked ? "visible" : "none")));
+            for (const [name, ids] of Object.entries(G)) {
+              if (!ids.length) continue;
+              const lab = document.createElement("label"), cb = document.createElement("input");
+              cb.type = "checkbox"; cb.checked = true;
+              cb.addEventListener("change", () => ids.forEach(i => map.setLayoutProperty(i, "visibility", cb.checked ? "visible" : "none")));
               lab.append(cb, document.createTextNode(name)); box.appendChild(lab);
             }
+            const total = D.reduce((a, d) => a + (d.places.total || 0), 0);
             document.getElementById("meta").textContent =
-              `${(meta.places.total || 0).toLocaleString()} places · Overture Maps Foundation · built ${meta.built}`;
-          });
+              `${D.length} of 25 districts built · ${total.toLocaleString()} places · Overture Maps Foundation`;
+          }
           </script>
           </body>
           </html>
@@ -581,67 +687,50 @@ jobs:
           open("site/index.html", "w", encoding="utf-8").write(t.replace("__TITLE__", html.escape(os.environ["SITE_TITLE"])))
           PYEOF
           touch site/.nojekyll
-          mkdir -p site/.github/workflows
-          cat > site/.github/workflows/pages.yml <<'YMLEOF'
-          name: Deploy to GitHub Pages
-          on:
-            push:
-              branches: [main]
-            workflow_dispatch:
-          permissions:
-            contents: read
-            pages: write
-            id-token: write
-          concurrency:
-            group: pages
-            cancel-in-progress: true
-          jobs:
-            deploy:
-              runs-on: ubuntu-latest
-              environment:
-                name: github-pages
-              steps:
-                - uses: actions/checkout@v4
-                - run: rm -rf .github .git
-                - uses: actions/configure-pages@v5
-                - uses: actions/upload-pages-artifact@v3
-                  with:
-                    path: .
-                - uses: actions/deploy-pages@v4
-          YMLEOF
 
       - name: Check limits
         run: |
-          echo "Site size: $(du -sm --apparent-size site | cut -f1) MB, $(find site -type f | wc -l) files"
-          find site -type f -size +99M -print -exec false {} + || { echo "::error::A file exceeds 100 MB"; exit 1; }
-          [ "$(du -sm --apparent-size site | cut -f1)" -le 950 ] || { echo "::error::Site exceeds ~1 GB"; exit 1; }
-          cat site/data/meta.json
+          echo "Site: $(du -sm --apparent-size --exclude=.git site | cut -f1) MB, $(find site -path site/.git -prune -o -type f -print | wc -l) files"
+          if find site -path site/.git -prune -o -type f -size +99M -print | grep -q .; then
+            echo "::error::A file exceeds GitHub's 100 MB limit"; exit 1
+          fi
+          [ "$(du -sm --apparent-size --exclude=.git site | cut -f1)" -le 950 ] || echo "::warning::Site is approaching the 1 GB Pages limit"
 
-      - name: Create ready-to-push zip
+      - name: Save to the site branch
         run: |
-          cd site && zip -qr ../sri-lanka-map-site.zip . -x "*.DS_Store" && cd ..
+          cd site
+          git add -A
+          git commit -q -m "District ${IDX}" || echo "Nothing to commit"
+          git push -q origin HEAD:site
+
+      - name: Prepare Pages artifact
+        if: ${{ inputs.deploy_pages || inputs.deploy_pages == null }}
+        run: rsync -a --exclude .git site/ pages/
+
+      - uses: actions/upload-pages-artifact@v3
+        if: ${{ inputs.deploy_pages || inputs.deploy_pages == null }}
+        with:
+          path: pages
+
+      - name: Zip the full site (last district only)
+        if: ${{ inputs.chain == false || inputs.end_index == '' || env.IDX == env.END_INDEX }}
+        run: |
+          cd site && zip -qr ../sri-lanka-map-site.zip . -x ".git/*" && cd ..
           ls -lh sri-lanka-map-site.zip
 
       - uses: actions/upload-artifact@v4
+        if: ${{ inputs.chain == false || inputs.end_index == '' || env.IDX == env.END_INDEX }}
         with:
           name: sri-lanka-map-site
           path: sri-lanka-map-site.zip
           compression-level: 0
           retention-days: 30
 
-      - name: Prepare Pages artifact
-        if: ${{ inputs.deploy_pages == true }}
-        run: rm -rf site/.github
-
-      - uses: actions/upload-pages-artifact@v3
-        if: ${{ inputs.deploy_pages == true }}
-        with:
-          path: site
-
   deploy:
     needs: build
-    if: ${{ inputs.deploy_pages == true }}
+    if: ${{ inputs.deploy_pages || inputs.deploy_pages == null }}
     runs-on: ubuntu-latest
+    continue-on-error: true
     permissions:
       pages: write
       id-token: write
@@ -649,3 +738,23 @@ jobs:
       name: github-pages
     steps:
       - uses: actions/deploy-pages@v4
+
+  next:
+    needs: build
+    if: ${{ always() && needs.build.result != 'cancelled' && (inputs.chain || inputs.chain == null) }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Start the next district
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REF: ${{ github.ref_name }}
+          CHAIN_DEPLOY: ${{ inputs.deploy_pages == false && 'false' || 'true' }}
+          BUILD_RESULT: ${{ needs.build.result }}
+        run: |
+          echo "District ${IDX} finished: ${BUILD_RESULT}"
+          NEXT=$((IDX + 1))
+          if [ "$NEXT" -gt "$END_INDEX" ]; then echo "All requested districts done."; exit 0; fi
+          gh workflow run build-sri-lanka-districts.yml --repo "$GITHUB_REPOSITORY" --ref "$REF" \
+            -f start_index="$NEXT" -f end_index="$END_INDEX" -f chain=true \
+            -f deploy_pages="$CHAIN_DEPLOY" -f site_title="$SITE_TITLE" \
+            -f overturemaps_version="$OVERTURE_PIN"
