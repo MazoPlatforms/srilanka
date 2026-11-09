@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sri Lanka Map</title>
+<link rel="stylesheet" href="vendor/maplibre-gl.css">
+<style>
+  :root { --ink:#10343a; --panel:#f7fbfa; --line:#c6dad8; --accent:#0b7f86; --muted:#5b7a7d; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink:#e3f1f0; --panel:#14262a; --line:#2c4a4f; --accent:#5fd0d6; --muted:#93b3b5; }
+  }
+  html, body { height:100%; margin:0; color:var(--ink);
+    font-family:"Noto Sans","Noto Sans Tamil","Noto Sans Sinhala",system-ui,-apple-system,"Segoe UI",sans-serif; }
+  #map { position:absolute; inset:0; }
+  .panel { position:absolute; top:max(10px, env(safe-area-inset-top)); left:10px; z-index:2;
+    width:min(320px, calc(100vw - 20px)); box-sizing:border-box; background:var(--panel);
+    border:1px solid var(--line); border-radius:10px; padding:12px; font-size:14px; line-height:1.4; }
+  .panel h1 { font-size:16px; margin:0 0 8px; }
+  .panel input[type=search] { width:100%; box-sizing:border-box; padding:8px 10px; font:inherit; color:inherit;
+    background:transparent; border:1px solid var(--line); border-radius:6px; }
+  .panel input:focus-visible, .panel button:focus-visible, .panel summary:focus-visible { outline:2px solid var(--accent); outline-offset:1px; }
+  #results { list-style:none; margin:6px 0 0; padding:0; max-height:36vh; overflow:auto; }
+  #results button { display:block; width:100%; text-align:left; padding:6px 4px; font:inherit; color:inherit;
+    background:none; border:0; border-bottom:1px solid var(--line); cursor:pointer; }
+  #results button:hover { background:color-mix(in srgb, var(--accent) 12%, transparent); }
+  #results .none { color:var(--muted); padding:6px 4px; }
+  details { margin-top:8px; }
+  summary { cursor:pointer; }
+  label { display:flex; gap:8px; align-items:center; padding:3px 0; cursor:pointer; }
+  small { display:block; margin-top:8px; color:var(--muted); }
+  .maplibregl-popup-content { background:var(--panel); color:var(--ink); border-radius:8px; font-size:13px; line-height:1.45; }
+  .maplibregl-popup-anchor-bottom .maplibregl-popup-tip { border-top-color:var(--panel); }
+  .maplibregl-popup-anchor-top .maplibregl-popup-tip { border-bottom-color:var(--panel); }
+  .maplibregl-popup-close-button { color:var(--ink); }
+</style>
+</head>
+<body>
+<div id="map"></div>
+<div class="panel">
+  <h1>Sri Lanka Map</h1>
+  <input id="q" type="search" placeholder="Search places by name" aria-label="Search places" autocomplete="off">
+  <ul id="results" aria-live="polite"></ul>
+  <details><summary>Layers</summary><div id="toggles"></div></details>
+  <small id="meta"></small>
+</div>
+<script src="vendor/maplibre-gl.js"></script>
+<script src="vendor/pmtiles.js"></script>
+<script>
+const DATA = "data/";
+const abs = p => new URL(DATA + p, location.href).href;
+maplibregl.addProtocol("pmtiles", new pmtiles.Protocol().tile);
+
+fetch(DATA + "districts.json", { cache: "no-cache" }).then(r => r.json()).then(init)
+  .catch(() => { document.getElementById("meta").textContent = "No districts built yet. Run the workflow."; });
+
+function init(index) {
+  const D = index.districts, ATTR = "© Overture Maps Foundation";
+  const slugOf = {}; D.forEach(d => slugOf[d.idx] = d.slug);
+  const sources = {}, L = [{ id: "bg", type: "background", paint: { "background-color": "#e2ebdc" } }];
+  const G = { Roads: [], Buildings: [], Places: [], Water: [], "Land use": [] };
+  const add = (g, layer) => { L.push(layer); G[g].push(layer.id); };
+  const src = (id, file) => { sources[id] = { type: "vector", url: "pmtiles://" + abs(file), attribution: ATTR }; };
+  D.forEach(d => {
+    if (d.files.areas) src("a_" + d.slug, `districts/${d.slug}/areas.pmtiles`);
+    if (d.files.base) src("o_" + d.slug, `districts/${d.slug}/base.pmtiles`);
+    d.files.buildings.forEach((f, i) => src(`b_${d.slug}_${i}`, `districts/${d.slug}/${f}`));
+  });
+  const lbl = ["coalesce", ["get", "name_en"], ["get", "name"]];
+  const major = ["motorway", "trunk", "primary"], road = ["==", ["get", "subtype"], "road"];
+  const each = fn => D.forEach(fn);
+
+  each(d => d.files.areas && add("Land use", { id: "lu-" + d.slug, type: "fill", source: "a_" + d.slug, "source-layer": "land_use",
+    paint: { "fill-opacity": 0.85, "fill-color": ["match", ["get", "class"],
+      ["park", "protected", "recreation", "golf", "garden", "grass", "forest", "wood"], "#c9e3bd",
+      ["agriculture", "farmland", "orchard", "plantation"], "#dfe8c3",
+      ["residential"], "#e9ece2", ["industrial", "construction"], "#dcd8e2", "#e4e8dc"] } }));
+  each(d => d.files.areas && add("Water", { id: "wa-" + d.slug, type: "fill", source: "a_" + d.slug, "source-layer": "water",
+    paint: { "fill-color": "#9fd0dc" } }));
+  each(d => d.files.base && add("Roads", { id: "rc-" + d.slug, type: "line", source: "o_" + d.slug, "source-layer": "segment", filter: road,
+    layout: { "line-cap": "round", "line-join": "round" },
+    paint: { "line-color": "#b7beb2", "line-width": ["interpolate", ["linear"], ["zoom"], 8, 0.4, 14,
+      ["match", ["get", "class"], major, 6, ["secondary", "tertiary"], 4, 2.5], 18, 12] } }));
+  each(d => d.files.base && add("Roads", { id: "rd-" + d.slug, type: "line", source: "o_" + d.slug, "source-layer": "segment", filter: road,
+    layout: { "line-cap": "round", "line-join": "round" },
+    paint: { "line-color": ["match", ["get", "class"], ["motorway", "trunk"], "#f2a65a", "primary", "#f6cf8a", "#ffffff"],
+      "line-width": ["interpolate", ["linear"], ["zoom"], 8, 0.2, 14,
+      ["match", ["get", "class"], major, 4.5, ["secondary", "tertiary"], 3, 1.5], 18, 9] } }));
+  each(d => d.files.base && add("Roads", { id: "rl-" + d.slug, type: "line", source: "o_" + d.slug, "source-layer": "segment",
+    filter: ["==", ["get", "subtype"], "rail"], paint: { "line-color": "#80857d", "line-width": 1, "line-dasharray": [3, 2] } }));
+  each(d => d.files.buildings.forEach((_, i) => add("Buildings", { id: `bu-${d.slug}-${i}`, type: "fill-extrusion",
+    source: `b_${d.slug}_${i}`, "source-layer": "building", minzoom: 15,
+    paint: { "fill-extrusion-color": "#cfc7b6", "fill-extrusion-opacity": 0.85,
+      "fill-extrusion-height": ["to-number", ["get", "height"], 6] } })));
+  each(d => d.files.base && add("Roads", { id: "rt-" + d.slug, type: "symbol", source: "o_" + d.slug, "source-layer": "segment", minzoom: 13, filter: road,
+    layout: { "symbol-placement": "line", "text-field": lbl, "text-font": ["NotoSans-Regular"], "text-size": 11 },
+    paint: { "text-color": "#44504d", "text-halo-color": "#fff", "text-halo-width": 1.5 } }));
+  const placeIds = [];
+  each(d => d.files.base && d.counts.place && (add("Places", { id: "pd-" + d.slug, type: "circle", source: "o_" + d.slug, "source-layer": "place", minzoom: 12,
+    paint: { "circle-radius": ["interpolate", ["linear"], ["zoom"], 12, 2, 16, 5], "circle-color": "#0b7f86",
+      "circle-stroke-width": 1, "circle-stroke-color": "#fff" } }),
+    add("Places", { id: "pt-" + d.slug, type: "symbol", source: "o_" + d.slug, "source-layer": "place", minzoom: 15,
+      layout: { "text-field": lbl, "text-font": ["NotoSans-Regular"], "text-size": 11, "text-offset": [0, 0.9],
+        "text-anchor": "top", "text-optional": true },
+      paint: { "text-color": "#10343a", "text-halo-color": "#fff", "text-halo-width": 1.2 } }),
+    placeIds.push("pd-" + d.slug, "pt-" + d.slug)));
+
+  const [w, s, e, n] = index.bbox;
+  // FIX: new URL("fonts/{fontstack}/{range}.pbf") percent-encodes the braces and the
+  // style then fails validation (blank map). Build the base URL first, append tokens after.
+  const GLYPHS = new URL("fonts/", location.href).href + "{fontstack}/{range}.pbf";
+  const map = new maplibregl.Map({
+    container: "map", hash: true, minZoom: 6, maxBounds: [[w - 0.5, s - 0.5], [e + 0.5, n + 0.5]],
+    style: { version: 8, glyphs: GLYPHS, sources, layers: L },
+    bounds: [[w, s], [e, n]], fitBoundsOptions: { padding: 20 }
+  });
+  map.on("error", ev => console.error("Map error:", ev && ev.error ? ev.error.message : ev));
+  map.addControl(new maplibregl.NavigationControl(), "bottom-right");
+  map.addControl(new maplibregl.GeolocateControl({ trackUserLocation: false }), "bottom-right");
+  map.addControl(new maplibregl.ScaleControl(), "bottom-left");
+
+  // ----- place details -----
+  let popup = null;
+  const mk = (box, tag, text, css) => { const x = document.createElement(tag); x.textContent = text;
+    if (css) x.style.cssText = css; box.appendChild(x); return x; };
+  async function openPlace(d, id, f, lngLat, name) {
+    const box = document.createElement("div");
+    mk(box, "strong", name || "");
+    try {
+      const r = await fetch(DATA + `districts/${slugOf[d]}/places/${f}/${id}.json`);
+      if (!r.ok) throw new Error(r.status);
+      const p = await r.json();
+      box.replaceChildren();
+      mk(box, "strong", p.name);
+      if (p.categories.length) mk(box, "div", p.categories.join(", "), "color:var(--muted);font-size:12px");
+      if (p.address) mk(box, "div", p.address, "margin-top:4px");
+      if (p.phone) { const a = mk(box, "a", p.phone); a.href = "tel:" + p.phone.replace(/[^+\d]/g, ""); a.style.color = "var(--accent)"; }
+      mk(box, "div", p.business_status, "font-size:12px;margin-top:4px");
+      (p.hours || []).forEach(h => mk(box, "div", h.day + ": " + h.times.join(", "), "font-size:12px"));
+    } catch (err) { mk(box, "div", "Details are not available for this place.", "color:var(--muted);font-size:12px"); }
+    if (popup) popup.remove();
+    popup = new maplibregl.Popup({ maxWidth: "280px" }).setLngLat(lngLat).setDOMContent(box).addTo(map);
+  }
+  placeIds.forEach(l => {
+    map.on("click", l, e => { const p = e.features[0].properties; openPlace(p.d, p.id, p.f, e.lngLat, p.name); });
+    map.on("mouseenter", l, () => map.getCanvas().style.cursor = "pointer");
+    map.on("mouseleave", l, () => map.getCanvas().style.cursor = "");
+  });
+
+  // ----- search (all districts built so far) -----
+  const SEP = /[\s,.;:()\[\]\/\\\-_&'"]+/, shards = new Map();
+  async function shard(key) {
+    if (shards.has(key)) return shards.get(key);
+    let d = [];
+    try { const r = await fetch(DATA + "search/" + key + ".json"); if (r.ok) d = await r.json(); } catch (e) {}
+    shards.set(key, d); return d;
+  }
+  const q = document.getElementById("q"), list = document.getElementById("results");
+  let timer;
+  q.addEventListener("input", () => { clearTimeout(timer); timer = setTimeout(runSearch, 150); });
+  async function runSearch() {
+    const qt = q.value.toLowerCase().split(SEP).filter(Boolean);
+    const lead = qt.find(t => Array.from(t).length >= 2);
+    list.replaceChildren();
+    if (!lead) return;
+    const key = Array.from(lead).slice(0, 2).map(c => c.codePointAt(0).toString(16)).join("-");
+    const hits = (await shard(key)).filter(x => { const nm = x[0].toLowerCase(); return qt.every(t => nm.includes(t)); }).slice(0, 8);
+    if (!hits.length) { const li = document.createElement("li"); li.className = "none"; li.textContent = "No places found"; list.appendChild(li); return; }
+    hits.forEach(([name, lon, lat, id, f, d]) => {
+      const li = document.createElement("li"), b = document.createElement("button");
+      b.type = "button"; b.textContent = name;
+      b.addEventListener("click", () => { map.flyTo({ center: [lon, lat], zoom: 17 }); openPlace(d, id, f, [lon, lat], name); });
+      li.appendChild(b); list.appendChild(li);
+    });
+  }
+
+  // ----- layer toggles -----
+  const box = document.getElementById("toggles");
+  for (const [name, ids] of Object.entries(G)) {
+    if (!ids.length) continue;
+    const lab = document.createElement("label"), cb = document.createElement("input");
+    cb.type = "checkbox"; cb.checked = true;
+    cb.addEventListener("change", () => ids.forEach(i => map.setLayoutProperty(i, "visibility", cb.checked ? "visible" : "none")));
+    lab.append(cb, document.createTextNode(name)); box.appendChild(lab);
+  }
+  const total = D.reduce((a, d) => a + (d.places.total || 0), 0);
+  document.getElementById("meta").textContent =
+    `${D.length} of 25 districts built · ${total.toLocaleString()} places · Overture Maps Foundation`;
+}
+</script>
+</body>
+</html>
