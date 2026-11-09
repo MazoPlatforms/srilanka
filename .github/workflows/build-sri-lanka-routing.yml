@@ -1,7 +1,7 @@
 name: Build Sri Lanka routing graphs (one-time)
 
 # Maintains editable nationwide OSM road records in /public/roads/AAA/BBB/<id>.json
-# (and site/roads for Pages). Compiled navigation graphs remain under /routing.
+# Compiled navigation graphs remain in main/public/routing.
 # Directory names are deterministic ID buckets (001..999), not districts.
 # Client: routing/router.js (A* in the browser, no server).
 on:
@@ -43,17 +43,10 @@ jobs:
         if: steps.pbf.outputs.cache-hit != 'true'
         run: curl -fL --retry 3 -o sl.osm.pbf "${{ inputs.pbf_url }}"
 
-      - name: Clone site branch
-        env:
-          GH_TOKEN: ${{ github.token }}
+      - name: Prepare working site from main/public
         run: |
-          URL="https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
-          git clone --depth 1 --branch site "$URL" site || { git clone --depth 1 "$URL" site && cd site && git checkout --orphan site && git rm -rf . -q; }
           mkdir -p site/routing
-          # Keep site/index.html synchronized with the maintained frontend.
-          # Never restore the former generated map template.
-          git -C site fetch -q origin "${GITHUB_EVENT_REPOSITORY_DEFAULT_BRANCH:-main}" --depth 1
-          git -C site show FETCH_HEAD:public/index.html > site/index.html
+          cp -a src/public/. site/
 
       - name: Build graphs
         run: |
@@ -247,16 +240,7 @@ jobs:
         run: |
           find site/routing site/roads -type f -size +95M -print | grep . && { echo "::error::file >95 MB"; exit 1; } || true
 
-      - name: Save to site branch
-        run: |
-          cd site
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          touch .nojekyll
-          git add -A && git commit -q -m "Routing graphs" || echo "Nothing to commit"
-          git push -q origin HEAD:site
-
-      - name: Save to main (/public/routing and /public/roads)
+      - name: Publish routing assets to main/public only
         env:
           GH_TOKEN: ${{ github.token }}
           MAIN_BRANCH: ${{ github.event.repository.default_branch }}
@@ -274,7 +258,11 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config http.postBuffer 524288000
           git add -A -- public/routing public/roads
-          if ! git diff --cached --quiet; then git commit -q -m "Routing graphs"; fi
+          if git diff --cached --quiet; then
+            echo "No routing changes to publish"
+            exit 0
+          fi
+          git commit -q -m "Routing graphs"
           # Preserve commits pushed by concurrent UI/deployment work.
           # Never force-push or overwrite unrelated main-branch files.
           for attempt in 1 2 3; do
