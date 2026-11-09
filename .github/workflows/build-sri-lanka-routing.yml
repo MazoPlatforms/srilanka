@@ -1,8 +1,8 @@
 name: Build Sri Lanka routing graphs (one-time)
 
-# Downloads the Sri Lanka OSM extract ONCE (cached), builds compact static routing graphs
-# for car, motorcycle, truck, bicycle and foot, and stores them under /routing in the
-# `site` branch, GitHub Pages and main (/public/routing) - same layout as the places data.
+# Maintains editable nationwide OSM road records in /public/roads/AAA/BBB/<id>.json
+# (and site/roads for Pages). Compiled navigation graphs remain under /routing.
+# Directory names are deterministic ID buckets (001..999), not districts.
 # Client: routing/router.js (A* in the browser, no server).
 on:
   workflow_dispatch:
@@ -10,7 +10,7 @@ on:
       pbf_url:
         default: "https://download.geofabrik.de/asia/sri-lanka-latest.osm.pbf"
       reexport:
-        description: "Re-create routes/ from OSM (OVERWRITES your edits to routes/)"
+        description: "Re-create public/roads/ from OSM (OVERWRITES manually edited road JSON)"
         type: boolean
         default: false
       deploy_pages:
@@ -99,12 +99,18 @@ jobs:
                   o = "forward" if (ow in ("yes","true","1") or rb) else ("reverse" if ow == "-1" else False)
                   d = {"id": w.id, "name": t.get("name", ""), "highway": hw, "oneway": o, "deleted": False,
                        "speeds_kmh": sp, "coordinates": co}
-                  with open(f"{ROUTES}/{w.id % 1000:03d}/{w.id}.json", "w", encoding="utf-8") as f:
+                  # Two deterministic 001..999 directories; no district-based splitting.
+                  # Existing IDs always resolve to the same path on a later import.
+                  first = (w.id // 999) % 999 + 1
+                  second = w.id % 999 + 1
+                  dest = f"{ROUTES}/{first:03d}/{second:03d}"
+                  os.makedirs(dest, exist_ok=True)
+                  with open(f"{dest}/{w.id}.json", "w", encoding="utf-8") as f:
                       f.write("{\n" + ",\n".join(f'  "{k}": {json.dumps(v, ensure_ascii=False)}' for k, v in d.items()) + "\n}\n")
                   H.n += 1
 
           if EXPORT:
-              for i in range(1000): os.makedirs(f"{ROUTES}/{i:03d}", exist_ok=True)
+              os.makedirs(ROUTES, exist_ok=True)
               H().apply_file("sl.osm.pbf", locations=True)
               print("exported", H.n, "routes")
 
@@ -146,7 +152,7 @@ jobs:
                           c = hav((LON[a]/1e6, LAT[a]/1e6), (LON[c2]/1e6, LAT[c2]/1e6)) / (v / 3.6)
                           if f: U.append(a); V.append(c2); C.append(c)
                           if b: U.append(c2); V.append(a); C.append(c)
-          load(glob.glob(f"{ROUTES}/*/*.json"), False)
+          load(glob.iglob(f"{ROUTES}/[0-9][0-9][0-9]/[0-9][0-9][0-9]/*.json"), False)
           cf = sorted(glob.glob("src/custom-routes/*.json")); load(cf, True); print("custom files", len(cf))
           LL = np.stack([np.frombuffer(LON, np.int32), np.frombuffer(LAT, np.int32)], 1)
           for m in MODES:
@@ -162,13 +168,21 @@ jobs:
                          "units": "coords=int32 lon/lat*1e6; costs=float32 seconds"}, open(f"{d}/meta.json", "w"), indent=2)
               print(m, N, len(v))
           PYEOF
-          if [ -d src/routes ] && [ "${{ inputs.reexport }}" != "true" ]; then
-            export EXPORT=0 ROUTES=src/routes
+          if [ -d src/public/roads ] && find src/public/roads -name "*.json" -print -quit | grep -q . && [ "${{ inputs.reexport }}" != "true" ]; then
+            export EXPORT=0 ROUTES=src/public/roads
           else
-            export EXPORT=1 ROUTES=routes_out
+            export EXPORT=1 ROUTES=roads_out
           fi
           echo "EXPORT=$EXPORT ROUTES=$ROUTES"
           python build.py
+          if [ "$EXPORT" = "1" ]; then
+            rm -rf site/roads
+            mkdir -p site/roads
+            cp -a roads_out/. site/roads/
+          elif [ ! -d site/roads ]; then
+            mkdir -p site/roads
+            cp -a src/public/roads/. site/roads/
+          fi
           cat > site/routing/router.js <<'JSEOF'
           // Static A* router. Usage:
           //   const r = await SLRouter.load("routing/car/");   // car|motorcycle|truck|bicycle|foot (folder; meta.json is editable)
@@ -227,7 +241,7 @@ jobs:
 
       - name: Check limits
         run: |
-          find site/routing -type f -size +95M -print | grep . && { echo "::error::file >95 MB"; exit 1; } || true
+          find site/routing site/roads -type f -size +95M -print | grep . && { echo "::error::file >95 MB"; exit 1; } || true
 
       - name: Save to site branch
         run: |
@@ -238,7 +252,7 @@ jobs:
           git add -A && git commit -q -m "Routing graphs" || echo "Nothing to commit"
           git push -q origin HEAD:site
 
-      - name: Save to main (/public/routing)
+      - name: Save to main (/public/routing and /public/roads)
         env:
           GH_TOKEN: ${{ github.token }}
           MAIN_BRANCH: ${{ github.event.repository.default_branch }}
@@ -246,7 +260,11 @@ jobs:
           git clone --depth 1 --branch "$MAIN_BRANCH" "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" mainrepo
           mkdir -p mainrepo/public && rm -rf mainrepo/public/routing
           cp -r site/routing mainrepo/public/routing
-          if [ -d routes_out ]; then rm -rf mainrepo/routes && cp -r routes_out mainrepo/routes; fi
+          if [ -d roads_out ]; then
+            rm -rf mainrepo/public/roads
+            mkdir -p mainrepo/public/roads
+            cp -a roads_out/. mainrepo/public/roads/
+          fi
           cd mainrepo
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
