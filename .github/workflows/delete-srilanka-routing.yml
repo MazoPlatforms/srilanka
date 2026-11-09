@@ -1,7 +1,7 @@
 name: Delete Sri Lanka routing data
 
 # Removes what build-sri-lanka-routing.yml created:
-#   site branch: /routing        main branch: /public/routing and /routes
+#   main branch: /public/routing and /public/roads (optional)
 # Then redeploys Pages without routing. Places/map data is NOT touched.
 on:
   workflow_dispatch:
@@ -25,18 +25,6 @@ jobs:
     if: ${{ inputs.confirm == 'DELETE' }}
     runs-on: ubuntu-latest
     steps:
-      - name: Remove from site branch
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          git clone --depth 1 --branch site "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" site
-          cd site
-          git rm -r -q --ignore-unmatch routing
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -q -m "Remove routing" || echo "Nothing to remove"
-          git push -q origin HEAD:site
-
       - name: Remove from main branch
         env:
           GH_TOKEN: ${{ github.token }}
@@ -45,7 +33,7 @@ jobs:
         run: |
           git clone --depth 1 --branch "$MAIN_BRANCH" "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" mainrepo
           cd mainrepo
-          git rm -r -q --ignore-unmatch public/routing routes
+          git rm -r -q --ignore-unmatch public/routing
           [ "$DEL_CUSTOM" = "true" ] && git rm -r -q --ignore-unmatch custom-routes || true
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -55,7 +43,7 @@ jobs:
 
       - name: Prepare Pages artifact
         if: ${{ inputs.deploy_pages }}
-        run: rsync -a --exclude .git site/ pages/
+        run: rsync -a --exclude .git mainrepo/public/ pages/
       - uses: actions/upload-pages-artifact@v3
         if: ${{ inputs.deploy_pages }}
         with:
