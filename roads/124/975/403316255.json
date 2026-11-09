@@ -1,0 +1,9 @@
+{
+  "id": 403316255,
+  "name": "Manakulam Puthiyakudimanai School Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.457254, 9.07492], [80.457371, 9.074862], [80.457537, 9.074724], [80.457912, 9.074241], [80.458154, 9.073961], [80.458296, 9.07384], [80.458874, 9.073172]]
+}

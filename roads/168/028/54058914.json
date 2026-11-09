@@ -1,0 +1,9 @@
+{
+  "id": 54058914,
+  "name": "Mahindarama Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.872628, 6.92375], [79.873028, 6.923584], [79.873329, 6.923439]]
+}

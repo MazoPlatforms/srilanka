@@ -1,0 +1,9 @@
+{
+  "id": 287707745,
+  "name": "Lingan",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.216922, 8.584381], [81.217372, 8.584021], [81.217499, 8.583895], [81.217721, 8.583674], [81.217847, 8.583528]]
+}

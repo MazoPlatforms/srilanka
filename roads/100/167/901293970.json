@@ -1,0 +1,9 @@
+{
+  "id": 901293970,
+  "name": "Panukerepitiya-Palmgarden Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.386501, 6.725786], [80.386535, 6.725868], [80.386571, 6.725928]]
+}

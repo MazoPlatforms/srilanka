@@ -1,0 +1,9 @@
+{
+  "id": 359455215,
+  "name": "Rajasinghe Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.012175, 6.892869], [80.01228, 6.892824], [80.012484, 6.892739], [80.013009, 6.892408]]
+}

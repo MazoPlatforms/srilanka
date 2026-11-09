@@ -1,0 +1,9 @@
+{
+  "id": 52501946,
+  "name": "Boswell Place",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.861794, 6.872016], [79.861715, 6.871999], [79.859008, 6.871412], [79.858379, 6.871274]]
+}

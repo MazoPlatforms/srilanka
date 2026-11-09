@@ -1,0 +1,9 @@
+{
+  "id": 727079313,
+  "name": "Deduru Oya Damn Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.246986, 7.709956], [80.247005, 7.710206], [80.247103, 7.710712], [80.247282, 7.711445]]
+}

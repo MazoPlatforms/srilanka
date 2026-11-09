@@ -1,0 +1,9 @@
+{
+  "id": 462909176,
+  "name": "Wellawaya-Pottuvil Road",
+  "highway": "trunk",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 70.0, "motorcycle": 70.0, "truck": 70.0, "foot": 5},
+  "coordinates": [[81.397956, 6.906275], [81.39797, 6.906222], [81.397994, 6.906173]]
+}

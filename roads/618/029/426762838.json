@@ -1,0 +1,9 @@
+{
+  "id": 426762838,
+  "name": "Ranasinghe Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.935266, 6.848886], [79.935282, 6.849535], [79.935307, 6.849781], [79.935268, 6.850211], [79.93542, 6.85025], [79.935451, 6.850277], [79.935478, 6.850802]]
+}

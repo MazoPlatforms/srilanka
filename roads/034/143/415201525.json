@@ -1,0 +1,9 @@
+{
+  "id": 415201525,
+  "name": "sudosudu mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.899479, 7.178854], [79.899883, 7.178848], [79.900072, 7.178883], [79.900304, 7.178952], [79.900699, 7.179062]]
+}

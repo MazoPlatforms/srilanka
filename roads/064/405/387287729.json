@@ -1,0 +1,9 @@
+{
+  "id": 387287729,
+  "name": "අරලිය උයන",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.986178, 7.040879], [79.986228, 7.040827], [79.986589, 7.040413]]
+}

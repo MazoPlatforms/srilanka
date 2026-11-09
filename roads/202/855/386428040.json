@@ -1,0 +1,9 @@
+{
+  "id": 386428040,
+  "name": "Amandhi Sadana road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.946162, 7.084193], [79.946581, 7.084285], [79.94666, 7.084299], [79.947002, 7.084385], [79.947003, 7.084681], [79.94703, 7.084748], [79.947119, 7.084827]]
+}

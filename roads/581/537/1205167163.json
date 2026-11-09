@@ -1,0 +1,9 @@
+{
+  "id": 1205167163,
+  "name": "Egodawaththa",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[80.176701, 7.200752], [80.176668, 7.200566], [80.176649, 7.200465], [80.176613, 7.200389], [80.17655, 7.200274]]
+}

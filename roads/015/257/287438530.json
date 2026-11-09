@@ -1,0 +1,9 @@
+{
+  "id": 287438530,
+  "name": "Bazar 13th Street",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.80199, 7.371637], [81.802047, 7.371807], [81.802155, 7.372041], [81.802185, 7.372233], [81.80218, 7.372679]]
+}

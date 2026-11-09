@@ -1,0 +1,9 @@
+{
+  "id": 53193727,
+  "name": "Vimala Vihara Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.885526, 6.891839], [79.88673, 6.891886], [79.887199, 6.89183], [79.887462, 6.891799], [79.887564, 6.891786]]
+}

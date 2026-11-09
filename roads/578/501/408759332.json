@@ -1,0 +1,9 @@
+{
+  "id": 408759332,
+  "name": "Vijaya Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.98511, 6.879484], [79.985219, 6.879581], [79.985396, 6.879964], [79.985475, 6.880206], [79.985491, 6.88033]]
+}

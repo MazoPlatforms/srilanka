@@ -1,0 +1,9 @@
+{
+  "id": 483380315,
+  "name": "Bioundry 3rd cross",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.59668, 7.783307], [81.596882, 7.783188], [81.597196, 7.782986], [81.597277, 7.782911], [81.597349, 7.7828]]
+}

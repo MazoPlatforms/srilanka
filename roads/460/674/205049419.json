@@ -1,0 +1,9 @@
+{
+  "id": 205049419,
+  "name": "Hirimbura Cross Road",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.225634, 6.066893], [80.225568, 6.066831], [80.225443, 6.06671]]
+}

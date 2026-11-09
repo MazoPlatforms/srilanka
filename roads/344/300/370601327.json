@@ -1,0 +1,9 @@
+{
+  "id": 370601327,
+  "name": "Kalawewa-Galewela Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.531099, 7.896237], [80.531457, 7.896002]]
+}

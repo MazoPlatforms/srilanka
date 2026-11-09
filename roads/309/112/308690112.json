@@ -1,0 +1,9 @@
+{
+  "id": 308690112,
+  "name": "Continental Residencies Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.845185, 7.223675], [79.845491, 7.223719], [79.845525, 7.223724], [79.845971, 7.22377], [79.846073, 7.223819], [79.846197, 7.223921], [79.846702, 7.224144]]
+}

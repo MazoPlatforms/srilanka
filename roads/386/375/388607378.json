@@ -1,0 +1,9 @@
+{
+  "id": 388607378,
+  "name": "3rd cross",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "bicycle": 15, "foot": 5},
+  "coordinates": [[81.586106, 7.818358], [81.586479, 7.818087], [81.587802, 7.817371], [81.588528, 7.816927]]
+}

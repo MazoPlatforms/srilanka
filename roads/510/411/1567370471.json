@@ -1,0 +1,9 @@
+{
+  "id": 1567370471,
+  "name": "Ragama Hospital Road",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 15.0, "motorcycle": 15.0, "bicycle": 15, "foot": 5},
+  "coordinates": [[79.923513, 7.028108], [79.92348, 7.028177]]
+}

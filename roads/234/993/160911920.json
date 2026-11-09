@@ -1,0 +1,9 @@
+{
+  "id": 160911920,
+  "name": "Vavuniya-Paraiyanalankulam Road",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
+  "coordinates": [[80.498794, 8.761264], [80.498739, 8.761212], [80.498683, 8.761168], [80.498633, 8.761146], [80.498542, 8.761127], [80.498379, 8.761154], [80.498209, 8.761198]]
+}

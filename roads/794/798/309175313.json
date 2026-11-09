@@ -1,0 +1,9 @@
+{
+  "id": 309175313,
+  "name": "Family Quarters Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.819553, 6.417703], [80.819208, 6.419183], [80.818895, 6.420696], [80.818722, 6.421411], [80.818591, 6.422126], [80.818555, 6.422617]]
+}

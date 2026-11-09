@@ -1,0 +1,9 @@
+{
+  "id": 47015033,
+  "name": "Kandalanda 1st Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.009451, 6.844917], [80.009393, 6.844539], [80.009907, 6.842997], [80.010057, 6.842666], [80.010336, 6.841857]]
+}

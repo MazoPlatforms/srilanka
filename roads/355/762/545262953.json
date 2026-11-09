@@ -1,0 +1,9 @@
+{
+  "id": 545262953,
+  "name": "Mahena - Imbulowita Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.216887, 7.231465], [80.216861, 7.23141], [80.21684, 7.23135]]
+}

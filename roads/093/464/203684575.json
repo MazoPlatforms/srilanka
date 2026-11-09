@@ -1,0 +1,9 @@
+{
+  "id": 203684575,
+  "name": "Shramadana mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.960174, 6.787411], [79.960098, 6.787312], [79.959691, 6.786944], [79.959492, 6.786823], [79.959051, 6.78672], [79.95849, 6.786544]]
+}

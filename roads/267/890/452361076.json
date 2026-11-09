@@ -1,0 +1,9 @@
+{
+  "id": 452361076,
+  "name": "Sri Niwasarama Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.902863, 6.741413], [79.903272, 6.741463], [79.903648, 6.741547], [79.903986, 6.741641], [79.904102, 6.74167], [79.904245, 6.741699], [79.904613, 6.741789]]
+}

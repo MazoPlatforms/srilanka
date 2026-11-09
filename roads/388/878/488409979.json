@@ -1,0 +1,9 @@
+{
+  "id": 488409979,
+  "name": "Anamaduwa-Uswewa-Galgamuwa Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.01108, 7.877906], [80.011059, 7.877777], [80.01102, 7.877707]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 50633738,
+  "name": "Sri Vajirawansa Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.890172, 6.915691], [79.890111, 6.915709], [79.88999, 6.915772], [79.889793, 6.915813]]
+}

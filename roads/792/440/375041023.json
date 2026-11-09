@@ -1,0 +1,9 @@
+{
+  "id": 375041023,
+  "name": "Thissa Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.905919, 6.733536], [79.90679, 6.733804], [79.907183, 6.733878]]
+}

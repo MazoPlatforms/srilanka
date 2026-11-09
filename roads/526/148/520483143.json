@@ -1,0 +1,9 @@
+{
+  "id": 520483143,
+  "name": "Maiyavadi Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.730675, 7.694763], [81.729801, 7.694217], [81.72942, 7.693986], [81.729134, 7.693818]]
+}

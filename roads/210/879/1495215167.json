@@ -1,0 +1,9 @@
+{
+  "id": 1495215167,
+  "name": "Baddegama Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.197512, 6.137226], [80.197474, 6.137389], [80.197423, 6.137602]]
+}

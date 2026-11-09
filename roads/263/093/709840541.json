@@ -1,0 +1,9 @@
+{
+  "id": 709840541,
+  "name": "Dondra Light House Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.589358, 5.928], [80.589299, 5.928072], [80.589219, 5.928169]]
+}

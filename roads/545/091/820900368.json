@@ -1,0 +1,9 @@
+{
+  "id": 820900368,
+  "name": "Gramani Vidyala Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.057891, 6.244244], [80.057793, 6.244184], [80.057718, 6.244122], [80.05761, 6.244035], [80.057553, 6.243985], [80.057505, 6.24395], [80.057432, 6.243896]]
+}

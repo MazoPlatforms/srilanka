@@ -1,0 +1,9 @@
+{
+  "id": 170082703,
+  "name": "Kings watta",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "bicycle": 15, "foot": 5},
+  "coordinates": [[80.545699, 5.94907], [80.545701, 5.949111], [80.545752, 5.950149], [80.545552, 5.950171]]
+}

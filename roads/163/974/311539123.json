@@ -1,0 +1,9 @@
+{
+  "id": 311539123,
+  "name": "Baron Alvis Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.949192, 6.881525], [79.948971, 6.880774], [79.948898, 6.880331]]
+}

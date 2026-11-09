@@ -1,0 +1,9 @@
+{
+  "id": 462260566,
+  "name": "Vaasugi Amman Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.576866, 7.697707], [81.576753, 7.697553], [81.576611, 7.697327], [81.576311, 7.696966], [81.576219, 7.696803], [81.576, 7.696432], [81.575745, 7.695799]]
+}

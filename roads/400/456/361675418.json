@@ -1,0 +1,9 @@
+{
+  "id": 361675418,
+  "name": "Lumbini Mawatha",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.841345, 7.460585], [79.841445, 7.461019], [79.841504, 7.461299], [79.841708, 7.461462], [79.841701, 7.461858], [79.841654, 7.462149], [79.841738, 7.462683]]
+}

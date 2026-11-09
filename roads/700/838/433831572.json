@@ -1,0 +1,9 @@
+{
+  "id": 433831572,
+  "name": "Poonthodam Periyarkulam road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.500394, 8.777348], [80.499761, 8.776109], [80.499251, 8.775047], [80.499176, 8.774867], [80.499134, 8.774831], [80.499139, 8.774763]]
+}

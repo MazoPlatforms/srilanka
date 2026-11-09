@@ -1,0 +1,9 @@
+{
+  "id": 108340509,
+  "name": "Manikkavasakar Street",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.231292, 8.5784], [81.231053, 8.578089], [81.230922, 8.577882], [81.230886, 8.577827], [81.230463, 8.577268], [81.230079, 8.57683]]
+}

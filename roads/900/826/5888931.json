@@ -1,0 +1,9 @@
+{
+  "id": 5888931,
+  "name": "Talbot Town",
+  "highway": "residential",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.218763, 6.034812], [80.218296, 6.034434], [80.217976, 6.034782]]
+}

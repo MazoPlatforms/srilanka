@@ -1,0 +1,9 @@
+{
+  "id": 1363104504,
+  "name": "Park Street Mews",
+  "highway": "pedestrian",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 10, "foot": 5},
+  "coordinates": [[79.858511, 6.916409], [79.858607, 6.916262]]
+}

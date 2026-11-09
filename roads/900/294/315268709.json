@@ -1,0 +1,9 @@
+{
+  "id": 315268709,
+  "name": "Habarana-Polonnaruwa Road",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
+  "coordinates": [[81.000276, 7.939955], [81.000282, 7.940414], [81.000285, 7.940572], [81.000257, 7.941035], [81.000197, 7.941372], [81.000185, 7.941414]]
+}

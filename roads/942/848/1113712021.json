@@ -1,0 +1,9 @@
+{
+  "id": 1113712021,
+  "name": "Serendib Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40, "motorcycle": 40, "truck": 40, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.850988, 6.912084], [79.850842, 6.912444]]
+}

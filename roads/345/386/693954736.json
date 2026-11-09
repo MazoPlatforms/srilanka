@@ -1,0 +1,9 @@
+{
+  "id": 693954736,
+  "name": "Ihala Biyanwila Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.958926, 7.002407], [79.958847, 7.002457], [79.958803, 7.002489], [79.958769, 7.002521], [79.958741, 7.002563]]
+}

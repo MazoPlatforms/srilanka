@@ -1,0 +1,9 @@
+{
+  "id": 177266557,
+  "name": "Sathakath Hajiyar Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.829849, 6.874667], [81.830064, 6.874682], [81.830453, 6.874624], [81.830478, 6.87471], [81.830555, 6.875254], [81.830736, 6.875608], [81.831079, 6.876243]]
+}

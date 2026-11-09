@@ -1,0 +1,9 @@
+{
+  "id": 377061447,
+  "name": "Nirmana Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.935034, 6.897035], [79.935003, 6.895923], [79.934973, 6.895823], [79.934899, 6.895746], [79.934791, 6.895696], [79.934662, 6.895697], [79.933748, 6.895833]]
+}

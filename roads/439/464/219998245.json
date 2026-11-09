@@ -1,0 +1,9 @@
+{
+  "id": 219998245,
+  "name": "Thambiyaiya Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.71137, 7.716132], [81.711217, 7.716538], [81.711121, 7.716787], [81.711104, 7.716825], [81.710989, 7.716834], [81.710819, 7.717415]]
+}

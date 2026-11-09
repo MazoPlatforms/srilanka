@@ -1,0 +1,9 @@
+{
+  "id": 540133370,
+  "name": "Wilakatupotha-Ganewatte-Kumbukgete Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.36921, 7.656631], [80.369366, 7.656754]]
+}

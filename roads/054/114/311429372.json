@@ -1,0 +1,9 @@
+{
+  "id": 311429372,
+  "name": "Lihiniya Garden",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.925014, 6.907069], [79.925312, 6.906529], [79.925613, 6.905862]]
+}

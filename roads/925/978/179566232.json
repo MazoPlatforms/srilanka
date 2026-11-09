@@ -1,0 +1,9 @@
+{
+  "id": 179566232,
+  "name": "St.Mary's Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.900039, 7.053074], [79.900081, 7.053083], [79.90011, 7.053081], [79.900186, 7.053087]]
+}

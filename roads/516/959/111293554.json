@@ -1,0 +1,9 @@
+{
+  "id": 111293554,
+  "name": "St. Christopher's Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.842705, 7.20685], [79.842689, 7.206172], [79.842657, 7.205856], [79.842651, 7.205822], [79.842543, 7.205248], [79.842323, 7.20433]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 529465813,
+  "name": "Middeniya-Panamure Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.758769, 6.323466], [80.758972, 6.323299]]
+}

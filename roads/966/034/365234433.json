@@ -1,0 +1,9 @@
+{
+  "id": 365234433,
+  "name": "Battulu Oya-Udappuwa-Karambe Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.790612, 7.76966], [79.790547, 7.771064], [79.79051, 7.771915], [79.790482, 7.772258], [79.790257, 7.772887], [79.790183, 7.773165], [79.78895, 7.776431]]
+}

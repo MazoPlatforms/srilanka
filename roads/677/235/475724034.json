@@ -1,0 +1,9 @@
+{
+  "id": 475724034,
+  "name": "Endana - Manandola Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.541016, 6.531117], [80.540966, 6.531022], [80.540945, 6.530981]]
+}

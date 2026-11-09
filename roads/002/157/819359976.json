@@ -1,0 +1,9 @@
+{
+  "id": 819359976,
+  "name": "Kaduwela - Biyagama New Cross Road",
+  "highway": "tertiary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.97149, 6.936168], [79.971556, 6.936549], [79.971633, 6.937137]]
+}

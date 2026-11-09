@@ -1,0 +1,9 @@
+{
+  "id": 386009341,
+  "name": "Junion 1st Cross",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.540726, 7.861655], [81.540758, 7.861557], [81.540976, 7.860887], [81.541239, 7.860173], [81.541344, 7.859864], [81.541579, 7.859358]]
+}

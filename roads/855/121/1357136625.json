@@ -1,0 +1,9 @@
+{
+  "id": 1357136625,
+  "name": "Serandib East Boulevard",
+  "highway": "unclassified",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.839094, 6.931059], [79.839044, 6.931196], [79.839006, 6.9313], [79.838895, 6.931633], [79.838717, 6.932249], [79.838654, 6.932509]]
+}

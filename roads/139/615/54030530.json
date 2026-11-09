@@ -1,0 +1,9 @@
+{
+  "id": 54030530,
+  "name": "Jayagath Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.91572, 6.858586], [79.916399, 6.859198], [79.9165, 6.859235], [79.916846, 6.859375], [79.91704, 6.859468], [79.917346, 6.859513], [79.917444, 6.859668]]
+}

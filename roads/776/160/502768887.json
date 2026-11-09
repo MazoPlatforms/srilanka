@@ -1,0 +1,9 @@
+{
+  "id": 502768887,
+  "name": "Ampitiya - Galthenna - Ratemulla Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.643552, 7.252826], [80.643554, 7.252992]]
+}

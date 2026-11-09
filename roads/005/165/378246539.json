@@ -1,0 +1,9 @@
+{
+  "id": 378246539,
+  "name": "Sri Sarananda Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.661314, 5.961967], [80.661417, 5.963191], [80.661449, 5.96357], [80.661589, 5.964055], [80.661567, 5.964386], [80.661621, 5.964706], [80.661642, 5.965549], [80.661681, 5.96595]]
+}

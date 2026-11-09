@@ -1,0 +1,9 @@
+{
+  "id": 302389252,
+  "name": "Dambuwa Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.226425, 7.620565], [80.226855, 7.620897], [80.227406, 7.62124], [80.227546, 7.621388], [80.227623, 7.621504], [80.227891, 7.621906]]
+}

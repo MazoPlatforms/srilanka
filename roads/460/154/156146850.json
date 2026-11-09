@@ -1,0 +1,9 @@
+{
+  "id": 156146850,
+  "name": "5th Avenue",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.674538, 7.291034], [81.674537, 7.290251], [81.674536, 7.28997], [81.674533, 7.28967], [81.67453, 7.28909], [81.674504, 7.288698]]
+}

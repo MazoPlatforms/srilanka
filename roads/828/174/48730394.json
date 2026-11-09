@@ -1,0 +1,9 @@
+{
+  "id": 48730394,
+  "name": "Obesekarapura Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.89253, 6.920381], [79.892574, 6.920405], [79.892614, 6.920445], [79.892872, 6.92095], [79.893054, 6.921154]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 488389940,
+  "name": "Eraikalai road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.539659, 7.855474], [81.539951, 7.854848], [81.540106, 7.854614], [81.540254, 7.854402], [81.540432, 7.854243], [81.540864, 7.853481]]
+}

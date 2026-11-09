@@ -1,0 +1,9 @@
+{
+  "id": 309373625,
+  "name": "6th canel road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.883465, 6.331825], [80.883587, 6.334492], [80.88373, 6.336475], [80.883807, 6.336825]]
+}

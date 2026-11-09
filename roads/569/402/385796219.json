@@ -1,0 +1,9 @@
+{
+  "id": 385796219,
+  "name": "Kirusnar Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.325518, 8.143732], [81.325565, 8.143438], [81.325647, 8.142859], [81.325748, 8.142236], [81.325758, 8.142171]]
+}

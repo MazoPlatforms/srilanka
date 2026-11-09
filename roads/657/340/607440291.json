@@ -1,0 +1,9 @@
+{
+  "id": 607440291,
+  "name": "Weegollagama Podi Wewa Rd",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40, "motorcycle": 40, "truck": 40, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.168623, 7.707287], [80.168347, 7.707441], [80.16791, 7.707693], [80.167263, 7.70781], [80.166456, 7.707885], [80.166355, 7.707894]]
+}

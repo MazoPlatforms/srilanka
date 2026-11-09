@@ -1,0 +1,9 @@
+{
+  "id": 108340068,
+  "name": "Murugan Kovil Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.20448, 8.595999], [81.204897, 8.59584], [81.204964, 8.595817], [81.205698, 8.595573], [81.206533, 8.595246], [81.20691, 8.595122]]
+}

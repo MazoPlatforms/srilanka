@@ -1,0 +1,9 @@
+{
+  "id": 388178644,
+  "name": "Lekamge Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.965467, 7.052639], [79.965487, 7.052626], [79.965555, 7.052597]]
+}

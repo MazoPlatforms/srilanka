@@ -1,0 +1,9 @@
+{
+  "id": 1503002412,
+  "name": "Lindula-Agarapathana-Dayagama Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.748336, 6.856088], [80.748219, 6.856029], [80.747949, 6.855859], [80.747658, 6.855733], [80.74745, 6.855742]]
+}

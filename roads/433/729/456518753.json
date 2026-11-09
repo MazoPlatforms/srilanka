@@ -1,0 +1,9 @@
+{
+  "id": 456518753,
+  "name": "1/2 akkar road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.688439, 7.496516], [81.688509, 7.496383], [81.688726, 7.496101], [81.688851, 7.495715], [81.689227, 7.492978]]
+}

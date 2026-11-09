@@ -1,0 +1,9 @@
+{
+  "id": 376923149,
+  "name": "Lauries Lane",
+  "highway": "residential",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.857061, 6.894043], [79.857191, 6.894082], [79.85731, 6.894115]]
+}

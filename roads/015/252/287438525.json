@@ -1,0 +1,9 @@
+{
+  "id": 287438525,
+  "name": "Bazar 10th Street",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.803096, 7.371282], [81.803154, 7.371483], [81.803204, 7.371918], [81.803211, 7.372395], [81.803239, 7.372592]]
+}

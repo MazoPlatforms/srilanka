@@ -1,0 +1,9 @@
+{
+  "id": 55327226,
+  "name": "Ihala Indibedda Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.902446, 6.773991], [79.902237, 6.774052], [79.90193, 6.774429], [79.901955, 6.774225], [79.90199, 6.773881]]
+}

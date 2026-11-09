@@ -1,0 +1,9 @@
+{
+  "id": 108292575,
+  "name": "Thirumal Street",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.230463, 8.577268], [81.229723, 8.577827], [81.229521, 8.577649], [81.229116, 8.577292], [81.228905, 8.577275], [81.22847, 8.576856]]
+}

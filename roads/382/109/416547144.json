@@ -1,0 +1,9 @@
+{
+  "id": 416547144,
+  "name": "Deniyaya - Pallegama Road",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.516362, 6.31433], [80.516547, 6.31438], [80.516604, 6.314438], [80.5166, 6.314514], [80.516554, 6.314644], [80.516604, 6.31479], [80.516728, 6.314941], [80.516802, 6.315107]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 491252785,
+  "name": "1st cross road",
+  "highway": "path",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 12, "foot": 4},
+  "coordinates": [[79.988432, 6.836781], [79.988362, 6.836604], [79.988234, 6.836296]]
+}

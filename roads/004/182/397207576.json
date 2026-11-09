@@ -1,0 +1,9 @@
+{
+  "id": 397207576,
+  "name": "Henri Waththa",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.984014, 7.090757], [79.983956, 7.09076], [79.983667, 7.090716], [79.983464, 7.090673]]
+}

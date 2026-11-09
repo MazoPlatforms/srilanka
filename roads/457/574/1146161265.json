@@ -1,0 +1,9 @@
+{
+  "id": 1146161265,
+  "name": "Jungle Beach road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.239453, 6.012208], [80.239391, 6.012702], [80.239343, 6.012796], [80.239183, 6.012959], [80.239114, 6.013076]]
+}

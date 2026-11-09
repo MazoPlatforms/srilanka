@@ -1,0 +1,9 @@
+{
+  "id": 53494595,
+  "name": "Ramakrishna Garden",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.862419, 6.865074], [79.862249, 6.865839]]
+}

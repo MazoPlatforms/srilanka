@@ -1,0 +1,9 @@
+{
+  "id": 53757725,
+  "name": "Simon Abeywickrema Avenue",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.864746, 6.833873], [79.864859, 6.83384], [79.865, 6.833813], [79.86522, 6.83381], [79.865667, 6.833813]]
+}

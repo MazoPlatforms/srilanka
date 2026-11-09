@@ -1,0 +1,9 @@
+{
+  "id": 179241962,
+  "name": "Kali Kovil 7th Cross Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.564909, 7.821452], [81.564452, 7.82191], [81.564079, 7.82231]]
+}

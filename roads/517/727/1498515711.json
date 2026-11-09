@@ -1,0 +1,9 @@
+{
+  "id": 1498515711,
+  "name": "Tissa-Kataragama Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 70.0, "motorcycle": 70.0, "truck": 70.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.291442, 6.285619], [81.291432, 6.285425]]
+}

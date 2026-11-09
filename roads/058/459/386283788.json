@@ -1,0 +1,9 @@
+{
+  "id": 386283788,
+  "name": "Toppi wedapala Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.893299, 7.093921], [79.893259, 7.093883], [79.893242, 7.093828], [79.893361, 7.092728], [79.893337, 7.092687], [79.893275, 7.092669], [79.893034, 7.092674]]
+}

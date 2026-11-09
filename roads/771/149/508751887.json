@@ -1,0 +1,9 @@
+{
+  "id": 508751887,
+  "name": "Vihara Mawatha",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.894378, 6.933888], [79.893884, 6.933881]]
+}

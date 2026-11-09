@@ -1,0 +1,9 @@
+{
+  "id": 517622663,
+  "name": "Wadurassa Tank Rd",
+  "highway": "track",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 15, "foot": 4},
+  "coordinates": [[80.210723, 7.709394], [80.210677, 7.708873], [80.210771, 7.708238], [80.211072, 7.70785], [80.211199, 7.707603]]
+}

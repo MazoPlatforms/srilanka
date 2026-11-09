@@ -1,0 +1,9 @@
+{
+  "id": 1546442342,
+  "name": "Salgaha Pedesa",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 5.0, "motorcycle": 5.0, "truck": 5.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.928402, 6.857586], [79.929381, 6.857433], [79.929759, 6.85738]]
+}

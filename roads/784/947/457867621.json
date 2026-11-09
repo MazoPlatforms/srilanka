@@ -1,0 +1,9 @@
+{
+  "id": 457867621,
+  "name": "2nd Cross Muthalaikkudah",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.715751, 7.624711], [81.715694, 7.624567], [81.715594, 7.623893]]
+}

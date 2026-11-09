@@ -1,0 +1,9 @@
+{
+  "id": 502451025,
+  "name": "Kegalle Bypass",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.368071, 7.250366], [80.368074, 7.250529], [80.368072, 7.250659], [80.368069, 7.250794]]
+}

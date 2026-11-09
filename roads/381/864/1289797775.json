@@ -1,0 +1,9 @@
+{
+  "id": 1289797775,
+  "name": "Rathmalana-Mirihana Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.900959, 6.875362], [79.900917, 6.875166], [79.900862, 6.875045], [79.90077, 6.874914], [79.900685, 6.87484], [79.900556, 6.874744]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 910704407,
+  "name": "Thammannakulama Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.420375, 8.316255], [80.42059, 8.316319], [80.42083, 8.316367], [80.421061, 8.31641], [80.421238, 8.316435]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 627099273,
+  "name": "ner",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[81.384862, 8.267896], [81.384509, 8.264666], [81.384616, 8.262351], [81.384187, 8.26129]]
+}

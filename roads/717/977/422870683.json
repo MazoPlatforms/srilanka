@@ -1,0 +1,9 @@
+{
+  "id": 422870683,
+  "name": "Paasala Pitupasa Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.925247, 7.126641], [79.925379, 7.126626], [79.925739, 7.126604], [79.926254, 7.125997], [79.92623, 7.125857], [79.926785, 7.12566], [79.926889, 7.125575], [79.926965, 7.125477]]
+}

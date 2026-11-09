@@ -1,0 +1,9 @@
+{
+  "id": 1004662870,
+  "name": "shcool road",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 15, "motorcycle": 15, "bicycle": 15, "foot": 5},
+  "coordinates": [[80.540317, 6.831963], [80.540515, 6.83194], [80.540573, 6.832025], [80.540603, 6.832104]]
+}

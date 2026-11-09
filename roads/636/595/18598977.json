@@ -1,0 +1,9 @@
+{
+  "id": 18598977,
+  "name": "Bagatalle Road",
+  "highway": "tertiary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.855135, 6.901097], [79.855194, 6.901073], [79.855219, 6.901067], [79.855273, 6.901055], [79.85533, 6.90105]]
+}

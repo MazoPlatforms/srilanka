@@ -1,0 +1,9 @@
+{
+  "id": 468302811,
+  "name": "Nagathambiran Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.814561, 7.46703], [81.813887, 7.466839], [81.812867, 7.466542], [81.812334, 7.466408], [81.811682, 7.466243]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 525657776,
+  "name": "Samurdhi Office Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 15.0, "motorcycle": 15.0, "truck": 15.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.94862, 6.765392], [80.948757, 6.76545], [80.949004, 6.765523]]
+}

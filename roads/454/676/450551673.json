@@ -1,0 +1,9 @@
+{
+  "id": 450551673,
+  "name": "Kirusna Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.755245, 7.518381], [81.755186, 7.518789], [81.755169, 7.519034], [81.755176, 7.519251], [81.755161, 7.519406]]
+}

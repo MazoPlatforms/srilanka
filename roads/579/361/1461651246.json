@@ -1,0 +1,9 @@
+{
+  "id": 1461651246,
+  "name": "H. Joe Perera Mawatha (Aluthmawatha Road)",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.861764, 6.956939], [79.861531, 6.956695], [79.861476, 6.956636]]
+}

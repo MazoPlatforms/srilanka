@@ -1,0 +1,9 @@
+{
+  "id": 1306547497,
+  "name": "Diyabibila Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.975422, 6.843639], [80.975407, 6.843923], [80.975437, 6.844351], [80.975281, 6.845484], [80.975268, 6.845595], [80.975155, 6.845867], [80.974686, 6.846522]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 412471489,
+  "name": "Anuradhapura-Trincomalee Road",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "foot": 5},
+  "coordinates": [[80.498402, 8.357516], [80.498014, 8.357468]]
+}

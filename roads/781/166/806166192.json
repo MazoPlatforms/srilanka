@@ -1,0 +1,9 @@
+{
+  "id": 806166192,
+  "name": "Munasinhagoda Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.98174, 6.513586], [79.981865, 6.513628], [79.981995, 6.513672]]
+}

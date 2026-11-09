@@ -1,0 +1,9 @@
+{
+  "id": 1107299413,
+  "name": "Parakrama Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.526902, 5.948365], [80.526888, 5.947485], [80.526871, 5.947446], [80.526774, 5.947384]]
+}

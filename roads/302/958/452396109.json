@@ -1,0 +1,9 @@
+{
+  "id": 452396109,
+  "name": "Palasubramaniyam Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.530953, 7.66575], [81.530539, 7.666245], [81.530362, 7.666441], [81.530185, 7.666637], [81.529676, 7.667089]]
+}

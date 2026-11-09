@@ -1,0 +1,9 @@
+{
+  "id": 287438517,
+  "name": "Bazar 1st Street",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.805446, 7.37154], [81.805408, 7.371575], [81.805399, 7.371749], [81.80543, 7.371975], [81.805488, 7.372238], [81.805568, 7.37247], [81.805574, 7.372617]]
+}

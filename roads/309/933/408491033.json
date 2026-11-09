@@ -1,0 +1,9 @@
+{
+  "id": 408491033,
+  "name": "1st lane Jaelawattha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.896093, 7.070198], [79.89605, 7.070073], [79.89601, 7.069963], [79.895995, 7.069911], [79.895967, 7.06985], [79.895931, 7.06978], [79.895913, 7.06975]]
+}

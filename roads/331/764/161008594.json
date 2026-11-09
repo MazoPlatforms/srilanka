@@ -1,0 +1,9 @@
+{
+  "id": 161008594,
+  "name": "SLRC Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.49719, 8.761298], [80.497128, 8.760758], [80.496958, 8.760108], [80.495581, 8.760255], [80.495013, 8.760108]]
+}

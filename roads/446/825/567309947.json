@@ -1,0 +1,9 @@
+{
+  "id": 567309947,
+  "name": "Kandegama Temple Road",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "bicycle": 15, "foot": 5},
+  "coordinates": [[81.219716, 7.680523], [81.218859, 7.680641], [81.218476, 7.680697], [81.217534, 7.681001], [81.217433, 7.681006], [81.217237, 7.68096]]
+}

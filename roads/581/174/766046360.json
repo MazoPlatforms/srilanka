@@ -1,0 +1,9 @@
+{
+  "id": 766046360,
+  "name": "Cinnamon Garden Main Back Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.906949, 7.103909], [79.906585, 7.10386], [79.90616, 7.103824], [79.905751, 7.10379], [79.905413, 7.103769], [79.905388, 7.103757], [79.905381, 7.103729]]
+}

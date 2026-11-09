@@ -1,0 +1,9 @@
+{
+  "id": 402325633,
+  "name": "Royal Terrace",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.99017, 7.042327], [79.990902, 7.043082]]
+}

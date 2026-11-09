@@ -1,0 +1,9 @@
+{
+  "id": 107929985,
+  "name": "Dampitiya Keenagaspitiya Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.26494, 7.506033], [80.264483, 7.506147], [80.264191, 7.50625]]
+}

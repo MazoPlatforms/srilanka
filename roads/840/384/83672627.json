@@ -1,0 +1,9 @@
+{
+  "id": 83672627,
+  "name": "Parakrama Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.946474, 6.914045], [79.946749, 6.914098], [79.946887, 6.914116], [79.946985, 6.914128]]
+}

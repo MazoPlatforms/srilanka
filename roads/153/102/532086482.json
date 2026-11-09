@@ -1,0 +1,9 @@
+{
+  "id": 532086482,
+  "name": "Watarappola Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.873084, 6.838933], [79.872986, 6.839016], [79.872756, 6.839301], [79.872696, 6.839352]]
+}

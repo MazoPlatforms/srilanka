@@ -1,0 +1,9 @@
+{
+  "id": 360905900,
+  "name": "Bharathy community centre road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.471817, 8.765817], [80.470099, 8.765794]]
+}

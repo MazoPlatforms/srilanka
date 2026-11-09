@@ -1,0 +1,9 @@
+{
+  "id": 53791547,
+  "name": "Bankhil Gardens",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.928945, 6.887579], [79.928938, 6.887614], [79.928946, 6.887728], [79.929318, 6.888504]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 53762779,
+  "name": "Flower Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.896946, 6.863134], [79.895927, 6.863764]]
+}

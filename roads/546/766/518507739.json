@@ -1,0 +1,9 @@
+{
+  "id": 518507739,
+  "name": "Bogaha Handiya Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.906104, 6.929255], [79.906086, 6.929398], [79.906067, 6.929613]]
+}

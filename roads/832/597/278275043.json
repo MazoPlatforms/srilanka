@@ -1,0 +1,9 @@
+{
+  "id": 278275043,
+  "name": "Mihindu Mawatha Link",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.859272, 6.935357], [79.859223, 6.935203], [79.859181, 6.93488], [79.859194, 6.934805], [79.859287, 6.934541]]
+}

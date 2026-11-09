@@ -1,0 +1,9 @@
+{
+  "id": 461296395,
+  "name": "Rajaretnam Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.732399, 7.674432], [81.732033, 7.674335], [81.731662, 7.674208], [81.731377, 7.674114], [81.731307, 7.674092], [81.731173, 7.674491]]
+}

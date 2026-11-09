@@ -1,0 +1,9 @@
+{
+  "id": 18599140,
+  "name": "De Vos Avenue",
+  "highway": "residential",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.858129, 6.892103], [79.858078, 6.89209], [79.85786, 6.892037]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 502451020,
+  "name": "Bulathkohupitiya Road",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
+  "coordinates": [[80.343574, 7.248221], [80.343456, 7.248157], [80.343363, 7.248108], [80.343256, 7.248056]]
+}

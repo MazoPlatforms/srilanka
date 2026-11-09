@@ -1,0 +1,9 @@
+{
+  "id": 10548344,
+  "name": "5th Cross Street",
+  "highway": "secondary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.853766, 6.934954], [79.853772, 6.93501], [79.853781, 6.935079], [79.853941, 6.936399], [79.85412, 6.93771], [79.854149, 6.937953]]
+}

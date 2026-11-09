@@ -1,0 +1,9 @@
+{
+  "id": 512157681,
+  "name": "Parakum Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.864498, 7.23929], [79.86514, 7.238433]]
+}

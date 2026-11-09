@@ -1,0 +1,9 @@
+{
+  "id": 152177278,
+  "name": "Old Market Road 2",
+  "highway": "residential",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.550371, 5.945671], [80.550382, 5.945506], [80.550432, 5.944654]]
+}

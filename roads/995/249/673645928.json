@@ -1,0 +1,9 @@
+{
+  "id": 673645928,
+  "name": "Mawanella-Aranayaka Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.45649, 7.211889], [80.456428, 7.211895], [80.456347, 7.211902]]
+}

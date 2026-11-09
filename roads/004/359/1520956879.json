@@ -1,0 +1,9 @@
+{
+  "id": 1520956879,
+  "name": "Diyatalawa-Aluthwela North Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.930987, 6.8139], [80.930709, 6.813739], [80.930581, 6.813669], [80.930482, 6.813627], [80.930354, 6.81358]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 52562886,
+  "name": "Greenlands Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.869022, 6.889572], [79.869006, 6.889313], [79.869002, 6.88928], [79.868974, 6.888896], [79.868925, 6.888188]]
+}

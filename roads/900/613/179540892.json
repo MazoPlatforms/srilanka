@@ -1,0 +1,9 @@
+{
+  "id": 179540892,
+  "name": "sothidar Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.548923, 7.820118], [81.549684, 7.819866], [81.550532, 7.81964], [81.551197, 7.819502], [81.551391, 7.819432]]
+}

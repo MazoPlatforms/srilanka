@@ -1,0 +1,9 @@
+{
+  "id": 404874408,
+  "name": "Main Street",
+  "highway": "residential",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 45, "motorcycle": 45, "truck": 45, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.350941, 6.872811], [81.350851, 6.872796], [81.350774, 6.872785], [81.350673, 6.872786]]
+}

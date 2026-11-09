@@ -1,0 +1,9 @@
+{
+  "id": 229527557,
+  "name": "vempu street",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.785499, 7.566264], [81.785797, 7.566336], [81.786667, 7.56638], [81.787193, 7.566401], [81.787686, 7.566417], [81.789749, 7.566593]]
+}

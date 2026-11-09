@@ -1,0 +1,9 @@
+{
+  "id": 384144355,
+  "name": "Gamini Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.010506, 7.090854], [80.010548, 7.090823], [80.010404, 7.09055], [80.010596, 7.09045], [80.010629, 7.090434], [80.010416, 7.090013]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 457820020,
+  "name": "Sevagapatru Road 1 Cross",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[81.720422, 7.622696], [81.720429, 7.622746], [81.720668, 7.623494]]
+}

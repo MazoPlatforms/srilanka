@@ -1,0 +1,9 @@
+{
+  "id": 1105589732,
+  "name": "Sardhapura-Kanniya Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.161037, 8.568252], [81.160597, 8.566681], [81.160487, 8.566286], [81.16033, 8.565726], [81.160112, 8.564951], [81.160001, 8.564537], [81.159946, 8.564315]]
+}

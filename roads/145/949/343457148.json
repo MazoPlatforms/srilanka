@@ -1,0 +1,9 @@
+{
+  "id": 343457148,
+  "name": "Pattiyawatte Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.982354, 6.920915], [79.982424, 6.920878], [79.982614, 6.920907], [79.982831, 6.920986], [79.983129, 6.921106], [79.983207, 6.921183]]
+}

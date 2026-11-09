@@ -1,0 +1,9 @@
+{
+  "id": 497324444,
+  "name": "Thomputhar Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.645938, 7.716162], [81.64611, 7.716715], [81.646305, 7.717441], [81.646333, 7.717567], [81.646353, 7.717693]]
+}

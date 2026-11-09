@@ -1,0 +1,9 @@
+{
+  "id": 483872819,
+  "name": "Sivan Kovil Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.493511, 7.674086], [81.49409, 7.673947], [81.494595, 7.673703], [81.494871, 7.67353]]
+}

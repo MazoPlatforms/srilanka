@@ -1,0 +1,9 @@
+{
+  "id": 676061626,
+  "name": "Japan-Friendship Road (Osu Uyana Road)",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.928404, 6.879014], [79.928407, 6.878799]]
+}

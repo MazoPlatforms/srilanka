@@ -1,0 +1,9 @@
+{
+  "id": 101876190,
+  "name": "Sri Dalada Veediya",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
+  "coordinates": [[80.63531, 7.293086], [80.635869, 7.293084], [80.635983, 7.293084], [80.637177, 7.293052]]
+}

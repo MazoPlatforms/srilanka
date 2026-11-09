@@ -1,0 +1,9 @@
+{
+  "id": 508506937,
+  "name": "Court lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.894746, 7.071042], [79.89488, 7.071017], [79.894987, 7.070986], [79.895033, 7.070969], [79.89506, 7.070975]]
+}

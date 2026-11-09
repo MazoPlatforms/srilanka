@@ -1,0 +1,9 @@
+{
+  "id": 251285149,
+  "name": "Wewahena Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.047839, 6.876079], [80.047762, 6.875963], [80.047725, 6.875919]]
+}

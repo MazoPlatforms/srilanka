@@ -1,0 +1,9 @@
+{
+  "id": 585994696,
+  "name": "Suprme City 2nd Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.975587, 6.90064], [79.974883, 6.901195], [79.97462, 6.901407]]
+}

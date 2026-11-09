@@ -1,0 +1,9 @@
+{
+  "id": 378068728,
+  "name": "Airforce Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.868929, 7.182887], [79.868858, 7.182884]]
+}

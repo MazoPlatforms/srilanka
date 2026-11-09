@@ -1,0 +1,9 @@
+{
+  "id": 386599798,
+  "name": "Peradesiya Saba Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.524425, 7.911951], [81.524476, 7.912927], [81.524508, 7.913157], [81.524597, 7.91347], [81.524625, 7.913558]]
+}

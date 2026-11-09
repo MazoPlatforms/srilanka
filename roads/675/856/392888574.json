@@ -1,0 +1,9 @@
+{
+  "id": 392888574,
+  "name": "Asoka road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.796428, 6.028926], [80.796565, 6.028903], [80.796857, 6.028903], [80.797514, 6.028948], [80.797873, 6.029006]]
+}

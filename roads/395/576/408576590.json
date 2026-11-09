@@ -1,0 +1,9 @@
+{
+  "id": 408576590,
+  "name": "Nawalapitiya-Ginigathena Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.534331, 7.054854], [80.534249, 7.054808], [80.534189, 7.054782], [80.534139, 7.054766], [80.534068, 7.054749], [80.533989, 7.054737], [80.533876, 7.054726], [80.533669, 7.054729]]
+}

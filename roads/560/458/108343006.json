@@ -1,0 +1,9 @@
+{
+  "id": 108343006,
+  "name": "Vanniyar Street",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.23629, 8.572145], [81.235238, 8.571285], [81.23487, 8.570972], [81.234471, 8.570657]]
+}

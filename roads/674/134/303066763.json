@@ -1,0 +1,9 @@
+{
+  "id": 303066763,
+  "name": "Sri Sumanatissa Mawatha Link",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.866018, 6.939623], [79.866342, 6.939778], [79.866947, 6.940037], [79.866997, 6.940041], [79.867031, 6.940017], [79.867236, 6.939539]]
+}

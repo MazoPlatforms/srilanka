@@ -1,0 +1,9 @@
+{
+  "id": 53146176,
+  "name": "Nihal Silva Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.877151, 6.876785], [79.877217, 6.877223], [79.877253, 6.877249], [79.877705, 6.877167], [79.877727, 6.877145], [79.877665, 6.876589], [79.877624, 6.876377]]
+}

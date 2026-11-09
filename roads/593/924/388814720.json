@@ -1,0 +1,9 @@
+{
+  "id": 388814720,
+  "name": "Holy Cross College Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.006535, 7.089199], [80.007084, 7.088668]]
+}

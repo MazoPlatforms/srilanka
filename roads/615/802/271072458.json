@@ -1,0 +1,9 @@
+{
+  "id": 271072458,
+  "name": "12th lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.971041, 6.901024], [79.970969, 6.901905], [79.970948, 6.902633], [79.971075, 6.90284], [79.971042, 6.903287]]
+}

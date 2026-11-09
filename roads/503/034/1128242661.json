@@ -1,0 +1,9 @@
+{
+  "id": 1128242661,
+  "name": "Bandusiri Soyza Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.920151, 6.700116], [79.919826, 6.699888], [79.919789, 6.699862], [79.919351, 6.699557], [79.919091, 6.699373], [79.918629, 6.69897], [79.918615, 6.698957], [79.917963, 6.698437]]
+}

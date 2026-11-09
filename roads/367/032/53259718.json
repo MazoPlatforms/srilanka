@@ -1,0 +1,9 @@
+{
+  "id": 53259718,
+  "name": "Murugan Place",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.86872, 6.880887], [79.869175, 6.881044], [79.869586, 6.881124]]
+}

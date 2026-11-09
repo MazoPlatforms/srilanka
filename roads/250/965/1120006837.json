@@ -1,0 +1,9 @@
+{
+  "id": 1120006837,
+  "name": "P. de S. Kularatne Mawatha",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.865379, 6.927269], [79.865165, 6.927501], [79.864883, 6.92783], [79.864553, 6.928178], [79.864468, 6.928267]]
+}

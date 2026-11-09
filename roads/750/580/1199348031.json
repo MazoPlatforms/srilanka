@@ -1,0 +1,9 @@
+{
+  "id": 1199348031,
+  "name": "Bombe Stors Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.995177, 6.830108], [80.995242, 6.830083], [80.995301, 6.83008], [80.995387, 6.830087], [80.995464, 6.830097], [80.995533, 6.83013]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 941463067,
+  "name": "Pannai Causeway",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.003632, 9.660409], [80.003362, 9.660017]]
+}

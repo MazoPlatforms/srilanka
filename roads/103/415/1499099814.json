@@ -1,0 +1,9 @@
+{
+  "id": 1499099814,
+  "name": "Dr. Danister de Silva Mawatha (Baseline Road)",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
+  "coordinates": [[79.877996, 6.926907], [79.877987, 6.926669], [79.877979, 6.925794]]
+}

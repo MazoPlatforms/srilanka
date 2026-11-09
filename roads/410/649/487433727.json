@@ -1,0 +1,9 @@
+{
+  "id": 487433727,
+  "name": "Cinnamon Garden Place",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.883202, 6.807753], [79.883621, 6.807991], [79.883771, 6.808076], [79.883803, 6.808094], [79.88386, 6.808133]]
+}

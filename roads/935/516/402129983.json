@@ -1,0 +1,9 @@
+{
+  "id": 402129983,
+  "name": "Puthoor Kovil Road 6th lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.475814, 9.009299], [80.47598, 9.010385], [80.476148, 9.011096]]
+}

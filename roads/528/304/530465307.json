@@ -1,0 +1,9 @@
+{
+  "id": 530465307,
+  "name": "Maussawa Road",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[80.78214, 7.076106], [80.782119, 7.076153], [80.781972, 7.076227]]
+}

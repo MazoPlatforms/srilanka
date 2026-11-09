@@ -1,0 +1,9 @@
+{
+  "id": 1119624916,
+  "name": "Kumbukkana-Okkampitiya-Maligawila Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.342252, 6.732931], [81.342312, 6.732908]]
+}

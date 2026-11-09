@@ -1,0 +1,9 @@
+{
+  "id": 1556633671,
+  "name": "Sambiliturai Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.948628, 9.789263], [79.948318, 9.789465], [79.948213, 9.789535], [79.948129, 9.789604], [79.94805, 9.789688]]
+}

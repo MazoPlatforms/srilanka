@@ -1,0 +1,9 @@
+{
+  "id": 354005804,
+  "name": "Roseville Place",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.922273, 6.970513], [79.922807, 6.970642], [79.923095, 6.97071]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 175025838,
+  "name": "Nelundeniya-Alawwa Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.240516, 7.292758], [80.240581, 7.292729], [80.240649, 7.292706], [80.240737, 7.292695], [80.240859, 7.292691]]
+}

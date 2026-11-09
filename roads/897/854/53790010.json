@@ -1,0 +1,9 @@
+{
+  "id": 53790010,
+  "name": "Weera Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.918161, 6.904896], [79.917785, 6.904561], [79.917746, 6.90454], [79.91771, 6.90456], [79.917486, 6.904978], [79.917224, 6.905454], [79.916944, 6.905988]]
+}

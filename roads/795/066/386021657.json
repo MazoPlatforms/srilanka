@@ -1,0 +1,9 @@
+{
+  "id": 386021657,
+  "name": "Murukan kovil road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.548637, 7.853451], [81.548494, 7.853768], [81.548321, 7.853939], [81.547988, 7.85452], [81.547791, 7.854891], [81.547619, 7.855309], [81.547422, 7.855822]]
+}

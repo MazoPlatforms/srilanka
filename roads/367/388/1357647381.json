@@ -1,0 +1,9 @@
+{
+  "id": 1357647381,
+  "name": "Fourth Beach Avenue",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.833938, 6.931163], [79.833934, 6.931082], [79.833892, 6.930215], [79.833884, 6.930057], [79.833877, 6.929909], [79.833816, 6.928815]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 224459431,
+  "name": "6th Cross Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25.0, "motorcycle": 25.0, "truck": 25.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.714673, 7.722425], [81.714287, 7.722381], [81.713916, 7.722353], [81.713425, 7.722315], [81.713041, 7.722294], [81.712441, 7.722253]]
+}

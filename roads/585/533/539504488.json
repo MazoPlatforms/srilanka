@@ -1,0 +1,9 @@
+{
+  "id": 539504488,
+  "name": "Ruhunukula Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.883675, 6.9141], [79.883719, 6.914219], [79.883855, 6.914547], [79.883906, 6.914667], [79.884182, 6.915244]]
+}

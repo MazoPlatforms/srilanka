@@ -1,0 +1,9 @@
+{
+  "id": 389064291,
+  "name": "Sir Baron Jayatilake Mawatha",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.846984, 6.936557], [79.846785, 6.936495], [79.846727, 6.936483], [79.846172, 6.93634], [79.845621, 6.936207], [79.845485, 6.936175], [79.845319, 6.93614]]
+}

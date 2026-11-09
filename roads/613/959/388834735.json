@@ -1,0 +1,9 @@
+{
+  "id": 388834735,
+  "name": "Bata Ela Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.030479, 7.093866], [80.029965, 7.093999], [80.029945, 7.094], [80.029929, 7.093987], [80.029813, 7.093673], [80.029792, 7.093659]]
+}

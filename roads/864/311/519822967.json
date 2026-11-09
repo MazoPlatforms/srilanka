@@ -1,0 +1,9 @@
+{
+  "id": 519822967,
+  "name": "Suravanaiyadiuttu main road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.707112, 7.532392], [81.706785, 7.531939], [81.706594, 7.531681], [81.706578, 7.531657], [81.706446, 7.531459], [81.706423, 7.531433]]
+}

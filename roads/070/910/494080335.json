@@ -1,0 +1,9 @@
+{
+  "id": 494080335,
+  "name": "Kali Kovil Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.702852, 7.632092], [81.702707, 7.632096], [81.701899, 7.632106]]
+}

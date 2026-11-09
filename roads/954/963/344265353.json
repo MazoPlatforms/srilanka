@@ -1,0 +1,9 @@
+{
+  "id": 344265353,
+  "name": "Prestige City",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.974956, 6.918399], [79.974994, 6.918551], [79.975232, 6.919465], [79.975099, 6.919488]]
+}

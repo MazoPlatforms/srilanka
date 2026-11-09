@@ -1,0 +1,9 @@
+{
+  "id": 377153913,
+  "name": "Govinthan Street",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.226093, 8.59018], [81.225832, 8.590027], [81.225633, 8.589947], [81.224437, 8.588954]]
+}

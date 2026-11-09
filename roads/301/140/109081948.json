@@ -1,0 +1,9 @@
+{
+  "id": 109081948,
+  "name": "Sepalika Place",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.876098, 6.826147], [79.876478, 6.825473], [79.876863, 6.824734], [79.876394, 6.82453], [79.875971, 6.824299], [79.875921, 6.824272], [79.876421, 6.823793]]
+}

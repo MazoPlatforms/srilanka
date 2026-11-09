@@ -1,0 +1,9 @@
+{
+  "id": 1113647295,
+  "name": "Udawatte Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.953676, 6.903026], [79.953804, 6.90322], [79.954128, 6.903801]]
+}

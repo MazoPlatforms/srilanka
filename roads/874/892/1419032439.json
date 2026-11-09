@@ -1,0 +1,9 @@
+{
+  "id": 1419032439,
+  "name": "Galaha - Shriyagama Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40, "motorcycle": 40, "truck": 40, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.676697, 7.195397], [80.676772, 7.195401], [80.676903, 7.195326], [80.677012, 7.19519], [80.677154, 7.19503], [80.67726, 7.195014], [80.67739, 7.195065], [80.677798, 7.195387]]
+}

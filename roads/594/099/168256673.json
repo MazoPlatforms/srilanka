@@ -1,0 +1,9 @@
+{
+  "id": 168256673,
+  "name": "Finance watte Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.918612, 6.697475], [79.919279, 6.696821], [79.919545, 6.696557], [79.919884, 6.69617], [79.920109, 6.695905], [79.920434, 6.695521]]
+}

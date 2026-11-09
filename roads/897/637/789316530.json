@@ -1,0 +1,9 @@
+{
+  "id": 789316530,
+  "name": "Athugalakanda Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.457019, 6.664104], [80.457003, 6.66401], [80.456971, 6.663629], [80.45688, 6.663492], [80.456679, 6.663288]]
+}

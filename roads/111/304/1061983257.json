@@ -1,0 +1,9 @@
+{
+  "id": 1061983257,
+  "name": "Sugarcane Cyltivation Road",
+  "highway": "track",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 15, "foot": 4},
+  "coordinates": [[80.898014, 6.400107], [80.898483, 6.400008], [80.899454, 6.400861]]
+}

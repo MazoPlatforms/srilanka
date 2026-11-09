@@ -1,0 +1,9 @@
+{
+  "id": 430674448,
+  "name": "Lida Para",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.965258, 7.114466], [79.965441, 7.114445], [79.965612, 7.114401], [79.965746, 7.114335], [79.965939, 7.11423], [79.96597, 7.114193], [79.966042, 7.113987]]
+}

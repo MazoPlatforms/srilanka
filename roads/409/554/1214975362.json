@@ -1,0 +1,9 @@
+{
+  "id": 1214975362,
+  "name": "Kal veeddu Thinnaiyadi Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.727303, 7.670593], [81.727253, 7.670578], [81.727214, 7.670558], [81.727164, 7.67054], [81.727119, 7.670487], [81.72709, 7.670469], [81.727004, 7.670437]]
+}

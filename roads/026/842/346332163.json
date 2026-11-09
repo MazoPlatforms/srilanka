@@ -1,0 +1,9 @@
+{
+  "id": 346332163,
+  "name": "Sarana Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.893033, 6.910661], [79.893012, 6.910525], [79.892942, 6.910213]]
+}

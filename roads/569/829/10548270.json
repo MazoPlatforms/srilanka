@@ -1,0 +1,9 @@
+{
+  "id": 10548270,
+  "name": "Sri Saranathissa Nawithi Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.196827, 6.054513], [80.197108, 6.054585], [80.197674, 6.054643], [80.197985, 6.054642], [80.19877, 6.054568], [80.19996, 6.05441]]
+}

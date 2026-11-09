@@ -1,0 +1,9 @@
+{
+  "id": 310189998,
+  "name": "German Quarters Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.842099, 6.321491], [80.842696, 6.321165], [80.842906, 6.32105], [80.843231, 6.320865], [80.843634, 6.320631], [80.844558, 6.320033]]
+}

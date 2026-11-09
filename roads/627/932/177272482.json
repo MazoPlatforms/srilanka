@@ -1,0 +1,9 @@
+{
+  "id": 177272482,
+  "name": "old bridge road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.859186, 7.250235], [81.859582, 7.250286]]
+}

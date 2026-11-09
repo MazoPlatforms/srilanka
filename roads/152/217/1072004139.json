@@ -1,0 +1,9 @@
+{
+  "id": 1072004139,
+  "name": "Navaratnarajah Lane",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[80.49274, 8.81631], [80.493502, 8.816142], [80.49373, 8.81688], [80.49391, 8.816901], [80.494447, 8.816888], [80.494543, 8.817532], [80.494567, 8.817592]]
+}

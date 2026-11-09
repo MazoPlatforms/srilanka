@@ -1,0 +1,9 @@
+{
+  "id": 567252378,
+  "name": "Temple Road",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 15, "motorcycle": 15, "bicycle": 15, "foot": 5},
+  "coordinates": [[80.196755, 6.05502], [80.197309, 6.055098], [80.197653, 6.05521], [80.197706, 6.055247], [80.197824, 6.055492], [80.197501, 6.055993]]
+}

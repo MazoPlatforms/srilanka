@@ -1,0 +1,9 @@
+{
+  "id": 420817427,
+  "name": "Homeleigh Estate Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.97728, 6.900524], [79.97727, 6.900397], [79.977329, 6.899568]]
+}

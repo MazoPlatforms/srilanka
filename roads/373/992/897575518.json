@@ -1,0 +1,9 @@
+{
+  "id": 897575518,
+  "name": "Wijesekara Gardens",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.681359, 7.2786], [80.681603, 7.27855], [80.681738, 7.278513], [80.681842, 7.278488], [80.682119, 7.278385], [80.682192, 7.278349]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 1462109720,
+  "name": "Pamunugama Road (New Negombo Road)",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.865685, 7.027495], [79.865432, 7.027463]]
+}

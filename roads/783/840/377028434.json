@@ -1,0 +1,9 @@
+{
+  "id": 377028434,
+  "name": "Mayra Place",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.896949, 6.757177], [79.896684, 6.757911], [79.896679, 6.757937], [79.896618, 6.758285], [79.896483, 6.759059]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 227914643,
+  "name": "Gamagewatta Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.900587, 6.925401], [79.900294, 6.925412], [79.900052, 6.925428], [79.900015, 6.925386], [79.899967, 6.925008], [79.899902, 6.924773], [79.8998, 6.92455]]
+}

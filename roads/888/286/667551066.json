@@ -1,0 +1,9 @@
+{
+  "id": 667551066,
+  "name": "Thallady-Arippu-Marichchukkaddai Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.92361, 8.936255], [79.923566, 8.936369], [79.923561, 8.936435], [79.923568, 8.936497], [79.923589, 8.936553], [79.923614, 8.936603], [79.923681, 8.936704]]
+}

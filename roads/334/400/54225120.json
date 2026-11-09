@@ -1,0 +1,9 @@
+{
+  "id": 54225120,
+  "name": "Circular Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.895447, 6.910576], [79.895674, 6.911814], [79.895715, 6.911981], [79.895816, 6.912223], [79.896135, 6.912606]]
+}

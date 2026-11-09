@@ -1,0 +1,9 @@
+{
+  "id": 345823254,
+  "name": "Daham Pasal Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.916534, 6.801563], [79.916551, 6.801534], [79.916613, 6.8015], [79.9171, 6.801551], [79.917356, 6.801534], [79.917509, 6.8015]]
+}

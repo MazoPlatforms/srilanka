@@ -1,0 +1,9 @@
+{
+  "id": 616509391,
+  "name": "Wetakeiyawala Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.923401, 6.863369], [79.923112, 6.86348], [79.923086, 6.863552], [79.923316, 6.864194], [79.923374, 6.8643]]
+}

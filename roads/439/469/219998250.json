@@ -1,0 +1,9 @@
+{
+  "id": 219998250,
+  "name": "Babysingam Sathiriyar Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.713125, 7.719253], [81.713072, 7.719601], [81.713067, 7.719633], [81.713022, 7.719877], [81.712996, 7.720222], [81.712984, 7.720384], [81.712965, 7.720589]]
+}

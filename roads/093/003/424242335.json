@@ -1,0 +1,9 @@
+{
+  "id": 424242335,
+  "name": "Ran Muthu Piyasa",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.892207, 7.148994], [79.892252, 7.148812], [79.892419, 7.148156]]
+}

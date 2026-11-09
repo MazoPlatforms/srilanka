@@ -1,0 +1,9 @@
+{
+  "id": 112451438,
+  "name": "Andiamabalama RaddolugamaRoad",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.899556, 7.185229], [79.899637, 7.185523], [79.899968, 7.187083]]
+}

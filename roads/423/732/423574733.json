@@ -1,0 +1,9 @@
+{
+  "id": 423574733,
+  "name": "Prabuddaha Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.896544, 7.124776], [79.89641, 7.124702], [79.895918, 7.124575]]
+}

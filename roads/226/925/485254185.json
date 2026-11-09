@@ -1,0 +1,9 @@
+{
+  "id": 485254185,
+  "name": "Maradana Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.043265, 6.283806], [80.043343, 6.284628], [80.042442, 6.28487], [80.041702, 6.285141], [80.041139, 6.285272]]
+}

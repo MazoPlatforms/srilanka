@@ -1,0 +1,9 @@
+{
+  "id": 386322444,
+  "name": "Isidoru Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.955482, 7.078821], [79.95539, 7.078856], [79.955377, 7.07886], [79.955267, 7.078894], [79.955128, 7.078889], [79.954837, 7.07882], [79.9547, 7.078767]]
+}

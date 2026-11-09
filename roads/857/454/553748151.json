@@ -1,0 +1,9 @@
+{
+  "id": 553748151,
+  "name": "Piliyandala - Kottawa Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.935374, 6.8016], [79.935323, 6.801522], [79.935224, 6.801428], [79.93511, 6.801321], [79.935049, 6.801257], [79.934946, 6.801161], [79.934842, 6.801065], [79.934731, 6.800997]]
+}

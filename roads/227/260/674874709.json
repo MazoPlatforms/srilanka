@@ -1,0 +1,9 @@
+{
+  "id": 674874709,
+  "name": "Karametiya-Kandaketiya Road",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.005956, 7.174136], [81.00592, 7.173925], [81.005915, 7.173898]]
+}

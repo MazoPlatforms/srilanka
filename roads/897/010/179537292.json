@@ -1,0 +1,9 @@
+{
+  "id": 179537292,
+  "name": "Alaimakal Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.561067, 7.819122], [81.560187, 7.818354], [81.559568, 7.817817], [81.558545, 7.816946], [81.558137, 7.816625]]
+}

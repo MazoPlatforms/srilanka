@@ -1,0 +1,9 @@
+{
+  "id": 171206457,
+  "name": "Good Shed Rd",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.960271, 6.58247], [79.960505, 6.582676], [79.960846, 6.582878], [79.960983, 6.582916], [79.961226, 6.582993]]
+}

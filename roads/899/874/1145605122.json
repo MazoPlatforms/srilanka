@@ -1,0 +1,9 @@
+{
+  "id": 1145605122,
+  "name": "Sarana Mawatha",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20},
+  "coordinates": [[79.87347, 6.905588], [79.873494, 6.905509]]
+}

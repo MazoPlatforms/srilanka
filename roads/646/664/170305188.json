@@ -1,0 +1,9 @@
+{
+  "id": 170305188,
+  "name": "Government Quarters Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.117983, 6.125471], [81.117806, 6.126255], [81.11779, 6.126469], [81.117838, 6.126522], [81.119794, 6.126987], [81.11986, 6.126933], [81.120083, 6.126102]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 322290702,
+  "name": "Oddamavadi Bridge",
+  "highway": "trunk",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "foot": 5},
+  "coordinates": [[81.514055, 7.922606], [81.514261, 7.922392], [81.514471, 7.922182], [81.514949, 7.921738], [81.515388, 7.921339], [81.515783, 7.921011]]
+}

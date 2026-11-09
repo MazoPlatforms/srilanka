@@ -1,0 +1,9 @@
+{
+  "id": 1203397593,
+  "name": "Path to hospital OPD",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.781588, 6.973488], [80.781746, 6.973545], [80.781895, 6.973643], [80.782138, 6.973851], [80.782241, 6.973754], [80.782255, 6.973738], [80.782405, 6.973825]]
+}

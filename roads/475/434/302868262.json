@@ -1,0 +1,9 @@
+{
+  "id": 302868262,
+  "name": "Rukmal Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.611195, 7.267135], [80.611231, 7.267033], [80.61138, 7.266253], [80.611505, 7.265956]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 330236376,
+  "name": "Rajawaka-Kapugala Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.801172, 6.581874], [80.800767, 6.58205]]
+}

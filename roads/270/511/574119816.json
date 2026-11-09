@@ -1,0 +1,9 @@
+{
+  "id": 574119816,
+  "name": "Asoka Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.611919, 7.271557], [80.611865, 7.271626], [80.611795, 7.271704], [80.611748, 7.271727], [80.611695, 7.271733]]
+}

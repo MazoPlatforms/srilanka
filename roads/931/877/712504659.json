@@ -1,0 +1,9 @@
+{
+  "id": 712504659,
+  "name": "Getangama Temple Road",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "bicycle": 15, "foot": 5},
+  "coordinates": [[80.392783, 6.67212], [80.393194, 6.672015], [80.393393, 6.671914], [80.393482, 6.671807]]
+}

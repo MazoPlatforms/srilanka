@@ -1,0 +1,9 @@
+{
+  "id": 696231502,
+  "name": "Oddusuddan-Puthukkudiyiruppu Main Road",
+  "highway": "tertiary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40, "motorcycle": 40, "truck": 40, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.696308, 9.313603], [80.696284, 9.313551], [80.696259, 9.313509], [80.696223, 9.313448], [80.696182, 9.31339]]
+}

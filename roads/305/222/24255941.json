@@ -1,0 +1,9 @@
+{
+  "id": 24255941,
+  "name": "Sir Chittampalam A. Gardiner Mawatha",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
+  "coordinates": [[79.847074, 6.931218], [79.847104, 6.931082], [79.847119, 6.93102]]
+}

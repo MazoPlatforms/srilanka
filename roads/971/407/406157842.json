@@ -1,0 +1,9 @@
+{
+  "id": 406157842,
+  "name": "Villewatta 2nd Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.889566, 7.096834], [79.889129, 7.096852], [79.889101, 7.096822], [79.889115, 7.096659], [79.889107, 7.096629], [79.888917, 7.096612], [79.888278, 7.096572]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 354005850,
+  "name": "Mankumpan School Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.936993, 9.638319], [79.937581, 9.639349], [79.93808, 9.640269], [79.938504, 9.641145], [79.938858, 9.641896], [79.939312, 9.642859]]
+}

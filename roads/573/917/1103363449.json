@@ -1,0 +1,9 @@
+{
+  "id": 1103363449,
+  "name": "Talawatugoda Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.926626, 6.876969], [79.926689, 6.876964], [79.926835, 6.876952], [79.926902, 6.876947], [79.926923, 6.876945], [79.927088, 6.876932], [79.927233, 6.87692]]
+}

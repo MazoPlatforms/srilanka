@@ -1,0 +1,9 @@
+{
+  "id": 516775922,
+  "name": "Chongama Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.928271, 6.927121], [79.928037, 6.92719], [79.927702, 6.927278]]
+}

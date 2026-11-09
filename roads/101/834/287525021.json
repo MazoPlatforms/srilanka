@@ -1,0 +1,9 @@
+{
+  "id": 287525021,
+  "name": "Grant Mosque Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.801574, 7.371862], [81.801381, 7.371928], [81.800893, 7.372001], [81.800185, 7.372178], [81.799936, 7.372211], [81.799429, 7.372275]]
+}

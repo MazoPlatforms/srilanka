@@ -1,0 +1,9 @@
+{
+  "id": 288669168,
+  "name": "Varayer Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.798076, 7.366282], [81.798018, 7.367049], [81.797986, 7.367529], [81.797888, 7.368091]]
+}

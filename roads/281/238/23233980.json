@@ -1,0 +1,9 @@
+{
+  "id": 23233980,
+  "name": "Mahaanaama Bridge",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "foot": 5},
+  "coordinates": [[80.548818, 5.946497], [80.548812, 5.945427]]
+}

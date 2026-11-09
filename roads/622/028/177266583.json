@@ -1,0 +1,9 @@
+{
+  "id": 177266583,
+  "name": "Radagopal Road - Selvapuram",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.859869, 6.969511], [81.860418, 6.969232], [81.860941, 6.968934], [81.861324, 6.968834], [81.861487, 6.968801], [81.862346, 6.968614]]
+}

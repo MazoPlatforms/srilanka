@@ -1,0 +1,9 @@
+{
+  "id": 54030171,
+  "name": "Udeniwatte Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.915455, 6.864343], [79.913153, 6.864339], [79.912423, 6.864173]]
+}

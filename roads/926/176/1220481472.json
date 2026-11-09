@@ -1,0 +1,9 @@
+{
+  "id": 1220481472,
+  "name": "Kulakkarai Lane",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 15, "motorcycle": 15, "bicycle": 15, "foot": 5},
+  "coordinates": [[80.018972, 9.717439], [80.019149, 9.718019]]
+}

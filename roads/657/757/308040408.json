@@ -1,0 +1,9 @@
+{
+  "id": 308040408,
+  "name": "Deniyawatte Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.926984, 6.904154], [79.926989, 6.904743], [79.926912, 6.904923], [79.926754, 6.905053], [79.926412, 6.905309], [79.926398, 6.905354]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 565488841,
+  "name": "Circular Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.009287, 9.665053], [80.009163, 9.665074], [80.009008, 9.665121]]
+}

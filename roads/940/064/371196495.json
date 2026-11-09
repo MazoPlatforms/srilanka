@@ -1,0 +1,9 @@
+{
+  "id": 371196495,
+  "name": "Elkaduwa Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.677627, 7.373897], [80.677668, 7.374016], [80.677848, 7.374332], [80.67792, 7.374647], [80.677928, 7.374727]]
+}

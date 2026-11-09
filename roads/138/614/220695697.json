@@ -1,0 +1,9 @@
+{
+  "id": 220695697,
+  "name": "Semakalai Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.721725, 7.692704], [81.722006, 7.692838], [81.722969, 7.693246], [81.723413, 7.693492]]
+}

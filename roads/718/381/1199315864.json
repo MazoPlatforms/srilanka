@@ -1,0 +1,9 @@
+{
+  "id": 1199315864,
+  "name": "Kurunthadithottam Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.180289, 9.801713], [80.180383, 9.801901], [80.180458, 9.802071], [80.180498, 9.802154], [80.180568, 9.802345], [80.180738, 9.802267], [80.18089, 9.802195]]
+}

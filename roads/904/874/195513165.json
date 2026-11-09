@@ -1,0 +1,9 @@
+{
+  "id": 195513165,
+  "name": "St Ann's Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.033827, 9.65834], [80.033791, 9.658256], [80.033736, 9.65812], [80.033833, 9.658071], [80.034208, 9.657882]]
+}

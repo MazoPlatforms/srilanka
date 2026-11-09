@@ -1,0 +1,9 @@
+{
+  "id": 400424349,
+  "name": "Samagi Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.916338, 7.039778], [79.916306, 7.039728], [79.916295, 7.039659], [79.916279, 7.039225], [79.916284, 7.039177]]
+}

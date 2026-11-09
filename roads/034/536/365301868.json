@@ -1,0 +1,9 @@
+{
+  "id": 365301868,
+  "name": "Gamini Dissanayake Rd",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.609624, 7.269475], [80.609686, 7.269076], [80.609774, 7.268851]]
+}

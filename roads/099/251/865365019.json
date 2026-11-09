@@ -1,0 +1,9 @@
+{
+  "id": 865365019,
+  "name": "Adanagalawaththa Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.081628, 6.659549], [80.081634, 6.659445], [80.08169, 6.659274], [80.081805, 6.659113], [80.082041, 6.658881]]
+}

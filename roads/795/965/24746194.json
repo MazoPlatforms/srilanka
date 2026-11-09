@@ -1,0 +1,9 @@
+{
+  "id": 24746194,
+  "name": "Durdans Hospital - Inside Road",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 15, "motorcycle": 15, "bicycle": 15, "foot": 5},
+  "coordinates": [[79.85338, 6.901717], [79.853341, 6.901904], [79.853343, 6.901923], [79.853355, 6.901946], [79.853721, 6.902047], [79.853735, 6.90205], [79.85375, 6.902042], [79.853814, 6.901853]]
+}

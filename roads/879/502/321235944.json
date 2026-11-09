@@ -1,0 +1,9 @@
+{
+  "id": 321235944,
+  "name": "Matara-Hambantota Road",
+  "highway": "trunk",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 70.0, "motorcycle": 70.0, "truck": 70.0, "foot": 5},
+  "coordinates": [[80.794983, 6.028751], [80.795211, 6.028951]]
+}

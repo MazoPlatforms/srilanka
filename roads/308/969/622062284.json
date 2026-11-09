@@ -1,0 +1,9 @@
+{
+  "id": 622062284,
+  "name": "Kadahapolamulla Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.123917, 7.430517], [80.123909, 7.430568], [80.123693, 7.430767], [80.12363, 7.430891], [80.123598, 7.431027], [80.123594, 7.43116], [80.123665, 7.431368], [80.123654, 7.431413]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 504229261,
+  "name": "Kachcheri Road",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.366784, 7.492881], [80.366841, 7.492827]]
+}

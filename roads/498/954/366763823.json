@@ -1,0 +1,9 @@
+{
+  "id": 366763823,
+  "name": "CEB Horana",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 15, "motorcycle": 15, "bicycle": 15, "foot": 5},
+  "coordinates": [[80.063845, 6.71132], [80.064186, 6.710836]]
+}

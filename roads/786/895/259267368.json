@@ -1,0 +1,9 @@
+{
+  "id": 259267368,
+  "name": "Walgahawela Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.956991, 6.806847], [80.957066, 6.806903], [80.957135, 6.806944], [80.957239, 6.806997]]
+}

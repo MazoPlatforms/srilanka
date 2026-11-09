@@ -1,0 +1,9 @@
+{
+  "id": 351305220,
+  "name": "Moratuwa-Piliyandala Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.922009, 6.801439], [79.922207, 6.801524], [79.922452, 6.801647], [79.922685, 6.801789]]
+}

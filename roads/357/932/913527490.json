@@ -1,0 +1,9 @@
+{
+  "id": 913527490,
+  "name": "Cable Bridge",
+  "highway": "footway",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 8, "foot": 5},
+  "coordinates": [[80.542346, 6.976791], [80.542423, 6.976789]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 28531127,
+  "name": "St. Nicholas Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.832192, 7.206325], [79.832109, 7.206293], [79.831816, 7.206116]]
+}

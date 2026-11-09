@@ -1,0 +1,9 @@
+{
+  "id": 8170204,
+  "name": "Middle Street",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.215496, 6.028459], [80.215585, 6.028352], [80.215773, 6.028154], [80.215903, 6.028045], [80.216098, 6.027992], [80.216234, 6.027983], [80.216318, 6.027987]]
+}

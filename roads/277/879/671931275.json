@@ -1,0 +1,9 @@
+{
+  "id": 671931275,
+  "name": "Kottawa - Horana Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.965142, 6.841251], [79.965142, 6.841177], [79.96513, 6.841128], [79.965114, 6.841081], [79.965092, 6.841032], [79.965098, 6.840982], [79.965033, 6.840937]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 340454766,
+  "name": "Pulipainthakal Bridge",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40, "motorcycle": 40, "truck": 40, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.505905, 7.863682], [81.506439, 7.863428]]
+}

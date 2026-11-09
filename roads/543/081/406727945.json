@@ -1,0 +1,9 @@
+{
+  "id": 406727945,
+  "name": "May Rajina 1st Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.889345, 7.061407], [79.889241, 7.061259], [79.888563, 7.060476]]
+}

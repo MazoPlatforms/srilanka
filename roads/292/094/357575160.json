@@ -1,0 +1,9 @@
+{
+  "id": 357575160,
+  "name": "Welpalla-Makandura Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.986289, 7.343877], [79.986239, 7.343736], [79.986178, 7.343601], [79.985694, 7.343033], [79.985629, 7.34286], [79.985622, 7.342768]]
+}

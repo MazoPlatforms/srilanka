@@ -1,0 +1,9 @@
+{
+  "id": 361370712,
+  "name": "Bulugahawewa Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.832414, 7.368135], [79.83368, 7.368431], [79.834525, 7.368552], [79.835167, 7.36872], [79.835834, 7.36877], [79.836046, 7.368673], [79.836744, 7.368916]]
+}

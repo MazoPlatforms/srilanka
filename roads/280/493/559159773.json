@@ -1,0 +1,9 @@
+{
+  "id": 559159773,
+  "name": "Araliya Lands Private Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.998002, 7.042464], [79.997946, 7.04241], [79.997517, 7.042023]]
+}

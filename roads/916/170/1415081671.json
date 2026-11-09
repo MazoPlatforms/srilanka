@@ -1,0 +1,9 @@
+{
+  "id": 1415081671,
+  "name": "Ayurvedic road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.501429, 8.355428], [80.502168, 8.355221], [80.502248, 8.355096], [80.501531, 8.352548]]
+}

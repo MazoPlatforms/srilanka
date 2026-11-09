@@ -1,0 +1,9 @@
+{
+  "id": 492937306,
+  "name": "Kaddumurivu Main Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.326795, 8.144001], [81.326931, 8.143587], [81.327086, 8.142976]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 1488989016,
+  "name": "Old Kandy Road (Old Bazaar Street)",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.765476, 6.975985], [80.765523, 6.975947]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 669628773,
+  "name": "Butterfly Walk",
+  "highway": "footway",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 8, "foot": 5},
+  "coordinates": [[79.909431, 6.89157], [79.90944, 6.891478], [79.909509, 6.890658], [79.909523, 6.889883], [79.909524, 6.889819]]
+}

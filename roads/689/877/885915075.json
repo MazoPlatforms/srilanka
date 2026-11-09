@@ -1,0 +1,9 @@
+{
+  "id": 885915075,
+  "name": "Thetkilupaikulam Velikulam road 2nd lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.512352, 8.743418], [80.512102, 8.74234], [80.511874, 8.741363], [80.511868, 8.741293]]
+}

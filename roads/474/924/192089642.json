@@ -1,0 +1,9 @@
+{
+  "id": 192089642,
+  "name": "Ragama-Kadawatha 5th Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.923225, 7.027138], [79.923147, 7.027395], [79.923128, 7.027708], [79.92313, 7.027882], [79.923165, 7.027961], [79.923228, 7.028069]]
+}

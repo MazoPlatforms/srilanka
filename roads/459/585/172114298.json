@@ -1,0 +1,9 @@
+{
+  "id": 172114298,
+  "name": "Kadugannawa Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.571003, 7.164758], [80.570636, 7.164976]]
+}

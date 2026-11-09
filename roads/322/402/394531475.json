@@ -1,0 +1,9 @@
+{
+  "id": 394531475,
+  "name": "Siribara Manike Road",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[79.89832, 6.795631], [79.898398, 6.795196], [79.898479, 6.79483], [79.898529, 6.794719], [79.898613, 6.794721], [79.898731, 6.794754], [79.898822, 6.794767]]
+}

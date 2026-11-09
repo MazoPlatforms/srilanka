@@ -1,0 +1,9 @@
+{
+  "id": 488171234,
+  "name": "Main Cross Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.552648, 7.827966], [81.552344, 7.827923], [81.552053, 7.827859]]
+}

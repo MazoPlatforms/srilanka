@@ -1,0 +1,9 @@
+{
+  "id": 1419168947,
+  "name": "Ketawala Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.031993, 6.95633], [81.03189, 6.956348], [81.031726, 6.956345], [81.031475, 6.956283]]
+}

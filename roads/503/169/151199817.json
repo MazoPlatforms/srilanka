@@ -1,0 +1,9 @@
+{
+  "id": 151199817,
+  "name": "Imaduwa Road",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.393212, 6.026816], [80.39327, 6.027094]]
+}

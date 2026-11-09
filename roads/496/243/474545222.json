@@ -1,0 +1,9 @@
+{
+  "id": 474545222,
+  "name": "Weraluwila road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.963391, 6.932087], [79.963335, 6.93221], [79.963309, 6.932301], [79.963317, 6.932388], [79.963348, 6.932447], [79.96347, 6.932527]]
+}

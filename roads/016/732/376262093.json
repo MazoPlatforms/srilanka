@@ -1,0 +1,9 @@
+{
+  "id": 376262093,
+  "name": "Mahamaditta Road",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.669801, 6.121067], [80.669827, 6.120781], [80.669872, 6.120333], [80.670006, 6.119884], [80.670099, 6.119497]]
+}

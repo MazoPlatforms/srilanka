@@ -1,0 +1,9 @@
+{
+  "id": 373606218,
+  "name": "Polonmaruwa-Beliatte Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.773081, 6.050386], [80.772791, 6.051024], [80.772357, 6.051982], [80.771824, 6.053268]]
+}

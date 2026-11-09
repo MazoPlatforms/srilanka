@@ -1,0 +1,9 @@
+{
+  "id": 691469450,
+  "name": "Old Kalmunai Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.710217, 7.712359], [81.710114, 7.712367], [81.710054, 7.712398]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 315565418,
+  "name": "Rest House Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.405752, 6.996623], [80.405742, 6.996479], [80.40572, 6.996216], [80.405743, 6.995878]]
+}

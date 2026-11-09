@@ -1,0 +1,9 @@
+{
+  "id": 172259887,
+  "name": "Buwanekabahu Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.564882, 7.159722], [80.56495, 7.159766], [80.565032, 7.159773]]
+}

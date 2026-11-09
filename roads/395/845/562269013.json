@@ -1,0 +1,9 @@
+{
+  "id": 562269013,
+  "name": "Magmmana-Kurupetta-Daigala-Gurugalla Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.236559, 7.018819], [80.236601, 7.018691]]
+}

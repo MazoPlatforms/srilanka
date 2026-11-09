@@ -1,0 +1,9 @@
+{
+  "id": 493616519,
+  "name": "school Road",
+  "highway": "track",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 15, "foot": 4},
+  "coordinates": [[81.627553, 7.556971], [81.627624, 7.556356], [81.627572, 7.556255], [81.627397, 7.556133]]
+}

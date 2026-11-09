@@ -1,0 +1,9 @@
+{
+  "id": 179755488,
+  "name": "Bernerdette Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.894455, 7.055879], [79.894624, 7.055658], [79.894797, 7.055444], [79.894825, 7.055382], [79.894869, 7.055058]]
+}

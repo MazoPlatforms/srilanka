@@ -1,0 +1,9 @@
+{
+  "id": 458048512,
+  "name": "Barathi 2nd Cross",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.710612, 7.610625], [81.710654, 7.610832], [81.710658, 7.611122], [81.710645, 7.611383], [81.710667, 7.611654], [81.710676, 7.612053], [81.710653, 7.612091]]
+}

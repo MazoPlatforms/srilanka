@@ -1,0 +1,9 @@
+{
+  "id": 381705202,
+  "name": "Watagoda Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.592222, 7.391149], [80.592182, 7.391252]]
+}

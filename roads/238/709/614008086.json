@@ -1,0 +1,9 @@
+{
+  "id": 614008086,
+  "name": "RB Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.157949, 7.807624], [80.158433, 7.80727], [80.159415, 7.806385], [80.159513, 7.806252], [80.161486, 7.803967], [80.161816, 7.803631]]
+}

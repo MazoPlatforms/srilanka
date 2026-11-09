@@ -1,0 +1,9 @@
+{
+  "id": 1123104355,
+  "name": "Dambagalle-Deliwa-Baduluwela Road",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.429486, 7.084321], [81.429444, 7.084297], [81.429426, 7.084279], [81.429402, 7.08426], [81.42917, 7.084049], [81.429036, 7.084101]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 170183397,
+  "name": "Bandarawatte Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.526028, 5.944802], [80.525996, 5.945427], [80.525965, 5.945893], [80.526139, 5.945898]]
+}

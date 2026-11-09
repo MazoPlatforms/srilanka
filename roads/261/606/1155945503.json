@@ -1,0 +1,9 @@
+{
+  "id": 1155945503,
+  "name": "Thurusevana Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.013624, 7.055838], [80.013716, 7.055723], [80.014158, 7.055231], [80.014745, 7.054603], [80.014777, 7.054601], [80.014976, 7.054722]]
+}

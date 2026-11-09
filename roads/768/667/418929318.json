@@ -1,0 +1,9 @@
+{
+  "id": 418929318,
+  "name": "Athwata Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.88363, 7.13705], [79.883872, 7.137212], [79.884182, 7.137394], [79.884297, 7.137417], [79.885021, 7.137445], [79.885415, 7.137541], [79.88601, 7.137663]]
+}

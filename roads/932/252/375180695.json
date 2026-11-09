@@ -1,0 +1,9 @@
+{
+  "id": 375180695,
+  "name": "Sri Sumangala Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.304934, 7.33659], [80.304936, 7.336667], [80.304963, 7.337568]]
+}

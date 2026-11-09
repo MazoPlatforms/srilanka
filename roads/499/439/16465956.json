@@ -1,0 +1,9 @@
+{
+  "id": 16465956,
+  "name": "New Lane I",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.217998, 6.025374], [80.218246, 6.025425], [80.218395, 6.025456], [80.218634, 6.025504], [80.218924, 6.025517]]
+}

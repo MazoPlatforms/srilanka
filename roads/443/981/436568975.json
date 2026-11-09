@@ -1,0 +1,9 @@
+{
+  "id": 436568975,
+  "name": "Kadedduwa Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.51339, 5.9765], [80.513296, 5.97643], [80.512934, 5.976238], [80.512788, 5.976183], [80.512617, 5.976144], [80.512107, 5.976099]]
+}

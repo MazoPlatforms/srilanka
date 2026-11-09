@@ -1,0 +1,9 @@
+{
+  "id": 385521337,
+  "name": "65th Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.907324, 7.122481], [79.908154, 7.122489]]
+}

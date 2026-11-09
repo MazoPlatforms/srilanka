@@ -1,0 +1,9 @@
+{
+  "id": 435415146,
+  "name": "Jumma Masjid Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.938943, 7.161685], [79.938958, 7.161689], [79.93906, 7.161723], [79.939497, 7.161869]]
+}

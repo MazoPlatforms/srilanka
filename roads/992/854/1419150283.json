@@ -1,0 +1,9 @@
+{
+  "id": 1419150283,
+  "name": "Demodera-Spring Valley-Badulla Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.063385, 6.900627], [81.063258, 6.900881], [81.063011, 6.901257], [81.062923, 6.901449], [81.062888, 6.901718]]
+}

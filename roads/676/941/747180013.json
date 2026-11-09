@@ -1,0 +1,9 @@
+{
+  "id": 747180013,
+  "name": "Mobitel Engineering Office Entrance Road",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 15, "motorcycle": 15, "bicycle": 15, "foot": 5},
+  "coordinates": [[79.881401, 6.920987], [79.881381, 6.92098], [79.881354, 6.920986], [79.881306, 6.921014], [79.881271, 6.92104], [79.881208, 6.921089]]
+}

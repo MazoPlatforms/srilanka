@@ -1,0 +1,9 @@
+{
+  "id": 1022519468,
+  "name": "Norton-Maskeliya Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.505435, 6.914091], [80.505495, 6.913906]]
+}

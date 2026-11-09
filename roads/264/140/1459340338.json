@@ -1,0 +1,9 @@
+{
+  "id": 1459340338,
+  "name": "Radampola Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.671797, 6.002697], [80.671851, 6.002697], [80.671893, 6.002693], [80.671933, 6.002684], [80.672003, 6.002664]]
+}

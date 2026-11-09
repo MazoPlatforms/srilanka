@@ -1,0 +1,9 @@
+{
+  "id": 382385183,
+  "name": "Suramya Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.997509, 7.029756], [79.997553, 7.030325], [79.997601, 7.030491], [79.99763, 7.03093], [79.997656, 7.031103], [79.997725, 7.031293]]
+}

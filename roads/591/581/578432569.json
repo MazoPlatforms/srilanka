@@ -1,0 +1,9 @@
+{
+  "id": 578432569,
+  "name": "Bandarawela-Liyangahawela-Poonagala Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.03327, 6.800882], [81.033336, 6.800851], [81.033416, 6.80083]]
+}

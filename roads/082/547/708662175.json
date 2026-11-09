@@ -1,0 +1,9 @@
+{
+  "id": 708662175,
+  "name": "Warwick State Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.829198, 6.900091], [80.829171, 6.900022]]
+}

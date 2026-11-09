@@ -1,0 +1,9 @@
+{
+  "id": 471344865,
+  "name": "Averihena Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.878863, 6.88337], [79.879042, 6.88337], [79.879224, 6.883371], [79.879244, 6.883371], [79.879447, 6.883371]]
+}

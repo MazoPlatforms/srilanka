@@ -1,0 +1,9 @@
+{
+  "id": 744683924,
+  "name": "Chunnakam-Mahiyapiddy Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.006882, 9.755477], [80.007074, 9.755328]]
+}

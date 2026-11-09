@@ -1,0 +1,9 @@
+{
+  "id": 310190012,
+  "name": "Nidahas mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.844003, 6.325368], [80.844213, 6.324915], [80.844558, 6.324186], [80.844767, 6.323813]]
+}

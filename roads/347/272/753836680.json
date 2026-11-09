@@ -1,0 +1,9 @@
+{
+  "id": 753836680,
+  "name": "Inginimitiya Reservoir Road",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.133265, 7.952793], [80.133136, 7.952219]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 457180119,
+  "name": "School Road 2 St Cross",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.743012, 7.592901], [81.743085, 7.592456], [81.74315, 7.592266], [81.743166, 7.592107], [81.743128, 7.591527], [81.743071, 7.591327], [81.743056, 7.591033], [81.7431, 7.59062]]
+}

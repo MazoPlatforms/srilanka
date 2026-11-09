@@ -1,0 +1,9 @@
+{
+  "id": 483603262,
+  "name": "Kali Kovil Road 2nd Cross",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.617803, 7.768619], [81.618179, 7.768495], [81.618559, 7.768326]]
+}

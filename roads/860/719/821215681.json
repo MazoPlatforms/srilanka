@@ -1,0 +1,9 @@
+{
+  "id": 821215681,
+  "name": "Fairlawn Estate Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.623711, 6.779402], [80.623416, 6.779874], [80.623233, 6.780157]]
+}

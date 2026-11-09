@@ -1,0 +1,9 @@
+{
+  "id": 1070554507,
+  "name": "Dr. Danister de Silva Mawatha",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
+  "coordinates": [[79.878524, 6.948145], [79.878521, 6.948005], [79.87852, 6.947969]]
+}

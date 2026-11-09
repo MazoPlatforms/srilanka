@@ -1,0 +1,9 @@
+{
+  "id": 401155344,
+  "name": "Piachaud Garden",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.621883, 7.284851], [80.622064, 7.284751], [80.622338, 7.284685], [80.622502, 7.284512]]
+}

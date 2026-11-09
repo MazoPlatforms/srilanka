@@ -1,0 +1,9 @@
+{
+  "id": 867918296,
+  "name": "Dispensary road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.846095, 7.318828], [79.8463, 7.318808], [79.84734, 7.31875], [79.848444, 7.318724]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 526263011,
+  "name": "M.A. Pieries Lane",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[79.880443, 6.881649], [79.88102, 6.881407], [79.881606, 6.881138], [79.881805, 6.881072], [79.882186, 6.881201], [79.882564, 6.881186], [79.882692, 6.88114]]
+}

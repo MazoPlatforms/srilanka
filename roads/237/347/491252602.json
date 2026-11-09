@@ -1,0 +1,9 @@
+{
+  "id": 491252602,
+  "name": "Pragathipura Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.178016, 6.955515], [80.177903, 6.95522], [80.177552, 6.954534], [80.177329, 6.954242], [80.17657, 6.95379]]
+}

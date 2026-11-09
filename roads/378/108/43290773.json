@@ -1,0 +1,9 @@
+{
+  "id": 43290773,
+  "name": "Kulathunga Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.91251, 6.723397], [79.911912, 6.723591], [79.911482, 6.723651], [79.911156, 6.723696], [79.910391, 6.723728], [79.909511, 6.723513], [79.908826, 6.723526]]
+}

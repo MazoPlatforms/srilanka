@@ -1,0 +1,9 @@
+{
+  "id": 287525026,
+  "name": "Arasady Road",
+  "highway": "residential",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.798887, 7.370705], [81.798904, 7.371136], [81.798918, 7.371488]]
+}

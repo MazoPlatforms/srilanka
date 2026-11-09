@@ -1,0 +1,9 @@
+{
+  "id": 161731095,
+  "name": "Samagi Uyana",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.96155, 6.811515], [79.961545, 6.811481], [79.961359, 6.810168]]
+}

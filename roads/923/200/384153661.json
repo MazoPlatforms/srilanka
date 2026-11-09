@@ -1,0 +1,9 @@
+{
+  "id": 384153661,
+  "name": "Jeyakodiwaththa Cross Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.964734, 7.065901], [79.964943, 7.065885], [79.96558, 7.065825]]
+}

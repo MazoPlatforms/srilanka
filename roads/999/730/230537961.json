@@ -1,0 +1,9 @@
+{
+  "id": 230537961,
+  "name": "Kosthapar Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.848633, 7.127772], [81.849478, 7.127788], [81.850058, 7.127846], [81.851045, 7.127818]]
+}

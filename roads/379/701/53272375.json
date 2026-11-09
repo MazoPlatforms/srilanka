@@ -1,0 +1,9 @@
+{
+  "id": 53272375,
+  "name": "Saddhamarama Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.882351, 6.88996], [79.882349, 6.889732], [79.88202, 6.88853]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 316505275,
+  "name": "Aaramaya Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.552879, 7.170539], [80.553038, 7.170418], [80.553192, 7.170373], [80.553777, 7.170368], [80.553952, 7.17033], [80.55405, 7.170272], [80.554357, 7.170194]]
+}

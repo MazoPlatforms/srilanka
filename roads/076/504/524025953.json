@@ -1,0 +1,9 @@
+{
+  "id": 524025953,
+  "name": "vaikkalla main road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.691672, 7.487891], [81.692181, 7.488125], [81.692841, 7.488426], [81.693466, 7.488719], [81.695025, 7.489465]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 155773646,
+  "name": "Sukkuru Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.691483, 7.740204], [81.691684, 7.740414], [81.691883, 7.740627], [81.692064, 7.740976], [81.69215, 7.741146], [81.692357, 7.741549]]
+}

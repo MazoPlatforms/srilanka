@@ -1,0 +1,9 @@
+{
+  "id": 98963842,
+  "name": "Chandra Silva Mawatha",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.891701, 6.877935], [79.891788, 6.877929], [79.891867, 6.877918]]
+}

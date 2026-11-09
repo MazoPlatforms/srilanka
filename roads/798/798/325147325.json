@@ -1,0 +1,9 @@
+{
+  "id": 325147325,
+  "name": "Kalyana Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.838763, 7.396805], [81.838712, 7.397613], [81.838679, 7.39789], [81.838656, 7.398239], [81.838637, 7.398923], [81.838575, 7.399883]]
+}

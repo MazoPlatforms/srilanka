@@ -1,0 +1,9 @@
+{
+  "id": 52936203,
+  "name": "New Baladaksha Mawatha",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.847743, 6.923397], [79.847607, 6.923475], [79.847283, 6.923657]]
+}

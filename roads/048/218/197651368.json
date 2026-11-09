@@ -1,0 +1,9 @@
+{
+  "id": 197651368,
+  "name": "Dewala Veediya",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.059292, 6.987425], [81.059006, 6.987267], [81.058878, 6.987171], [81.058659, 6.987077], [81.057391, 6.98677]]
+}

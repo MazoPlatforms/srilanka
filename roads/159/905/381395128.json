@@ -1,0 +1,9 @@
+{
+  "id": 381395128,
+  "name": "Dream Park Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.913615, 7.123421], [79.914013, 7.124439], [79.914197, 7.124954]]
+}

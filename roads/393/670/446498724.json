@@ -1,0 +1,9 @@
+{
+  "id": 446498724,
+  "name": "Nawalapitiya-Harangala Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.538511, 7.061027], [80.53867, 7.061367]]
+}

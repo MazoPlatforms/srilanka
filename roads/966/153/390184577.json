@@ -1,0 +1,9 @@
+{
+  "id": 390184577,
+  "name": "Kurudugaha Waththa Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.055886, 7.118186], [80.055553, 7.118177], [80.055299, 7.118257], [80.055245, 7.118295], [80.055297, 7.118729], [80.054796, 7.118877], [80.053551, 7.119106]]
+}

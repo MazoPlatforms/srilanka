@@ -1,0 +1,9 @@
+{
+  "id": 303124405,
+  "name": "Siebel Place",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.620949, 7.281577], [80.620527, 7.282149], [80.620497, 7.28218], [80.620398, 7.282281], [80.620071, 7.282677]]
+}

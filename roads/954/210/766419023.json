@@ -1,0 +1,9 @@
+{
+  "id": 766419023,
+  "name": "ABC",
+  "highway": "path",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 12, "foot": 4},
+  "coordinates": [[79.891597, 6.873946], [79.89158, 6.873956], [79.891512, 6.873961]]
+}

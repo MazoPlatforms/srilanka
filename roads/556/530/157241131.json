@@ -1,0 +1,9 @@
+{
+  "id": 157241131,
+  "name": "Market Street",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.633967, 7.29238], [80.635046, 7.29242]]
+}

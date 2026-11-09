@@ -1,0 +1,9 @@
+{
+  "id": 712070803,
+  "name": "Colony Road",
+  "highway": "tertiary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.339051, 6.854189], [81.338907, 6.854315], [81.338776, 6.854408], [81.338608, 6.854465]]
+}

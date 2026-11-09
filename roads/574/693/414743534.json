@@ -1,0 +1,9 @@
+{
+  "id": 414743534,
+  "name": "Transiformar road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.720601, 7.541063], [81.720361, 7.541279], [81.719347, 7.542082], [81.719188, 7.542215], [81.719095, 7.542329]]
+}

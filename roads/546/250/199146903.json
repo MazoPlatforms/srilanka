@@ -1,0 +1,9 @@
+{
+  "id": 199146903,
+  "name": "Gnanasiri Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.890479, 6.934218], [79.890457, 6.934463], [79.890379, 6.934834], [79.890277, 6.935181]]
+}

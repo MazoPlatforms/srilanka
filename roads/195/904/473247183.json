@@ -1,0 +1,9 @@
+{
+  "id": 473247183,
+  "name": "School 4th Cross",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.541694, 7.864495], [81.541715, 7.864377], [81.541878, 7.863436]]
+}

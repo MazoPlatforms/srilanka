@@ -1,0 +1,9 @@
+{
+  "id": 993557626,
+  "name": "Pituwalgoda Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10.0, "motorcycle": 10.0, "truck": 10.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.033166, 7.068004], [80.033585, 7.068049], [80.033865, 7.068077], [80.034152, 7.068183]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 493830310,
+  "name": "Kilathivu Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.740681, 7.606286], [81.740552, 7.606229]]
+}

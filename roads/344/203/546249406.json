@@ -1,0 +1,9 @@
+{
+  "id": 546249406,
+  "name": "De Saram Lane",
+  "highway": "tertiary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.859481, 6.959755], [79.859668, 6.959728], [79.85982, 6.959687], [79.859941, 6.959637], [79.860134, 6.959541]]
+}

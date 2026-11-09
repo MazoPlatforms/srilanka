@@ -1,0 +1,9 @@
+{
+  "id": 890209947,
+  "name": "Barathi Street",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.23683, 8.566492], [81.236942, 8.566698], [81.23695, 8.566736]]
+}

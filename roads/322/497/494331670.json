@@ -1,0 +1,9 @@
+{
+  "id": 494331670,
+  "name": "Shomasuntharam Road",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[81.737999, 7.612765], [81.737971, 7.612785], [81.737688, 7.612974], [81.73711, 7.613233]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 224198208,
+  "name": "Bandaranayake Quay",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 15, "motorcycle": 15, "bicycle": 15, "foot": 5},
+  "coordinates": [[79.845945, 6.937704], [79.845919, 6.938119], [79.8459, 6.938466], [79.845903, 6.938551], [79.845999, 6.939057], [79.846324, 6.940207], [79.846845, 6.941996]]
+}

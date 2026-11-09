@@ -1,0 +1,9 @@
+{
+  "id": 71182832,
+  "name": "Beach Access Path",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.885229, 9.761632], [79.884511, 9.757559]]
+}

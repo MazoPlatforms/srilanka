@@ -1,0 +1,9 @@
+{
+  "id": 198376319,
+  "name": "Muthaliyarkulam 6th Cross Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.329249, 8.637186], [80.327059, 8.634864], [80.325596, 8.633254]]
+}

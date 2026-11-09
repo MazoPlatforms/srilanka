@@ -1,0 +1,9 @@
+{
+  "id": 1065915643,
+  "name": "Barracks Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.851774, 6.925232], [79.851789, 6.925238], [79.852438, 6.92548]]
+}

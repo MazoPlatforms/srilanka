@@ -1,0 +1,9 @@
+{
+  "id": 1236022085,
+  "name": "Piliyandala-Maharagama Road",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.933524, 6.835194], [79.933541, 6.835185]]
+}

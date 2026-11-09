@@ -1,0 +1,9 @@
+{
+  "id": 1018506857,
+  "name": "Kantale-Allai Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.300641, 8.325665], [81.300632, 8.325594], [81.300624, 8.32557], [81.30061, 8.325537], [81.300588, 8.325498]]
+}

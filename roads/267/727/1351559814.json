@@ -1,0 +1,9 @@
+{
+  "id": 1351559814,
+  "name": "Weliwatta road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.889166, 6.94217], [79.889168, 6.9422]]
+}

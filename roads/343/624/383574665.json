@@ -1,0 +1,9 @@
+{
+  "id": 383574665,
+  "name": "Wavinna Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.682541, 7.351328], [80.68268, 7.351292]]
+}

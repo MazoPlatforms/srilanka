@@ -1,0 +1,9 @@
+{
+  "id": 46940754,
+  "name": "Arthur De Silva Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.866927, 6.947496], [79.867639, 6.947077], [79.868152, 6.9468], [79.868503, 6.94661], [79.868816, 6.946441], [79.868975, 6.946409]]
+}

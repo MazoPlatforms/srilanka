@@ -1,0 +1,9 @@
+{
+  "id": 920033739,
+  "name": "Lake Road By Road 08",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.949127, 6.88955], [79.949101, 6.889245], [79.94903, 6.889081], [79.948909, 6.888948], [79.948645, 6.888819], [79.948308, 6.888813], [79.947797, 6.888864]]
+}

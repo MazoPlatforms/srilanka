@@ -1,0 +1,9 @@
+{
+  "id": 179216164,
+  "name": "Market Road 2nd Cross",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.559603, 7.918479], [81.560027, 7.918436], [81.560394, 7.91842]]
+}

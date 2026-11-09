@@ -1,0 +1,9 @@
+{
+  "id": 497234631,
+  "name": "Society road",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "bicycle": 10, "foot": 5},
+  "coordinates": [[79.957083, 6.651572], [79.956482, 6.651188], [79.956702, 6.650938], [79.957241, 6.6513]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 388177928,
+  "name": "Kidagamulla Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.012274, 7.079449], [80.011959, 7.079529], [80.011722, 7.079581], [80.011583, 7.079614], [80.011066, 7.079736], [80.010486, 7.080095], [80.010089, 7.080263]]
+}

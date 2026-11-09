@@ -1,0 +1,9 @@
+{
+  "id": 526847499,
+  "name": "Ambatale Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.924568, 6.943221], [79.924483, 6.943206]]
+}

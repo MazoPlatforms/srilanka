@@ -1,0 +1,9 @@
+{
+  "id": 370525260,
+  "name": "Dr. Lester James Peiris Mawatha (Dickman's Road)",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.863225, 6.887794], [79.863558, 6.88789], [79.864145, 6.888059], [79.864247, 6.888089]]
+}

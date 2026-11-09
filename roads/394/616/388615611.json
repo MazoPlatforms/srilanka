@@ -1,0 +1,9 @@
+{
+  "id": 388615611,
+  "name": "villu Road 2nd cross",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.56746, 7.824138], [81.567834, 7.82381], [81.568575, 7.823256], [81.568907, 7.822981]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 543314291,
+  "name": "Dunbar Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.598771, 6.891609], [80.598916, 6.891657], [80.599199, 6.891744], [80.599271, 6.89187]]
+}

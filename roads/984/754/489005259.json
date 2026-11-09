@@ -1,0 +1,9 @@
+{
+  "id": 489005259,
+  "name": "Puliyankandaladi Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.428866, 8.151601], [81.428419, 8.15151], [81.427586, 8.151313], [81.426466, 8.151125], [81.426276, 8.151094]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 388652659,
+  "name": "Kaali kovil 4th cross",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.561166, 7.818174], [81.561511, 7.817825], [81.56164, 7.817684], [81.562094, 7.817244], [81.562563, 7.816789]]
+}

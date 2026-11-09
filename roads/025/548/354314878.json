@@ -1,0 +1,9 @@
+{
+  "id": 354314878,
+  "name": "Makola-Udupila Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.968165, 6.981314], [79.968078, 6.981275], [79.967972, 6.981245], [79.967822, 6.981221], [79.967698, 6.981217], [79.967614, 6.981219], [79.967523, 6.981226]]
+}

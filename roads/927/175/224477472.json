@@ -1,0 +1,9 @@
+{
+  "id": 224477472,
+  "name": "Basil Road",
+  "highway": "track",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 15, "foot": 4},
+  "coordinates": [[81.712086, 7.726415], [81.712031, 7.726446], [81.711844, 7.726512], [81.711228, 7.726703]]
+}

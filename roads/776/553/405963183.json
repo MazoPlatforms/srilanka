@@ -1,0 +1,9 @@
+{
+  "id": 405963183,
+  "name": "Christoper 1 lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.892203, 7.087053], [79.892667, 7.087005], [79.893093, 7.086961]]
+}

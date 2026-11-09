@@ -1,0 +1,9 @@
+{
+  "id": 390800456,
+  "name": "Wilewatta",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.930336, 7.105026], [79.930491, 7.10509], [79.930796, 7.105233], [79.931262, 7.105428], [79.931404, 7.105491], [79.931504, 7.105584]]
+}

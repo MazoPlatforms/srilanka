@@ -1,0 +1,9 @@
+{
+  "id": 420304249,
+  "name": "Veyangoda-Nittambuwa Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.062113, 7.153735], [80.061979, 7.153709], [80.061793, 7.153697], [80.061599, 7.153666], [80.061499, 7.153656], [80.061389, 7.153658]]
+}

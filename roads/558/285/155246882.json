@@ -1,0 +1,9 @@
+{
+  "id": 155246882,
+  "name": "Collete's Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.700004, 7.716829], [81.700261, 7.716899], [81.700563, 7.716966], [81.700817, 7.71701], [81.701717, 7.717101]]
+}

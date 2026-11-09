@@ -1,0 +1,9 @@
+{
+  "id": 634276426,
+  "name": "Kettharama Temple road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.360903, 7.364355], [80.360986, 7.364365], [80.361325, 7.36438], [80.361576, 7.364462], [80.361701, 7.364504]]
+}

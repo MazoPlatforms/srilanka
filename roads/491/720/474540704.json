@@ -1,0 +1,9 @@
+{
+  "id": 474540704,
+  "name": "Omanthai Elamaruthankulam Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.501964, 8.864597], [80.502746, 8.864465], [80.50379, 8.864289]]
+}

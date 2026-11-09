@@ -1,0 +1,9 @@
+{
+  "id": 530462993,
+  "name": "Agurumalapitiya Road",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[80.063312, 7.057309], [80.063273, 7.056683], [80.062732, 7.05616], [80.061917, 7.055595], [80.061909, 7.055491], [80.062111, 7.054998]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 259378049,
+  "name": "Elahera-Pallegama-Hettipola Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.913064, 7.534089], [80.913243, 7.534081]]
+}

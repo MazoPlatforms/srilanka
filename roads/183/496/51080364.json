@@ -1,0 +1,9 @@
+{
+  "id": 51080364,
+  "name": "Juse Vass Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.90199, 7.083867], [79.901995, 7.08474], [79.902002, 7.084985], [79.902, 7.085944], [79.902003, 7.086319], [79.902017, 7.08687], [79.902024, 7.087814]]
+}

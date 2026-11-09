@@ -1,0 +1,9 @@
+{
+  "id": 325126239,
+  "name": "Old Post Office Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.834911, 7.39305], [81.83533, 7.393115], [81.835969, 7.393189]]
+}

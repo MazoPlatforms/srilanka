@@ -1,0 +1,9 @@
+{
+  "id": 452815976,
+  "name": "Mossville State Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.499759, 7.102898], [80.499881, 7.10299], [80.499881, 7.103111], [80.49985, 7.103241], [80.49987, 7.103376], [80.499938, 7.103432], [80.500091, 7.103452], [80.500301, 7.103436]]
+}

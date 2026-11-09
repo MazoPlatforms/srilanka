@@ -1,0 +1,9 @@
+{
+  "id": 797050237,
+  "name": "Gorandiyagolla Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.899519, 6.949992], [80.899378, 6.949863]]
+}

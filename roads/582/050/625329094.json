@@ -1,0 +1,9 @@
+{
+  "id": 625329094,
+  "name": "Maha Vidyalaya Mawatha",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 55, "motorcycle": 55, "truck": 50, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.864194, 6.943296], [79.864059, 6.943242], [79.862324, 6.942535], [79.862226, 6.942529]]
+}

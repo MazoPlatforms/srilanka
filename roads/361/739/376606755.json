@@ -1,0 +1,9 @@
+{
+  "id": 376606755,
+  "name": "Maheswari Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.865363, 6.879284], [79.86502, 6.879252], [79.864719, 6.879219], [79.863654, 6.878889]]
+}

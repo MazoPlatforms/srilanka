@@ -1,0 +1,9 @@
+{
+  "id": 451705433,
+  "name": "Galedanda Rajamaha Vihara Para",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.938453, 7.010461], [79.938606, 7.010414], [79.939206, 7.010172]]
+}

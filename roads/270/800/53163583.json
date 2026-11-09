@@ -1,0 +1,9 @@
+{
+  "id": 53163583,
+  "name": "Idama Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.877803, 6.887082], [79.877753, 6.886671], [79.877696, 6.886476], [79.877531, 6.886481], [79.87717, 6.886599]]
+}

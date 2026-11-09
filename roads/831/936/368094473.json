@@ -1,0 +1,9 @@
+{
+  "id": 368094473,
+  "name": "Carlton Car Racing Track",
+  "highway": "track",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 15, "foot": 4},
+  "coordinates": [[81.313966, 6.331418], [81.313964, 6.331113], [81.313947, 6.330775]]
+}

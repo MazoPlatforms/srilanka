@@ -1,0 +1,9 @@
+{
+  "id": 387058080,
+  "name": "Pillewa Temple Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.899635, 6.844544], [79.899889, 6.844556]]
+}

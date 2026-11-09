@@ -1,0 +1,9 @@
+{
+  "id": 1209084861,
+  "name": "Modaeawila Indurial Zone",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 15, "motorcycle": 15, "bicycle": 15, "foot": 5},
+  "coordinates": [[79.913471, 6.705721], [79.913764, 6.705849], [79.913978, 6.705931], [79.914004, 6.70594], [79.914074, 6.705884], [79.914102, 6.705779], [79.914079, 6.705704]]
+}

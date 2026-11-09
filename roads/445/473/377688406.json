@@ -1,0 +1,9 @@
+{
+  "id": 377688406,
+  "name": "Welihinthuduwa Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.992634, 6.909776], [79.992852, 6.909619], [79.993021, 6.909498], [79.993432, 6.909237], [79.994001, 6.909005]]
+}

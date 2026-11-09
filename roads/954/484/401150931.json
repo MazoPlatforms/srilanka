@@ -1,0 +1,9 @@
+{
+  "id": 401150931,
+  "name": "Anniewatta Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.621461, 7.289802], [80.621648, 7.289879], [80.622131, 7.290085], [80.622253, 7.290192], [80.622344, 7.290348]]
+}

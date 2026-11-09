@@ -1,0 +1,9 @@
+{
+  "id": 177291571,
+  "name": "Malkampiddy-Deeghavapiya Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.77068, 7.295795], [81.770694, 7.296041], [81.770769, 7.296134], [81.771077, 7.296296], [81.771527, 7.296494], [81.772238, 7.296566], [81.772267, 7.296614]]
+}

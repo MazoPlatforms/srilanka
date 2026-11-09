@@ -1,0 +1,9 @@
+{
+  "id": 50172612,
+  "name": "4th Lane Alexendra Waththa",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.897434, 7.089358], [79.899826, 7.089312], [79.899855, 7.089304], [79.899895, 7.089283]]
+}

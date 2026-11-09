@@ -1,0 +1,9 @@
+{
+  "id": 361399383,
+  "name": "Kokwalamulla Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.858712, 7.406512], [79.858768, 7.407161], [79.858939, 7.407958], [79.859123, 7.408625], [79.859191, 7.408982], [79.859314, 7.409466], [79.859406, 7.41001], [79.859426, 7.410261]]
+}

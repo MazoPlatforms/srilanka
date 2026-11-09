@@ -1,0 +1,9 @@
+{
+  "id": 51132945,
+  "name": "DS Senanayaka Mawatha",
+  "highway": "tertiary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.905337, 6.713668], [79.905471, 6.713771], [79.905813, 6.713837], [79.907514, 6.714115]]
+}

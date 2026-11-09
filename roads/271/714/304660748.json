@@ -1,0 +1,9 @@
+{
+  "id": 304660748,
+  "name": "Amparai 6th Street",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.799261, 7.361787], [81.799278, 7.362003], [81.799345, 7.362205], [81.799445, 7.36271]]
+}

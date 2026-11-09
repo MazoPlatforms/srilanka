@@ -1,0 +1,9 @@
+{
+  "id": 433810651,
+  "name": "Muna Malgahawatta Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.993665, 7.113948], [79.993391, 7.114033], [79.992983, 7.114169], [79.992753, 7.11427], [79.992452, 7.11442], [79.992099, 7.114633]]
+}

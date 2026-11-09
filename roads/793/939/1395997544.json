@@ -1,0 +1,9 @@
+{
+  "id": 1395997544,
+  "name": "Uswatte Devalaya Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.930508, 6.959852], [79.930448, 6.960297], [79.930199, 6.960292], [79.930043, 6.960276]]
+}

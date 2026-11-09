@@ -1,0 +1,9 @@
+{
+  "id": 1496240555,
+  "name": "Yakkalamulla-Ketanwila Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 70.0, "motorcycle": 70.0, "truck": 70.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.348319, 6.106432], [80.348723, 6.106453], [80.348798, 6.106454], [80.348888, 6.106456]]
+}

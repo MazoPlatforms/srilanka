@@ -1,0 +1,9 @@
+{
+  "id": 151568889,
+  "name": "kasim road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.524319, 5.955103], [80.524488, 5.95428], [80.524527, 5.954127], [80.524681, 5.953436], [80.524742, 5.953066]]
+}

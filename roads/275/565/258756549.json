@@ -1,0 +1,9 @@
+{
+  "id": 258756549,
+  "name": "Old Mahiyangana Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.748977, 7.293403], [80.749105, 7.293442], [80.749977, 7.293344], [80.750641, 7.293501]]
+}

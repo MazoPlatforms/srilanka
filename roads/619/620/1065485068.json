@@ -1,0 +1,9 @@
+{
+  "id": 1065485068,
+  "name": "School foot path",
+  "highway": "footway",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 8, "foot": 5},
+  "coordinates": [[80.496377, 8.749196], [80.498437, 8.748444], [80.498882, 8.749472], [80.499054, 8.749409], [80.498062, 8.74978]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 10548353,
+  "name": "Adikarana Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.862612, 6.932801], [79.862451, 6.932992], [79.862428, 6.933019], [79.86228, 6.933255], [79.862191, 6.933395], [79.861965, 6.933763]]
+}

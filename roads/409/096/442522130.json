@@ -1,0 +1,9 @@
+{
+  "id": 442522130,
+  "name": "Sri Jayanthi Mawatha",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[79.909416, 6.994096], [79.91004, 6.992041], [79.910117, 6.991956], [79.910167, 6.9919], [79.910223, 6.991772], [79.910317, 6.991329]]
+}

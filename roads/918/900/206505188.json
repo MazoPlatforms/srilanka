@@ -1,0 +1,9 @@
+{
+  "id": 206505188,
+  "name": "Akuressa-Kamburupitiya Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 70.0, "motorcycle": 70.0, "truck": 70.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.566192, 6.080147], [80.566092, 6.080202], [80.565982, 6.08026], [80.565857, 6.080319]]
+}

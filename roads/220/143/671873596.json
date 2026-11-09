@@ -1,0 +1,9 @@
+{
+  "id": 671873596,
+  "name": "Udugama-Hiniduma Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 70.0, "motorcycle": 70.0, "truck": 70.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.328162, 6.244425], [80.328109, 6.244657]]
+}

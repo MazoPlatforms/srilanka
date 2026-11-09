@@ -1,0 +1,9 @@
+{
+  "id": 497478250,
+  "name": "Duwegoda Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.539493, 5.986839], [80.539372, 5.986637], [80.53912, 5.986029]]
+}

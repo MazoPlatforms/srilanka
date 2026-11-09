@@ -1,0 +1,9 @@
+{
+  "id": 44677667,
+  "name": "anuradhapura",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.41232, 8.330445], [80.41169, 8.330853], [80.411334, 8.331071], [80.410669, 8.331446], [80.410236, 8.331685], [80.409519, 8.332066]]
+}

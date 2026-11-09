@@ -1,0 +1,9 @@
+{
+  "id": 1027269081,
+  "name": "Pagoda Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.90167, 6.883921], [79.901804, 6.883895], [79.901932, 6.883873]]
+}

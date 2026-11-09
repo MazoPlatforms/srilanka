@@ -1,0 +1,9 @@
+{
+  "id": 148867589,
+  "name": "Kalegana - Karapitiya Road",
+  "highway": "secondary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.225738, 6.067122], [80.225711, 6.067123], [80.225577, 6.067158], [80.225501, 6.067185]]
+}

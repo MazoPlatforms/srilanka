@@ -1,0 +1,9 @@
+{
+  "id": 516059366,
+  "name": "Mahengodalla Watta Road",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[79.974644, 6.905409], [79.974566, 6.905474], [79.974318, 6.905735], [79.974258, 6.905769]]
+}

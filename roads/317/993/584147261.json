@@ -1,0 +1,9 @@
+{
+  "id": 584147261,
+  "name": "Udathula Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.555954, 6.624512], [80.556, 6.624549]]
+}

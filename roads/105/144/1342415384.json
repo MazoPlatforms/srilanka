@@ -1,0 +1,9 @@
+{
+  "id": 1342415384,
+  "name": "Yala Santuary Road",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25.0, "motorcycle": 25.0, "truck": 25.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.478821, 6.329753], [81.477574, 6.329233], [81.477378, 6.329145], [81.476298, 6.32868]]
+}

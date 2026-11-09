@@ -1,0 +1,9 @@
+{
+  "id": 377622486,
+  "name": "Swarnajothi Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.916773, 6.727174], [79.916787, 6.72708], [79.916811, 6.726909], [79.916888, 6.726364]]
+}

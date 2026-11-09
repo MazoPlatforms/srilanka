@@ -1,0 +1,9 @@
+{
+  "id": 49002351,
+  "name": "Vaverset Place",
+  "highway": "residential",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.858652, 6.869687], [79.859762, 6.869893], [79.861174, 6.870203], [79.862018, 6.87034], [79.862102, 6.870354]]
+}

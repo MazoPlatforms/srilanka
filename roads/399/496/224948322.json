@@ -1,0 +1,9 @@
+{
+  "id": 224948322,
+  "name": "Thiruvalluvar Road",
+  "highway": "path",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 12, "foot": 4},
+  "coordinates": [[81.690815, 7.725196], [81.690788, 7.725164], [81.690378, 7.724643]]
+}

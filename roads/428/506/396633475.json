@@ -1,0 +1,9 @@
+{
+  "id": 396633475,
+  "name": "Kottawa Thalagala Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.000611, 6.800111], [80.000761, 6.799977], [80.001004, 6.799767], [80.001165, 6.799643]]
+}

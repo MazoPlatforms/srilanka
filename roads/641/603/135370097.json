@@ -1,0 +1,9 @@
+{
+  "id": 135370097,
+  "name": "Sarana thissa mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.999137, 6.779865], [79.99896, 6.779656], [79.998582, 6.779262], [79.998166, 6.778662], [79.998036, 6.77839], [79.997922, 6.778202]]
+}

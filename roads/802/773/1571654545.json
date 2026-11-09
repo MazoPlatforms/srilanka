@@ -1,0 +1,9 @@
+{
+  "id": 1571654545,
+  "name": "Piliyandala Bypass Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 70.0, "motorcycle": 70.0, "truck": 70.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.940459, 6.797777], [79.940488, 6.797719]]
+}

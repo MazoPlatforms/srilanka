@@ -1,0 +1,9 @@
+{
+  "id": 1186002170,
+  "name": "Hewaheta Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.757231, 7.107705], [80.75727, 7.10766], [80.757299, 7.107613]]
+}

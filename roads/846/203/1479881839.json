@@ -1,0 +1,9 @@
+{
+  "id": 1479881839,
+  "name": "Sri Maha Bodhi Access Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.396599, 8.344041], [80.396606, 8.344117]]
+}

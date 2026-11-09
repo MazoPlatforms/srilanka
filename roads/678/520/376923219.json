@@ -1,0 +1,9 @@
+{
+  "id": 376923219,
+  "name": "Alfred House Garden",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.855666, 6.89948], [79.855732, 6.899501], [79.856219, 6.899656]]
+}

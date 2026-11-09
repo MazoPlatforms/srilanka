@@ -1,0 +1,9 @@
+{
+  "id": 1112642688,
+  "name": "Gorakatuduwa Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.995366, 6.661097], [79.995238, 6.660699], [79.995194, 6.660434], [79.995021, 6.659805]]
+}

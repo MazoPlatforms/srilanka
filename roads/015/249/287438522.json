@@ -1,0 +1,9 @@
+{
+  "id": 287438522,
+  "name": "Bazar 8th Street",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.803844, 7.371097], [81.803887, 7.371328], [81.803935, 7.371607], [81.804005, 7.372464]]
+}

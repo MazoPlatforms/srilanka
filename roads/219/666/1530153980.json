@@ -1,0 +1,9 @@
+{
+  "id": 1530153980,
+  "name": "U. B. Wanninayake Mawatha",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.361119, 7.481745], [80.361222, 7.481649]]
+}

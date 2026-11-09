@@ -1,0 +1,9 @@
+{
+  "id": 954714591,
+  "name": "Malankanda Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.394948, 6.731518], [80.394908, 6.731521], [80.394649, 6.731395]]
+}

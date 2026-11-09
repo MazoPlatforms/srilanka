@@ -1,0 +1,9 @@
+{
+  "id": 1137497548,
+  "name": "police station road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.930865, 6.957916], [80.930558, 6.958058], [80.930523, 6.958109]]
+}

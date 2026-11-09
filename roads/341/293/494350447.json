@@ -1,0 +1,9 @@
+{
+  "id": 494350447,
+  "name": "Sevagapatru Road 6 Cross",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.723348, 7.62247], [81.723296, 7.622357], [81.723179, 7.622055]]
+}

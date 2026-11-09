@@ -1,0 +1,9 @@
+{
+  "id": 693047461,
+  "name": "Paandiyan Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.696204, 9.327285], [80.696127, 9.327171], [80.695928, 9.326769], [80.695219, 9.32556], [80.694933, 9.325053], [80.694722, 9.324406]]
+}

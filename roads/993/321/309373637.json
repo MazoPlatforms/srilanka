@@ -1,0 +1,9 @@
+{
+  "id": 309373637,
+  "name": "Kasyapa Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.859519, 6.333769], [80.859519, 6.333774], [80.859512, 6.333851], [80.859251, 6.334887]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 262396047,
+  "name": "Pitaremba Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.998425, 6.421288], [79.997754, 6.421225], [79.997296, 6.421186], [79.997179, 6.421176], [79.997152, 6.42116]]
+}

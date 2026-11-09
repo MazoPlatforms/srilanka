@@ -1,0 +1,9 @@
+{
+  "id": 456715871,
+  "name": "Arasaiyadi Rd",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.763507, 7.483526], [81.76345, 7.483651], [81.763214, 7.484304], [81.762977, 7.484887], [81.762809, 7.485443], [81.762773, 7.48558]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 546005531,
+  "name": "5th Lane, Pahalawela Road",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[79.925204, 6.886929], [79.924798, 6.887453], [79.924368, 6.887929]]
+}

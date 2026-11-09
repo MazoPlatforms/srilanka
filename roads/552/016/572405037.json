@@ -1,0 +1,9 @@
+{
+  "id": 572405037,
+  "name": "Asiri Uyana",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.891367, 6.918663], [79.891781, 6.918559], [79.892171, 6.918309], [79.892186, 6.918308], [79.892201, 6.918321], [79.892347, 6.918515]]
+}

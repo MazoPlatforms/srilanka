@@ -1,0 +1,9 @@
+{
+  "id": 208397664,
+  "name": "Wetiyawelawaththa Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.24467, 7.618879], [80.244444, 7.618883], [80.244417, 7.618864], [80.244399, 7.618665], [80.244352, 7.618645], [80.243625, 7.618686]]
+}

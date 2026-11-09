@@ -1,0 +1,9 @@
+{
+  "id": 50302449,
+  "name": "Malwana Dekatana Road",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.99077, 6.943374], [79.991379, 6.943635], [79.991775, 6.943805]]
+}

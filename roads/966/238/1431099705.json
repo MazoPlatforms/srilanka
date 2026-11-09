@@ -1,0 +1,9 @@
+{
+  "id": 1431099705,
+  "name": "Minuwanarawa Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.676777, 6.707081], [80.675946, 6.706854], [80.675728, 6.706866], [80.67537, 6.706947], [80.674943, 6.706678], [80.674672, 6.706783], [80.674386, 6.706835]]
+}

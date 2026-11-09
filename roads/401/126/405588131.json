@@ -1,0 +1,9 @@
+{
+  "id": 405588131,
+  "name": "Sundara Place",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.932811, 6.826385], [79.933567, 6.826417], [79.934177, 6.82646], [79.934799, 6.826656], [79.93528, 6.826864], [79.935899, 6.827033]]
+}

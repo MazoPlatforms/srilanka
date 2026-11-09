@@ -1,0 +1,9 @@
+{
+  "id": 456948721,
+  "name": "Katpaka vinayakar temple road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.76643, 7.521418], [81.767112, 7.52169], [81.767242, 7.521655], [81.767356, 7.521306], [81.767373, 7.521101], [81.767605, 7.520831], [81.768214, 7.52002], [81.768333, 7.519803], [81.768538, 7.519216]]
+}

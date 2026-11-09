@@ -1,0 +1,9 @@
+{
+  "id": 49003201,
+  "name": "De Fonseka Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.860953, 6.892149], [79.861128, 6.891559]]
+}

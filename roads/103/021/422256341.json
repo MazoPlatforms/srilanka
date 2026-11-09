@@ -1,0 +1,9 @@
+{
+  "id": 422256341,
+  "name": "Kelabogas Wewa Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.75294, 8.89126], [80.75317, 8.891188], [80.753889, 8.891072], [80.7564, 8.889884], [80.760422, 8.888743], [80.760665, 8.888572]]
+}

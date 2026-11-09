@@ -1,0 +1,9 @@
+{
+  "id": 1431139687,
+  "name": "Olugantota-Pinnawala-Bogowantalawa Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.716475, 6.668529], [80.716308, 6.668617], [80.716227, 6.668666], [80.716143, 6.668723], [80.716087, 6.668777], [80.716055, 6.668839], [80.716024, 6.668926], [80.715993, 6.669048], [80.715984, 6.66913]]
+}

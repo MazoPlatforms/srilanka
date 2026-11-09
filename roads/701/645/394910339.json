@@ -1,0 +1,9 @@
+{
+  "id": 394910339,
+  "name": "Old Dedugala Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.336323, 7.105252], [80.336249, 7.10523], [80.336171, 7.105188], [80.336047, 7.105107], [80.335969, 7.105063], [80.335887, 7.10503]]
+}

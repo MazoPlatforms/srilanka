@@ -1,0 +1,9 @@
+{
+  "id": 224621515,
+  "name": "Boundary Road 4th Cross",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.697465, 7.733037], [81.697552, 7.732995], [81.698273, 7.732643]]
+}

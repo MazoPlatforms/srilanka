@@ -1,0 +1,9 @@
+{
+  "id": 838630855,
+  "name": "Hatharahawla Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.375975, 6.636128], [80.375883, 6.636205], [80.375592, 6.636438], [80.374883, 6.636567], [80.374794, 6.636566], [80.374656, 6.636644]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 665901475,
+  "name": "Cross Street",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.765238, 6.976879], [80.765521, 6.977337]]
+}

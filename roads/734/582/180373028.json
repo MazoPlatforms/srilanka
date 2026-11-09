@@ -1,0 +1,9 @@
+{
+  "id": 180373028,
+  "name": "St.Sebastian Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.879305, 6.982494], [79.87926, 6.982916], [79.879218, 6.983273], [79.8792, 6.983328]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 1545175271,
+  "name": "Madatugama-Pubbogama-Andiyagala Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.581805, 7.921385], [80.581708, 7.921328]]
+}

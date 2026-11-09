@@ -1,0 +1,9 @@
+{
+  "id": 513054550,
+  "name": "Aryasinhala Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.347557, 7.494857], [80.348235, 7.495037], [80.348299, 7.495055], [80.349098, 7.495274]]
+}

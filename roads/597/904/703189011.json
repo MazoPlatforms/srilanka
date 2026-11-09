@@ -1,0 +1,9 @@
+{
+  "id": 703189011,
+  "name": "Gafoor Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.837199, 7.388834], [81.837307, 7.388584], [81.837539, 7.38817], [81.837607, 7.387933], [81.837661, 7.387648], [81.837715, 7.387367]]
+}

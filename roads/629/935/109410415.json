@@ -1,0 +1,9 @@
+{
+  "id": 109410415,
+  "name": "Sri Premarthna Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.895581, 6.784961], [79.895573, 6.784998], [79.895365, 6.785857], [79.895126, 6.786383], [79.895071, 6.786458], [79.894973, 6.786701], [79.894913, 6.787069], [79.894851, 6.787713]]
+}

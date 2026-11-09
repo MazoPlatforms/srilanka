@@ -1,0 +1,9 @@
+{
+  "id": 99247390,
+  "name": "Attanagalu Oya Bridge",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 70.0, "motorcycle": 70.0, "truck": 70.0, "foot": 5},
+  "coordinates": [[80.041004, 7.096963], [80.041228, 7.097375]]
+}

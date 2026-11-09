@@ -1,0 +1,9 @@
+{
+  "id": 374649710,
+  "name": "Sri Muthumariyamman Kovil Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.556343, 7.722886], [81.554778, 7.723621], [81.554657, 7.723673], [81.554687, 7.723764], [81.55471, 7.72384], [81.553128, 7.724637], [81.553026, 7.724524], [81.552961, 7.72434]]
+}

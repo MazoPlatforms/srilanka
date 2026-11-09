@@ -1,0 +1,9 @@
+{
+  "id": 499091942,
+  "name": "Silva Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.950589, 6.905049], [79.950396, 6.904733]]
+}

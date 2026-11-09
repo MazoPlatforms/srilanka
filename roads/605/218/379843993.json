@@ -1,0 +1,9 @@
+{
+  "id": 379843993,
+  "name": "Poonthodam Periyarkulam road 3rd lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.498398, 8.77258], [80.498883, 8.77302], [80.499593, 8.773943], [80.499797, 8.774262]]
+}

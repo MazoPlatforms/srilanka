@@ -1,0 +1,9 @@
+{
+  "id": 492267369,
+  "name": "Palanthurai Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.405043, 8.193216], [81.405215, 8.193006], [81.405913, 8.192213], [81.407163, 8.190725], [81.407243, 8.190601]]
+}

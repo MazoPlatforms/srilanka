@@ -1,0 +1,9 @@
+{
+  "id": 513688281,
+  "name": "Paramananda Vihara Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.863777, 6.954595], [79.863965, 6.954383], [79.863969, 6.954359]]
+}

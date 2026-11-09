@@ -1,0 +1,9 @@
+{
+  "id": 1368701814,
+  "name": "st mary's road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.862949, 7.030075], [79.862891, 7.030124], [79.862862, 7.030189]]
+}

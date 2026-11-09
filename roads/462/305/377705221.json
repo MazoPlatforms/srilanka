@@ -1,0 +1,9 @@
+{
+  "id": 377705221,
+  "name": "Gannoruwa Bridge",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.605027, 7.271845], [80.604257, 7.272343]]
+}

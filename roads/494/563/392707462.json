@@ -1,0 +1,9 @@
+{
+  "id": 392707462,
+  "name": "12th Cross Street",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.414432, 8.152897], [81.414777, 8.152866], [81.415364, 8.152699]]
+}

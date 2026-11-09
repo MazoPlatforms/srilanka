@@ -1,0 +1,9 @@
+{
+  "id": 257710128,
+  "name": "Sri Wijaya Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.90527, 6.728087], [79.906149, 6.728289], [79.90674, 6.72841]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 237185155,
+  "name": "Mihira Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.932745, 6.81532], [79.932736, 6.815717], [79.9327, 6.816054], [79.932686, 6.816388], [79.932686, 6.816642], [79.932732, 6.816937], [79.932759, 6.817207]]
+}

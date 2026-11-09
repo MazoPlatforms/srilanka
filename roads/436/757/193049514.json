@@ -1,0 +1,9 @@
+{
+  "id": 193049514,
+  "name": "Lady McCallum's Drive",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.771914, 6.973249], [80.771976, 6.973247], [80.772047, 6.973238], [80.772164, 6.973225]]
+}

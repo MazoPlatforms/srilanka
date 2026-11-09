@@ -1,0 +1,9 @@
+{
+  "id": 412210231,
+  "name": "Medawachchiya-Mannar-Talaimannar Road",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "foot": 5},
+  "coordinates": [[79.914092, 8.976839], [79.913977, 8.97693], [79.913881, 8.977012], [79.913814, 8.977074], [79.913754, 8.977128]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 160696820,
+  "name": "Broudie Street",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 45, "motorcycle": 45, "truck": 45, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.622808, 7.475565], [80.622859, 7.475568], [80.622905, 7.475572], [80.6231, 7.47559], [80.623319, 7.475613], [80.623719, 7.475663]]
+}

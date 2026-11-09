@@ -1,0 +1,9 @@
+{
+  "id": 584715014,
+  "name": "Ranaviru Methsiri Silva Pl Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.915244, 6.71346], [79.915666, 6.713824], [79.915907, 6.714049], [79.916186, 6.714278], [79.916217, 6.714301], [79.916382, 6.714442], [79.916626, 6.714711], [79.916675, 6.714768]]
+}

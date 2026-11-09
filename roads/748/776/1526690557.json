@@ -1,0 +1,9 @@
+{
+  "id": 1526690557,
+  "name": "Old Batticaloa Road",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.263852, 8.444154], [81.263948, 8.444318]]
+}

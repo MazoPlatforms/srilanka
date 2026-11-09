@@ -1,0 +1,9 @@
+{
+  "id": 128541741,
+  "name": "Kahagalla Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.017987, 6.413653], [80.017597, 6.413404], [80.01719, 6.413319]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 156131263,
+  "name": "William Alwis Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.920181, 6.850251], [79.92044, 6.849675], [79.920542, 6.849426], [79.920574, 6.848648]]
+}

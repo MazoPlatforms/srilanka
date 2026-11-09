@@ -1,0 +1,9 @@
+{
+  "id": 134496623,
+  "name": "Koswattu Oya",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.901474, 7.378493], [79.901701, 7.378706]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 383576551,
+  "name": "C Block Kudiyerupu Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.52199, 8.976145], [80.522628, 8.976142], [80.523487, 8.976078], [80.525472, 8.975924], [80.526064, 8.97586], [80.526636, 8.975776], [80.527129, 8.975736]]
+}

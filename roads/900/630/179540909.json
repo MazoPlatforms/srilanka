@@ -1,0 +1,9 @@
+{
+  "id": 179540909,
+  "name": "Paththinisami Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.548438, 7.818487], [81.548455, 7.81848], [81.548703, 7.818447], [81.549288, 7.818275]]
+}

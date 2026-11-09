@@ -1,0 +1,9 @@
+{
+  "id": 254150742,
+  "name": "Ananda Bodhi Vihara Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.978458, 6.88356], [79.978665, 6.883552], [79.978829, 6.883535], [79.979206, 6.883441], [79.979373, 6.883344], [79.979441, 6.883231], [79.979574, 6.882798]]
+}

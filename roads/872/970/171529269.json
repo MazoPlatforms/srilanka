@@ -1,0 +1,9 @@
+{
+  "id": 171529269,
+  "name": "Nikape Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.881029, 6.851456], [79.881069, 6.851156], [79.881256, 6.850174], [79.881255, 6.849956], [79.881249, 6.84985]]
+}

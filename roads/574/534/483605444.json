@@ -1,0 +1,9 @@
+{
+  "id": 483605444,
+  "name": "Kali Kovil Road 13th Cross",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.618089, 7.773648], [81.618161, 7.773645], [81.618848, 7.773344], [81.619129, 7.773193], [81.619751, 7.772915]]
+}

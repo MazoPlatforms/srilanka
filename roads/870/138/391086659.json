@@ -1,0 +1,9 @@
+{
+  "id": 391086659,
+  "name": "Sarasavi Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.887236, 6.910511], [79.887377, 6.910799]]
+}

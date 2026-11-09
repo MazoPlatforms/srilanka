@@ -1,0 +1,9 @@
+{
+  "id": 221579273,
+  "name": "Embuldeniya Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.91229, 6.867265], [79.912085, 6.867173], [79.911961, 6.867142], [79.910946, 6.866728]]
+}

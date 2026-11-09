@@ -1,0 +1,9 @@
+{
+  "id": 171206455,
+  "name": "Station Cross Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.959091, 6.585665], [79.959585, 6.585617], [79.959859, 6.58559], [79.960136, 6.585677], [79.96036, 6.58578]]
+}

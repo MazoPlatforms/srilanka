@@ -1,0 +1,9 @@
+{
+  "id": 494565797,
+  "name": "Kali Kovi Road 5 st Cross",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.743393, 7.593368], [81.74266, 7.593231]]
+}

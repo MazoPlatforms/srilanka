@@ -1,0 +1,9 @@
+{
+  "id": 749975044,
+  "name": "Vinothan road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.759754, 7.545275], [81.759755, 7.545211], [81.759756, 7.545073], [81.759772, 7.544713]]
+}

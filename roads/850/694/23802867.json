@@ -1,0 +1,9 @@
+{
+  "id": 23802867,
+  "name": "Wadugodapitiya Veediya",
+  "highway": "tertiary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.634423, 7.294702], [80.634392, 7.294477], [80.634292, 7.293767], [80.634257, 7.293567], [80.634224, 7.293365]]
+}

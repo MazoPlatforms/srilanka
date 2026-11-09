@@ -1,0 +1,9 @@
+{
+  "id": 288644862,
+  "name": "1st lane of Malkampitty 8th Street",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.800485, 7.358458], [81.800519, 7.358087], [81.800562, 7.357384], [81.800432, 7.356931], [81.800399, 7.356733], [81.800347, 7.356459], [81.800292, 7.355786]]
+}

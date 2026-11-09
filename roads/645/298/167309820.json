@@ -1,0 +1,9 @@
+{
+  "id": 167309820,
+  "name": "Wijaya Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.991676, 6.839755], [79.991671, 6.839795], [79.991286, 6.841555], [79.990988, 6.84285], [79.990808, 6.843847], [79.990549, 6.843809]]
+}

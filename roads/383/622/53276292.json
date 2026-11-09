@@ -1,0 +1,9 @@
+{
+  "id": 53276292,
+  "name": "Baddagana 2nd Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.90614, 6.88632], [79.906578, 6.886125], [79.907727, 6.885509]]
+}

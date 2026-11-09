@@ -1,0 +1,9 @@
+{
+  "id": 405247576,
+  "name": "Weedi Sub Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.886424, 7.090732], [79.886641, 7.09078], [79.886914, 7.09084]]
+}

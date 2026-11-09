@@ -1,0 +1,9 @@
+{
+  "id": 343628400,
+  "name": "Gal Kumbura Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.918471, 6.832042], [79.918458, 6.832225], [79.918083, 6.833094], [79.917952, 6.833399], [79.917667, 6.833979]]
+}

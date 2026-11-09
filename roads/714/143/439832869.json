@@ -1,0 +1,9 @@
+{
+  "id": 439832869,
+  "name": "Global Park",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "bicycle": 15, "foot": 5},
+  "coordinates": [[79.872713, 7.145849], [79.872782, 7.145549], [79.872659, 7.145521], [79.870602, 7.145064]]
+}

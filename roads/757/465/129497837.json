@@ -1,0 +1,9 @@
+{
+  "id": 129497837,
+  "name": "Yehiya Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.541503, 5.949246], [80.54151, 5.949197], [80.541654, 5.948288], [80.541722, 5.947801], [80.541804, 5.947427]]
+}

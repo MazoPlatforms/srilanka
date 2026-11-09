@@ -1,0 +1,9 @@
+{
+  "id": 372540310,
+  "name": "Poonthodam Periyarkulam 8th lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.503574, 8.771712], [80.50389, 8.77209], [80.504089, 8.772323], [80.504841, 8.772992]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 426062328,
+  "name": "Raja Mawatha",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40, "motorcycle": 40, "truck": 40, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.897373, 7.122985], [79.897386, 7.122933]]
+}

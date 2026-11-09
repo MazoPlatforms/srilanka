@@ -1,0 +1,9 @@
+{
+  "id": 378850108,
+  "name": "De Kretser Place",
+  "highway": "residential",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.858657, 6.885453], [79.859885, 6.885819], [79.860102, 6.885846]]
+}

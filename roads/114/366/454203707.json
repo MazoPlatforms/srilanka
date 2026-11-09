@@ -1,0 +1,9 @@
+{
+  "id": 454203707,
+  "name": "Achchirama Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.53966, 7.870025], [81.540463, 7.869819], [81.541136, 7.869655], [81.54216, 7.86948], [81.542845, 7.869356], [81.544965, 7.869043]]
+}

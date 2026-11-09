@@ -1,0 +1,9 @@
+{
+  "id": 458018038,
+  "name": "Manalpiddi vavunathivu main Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.7009, 7.599519], [81.701056, 7.599129], [81.702316, 7.596376], [81.702434, 7.596172], [81.70266, 7.595952]]
+}

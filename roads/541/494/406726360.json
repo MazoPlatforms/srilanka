@@ -1,0 +1,9 @@
+{
+  "id": 406726360,
+  "name": "Karmantha pura Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.305074, 8.154985], [80.305212, 8.155055], [80.305656, 8.155283], [80.306478, 8.155856], [80.306707, 8.155986], [80.306903, 8.156203], [80.307303, 8.156793]]
+}

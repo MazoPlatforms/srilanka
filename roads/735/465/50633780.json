@@ -1,0 +1,9 @@
+{
+  "id": 50633780,
+  "name": "Turnour Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.881388, 6.91641], [79.881091, 6.915291], [79.880929, 6.914767], [79.880852, 6.91463], [79.880771, 6.914465]]
+}

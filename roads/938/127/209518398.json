@@ -1,0 +1,9 @@
+{
+  "id": 209518398,
+  "name": "Graceland Park 1",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.85457, 7.239314], [79.854362, 7.23972], [79.85439, 7.239774], [79.855667, 7.240419]]
+}

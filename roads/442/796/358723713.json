@@ -1,0 +1,9 @@
+{
+  "id": 358723713,
+  "name": "Pahala Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.971681, 7.00565], [79.97112, 7.005726], [79.971102, 7.005725], [79.971084, 7.00572], [79.971068, 7.005713], [79.971057, 7.005695]]
+}

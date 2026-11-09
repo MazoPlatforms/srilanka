@@ -1,0 +1,9 @@
+{
+  "id": 624645176,
+  "name": "Moulana Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.522952, 7.912066], [81.522924, 7.912154], [81.52293, 7.912458], [81.523003, 7.912865], [81.523037, 7.913217], [81.523144, 7.913632], [81.523394, 7.914209]]
+}

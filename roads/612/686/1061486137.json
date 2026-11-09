@@ -1,0 +1,9 @@
+{
+  "id": 1061486137,
+  "name": "Centre Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.429478, 5.973944], [80.429496, 5.973857], [80.429515, 5.9738], [80.429562, 5.973715]]
+}

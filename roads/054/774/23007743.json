@@ -1,0 +1,9 @@
+{
+  "id": 23007743,
+  "name": "Amarasena Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.099635, 6.139431], [80.100226, 6.139348], [80.100319, 6.139335], [80.100518, 6.139366], [80.100801, 6.139546]]
+}

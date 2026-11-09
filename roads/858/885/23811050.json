@@ -1,0 +1,9 @@
+{
+  "id": 23811050,
+  "name": "McDonald's Drive",
+  "highway": "residential",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.888622, 6.909651], [79.888896, 6.909833], [79.889022, 6.909952], [79.88912, 6.910077], [79.889129, 6.910384], [79.889075, 6.910737]]
+}

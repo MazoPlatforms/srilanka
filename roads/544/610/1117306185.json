@@ -1,0 +1,9 @@
+{
+  "id": 1117306185,
+  "name": "Galle Face Roundabout",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
+  "coordinates": [[79.846401, 6.921106], [79.846417, 6.921125], [79.846439, 6.921141], [79.84647, 6.921152], [79.846501, 6.921154]]
+}

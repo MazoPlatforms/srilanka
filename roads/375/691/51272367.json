@@ -1,0 +1,9 @@
+{
+  "id": 51272367,
+  "name": "Approach Road to Mattakkuliya Bridge",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.875489, 6.980107], [79.875659, 6.979631], [79.875918, 6.978904], [79.875991, 6.978702], [79.876292, 6.977809], [79.876596, 6.976933], [79.876725, 6.976563]]
+}

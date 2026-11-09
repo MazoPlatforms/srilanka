@@ -1,0 +1,9 @@
+{
+  "id": 155781473,
+  "name": "Sandy Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.682126, 7.731236], [81.682236, 7.731489], [81.682775, 7.732705]]
+}

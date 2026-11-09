@@ -1,0 +1,9 @@
+{
+  "id": 326665951,
+  "name": "Weaving Centre Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.811795, 7.465809], [81.812416, 7.465893], [81.812443, 7.465897], [81.813043, 7.465978], [81.813579, 7.466069], [81.814029, 7.466133]]
+}

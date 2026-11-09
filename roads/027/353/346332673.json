@@ -1,0 +1,9 @@
+{
+  "id": 346332673,
+  "name": "Elliot Place",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.878229, 6.914433], [79.878368, 6.914552], [79.878583, 6.91475]]
+}

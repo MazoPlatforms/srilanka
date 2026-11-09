@@ -1,0 +1,9 @@
+{
+  "id": 139506526,
+  "name": "Gamunupura 2nd Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.96143, 6.834009], [79.961617, 6.833648], [79.962069, 6.832775], [79.96278, 6.831455]]
+}

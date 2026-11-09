@@ -1,0 +1,9 @@
+{
+  "id": 287438528,
+  "name": "Bazar 12th Street",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.802415, 7.371432], [81.802482, 7.371584], [81.802587, 7.372048], [81.802685, 7.372659]]
+}

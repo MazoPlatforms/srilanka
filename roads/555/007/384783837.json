@@ -1,0 +1,9 @@
+{
+  "id": 384783837,
+  "name": "weniwalla road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.941573, 7.099358], [79.941512, 7.099317], [79.941053, 7.099144], [79.940854, 7.099157], [79.94066, 7.09909]]
+}

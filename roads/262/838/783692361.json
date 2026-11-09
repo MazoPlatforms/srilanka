@@ -1,0 +1,9 @@
+{
+  "id": 783692361,
+  "name": "Saman Dewalaya Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.340327, 6.923192], [80.340691, 6.923192], [80.341479, 6.923491]]
+}

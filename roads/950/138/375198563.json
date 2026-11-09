@@ -1,0 +1,9 @@
+{
+  "id": 375198563,
+  "name": "Bodhiraja Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.871795, 6.841803], [79.87194, 6.841651], [79.871993, 6.841668], [79.872326, 6.841976]]
+}

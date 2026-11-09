@@ -1,0 +1,9 @@
+{
+  "id": 540133373,
+  "name": "Hiripitiya-Madagalla road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.369371, 7.65678], [80.369363, 7.656943]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 179241861,
+  "name": "Sasthiriyar1st Cross Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.55409, 7.827054], [81.554029, 7.828043], [81.553944, 7.828484], [81.553704, 7.829251]]
+}

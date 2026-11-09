@@ -1,0 +1,9 @@
+{
+  "id": 388375360,
+  "name": "Bake House 4th Cross",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.578979, 7.811068], [81.578926, 7.811164], [81.578883, 7.811241], [81.578673, 7.811873], [81.578356, 7.812725], [81.578035, 7.813096], [81.577455, 7.813899]]
+}

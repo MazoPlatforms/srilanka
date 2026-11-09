@@ -1,0 +1,9 @@
+{
+  "id": 532885882,
+  "name": "Bishrul Hafi Mawatha",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.826464, 8.032776], [79.826857, 8.03277], [79.827233, 8.032765], [79.827466, 8.03275], [79.827698, 8.032751]]
+}

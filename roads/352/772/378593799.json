@@ -1,0 +1,9 @@
+{
+  "id": 378593799,
+  "name": "",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.900573, 7.14143], [79.900685, 7.141718], [79.900821, 7.142066]]
+}

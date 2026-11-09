@@ -1,0 +1,9 @@
+{
+  "id": 456715868,
+  "name": "Nallamma Rd",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.761876, 7.484609], [81.762254, 7.484708], [81.762977, 7.484887], [81.763688, 7.485065]]
+}

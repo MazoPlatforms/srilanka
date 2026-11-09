@@ -1,0 +1,9 @@
+{
+  "id": 229952922,
+  "name": "Swarna Place",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[79.948655, 6.788208], [79.948677, 6.788482]]
+}

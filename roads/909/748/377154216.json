@@ -1,0 +1,9 @@
+{
+  "id": 377154216,
+  "name": "Weerava Pedesa",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.944245, 7.003012], [79.944148, 7.002573], [79.94409, 7.002374]]
+}

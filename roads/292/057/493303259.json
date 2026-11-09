@@ -1,0 +1,9 @@
+{
+  "id": 493303259,
+  "name": "Karamunai-Alamkulam Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.495679, 7.964323], [81.495598, 7.964836], [81.495544, 7.965001], [81.495413, 7.965165], [81.494751, 7.966212], [81.494508, 7.966699]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 939320895,
+  "name": "Kalegana-Gintota Road",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.194975, 6.054397], [80.194897, 6.054366], [80.194726, 6.054299]]
+}

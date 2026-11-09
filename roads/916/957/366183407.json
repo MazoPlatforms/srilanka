@@ -1,0 +1,9 @@
+{
+  "id": 366183407,
+  "name": "Area cloudy (Sorry)",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.415041, 6.516365], [80.41435, 6.516495], [80.413826, 6.5165], [80.41338, 6.516385], [80.41222, 6.515666]]
+}

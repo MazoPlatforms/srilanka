@@ -1,0 +1,9 @@
+{
+  "id": 127836584,
+  "name": "lan3",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.373102, 8.339458], [80.373452, 8.33967], [80.374836, 8.340546]]
+}

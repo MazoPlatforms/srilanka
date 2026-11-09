@@ -1,0 +1,9 @@
+{
+  "id": 672143227,
+  "name": "Lenin Mawatha",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.409471, 8.306244], [80.408993, 8.305761]]
+}

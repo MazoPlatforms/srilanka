@@ -1,0 +1,9 @@
+{
+  "id": 401910894,
+  "name": "Kithulkanda Hotel Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.098533, 6.855963], [80.098511, 6.855821], [80.098392, 6.855646]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 295656635,
+  "name": "Tuduwewaytta",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.779406, 6.011015], [80.779577, 6.010277], [80.779596, 6.010194], [80.779467, 6.009624], [80.779461, 6.009538], [80.779471, 6.009264]]
+}

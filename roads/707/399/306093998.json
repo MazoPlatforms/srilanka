@@ -1,0 +1,9 @@
+{
+  "id": 306093998,
+  "name": "Buhary Hajiyar Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.522893, 7.909216], [81.522914, 7.909193], [81.523396, 7.909059], [81.523676, 7.909013], [81.524213, 7.908888], [81.524949, 7.908664]]
+}

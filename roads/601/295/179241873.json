@@ -1,0 +1,9 @@
+{
+  "id": 179241873,
+  "name": "Kaali kovil 6th cross",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.563515, 7.818777], [81.563445, 7.818844], [81.563405, 7.81888], [81.563359, 7.818922], [81.563161, 7.819097], [81.562632, 7.819427]]
+}

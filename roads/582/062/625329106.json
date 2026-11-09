@@ -1,0 +1,9 @@
+{
+  "id": 625329106,
+  "name": "Sir Ratnajothy Saravanamuttu Mawatha (Wolfendahl Street)",
+  "highway": "secondary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 45, "motorcycle": 45, "truck": 45, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.85966, 6.941699], [79.859595, 6.941797]]
+}

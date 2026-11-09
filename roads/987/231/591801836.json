@@ -1,0 +1,9 @@
+{
+  "id": 591801836,
+  "name": "Gonagolla - Bandaraduwa Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.562988, 7.432686], [81.563117, 7.432686], [81.564277, 7.432681], [81.56605, 7.432957], [81.567018, 7.43308]]
+}

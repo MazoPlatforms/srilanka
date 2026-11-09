@@ -1,0 +1,9 @@
+{
+  "id": 1010408566,
+  "name": "2nd Canal Road",
+  "highway": "secondary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.030117, 7.928589], [81.030322, 7.928686]]
+}

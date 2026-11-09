@@ -1,0 +1,9 @@
+{
+  "id": 421348830,
+  "name": "3rd Cross Road,Rameshpuram",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.595318, 7.786108], [81.595618, 7.786065], [81.595749, 7.785992], [81.596451, 7.785624], [81.596682, 7.785464], [81.596761, 7.785368]]
+}

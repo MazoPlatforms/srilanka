@@ -1,0 +1,9 @@
+{
+  "id": 53145367,
+  "name": "Edmonton Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.876222, 6.881396], [79.875654, 6.881286], [79.875381, 6.881236], [79.875145, 6.881213], [79.874895, 6.881249]]
+}

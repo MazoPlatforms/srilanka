@@ -1,0 +1,9 @@
+{
+  "id": 390189247,
+  "name": "4th Nagarasa Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.448337, 8.089482], [81.448269, 8.090024], [81.448265, 8.090064], [81.448223, 8.090469]]
+}

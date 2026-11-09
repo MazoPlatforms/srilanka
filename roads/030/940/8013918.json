@@ -1,0 +1,9 @@
+{
+  "id": 8013918,
+  "name": "A.H.M. Anver Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.238498, 6.033202], [80.238523, 6.033245], [80.238645, 6.033457], [80.23881, 6.033741], [80.239014, 6.034218], [80.239351, 6.034823]]
+}

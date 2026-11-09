@@ -1,0 +1,9 @@
+{
+  "id": 278045389,
+  "name": "Kalaimagal Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.850151, 7.123539], [81.850202, 7.123554], [81.850495, 7.123604], [81.850991, 7.123685], [81.851904, 7.123885], [81.853067, 7.123991], [81.854214, 7.124082]]
+}

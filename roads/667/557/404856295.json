@@ -1,0 +1,9 @@
+{
+  "id": 404856295,
+  "name": "RDS Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.7317, 7.68841], [81.731913, 7.688529], [81.732143, 7.688674]]
+}

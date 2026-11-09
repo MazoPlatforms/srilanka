@@ -1,0 +1,9 @@
+{
+  "id": 423541062,
+  "name": "Gama Mada Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.898733, 7.131061], [79.898499, 7.131094], [79.898201, 7.131144], [79.89766, 7.131142]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 162084729,
+  "name": "Kawantissa Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.328246, 6.411673], [81.328205, 6.412626], [81.32815, 6.414269], [81.328195, 6.415616], [81.32831, 6.41643], [81.32847, 6.41718]]
+}

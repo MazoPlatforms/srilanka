@@ -1,0 +1,9 @@
+{
+  "id": 1475110328,
+  "name": "Track 04 Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.106533, 8.183784], [80.106931, 8.183848], [80.107062, 8.183852], [80.107309, 8.183715]]
+}

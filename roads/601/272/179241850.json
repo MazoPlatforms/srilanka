@@ -1,0 +1,9 @@
+{
+  "id": 179241850,
+  "name": "Cemety Road 1 Cross",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.551098, 7.839598], [81.551194, 7.839213], [81.551304, 7.838764], [81.551464, 7.83818]]
+}

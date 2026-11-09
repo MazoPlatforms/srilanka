@@ -1,0 +1,9 @@
+{
+  "id": 934003350,
+  "name": "Marine Drive",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.862349, 7.23216], [81.862388, 7.232678], [81.862461, 7.233263], [81.862538, 7.233773], [81.862543, 7.234429]]
+}

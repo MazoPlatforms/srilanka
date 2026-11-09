@@ -1,0 +1,9 @@
+{
+  "id": 808882940,
+  "name": "Power Station Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.034757, 9.742193], [80.034868, 9.742609], [80.034991, 9.743081], [80.03503, 9.743248]]
+}

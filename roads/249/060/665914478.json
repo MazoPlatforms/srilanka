@@ -1,0 +1,9 @@
+{
+  "id": 665914478,
+  "name": "Arnold Ratnayake Road",
+  "highway": "tertiary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.864672, 6.923], [79.864527, 6.923027], [79.864401, 6.92305]]
+}

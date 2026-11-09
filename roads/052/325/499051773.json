@@ -1,0 +1,9 @@
+{
+  "id": 499051773,
+  "name": "Aluthgama Road",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.113333, 6.477608], [80.113548, 6.477571]]
+}

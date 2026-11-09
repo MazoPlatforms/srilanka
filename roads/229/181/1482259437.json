@@ -1,0 +1,9 @@
+{
+  "id": 1482259437,
+  "name": "Outer Circular Road",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.400505, 8.371238], [80.400637, 8.37084], [80.400778, 8.370433]]
+}

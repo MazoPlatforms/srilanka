@@ -1,0 +1,9 @@
+{
+  "id": 405421903,
+  "name": "Golukotuwa Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.883889, 7.107056], [79.883673, 7.10706], [79.883403, 7.107062], [79.883377, 7.107036], [79.883285, 7.106706]]
+}

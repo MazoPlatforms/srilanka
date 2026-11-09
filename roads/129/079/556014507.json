@@ -1,0 +1,9 @@
+{
+  "id": 556014507,
+  "name": "Rana Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.869902, 6.932403], [79.869921, 6.932285]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 177966335,
+  "name": "Telecom Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.72772, 7.686356], [81.727318, 7.686117], [81.726858, 7.685843], [81.726441, 7.685623], [81.726022, 7.685409]]
+}

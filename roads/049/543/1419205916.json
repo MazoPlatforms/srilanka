@@ -1,0 +1,9 @@
+{
+  "id": 1419205916,
+  "name": "Heritance Tea Factory Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.833161, 6.990262], [80.833003, 6.989879], [80.832938, 6.989672], [80.83294, 6.989458], [80.832969, 6.989363], [80.833077, 6.989218], [80.833073, 6.989168]]
+}

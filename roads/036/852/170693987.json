@@ -1,0 +1,9 @@
+{
+  "id": 170693987,
+  "name": "Senanayake Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.026725, 6.122641], [81.026768, 6.121405], [81.026696, 6.12054], [81.026674, 6.119733], [81.026442, 6.118064], [81.0264, 6.117178]]
+}

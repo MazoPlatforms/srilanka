@@ -1,0 +1,9 @@
+{
+  "id": 1341824330,
+  "name": "Kaluwelgoda - Siyambalapitiya Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 45, "motorcycle": 45, "truck": 45, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.938528, 7.112596], [79.938152, 7.113005], [79.938044, 7.113276], [79.938015, 7.113433], [79.93795, 7.113962], [79.937904, 7.114204], [79.937823, 7.11449], [79.937805, 7.114545]]
+}

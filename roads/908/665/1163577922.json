@@ -1,0 +1,9 @@
+{
+  "id": 1163577922,
+  "name": "Buller's Lane",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.870394, 6.89741], [79.870611, 6.896988]]
+}

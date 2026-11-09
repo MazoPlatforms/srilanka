@@ -1,0 +1,9 @@
+{
+  "id": 293826554,
+  "name": "Asiri Uyana 3rd Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.927998, 6.893138], [79.928155, 6.8936], [79.928267, 6.893911], [79.92814, 6.894092]]
+}

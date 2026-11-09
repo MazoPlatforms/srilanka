@@ -1,0 +1,9 @@
+{
+  "id": 179237103,
+  "name": "Barathy Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.586606, 7.791539], [81.585624, 7.792503], [81.584592, 7.793403]]
+}

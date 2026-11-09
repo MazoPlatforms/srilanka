@@ -1,0 +1,9 @@
+{
+  "id": 1482636095,
+  "name": "Ellakkattuwa Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.397986, 8.339319], [80.397962, 8.339253]]
+}

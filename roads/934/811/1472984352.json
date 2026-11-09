@@ -1,0 +1,9 @@
+{
+  "id": 1472984352,
+  "name": "LB Canal Rd",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40, "motorcycle": 40, "truck": 40, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.179337, 7.682845], [80.179101, 7.682727]]
+}

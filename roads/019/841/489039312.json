@@ -1,0 +1,9 @@
+{
+  "id": 489039312,
+  "name": "Saratha Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.407514, 8.217381], [81.407381, 8.218164], [81.407099, 8.219107], [81.406985, 8.219561]]
+}

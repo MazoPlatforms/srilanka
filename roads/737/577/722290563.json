@@ -1,0 +1,9 @@
+{
+  "id": 722290563,
+  "name": "King George Drive",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.833842, 7.212422], [79.834106, 7.212768], [79.834163, 7.212827], [79.834439, 7.213084], [79.834882, 7.213491], [79.835089, 7.213644]]
+}

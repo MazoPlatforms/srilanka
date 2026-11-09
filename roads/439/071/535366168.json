@@ -1,0 +1,9 @@
+{
+  "id": 535366168,
+  "name": "Sinhasana Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.589708, 5.921301], [80.589666, 5.920962], [80.58947, 5.920721], [80.589222, 5.920474], [80.589023, 5.920372], [80.588737, 5.920347]]
+}

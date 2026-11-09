@@ -1,0 +1,9 @@
+{
+  "id": 162321706,
+  "name": "Pita Veediya",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.3339, 6.41844], [81.33392, 6.41843], [81.33446, 6.41782], [81.33475, 6.41745], [81.33482, 6.41718], [81.33505, 6.41686], [81.33524, 6.41664]]
+}

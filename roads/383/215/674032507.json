@@ -1,0 +1,9 @@
+{
+  "id": 674032507,
+  "name": "Muttettugala-Hiripitiya Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.370532, 7.546877], [80.370517, 7.547018]]
+}

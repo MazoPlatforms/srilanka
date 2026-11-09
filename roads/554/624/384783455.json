@@ -1,0 +1,9 @@
+{
+  "id": 384783455,
+  "name": "Sakasthara Walawwa Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.960277, 7.092047], [79.960242, 7.09195], [79.960166, 7.091799], [79.960129, 7.09171], [79.960088, 7.091547], [79.960057, 7.091348], [79.96003, 7.091219]]
+}

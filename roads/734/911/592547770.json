@@ -1,0 +1,9 @@
+{
+  "id": 592547770,
+  "name": "rupasinghe place",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.369077, 6.757356], [80.369186, 6.757361], [80.36925, 6.757326]]
+}

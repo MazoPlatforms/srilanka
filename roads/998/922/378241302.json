@@ -1,0 +1,9 @@
+{
+  "id": 378241302,
+  "name": "M. J. M. Lafir Mawatha (Messenger Street)",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.864391, 6.941703], [79.863556, 6.941382], [79.863148, 6.941225], [79.862981, 6.94116], [79.862191, 6.940856]]
+}

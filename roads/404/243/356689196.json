@@ -1,0 +1,9 @@
+{
+  "id": 356689196,
+  "name": "Wijerama Mawatha (McCarthy Road)",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.870944, 6.911448], [79.871139, 6.911008]]
+}

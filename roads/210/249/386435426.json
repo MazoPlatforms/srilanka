@@ -1,0 +1,9 @@
+{
+  "id": 386435426,
+  "name": "Nisala Pedesa",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.022718, 7.089177], [80.023244, 7.089605], [80.023458, 7.089813], [80.023623, 7.089744], [80.02375, 7.089617], [80.023902, 7.089385], [80.024006, 7.089226]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 227637856,
+  "name": "Sandharasi Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.927323, 7.037946], [79.927452, 7.03728], [79.927517, 7.036938], [79.927599, 7.036632]]
+}

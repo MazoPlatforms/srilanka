@@ -1,0 +1,9 @@
+{
+  "id": 673902897,
+  "name": "iOTen Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.494482, 8.819859], [80.493508, 8.820077]]
+}

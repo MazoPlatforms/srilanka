@@ -1,0 +1,9 @@
+{
+  "id": 183694022,
+  "name": "Annasi kotuwa watte Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.949632, 6.853472], [79.948931, 6.85363], [79.94855, 6.852144], [79.948209, 6.850898]]
+}

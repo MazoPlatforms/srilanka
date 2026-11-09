@@ -1,0 +1,9 @@
+{
+  "id": 755826761,
+  "name": "Wattakkaliya Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.794032, 7.585268], [79.79412, 7.585601], [79.794156, 7.585788], [79.794155, 7.586004], [79.794158, 7.586042], [79.794169, 7.586149], [79.794151, 7.586472], [79.794139, 7.586764]]
+}

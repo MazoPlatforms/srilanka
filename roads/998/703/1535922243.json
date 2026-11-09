@@ -1,0 +1,9 @@
+{
+  "id": 1535922243,
+  "name": "Kuliyapitiya-Hettipola Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.045288, 7.477892], [80.045293, 7.47773], [80.045261, 7.477501]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 372780291,
+  "name": "Pattivila Bridge",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[79.958855, 6.943204], [79.958661, 6.942566]]
+}

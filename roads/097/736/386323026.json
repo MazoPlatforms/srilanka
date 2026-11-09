@@ -1,0 +1,9 @@
+{
+  "id": 386323026,
+  "name": "Elagawa Waththa Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.029396, 7.106972], [80.029406, 7.106855], [80.029414, 7.106719], [80.029465, 7.106336], [80.029476, 7.106155], [80.029504, 7.10608]]
+}

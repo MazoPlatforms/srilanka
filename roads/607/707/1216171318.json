@@ -1,0 +1,9 @@
+{
+  "id": 1216171318,
+  "name": "RC 1st cross road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 20, "foot": 5},
+  "coordinates": [[81.6047, 7.772624], [81.604726, 7.772942]]
+}

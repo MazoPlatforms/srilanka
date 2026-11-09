@@ -1,0 +1,9 @@
+{
+  "id": 220865145,
+  "name": "Thuraiyappa Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.684979, 7.752613], [81.684903, 7.752506], [81.684717, 7.752244], [81.684472, 7.751721]]
+}

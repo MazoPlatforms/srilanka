@@ -1,0 +1,9 @@
+{
+  "id": 383577058,
+  "name": "Puliyankulam Palayavady 2nd lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.54325, 8.953977], [80.54334, 8.954149], [80.544018, 8.955511]]
+}

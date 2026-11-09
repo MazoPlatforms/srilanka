@@ -1,0 +1,9 @@
+{
+  "id": 497324449,
+  "name": "Main Road Eachanthivu",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.643028, 7.713476], [81.643485, 7.714177], [81.643627, 7.714309], [81.64378, 7.714383], [81.644104, 7.714409]]
+}

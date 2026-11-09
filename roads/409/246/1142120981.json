@@ -1,0 +1,9 @@
+{
+  "id": 1142120981,
+  "name": "Pohorabawa road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.298901, 6.815945], [80.29889, 6.816028]]
+}

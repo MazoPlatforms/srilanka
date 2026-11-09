@@ -1,0 +1,9 @@
+{
+  "id": 660414573,
+  "name": "Galagedara-Rambukkana Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.468724, 7.332943], [80.468986, 7.332908]]
+}

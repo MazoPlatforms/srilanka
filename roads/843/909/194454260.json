@@ -1,0 +1,9 @@
+{
+  "id": 194454260,
+  "name": "Canal Row",
+  "highway": "residential",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.844721, 6.933372], [79.844634, 6.933315], [79.844493, 6.933277], [79.844266, 6.933283], [79.843855, 6.933353], [79.843927, 6.9339]]
+}

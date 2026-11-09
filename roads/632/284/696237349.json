@@ -1,0 +1,9 @@
+{
+  "id": 696237349,
+  "name": "Puliyankulam-Mullaittivu Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.525464, 8.964978], [80.525547, 8.964965], [80.525608, 8.964961], [80.525665, 8.964958], [80.525718, 8.964959]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 310009168,
+  "name": "Tammannewa-Galenbindunuwewa Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.699715, 8.302525], [80.69976, 8.302478], [80.699835, 8.302409]]
+}

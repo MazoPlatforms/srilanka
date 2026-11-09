@@ -1,0 +1,9 @@
+{
+  "id": 53348015,
+  "name": "Pepiliyana Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.884577, 6.857696], [79.885028, 6.857774], [79.885281, 6.857818], [79.885507, 6.858086], [79.886146, 6.858222], [79.886199, 6.858205], [79.88633, 6.857953]]
+}

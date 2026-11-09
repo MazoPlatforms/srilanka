@@ -1,0 +1,9 @@
+{
+  "id": 744231851,
+  "name": "Kadaloor Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.56025, 7.844275], [81.559967, 7.844105]]
+}

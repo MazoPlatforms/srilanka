@@ -1,0 +1,9 @@
+{
+  "id": 553338377,
+  "name": "Galle Face Centre Road",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
+  "coordinates": [[79.842636, 6.92967], [79.842451, 6.930236]]
+}

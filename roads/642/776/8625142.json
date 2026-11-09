@@ -1,0 +1,9 @@
+{
+  "id": 8625142,
+  "name": "Racecourse Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.163101, 6.071555], [80.163336, 6.072449], [80.16343, 6.07265], [80.163454, 6.072684], [80.163564, 6.072836], [80.164153, 6.073651], [80.165177, 6.074861]]
+}

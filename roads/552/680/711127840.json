@@ -1,0 +1,9 @@
+{
+  "id": 711127840,
+  "name": "Valaichchenai-Nasivantivu Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.533852, 7.908572], [81.533877, 7.908499], [81.533891, 7.908422], [81.533894, 7.90837], [81.533896, 7.908291]]
+}

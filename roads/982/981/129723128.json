@@ -1,0 +1,9 @@
+{
+  "id": 129723128,
+  "name": "Horana-Padukka Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.054696, 6.760756], [80.054829, 6.760881]]
+}

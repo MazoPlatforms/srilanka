@@ -1,0 +1,9 @@
+{
+  "id": 170189529,
+  "name": "Kajuwatte Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.533879, 5.958466], [80.533872, 5.958542], [80.533915, 5.959335], [80.533927, 5.959736], [80.533932, 5.959906], [80.533865, 5.960813], [80.533583, 5.960828]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 388812226,
+  "name": "Mihindu Peseda",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.036098, 7.08393], [80.036166, 7.084059], [80.036177, 7.084328], [80.036249, 7.084564], [80.036334, 7.084696], [80.036241, 7.084788], [80.036545, 7.084952]]
+}

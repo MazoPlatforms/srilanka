@@ -1,0 +1,9 @@
+{
+  "id": 503460748,
+  "name": "Gampaha-Mriswatta Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 55, "motorcycle": 55, "truck": 50, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.999574, 7.091132], [79.999639, 7.091103], [79.999677, 7.091086], [79.999734, 7.09106], [79.99981, 7.091026]]
+}

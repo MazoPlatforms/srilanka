@@ -1,0 +1,9 @@
+{
+  "id": 199428332,
+  "name": "Sri Sumangala Avenue",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.874003, 6.920309], [79.873426, 6.920102], [79.87314, 6.919974], [79.872827, 6.919726], [79.872786, 6.919694], [79.872727, 6.919651]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 550381824,
+  "name": "Orutota Road",
+  "highway": "trunk",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "foot": 5},
+  "coordinates": [[79.992175, 7.090956], [79.99225, 7.09103], [79.992326, 7.091122], [79.992413, 7.091234], [79.992597, 7.091507], [79.99307, 7.09219]]
+}

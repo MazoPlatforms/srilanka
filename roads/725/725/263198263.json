@@ -1,0 +1,9 @@
+{
+  "id": 263198263,
+  "name": "Samadi Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.003551, 6.836983], [80.003736, 6.837029], [80.004273, 6.837116], [80.004651, 6.837246]]
+}

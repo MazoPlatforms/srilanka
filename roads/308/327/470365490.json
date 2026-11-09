@@ -1,0 +1,9 @@
+{
+  "id": 470365490,
+  "name": "Jayawardane Avenue",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.866289, 6.859178], [79.866264, 6.859393]]
+}

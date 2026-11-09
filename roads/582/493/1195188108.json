@@ -1,0 +1,9 @@
+{
+  "id": 1195188108,
+  "name": "Uyilankulam Naanaddan Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.969383, 8.837275], [79.97028, 8.837896], [79.971175, 8.838469], [79.973109, 8.839642], [79.974084, 8.840357], [79.975578, 8.843248], [79.976049, 8.844242], [79.976101, 8.844391]]
+}

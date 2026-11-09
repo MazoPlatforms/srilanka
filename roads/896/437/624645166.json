@@ -1,0 +1,9 @@
+{
+  "id": 624645166,
+  "name": "Huda Masjid Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.526193, 7.915073], [81.526128, 7.914689], [81.525747, 7.913716]]
+}

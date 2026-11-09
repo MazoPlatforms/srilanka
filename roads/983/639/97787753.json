@@ -1,0 +1,9 @@
+{
+  "id": 97787753,
+  "name": "Britto Place",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.871992, 6.942148], [79.871985, 6.942213], [79.871974, 6.942318], [79.871846, 6.94256], [79.871042, 6.943529], [79.870413, 6.944116]]
+}

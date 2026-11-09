@@ -1,0 +1,9 @@
+{
+  "id": 224498299,
+  "name": "Bailey 2nd Cross Street",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.703623, 7.722664], [81.70382, 7.722726], [81.703973, 7.722744], [81.704252, 7.722697], [81.704287, 7.722687], [81.70487, 7.722606], [81.7058, 7.722446]]
+}

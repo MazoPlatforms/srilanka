@@ -1,0 +1,9 @@
+{
+  "id": 330677833,
+  "name": "Minuwangoda-Miriswatta-Katana Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 55, "motorcycle": 55, "truck": 50, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.913122, 7.222608], [79.913457, 7.222263]]
+}

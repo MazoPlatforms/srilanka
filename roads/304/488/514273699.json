@@ -1,0 +1,9 @@
+{
+  "id": 514273699,
+  "name": "Park Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.869222, 6.857323], [79.869244, 6.857351], [79.86967, 6.857459], [79.869819, 6.857525], [79.87022, 6.857876]]
+}

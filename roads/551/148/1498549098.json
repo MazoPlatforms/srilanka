@@ -1,0 +1,9 @@
+{
+  "id": 1498549098,
+  "name": "Kirinde-Palatupana-Yala Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.404002, 6.281479], [81.404077, 6.281491]]
+}

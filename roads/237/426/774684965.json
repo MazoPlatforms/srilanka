@@ -1,0 +1,9 @@
+{
+  "id": 774684965,
+  "name": "",
+  "highway": "primary_link",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.634554, 7.306634], [80.634526, 7.306676], [80.634495, 7.306716], [80.634454, 7.306751], [80.634392, 7.306782]]
+}

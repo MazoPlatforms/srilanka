@@ -1,0 +1,9 @@
+{
+  "id": 533627591,
+  "name": "Aloka Mawatha",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[79.984724, 6.776485], [79.984165, 6.776803], [79.9841, 6.776821]]
+}

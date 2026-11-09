@@ -1,0 +1,9 @@
+{
+  "id": 1070099872,
+  "name": "Godapola - Kamburadeniya Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.592873, 7.228961], [80.592938, 7.229204], [80.593201, 7.22987]]
+}

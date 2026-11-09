@@ -1,0 +1,9 @@
+{
+  "id": 345487703,
+  "name": "Rathnayake Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.92957, 6.888512], [79.929917, 6.888568], [79.930002, 6.888585], [79.930051, 6.888602], [79.930103, 6.88863], [79.930154, 6.888668], [79.930195, 6.888727]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 388712801,
+  "name": "Akbar Thaika 1st Cross Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.505432, 7.945738], [81.505788, 7.94584], [81.506275, 7.945932], [81.506691, 7.945938], [81.507182, 7.945945], [81.507552, 7.945952]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 278138514,
+  "name": "Bhadrawaththa 2nd Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.252688, 7.61562], [80.252697, 7.616205], [80.252699, 7.616249], [80.252722, 7.616747], [80.252729, 7.617243], [80.251932, 7.617286]]
+}

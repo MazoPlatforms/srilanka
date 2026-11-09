@@ -1,0 +1,9 @@
+{
+  "id": 970224969,
+  "name": "Manalchchenai Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40, "motorcycle": 40, "truck": 40, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.866113, 7.006045], [81.866899, 7.007851], [81.86714, 7.008389], [81.867282, 7.008621], [81.86744, 7.008864], [81.867746, 7.009093]]
+}

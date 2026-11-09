@@ -1,0 +1,9 @@
+{
+  "id": 1391570302,
+  "name": "dikwela foot path",
+  "highway": "footway",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 8, "foot": 5},
+  "coordinates": [[80.580809, 7.453697], [80.580739, 7.453059]]
+}

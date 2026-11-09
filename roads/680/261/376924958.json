@@ -1,0 +1,9 @@
+{
+  "id": 376924958,
+  "name": "Aloe Avenue",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.850232, 6.90511], [79.850068, 6.905058], [79.849998, 6.905039]]
+}

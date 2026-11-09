@@ -1,0 +1,9 @@
+{
+  "id": 1495685615,
+  "name": "Wakwella - Poddala Road",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.193316, 6.091235], [80.193609, 6.091825], [80.193612, 6.091892], [80.193601, 6.091967], [80.193107, 6.093435], [80.193032, 6.093723]]
+}

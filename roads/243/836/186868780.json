@@ -1,0 +1,9 @@
+{
+  "id": 186868780,
+  "name": "Bowatte-Kuliyapitiya Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.961737, 7.597987], [79.96183, 7.598153], [79.961879, 7.598255], [79.961903, 7.59833], [79.961923, 7.598438], [79.961946, 7.598609]]
+}

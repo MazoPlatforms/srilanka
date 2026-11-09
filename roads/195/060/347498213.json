@@ -1,0 +1,9 @@
+{
+  "id": 347498213,
+  "name": "Muttetugoda 2nd Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.94247, 6.908669], [79.942493, 6.908533], [79.942504, 6.908497], [79.942521, 6.908462], [79.942556, 6.9084]]
+}

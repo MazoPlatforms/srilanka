@@ -1,0 +1,9 @@
+{
+  "id": 52447031,
+  "name": "Mahanuga Gardens",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.848086, 6.916417], [79.850367, 6.917069]]
+}

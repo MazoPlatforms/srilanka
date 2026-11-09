@@ -1,0 +1,9 @@
+{
+  "id": 168104979,
+  "name": "St. Peters Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.883845, 6.765482], [79.885098, 6.765653], [79.885169, 6.765657], [79.885351, 6.765689], [79.885862, 6.765769], [79.88686, 6.765912], [79.887612, 6.765998]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 98840899,
+  "name": "Thakshila Uyana",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.081446, 6.729007], [80.081351, 6.729842], [80.081259, 6.73054]]
+}

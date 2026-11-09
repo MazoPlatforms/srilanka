@@ -1,0 +1,9 @@
+{
+  "id": 279920792,
+  "name": "Tambuttegama-Balaluwewa Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.300187, 8.161308], [80.300347, 8.16112], [80.300416, 8.161032]]
+}

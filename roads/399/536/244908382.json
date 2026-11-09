@@ -1,0 +1,9 @@
+{
+  "id": 244908382,
+  "name": "Diyatalawa Station Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.95991, 6.802609], [80.959825, 6.802554], [80.95969, 6.80246], [80.959569, 6.802326]]
+}

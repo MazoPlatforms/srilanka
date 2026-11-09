@@ -1,0 +1,9 @@
+{
+  "id": 389557872,
+  "name": "Lake 2nd Cross",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.550804, 7.82567], [81.550994, 7.825514], [81.551379, 7.825112], [81.551669, 7.824952], [81.552058, 7.824807]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 48795442,
+  "name": "Dharmapala PL",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.894693, 6.910031], [79.894719, 6.910098]]
+}

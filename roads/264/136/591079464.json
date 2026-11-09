@@ -1,0 +1,9 @@
+{
+  "id": 591079464,
+  "name": "Murunkan-Silavatturai Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.015527, 8.799084], [80.015782, 8.7996], [80.016077, 8.800192]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 330083446,
+  "name": "Batalanda Hena Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.912648, 6.926753], [79.912696, 6.926838], [79.912725, 6.926939], [79.912713, 6.927222]]
+}

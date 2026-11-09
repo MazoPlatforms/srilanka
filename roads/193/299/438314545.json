@@ -1,0 +1,9 @@
+{
+  "id": 438314545,
+  "name": "Seruwawila Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.306407, 8.388427], [81.306441, 8.388439], [81.306544, 8.388483], [81.306674, 8.388557], [81.306737, 8.388608], [81.306799, 8.388652], [81.306886, 8.388697]]
+}

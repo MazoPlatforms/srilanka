@@ -1,0 +1,9 @@
+{
+  "id": 346331028,
+  "name": "Mampalam Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.042692, 9.663836], [80.042683, 9.663604], [80.042568, 9.663218], [80.042552, 9.663203], [80.042525, 9.663205], [80.042414, 9.66325], [80.041508, 9.663436]]
+}

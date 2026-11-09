@@ -1,0 +1,9 @@
+{
+  "id": 223115524,
+  "name": "H. R. Jothipala Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.866855, 6.932086], [79.866904, 6.932112], [79.867219, 6.932157], [79.867775, 6.93225], [79.868224, 6.932332], [79.868959, 6.932464]]
+}

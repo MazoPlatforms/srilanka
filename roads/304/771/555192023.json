@@ -1,0 +1,9 @@
+{
+  "id": 555192023,
+  "name": "Pubudukala Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.935479, 7.003364], [79.9356, 7.003037], [79.935397, 7.00247], [79.935406, 7.002014]]
+}

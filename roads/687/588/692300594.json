@@ -1,0 +1,9 @@
+{
+  "id": 692300594,
+  "name": "Alvis Avenue",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.872182, 6.865508], [79.87216, 6.865779], [79.872133, 6.86589], [79.872017, 6.866384]]
+}

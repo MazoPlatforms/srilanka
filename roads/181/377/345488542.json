@@ -1,0 +1,9 @@
+{
+  "id": 345488542,
+  "name": "Araliya Gardens",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.890594, 6.895679], [79.890262, 6.895742], [79.890114, 6.89577]]
+}

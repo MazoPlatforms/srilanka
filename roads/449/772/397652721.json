@@ -1,0 +1,9 @@
+{
+  "id": 397652721,
+  "name": "4th lane Araliya Uyana",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.895427, 7.088222], [79.89577, 7.08842], [79.895826, 7.088454], [79.895833, 7.088477], [79.895666, 7.088736]]
+}

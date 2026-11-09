@@ -1,0 +1,9 @@
+{
+  "id": 108340508,
+  "name": "Auvaur Street",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.230161, 8.576704], [81.229679, 8.576406], [81.229311, 8.576055]]
+}

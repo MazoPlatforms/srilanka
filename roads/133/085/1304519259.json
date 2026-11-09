@@ -1,0 +1,9 @@
+{
+  "id": 1304519259,
+  "name": "Hirimbura Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.215084, 6.063248], [80.21544, 6.063606]]
+}

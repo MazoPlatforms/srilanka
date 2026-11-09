@@ -1,0 +1,9 @@
+{
+  "id": 345479325,
+  "name": "Bangalawatte Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.975825, 6.921645], [79.975911, 6.920959], [79.975963, 6.920797], [79.975938, 6.920728], [79.975777, 6.920691], [79.975596, 6.920609], [79.975439, 6.920505]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 584013770,
+  "name": "40th Ln",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.860377, 6.86806], [79.860457, 6.867583]]
+}

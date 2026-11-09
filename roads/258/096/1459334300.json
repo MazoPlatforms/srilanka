@@ -1,0 +1,9 @@
+{
+  "id": 1459334300,
+  "name": "Wellathota-Thihagoda Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.529081, 6.018549], [80.529212, 6.018573], [80.529346, 6.018641], [80.52968, 6.018978], [80.529756, 6.018988]]
+}

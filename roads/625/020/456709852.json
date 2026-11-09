@@ -1,0 +1,9 @@
+{
+  "id": 456709852,
+  "name": "Tiles factory",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.754377, 7.485], [81.754166, 7.4849], [81.753756, 7.484735], [81.753241, 7.48462]]
+}

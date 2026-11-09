@@ -1,0 +1,9 @@
+{
+  "id": 1426040047,
+  "name": "Kovil Road",
+  "highway": "footway",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 8, "foot": 5},
+  "coordinates": [[80.744892, 6.970171], [80.745156, 6.970103], [80.745238, 6.97015], [80.745282, 6.970191], [80.745459, 6.970183]]
+}

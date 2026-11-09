@@ -1,0 +1,9 @@
+{
+  "id": 239910341,
+  "name": "Athukorala Place",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.900752, 6.87125], [79.901097, 6.871015], [79.901219, 6.870936], [79.901906, 6.870482], [79.901996, 6.870453], [79.902625, 6.870386], [79.903392, 6.870332]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 320935492,
+  "name": "Imaam Roomy School Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.846033, 7.354997], [81.846584, 7.355066], [81.847148, 7.355164], [81.84744, 7.355175], [81.847817, 7.355156]]
+}

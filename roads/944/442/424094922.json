@@ -1,0 +1,9 @@
+{
+  "id": 424094922,
+  "name": "Senasumgoda Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.609251, 6.257006], [80.609206, 6.25676], [80.609281, 6.256611], [80.609307, 6.256509]]
+}

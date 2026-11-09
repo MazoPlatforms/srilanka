@@ -1,0 +1,9 @@
+{
+  "id": 817251231,
+  "name": "New Chattle Waththa",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.072628, 6.637581], [80.072644, 6.637504], [80.072619, 6.637398], [80.072662, 6.637058], [80.072693, 6.63668], [80.072798, 6.636076], [80.072799, 6.63574]]
+}

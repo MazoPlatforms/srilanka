@@ -1,0 +1,9 @@
+{
+  "id": 423489989,
+  "name": "Sengunthar Veethy",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.700022, 7.721981], [81.70022, 7.721833], [81.700458, 7.72169]]
+}

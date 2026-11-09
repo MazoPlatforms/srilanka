@@ -1,0 +1,9 @@
+{
+  "id": 1548260343,
+  "name": "Point Pedro Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.018986, 9.669369], [80.019035, 9.669393], [80.019079, 9.669421], [80.019152, 9.669472], [80.019356, 9.669603]]
+}

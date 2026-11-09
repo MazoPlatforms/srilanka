@@ -1,0 +1,9 @@
+{
+  "id": 49002352,
+  "name": "International Buddhist Centre Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.858758, 6.869168], [79.859439, 6.869277], [79.859757, 6.869318], [79.860426, 6.869478], [79.862112, 6.869812], [79.862186, 6.869827]]
+}

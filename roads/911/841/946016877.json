@@ -1,0 +1,9 @@
+{
+  "id": 946016877,
+  "name": "MoonValley Estate",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.682713, 7.278195], [80.682897, 7.278138], [80.683144, 7.278057], [80.683202, 7.278058]]
+}

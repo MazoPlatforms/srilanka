@@ -1,0 +1,9 @@
+{
+  "id": 1160393546,
+  "name": "Saliya Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20},
+  "coordinates": [[79.865279, 6.876597], [79.865296, 6.876546]]
+}

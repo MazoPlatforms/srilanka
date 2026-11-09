@@ -1,0 +1,9 @@
+{
+  "id": 377088677,
+  "name": "Gurukele Rd",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.631116, 7.18798], [80.631164, 7.188672]]
+}

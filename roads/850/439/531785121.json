@@ -1,0 +1,9 @@
+{
+  "id": 531785121,
+  "name": "Yatiyantota Road",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "foot": 5},
+  "coordinates": [[80.261457, 7.02349], [80.261394, 7.023422], [80.261358, 7.023372], [80.261329, 7.023316], [80.261278, 7.023275]]
+}

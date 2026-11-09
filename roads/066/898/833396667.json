@@ -1,0 +1,9 @@
+{
+  "id": 833396667,
+  "name": "Baduwatta Rd",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.335845, 6.350976], [80.335395, 6.350808], [80.335228, 6.350701], [80.335185, 6.350456], [80.335175, 6.350173], [80.335035, 6.349928], [80.334928, 6.349784]]
+}

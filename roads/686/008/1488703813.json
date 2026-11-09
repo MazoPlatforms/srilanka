@@ -1,0 +1,9 @@
+{
+  "id": 1488703813,
+  "name": "Kelani Vihara Road",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 15, "foot": 5},
+  "coordinates": [[79.920875, 6.952875], [79.920845, 6.952776], [79.920818, 6.952737], [79.920724, 6.952652]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 264764087,
+  "name": "Delgahawatte Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.960941, 6.979953], [79.960851, 6.980251], [79.960804, 6.980368], [79.960744, 6.980538], [79.960681, 6.980894], [79.960612, 6.981044], [79.96038, 6.981387]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 400721465,
+  "name": "Bodhiyangana Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.616518, 7.274318], [80.616572, 7.274446], [80.616591, 7.274499], [80.616723, 7.274741], [80.616743, 7.274778], [80.616939, 7.275053]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 426532246,
+  "name": "Seeni Alim Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.726159, 7.676696], [81.726107, 7.676903], [81.726048, 7.677145], [81.725897, 7.677673], [81.725795, 7.677977]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 672121687,
+  "name": "Pallimunai Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.914348, 8.976653], [79.914432, 8.976717], [79.91451, 8.976772], [79.914593, 8.976818], [79.914806, 8.976923], [79.915809, 8.977387]]
+}

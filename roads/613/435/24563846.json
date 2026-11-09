@@ -1,0 +1,9 @@
+{
+  "id": 24563846,
+  "name": "Dr. N. M. Perera Mawatha (Cotta Road)",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.889065, 6.910811], [79.889236, 6.910831]]
+}

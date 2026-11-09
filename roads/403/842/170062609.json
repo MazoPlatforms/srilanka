@@ -1,0 +1,9 @@
+{
+  "id": 170062609,
+  "name": "Paragon Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.555947, 5.943713], [80.556139, 5.945146]]
+}

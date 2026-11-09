@@ -1,0 +1,9 @@
+{
+  "id": 502828544,
+  "name": "Vipulnantha Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.755696, 7.516901], [81.755727, 7.516644], [81.755745, 7.51635], [81.755757, 7.516012], [81.75571, 7.51583]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 83601520,
+  "name": "Dutugemunu Mawatha",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.938293, 6.908463], [79.938333, 6.908534], [79.938379, 6.90857], [79.938734, 6.908713]]
+}

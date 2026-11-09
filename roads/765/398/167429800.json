@@ -1,0 +1,9 @@
+{
+  "id": 167429800,
+  "name": "Kurudu Watte Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.039654, 6.844057], [80.040012, 6.843469], [80.04025, 6.843223], [80.040521, 6.843038], [80.041235, 6.842623], [80.041607, 6.842216], [80.041702, 6.842037]]
+}

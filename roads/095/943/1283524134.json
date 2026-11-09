@@ -1,0 +1,9 @@
+{
+  "id": 1283524134,
+  "name": "Fiber Garden",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.88424, 6.92879], [79.883347, 6.928551]]
+}

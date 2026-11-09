@@ -1,0 +1,9 @@
+{
+  "id": 344043002,
+  "name": "Kekunawela - Pitakauwana road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.549982, 6.064413], [80.549903, 6.064485], [80.549734, 6.064612]]
+}

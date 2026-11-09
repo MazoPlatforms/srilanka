@@ -1,0 +1,9 @@
+{
+  "id": 8625227,
+  "name": "Dickson Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.21867, 6.035075], [80.218731, 6.034905], [80.218763, 6.034812], [80.218909, 6.034504]]
+}

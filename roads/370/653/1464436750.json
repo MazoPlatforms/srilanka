@@ -1,0 +1,9 @@
+{
+  "id": 1464436750,
+  "name": "Alfred Place",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.858416, 6.903203], [79.858611, 6.903211]]
+}

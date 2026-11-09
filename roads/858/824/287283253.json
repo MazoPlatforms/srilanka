@@ -1,0 +1,9 @@
+{
+  "id": 287283253,
+  "name": "Hijra 5th Street",
+  "highway": "residential",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.809799, 7.361939], [81.809916, 7.36192], [81.810318, 7.361883], [81.810425, 7.361797], [81.810947, 7.361285]]
+}

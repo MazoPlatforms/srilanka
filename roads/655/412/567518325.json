@@ -1,0 +1,9 @@
+{
+  "id": 567518325,
+  "name": "Pragathi Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.006387, 6.836854], [80.005227, 6.836753], [80.003703, 6.836644]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 304526151,
+  "name": "Ameer Ali 5th Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.798374, 7.364269], [81.798061, 7.364614], [81.797797, 7.365036], [81.797724, 7.365191], [81.79784, 7.366276]]
+}

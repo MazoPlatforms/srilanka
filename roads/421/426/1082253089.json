@@ -1,0 +1,9 @@
+{
+  "id": 1082253089,
+  "name": "Halik AHK Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.513624, 7.995542], [80.511912, 7.994939], [80.511822, 7.994896], [80.511775, 7.994833], [80.511746, 7.994718], [80.511648, 7.994178]]
+}

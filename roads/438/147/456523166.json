@@ -1,0 +1,9 @@
+{
+  "id": 456523166,
+  "name": "Manikkapillaiyar Kovil Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.755841, 7.524383], [81.755965, 7.524379], [81.756837, 7.5244], [81.757413, 7.524454], [81.757376, 7.525108], [81.757664, 7.525114], [81.758114, 7.525186]]
+}

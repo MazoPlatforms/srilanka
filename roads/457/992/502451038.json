@@ -1,0 +1,9 @@
+{
+  "id": 502451038,
+  "name": "Sir Francis Molamure Mawatha",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.335388, 7.251171], [80.335266, 7.251177], [80.335218, 7.251189], [80.335169, 7.251215], [80.335114, 7.251256], [80.335063, 7.251306], [80.334998, 7.251396]]
+}

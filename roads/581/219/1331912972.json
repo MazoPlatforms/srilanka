@@ -1,0 +1,9 @@
+{
+  "id": 1331912972,
+  "name": "M S Fernando Place",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.868557, 6.840573], [79.868528, 6.840995], [79.86855, 6.841297]]
+}

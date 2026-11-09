@@ -1,0 +1,9 @@
+{
+  "id": 1117292682,
+  "name": "Sri Jinarathana Road",
+  "highway": "tertiary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.85814, 6.918196], [79.858112, 6.918123], [79.858058, 6.918015]]
+}

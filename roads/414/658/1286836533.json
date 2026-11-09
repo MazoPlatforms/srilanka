@@ -1,0 +1,9 @@
+{
+  "id": 1286836533,
+  "name": "Nilgala Trail",
+  "highway": "path",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 12, "foot": 4},
+  "coordinates": [[81.373381, 7.185056], [81.373706, 7.185395], [81.374033, 7.185486], [81.374239, 7.185718], [81.37442, 7.186015]]
+}

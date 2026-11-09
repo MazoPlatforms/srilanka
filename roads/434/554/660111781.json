@@ -1,0 +1,9 @@
+{
+  "id": 660111781,
+  "name": "Kolapathana MHP Rd",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.600409, 7.001051], [80.600286, 7.001], [80.600162, 7.000952], [80.600082, 7.000877], [80.599947, 7.000687]]
+}

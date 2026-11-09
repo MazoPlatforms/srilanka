@@ -1,0 +1,9 @@
+{
+  "id": 317474523,
+  "name": "Pilimatalawa-Pottepitiya Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.552128, 7.265758], [80.552178, 7.265719], [80.552221, 7.265649]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 403112045,
+  "name": "Padukadukulaveethy Rd 2nd Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.516503, 9.029321], [80.517262, 9.029818]]
+}

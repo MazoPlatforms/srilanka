@@ -1,0 +1,9 @@
+{
+  "id": 279528369,
+  "name": "Kurunegala Road",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "foot": 5},
+  "coordinates": [[80.35079, 8.236585], [80.350973, 8.23678]]
+}

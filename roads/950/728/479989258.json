@@ -1,0 +1,9 @@
+{
+  "id": 479989258,
+  "name": "Mapalagama-Yakkatuwa Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.252827, 6.226461], [80.252899, 6.226418]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 407635682,
+  "name": "Zain Moulana Kaburadi Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.729636, 7.678375], [81.729564, 7.678586], [81.729525, 7.678743], [81.729477, 7.678795], [81.729037, 7.678644], [81.728778, 7.678669], [81.728628, 7.67878], [81.728579, 7.678936]]
+}

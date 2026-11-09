@@ -1,0 +1,9 @@
+{
+  "id": 111476806,
+  "name": "Nugape Road",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.865101, 7.048787], [79.864904, 7.048631], [79.86453, 7.048334], [79.863959, 7.047843], [79.863769, 7.047698], [79.861976, 7.047111]]
+}

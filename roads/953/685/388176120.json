@@ -1,0 +1,9 @@
+{
+  "id": 388176120,
+  "name": "Seelananda Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.969055, 7.049031], [79.969169, 7.048884], [79.969402, 7.048649], [79.969554, 7.048761], [79.969623, 7.048788], [79.969671, 7.048773], [79.970052, 7.048437]]
+}

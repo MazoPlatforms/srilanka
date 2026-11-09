@@ -1,0 +1,9 @@
+{
+  "id": 168104960,
+  "name": "Janapriya Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.888433, 6.751961], [79.8885, 6.75201], [79.888523, 6.752], [79.888706, 6.752035], [79.889075, 6.752112], [79.889912, 6.752281], [79.890636, 6.752452]]
+}

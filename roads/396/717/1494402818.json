@@ -1,0 +1,9 @@
+{
+  "id": 1494402818,
+  "name": "De Soysa Circus",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20},
+  "coordinates": [[79.864917, 6.917366], [79.864934, 6.917328], [79.864938, 6.917281], [79.864928, 6.917236], [79.864923, 6.917228]]
+}

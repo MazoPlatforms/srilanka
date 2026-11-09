@@ -1,0 +1,9 @@
+{
+  "id": 591930668,
+  "name": "Meegahawela Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.355299, 6.671693], [80.355086, 6.671694]]
+}

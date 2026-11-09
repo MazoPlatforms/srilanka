@@ -1,0 +1,9 @@
+{
+  "id": 170062616,
+  "name": "Browning Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.551783, 5.945947], [80.551801, 5.945894], [80.552021, 5.94534], [80.552101, 5.944963]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 209515184,
+  "name": "Ground Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.858691, 7.231592], [79.858556, 7.231857], [79.858257, 7.23245], [79.85769, 7.233535], [79.857547, 7.233808]]
+}

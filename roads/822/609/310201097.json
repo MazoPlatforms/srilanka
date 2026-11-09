@@ -1,0 +1,9 @@
+{
+  "id": 310201097,
+  "name": "Perakumba Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.835568, 6.322172], [80.835888, 6.322023], [80.836313, 6.321879], [80.836775, 6.32179], [80.837779, 6.321656], [80.838176, 6.321633], [80.838419, 6.321571]]
+}

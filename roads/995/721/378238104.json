@@ -1,0 +1,9 @@
+{
+  "id": 378238104,
+  "name": "Wewalduwa Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.913349, 6.978274], [79.913659, 6.978643], [79.913806, 6.978879], [79.913881, 6.979043], [79.913978, 6.97931]]
+}

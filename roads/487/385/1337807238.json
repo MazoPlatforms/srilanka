@@ -1,0 +1,9 @@
+{
+  "id": 1337807238,
+  "name": "Bembewa Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.402342, 6.27832], [81.402095, 6.278289], [81.401831, 6.278292], [81.399638, 6.27843], [81.399327, 6.278462]]
+}

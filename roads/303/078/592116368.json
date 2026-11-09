@@ -1,0 +1,9 @@
+{
+  "id": 592116368,
+  "name": "Saman Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.879049, 6.825902], [79.879068, 6.8259], [79.879646, 6.826215], [79.880147, 6.826495], [79.880674, 6.826799], [79.881242, 6.827116]]
+}

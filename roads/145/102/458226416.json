@@ -1,0 +1,9 @@
+{
+  "id": 458226416,
+  "name": "Valamankerny Boundary Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.509178, 7.94544], [81.509199, 7.945709], [81.509296, 7.946733], [81.509316, 7.947011]]
+}

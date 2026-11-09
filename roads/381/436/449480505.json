@@ -1,0 +1,9 @@
+{
+  "id": 449480505,
+  "name": "Talduwa-Meewitigammana Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.216847, 6.987254], [80.216819, 6.987819], [80.216902, 6.988767], [80.216988, 6.989186], [80.217113, 6.989537], [80.217264, 6.989909], [80.217468, 6.990426]]
+}

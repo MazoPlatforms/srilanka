@@ -1,0 +1,9 @@
+{
+  "id": 179537258,
+  "name": "GS 2nd cross",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.563592, 7.813529], [81.563315, 7.813815], [81.562897, 7.814228], [81.562184, 7.814964]]
+}

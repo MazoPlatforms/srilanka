@@ -1,0 +1,9 @@
+{
+  "id": 401342394,
+  "name": "Asiri Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.959179, 6.822883], [79.959039, 6.822661], [79.959484, 6.822461], [79.960686, 6.821902]]
+}

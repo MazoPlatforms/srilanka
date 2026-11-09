@@ -1,0 +1,9 @@
+{
+  "id": 450560358,
+  "name": "Cemerty Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.737632, 7.612245], [81.737636, 7.612308], [81.73765, 7.612383], [81.737709, 7.612473], [81.737843, 7.612665], [81.737999, 7.612765], [81.738094, 7.612837]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 194735826,
+  "name": "Reclamation Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.014322, 9.653624], [80.014424, 9.653552]]
+}

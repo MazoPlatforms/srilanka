@@ -1,0 +1,9 @@
+{
+  "id": 389632438,
+  "name": "Nedunkerny Marayeluppai 8th Lane",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 15, "motorcycle": 15, "bicycle": 15, "foot": 5},
+  "coordinates": [[80.647802, 9.077767], [80.647588, 9.077615], [80.647314, 9.077477], [80.646306, 9.07711], [80.646198, 9.077001]]
+}

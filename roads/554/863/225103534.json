@@ -1,0 +1,9 @@
+{
+  "id": 225103534,
+  "name": "Jayathilaka Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.9091, 6.715642], [79.908557, 6.715702], [79.907618, 6.71576]]
+}

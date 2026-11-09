@@ -1,0 +1,9 @@
+{
+  "id": 245927903,
+  "name": "Mill Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.08851, 9.725647], [80.088618, 9.725894], [80.088822, 9.726375], [80.088324, 9.726575]]
+}

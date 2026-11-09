@@ -1,0 +1,9 @@
+{
+  "id": 34699273,
+  "name": "Katuwapitiya Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.84902, 7.210264], [79.849125, 7.210281], [79.849973, 7.210413], [79.850242, 7.210454], [79.851979, 7.210723], [79.852824, 7.210854]]
+}

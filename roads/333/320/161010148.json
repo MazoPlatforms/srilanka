@@ -1,0 +1,9 @@
+{
+  "id": 161010148,
+  "name": "Kandy Road 13th Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.490808, 8.741137], [80.49203, 8.740763], [80.493195, 8.740316]]
+}

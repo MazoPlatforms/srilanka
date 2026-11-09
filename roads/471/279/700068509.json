@@ -1,0 +1,9 @@
+{
+  "id": 700068509,
+  "name": "Gravel Road",
+  "highway": "path",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 12, "foot": 4},
+  "coordinates": [[81.567289, 6.915941], [81.56758, 6.915915], [81.567763, 6.915931], [81.567956, 6.915909], [81.568186, 6.91592]]
+}

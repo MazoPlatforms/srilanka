@@ -1,0 +1,9 @@
+{
+  "id": 500162919,
+  "name": "Piriwena Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.653964, 7.84681], [80.652948, 7.846743], [80.652597, 7.846697], [80.651682, 7.846548]]
+}

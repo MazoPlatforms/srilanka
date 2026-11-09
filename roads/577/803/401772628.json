@@ -1,0 +1,9 @@
+{
+  "id": 401772628,
+  "name": "Settiyar Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.573359, 7.809506], [81.57374, 7.809189], [81.574427, 7.808668], [81.574764, 7.808468], [81.575334, 7.808192]]
+}

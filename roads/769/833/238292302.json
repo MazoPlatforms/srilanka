@@ -1,0 +1,9 @@
+{
+  "id": 238292302,
+  "name": "New Riverdale Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.618999, 7.291254], [80.619039, 7.291146], [80.619081, 7.291058], [80.619128, 7.291022], [80.619204, 7.290997], [80.619899, 7.290922], [80.620236, 7.290807]]
+}

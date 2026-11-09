@@ -1,0 +1,9 @@
+{
+  "id": 509373267,
+  "name": "Dalupotha Gama Rd",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.628061, 7.592021], [80.628192, 7.594302], [80.628356, 7.597156], [80.627888, 7.597271], [80.627587, 7.59725], [80.626937, 7.597388]]
+}

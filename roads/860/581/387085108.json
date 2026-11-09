@@ -1,0 +1,9 @@
+{
+  "id": 387085108,
+  "name": "Jayakody Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.004778, 7.071477], [80.004772, 7.071421], [80.004723, 7.071339], [80.004583, 7.07131], [80.004134, 7.071318]]
+}

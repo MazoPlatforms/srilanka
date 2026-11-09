@@ -1,0 +1,9 @@
+{
+  "id": 8625131,
+  "name": "Chando Street",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.216112, 6.026929], [80.215821, 6.026684], [80.215464, 6.026394], [80.215325, 6.026253]]
+}

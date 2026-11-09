@@ -1,0 +1,9 @@
+{
+  "id": 542584897,
+  "name": "Kelipanawela Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.028282, 6.717503], [81.028392, 6.717543]]
+}

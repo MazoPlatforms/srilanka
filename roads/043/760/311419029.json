@@ -1,0 +1,9 @@
+{
+  "id": 311419029,
+  "name": "Erawwala Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.952154, 6.84442], [79.952179, 6.844499], [79.952563, 6.845061], [79.952795, 6.845492]]
+}

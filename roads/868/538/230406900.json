@@ -1,0 +1,9 @@
+{
+  "id": 230406900,
+  "name": "1st cross",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.691107, 7.728966], [81.69103, 7.728807], [81.690924, 7.728587]]
+}

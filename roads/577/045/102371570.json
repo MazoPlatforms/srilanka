@@ -1,0 +1,9 @@
+{
+  "id": 102371570,
+  "name": "Upekka Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.418084, 8.325774], [80.418231, 8.325616], [80.418248, 8.325345], [80.418113, 8.324842], [80.417918, 8.32427], [80.417752, 8.323995]]
+}

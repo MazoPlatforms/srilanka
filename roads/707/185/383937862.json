@@ -1,0 +1,9 @@
+{
+  "id": 383937862,
+  "name": "Gamini Mawatha 1st lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.942646, 7.063302], [79.942767, 7.063161], [79.942789, 7.063075], [79.942768, 7.063012], [79.942295, 7.062372]]
+}

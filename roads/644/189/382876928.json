@@ -1,0 +1,9 @@
+{
+  "id": 382876928,
+  "name": "Hill Street (Dehiwela-Maharagama Road)",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.866371, 6.851278], [79.866266, 6.851305], [79.866241, 6.851309], [79.866066, 6.851321]]
+}

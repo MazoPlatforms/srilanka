@@ -1,0 +1,9 @@
+{
+  "id": 50346064,
+  "name": "Nugahena Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.961768, 7.055171], [79.961677, 7.055187], [79.961319, 7.055282], [79.960896, 7.055395], [79.960431, 7.055547], [79.9601, 7.055635], [79.959692, 7.055719]]
+}

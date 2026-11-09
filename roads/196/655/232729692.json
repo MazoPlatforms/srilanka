@@ -1,0 +1,9 @@
+{
+  "id": 232729692,
+  "name": "Model tenement road 2nd lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.490566, 8.765351], [80.49073, 8.764932], [80.491743, 8.763623], [80.491996, 8.763421]]
+}

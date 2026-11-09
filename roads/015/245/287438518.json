@@ -1,0 +1,9 @@
+{
+  "id": 287438518,
+  "name": "Bazar 2nd Street",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.805299, 7.371492], [81.805331, 7.371385], [81.80535, 7.371159], [81.805325, 7.370352], [81.805154, 7.369331], [81.805097, 7.369179]]
+}

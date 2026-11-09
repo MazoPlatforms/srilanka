@@ -1,0 +1,9 @@
+{
+  "id": 1497405149,
+  "name": "Elvitigala Mawatha",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
+  "coordinates": [[79.877178, 6.901962], [79.877181, 6.90209], [79.877189, 6.902231], [79.877218, 6.903503], [79.877233, 6.904071]]
+}

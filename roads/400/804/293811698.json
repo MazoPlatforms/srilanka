@@ -1,0 +1,9 @@
+{
+  "id": 293811698,
+  "name": "Muthethttugoda Road  20th Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.945923, 6.90549], [79.945877, 6.905778], [79.945752, 6.9061]]
+}

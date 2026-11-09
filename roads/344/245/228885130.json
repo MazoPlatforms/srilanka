@@ -1,0 +1,9 @@
+{
+  "id": 228885130,
+  "name": "Ambagamuwa Road",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.569864, 7.163798], [80.569708, 7.163884], [80.569615, 7.163935]]
+}

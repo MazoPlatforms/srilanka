@@ -1,0 +1,9 @@
+{
+  "id": 711092128,
+  "name": "Ella-Passara Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.120727, 6.907861], [81.120747, 6.907778], [81.120769, 6.907737], [81.120799, 6.90769], [81.120829, 6.907672], [81.120884, 6.907677]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 1125612759,
+  "name": "Wadinagala-Inginiyagala Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.552947, 7.142392], [81.552861, 7.142469], [81.552816, 7.142532], [81.552772, 7.142633], [81.552757, 7.142785], [81.552796, 7.142986], [81.552906, 7.143366], [81.553044, 7.144091]]
+}

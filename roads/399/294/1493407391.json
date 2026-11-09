@@ -1,0 +1,9 @@
+{
+  "id": 1493407391,
+  "name": "Negombo Road",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
+  "coordinates": [[79.860559, 7.182541], [79.860577, 7.182503], [79.860978, 7.181756]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 179537311,
+  "name": "Jeyakanesh Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.566248, 7.803932], [81.567367, 7.804988], [81.567597, 7.805204], [81.567759, 7.80538], [81.568617, 7.806233]]
+}

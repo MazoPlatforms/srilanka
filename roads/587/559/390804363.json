@@ -1,0 +1,9 @@
+{
+  "id": 390804363,
+  "name": "Preschool Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.505505, 9.060987], [80.505624, 9.061139], [80.506152, 9.06163], [80.507309, 9.062728], [80.507976, 9.062953], [80.509615, 9.062781], [80.51064, 9.062667]]
+}

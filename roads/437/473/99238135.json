@@ -1,0 +1,9 @@
+{
+  "id": 99238135,
+  "name": "Herald Perera Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.852003, 7.080864], [79.851243, 7.080676], [79.850724, 7.080577], [79.849924, 7.080435]]
+}

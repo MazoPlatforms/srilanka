@@ -1,0 +1,9 @@
+{
+  "id": 457802716,
+  "name": "Kulavadi croos Road",
+  "highway": "track",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 15, "foot": 4},
+  "coordinates": [[81.696999, 7.576173], [81.697128, 7.576107], [81.69738, 7.575953], [81.697705, 7.576006], [81.698319, 7.575953]]
+}

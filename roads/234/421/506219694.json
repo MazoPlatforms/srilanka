@@ -1,0 +1,9 @@
+{
+  "id": 506219694,
+  "name": "Green Garden",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[79.966344, 6.881128], [79.966587, 6.880856], [79.966594, 6.880808], [79.966394, 6.880571], [79.966372, 6.880495], [79.966388, 6.88039]]
+}

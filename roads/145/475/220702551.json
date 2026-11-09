@@ -1,0 +1,9 @@
+{
+  "id": 220702551,
+  "name": "Advocate's Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.69544, 7.712338], [81.695574, 7.712249], [81.695902, 7.712095]]
+}

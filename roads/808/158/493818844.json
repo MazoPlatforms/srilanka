@@ -1,0 +1,9 @@
+{
+  "id": 493818844,
+  "name": "Corprative 2nd Cross Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.705204, 7.626785], [81.705316, 7.626801], [81.706269, 7.626959]]
+}

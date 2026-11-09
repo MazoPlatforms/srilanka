@@ -1,0 +1,9 @@
+{
+  "id": 414531540,
+  "name": "Rice mill road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.683588, 7.491435], [81.683463, 7.491591], [81.683187, 7.491897], [81.683086, 7.492076], [81.683048, 7.492202]]
+}

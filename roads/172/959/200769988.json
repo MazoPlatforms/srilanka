@@ -1,0 +1,9 @@
+{
+  "id": 200769988,
+  "name": "Kandy-Jaffna Road",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "foot": 5},
+  "coordinates": [[80.650419, 7.883985], [80.650853, 7.8843]]
+}

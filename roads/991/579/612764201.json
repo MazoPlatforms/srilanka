@@ -1,0 +1,9 @@
+{
+  "id": 612764201,
+  "name": "Thana Hena Tank Rd",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.16162, 7.70554], [80.161586, 7.705261], [80.161566, 7.704735], [80.161593, 7.704262], [80.161647, 7.703916]]
+}

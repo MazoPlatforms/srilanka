@@ -1,0 +1,9 @@
+{
+  "id": 308344854,
+  "name": "Ward Place",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.865615, 6.917159], [79.86599, 6.917085], [79.866219, 6.91704], [79.866421, 6.916992]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 1119517191,
+  "name": "Sri Lanka Nippon Av",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.908563, 6.902877], [79.908796, 6.902228]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 491803030,
+  "name": "Defence Headquarters Access Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.927305, 6.899997], [79.927526, 6.899877]]
+}

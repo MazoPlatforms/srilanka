@@ -1,0 +1,9 @@
+{
+  "id": 1126764789,
+  "name": "Kumbukkana Road",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.763032, 6.628397], [81.763175, 6.628544]]
+}

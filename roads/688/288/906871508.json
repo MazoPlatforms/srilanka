@@ -1,0 +1,9 @@
+{
+  "id": 906871508,
+  "name": "Kuruwita-Erathna Road",
+  "highway": "secondary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.366268, 6.777088], [80.366487, 6.77711]]
+}

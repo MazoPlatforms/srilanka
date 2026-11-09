@@ -1,0 +1,9 @@
+{
+  "id": 398734226,
+  "name": "Ihalagama Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.567773, 6.351053], [80.567914, 6.351177], [80.568036, 6.35129], [80.568096, 6.351409]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 545651163,
+  "name": "T. B. Panabokke Mawatha (Gangasiri Road)",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
+  "coordinates": [[80.572435, 7.166814], [80.572504, 7.166759], [80.572567, 7.16672], [80.572613, 7.166652]]
+}

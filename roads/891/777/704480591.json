@@ -1,0 +1,9 @@
+{
+  "id": 704480591,
+  "name": "Kukulegama-Kelinkanda-Molkawa Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.283074, 6.602846], [80.2834, 6.6028]]
+}

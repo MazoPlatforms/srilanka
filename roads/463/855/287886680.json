@@ -1,0 +1,9 @@
+{
+  "id": 287886680,
+  "name": "Lin",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.21028, 8.576549], [81.211043, 8.575915]]
+}

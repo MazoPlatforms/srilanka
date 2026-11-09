@@ -1,0 +1,9 @@
+{
+  "id": 1174721341,
+  "name": "Olagangala Temple Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.065151, 7.271828], [81.065113, 7.27162]]
+}

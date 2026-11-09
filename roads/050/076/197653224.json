@@ -1,0 +1,9 @@
+{
+  "id": 197653224,
+  "name": "South Lane",
+  "highway": "residential",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.057192, 6.988484], [81.058003, 6.988441], [81.05811, 6.988442], [81.058432, 6.988444], [81.058925, 6.988487]]
+}

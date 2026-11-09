@@ -1,0 +1,9 @@
+{
+  "id": 401374947,
+  "name": "Priya Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.976365, 6.824327], [79.977006, 6.824613], [79.977139, 6.824642], [79.977209, 6.824673], [79.977264, 6.82474], [79.977455, 6.824942]]
+}

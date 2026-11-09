@@ -1,0 +1,9 @@
+{
+  "id": 24790510,
+  "name": "55th Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.864882, 6.873429], [79.865026, 6.873459], [79.866167, 6.873804]]
+}

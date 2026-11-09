@@ -1,0 +1,9 @@
+{
+  "id": 376602329,
+  "name": "Carron Place",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.867951, 6.866182], [79.86755, 6.866058], [79.867261, 6.866], [79.866955, 6.865988]]
+}

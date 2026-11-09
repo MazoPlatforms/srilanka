@@ -1,0 +1,9 @@
+{
+  "id": 1217948310,
+  "name": "villege path",
+  "highway": "path",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 12, "foot": 4},
+  "coordinates": [[80.446499, 7.563252], [80.446449, 7.563501], [80.446102, 7.563422]]
+}

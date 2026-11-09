@@ -1,0 +1,9 @@
+{
+  "id": 240090851,
+  "name": "Wadduwa Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.967211, 6.665684], [79.967307, 6.665641]]
+}

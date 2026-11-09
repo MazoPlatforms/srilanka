@@ -1,0 +1,9 @@
+{
+  "id": 1472984363,
+  "name": "Rathnerugama Wewa Rd",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.1822, 7.686656], [80.182185, 7.686692]]
+}

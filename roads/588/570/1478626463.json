@@ -1,0 +1,9 @@
+{
+  "id": 1478626463,
+  "name": "Puttalam Road",
+  "highway": "trunk",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 70.0, "motorcycle": 70.0, "truck": 70.0, "foot": 5},
+  "coordinates": [[80.380254, 8.321324], [80.380509, 8.321229], [80.380673, 8.321171], [80.381155, 8.321031], [80.38125, 8.321009]]
+}

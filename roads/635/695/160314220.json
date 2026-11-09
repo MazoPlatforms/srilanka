@@ -1,0 +1,9 @@
+{
+  "id": 160314220,
+  "name": "Akarawita Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.003044, 6.838769], [80.002248, 6.838789]]
+}

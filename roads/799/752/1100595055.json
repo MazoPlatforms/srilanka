@@ -1,0 +1,9 @@
+{
+  "id": 1100595055,
+  "name": "Capital Kingdom",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.936036, 6.878968], [79.935284, 6.878705], [79.935091, 6.878579], [79.935005, 6.878522], [79.93494, 6.878504]]
+}

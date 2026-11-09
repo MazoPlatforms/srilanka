@@ -1,0 +1,9 @@
+{
+  "id": 378852894,
+  "name": "Vivekananda Road",
+  "highway": "tertiary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.860132, 6.866408], [79.860752, 6.866514], [79.861233, 6.866624], [79.861951, 6.866755], [79.862776, 6.86691]]
+}

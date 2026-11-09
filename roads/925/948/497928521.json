@@ -1,0 +1,9 @@
+{
+  "id": 497928521,
+  "name": "Baranduwa Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.49228, 6.6629], [80.492147, 6.662819], [80.492019, 6.662746]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 390375662,
+  "name": "Mulai Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.409824, 8.217878], [81.409572, 8.218644], [81.409304, 8.219929], [81.409132, 8.220622], [81.409041, 8.220882], [81.40891, 8.221135]]
+}

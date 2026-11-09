@@ -1,0 +1,9 @@
+{
+  "id": 833159897,
+  "name": "Ballcord Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.417858, 6.248415], [80.417995, 6.248549], [80.418086, 6.248643], [80.418302, 6.248969]]
+}

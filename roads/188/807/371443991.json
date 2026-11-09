@@ -1,0 +1,9 @@
+{
+  "id": 371443991,
+  "name": "Ranmal Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.957829, 6.894515], [79.95759, 6.895019], [79.957341, 6.895476]]
+}

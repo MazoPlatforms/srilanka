@@ -1,0 +1,9 @@
+{
+  "id": 228885196,
+  "name": "Ekala-Kotadeniyawa Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.923593, 7.123248], [79.923688, 7.123343], [79.923783, 7.123426], [79.923878, 7.123493], [79.923958, 7.123539]]
+}

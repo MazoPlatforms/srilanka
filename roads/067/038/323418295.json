@@ -1,0 +1,9 @@
+{
+  "id": 323418295,
+  "name": "Mathrasa Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.855157, 7.221642], [81.85591, 7.221442], [81.856656, 7.221247], [81.857765, 7.220919], [81.858266, 7.22081]]
+}

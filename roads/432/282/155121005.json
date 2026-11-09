@@ -1,0 +1,9 @@
+{
+  "id": 155121005,
+  "name": "Green Street",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.698078, 7.709845], [81.697322, 7.710224], [81.697185, 7.710298], [81.696748, 7.710499], [81.696265, 7.710726]]
+}

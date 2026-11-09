@@ -1,0 +1,9 @@
+{
+  "id": 412190918,
+  "name": "Vavuniya-Horowopothana Road",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "foot": 5},
+  "coordinates": [[80.500243, 8.759381], [80.500287, 8.759211], [80.500353, 8.758943]]
+}

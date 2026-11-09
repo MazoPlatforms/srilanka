@@ -1,0 +1,9 @@
+{
+  "id": 366758485,
+  "name": "Kandewatta Terace",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.887108, 6.877429], [79.886169, 6.877218], [79.885572, 6.876995], [79.885537, 6.876976]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 878380608,
+  "name": "Ganemulla bypass Road",
+  "highway": "tertiary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.960202, 7.069705], [79.960259, 7.069829], [79.960329, 7.069933]]
+}

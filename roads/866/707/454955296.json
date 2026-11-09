@@ -1,0 +1,9 @@
+{
+  "id": 454955296,
+  "name": "Lankapatuna Bridge",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40, "motorcycle": 40, "truck": 40, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.387828, 8.356959], [81.389036, 8.357452]]
+}

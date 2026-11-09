@@ -1,0 +1,9 @@
+{
+  "id": 1087417112,
+  "name": "Hampden Lane",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.865478, 6.87618], [79.865511, 6.876084], [79.865526, 6.87604], [79.865589, 6.875856], [79.865672, 6.8756]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 388466216,
+  "name": "Shramadana Mawath",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.677813, 6.047891], [80.677709, 6.048011], [80.677384, 6.048336], [80.677312, 6.048352]]
+}

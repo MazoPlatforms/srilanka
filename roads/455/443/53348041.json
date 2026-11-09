@@ -1,0 +1,9 @@
+{
+  "id": 53348041,
+  "name": "Sri Sumanarama Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.886224, 6.860837], [79.886258, 6.860808], [79.886539, 6.860909], [79.886616, 6.860901], [79.886677, 6.860416], [79.886814, 6.860101], [79.887029, 6.85977]]
+}

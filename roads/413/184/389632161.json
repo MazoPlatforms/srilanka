@@ -1,0 +1,9 @@
+{
+  "id": 389632161,
+  "name": "Nedunkerny Marayeluppai 6th Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.646553, 9.069832], [80.647121, 9.069758], [80.6474, 9.0698], [80.648221, 9.069281], [80.648414, 9.069171], [80.648478, 9.069164], [80.649181, 9.070294], [80.64991, 9.070956], [80.650812, 9.071977]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 224829607,
+  "name": "St.Annes Lane No3",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.685078, 7.699297], [81.685156, 7.699474], [81.685193, 7.699612], [81.685265, 7.699985], [81.685273, 7.700035], [81.685329, 7.700377], [81.685419, 7.700855]]
+}

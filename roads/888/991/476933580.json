@@ -1,0 +1,9 @@
+{
+  "id": 476933580,
+  "name": "Kurundugolla-Thawalampola-Sooriyagahapatana Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.887235, 6.95992], [80.887283, 6.959829], [80.887334, 6.959686], [80.887348, 6.959297], [80.887243, 6.959182], [80.8872, 6.959036], [80.887251, 6.958919]]
+}

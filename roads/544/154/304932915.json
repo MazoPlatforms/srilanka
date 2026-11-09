@@ -1,0 +1,9 @@
+{
+  "id": 304932915,
+  "name": "Polgahawela-Kegalle Road",
+  "highway": "trunk",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
+  "coordinates": [[80.300324, 7.334825], [80.300297, 7.334652], [80.300278, 7.334546], [80.30024, 7.334419], [80.300188, 7.334252], [80.300157, 7.334169]]
+}

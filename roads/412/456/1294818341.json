@@ -1,0 +1,9 @@
+{
+  "id": 1294818341,
+  "name": "Rampart Street",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.215653, 6.025853], [80.215325, 6.026253]]
+}

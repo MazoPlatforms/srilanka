@@ -1,0 +1,9 @@
+{
+  "id": 418984574,
+  "name": "14th Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.897612, 6.886338], [79.897443, 6.886045], [79.897379, 6.885998], [79.897248, 6.885662]]
+}

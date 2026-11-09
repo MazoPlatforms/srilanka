@@ -1,0 +1,9 @@
+{
+  "id": 898038007,
+  "name": "Military Academy Road",
+  "highway": "service",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "bicycle": 15, "foot": 5},
+  "coordinates": [[80.943826, 6.806123], [80.943909, 6.806154], [80.944231, 6.806215], [80.944524, 6.806189]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 343656545,
+  "name": "Sadu Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.925526, 6.833288], [79.925623, 6.833111], [79.925743, 6.832956], [79.92592, 6.833051], [79.926488, 6.833319], [79.927411, 6.833665]]
+}

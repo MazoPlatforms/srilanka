@@ -1,0 +1,9 @@
+{
+  "id": 442731866,
+  "name": "Kolongoda Divisionl Hospital Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.946177, 7.472312], [80.946338, 7.472253], [80.946601, 7.472376], [80.946896, 7.472312], [80.947068, 7.472376], [80.947685, 7.472078], [80.948226, 7.472083], [80.948479, 7.471033]]
+}

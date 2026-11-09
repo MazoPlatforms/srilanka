@@ -1,0 +1,9 @@
+{
+  "id": 1135663790,
+  "name": "Kiriella-Nedurana-Eheliyagoda Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.247602, 6.798288], [80.247601, 6.798358]]
+}

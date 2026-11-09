@@ -1,0 +1,9 @@
+{
+  "id": 473242268,
+  "name": "Sarashwathi Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.541298, 7.870762], [81.541331, 7.870858], [81.541438, 7.871531], [81.540826, 7.871632], [81.539991, 7.871827]]
+}

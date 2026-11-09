@@ -1,0 +1,9 @@
+{
+  "id": 473265040,
+  "name": "Vishnu Kovil Cross",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.541115, 7.86552], [81.541111, 7.865764], [81.541078, 7.86629], [81.540987, 7.866289], [81.540497, 7.866295]]
+}

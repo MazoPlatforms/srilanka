@@ -1,0 +1,9 @@
+{
+  "id": 174042486,
+  "name": "Samarakkodi Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.948418, 7.169705], [79.948472, 7.16969], [79.948703, 7.169676], [79.951028, 7.169888]]
+}

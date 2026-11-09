@@ -1,0 +1,9 @@
+{
+  "id": 346332314,
+  "name": "New Kolonnawa Road",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.889976, 6.91092], [79.889981, 6.910843]]
+}

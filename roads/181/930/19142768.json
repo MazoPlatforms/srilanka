@@ -1,0 +1,9 @@
+{
+  "id": 19142768,
+  "name": "Golf Club Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.76713, 6.970885], [80.767018, 6.970883], [80.766921, 6.97087], [80.766793, 6.970879], [80.766609, 6.970928], [80.76621, 6.971071], [80.765662, 6.971679]]
+}

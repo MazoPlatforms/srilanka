@@ -1,0 +1,9 @@
+{
+  "id": 382041755,
+  "name": "Moragolla Road",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.663133, 7.203247], [80.663105, 7.203482]]
+}

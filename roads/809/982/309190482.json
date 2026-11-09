@@ -1,0 +1,9 @@
+{
+  "id": 309190482,
+  "name": "Gangeyaya Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.832342, 6.382365], [80.832569, 6.382534], [80.833015, 6.382759], [80.833277, 6.382802], [80.833613, 6.382819], [80.834475, 6.382666], [80.834651, 6.382606]]
+}

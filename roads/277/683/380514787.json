@@ -1,0 +1,9 @@
+{
+  "id": 380514787,
+  "name": "Pelmadulla-Embilipitiya Road",
+  "highway": "trunk",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
+  "coordinates": [[80.573333, 6.582981], [80.573405, 6.582722], [80.573482, 6.582371], [80.573531, 6.582011]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 371444680,
+  "name": "Alubogahawatta road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.953431, 6.892193], [79.953566, 6.892321], [79.95368, 6.892352], [79.954201, 6.892756], [79.954386, 6.892848], [79.9547, 6.892937]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 321578560,
+  "name": "Pannegamuwa-Tissa Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 70.0, "motorcycle": 70.0, "truck": 70.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.266459, 6.284673], [81.266637, 6.284635]]
+}

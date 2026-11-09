@@ -1,0 +1,9 @@
+{
+  "id": 376999281,
+  "name": "River Side Garden",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.889845, 6.763269], [79.889489, 6.763212], [79.887979, 6.762972]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 728080709,
+  "name": "Southern Expressway",
+  "highway": "motorway",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 100.0, "motorcycle": 80, "truck": 70},
+  "coordinates": [[80.926961, 6.229017], [80.926694, 6.228638], [80.925701, 6.227478], [80.919123, 6.219592]]
+}

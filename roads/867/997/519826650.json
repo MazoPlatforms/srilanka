@@ -1,0 +1,9 @@
+{
+  "id": 519826650,
+  "name": "Bake House 2nd Cross",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.572038, 7.816065], [81.571969, 7.816093]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 329593800,
+  "name": "Anagarika Dharmapala Mawatha",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
+  "coordinates": [[80.535075, 5.947997], [80.534902, 5.947937], [80.534759, 5.947897], [80.534267, 5.947761]]
+}

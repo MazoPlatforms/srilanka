@@ -1,0 +1,9 @@
+{
+  "id": 161010136,
+  "name": "Kandy Road 7th Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.491958, 8.74478], [80.493286, 8.744346], [80.494501, 8.74391]]
+}

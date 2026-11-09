@@ -1,0 +1,9 @@
+{
+  "id": 376614139,
+  "name": "Niwandama Yakkaduwa Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.929349, 7.101814], [79.929348, 7.101723], [79.929344, 7.101185], [79.929327, 7.101004], [79.929269, 7.100861], [79.929092, 7.100582], [79.929073, 7.100551]]
+}

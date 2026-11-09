@@ -1,0 +1,9 @@
+{
+  "id": 52255688,
+  "name": "Elvin Place",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.885478, 6.870918], [79.885412, 6.871042], [79.885435, 6.871232], [79.885476, 6.871327]]
+}

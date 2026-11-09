@@ -1,0 +1,9 @@
+{
+  "id": 1109652806,
+  "name": "Elahera-Kaluganga-Pallegama Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.815383, 7.547079], [80.815448, 7.547244], [80.815437, 7.547465], [80.815274, 7.547992], [80.815103, 7.548527], [80.815111, 7.549098]]
+}

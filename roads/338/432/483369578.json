@@ -1,0 +1,9 @@
+{
+  "id": 483369578,
+  "name": "Amman pura Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.592366, 7.780037], [81.592291, 7.780045], [81.592264, 7.779994], [81.592209, 7.779902], [81.59212, 7.779686], [81.59192, 7.779296]]
+}

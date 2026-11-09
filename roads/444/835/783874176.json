@@ -1,0 +1,9 @@
+{
+  "id": 783874176,
+  "name": "Agarathanna- Udagama Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.139391, 6.956189], [81.139265, 6.956124]]
+}

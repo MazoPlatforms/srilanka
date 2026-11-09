@@ -1,0 +1,9 @@
+{
+  "id": 182130066,
+  "name": "Garage watte",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.879822, 6.963998], [79.880914, 6.963581], [79.881061, 6.963457], [79.881359, 6.963331], [79.881578, 6.96329]]
+}

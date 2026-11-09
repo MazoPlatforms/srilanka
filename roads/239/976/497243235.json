@@ -1,0 +1,9 @@
+{
+  "id": 497243235,
+  "name": "Grama Sanwardhana Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.973105, 6.62303], [79.973075, 6.623217], [79.973034, 6.623486], [79.972993, 6.623744], [79.972963, 6.62395]]
+}

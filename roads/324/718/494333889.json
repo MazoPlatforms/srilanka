@@ -1,0 +1,9 @@
+{
+  "id": 494333889,
+  "name": "Cemeratry Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.724583, 7.621578], [81.724611, 7.621406], [81.724712, 7.620702], [81.724796, 7.620368], [81.724976, 7.619926], [81.725145, 7.619512], [81.725329, 7.61904]]
+}

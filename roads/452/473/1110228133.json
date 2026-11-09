@@ -1,0 +1,9 @@
+{
+  "id": 1110228133,
+  "name": "Village Road",
+  "highway": "path",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 12, "foot": 4},
+  "coordinates": [[81.17167, 7.012518], [81.171656, 7.012477]]
+}

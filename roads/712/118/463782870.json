@@ -1,0 +1,9 @@
+{
+  "id": 463782870,
+  "name": "Pera Jayagama Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.924981, 7.235527], [79.92508, 7.235475], [79.925269, 7.235174], [79.925414, 7.234794], [79.925489, 7.234234], [79.925526, 7.233381]]
+}

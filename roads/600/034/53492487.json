@@ -1,0 +1,9 @@
+{
+  "id": 53492487,
+  "name": "31st Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.859724, 6.874623], [79.85989, 6.87409], [79.860059, 6.873427]]
+}

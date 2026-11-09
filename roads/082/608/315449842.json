@@ -1,0 +1,9 @@
+{
+  "id": 315449842,
+  "name": "Polpitiya - Hangarapitiya - Theberton Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.505623, 6.895929], [80.505523, 6.895959], [80.505303, 6.896029], [80.505163, 6.896049], [80.504963, 6.896149], [80.504761, 6.896289]]
+}

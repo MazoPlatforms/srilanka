@@ -1,0 +1,9 @@
+{
+  "id": 506647512,
+  "name": "Gampaha-Yakkala Road",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
+  "coordinates": [[80.033361, 7.085983], [80.032941, 7.086267], [80.032634, 7.086469], [80.03246, 7.086632]]
+}

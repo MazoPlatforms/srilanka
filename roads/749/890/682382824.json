@@ -1,0 +1,9 @@
+{
+  "id": 682382824,
+  "name": "Overhead bridge",
+  "highway": "pedestrian",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 10, "foot": 5},
+  "coordinates": [[80.611826, 7.274134], [80.611878, 7.274029], [80.611834, 7.274005], [80.611948, 7.273822]]
+}

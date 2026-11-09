@@ -1,0 +1,9 @@
+{
+  "id": 155781439,
+  "name": "5th Cross Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.684407, 7.732411], [81.6845, 7.732592], [81.684647, 7.732788], [81.68546, 7.733451]]
+}

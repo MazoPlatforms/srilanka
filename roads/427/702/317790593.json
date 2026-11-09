@@ -1,0 +1,9 @@
+{
+  "id": 317790593,
+  "name": "Veyangoda-Kaleliya Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.063667, 7.153073], [80.063859, 7.153605], [80.064014, 7.153946], [80.064261, 7.154357], [80.064614, 7.154797]]
+}

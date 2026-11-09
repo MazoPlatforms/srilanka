@@ -1,0 +1,9 @@
+{
+  "id": 691988494,
+  "name": "Lady Manning’s Drive",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.705194, 7.720236], [81.705261, 7.720327], [81.705274, 7.720345]]
+}

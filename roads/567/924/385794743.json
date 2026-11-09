@@ -1,0 +1,9 @@
+{
+  "id": 385794743,
+  "name": "Middle Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.02045, 7.089776], [80.020295, 7.089789], [80.02, 7.089838], [80.019752, 7.089861], [80.019548, 7.089883]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 306096490,
+  "name": "Moothavan Podiyar Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.523523, 7.907503], [81.523592, 7.908072], [81.523676, 7.909013]]
+}

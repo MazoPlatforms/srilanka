@@ -1,0 +1,9 @@
+{
+  "id": 388617440,
+  "name": "Weda Niwasa Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.930368, 7.071944], [79.929935, 7.071944], [79.929457, 7.07189]]
+}

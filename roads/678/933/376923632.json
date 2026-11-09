@@ -1,0 +1,9 @@
+{
+  "id": 376923632,
+  "name": "Deanstone Place",
+  "highway": "residential",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 10.0, "motorcycle": 10.0, "truck": 10.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.851874, 6.905857], [79.851597, 6.905771], [79.85151, 6.905742]]
+}

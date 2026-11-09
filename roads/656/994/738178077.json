@@ -1,0 +1,9 @@
+{
+  "id": 738178077,
+  "name": "Royal Gardens",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[79.902269, 6.90652], [79.901825, 6.905362]]
+}

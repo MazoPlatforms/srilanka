@@ -1,0 +1,9 @@
+{
+  "id": 1033471713,
+  "name": "Lake Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.955534, 6.924952], [79.955186, 6.924837]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 400730954,
+  "name": "Galaha Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.599459, 7.258082], [80.599331, 7.256739], [80.599329, 7.256662], [80.599319, 7.256615], [80.599296, 7.256405]]
+}

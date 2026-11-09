@@ -1,0 +1,9 @@
+{
+  "id": 390805697,
+  "name": "Pandaravanniyan Road 3rd Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.515387, 9.041279], [80.515288, 9.041544], [80.515134, 9.041937], [80.514811, 9.042519], [80.514289, 9.043208]]
+}

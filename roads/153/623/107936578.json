@@ -1,0 +1,9 @@
+{
+  "id": 107936578,
+  "name": "Thalawattegedara Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.316194, 7.385935], [80.316126, 7.38593], [80.315897, 7.385826], [80.315661, 7.38563], [80.315181, 7.38567], [80.314717, 7.385613]]
+}

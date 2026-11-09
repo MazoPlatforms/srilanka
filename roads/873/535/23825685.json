@@ -1,0 +1,9 @@
+{
+  "id": 23825685,
+  "name": "H. Sri Nassanka Mawatha (Maya Avenue)",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "foot": 5},
+  "coordinates": [[79.871646, 6.87863], [79.871838, 6.87859], [79.871907, 6.878563], [79.872032, 6.87853], [79.872423, 6.878538], [79.872604, 6.87857], [79.872732, 6.878591], [79.872824, 6.878608]]
+}

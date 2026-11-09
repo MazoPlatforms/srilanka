@@ -1,0 +1,9 @@
+{
+  "id": 643126957,
+  "name": "Kebithigollewa-Padaviya Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.772583, 8.830926], [80.772685, 8.830886], [80.772776, 8.830842], [80.772856, 8.83079]]
+}

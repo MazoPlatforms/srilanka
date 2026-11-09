@@ -1,0 +1,9 @@
+{
+  "id": 473492724,
+  "name": "Kaaraikkadu Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.51852, 7.723208], [81.518162, 7.723346], [81.517644, 7.723699], [81.517488, 7.723818], [81.517217, 7.724088], [81.517054, 7.724192], [81.516705, 7.724419]]
+}

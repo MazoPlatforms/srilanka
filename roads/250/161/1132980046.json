@@ -1,0 +1,9 @@
+{
+  "id": 1132980046,
+  "name": "Golden Gate Kalyani",
+  "highway": "motorway",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0},
+  "coordinates": [[79.878286, 6.947491], [79.878309, 6.947656], [79.878334, 6.947904], [79.878347, 6.948128], [79.878378, 6.948602]]
+}

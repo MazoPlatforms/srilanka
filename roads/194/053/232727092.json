@@ -1,0 +1,9 @@
+{
+  "id": 232727092,
+  "name": "Annaithiresa Road 2nd Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.505586, 8.751501], [80.50552, 8.751237], [80.50541, 8.751008]]
+}

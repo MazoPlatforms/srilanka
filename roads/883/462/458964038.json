@@ -1,0 +1,9 @@
+{
+  "id": 458964038,
+  "name": "Kommantharai Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.157926, 9.821081], [80.158025, 9.821285], [80.158176, 9.821605], [80.158409, 9.822239], [80.158578, 9.822654], [80.159034, 9.823484], [80.159389, 9.824414]]
+}

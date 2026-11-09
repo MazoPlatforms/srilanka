@@ -1,0 +1,9 @@
+{
+  "id": 309195499,
+  "name": "Timbolketiya-Tanamalwila Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.796384, 6.410874], [80.796445, 6.410902], [80.796487, 6.410928], [80.796524, 6.410965], [80.796554, 6.411009], [80.796607, 6.411094]]
+}

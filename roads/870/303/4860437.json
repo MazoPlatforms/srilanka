@@ -1,0 +1,9 @@
+{
+  "id": 4860437,
+  "name": "Wijayananda Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.2194, 6.040748], [80.218899, 6.040571], [80.218876, 6.040542], [80.21887, 6.040509], [80.218945, 6.040143], [80.21902, 6.039813]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 528714278,
+  "name": "Warakapola-Anguruwella Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.19946, 7.225302], [80.199427, 7.225438], [80.199368, 7.225669], [80.199327, 7.225904], [80.199288, 7.226054], [80.199223, 7.226237], [80.199192, 7.226316], [80.199136, 7.226387]]
+}

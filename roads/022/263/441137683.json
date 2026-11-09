@@ -1,0 +1,9 @@
+{
+  "id": 441137683,
+  "name": "Cheddikulam 4th lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.314039, 8.65748], [80.313296, 8.657182]]
+}

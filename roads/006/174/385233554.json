@@ -1,0 +1,9 @@
+{
+  "id": 385233554,
+  "name": "Samaja subasadana Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.019593, 7.052682], [80.019565, 7.05233], [80.019512, 7.051743], [80.019522, 7.051682], [80.019599, 7.051633], [80.019748, 7.051624], [80.019797, 7.051595], [80.019857, 7.051111]]
+}

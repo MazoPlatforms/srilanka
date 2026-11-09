@@ -1,0 +1,9 @@
+{
+  "id": 46898227,
+  "name": "De Seram Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.863381, 6.840538], [79.864588, 6.840711], [79.866933, 6.841027]]
+}

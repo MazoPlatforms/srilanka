@@ -1,0 +1,9 @@
+{
+  "id": 160904147,
+  "name": "3rd Croos Street",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.49603, 8.748219], [80.499034, 8.747263], [80.500017, 8.746927], [80.500055, 8.747245], [80.500255, 8.747564], [80.50071, 8.747775], [80.501256, 8.748082]]
+}

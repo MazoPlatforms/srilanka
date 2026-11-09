@@ -1,0 +1,9 @@
+{
+  "id": 421348816,
+  "name": "Athsaya Vinayagar Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.599057, 7.781801], [81.598341, 7.782367], [81.598023, 7.782617], [81.598023, 7.782811], [81.596878, 7.783537]]
+}

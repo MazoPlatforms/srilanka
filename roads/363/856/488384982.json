@@ -1,0 +1,9 @@
+{
+  "id": 488384982,
+  "name": "Naavalampiddy Roda",
+  "highway": "track",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 15, "foot": 4},
+  "coordinates": [[81.532753, 7.838959], [81.532717, 7.839161], [81.532769, 7.83924], [81.533119, 7.839491]]
+}

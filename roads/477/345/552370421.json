@@ -1,0 +1,9 @@
+{
+  "id": 552370421,
+  "name": "Jaya mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.950112, 7.060623], [79.950065, 7.060428], [79.950036, 7.06026]]
+}

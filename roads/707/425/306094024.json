@@ -1,0 +1,9 @@
+{
+  "id": 306094024,
+  "name": "Cassim Master Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.52089, 7.908887], [81.520905, 7.909097], [81.520948, 7.909291], [81.521066, 7.909412], [81.521129, 7.909582], [81.521299, 7.909983]]
+}

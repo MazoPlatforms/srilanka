@@ -1,0 +1,9 @@
+{
+  "id": 196177320,
+  "name": "Tonigala-Kalawewa Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.532645, 8.03333], [80.532767, 8.033599]]
+}

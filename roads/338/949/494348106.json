@@ -1,0 +1,9 @@
+{
+  "id": 494348106,
+  "name": "Sevagapatru Road 3 Cross",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[81.721455, 7.623114], [81.721411, 7.623003], [81.721263, 7.622647], [81.721225, 7.62249]]
+}

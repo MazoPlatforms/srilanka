@@ -1,0 +1,9 @@
+{
+  "id": 24790518,
+  "name": "27th Lane",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.855567, 6.908357], [79.856035, 6.907178], [79.85606, 6.907112], [79.856374, 6.906384], [79.856534, 6.906013], [79.856797, 6.905331]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 443200009,
+  "name": "Dikwella-Wewurukannala Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.698511, 5.976771], [80.698753, 5.976885]]
+}

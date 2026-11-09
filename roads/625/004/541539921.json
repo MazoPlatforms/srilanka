@@ -1,0 +1,9 @@
+{
+  "id": 541539921,
+  "name": "Linkanagar",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.213811, 8.579837], [81.213712, 8.579539], [81.213659, 8.579373], [81.213647, 8.579334], [81.213634, 8.579293], [81.213623, 8.579257], [81.213597, 8.579229]]
+}

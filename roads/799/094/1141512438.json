@@ -1,0 +1,9 @@
+{
+  "id": 1141512438,
+  "name": "Lipton Circus",
+  "highway": "secondary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20},
+  "coordinates": [[79.863928, 6.917201], [79.8639, 6.917203]]
+}

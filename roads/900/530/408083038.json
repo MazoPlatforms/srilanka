@@ -1,0 +1,9 @@
+{
+  "id": 408083038,
+  "name": "Sudu Palama (White Bridge)",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.273148, 6.926757], [80.27309, 6.926604]]
+}

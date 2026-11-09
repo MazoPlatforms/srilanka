@@ -1,0 +1,9 @@
+{
+  "id": 51193152,
+  "name": "Masjid Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.872855, 6.938494], [79.87395, 6.93791], [79.874285, 6.93771], [79.874351, 6.937669]]
+}

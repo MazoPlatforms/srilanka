@@ -1,0 +1,9 @@
+{
+  "id": 1186550632,
+  "name": "Thesaurus Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.907659, 6.716176], [79.908119, 6.716155], [79.908478, 6.716192], [79.908599, 6.716196]]
+}

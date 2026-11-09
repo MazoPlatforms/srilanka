@@ -1,0 +1,9 @@
+{
+  "id": 405588133,
+  "name": "Nisansala Place",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.93701, 6.824107], [79.93715, 6.824284], [79.937167, 6.824329], [79.937135, 6.824376], [79.937067, 6.824483], [79.936981, 6.824599], [79.936947, 6.824647]]
+}

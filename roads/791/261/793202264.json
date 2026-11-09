@@ -1,0 +1,9 @@
+{
+  "id": 793202264,
+  "name": "Horana-Anguruwatota Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.077909, 6.629073], [80.077831, 6.62899]]
+}

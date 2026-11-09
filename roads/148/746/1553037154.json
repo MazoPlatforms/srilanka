@@ -1,0 +1,9 @@
+{
+  "id": 1553037154,
+  "name": "Vallai-Tellippalai Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.11505, 9.777584], [80.115153, 9.777699], [80.115253, 9.777806], [80.115417, 9.77798], [80.116218, 9.778764]]
+}

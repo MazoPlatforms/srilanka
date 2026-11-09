@@ -1,0 +1,9 @@
+{
+  "id": 1546210403,
+  "name": "Hindeniya Pattigoda Rd",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.046915, 7.137952], [80.047032, 7.137853]]
+}

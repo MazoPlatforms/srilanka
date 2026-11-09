@@ -1,0 +1,9 @@
+{
+  "id": 155935274,
+  "name": "8th cross",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.681192, 7.738348], [81.681356, 7.738514], [81.681879, 7.739089], [81.682073, 7.739247]]
+}

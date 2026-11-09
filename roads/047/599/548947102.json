@@ -1,0 +1,9 @@
+{
+  "id": 548947102,
+  "name": "Akulawila Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.258543, 6.230022], [80.258555, 6.229848], [80.258854, 6.229084], [80.258905, 6.22877], [80.258742, 6.228436], [80.258563, 6.22807], [80.258507, 6.227956]]
+}

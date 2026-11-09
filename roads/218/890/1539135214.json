@@ -1,0 +1,9 @@
+{
+  "id": 1539135214,
+  "name": "Kachcheri Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.829682, 8.027993], [79.829763, 8.028003], [79.829812, 8.028003], [79.82986, 8.028], [79.829948, 8.02799]]
+}

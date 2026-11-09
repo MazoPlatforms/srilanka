@@ -1,0 +1,9 @@
+{
+  "id": 377474973,
+  "name": "Sadiya Uyana Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.982192, 7.039849], [79.981107, 7.039837], [79.98102, 7.039808], [79.980782, 7.039636]]
+}

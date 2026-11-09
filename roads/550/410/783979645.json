@@ -1,0 +1,9 @@
+{
+  "id": 783979645,
+  "name": "Olugama Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.876333, 6.838372], [80.876073, 6.838263], [80.875646, 6.83796], [80.875126, 6.837351], [80.874947, 6.83725]]
+}

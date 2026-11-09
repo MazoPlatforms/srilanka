@@ -1,0 +1,9 @@
+{
+  "id": 343608382,
+  "name": "Ruvan Place",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.910031, 6.829026], [79.91006, 6.829068], [79.910765, 6.830102]]
+}

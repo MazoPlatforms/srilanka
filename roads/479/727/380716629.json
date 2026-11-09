@@ -1,0 +1,9 @@
+{
+  "id": 380716629,
+  "name": "Kebilithigoda Temple Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.468486, 7.420141], [80.468282, 7.41979], [80.467744, 7.418866], [80.46749, 7.418353], [80.467459, 7.418112], [80.467414, 7.417628]]
+}

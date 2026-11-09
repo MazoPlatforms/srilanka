@@ -1,0 +1,9 @@
+{
+  "id": 151568891,
+  "name": "Jinna Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.530708, 5.954656], [80.530794, 5.954677], [80.532113, 5.955531], [80.532137, 5.955628], [80.532119, 5.955827]]
+}

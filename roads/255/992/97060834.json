@@ -1,0 +1,9 @@
+{
+  "id": 97060834,
+  "name": "Approach Road to Katunayake Expressway",
+  "highway": "trunk",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 70, "motorcycle": 60, "truck": 50, "foot": 5},
+  "coordinates": [[79.882897, 6.955601], [79.882999, 6.955686], [79.883079, 6.955783], [79.883235, 6.955981]]
+}

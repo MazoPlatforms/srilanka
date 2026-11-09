@@ -1,0 +1,9 @@
+{
+  "id": 345561955,
+  "name": "Nelewa 2nd Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.244839, 7.940058], [80.244453, 7.940201], [80.24434, 7.940243], [80.24383, 7.940433], [80.243712, 7.940487], [80.243502, 7.940585], [80.243021, 7.94081]]
+}

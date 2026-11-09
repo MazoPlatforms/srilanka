@@ -1,0 +1,9 @@
+{
+  "id": 1122816979,
+  "name": "Mohamad Zain Mawatha (Central Road)",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.859739, 6.941607], [79.859665, 6.941579]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 736939956,
+  "name": "Udara Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.476129, 6.097773], [80.476319, 6.097676], [80.476716, 6.09748], [80.477107, 6.097381]]
+}

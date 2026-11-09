@@ -1,0 +1,9 @@
+{
+  "id": 52445574,
+  "name": "Pedris Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.856437, 6.903623], [79.857055, 6.903831], [79.857346, 6.903925], [79.857781, 6.904064], [79.857872, 6.904089], [79.858021, 6.90413]]
+}

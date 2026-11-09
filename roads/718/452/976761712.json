@@ -1,0 +1,9 @@
+{
+  "id": 976761712,
+  "name": "Melfort Estate Circular Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.980655, 6.920409], [79.979744, 6.920363], [79.979446, 6.920338]]
+}

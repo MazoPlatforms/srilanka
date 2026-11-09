@@ -1,0 +1,9 @@
+{
+  "id": 1467829592,
+  "name": "Custom Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.833259, 7.208198], [79.832953, 7.208398], [79.832841, 7.208521], [79.832757, 7.208716]]
+}

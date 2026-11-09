@@ -1,0 +1,9 @@
+{
+  "id": 320911544,
+  "name": "Aluthgoda Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.285655, 6.2775], [81.285842, 6.277516], [81.285952, 6.277547]]
+}

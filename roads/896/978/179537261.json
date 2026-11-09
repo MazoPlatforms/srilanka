@@ -1,0 +1,9 @@
+{
+  "id": 179537261,
+  "name": "Vishnu Kovil Cross Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.57442, 7.803986], [81.57405, 7.804011], [81.573824, 7.804018], [81.573804, 7.803998], [81.573783, 7.803286], [81.573773, 7.803272], [81.573743, 7.803266], [81.573597, 7.803273]]
+}

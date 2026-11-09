@@ -1,0 +1,9 @@
+{
+  "id": 369338502,
+  "name": "Parliament Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.928869, 6.891307], [79.928785, 6.891232], [79.928695, 6.89117], [79.928613, 6.891122], [79.928523, 6.891075], [79.928404, 6.891069]]
+}

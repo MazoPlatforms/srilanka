@@ -1,0 +1,9 @@
+{
+  "id": 1189155445,
+  "name": "Gajaba Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.913753, 6.731653], [79.91356, 6.730168], [79.913601, 6.730102], [79.913653, 6.730081], [79.914041, 6.730152]]
+}

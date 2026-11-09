@@ -1,0 +1,9 @@
+{
+  "id": 443083855,
+  "name": "Kumbiyangoda Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.614143, 7.455185], [80.614075, 7.455126], [80.614031, 7.455069], [80.613997, 7.45502], [80.613962, 7.454958]]
+}

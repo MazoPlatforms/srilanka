@@ -1,0 +1,9 @@
+{
+  "id": 179241933,
+  "name": "Sinnavembu 3rd Cross",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.54844, 7.872795], [81.54847, 7.872645], [81.548567, 7.872144], [81.548761, 7.871254], [81.548877, 7.870756], [81.548977, 7.870281], [81.549093, 7.869777]]
+}

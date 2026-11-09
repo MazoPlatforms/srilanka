@@ -1,0 +1,9 @@
+{
+  "id": 332645307,
+  "name": "Himiduruwa Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.605109, 7.350629], [81.605278, 7.350646]]
+}

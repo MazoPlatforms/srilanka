@@ -1,0 +1,9 @@
+{
+  "id": 387289022,
+  "name": "Bangalawathatha vii Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.973317, 7.029319], [79.973325, 7.029352], [79.973686, 7.030099]]
+}

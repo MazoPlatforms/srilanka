@@ -1,0 +1,9 @@
+{
+  "id": 489998321,
+  "name": "Swami Sandra Dheava Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.408766, 8.224847], [81.408798, 8.22469], [81.40883, 8.224362], [81.409017, 8.223617]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 345480663,
+  "name": "Isurupura Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.973269, 6.916167], [79.973661, 6.916031], [79.974219, 6.915824], [79.974619, 6.915733], [79.975584, 6.915418], [79.9771, 6.914858], [79.977109, 6.914819]]
+}

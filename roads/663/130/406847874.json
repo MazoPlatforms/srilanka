@@ -1,0 +1,9 @@
+{
+  "id": 406847874,
+  "name": "Weediyagoda Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.981584, 6.773419], [79.981048, 6.772964]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 380704883,
+  "name": "Telicomwatta Housing Scheme Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.986441, 7.071236], [79.986551, 7.07131], [79.986674, 7.071476], [79.986901, 7.071883], [79.987229, 7.072138], [79.987698, 7.072463], [79.987908, 7.07295], [79.987943, 7.07309]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 155949752,
+  "name": "4th Cross",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "bicycle": 15, "foot": 5},
+  "coordinates": [[81.677525, 7.69542], [81.677779, 7.695455], [81.678888, 7.695485]]
+}

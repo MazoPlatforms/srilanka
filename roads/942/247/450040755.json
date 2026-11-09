@@ -1,0 +1,9 @@
+{
+  "id": 450040755,
+  "name": "Vidyaraja Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.95578, 6.882086], [79.955715, 6.881989], [79.955326, 6.881399]]
+}

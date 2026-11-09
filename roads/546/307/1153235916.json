@@ -1,0 +1,9 @@
+{
+  "id": 1153235916,
+  "name": "Yasodara Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.125212, 6.108164], [80.125834, 6.10819], [80.126078, 6.108204], [80.126127, 6.108208], [80.126145, 6.108221], [80.126153, 6.108243], [80.126171, 6.108621]]
+}

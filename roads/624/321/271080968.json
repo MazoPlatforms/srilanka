@@ -1,0 +1,9 @@
+{
+  "id": 271080968,
+  "name": "Supreme City Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.974047, 6.901111], [79.973885, 6.901183], [79.973704, 6.901214], [79.973336, 6.901289]]
+}

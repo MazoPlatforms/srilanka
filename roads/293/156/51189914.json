@@ -1,0 +1,9 @@
+{
+  "id": 51189914,
+  "name": "Norris Avenue",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.873767, 6.919794], [79.873819, 6.919634], [79.873912, 6.919472], [79.874224, 6.918932], [79.87439, 6.918823], [79.874562, 6.918751]]
+}

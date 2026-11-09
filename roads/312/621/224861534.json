@@ -1,0 +1,9 @@
+{
+  "id": 224861534,
+  "name": "Police Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.671806, 7.743896], [81.672201, 7.744281], [81.672549, 7.744632], [81.67314, 7.745228], [81.673572, 7.745685]]
+}

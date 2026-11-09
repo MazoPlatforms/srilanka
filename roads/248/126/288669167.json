@@ -1,0 +1,9 @@
+{
+  "id": 288669167,
+  "name": "Udayar Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.798503, 7.366238], [81.798518, 7.366453], [81.798466, 7.367081]]
+}

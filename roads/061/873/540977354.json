@@ -1,0 +1,9 @@
+{
+  "id": 540977354,
+  "name": "Padawkema-Udamattala-Andarawewa Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 70.0, "motorcycle": 70.0, "truck": 70.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.094502, 6.293883], [81.093894, 6.293507], [81.092026, 6.292508], [81.090814, 6.291885]]
+}

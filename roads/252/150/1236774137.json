@@ -1,0 +1,9 @@
+{
+  "id": 1236774137,
+  "name": "Public Library Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.838191, 7.388882], [81.837636, 7.388887], [81.837199, 7.388834]]
+}

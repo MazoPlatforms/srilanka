@@ -1,0 +1,9 @@
+{
+  "id": 711689137,
+  "name": "Lunugamvehera-Beralihela-Kataragama Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 70.0, "motorcycle": 70.0, "truck": 70.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.204452, 6.351481], [81.204535, 6.351638], [81.204617, 6.351796]]
+}

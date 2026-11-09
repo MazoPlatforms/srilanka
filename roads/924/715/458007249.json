@@ -1,0 +1,9 @@
+{
+  "id": 458007249,
+  "name": "Veddukkula Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.710555, 7.608042], [81.710505, 7.608138], [81.710279, 7.608461], [81.709881, 7.608957], [81.709728, 7.6092], [81.709388, 7.610134], [81.709188, 7.610621]]
+}

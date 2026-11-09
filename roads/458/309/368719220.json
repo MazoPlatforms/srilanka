@@ -1,0 +1,9 @@
+{
+  "id": 368719220,
+  "name": "Liyanwala - Poregedara Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.083504, 6.829713], [80.083664, 6.829695], [80.084417, 6.829458]]
+}

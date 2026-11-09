@@ -1,0 +1,9 @@
+{
+  "id": 528710731,
+  "name": "Kukulpane Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.215759, 7.19376], [80.215528, 7.193645], [80.21538, 7.193607], [80.215283, 7.193625], [80.215221, 7.193686], [80.215056, 7.193947]]
+}

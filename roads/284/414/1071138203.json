@@ -1,0 +1,9 @@
+{
+  "id": 1071138203,
+  "name": "Ace Garden",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "bicycle": 10, "foot": 5},
+  "coordinates": [[79.962721, 6.80499], [79.962593, 6.805015], [79.962413, 6.805045], [79.962247, 6.805057], [79.962095, 6.805081]]
+}

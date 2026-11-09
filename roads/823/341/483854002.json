@@ -1,0 +1,9 @@
+{
+  "id": 483854002,
+  "name": "Vannakkar Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.551052, 7.822429], [81.551925, 7.822353]]
+}

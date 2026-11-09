@@ -1,0 +1,9 @@
+{
+  "id": 1566841257,
+  "name": "Port Access Road",
+  "highway": "secondary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.867752, 6.954871], [79.867406, 6.954881], [79.866556, 6.95489], [79.866424, 6.954892]]
+}

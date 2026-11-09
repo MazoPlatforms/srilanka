@@ -1,0 +1,9 @@
+{
+  "id": 288660483,
+  "name": "Vampady Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.804809, 7.365944], [81.804518, 7.366029], [81.804143, 7.366141], [81.803527, 7.366263]]
+}

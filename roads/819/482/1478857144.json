@@ -1,0 +1,9 @@
+{
+  "id": 1478857144,
+  "name": "Puttalam-Anuradhapura Road",
+  "highway": "trunk",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 70.0, "motorcycle": 70.0, "truck": 70.0, "foot": 5},
+  "coordinates": [[80.350266, 8.320906], [80.351763, 8.321844], [80.353243, 8.322767]]
+}

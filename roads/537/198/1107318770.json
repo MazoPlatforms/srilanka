@@ -1,0 +1,9 @@
+{
+  "id": 1107318770,
+  "name": "Tissa-Kirinde Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.286144, 6.277636], [81.286515, 6.277468], [81.286558, 6.277449]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 312877719,
+  "name": "Masjidul jamiah Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.849643, 6.923828], [79.849555, 6.924248], [79.849511, 6.924478], [79.849486, 6.924634], [79.849321, 6.925164]]
+}

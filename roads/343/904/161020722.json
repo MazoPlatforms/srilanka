@@ -1,0 +1,9 @@
+{
+  "id": 161020722,
+  "name": "Moonrumurippu School Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.489737, 8.73362], [80.489272, 8.731961], [80.489005, 8.731134], [80.488738, 8.730388], [80.488626, 8.730075], [80.488371, 8.729143], [80.48807, 8.728169], [80.488912, 8.72788]]
+}

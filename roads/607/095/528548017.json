@@ -1,0 +1,9 @@
+{
+  "id": 528548017,
+  "name": "Central Avenue",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.526127, 5.94729], [80.526159, 5.947272], [80.5262, 5.947265], [80.526555, 5.947341], [80.526599, 5.94735], [80.526725, 5.947364], [80.526774, 5.947384]]
+}

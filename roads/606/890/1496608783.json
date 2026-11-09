@@ -1,0 +1,9 @@
+{
+  "id": 1496608783,
+  "name": "Akuressa Road",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "foot": 5},
+  "coordinates": [[80.520531, 5.966832], [80.520602, 5.966569], [80.520622, 5.966481], [80.520742, 5.96603], [80.520834, 5.965761]]
+}

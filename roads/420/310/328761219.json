@@ -1,0 +1,9 @@
+{
+  "id": 328761219,
+  "name": "Daulana Road",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 15, "motorcycle": 15, "bicycle": 15, "foot": 5},
+  "coordinates": [[80.015107, 6.419971], [80.014768, 6.419932], [80.014574, 6.419126]]
+}

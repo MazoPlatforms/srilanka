@@ -1,0 +1,9 @@
+{
+  "id": 470629663,
+  "name": "Methmal Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.037289, 6.846877], [80.037347, 6.847144], [80.037382, 6.847557], [80.037773, 6.848117]]
+}

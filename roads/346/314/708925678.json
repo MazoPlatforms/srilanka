@@ -1,0 +1,9 @@
+{
+  "id": 708925678,
+  "name": "Godapola Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.624163, 7.473713], [80.624299, 7.473726], [80.624488, 7.473737], [80.624669, 7.473731], [80.624871, 7.473771]]
+}

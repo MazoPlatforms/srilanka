@@ -1,0 +1,9 @@
+{
+  "id": 194099240,
+  "name": "Sir Marcus Fernando Mawatha",
+  "highway": "secondary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.857993, 6.912288], [79.858001, 6.912104], [79.858, 6.912064], [79.857994, 6.912032], [79.857986, 6.912001], [79.85797, 6.911971], [79.857944, 6.911935]]
+}

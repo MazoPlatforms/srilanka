@@ -1,0 +1,9 @@
+{
+  "id": 52563414,
+  "name": "Jayakontha Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.871766, 6.891234], [79.871296, 6.891762], [79.871237, 6.892103], [79.871218, 6.892271], [79.871206, 6.89239]]
+}

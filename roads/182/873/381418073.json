@@ -1,0 +1,9 @@
+{
+  "id": 381418073,
+  "name": "Flower Garden 1st lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.981353, 7.041861], [79.981598, 7.041819], [79.981926, 7.041804], [79.982224, 7.041752], [79.982411, 7.041752]]
+}

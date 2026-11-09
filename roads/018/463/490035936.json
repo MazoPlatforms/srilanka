@@ -1,0 +1,9 @@
+{
+  "id": 490035936,
+  "name": "Cemetery Road",
+  "highway": "track",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 15, "foot": 4},
+  "coordinates": [[81.529853, 7.951568], [81.529709, 7.95177], [81.529529, 7.952162], [81.52941, 7.952596], [81.529238, 7.953104]]
+}

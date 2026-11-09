@@ -1,0 +1,9 @@
+{
+  "id": 298282119,
+  "name": "King Street (Raja Veediya)",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.638029, 7.295057], [80.638297, 7.295036], [80.639049, 7.294975], [80.639263, 7.294944], [80.63931, 7.294915]]
+}

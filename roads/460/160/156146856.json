@@ -1,0 +1,9 @@
+{
+  "id": 156146856,
+  "name": "3rd Avenue",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.675627, 7.286334], [81.675623, 7.286404], [81.675576, 7.287247]]
+}

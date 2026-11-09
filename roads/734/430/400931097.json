@@ -1,0 +1,9 @@
+{
+  "id": 400931097,
+  "name": "Tissarama Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.609355, 7.270235], [80.609252, 7.270138], [80.608768, 7.269556]]
+}

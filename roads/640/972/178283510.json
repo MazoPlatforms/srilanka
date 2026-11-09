@@ -1,0 +1,9 @@
+{
+  "id": 178283510,
+  "name": "Dalupotha Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.864184, 7.229467], [79.863855, 7.230068], [79.863746, 7.230304], [79.863439, 7.231232]]
+}

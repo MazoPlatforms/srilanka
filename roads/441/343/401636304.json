@@ -1,0 +1,9 @@
+{
+  "id": 401636304,
+  "name": "Rambakulam Nedunkerny Road1st Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.658744, 9.06017], [80.658939, 9.060191], [80.65914, 9.060164], [80.65944, 9.06018], [80.659557, 9.060243], [80.659665, 9.060281], [80.659807, 9.060269]]
+}

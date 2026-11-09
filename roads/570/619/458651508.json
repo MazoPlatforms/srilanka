@@ -1,0 +1,9 @@
+{
+  "id": 458651508,
+  "name": "Periya thoatta Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.410338, 8.226968], [81.410298, 8.227434], [81.410255, 8.228223], [81.410121, 8.228926], [81.410158, 8.229181]]
+}

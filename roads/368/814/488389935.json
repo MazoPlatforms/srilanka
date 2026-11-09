@@ -1,0 +1,9 @@
+{
+  "id": 488389935,
+  "name": "Korakallimadu Centel Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.541366, 7.85459], [81.541262, 7.85486], [81.54116, 7.855113], [81.541051, 7.85538]]
+}

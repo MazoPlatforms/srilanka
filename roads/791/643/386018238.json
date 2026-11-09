@@ -1,0 +1,9 @@
+{
+  "id": 386018238,
+  "name": "Muruhan Temple Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.413852, 8.196468], [81.413907, 8.196055], [81.413957, 8.195376], [81.414044, 8.194814], [81.414122, 8.194542], [81.414299, 8.194147]]
+}

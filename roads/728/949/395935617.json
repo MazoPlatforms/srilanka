@@ -1,0 +1,9 @@
+{
+  "id": 395935617,
+  "name": "A.S.Peries Avenue",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 15.0, "motorcycle": 15.0, "bicycle": 10, "foot": 5},
+  "coordinates": [[79.896084, 6.799033], [79.896141, 6.798998], [79.896183, 6.798973], [79.896303, 6.798899], [79.896408, 6.798861], [79.896532, 6.798783], [79.896626, 6.79875]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 404852789,
+  "name": "Arukwatte-Pitumpe Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.099315, 6.843284], [80.099323, 6.84312]]
+}

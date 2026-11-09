@@ -1,0 +1,9 @@
+{
+  "id": 275459422,
+  "name": "Sujatha Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.538079, 5.952678], [80.538082, 5.953268], [80.538082, 5.953355], [80.538073, 5.953837], [80.537907, 5.954125], [80.537891, 5.954389]]
+}

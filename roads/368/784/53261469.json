@@ -1,0 +1,9 @@
+{
+  "id": 53261469,
+  "name": "Robert Place",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.87232, 6.861765], [79.872299, 6.861429], [79.872424, 6.861055], [79.872674, 6.860404]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 342430956,
+  "name": "Morawaka Waththa Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.008966, 6.919979], [80.010053, 6.920463], [80.010285, 6.920501], [80.010391, 6.920499], [80.010475, 6.920468], [80.010734, 6.920629], [80.010841, 6.920681]]
+}

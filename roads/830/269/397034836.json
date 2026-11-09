@@ -1,0 +1,9 @@
+{
+  "id": 397034836,
+  "name": "Bambarabedda Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.850957, 7.294173], [80.850811, 7.294316], [80.850612, 7.294477], [80.85028, 7.294663], [80.850077, 7.294857], [80.84992, 7.295051]]
+}

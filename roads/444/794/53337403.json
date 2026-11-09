@@ -1,0 +1,9 @@
+{
+  "id": 53337403,
+  "name": "Sarasavi Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.87853, 6.867639], [79.878577, 6.867594], [79.878585, 6.867503], [79.878573, 6.867376], [79.8784, 6.866342]]
+}

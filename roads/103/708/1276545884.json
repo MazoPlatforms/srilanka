@@ -1,0 +1,9 @@
+{
+  "id": 1276545884,
+  "name": "S. W. R. D. Bandaranaike Mawatha",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 45, "motorcycle": 45, "truck": 45, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.632553, 7.290233], [80.6325, 7.290223], [80.63245, 7.290205], [80.6324, 7.290184]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 423559539,
+  "name": "Nawodya Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.903233, 7.128643], [79.903, 7.129588], [79.902981, 7.130057]]
+}

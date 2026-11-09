@@ -1,0 +1,9 @@
+{
+  "id": 198376337,
+  "name": "Muhaliyarkulam 4th Cross Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.323409, 8.63518], [80.324918, 8.636795], [80.325944, 8.637965], [80.327198, 8.639396]]
+}

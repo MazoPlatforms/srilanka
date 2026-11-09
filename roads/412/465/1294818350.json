@@ -1,0 +1,9 @@
+{
+  "id": 1294818350,
+  "name": "Pedlar Street",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.215653, 6.025853], [80.215819, 6.025884], [80.21615, 6.025953], [80.216902, 6.026107]]
+}

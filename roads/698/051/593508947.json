@@ -1,0 +1,9 @@
+{
+  "id": 593508947,
+  "name": "Palabaddala Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.448827, 6.786181], [80.448843, 6.786152], [80.448899, 6.78603]]
+}

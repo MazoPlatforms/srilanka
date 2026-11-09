@@ -1,0 +1,9 @@
+{
+  "id": 258295933,
+  "name": "Glenfall Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.766579, 6.965767], [80.765109, 6.965336], [80.764892, 6.96527], [80.764537, 6.965148]]
+}

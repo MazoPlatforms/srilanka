@@ -1,0 +1,9 @@
+{
+  "id": 490468379,
+  "name": "Matha-santhi Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.746669, 9.329775], [80.746788, 9.329961], [80.747232, 9.330669]]
+}

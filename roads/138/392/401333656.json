@@ -1,0 +1,9 @@
+{
+  "id": 401333656,
+  "name": "Prime Place",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.963679, 6.81542], [79.964907, 6.815542], [79.965596, 6.815586]]
+}

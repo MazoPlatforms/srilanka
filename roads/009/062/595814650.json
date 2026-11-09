@@ -1,0 +1,9 @@
+{
+  "id": 595814650,
+  "name": "Daniel Amarasinghe Avenue",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[79.960658, 6.898371], [79.960532, 6.898589]]
+}

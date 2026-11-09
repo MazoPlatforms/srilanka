@@ -1,0 +1,9 @@
+{
+  "id": 54057224,
+  "name": "Buddhist Centre Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.870246, 6.922221], [79.870305, 6.92228], [79.870362, 6.922325], [79.871027, 6.922788]]
+}

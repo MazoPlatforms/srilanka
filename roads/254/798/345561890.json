@@ -1,0 +1,9 @@
+{
+  "id": 345561890,
+  "name": "Bealungala Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.24985, 7.939253], [80.250001, 7.939331], [80.250246, 7.939456], [80.250497, 7.939585], [80.250696, 7.939697], [80.250839, 7.939803]]
+}

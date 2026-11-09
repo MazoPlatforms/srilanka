@@ -1,0 +1,9 @@
+{
+  "id": 194653372,
+  "name": "Thaksala Garden",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.923736, 6.898082], [79.922957, 6.8983], [79.922695, 6.898282]]
+}

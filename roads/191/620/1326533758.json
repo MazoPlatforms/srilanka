@@ -1,0 +1,9 @@
+{
+  "id": 1326533758,
+  "name": "Bus Station Road",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "bicycle": 15, "foot": 5},
+  "coordinates": [[80.493311, 6.990166], [80.493231, 6.990107], [80.493165, 6.990031]]
+}

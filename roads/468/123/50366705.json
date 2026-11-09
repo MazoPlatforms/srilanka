@@ -1,0 +1,9 @@
+{
+  "id": 50366705,
+  "name": "Gnyanathilaka Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.8701, 6.842554], [79.870176, 6.842352], [79.870239, 6.842136]]
+}

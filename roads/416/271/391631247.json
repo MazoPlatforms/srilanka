@@ -1,0 +1,9 @@
+{
+  "id": 391631247,
+  "name": "Green terace",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.898223, 7.134164], [79.898129, 7.134189], [79.897446, 7.134382], [79.896941, 7.13452], [79.896883, 7.134536], [79.896761, 7.134556], [79.896655, 7.134537]]
+}

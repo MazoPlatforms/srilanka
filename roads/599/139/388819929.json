@@ -1,0 +1,9 @@
+{
+  "id": 388819929,
+  "name": "Sadun Uyana 3rd Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.032143, 7.077651], [80.032021, 7.077387], [80.031822, 7.076959], [80.031762, 7.07678]]
+}

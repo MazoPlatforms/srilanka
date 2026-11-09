@@ -1,0 +1,9 @@
+{
+  "id": 740126087,
+  "name": "New Moor Street",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.860283, 6.940165], [79.858848, 6.939928]]
+}

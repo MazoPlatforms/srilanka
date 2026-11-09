@@ -1,0 +1,9 @@
+{
+  "id": 345487966,
+  "name": "Gunasekara Udyanaya",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.892996, 6.897753], [79.893029, 6.89774], [79.893332, 6.89768], [79.893273, 6.8971], [79.89322, 6.896863]]
+}

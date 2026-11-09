@@ -1,0 +1,9 @@
+{
+  "id": 372540330,
+  "name": "Poonthodam Periyarkulam road 6thlane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.500965, 8.773696], [80.501402, 8.774279], [80.501681, 8.774708], [80.502338, 8.775465]]
+}

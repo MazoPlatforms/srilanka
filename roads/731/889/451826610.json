@@ -1,0 +1,9 @@
+{
+  "id": 451826610,
+  "name": "Model Village 1 st cross",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.575726, 7.723262], [81.575811, 7.72322], [81.576049, 7.72314], [81.576827, 7.723018], [81.576946, 7.722946]]
+}

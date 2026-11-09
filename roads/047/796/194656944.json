@@ -1,0 +1,9 @@
+{
+  "id": 194656944,
+  "name": "Shanthipura Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.953773, 6.901407], [79.953623, 6.901684], [79.953359, 6.902174], [79.953105, 6.902688]]
+}

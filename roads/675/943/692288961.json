@@ -1,0 +1,9 @@
+{
+  "id": 692288961,
+  "name": "Habakkala-Sudu Welipotha Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.02319, 6.361737], [80.02327, 6.361707], [80.023572, 6.361593], [80.023838, 6.36144], [80.02409, 6.361376], [80.024521, 6.361588], [80.024702, 6.361781], [80.025125, 6.362095]]
+}

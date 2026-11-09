@@ -1,0 +1,9 @@
+{
+  "id": 226694149,
+  "name": "1st Lane Araliya Uyana",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.896, 7.087759], [79.895141, 7.087681], [79.895082, 7.08774], [79.895095, 7.088043], [79.895162, 7.088104], [79.895433, 7.088109]]
+}

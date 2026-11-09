@@ -1,0 +1,9 @@
+{
+  "id": 376625345,
+  "name": "Krindiwita-Ganemulla Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.969652, 7.083329], [79.969653, 7.083106], [79.969665, 7.082899], [79.969692, 7.082682]]
+}

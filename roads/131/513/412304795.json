@@ -1,0 +1,9 @@
+{
+  "id": 412304795,
+  "name": "Joseph Vaas Road 3rd Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.504869, 8.753353], [80.503542, 8.754105]]
+}

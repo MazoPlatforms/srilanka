@@ -1,0 +1,9 @@
+{
+  "id": 423056030,
+  "name": "Himbutana Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.908599, 7.136983], [79.908536, 7.137077], [79.908322, 7.137527], [79.908128, 7.137818]]
+}

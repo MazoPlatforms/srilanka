@@ -1,0 +1,9 @@
+{
+  "id": 312213957,
+  "name": "Wilpothuwewa - Kobeigane Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.124611, 7.664827], [80.124776, 7.664759], [80.125057, 7.664665], [80.125361, 7.664605], [80.126236, 7.664574], [80.126661, 7.664555], [80.127034, 7.66455], [80.127589, 7.664533]]
+}

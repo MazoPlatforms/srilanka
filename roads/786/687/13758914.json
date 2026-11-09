@@ -1,0 +1,9 @@
+{
+  "id": 13758914,
+  "name": "Independence Avenue",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.863561, 6.909736], [79.864015, 6.909088], [79.864269, 6.908765], [79.864442, 6.908518], [79.864553, 6.908355]]
+}

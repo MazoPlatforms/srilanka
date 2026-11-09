@@ -1,0 +1,9 @@
+{
+  "id": 423525352,
+  "name": "Subasadaka Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.882674, 7.12888], [79.882912, 7.128908], [79.883188, 7.128966], [79.883521, 7.129096], [79.884072, 7.129219]]
+}

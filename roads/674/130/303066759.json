@@ -1,0 +1,9 @@
+{
+  "id": 303066759,
+  "name": "Poorwarama Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.856829, 6.936952], [79.856899, 6.936779], [79.856971, 6.936522]]
+}

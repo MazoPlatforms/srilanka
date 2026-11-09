@@ -1,0 +1,9 @@
+{
+  "id": 155935269,
+  "name": "5th cross",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.682451, 7.736993], [81.68261, 7.737128], [81.682933, 7.737372], [81.683399, 7.737732]]
+}

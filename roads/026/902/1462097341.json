@@ -1,0 +1,9 @@
+{
+  "id": 1462097341,
+  "name": "Mattakkuliya Bridge",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.875206, 6.980916], [79.874976, 6.981634]]
+}

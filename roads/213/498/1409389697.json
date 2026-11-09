@@ -1,0 +1,9 @@
+{
+  "id": 1409389697,
+  "name": "Durga Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.798487, 7.5776], [79.798357, 7.577624], [79.79801, 7.577733], [79.797901, 7.57776], [79.797812, 7.5778], [79.79772, 7.57787], [79.797632, 7.577903]]
+}

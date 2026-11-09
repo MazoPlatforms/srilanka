@@ -1,0 +1,9 @@
+{
+  "id": 293657777,
+  "name": "Suriyamal Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.937989, 6.906691], [79.938273, 6.906814], [79.938604, 6.90686], [79.939223, 6.907114]]
+}

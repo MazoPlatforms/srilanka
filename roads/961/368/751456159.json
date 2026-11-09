@@ -1,0 +1,9 @@
+{
+  "id": 751456159,
+  "name": "1st Lane, Desingha Mawatha",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "bicycle": 10, "foot": 5},
+  "coordinates": [[79.933042, 6.892578], [79.933082, 6.892406], [79.933318, 6.892418]]
+}

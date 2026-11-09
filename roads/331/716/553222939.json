@@ -1,0 +1,9 @@
+{
+  "id": 553222939,
+  "name": "Matugama Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.084742, 6.450304], [80.085181, 6.450411], [80.08567, 6.450579], [80.086152, 6.45087]]
+}

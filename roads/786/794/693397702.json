@@ -1,0 +1,9 @@
+{
+  "id": 693397702,
+  "name": "Keeriyankalliya-Andigama Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.94927, 7.776252], [79.949108, 7.77622], [79.948796, 7.776136]]
+}

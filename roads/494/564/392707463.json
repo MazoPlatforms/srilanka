@@ -1,0 +1,9 @@
+{
+  "id": 392707463,
+  "name": "16th Cross Street",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.41648, 8.150599], [81.416519, 8.151297], [81.416475, 8.151402], [81.416211, 8.151426]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 468274900,
+  "name": "Proposed road",
+  "highway": "path",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 12, "foot": 4},
+  "coordinates": [[80.777254, 9.318991], [80.77785, 9.31834], [80.778287, 9.317866]]
+}

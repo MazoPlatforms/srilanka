@@ -1,0 +1,9 @@
+{
+  "id": 1199350813,
+  "name": "Wewathanna Budu Madura Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.981007, 6.848348], [80.980977, 6.84867], [80.98093, 6.848715]]
+}

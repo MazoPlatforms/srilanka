@@ -1,0 +1,9 @@
+{
+  "id": 179755463,
+  "name": "Kurunduwatte Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.899735, 7.023769], [79.899809, 7.023768], [79.900403, 7.023674], [79.900841, 7.023604]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 53788204,
+  "name": "Horton Terrace",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "bicycle": 15, "foot": 5},
+  "coordinates": [[79.87295, 6.910806], [79.872905, 6.910902], [79.872905, 6.911002], [79.872922, 6.911403]]
+}

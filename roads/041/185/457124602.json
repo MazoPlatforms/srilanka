@@ -1,0 +1,9 @@
+{
+  "id": 457124602,
+  "name": "Ampilanturai-Veeramunai Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.737267, 7.551962], [81.73733, 7.551552], [81.73737, 7.551319], [81.737381, 7.551284]]
+}

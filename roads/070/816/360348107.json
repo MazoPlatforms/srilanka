@@ -1,0 +1,9 @@
+{
+  "id": 360348107,
+  "name": "Thambana Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.37624, 7.046647], [81.376569, 7.046551]]
+}

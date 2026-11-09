@@ -1,0 +1,9 @@
+{
+  "id": 169302112,
+  "name": "Penrith Estate Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.197203, 6.943694], [80.197154, 6.943742], [80.197132, 6.943764], [80.197119, 6.943861], [80.197117, 6.944239]]
+}

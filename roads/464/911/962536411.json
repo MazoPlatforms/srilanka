@@ -1,0 +1,9 @@
+{
+  "id": 962536411,
+  "name": "Robert Gunwaradane Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.926568, 6.901242], [79.926618, 6.901228], [79.927382, 6.901028]]
+}

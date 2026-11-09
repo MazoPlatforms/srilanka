@@ -1,0 +1,9 @@
+{
+  "id": 452643669,
+  "name": "Ganthinakar- Nedunchaenai Main Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.58945, 7.625088], [81.589553, 7.624808], [81.589722, 7.624373], [81.589854, 7.624119], [81.5899, 7.623887]]
+}

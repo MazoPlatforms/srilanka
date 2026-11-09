@@ -1,0 +1,9 @@
+{
+  "id": 693550819,
+  "name": "Nugawela-Vitikuliya Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.124878, 7.606149], [80.125016, 7.605972], [80.125146, 7.605832]]
+}

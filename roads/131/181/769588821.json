@@ -1,0 +1,9 @@
+{
+  "id": 769588821,
+  "name": "Palavi-Kalpitiya Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.765683, 8.236334], [79.766256, 8.236696]]
+}

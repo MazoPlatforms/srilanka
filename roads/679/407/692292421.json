@@ -1,0 +1,9 @@
+{
+  "id": 692292421,
+  "name": "Modarawila Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.911995, 6.701174], [79.912352, 6.701449], [79.913167, 6.701747], [79.91325, 6.701806], [79.913406, 6.701882], [79.914283, 6.702248]]
+}

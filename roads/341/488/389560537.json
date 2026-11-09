@@ -1,0 +1,9 @@
+{
+  "id": 389560537,
+  "name": "RKM Schoon Front Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.551072, 7.820831], [81.55109, 7.82071], [81.551064, 7.820489], [81.551021, 7.820443], [81.550937, 7.820435], [81.549951, 7.82054]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 421514532,
+  "name": "Kalaivaani Cross Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.588179, 7.794633], [81.588429, 7.794945], [81.588707, 7.795325], [81.588884, 7.795577], [81.588961, 7.795722], [81.589236, 7.796012]]
+}

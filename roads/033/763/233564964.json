@@ -1,0 +1,9 @@
+{
+  "id": 233564964,
+  "name": "Sethsiri Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.922308, 6.908788], [79.922166, 6.909112], [79.921986, 6.909539], [79.921855, 6.909707], [79.921849, 6.909743], [79.921974, 6.909825], [79.922224, 6.909877]]
+}

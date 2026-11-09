@@ -1,0 +1,9 @@
+{
+  "id": 541641466,
+  "name": "Kalawana-Depdene-Rakwana Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.396517, 6.53116], [80.39652, 6.531105], [80.396526, 6.531013], [80.396544, 6.530932], [80.396533, 6.530863]]
+}

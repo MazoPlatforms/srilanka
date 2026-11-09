@@ -1,0 +1,9 @@
+{
+  "id": 1212728014,
+  "name": "Abru Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.952253, 6.596584], [79.951915, 6.597435], [79.951693, 6.597991], [79.951429, 6.599017]]
+}

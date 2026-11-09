@@ -1,0 +1,9 @@
+{
+  "id": 532806638,
+  "name": "Anuradhapura Road",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "foot": 5},
+  "coordinates": [[79.831497, 8.030234], [79.831236, 8.030126]]
+}

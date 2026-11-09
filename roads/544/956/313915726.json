@@ -1,0 +1,9 @@
+{
+  "id": 313915726,
+  "name": "Dimuthu Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.914196, 7.120886], [79.91425, 7.12054], [79.914459, 7.117959]]
+}

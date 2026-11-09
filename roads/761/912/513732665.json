@@ -1,0 +1,9 @@
+{
+  "id": 513732665,
+  "name": "Asarappa Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.839442, 7.213911], [79.838966, 7.213165], [79.83876, 7.212786], [79.838699, 7.212726]]
+}

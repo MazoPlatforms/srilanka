@@ -1,0 +1,9 @@
+{
+  "id": 1411745464,
+  "name": "Kappiththa Waththa Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.88647, 7.056133], [79.886492, 7.056053], [79.886511, 7.055974], [79.886503, 7.055782], [79.886494, 7.055701]]
+}

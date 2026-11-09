@@ -1,0 +1,9 @@
+{
+  "id": 376923391,
+  "name": "Inner Bagatalle Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.855783, 6.901179], [79.855921, 6.900616], [79.856513, 6.900756]]
+}

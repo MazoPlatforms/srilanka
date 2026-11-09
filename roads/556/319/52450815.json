@@ -1,0 +1,9 @@
+{
+  "id": 52450815,
+  "name": "Sirikotha Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.850772, 6.902183], [79.850887, 6.902217], [79.851103, 6.902275]]
+}

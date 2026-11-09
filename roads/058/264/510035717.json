@@ -1,0 +1,9 @@
+{
+  "id": 510035717,
+  "name": "Sri Siddhartha path",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.874111, 6.881351], [79.873929, 6.8808], [79.873496, 6.879755]]
+}

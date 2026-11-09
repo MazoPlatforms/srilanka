@@ -1,0 +1,9 @@
+{
+  "id": 109355207,
+  "name": "Saunders Place",
+  "highway": "tertiary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20},
+  "coordinates": [[79.855953, 6.933861], [79.855853, 6.934], [79.855716, 6.934157], [79.855705, 6.934206]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 205624603,
+  "name": "Elawella road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.53398, 5.964118], [80.53397, 5.964244]]
+}

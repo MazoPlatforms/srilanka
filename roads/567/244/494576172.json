@@ -1,0 +1,9 @@
+{
+  "id": 494576172,
+  "name": "Naakathampiran Temple Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.712103, 7.608466], [81.712044, 7.60846], [81.711772, 7.608442], [81.711659, 7.608406], [81.711621, 7.608363], [81.711423, 7.608295], [81.710962, 7.608185], [81.710555, 7.608042]]
+}

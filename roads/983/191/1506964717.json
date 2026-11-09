@@ -1,0 +1,9 @@
+{
+  "id": 1506964717,
+  "name": "Atabage-Ulapane Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.579911, 7.12802], [80.579826, 7.127909], [80.579762, 7.127866], [80.579688, 7.127841]]
+}

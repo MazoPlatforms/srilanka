@@ -1,0 +1,9 @@
+{
+  "id": 382709997,
+  "name": "Bridge to Sluice Gate",
+  "highway": "footway",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 8, "foot": 5},
+  "coordinates": [[80.690721, 7.876327], [80.69084, 7.876267]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 393018583,
+  "name": "Ayeshawattha Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.436114, 7.525991], [80.433731, 7.530172]]
+}

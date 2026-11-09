@@ -1,0 +1,9 @@
+{
+  "id": 371061848,
+  "name": "Ilimba - Kandana road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.099915, 6.712659], [80.099032, 6.712824]]
+}

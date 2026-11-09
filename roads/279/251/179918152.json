@@ -1,0 +1,9 @@
+{
+  "id": 179918152,
+  "name": "N.M Perera Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.89591, 6.983175], [79.895822, 6.983409], [79.895812, 6.983657], [79.895792, 6.983682], [79.895769, 6.983679], [79.895137, 6.98364], [79.894922, 6.983615]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 109082678,
+  "name": "Kadawala Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.881806, 6.816575], [79.881678, 6.816509], [79.881427, 6.816377], [79.881216, 6.816267], [79.880765, 6.816009], [79.880381, 6.81579], [79.878676, 6.814838]]
+}

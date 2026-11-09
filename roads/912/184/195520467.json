@@ -1,0 +1,9 @@
+{
+  "id": 195520467,
+  "name": "Raani Veethy",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.041201, 9.675977], [80.040951, 9.675016], [80.040887, 9.674545], [80.040857, 9.67446], [80.040893, 9.674286]]
+}

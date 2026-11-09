@@ -1,0 +1,9 @@
+{
+  "id": 1251092820,
+  "name": "araliya road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.925525, 6.786758], [79.925465, 6.78682], [79.925425, 6.786911], [79.925348, 6.787079], [79.925293, 6.787216], [79.925234, 6.787329], [79.925201, 6.787413]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 48704558,
+  "name": "Pamankada Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.872585, 6.878464], [79.872076, 6.878217]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 542618353,
+  "name": "Kandy-Kurunegala Road",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "foot": 5},
+  "coordinates": [[80.366934, 7.486353], [80.366853, 7.48643], [80.366798, 7.486511], [80.366735, 7.486574], [80.366661, 7.486646]]
+}

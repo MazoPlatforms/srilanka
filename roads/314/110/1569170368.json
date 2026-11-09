@@ -1,0 +1,9 @@
+{
+  "id": 1569170368,
+  "name": "S. de S. Jayasinghe Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.888282, 6.869867], [79.888206, 6.869785], [79.888166, 6.869739]]
+}

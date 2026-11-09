@@ -1,0 +1,9 @@
+{
+  "id": 388466388,
+  "name": "Bandarawaththa Ambagasdeniya Mawatha",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.691423, 6.044517], [80.691493, 6.044405], [80.691514, 6.044314], [80.691506, 6.044178], [80.691418, 6.043466], [80.691428, 6.04314], [80.691648, 6.042124]]
+}

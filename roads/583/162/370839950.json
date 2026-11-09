@@ -1,0 +1,9 @@
+{
+  "id": 370839950,
+  "name": "Alutgama Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.505047, 7.034716], [80.505238, 7.034331], [80.505492, 7.034119], [80.50559, 7.033913], [80.50573, 7.03389]]
+}

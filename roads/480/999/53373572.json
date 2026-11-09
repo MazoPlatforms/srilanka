@@ -1,0 +1,9 @@
+{
+  "id": 53373572,
+  "name": "Dias Place",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.893489, 6.86143], [79.893588, 6.861404], [79.894537, 6.861071], [79.894967, 6.860884]]
+}

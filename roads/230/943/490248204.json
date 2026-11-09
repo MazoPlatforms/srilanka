@@ -1,0 +1,9 @@
+{
+  "id": 490248204,
+  "name": "Katukurunda - Neboda Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60, "motorcycle": 60, "truck": 60, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.052642, 6.589531], [80.053054, 6.590203], [80.053917, 6.591361], [80.054112, 6.591662], [80.054261, 6.592041], [80.05468, 6.593487], [80.054839, 6.593668], [80.054925, 6.593703]]
+}

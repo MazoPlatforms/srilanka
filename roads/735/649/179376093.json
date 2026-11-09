@@ -1,0 +1,9 @@
+{
+  "id": 179376093,
+  "name": "Sanasamuka Nilaya Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.631471, 7.767402], [81.631374, 7.767267], [81.631191, 7.767065], [81.630741, 7.766667], [81.630459, 7.766351], [81.630194, 7.766029], [81.628998, 7.764594]]
+}

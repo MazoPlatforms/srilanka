@@ -1,0 +1,9 @@
+{
+  "id": 1209540264,
+  "name": "Sri Sumangala Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.957898, 6.598379], [79.957829, 6.59835], [79.957584, 6.598246], [79.956871, 6.598004]]
+}

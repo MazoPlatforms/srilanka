@@ -1,0 +1,9 @@
+{
+  "id": 160064999,
+  "name": "Ponnalai-Point Pedro Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.133657, 9.816414], [80.132859, 9.81692], [80.1326, 9.817088]]
+}

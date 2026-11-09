@@ -1,0 +1,9 @@
+{
+  "id": 53494519,
+  "name": "47th Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.861991, 6.864232], [79.862361, 6.864301], [79.862434, 6.864027], [79.862576, 6.863496], [79.862647, 6.863431], [79.8628, 6.863023]]
+}

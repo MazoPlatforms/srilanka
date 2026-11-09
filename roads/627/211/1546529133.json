@@ -1,0 +1,9 @@
+{
+  "id": 1546529133,
+  "name": "Naimana Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.56578, 5.954694], [80.565994, 5.954995], [80.566313, 5.955103], [80.566704, 5.955197], [80.56709, 5.955913], [80.568674, 5.956942]]
+}

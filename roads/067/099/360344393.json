@@ -1,0 +1,9 @@
+{
+  "id": 360344393,
+  "name": "Vijaya Kumaratunga Mawatha",
+  "highway": "secondary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.876894, 6.885327], [79.876848, 6.885351], [79.876795, 6.885393], [79.876743, 6.885435]]
+}

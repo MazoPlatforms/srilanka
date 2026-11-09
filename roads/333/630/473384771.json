@@ -1,0 +1,9 @@
+{
+  "id": 473384771,
+  "name": "Sandunpura Road",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[79.922436, 6.9177], [79.922365, 6.917122], [79.922294, 6.916741], [79.922242, 6.916553], [79.922227, 6.916444], [79.922235, 6.916226]]
+}

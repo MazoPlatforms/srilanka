@@ -1,0 +1,9 @@
+{
+  "id": 1184928926,
+  "name": "Road to SAR office",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 5.0, "motorcycle": 5.0, "bicycle": 15, "foot": 5},
+  "coordinates": [[80.786569, 6.714628], [80.786596, 6.714785], [80.786567, 6.71497], [80.786522, 6.715001]]
+}

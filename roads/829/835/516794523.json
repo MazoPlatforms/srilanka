@@ -1,0 +1,9 @@
+{
+  "id": 516794523,
+  "name": "Dodangahahena Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.914351, 6.918986], [79.914507, 6.919284], [79.914709, 6.919649], [79.914807, 6.91984], [79.915136, 6.920492], [79.915166, 6.920544], [79.91521, 6.92063]]
+}

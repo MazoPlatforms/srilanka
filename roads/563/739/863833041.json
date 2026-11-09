@@ -1,0 +1,9 @@
+{
+  "id": 863833041,
+  "name": "Udagedara Wattha Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.250111, 6.225107], [80.250033, 6.225212], [80.249978, 6.22535], [80.249921, 6.225411], [80.249873, 6.225524], [80.249857, 6.225691], [80.2498, 6.225855]]
+}

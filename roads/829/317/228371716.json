@@ -1,0 +1,9 @@
+{
+  "id": 228371716,
+  "name": "Dutch Bar Road",
+  "highway": "footway",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 8, "foot": 5},
+  "coordinates": [[81.693614, 7.742941], [81.693765, 7.743113], [81.693907, 7.743284]]
+}

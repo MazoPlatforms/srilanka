@@ -1,0 +1,9 @@
+{
+  "id": 263198274,
+  "name": "Sapumal Pedesa",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.002967, 6.831936], [80.003181, 6.831996], [80.003354, 6.832015], [80.003842, 6.832027]]
+}

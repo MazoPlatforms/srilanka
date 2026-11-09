@@ -1,0 +1,9 @@
+{
+  "id": 668955430,
+  "name": "Tyre Corporation Road",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 15, "motorcycle": 15, "bicycle": 15, "foot": 5},
+  "coordinates": [[79.915396, 6.966674], [79.915727, 6.966191], [79.915955, 6.965787], [79.915965, 6.965713]]
+}

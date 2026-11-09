@@ -1,0 +1,9 @@
+{
+  "id": 747835416,
+  "name": "Mulgama Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.675821, 7.144393], [80.675792, 7.144493]]
+}

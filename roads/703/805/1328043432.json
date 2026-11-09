@@ -1,0 +1,9 @@
+{
+  "id": 1328043432,
+  "name": "Sir Mohamed Macan Makar Mawatha",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.847778, 6.922878], [79.847786, 6.922979], [79.847801, 6.92316], [79.847797, 6.923243], [79.847783, 6.92333]]
+}

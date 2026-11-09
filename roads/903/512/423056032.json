@@ -1,0 +1,9 @@
+{
+  "id": 423056032,
+  "name": "Punchigalla",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.902889, 7.134658], [79.902875, 7.134983], [79.902823, 7.135412], [79.9028, 7.135452], [79.902765, 7.13548], [79.90269, 7.135476], [79.902415, 7.13537]]
+}

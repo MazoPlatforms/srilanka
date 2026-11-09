@@ -1,0 +1,9 @@
+{
+  "id": 377153941,
+  "name": "Murugapuri Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.222875, 8.597294], [81.222193, 8.59685], [81.221718, 8.59638], [81.221002, 8.595878]]
+}

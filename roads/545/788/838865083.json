@@ -1,0 +1,9 @@
+{
+  "id": 838865083,
+  "name": "Farant Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.397683, 6.630742], [80.397379, 6.630658]]
+}

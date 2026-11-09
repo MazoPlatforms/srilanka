@@ -1,0 +1,9 @@
+{
+  "id": 155941567,
+  "name": "Puthunagar Kovil Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.681263, 7.703613], [81.681209, 7.70318], [81.681067, 7.70214]]
+}

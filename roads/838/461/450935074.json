@@ -1,0 +1,9 @@
+{
+  "id": 450935074,
+  "name": "Maitland Place",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.869898, 6.90335], [79.870252, 6.902866], [79.870335, 6.902744]]
+}

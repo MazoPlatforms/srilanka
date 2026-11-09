@@ -1,0 +1,9 @@
+{
+  "id": 191406815,
+  "name": "Kandenuwara Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.641299, 7.462029], [80.641602, 7.462192]]
+}

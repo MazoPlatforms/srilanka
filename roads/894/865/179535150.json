@@ -1,0 +1,9 @@
+{
+  "id": 179535150,
+  "name": "Thuraichchamy Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.617547, 7.766366], [81.617784, 7.766784], [81.61814, 7.766675], [81.618428, 7.76658], [81.61908, 7.766307], [81.619395, 7.766155]]
+}

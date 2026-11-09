@@ -1,0 +1,9 @@
+{
+  "id": 408576591,
+  "name": "Nawalapitiya-Dimbula Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.534496, 7.054717], [80.534471, 7.054762], [80.534441, 7.054802], [80.534405, 7.054829], [80.53437, 7.054846], [80.534331, 7.054854]]
+}

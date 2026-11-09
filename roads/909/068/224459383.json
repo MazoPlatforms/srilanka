@@ -1,0 +1,9 @@
+{
+  "id": 224459383,
+  "name": "St. Antoney's Road",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25.0, "motorcycle": 25.0, "bicycle": 15, "foot": 5},
+  "coordinates": [[81.713129, 7.727751], [81.712938, 7.727741], [81.712443, 7.727761], [81.711556, 7.72778], [81.711064, 7.727882]]
+}

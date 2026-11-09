@@ -1,0 +1,9 @@
+{
+  "id": 458207489,
+  "name": "Pannai Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.481626, 8.014411], [81.481422, 8.014802], [81.480931, 8.015834], [81.481449, 8.01605], [81.481198, 8.016911]]
+}

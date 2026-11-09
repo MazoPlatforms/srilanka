@@ -1,0 +1,9 @@
+{
+  "id": 1121648258,
+  "name": "D M Colombage Mawatha",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.884629, 6.88253], [79.884696, 6.882528], [79.885173, 6.882514], [79.885489, 6.882542], [79.885769, 6.882664]]
+}

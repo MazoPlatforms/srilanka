@@ -1,0 +1,9 @@
+{
+  "id": 310187147,
+  "name": "Colombo Veediya",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.846213, 6.321042], [80.846043, 6.320806], [80.845839, 6.320588], [80.845769, 6.32047], [80.8455, 6.320069], [80.845288, 6.319754], [80.844637, 6.320148]]
+}

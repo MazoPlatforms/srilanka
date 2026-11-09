@@ -1,0 +1,9 @@
+{
+  "id": 1258226599,
+  "name": "Track Road",
+  "highway": "track",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 15, "foot": 4},
+  "coordinates": [[80.88351, 6.766661], [80.883148, 6.766481], [80.883071, 6.766324], [80.883032, 6.76603]]
+}

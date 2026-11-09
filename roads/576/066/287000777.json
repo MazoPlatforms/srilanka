@@ -1,0 +1,9 @@
+{
+  "id": 287000777,
+  "name": "Elpittiya Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.169228, 6.218028], [80.169484, 6.218352]]
+}

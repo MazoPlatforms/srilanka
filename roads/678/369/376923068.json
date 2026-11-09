@@ -1,0 +1,9 @@
+{
+  "id": 376923068,
+  "name": "Temple Avenue",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.856412, 6.897241], [79.85648, 6.897268], [79.857112, 6.897518], [79.85748, 6.897606]]
+}

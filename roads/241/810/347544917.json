@@ -1,0 +1,9 @@
+{
+  "id": 347544917,
+  "name": "Orabi Pasha Mawatha",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.860738, 6.932094], [79.860595, 6.932208], [79.860481, 6.932321]]
+}

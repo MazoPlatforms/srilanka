@@ -1,0 +1,9 @@
+{
+  "id": 287217098,
+  "name": "1st Lane",
+  "highway": "pedestrian",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 10, "foot": 5},
+  "coordinates": [[80.121264, 6.51528], [80.121491, 6.515548], [80.121934, 6.51621], [80.122202, 6.516534], [80.122397, 6.516489]]
+}

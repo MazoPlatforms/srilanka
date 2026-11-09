@@ -1,0 +1,9 @@
+{
+  "id": 377209178,
+  "name": "Pieters Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.882125, 7.142627], [79.882404, 7.142711], [79.882721, 7.14278], [79.882956, 7.142798], [79.883151, 7.142819], [79.883526, 7.142881], [79.884647, 7.143091]]
+}

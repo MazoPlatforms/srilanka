@@ -1,0 +1,9 @@
+{
+  "id": 345484540,
+  "name": "Iddamal Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.967561, 6.906806], [79.96753, 6.907363], [79.967498, 6.907864], [79.967484, 6.908244], [79.967497, 6.908443], [79.967568, 6.908816], [79.967596, 6.909037]]
+}

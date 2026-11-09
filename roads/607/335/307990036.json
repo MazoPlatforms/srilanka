@@ -1,0 +1,9 @@
+{
+  "id": 307990036,
+  "name": "Kalapaluwawa Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.90984, 6.913715], [79.909902, 6.913569]]
+}

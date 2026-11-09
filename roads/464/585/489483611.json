@@ -1,0 +1,9 @@
+{
+  "id": 489483611,
+  "name": "Sri Jayewardenepura Mawatha",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 70.0, "motorcycle": 70.0, "truck": 70.0, "foot": 5},
+  "coordinates": [[79.906775, 6.903867], [79.90664, 6.904035], [79.906303, 6.904416], [79.905649, 6.905092]]
+}

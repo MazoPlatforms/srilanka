@@ -1,0 +1,9 @@
+{
+  "id": 371617361,
+  "name": "Denagama-Mulatiyana Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.64687, 6.107818], [80.645715, 6.106944], [80.645268, 6.106677]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 23426760,
+  "name": "Gamunupura 4th Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.960285, 6.833329], [79.960769, 6.832414], [79.960814, 6.832385], [79.960947, 6.832353], [79.961005, 6.832293], [79.961119, 6.832077], [79.962104, 6.830213]]
+}

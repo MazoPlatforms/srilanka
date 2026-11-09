@@ -1,0 +1,9 @@
+{
+  "id": 866876969,
+  "name": "Kawittigoda Road",
+  "highway": "track",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 15, "foot": 4},
+  "coordinates": [[80.292629, 6.702942], [80.292557, 6.702857], [80.292501, 6.702569], [80.292136, 6.701571]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 399085939,
+  "name": "6th Lane, Gemunu Place",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "bicycle": 10, "foot": 5},
+  "coordinates": [[80.320762, 7.47674], [80.321181, 7.476824], [80.321825, 7.476953], [80.323882, 7.477623]]
+}

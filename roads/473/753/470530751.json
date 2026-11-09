@@ -1,0 +1,9 @@
+{
+  "id": 470530751,
+  "name": "Chavalakadai-Chadayantalawa Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.783914, 7.417295], [81.783983, 7.417355]]
+}

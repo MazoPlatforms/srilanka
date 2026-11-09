@@ -1,0 +1,9 @@
+{
+  "id": 376923142,
+  "name": "Daisy Villa Road",
+  "highway": "residential",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.856386, 6.892083], [79.856894, 6.892219], [79.857718, 6.892423]]
+}

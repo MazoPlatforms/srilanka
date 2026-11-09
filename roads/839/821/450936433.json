@@ -1,0 +1,9 @@
+{
+  "id": 450936433,
+  "name": "Periyathambiran Temple Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.615372, 7.769367], [81.615235, 7.769157], [81.615112, 7.76891]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 377553001,
+  "name": "Lebbe Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.003718, 9.673547], [80.003124, 9.673639], [80.00292, 9.673676], [80.0022, 9.673792], [80.001949, 9.673834]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 486373558,
+  "name": "Uruwel Oya Bridge",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 70.0, "motorcycle": 70.0, "truck": 70.0, "foot": 5},
+  "coordinates": [[80.013518, 7.069555], [80.01359, 7.069731]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 318244104,
+  "name": "Melsiripura-Rambe Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.491426, 7.717861], [80.491375, 7.718273]]
+}

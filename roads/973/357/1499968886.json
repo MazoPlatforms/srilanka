@@ -1,0 +1,9 @@
+{
+  "id": 1499968886,
+  "name": "Kamburupitiya-Kadduwa Road",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.521916, 6.05142], [80.521807, 6.051455]]
+}

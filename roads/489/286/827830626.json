@@ -1,0 +1,9 @@
+{
+  "id": 827830626,
+  "name": "Gallandala School Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.331436, 6.238631], [80.331618, 6.238551], [80.331889, 6.238535]]
+}

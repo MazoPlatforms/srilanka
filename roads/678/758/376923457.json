@@ -1,0 +1,9 @@
+{
+  "id": 376923457,
+  "name": "Pentreve Garden",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.852846, 6.902953], [79.852498, 6.902845]]
+}

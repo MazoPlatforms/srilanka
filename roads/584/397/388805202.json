@@ -1,0 +1,9 @@
+{
+  "id": 388805202,
+  "name": "Grace Land Circular road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.061703, 6.713801], [80.061672, 6.713777], [80.061639, 6.713772], [80.06159, 6.713791], [80.061513, 6.713827], [80.061427, 6.713889], [80.061273, 6.713969]]
+}

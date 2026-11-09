@@ -1,0 +1,9 @@
+{
+  "id": 823580524,
+  "name": "Randeniya - Siyambalagune Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.133695, 6.808467], [81.133601, 6.808407]]
+}

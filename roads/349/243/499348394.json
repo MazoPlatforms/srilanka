@@ -1,0 +1,9 @@
+{
+  "id": 499348394,
+  "name": "Moragala Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.600436, 6.295895], [80.600311, 6.295901], [80.60018, 6.295907]]
+}

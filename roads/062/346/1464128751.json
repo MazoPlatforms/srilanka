@@ -1,0 +1,9 @@
+{
+  "id": 1464128751,
+  "name": "1st Lane Ruhunupura",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.9324, 6.900552], [79.932418, 6.900792], [79.932493, 6.900882]]
+}

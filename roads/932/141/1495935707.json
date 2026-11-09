@@ -1,0 +1,9 @@
+{
+  "id": 1495935707,
+  "name": "Labuduwa-Wanduramba Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.252296, 6.106791], [80.252384, 6.106918]]
+}

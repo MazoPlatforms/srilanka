@@ -1,0 +1,9 @@
+{
+  "id": 228885220,
+  "name": "Ratnapura-Palawela Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.357345, 6.645535], [80.357385, 6.645612], [80.357482, 6.645851]]
+}

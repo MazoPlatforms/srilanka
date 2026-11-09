@@ -1,0 +1,9 @@
+{
+  "id": 238733939,
+  "name": "Raththindagoda Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.267604, 6.019635], [80.267888, 6.020279], [80.268361, 6.02125], [80.268522, 6.021496], [80.269112, 6.021933], [80.269101, 6.022264]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 490035937,
+  "name": "Kannaki Amman Kovil 1st Cross Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.528115, 7.95268], [81.528556, 7.95274], [81.528986, 7.952849]]
+}

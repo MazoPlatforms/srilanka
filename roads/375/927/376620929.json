@@ -1,0 +1,9 @@
+{
+  "id": 376620929,
+  "name": "Jaela-Ganemulla Road",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.914102, 7.087118], [79.914162, 7.087125], [79.91424, 7.087148]]
+}

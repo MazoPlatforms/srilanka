@@ -1,0 +1,9 @@
+{
+  "id": 49003199,
+  "name": "De Fonseka Place",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.859451, 6.888863], [79.859882, 6.888988], [79.860057, 6.889023], [79.860251, 6.889087], [79.861, 6.88931], [79.861114, 6.889344], [79.861646, 6.889477]]
+}

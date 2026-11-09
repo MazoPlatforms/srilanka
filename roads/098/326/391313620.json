@@ -1,0 +1,9 @@
+{
+  "id": 391313620,
+  "name": "Velikulam 3rd & 5th lane connecting lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.521887, 8.742389], [80.522679, 8.742261], [80.523469, 8.742073], [80.523766, 8.74198], [80.52398, 8.742006]]
+}

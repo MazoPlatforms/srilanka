@@ -1,0 +1,9 @@
+{
+  "id": 933243152,
+  "name": "Wewa Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.184893, 6.692598], [80.184921, 6.69273], [80.184962, 6.692985], [80.184834, 6.693234], [80.184893, 6.693405], [80.1849, 6.693566]]
+}

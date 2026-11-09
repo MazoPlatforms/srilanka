@@ -1,0 +1,9 @@
+{
+  "id": 155259974,
+  "name": "Arunagiri Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.695988, 7.718496], [81.696195, 7.718927], [81.696337, 7.719237], [81.696433, 7.71952], [81.696557, 7.719804], [81.696574, 7.719851], [81.696598, 7.7199]]
+}

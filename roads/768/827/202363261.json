@@ -1,0 +1,9 @@
+{
+  "id": 202363261,
+  "name": "Millagahawatte Terrace Road",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[79.929428, 6.858039], [79.928783, 6.858104], [79.92845, 6.858125]]
+}

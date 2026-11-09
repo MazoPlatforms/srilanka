@@ -1,0 +1,9 @@
+{
+  "id": 522408757,
+  "name": "MOH Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.482512, 8.703156], [80.483249, 8.703161], [80.483624, 8.703169], [80.483741, 8.703223]]
+}

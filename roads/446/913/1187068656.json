@@ -1,0 +1,9 @@
+{
+  "id": 1187068656,
+  "name": "Janajaya Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.914661, 6.718821], [79.914868, 6.718209], [79.914917, 6.71809], [79.914956, 6.718032], [79.915301, 6.717553]]
+}

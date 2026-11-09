@@ -1,0 +1,9 @@
+{
+  "id": 388819928,
+  "name": "Sadun Uyana 1st Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.031671, 7.077911], [80.03174, 7.078016], [80.031806, 7.07812], [80.032128, 7.078399]]
+}

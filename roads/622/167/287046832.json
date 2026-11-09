@@ -1,0 +1,9 @@
+{
+  "id": 287046832,
+  "name": "Diddeniya Watta Temple Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 45, "motorcycle": 45, "truck": 45, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.331651, 7.436316], [80.331244, 7.435947], [80.33086, 7.435597], [80.330188, 7.434986], [80.330082, 7.434914], [80.32996, 7.434881], [80.329464, 7.434438], [80.329302, 7.434115]]
+}

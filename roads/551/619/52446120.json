@@ -1,0 +1,9 @@
+{
+  "id": 52446120,
+  "name": "34th Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.857691, 6.900433], [79.857258, 6.900327], [79.85724, 6.900298], [79.857438, 6.899201]]
+}

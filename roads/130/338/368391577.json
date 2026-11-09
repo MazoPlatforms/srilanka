@@ -1,0 +1,9 @@
+{
+  "id": 368391577,
+  "name": "Amunukadulla Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.594481, 7.328383], [80.594454, 7.328547], [80.594434, 7.328688], [80.594442, 7.328917]]
+}

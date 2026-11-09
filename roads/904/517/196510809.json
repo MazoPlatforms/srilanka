@@ -1,0 +1,9 @@
+{
+  "id": 196510809,
+  "name": "Cardinal Cooray Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.840639, 7.21962], [79.840012, 7.219755], [79.839468, 7.219812], [79.838787, 7.219899], [79.838549, 7.219979]]
+}

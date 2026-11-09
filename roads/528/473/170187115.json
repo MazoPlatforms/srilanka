@@ -1,0 +1,9 @@
+{
+  "id": 170187115,
+  "name": "Dharmaraja Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.52593, 5.955928], [80.527538, 5.95631], [80.528377, 5.95654], [80.530289, 5.956902], [80.530899, 5.956974], [80.531155, 5.957022], [80.531284, 5.957058]]
+}

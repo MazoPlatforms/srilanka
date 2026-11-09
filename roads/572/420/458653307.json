@@ -1,0 +1,9 @@
+{
+  "id": 458653307,
+  "name": "Veanthan Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.408672, 8.208481], [81.408002, 8.208269], [81.407908, 8.20837], [81.407031, 8.208075]]
+}

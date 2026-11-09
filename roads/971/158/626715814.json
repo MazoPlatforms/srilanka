@@ -1,0 +1,9 @@
+{
+  "id": 626715814,
+  "name": "Kotahena Street",
+  "highway": "tertiary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40, "motorcycle": 40, "truck": 40, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.862263, 6.947714], [79.862268, 6.947627], [79.862272, 6.947562], [79.862279, 6.947479]]
+}

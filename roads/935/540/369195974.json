@@ -1,0 +1,9 @@
+{
+  "id": 369195974,
+  "name": "Cemetery Rd",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 15, "motorcycle": 15, "bicycle": 15, "foot": 5},
+  "coordinates": [[80.008561, 6.97912], [80.008768, 6.979045], [80.008955, 6.978949], [80.009049, 6.978798], [80.009102, 6.978642], [80.009217, 6.97856]]
+}

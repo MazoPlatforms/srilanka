@@ -1,0 +1,9 @@
+{
+  "id": 483374547,
+  "name": "Koolavadi Road-1",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 15, "motorcycle": 15, "bicycle": 15, "foot": 5},
+  "coordinates": [[81.494372, 7.648179], [81.494469, 7.648067], [81.494764, 7.647839], [81.494942, 7.647795], [81.495025, 7.647718]]
+}

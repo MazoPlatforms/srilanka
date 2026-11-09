@@ -1,0 +1,9 @@
+{
+  "id": 179555050,
+  "name": "Poonochchimunei Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.731781, 7.692738], [81.731638, 7.692999], [81.731458, 7.693362], [81.731184, 7.693856], [81.731029, 7.694163], [81.730905, 7.694367], [81.730675, 7.694763]]
+}

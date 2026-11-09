@@ -1,0 +1,9 @@
+{
+  "id": 311088075,
+  "name": "Bazar Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.364702, 7.488895], [80.364469, 7.48913], [80.364228, 7.489355], [80.364119, 7.489476], [80.364014, 7.489646]]
+}

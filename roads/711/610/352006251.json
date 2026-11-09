@@ -1,0 +1,9 @@
+{
+  "id": 352006251,
+  "name": "Tickell Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.87968, 6.911772], [79.879677, 6.911451], [79.879676, 6.911267]]
+}

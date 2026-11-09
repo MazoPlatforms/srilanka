@@ -1,0 +1,9 @@
+{
+  "id": 1419111811,
+  "name": "Manikpalama Farm Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.708106, 6.81516], [80.708029, 6.815098], [80.707889, 6.814923], [80.707853, 6.814796], [80.707858, 6.814684], [80.707896, 6.81455], [80.708073, 6.814194], [80.708399, 6.8137]]
+}

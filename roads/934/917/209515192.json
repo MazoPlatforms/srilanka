@@ -1,0 +1,9 @@
+{
+  "id": 209515192,
+  "name": "Christu Jayanthi Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.855621, 7.232813], [79.855943, 7.23218], [79.856502, 7.230956]]
+}

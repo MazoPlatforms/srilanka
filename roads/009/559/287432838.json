@@ -1,0 +1,9 @@
+{
+  "id": 287432838,
+  "name": "Kariyawasam Pedesa",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.161666, 6.289778], [80.161692, 6.289711], [80.161775, 6.28952], [80.161836, 6.289304], [80.162258, 6.288553], [80.162593, 6.288019]]
+}

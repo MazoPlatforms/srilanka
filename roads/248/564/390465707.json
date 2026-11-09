@@ -1,0 +1,9 @@
+{
+  "id": 390465707,
+  "name": "Sinnapoovarasankulam Paddy Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.588898, 8.991385], [80.589209, 8.991996], [80.589421, 8.992541], [80.589651, 8.993512], [80.590124, 8.994014], [80.590355, 8.994364], [80.590489, 8.994665]]
+}

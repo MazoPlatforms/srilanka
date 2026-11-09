@@ -1,0 +1,9 @@
+{
+  "id": 50154672,
+  "name": "Retreat Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.857159, 6.888404], [79.857068, 6.888376], [79.855711, 6.888077], [79.854473, 6.887794]]
+}

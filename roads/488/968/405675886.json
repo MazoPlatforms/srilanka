@@ -1,0 +1,9 @@
+{
+  "id": 405675886,
+  "name": "Deraniyagala Maliboda Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.368837, 6.911583], [80.368857, 6.911545]]
+}

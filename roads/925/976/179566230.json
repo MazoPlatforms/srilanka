@@ -1,0 +1,9 @@
+{
+  "id": 179566230,
+  "name": "Felicia Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.905684, 7.049717], [79.90543, 7.049835], [79.905368, 7.049912], [79.905314, 7.050065], [79.905051, 7.050234], [79.905038, 7.050476], [79.905036, 7.050925]]
+}

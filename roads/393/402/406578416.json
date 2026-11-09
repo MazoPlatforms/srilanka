@@ -1,0 +1,9 @@
+{
+  "id": 406578416,
+  "name": "Botheju Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.869393, 6.894347], [79.869807, 6.893482], [79.86981, 6.893408], [79.869768, 6.893274], [79.869784, 6.893214], [79.869809, 6.893178], [79.869961, 6.893054]]
+}

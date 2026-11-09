@@ -1,0 +1,9 @@
+{
+  "id": 107935351,
+  "name": "Adhikari Avenue",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.244565, 7.619788], [80.244591, 7.620596], [80.244598, 7.620951]]
+}

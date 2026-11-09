@@ -1,0 +1,9 @@
+{
+  "id": 692303725,
+  "name": "Udumulla road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.921275, 6.904528], [79.921304, 6.904616], [79.921426, 6.904801]]
+}

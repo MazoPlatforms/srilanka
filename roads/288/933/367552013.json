@@ -1,0 +1,9 @@
+{
+  "id": 367552013,
+  "name": "Athukorala Car Park",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 15, "motorcycle": 15, "bicycle": 15, "foot": 5},
+  "coordinates": [[80.345656, 7.253151], [80.3457, 7.252752], [80.345622, 7.252727]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 404857163,
+  "name": "Baratiyar Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.491045, 8.005369], [81.491028, 8.005332], [81.490632, 8.004944], [81.490083, 8.004305], [81.489954, 8.004093], [81.489823, 8.004255], [81.489459, 8.003875]]
+}

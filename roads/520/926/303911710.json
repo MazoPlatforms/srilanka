@@ -1,0 +1,9 @@
+{
+  "id": 303911710,
+  "name": "Bauddhaloka Mawatha",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.86483, 6.899696], [79.864679, 6.899626], [79.863922, 6.89925], [79.863206, 6.898905], [79.861389, 6.898028]]
+}

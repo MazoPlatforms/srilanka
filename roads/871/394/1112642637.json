@@ -1,0 +1,9 @@
+{
+  "id": 1112642637,
+  "name": "Batagoda Maanana Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.033259, 6.653867], [80.031603, 6.654101], [80.031007, 6.654178]]
+}

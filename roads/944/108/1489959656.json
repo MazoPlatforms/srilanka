@@ -1,0 +1,9 @@
+{
+  "id": 1489959656,
+  "name": "Ekwatta Road",
+  "highway": "tertiary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.900854, 6.876371], [79.900739, 6.876256]]
+}

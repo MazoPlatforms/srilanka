@@ -1,0 +1,9 @@
+{
+  "id": 1433219137,
+  "name": "Brown Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 45, "motorcycle": 45, "truck": 45, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.021805, 9.690786], [80.02184, 9.690857], [80.022276, 9.691674]]
+}

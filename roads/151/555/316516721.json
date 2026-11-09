@@ -1,0 +1,9 @@
+{
+  "id": 316516721,
+  "name": "Katugampola Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.980841, 6.92407], [79.980049, 6.924585], [79.979577, 6.924898]]
+}

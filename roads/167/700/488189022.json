@@ -1,0 +1,9 @@
+{
+  "id": 488189022,
+  "name": "Kumarar Kovil Back Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.536783, 7.865323], [81.536798, 7.86526], [81.536884, 7.865042], [81.536937, 7.864827], [81.536999, 7.864344], [81.537035, 7.863707]]
+}

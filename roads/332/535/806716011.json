@@ -1,0 +1,9 @@
+{
+  "id": 806716011,
+  "name": "Mathanki Street",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.249659, 9.806849], [80.249885, 9.806651], [80.250098, 9.806489]]
+}

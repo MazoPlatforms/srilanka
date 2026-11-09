@@ -1,0 +1,9 @@
+{
+  "id": 632063236,
+  "name": "Silwathgala Temple Road",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "bicycle": 15, "foot": 5},
+  "coordinates": [[80.568838, 7.797365], [80.568356, 7.797322], [80.56655, 7.797145]]
+}

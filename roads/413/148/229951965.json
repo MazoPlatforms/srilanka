@@ -1,0 +1,9 @@
+{
+  "id": 229951965,
+  "name": "Swarna Place 10th Lane",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[79.949667, 6.788229], [79.949253, 6.78826]]
+}

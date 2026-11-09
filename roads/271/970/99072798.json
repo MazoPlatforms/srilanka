@@ -1,0 +1,9 @@
+{
+  "id": 99072798,
+  "name": "Railway Place",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.410542, 8.343955], [80.41049, 8.343523], [80.410436, 8.34307], [80.410376, 8.342572]]
+}

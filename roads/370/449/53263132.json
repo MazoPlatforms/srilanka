@@ -1,0 +1,9 @@
+{
+  "id": 53263132,
+  "name": "Kawdana Broadway",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.874083, 6.84467], [79.874036, 6.844061], [79.873936, 6.843633], [79.87387, 6.843369], [79.87381, 6.843207], [79.873676, 6.842899]]
+}

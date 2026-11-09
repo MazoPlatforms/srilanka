@@ -1,0 +1,9 @@
+{
+  "id": 342885142,
+  "name": "Sirimangala Watta Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.922423, 6.807738], [79.92234, 6.80765], [79.922225, 6.807544], [79.922089, 6.807578], [79.921969, 6.807555], [79.921688, 6.807392], [79.921149, 6.807161], [79.920777, 6.807011]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 287046839,
+  "name": "Diddeniya Watta Stage II",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 45, "motorcycle": 45, "truck": 45, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.33236, 7.436259], [80.331674, 7.437189], [80.331085, 7.436939]]
+}

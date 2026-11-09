@@ -1,0 +1,9 @@
+{
+  "id": 345534731,
+  "name": "Nagoda-Kalawellawa-Bellapitiya Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.159317, 6.549754], [80.159294, 6.549958], [80.159039, 6.552842], [80.158921, 6.55329], [80.158846, 6.553471], [80.158721, 6.553664], [80.158504, 6.553935]]
+}

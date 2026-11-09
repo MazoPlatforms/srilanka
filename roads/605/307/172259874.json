@@ -1,0 +1,9 @@
+{
+  "id": 172259874,
+  "name": "Mariyawatte Lane1",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.566254, 7.150008], [80.566451, 7.150141], [80.566655, 7.150327], [80.566825, 7.150558], [80.567787, 7.150982], [80.568214, 7.151154]]
+}

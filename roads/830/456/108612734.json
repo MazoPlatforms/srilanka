@@ -1,0 +1,9 @@
+{
+  "id": 108612734,
+  "name": "Ellankulam Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.181842, 9.811796], [80.182153, 9.811728], [80.182199, 9.811714], [80.182601, 9.811584], [80.182897, 9.811656], [80.18309, 9.811635], [80.183734, 9.811435]]
+}

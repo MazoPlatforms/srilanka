@@ -1,0 +1,9 @@
+{
+  "id": 1188625178,
+  "name": "Approach Road to Aerodrome, Ratmalana",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.888831, 6.820149], [79.888925, 6.820192], [79.889078, 6.820262]]
+}

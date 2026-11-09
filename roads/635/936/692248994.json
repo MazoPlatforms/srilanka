@@ -1,0 +1,9 @@
+{
+  "id": 692248994,
+  "name": "Sri Nigrodharama Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.877974, 6.92563], [79.878029, 6.925645], [79.878341, 6.925684], [79.879085, 6.925733], [79.879874, 6.925678], [79.879915, 6.925673]]
+}

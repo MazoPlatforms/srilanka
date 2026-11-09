@@ -1,0 +1,9 @@
+{
+  "id": 168243574,
+  "name": "Elsy Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.909372, 6.700906], [79.909406, 6.700789], [79.910039, 6.700916], [79.910653, 6.701012], [79.910882, 6.701066], [79.911081, 6.701071], [79.911543, 6.701224]]
+}

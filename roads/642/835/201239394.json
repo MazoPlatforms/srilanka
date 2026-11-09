@@ -1,0 +1,9 @@
+{
+  "id": 201239394,
+  "name": "3rd Lane Gajaba Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.890683, 6.924941], [79.890556, 6.924933], [79.889568, 6.92487], [79.889574, 6.924496]]
+}

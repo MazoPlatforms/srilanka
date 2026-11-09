@@ -1,0 +1,9 @@
+{
+  "id": 83672632,
+  "name": "Robert Gunawardena Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 45, "motorcycle": 45, "truck": 45, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.957083, 6.905051], [79.9569, 6.904674], [79.956864, 6.904605], [79.956731, 6.904305]]
+}

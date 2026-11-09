@@ -1,0 +1,9 @@
+{
+  "id": 1263146203,
+  "name": "Pottuvil-Batticaloa Road",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
+  "coordinates": [[81.851665, 7.233337], [81.851641, 7.233189], [81.851533, 7.232685]]
+}

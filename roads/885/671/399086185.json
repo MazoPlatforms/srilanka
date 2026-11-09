@@ -1,0 +1,9 @@
+{
+  "id": 399086185,
+  "name": "1st Lane, Gemunu Place",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "bicycle": 10, "foot": 5},
+  "coordinates": [[80.3198, 7.474804], [80.320091, 7.474813], [80.320588, 7.47482], [80.322495, 7.474773], [80.32305, 7.474701], [80.325167, 7.474926]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 749317723,
+  "name": "Navakkaddu Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.729106, 7.589869], [81.729068, 7.59003], [81.729052, 7.590111]]
+}

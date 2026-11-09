@@ -1,0 +1,9 @@
+{
+  "id": 456298138,
+  "name": "Vishnu Kovil Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.538748, 7.865535], [81.538895, 7.865513], [81.53914, 7.865448], [81.539683, 7.865368], [81.54004, 7.865359], [81.540154, 7.865354], [81.540684, 7.865441]]
+}

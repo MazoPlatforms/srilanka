@@ -1,0 +1,9 @@
+{
+  "id": 96782761,
+  "name": "Lesly Land 3rd Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.072432, 6.718803], [80.071802, 6.719845]]
+}

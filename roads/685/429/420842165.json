@@ -1,0 +1,9 @@
+{
+  "id": 420842165,
+  "name": "Rege Rnathunga School Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.944424, 7.158824], [79.945803, 7.158178], [79.945894, 7.158115], [79.945968, 7.158032], [79.946681, 7.157092], [79.947431, 7.156174], [79.947783, 7.155794], [79.948064, 7.155469]]
+}

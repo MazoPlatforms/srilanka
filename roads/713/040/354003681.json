@@ -1,0 +1,9 @@
+{
+  "id": 354003681,
+  "name": "24th Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.422089, 9.323119], [80.42335, 9.323068], [80.426777, 9.322955]]
+}

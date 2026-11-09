@@ -1,0 +1,9 @@
+{
+  "id": 53492525,
+  "name": "Sinsapa Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.862105, 6.879397], [79.861674, 6.879297], [79.860883, 6.879161]]
+}

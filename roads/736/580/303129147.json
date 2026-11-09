@@ -1,0 +1,9 @@
+{
+  "id": 303129147,
+  "name": "Eluwila Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.267877, 6.000653], [80.268149, 6.000819], [80.268465, 6.001108], [80.268523, 6.001198], [80.268547, 6.001525], [80.268604, 6.001681], [80.268832, 6.00195]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 160327601,
+  "name": "Demuwawatha Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.404031, 6.678355], [80.404395, 6.677933], [80.404834, 6.677433], [80.404911, 6.677289]]
+}

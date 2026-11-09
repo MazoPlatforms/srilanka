@@ -1,0 +1,9 @@
+{
+  "id": 1133269492,
+  "name": "Church path",
+  "highway": "footway",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 8, "foot": 5},
+  "coordinates": [[79.863525, 6.870963], [79.863608, 6.870992], [79.863628, 6.871055], [79.863659, 6.871106], [79.863603, 6.871381]]
+}

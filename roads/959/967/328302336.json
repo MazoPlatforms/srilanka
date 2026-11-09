@@ -1,0 +1,9 @@
+{
+  "id": 328302336,
+  "name": "Passara-Pelwatte Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.191339, 6.770496], [81.191384, 6.770089]]
+}

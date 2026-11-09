@@ -1,0 +1,9 @@
+{
+  "id": 1497465527,
+  "name": "Angunakolapelessa-Embilipitiya Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.896531, 6.17008], [80.896492, 6.170024], [80.896452, 6.169962], [80.896439, 6.169904], [80.89643, 6.169842]]
+}

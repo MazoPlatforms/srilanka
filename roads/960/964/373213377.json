@@ -1,0 +1,9 @@
+{
+  "id": 373213377,
+  "name": "Ulapane-Pussellawa Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.560765, 7.096965], [80.561008, 7.09634], [80.561117, 7.096039], [80.561199, 7.095766]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 546005529,
+  "name": "8th Lane, Pahalawela Road",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[79.924658, 6.88653], [79.923639, 6.886582]]
+}

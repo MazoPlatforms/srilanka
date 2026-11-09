@@ -1,0 +1,9 @@
+{
+  "id": 342264505,
+  "name": "Navatkuli-Karativu-Mannar Road",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "foot": 5},
+  "coordinates": [[79.923953, 8.945121], [79.923755, 8.945148], [79.923653, 8.945157], [79.923475, 8.94516]]
+}

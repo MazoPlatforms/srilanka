@@ -1,0 +1,9 @@
+{
+  "id": 375054691,
+  "name": "Lakmini Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.002152, 6.975789], [80.001584, 6.975332], [80.001141, 6.974951], [80.000752, 6.974615], [80.000671, 6.974436], [80.000585, 6.974356]]
+}

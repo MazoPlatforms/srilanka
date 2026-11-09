@@ -1,0 +1,9 @@
+{
+  "id": 179537272,
+  "name": "GS road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.563926, 7.815354], [81.563439, 7.814777], [81.562897, 7.814228], [81.562339, 7.813661], [81.561683, 7.813077]]
+}

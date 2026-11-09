@@ -1,0 +1,9 @@
+{
+  "id": 492937754,
+  "name": "Sithiraveal Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.410083, 8.193851], [81.410496, 8.193893], [81.411182, 8.194007], [81.411692, 8.194119], [81.41205, 8.194162], [81.413697, 8.194377]]
+}

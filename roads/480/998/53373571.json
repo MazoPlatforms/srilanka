@@ -1,0 +1,9 @@
+{
+  "id": 53373571,
+  "name": "Cyril De Silva Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.896765, 6.86251], [79.896549, 6.862244], [79.896512, 6.86223], [79.896164, 6.862597], [79.89583, 6.862789], [79.895515, 6.862914]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 377022001,
+  "name": "Aluth Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.958181, 6.822625], [79.959937, 6.821798]]
+}

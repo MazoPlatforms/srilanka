@@ -1,0 +1,9 @@
+{
+  "id": 48861557,
+  "name": "Udahamulla Station Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.901624, 6.863246], [79.901707, 6.863215]]
+}

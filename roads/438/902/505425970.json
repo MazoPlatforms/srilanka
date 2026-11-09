@@ -1,0 +1,9 @@
+{
+  "id": 505425970,
+  "name": "1st Lane Henawatte",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.040377, 6.854209], [80.040161, 6.853204]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 403296346,
+  "name": "Puthuvilankulam Kalirupu internal Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.44182, 9.056965], [80.442313, 9.05687], [80.443526, 9.056456], [80.448707, 9.054922], [80.450123, 9.054645], [80.451015, 9.054402]]
+}

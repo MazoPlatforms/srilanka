@@ -1,0 +1,9 @@
+{
+  "id": 1189157671,
+  "name": "Sugathanandanarama Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.91421, 6.731575], [79.914151, 6.730937], [79.914101, 6.73025], [79.914041, 6.730152]]
+}

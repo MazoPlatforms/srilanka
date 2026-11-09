@@ -1,0 +1,9 @@
+{
+  "id": 345484544,
+  "name": "Gonawatte Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.951524, 6.900685], [79.951349, 6.900823], [79.951225, 6.900947]]
+}

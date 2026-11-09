@@ -1,0 +1,9 @@
+{
+  "id": 548292622,
+  "name": "Manadola-Kahawatte Road",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.54817, 6.570927], [80.548306, 6.570948]]
+}

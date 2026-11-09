@@ -1,0 +1,9 @@
+{
+  "id": 529025956,
+  "name": "nan",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.955276, 7.190041], [79.955149, 7.189784], [79.954717, 7.189383], [79.954788, 7.189264]]
+}

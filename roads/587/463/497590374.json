@@ -1,0 +1,9 @@
+{
+  "id": 497590374,
+  "name": "Kanchirankudah Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.656784, 7.609101], [81.656991, 7.609052], [81.658846, 7.609076], [81.659828, 7.609137]]
+}

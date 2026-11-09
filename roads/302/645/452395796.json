@@ -1,0 +1,9 @@
+{
+  "id": 452395796,
+  "name": "Risident Road",
+  "highway": "path",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 12, "foot": 4},
+  "coordinates": [[81.57546, 7.698589], [81.575567, 7.698756], [81.575846, 7.699118]]
+}

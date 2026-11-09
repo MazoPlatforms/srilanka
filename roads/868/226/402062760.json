@@ -1,0 +1,9 @@
+{
+  "id": 402062760,
+  "name": "Periya Poovarasankulam Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.598858, 8.964394], [80.597733, 8.964428], [80.596937, 8.964405], [80.596456, 8.964428], [80.595716, 8.964396], [80.595425, 8.964469], [80.595006, 8.964829], [80.591678, 8.9684]]
+}

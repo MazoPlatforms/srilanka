@@ -1,0 +1,9 @@
+{
+  "id": 326665945,
+  "name": "Christian Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.811175, 7.468367], [81.812507, 7.46847], [81.812739, 7.4685], [81.812779, 7.468505], [81.813088, 7.468545], [81.813123, 7.46855]]
+}

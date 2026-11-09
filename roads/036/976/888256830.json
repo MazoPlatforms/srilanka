@@ -1,0 +1,9 @@
+{
+  "id": 888256830,
+  "name": "Gramodaya Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.853847, 7.229507], [79.854231, 7.229645], [79.854289, 7.229664], [79.854337, 7.229588], [79.854381, 7.229565], [79.854737, 7.229705]]
+}

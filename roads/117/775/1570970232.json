@@ -1,0 +1,9 @@
+{
+  "id": 1570970232,
+  "name": "3rd Lean",
+  "highway": "living_street",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "bicycle": 10, "foot": 5},
+  "coordinates": [[80.050832, 6.88173], [80.050878, 6.881944]]
+}

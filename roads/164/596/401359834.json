@@ -1,0 +1,9 @@
+{
+  "id": 401359834,
+  "name": "Pokuna Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.960646, 6.827222], [79.960437, 6.827378]]
+}

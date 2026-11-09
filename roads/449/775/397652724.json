@@ -1,0 +1,9 @@
+{
+  "id": 397652724,
+  "name": "7th Lane Alexendra Waththa",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.897453, 7.090193], [79.897811, 7.090179], [79.898668, 7.090169], [79.899343, 7.090165], [79.900357, 7.090171], [79.900597, 7.090157], [79.900644, 7.090145], [79.900701, 7.090107]]
+}

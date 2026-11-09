@@ -1,0 +1,9 @@
+{
+  "id": 374050237,
+  "name": "Kovil road 4th lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.488659, 8.768238], [80.488485, 8.768232], [80.487774, 8.768304], [80.487363, 8.76831]]
+}

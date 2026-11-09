@@ -1,0 +1,9 @@
+{
+  "id": 24790507,
+  "name": "Arethusa Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.86205, 6.871077], [79.862087, 6.871084], [79.862766, 6.871214]]
+}

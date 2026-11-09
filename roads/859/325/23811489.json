@@ -1,0 +1,9 @@
+{
+  "id": 23811489,
+  "name": "Madawala Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.626153, 7.325265], [80.62623, 7.325233], [80.626323, 7.325221]]
+}

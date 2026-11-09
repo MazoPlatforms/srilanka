@@ -1,0 +1,9 @@
+{
+  "id": 1348853553,
+  "name": "Glenie Street",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.848506, 6.92493], [79.848323, 6.925724], [79.848364, 6.925848], [79.84846, 6.926137], [79.848466, 6.9263], [79.848438, 6.926418], [79.848279, 6.926781]]
+}

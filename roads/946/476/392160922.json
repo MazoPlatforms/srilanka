@@ -1,0 +1,9 @@
+{
+  "id": 392160922,
+  "name": "Hill House Gardens",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.860846, 6.960091], [79.86106, 6.960048], [79.861251, 6.96008], [79.861501, 6.960171], [79.861701, 6.960264], [79.862069, 6.960545]]
+}

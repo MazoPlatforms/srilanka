@@ -1,0 +1,9 @@
+{
+  "id": 50635382,
+  "name": "Torrington Avenue",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.867994, 6.901153], [79.868056, 6.901059], [79.868251, 6.900613]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 317474524,
+  "name": "Old Danthure Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.551006, 7.267369], [80.55125, 7.267434], [80.551415, 7.267441], [80.551519, 7.267414], [80.55208, 7.267005], [80.552334, 7.266858]]
+}

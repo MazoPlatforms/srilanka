@@ -1,0 +1,9 @@
+{
+  "id": 667264659,
+  "name": "Old Hambantota Road",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "foot": 5},
+  "coordinates": [[81.082581, 6.116879], [81.082041, 6.116953], [81.0819, 6.116987]]
+}

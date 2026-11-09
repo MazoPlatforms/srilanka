@@ -1,0 +1,9 @@
+{
+  "id": 1419086293,
+  "name": "Drayton State Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.617258, 6.925812], [80.617357, 6.926157], [80.617482, 6.926761], [80.617526, 6.92695]]
+}

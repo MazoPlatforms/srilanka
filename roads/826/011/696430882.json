@@ -1,0 +1,9 @@
+{
+  "id": 696430882,
+  "name": "Ganewalpola-Dachchi Hammillewa Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.637785, 8.089706], [80.637816, 8.089773], [80.637839, 8.089828], [80.637858, 8.089904]]
+}

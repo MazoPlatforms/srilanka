@@ -1,0 +1,9 @@
+{
+  "id": 566247678,
+  "name": "2nd Lane, School Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.02056, 6.984951], [80.02098, 6.984928], [80.021024, 6.984915], [80.021051, 6.984868], [80.021083, 6.984589]]
+}

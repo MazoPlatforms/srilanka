@@ -1,0 +1,9 @@
+{
+  "id": 556902784,
+  "name": "Brown's Road (Anagarika Dharmapala Mawatha)",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.224688, 6.057596], [80.224628, 6.057176], [80.224569, 6.056858], [80.224687, 6.05633], [80.224869, 6.055883], [80.225067, 6.055632], [80.225373, 6.055378]]
+}

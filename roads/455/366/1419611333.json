@@ -1,0 +1,9 @@
+{
+  "id": 1419611333,
+  "name": "Peragirigama Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.343798, 6.40491], [81.34379, 6.40473], [81.34381, 6.40394], [81.34376, 6.40312]]
+}

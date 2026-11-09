@@ -1,0 +1,9 @@
+{
+  "id": 392544171,
+  "name": "Sellaiah Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.410357, 8.189739], [81.41095, 8.189728], [81.411291, 8.189684], [81.411959, 8.189674]]
+}

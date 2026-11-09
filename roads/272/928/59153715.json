@@ -1,0 +1,9 @@
+{
+  "id": 59153715,
+  "name": "Sri Kalyani Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.922925, 6.949374], [79.922814, 6.949247], [79.922662, 6.9491], [79.922347, 6.948949], [79.922252, 6.948882], [79.922231, 6.94887], [79.922157, 6.948828]]
+}

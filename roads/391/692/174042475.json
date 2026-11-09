@@ -1,0 +1,9 @@
+{
+  "id": 174042475,
+  "name": "Nalanda Mawatha",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.951076, 7.169241], [79.951028, 7.169888], [79.950911, 7.17062]]
+}

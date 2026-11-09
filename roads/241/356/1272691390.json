@@ -1,0 +1,9 @@
+{
+  "id": 1272691390,
+  "name": "Detour",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 15.0, "motorcycle": 15.0, "truck": 15.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.498657, 6.347306], [80.498826, 6.347156]]
+}

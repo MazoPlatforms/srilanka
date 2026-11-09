@@ -1,0 +1,9 @@
+{
+  "id": 387287732,
+  "name": "Rapial Tennakoon Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.984693, 7.037645], [79.984856, 7.037699], [79.984908, 7.037737], [79.985051, 7.038002]]
+}

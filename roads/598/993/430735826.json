@@ -1,0 +1,9 @@
+{
+  "id": 430735826,
+  "name": "Pahalawatta Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.942146, 7.170816], [79.942126, 7.170549], [79.942163, 7.16982], [79.942082, 7.169684], [79.94197, 7.169579], [79.941972, 7.169488], [79.942007, 7.169418]]
+}

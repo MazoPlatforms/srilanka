@@ -1,0 +1,9 @@
+{
+  "id": 1265217768,
+  "name": "Thesigar Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.847595, 7.365363], [81.847765, 7.364834], [81.847831, 7.364604], [81.847982, 7.364175], [81.848123, 7.363773], [81.84814, 7.363733]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 99227853,
+  "name": "Main Street",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.838426, 7.211073], [79.838568, 7.210998]]
+}

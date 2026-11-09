@@ -1,0 +1,9 @@
+{
+  "id": 1087417124,
+  "name": "Bernard Soysa Mawatha (Kirula Road)",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20},
+  "coordinates": [[79.876943, 6.892355], [79.876797, 6.89233], [79.876698, 6.892304], [79.876529, 6.892239], [79.876488, 6.892227], [79.876451, 6.892235]]
+}

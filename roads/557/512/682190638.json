@@ -1,0 +1,9 @@
+{
+  "id": 682190638,
+  "name": "Forest Drive",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[79.93292, 6.880746], [79.932969, 6.880639], [79.933402, 6.880658], [79.933897, 6.880607]]
+}

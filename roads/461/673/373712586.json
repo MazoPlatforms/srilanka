@@ -1,0 +1,9 @@
+{
+  "id": 373712586,
+  "name": "Pengiriwatte",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[80.733039, 6.044094], [80.735037, 6.044161], [80.735724, 6.044183], [80.736723, 6.044217], [80.737114, 6.04423]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 51086282,
+  "name": "Frazer Avenue",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.883181, 6.770901], [79.883566, 6.77098], [79.883812, 6.771062], [79.884657, 6.771367], [79.885128, 6.771484], [79.885428, 6.771567]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 696226542,
+  "name": "Welioya-Janakapura Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.89805, 9.091025], [80.898184, 9.091119], [80.898361, 9.091257]]
+}

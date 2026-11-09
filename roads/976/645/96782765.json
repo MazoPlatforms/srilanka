@@ -1,0 +1,9 @@
+{
+  "id": 96782765,
+  "name": "Lesly Land 2nd Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.071918, 6.718764], [80.071693, 6.719101], [80.071421, 6.719621]]
+}

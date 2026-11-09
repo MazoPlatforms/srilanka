@@ -1,0 +1,9 @@
+{
+  "id": 178431972,
+  "name": "Sea Road 1",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.828707, 7.35046], [79.829491, 7.350598], [79.830508, 7.350843]]
+}

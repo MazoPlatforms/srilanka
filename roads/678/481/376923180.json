@@ -1,0 +1,9 @@
+{
+  "id": 376923180,
+  "name": "Laurie's Road",
+  "highway": "residential",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.856766, 6.895055], [79.857024, 6.895101], [79.857106, 6.895116]]
+}

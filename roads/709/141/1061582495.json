@@ -1,0 +1,9 @@
+{
+  "id": 1061582495,
+  "name": "Walana Road",
+  "highway": "residential",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.422943, 5.972313], [80.422884, 5.972367], [80.422776, 5.972456]]
+}

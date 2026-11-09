@@ -1,0 +1,9 @@
+{
+  "id": 131545176,
+  "name": "Puthukkudiyirippu Road",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.716097, 9.285966], [80.716008, 9.286038]]
+}

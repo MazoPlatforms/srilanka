@@ -1,0 +1,9 @@
+{
+  "id": 519846644,
+  "name": "Puthumunmarisolai road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.672788, 7.499313], [81.672857, 7.499546], [81.672928, 7.499785], [81.672958, 7.50013], [81.67308, 7.500784]]
+}

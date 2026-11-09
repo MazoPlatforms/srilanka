@@ -1,0 +1,9 @@
+{
+  "id": 406372480,
+  "name": "Tranformer Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.926728, 7.085821], [79.926532, 7.085705], [79.926203, 7.085541], [79.926109, 7.085526]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 108105442,
+  "name": "Galthambarawa road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.008045, 7.991487], [81.0084, 7.991491], [81.008516, 7.991491], [81.008661, 7.991442], [81.009129, 7.99106], [81.009257, 7.991039], [81.009341, 7.991055]]
+}

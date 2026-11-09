@@ -1,0 +1,9 @@
+{
+  "id": 325126547,
+  "name": "Small Mosque Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.836878, 7.391723], [81.836932, 7.392235], [81.83696, 7.392865]]
+}

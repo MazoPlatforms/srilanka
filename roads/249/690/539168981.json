@@ -1,0 +1,9 @@
+{
+  "id": 539168981,
+  "name": "Towngedarawatta road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.127641, 6.525495], [80.127833, 6.524953], [80.127951, 6.524929], [80.127974, 6.524692], [80.128161, 6.524691], [80.128241, 6.524647], [80.128394, 6.524525], [80.128586, 6.524353]]
+}

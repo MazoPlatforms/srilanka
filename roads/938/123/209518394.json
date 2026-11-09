@@ -1,0 +1,9 @@
+{
+  "id": 209518394,
+  "name": "Singha Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.85718, 7.235226], [79.857456, 7.234678], [79.857825, 7.233948]]
+}

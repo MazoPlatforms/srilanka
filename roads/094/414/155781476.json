@@ -1,0 +1,9 @@
+{
+  "id": 155781476,
+  "name": "12th Cross Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.681239, 7.734967], [81.681501, 7.735319], [81.681561, 7.735399], [81.682141, 7.73607], [81.682728, 7.736683]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 419469167,
+  "name": "Rabbiya Waththa Pedesa",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.923839, 6.957804], [79.923885, 6.957821], [79.923984, 6.957823], [79.924405, 6.957744], [79.924564, 6.957697]]
+}

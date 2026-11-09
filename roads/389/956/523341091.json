@@ -1,0 +1,9 @@
+{
+  "id": 523341091,
+  "name": "Main Road",
+  "highway": "residential",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.734244, 7.569479], [81.734109, 7.569487]]
+}

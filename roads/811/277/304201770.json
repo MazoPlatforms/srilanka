@@ -1,0 +1,9 @@
+{
+  "id": 304201770,
+  "name": "Athulanandanarama Temple Road",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "bicycle": 10, "foot": 5},
+  "coordinates": [[80.231843, 6.064073], [80.231976, 6.063775], [80.231696, 6.063643], [80.231371, 6.063476], [80.231124, 6.063368]]
+}

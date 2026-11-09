@@ -1,0 +1,9 @@
+{
+  "id": 514616642,
+  "name": "Dharmaratana Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.921498, 6.874464], [79.921337, 6.874573], [79.920996, 6.874789], [79.920734, 6.875156], [79.920481, 6.875457], [79.92038, 6.875549], [79.920118, 6.875787]]
+}

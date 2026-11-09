@@ -1,0 +1,9 @@
+{
+  "id": 371237412,
+  "name": "Dodangaslanda-Yatawatta-Dombawela Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.591675, 7.560729], [80.591599, 7.56081], [80.591464, 7.560901], [80.591347, 7.560945]]
+}

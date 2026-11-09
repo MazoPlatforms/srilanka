@@ -1,0 +1,9 @@
+{
+  "id": 368620102,
+  "name": "Wajira Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.462968, 5.9468], [80.463075, 5.946803], [80.463284, 5.946794], [80.463825, 5.946609], [80.464507, 5.946494], [80.464801, 5.946498], [80.464851, 5.946545]]
+}

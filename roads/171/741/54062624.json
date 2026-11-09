@@ -1,0 +1,9 @@
+{
+  "id": 54062624,
+  "name": "Mallikarama Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.874045, 6.932238], [79.874147, 6.931776], [79.874299, 6.931031], [79.874332, 6.930326], [79.874326, 6.92959]]
+}

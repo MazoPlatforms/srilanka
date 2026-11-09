@@ -1,0 +1,9 @@
+{
+  "id": 1470177952,
+  "name": "St. Sebastian Mawatha",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.8577, 7.215906], [79.857634, 7.21598], [79.85728, 7.216929], [79.857007, 7.217643], [79.856491, 7.218753]]
+}

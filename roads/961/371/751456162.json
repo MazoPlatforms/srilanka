@@ -1,0 +1,9 @@
+{
+  "id": 751456162,
+  "name": "6th Lane, Desingha Mawatha",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[79.934106, 6.893266], [79.934067, 6.893453], [79.934012, 6.893571], [79.933788, 6.893792]]
+}

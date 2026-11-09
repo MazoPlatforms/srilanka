@@ -1,0 +1,9 @@
+{
+  "id": 632064543,
+  "name": "First street",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.211548, 7.131256], [80.211101, 7.131527], [80.211065, 7.131968], [80.210522, 7.131906], [80.210572, 7.132432], [80.209869, 7.132518], [80.208316, 7.133007]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 376625139,
+  "name": "Thakkiya Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.939497, 7.161869], [79.939447, 7.162061], [79.939257, 7.162547], [79.939191, 7.163196], [79.939099, 7.163437], [79.93911, 7.163834], [79.93913, 7.16428]]
+}

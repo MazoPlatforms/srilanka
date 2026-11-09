@@ -1,0 +1,9 @@
+{
+  "id": 473242705,
+  "name": "Husainiya Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.521416, 7.910286], [81.521183, 7.910331], [81.520662, 7.910458], [81.520349, 7.910555], [81.519936, 7.910627]]
+}

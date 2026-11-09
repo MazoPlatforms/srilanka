@@ -1,0 +1,9 @@
+{
+  "id": 55421468,
+  "name": "Mellin Nona Dhrmadasa road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.882935, 6.951186], [79.882917, 6.951839], [79.882912, 6.952116], [79.88284, 6.952846], [79.882777, 6.952997], [79.88262, 6.953123], [79.882645, 6.953635]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 23153225,
+  "name": "New Beach Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.05446, 6.232892], [80.05368, 6.232829]]
+}

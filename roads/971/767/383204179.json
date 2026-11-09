@@ -1,0 +1,9 @@
+{
+  "id": 383204179,
+  "name": "Athuru Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.952919, 7.060135], [79.952699, 7.060081], [79.952577, 7.060069], [79.952045, 7.060097]]
+}

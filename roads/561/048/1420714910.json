@@ -1,0 +1,9 @@
+{
+  "id": 1420714910,
+  "name": "Weeraketiya-Tissa Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.227384, 6.255813], [81.227362, 6.255792], [81.227202, 6.25561], [81.227095, 6.255407]]
+}

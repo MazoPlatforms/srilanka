@@ -1,0 +1,9 @@
+{
+  "id": 311232241,
+  "name": "Perakum Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.340499, 7.481228], [80.340536, 7.480209], [80.340611, 7.479237], [80.340765, 7.478447], [80.340848, 7.477664]]
+}

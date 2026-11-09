@@ -1,0 +1,9 @@
+{
+  "id": 744825694,
+  "name": "Navaladi Pillayar Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.549985, 7.845799], [81.54974, 7.845728], [81.549639, 7.845709], [81.548347, 7.845467], [81.5477, 7.845256]]
+}

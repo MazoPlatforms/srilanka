@@ -1,0 +1,9 @@
+{
+  "id": 502768902,
+  "name": "Old Kandy Rd",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.69031, 7.270048], [80.690497, 7.270062], [80.690729, 7.270068]]
+}

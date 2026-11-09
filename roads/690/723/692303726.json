@@ -1,0 +1,9 @@
+{
+  "id": 692303726,
+  "name": "Ramya Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.920743, 6.905549], [79.920831, 6.90562], [79.921189, 6.905839], [79.921201, 6.905882], [79.920825, 6.906339]]
+}

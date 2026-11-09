@@ -1,0 +1,9 @@
+{
+  "id": 320943086,
+  "name": "Hajiyar Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.846153, 7.348882], [81.846766, 7.348839], [81.847405, 7.348789], [81.848861, 7.348738], [81.850301, 7.348753], [81.851175, 7.348733]]
+}

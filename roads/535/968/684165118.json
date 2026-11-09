@@ -1,0 +1,9 @@
+{
+  "id": 684165118,
+  "name": "Deniyaya Road",
+  "highway": "trunk",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 70.0, "motorcycle": 70.0, "truck": 70.0, "foot": 5},
+  "coordinates": [[80.309455, 6.035908], [80.309659, 6.035916]]
+}

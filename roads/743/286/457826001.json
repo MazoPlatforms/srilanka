@@ -1,0 +1,9 @@
+{
+  "id": 457826001,
+  "name": "Nagathampiran 4th Cross Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.705448, 7.630242], [81.705318, 7.630226], [81.70433, 7.630101]]
+}

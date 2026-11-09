@@ -1,0 +1,9 @@
+{
+  "id": 383307187,
+  "name": "Saint Benedict Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.041343, 9.666422], [80.040999, 9.666464], [80.040795, 9.666488]]
+}

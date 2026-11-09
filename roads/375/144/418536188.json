@@ -1,0 +1,9 @@
+{
+  "id": 418536188,
+  "name": "Pivithuru Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.891224, 7.120692], [79.891215, 7.121474], [79.891186, 7.121503], [79.890988, 7.121521], [79.890982, 7.122966]]
+}

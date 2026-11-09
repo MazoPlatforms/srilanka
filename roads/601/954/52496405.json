@@ -1,0 +1,9 @@
+{
+  "id": 52496405,
+  "name": "Sudharshi Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.874401, 6.863379], [79.874385, 6.862995], [79.87436, 6.86179]]
+}

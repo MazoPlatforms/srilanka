@@ -1,0 +1,9 @@
+{
+  "id": 1540185439,
+  "name": "Persion watta",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.628653, 7.439242], [80.628733, 7.439466], [80.628745, 7.439487], [80.628882, 7.439726], [80.629052, 7.439908], [80.629115, 7.439964]]
+}

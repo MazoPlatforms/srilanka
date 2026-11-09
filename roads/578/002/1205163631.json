@@ -1,0 +1,9 @@
+{
+  "id": 1205163631,
+  "name": "Unclassified Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.253583, 8.227094], [80.253951, 8.227728], [80.254548, 8.228753], [80.255116, 8.229729]]
+}

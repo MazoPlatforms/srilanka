@@ -1,0 +1,9 @@
+{
+  "id": 1018504757,
+  "name": "Isipathana Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.013513, 7.933321], [81.013633, 7.93318]]
+}

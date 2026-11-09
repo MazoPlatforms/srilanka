@@ -1,0 +1,9 @@
+{
+  "id": 412248361,
+  "name": "Sri Maha Bodhi Mawatha (Market Street)",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.409775, 8.342654], [80.40951, 8.342615]]
+}

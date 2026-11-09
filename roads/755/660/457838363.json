@@ -1,0 +1,9 @@
+{
+  "id": 457838363,
+  "name": "Old Saloon Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.725329, 7.597374], [81.725474, 7.59743], [81.725867, 7.597613], [81.726425, 7.597883], [81.726899, 7.598069], [81.726909, 7.598073], [81.726946, 7.598088]]
+}

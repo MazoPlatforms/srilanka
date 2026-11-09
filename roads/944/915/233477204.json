@@ -1,0 +1,9 @@
+{
+  "id": 233477204,
+  "name": "Kannahi Amman Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.676449, 7.710742], [81.676326, 7.710832], [81.67594, 7.711014], [81.673912, 7.71197]]
+}

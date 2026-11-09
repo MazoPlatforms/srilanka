@@ -1,0 +1,9 @@
+{
+  "id": 668595030,
+  "name": "Velikkandal",
+  "highway": "path",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 12, "foot": 4},
+  "coordinates": [[80.484456, 9.427072], [80.484512, 9.427078], [80.484643, 9.427088]]
+}

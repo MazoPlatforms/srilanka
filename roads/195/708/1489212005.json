@@ -1,0 +1,9 @@
+{
+  "id": 1489212005,
+  "name": "Lover's Leap Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.784127, 6.975443], [80.784206, 6.975351]]
+}

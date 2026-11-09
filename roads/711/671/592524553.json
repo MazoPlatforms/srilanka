@@ -1,0 +1,9 @@
+{
+  "id": 592524553,
+  "name": "wataraka Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.419897, 7.387971], [80.420011, 7.387942]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 816466886,
+  "name": "New Kandy Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.984686, 6.935982], [79.984602, 6.935932], [79.984372, 6.935774], [79.984247, 6.935722]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 740389892,
+  "name": "Pelena Gangarama Temple Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.438606, 5.975612], [80.438866, 5.975616], [80.439147, 5.975623], [80.439416, 5.975571], [80.439683, 5.975503], [80.440095, 5.975273]]
+}

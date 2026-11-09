@@ -1,0 +1,9 @@
+{
+  "id": 197780118,
+  "name": "Bakery Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.237905, 8.566771], [81.236984, 8.567386]]
+}

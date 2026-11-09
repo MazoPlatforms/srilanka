@@ -1,0 +1,9 @@
+{
+  "id": 317474520,
+  "name": "Pilimatalawa Bridge",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.552036, 7.266277], [80.552128, 7.265758]]
+}

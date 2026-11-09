@@ -1,0 +1,9 @@
+{
+  "id": 376345426,
+  "name": "Ganemulla-Weligampitiya Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.948336, 7.06957], [79.947867, 7.069437], [79.94783, 7.069424]]
+}

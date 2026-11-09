@@ -1,0 +1,9 @@
+{
+  "id": 52563533,
+  "name": "Gunarathna Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.874414, 6.896053], [79.874423, 6.896232], [79.874426, 6.896351], [79.874434, 6.896634]]
+}

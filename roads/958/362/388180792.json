@@ -1,0 +1,9 @@
+{
+  "id": 388180792,
+  "name": "3rd Lane Pokuna Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.962648, 7.043618], [79.962664, 7.043589], [79.962684, 7.043548], [79.962816, 7.043509], [79.962976, 7.043561]]
+}

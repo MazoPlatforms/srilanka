@@ -1,0 +1,9 @@
+{
+  "id": 405040909,
+  "name": "Old Kandy Road 4th Lane",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 15, "motorcycle": 15, "bicycle": 15, "foot": 5},
+  "coordinates": [[80.514496, 9.068089], [80.513166, 9.067867], [80.512314, 9.067752], [80.51061, 9.067861], [80.51053, 9.067866]]
+}

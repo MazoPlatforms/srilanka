@@ -1,0 +1,9 @@
+{
+  "id": 513823774,
+  "name": "Etorawa Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.135753, 6.302007], [80.135975, 6.301886]]
+}

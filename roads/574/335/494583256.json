@@ -1,0 +1,9 @@
+{
+  "id": 494583256,
+  "name": "Vivekanathar Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.70969, 7.610617], [81.70968, 7.61087], [81.709664, 7.611126], [81.710152, 7.611129], [81.710658, 7.611122], [81.711635, 7.61111], [81.712213, 7.611109]]
+}

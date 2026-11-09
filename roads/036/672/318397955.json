@@ -1,0 +1,9 @@
+{
+  "id": 318397955,
+  "name": "Rambukkana-Mawathagama Road",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.413804, 7.356795], [80.413978, 7.355871], [80.413887, 7.354765], [80.413946, 7.353825], [80.413984, 7.353619], [80.414195, 7.353239], [80.414348, 7.352976]]
+}

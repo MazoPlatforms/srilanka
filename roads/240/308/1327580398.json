@@ -1,0 +1,9 @@
+{
+  "id": 1327580398,
+  "name": "Buttala-Sella Kataragama Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 70.0, "motorcycle": 70.0, "truck": 70.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.310015, 6.443386], [81.310108, 6.443521], [81.310267, 6.443875], [81.310365, 6.445624], [81.310517, 6.450919], [81.31051, 6.451389]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 408755289,
+  "name": "Aggona Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.047727, 6.835419], [80.047314, 6.835121], [80.047198, 6.835051]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 1206771287,
+  "name": "Kaduwela Road (New Kandy Road)",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.978408, 6.924463], [79.978166, 6.924054]]
+}

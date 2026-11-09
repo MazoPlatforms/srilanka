@@ -1,0 +1,9 @@
+{
+  "id": 1110227660,
+  "name": "Badulla-Passara Road",
+  "highway": "trunk",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 70.0, "motorcycle": 70.0, "truck": 70.0, "foot": 5},
+  "coordinates": [[81.139375, 6.93188], [81.139377, 6.931842], [81.139385, 6.931811], [81.139399, 6.93178], [81.139419, 6.93175], [81.139446, 6.931724]]
+}

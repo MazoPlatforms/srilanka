@@ -1,0 +1,9 @@
+{
+  "id": 457837127,
+  "name": "Vaaikkal Kaddu Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.727865, 7.596572], [81.727664, 7.596879], [81.727596, 7.597016], [81.72732, 7.597483], [81.726996, 7.598012], [81.726946, 7.598088], [81.726668, 7.598528], [81.726231, 7.599255]]
+}

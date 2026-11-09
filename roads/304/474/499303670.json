@@ -1,0 +1,9 @@
+{
+  "id": 499303670,
+  "name": "Kospalanwatta Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.909799, 6.795545], [79.910004, 6.795312], [79.910394, 6.794914], [79.910778, 6.794549], [79.910809, 6.794534], [79.91084, 6.794544]]
+}

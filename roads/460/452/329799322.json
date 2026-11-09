@@ -1,0 +1,9 @@
+{
+  "id": 329799322,
+  "name": "Main Street, Nithiyapuri",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.216975, 8.603483], [81.216248, 8.603226], [81.215761, 8.603029], [81.214727, 8.602534], [81.214144, 8.602209], [81.214039, 8.602156], [81.21335, 8.601983]]
+}

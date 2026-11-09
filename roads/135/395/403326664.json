@@ -1,0 +1,9 @@
+{
+  "id": 403326664,
+  "name": "Kolarupuliyankulam 5th Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.477385, 9.093955], [80.477799, 9.092689]]
+}

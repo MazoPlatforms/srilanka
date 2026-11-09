@@ -1,0 +1,9 @@
+{
+  "id": 749519672,
+  "name": "Welabada Road",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25.0, "motorcycle": 25.0, "bicycle": 10, "foot": 5},
+  "coordinates": [[80.132315, 6.898758], [80.132532, 6.898992]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 390468304,
+  "name": "Alady Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.509223, 9.047037], [80.509674, 9.046449], [80.51044, 9.045671], [80.510693, 9.045373], [80.511347, 9.044801], [80.512381, 9.043743]]
+}

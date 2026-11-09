@@ -1,0 +1,9 @@
+{
+  "id": 129884423,
+  "name": "Jubilee Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.900889, 6.875852], [79.901962, 6.87568], [79.90237, 6.87564], [79.902528, 6.875625]]
+}

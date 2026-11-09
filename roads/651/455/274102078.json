@@ -1,0 +1,9 @@
+{
+  "id": 274102078,
+  "name": "Ohiya-Horton Plains Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.810141, 6.801043], [80.810085, 6.801076], [80.81003, 6.801108]]
+}

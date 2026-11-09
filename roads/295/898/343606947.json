@@ -1,0 +1,9 @@
+{
+  "id": 343606947,
+  "name": "Pirivena Road 6th by lane",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "bicycle": 15, "foot": 5},
+  "coordinates": [[79.906849, 6.836104], [79.907163, 6.83547]]
+}

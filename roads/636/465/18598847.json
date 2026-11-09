@@ -1,0 +1,9 @@
+{
+  "id": 18598847,
+  "name": "Galle Face Terrace",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.846943, 6.919739], [79.847669, 6.920003], [79.848547, 6.920278]]
+}

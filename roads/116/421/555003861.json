@@ -1,0 +1,9 @@
+{
+  "id": 555003861,
+  "name": "Pitiya Devala Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.640267, 7.310348], [80.640439, 7.309915], [80.64065, 7.309716], [80.640666, 7.309657], [80.640673, 7.309587], [80.640644, 7.309495], [80.640534, 7.309306]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 808045437,
+  "name": "Amuwala Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.383652, 6.66123], [80.383664, 6.66112]]
+}

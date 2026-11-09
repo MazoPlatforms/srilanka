@@ -1,0 +1,9 @@
+{
+  "id": 319985865,
+  "name": "Kataragama-Sella Kataragama Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.324884, 6.418413], [81.324933, 6.418371], [81.324987, 6.418329], [81.325028, 6.418303], [81.32507, 6.418266]]
+}

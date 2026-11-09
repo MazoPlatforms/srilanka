@@ -1,0 +1,9 @@
+{
+  "id": 528174744,
+  "name": "Ambagahapura Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.915865, 6.838425], [79.916005, 6.838335], [79.916308, 6.838158], [79.916421, 6.838029], [79.916729, 6.83739]]
+}

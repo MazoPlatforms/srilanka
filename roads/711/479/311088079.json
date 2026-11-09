@@ -1,0 +1,9 @@
+{
+  "id": 311088079,
+  "name": "Maliyadeva Street",
+  "highway": "residential",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.363829, 7.48859], [80.363789, 7.488382], [80.363758, 7.488144], [80.363744, 7.488009], [80.363752, 7.487912], [80.363723, 7.487851]]
+}

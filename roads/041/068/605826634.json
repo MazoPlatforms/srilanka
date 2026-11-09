@@ -1,0 +1,9 @@
+{
+  "id": 605826634,
+  "name": "Guru Kolani Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.835803, 7.341654], [79.835827, 7.342198], [79.835876, 7.343345], [79.835834, 7.343744], [79.835628, 7.344151]]
+}

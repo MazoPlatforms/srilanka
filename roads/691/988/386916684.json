@@ -1,0 +1,9 @@
+{
+  "id": 386916684,
+  "name": "Ranketh Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.972198, 7.070895], [79.972035, 7.070884], [79.971418, 7.070885], [79.971327, 7.070901], [79.971041, 7.07087]]
+}

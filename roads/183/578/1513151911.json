@@ -1,0 +1,9 @@
+{
+  "id": 1513151911,
+  "name": "Inner Circular Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.402693, 6.682519], [80.402735, 6.682503], [80.402789, 6.682473], [80.402875, 6.682414], [80.403082, 6.682274]]
+}

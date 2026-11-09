@@ -1,0 +1,9 @@
+{
+  "id": 52372736,
+  "name": "Kottawa-Hokandara Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.971258, 6.84468], [79.970908, 6.845399]]
+}

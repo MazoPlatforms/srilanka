@@ -1,0 +1,9 @@
+{
+  "id": 412210228,
+  "name": "Thalvupadu Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.913692, 8.977149], [79.913607, 8.977138], [79.913472, 8.977141]]
+}

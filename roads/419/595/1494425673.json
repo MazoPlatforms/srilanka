@@ -1,0 +1,9 @@
+{
+  "id": 1494425673,
+  "name": "Maha Piriwena Road",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "bicycle": 15, "foot": 5},
+  "coordinates": [[80.632567, 7.298472], [80.632443, 7.298402]]
+}

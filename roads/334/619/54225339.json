@@ -1,0 +1,9 @@
+{
+  "id": 54225339,
+  "name": "Gothami Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.889206, 6.915845], [79.889012, 6.915843], [79.888981, 6.91582], [79.88892, 6.915724], [79.888886, 6.915705], [79.887949, 6.915774], [79.88753, 6.915813]]
+}

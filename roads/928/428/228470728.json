@@ -1,0 +1,9 @@
+{
+  "id": 228470728,
+  "name": "New Kalmunai Road",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
+  "coordinates": [[81.710339, 7.71199], [81.710322, 7.712042], [81.710304, 7.712094], [81.710267, 7.712203], [81.710239, 7.712291]]
+}

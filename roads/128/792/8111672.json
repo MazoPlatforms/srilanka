@@ -1,0 +1,9 @@
+{
+  "id": 8111672,
+  "name": "Longden Place",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.872171, 6.89835], [79.872348, 6.898072], [79.872473, 6.897889]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 492938358,
+  "name": "Vivekanandha Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.323365, 8.142059], [81.323367, 8.142027], [81.323378, 8.141975], [81.323538, 8.141112], [81.322844, 8.140989]]
+}

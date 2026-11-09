@@ -1,0 +1,9 @@
+{
+  "id": 1414548633,
+  "name": "Thuvali thoopulam Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.165822, 9.799465], [80.165718, 9.799498], [80.165444, 9.799625], [80.165252, 9.799752], [80.164821, 9.80006], [80.164445, 9.800325], [80.164165, 9.800494]]
+}

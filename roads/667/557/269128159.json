@@ -1,0 +1,9 @@
+{
+  "id": 269128159,
+  "name": "Cycle path temple",
+  "highway": "track",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 15, "foot": 4},
+  "coordinates": [[81.828051, 7.126201], [81.82802, 7.126234], [81.82827, 7.126661], [81.828508, 7.127105]]
+}

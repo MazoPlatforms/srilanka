@@ -1,0 +1,9 @@
+{
+  "id": 692300589,
+  "name": "Independence Square",
+  "highway": "residential",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.867008, 6.904982], [79.866986, 6.904833], [79.866888, 6.904593]]
+}

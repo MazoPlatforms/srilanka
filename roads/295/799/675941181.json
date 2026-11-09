@@ -1,0 +1,9 @@
+{
+  "id": 675941181,
+  "name": "Westhall State Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.572853, 7.003317], [80.572739, 7.003442]]
+}

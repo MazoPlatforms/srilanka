@@ -1,0 +1,9 @@
+{
+  "id": 385228970,
+  "name": "Ambagahawatta Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.995338, 7.073831], [79.995299, 7.073644], [79.995246, 7.073449], [79.995443, 7.073241], [79.995449, 7.073191], [79.995183, 7.072846], [79.994812, 7.072412]]
+}

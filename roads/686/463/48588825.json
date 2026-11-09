@@ -1,0 +1,9 @@
+{
+  "id": 48588825,
+  "name": "Braybrooke Place",
+  "highway": "residential",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.857368, 6.918783], [79.857557, 6.918734], [79.857668, 6.918685], [79.857689, 6.918675], [79.857955, 6.918565], [79.858023, 6.918515]]
+}

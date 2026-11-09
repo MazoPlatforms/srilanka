@@ -1,0 +1,9 @@
+{
+  "id": 1456637113,
+  "name": "mahanama",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.847517, 8.004231], [79.848633, 8.00448], [79.848986, 8.004543], [79.849154, 8.004584], [79.849405, 8.004635], [79.849981, 8.004757], [79.850069, 8.00478]]
+}

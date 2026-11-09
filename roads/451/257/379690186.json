@@ -1,0 +1,9 @@
+{
+  "id": 379690186,
+  "name": "Gregory's Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.876333, 6.90931], [79.876801, 6.909296]]
+}

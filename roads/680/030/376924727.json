@@ -1,0 +1,9 @@
+{
+  "id": 376924727,
+  "name": "Sellamuttu Avenue",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.850279, 6.908619], [79.850435, 6.908671], [79.850534, 6.908688]]
+}

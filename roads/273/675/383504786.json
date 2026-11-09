@@ -1,0 +1,9 @@
+{
+  "id": 383504786,
+  "name": "Akkara 9 Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.093316, 7.018351], [80.093431, 7.018314], [80.093638, 7.018359], [80.094067, 7.018887], [80.094225, 7.019054], [80.094449, 7.019215]]
+}

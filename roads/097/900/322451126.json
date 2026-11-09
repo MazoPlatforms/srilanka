@@ -1,0 +1,9 @@
+{
+  "id": 322451126,
+  "name": "Doluwa Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.610288, 7.21277], [80.610261, 7.212916], [80.610254, 7.212938]]
+}

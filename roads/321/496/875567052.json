@@ -1,0 +1,9 @@
+{
+  "id": 875567052,
+  "name": "Padukka - Ingirya Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.108187, 6.840374], [80.108611, 6.840252], [80.108981, 6.840196]]
+}

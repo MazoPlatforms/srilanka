@@ -1,0 +1,9 @@
+{
+  "id": 519880363,
+  "name": "Parathi Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.75423, 7.522594], [81.754251, 7.522381], [81.754302, 7.521959], [81.754375, 7.521351], [81.754392, 7.521205]]
+}

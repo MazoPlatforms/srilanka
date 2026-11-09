@@ -1,0 +1,9 @@
+{
+  "id": 402814133,
+  "name": "Pol Kotuwa road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.994223, 7.075846], [79.994444, 7.075746], [79.994482, 7.075709], [79.994499, 7.07565], [79.994513, 7.07556], [79.994514, 7.075477], [79.994508, 7.075399]]
+}

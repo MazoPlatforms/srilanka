@@ -1,0 +1,9 @@
+{
+  "id": 323414439,
+  "name": "Akkaraipattu-Sagamam Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.849702, 7.218338], [81.849681, 7.218298], [81.849665, 7.218261], [81.849646, 7.21821], [81.849609, 7.218164]]
+}

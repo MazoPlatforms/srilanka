@@ -1,0 +1,9 @@
+{
+  "id": 200058024,
+  "name": "Thirunavatkulam nagathampiran kovil road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.484329, 8.774004], [80.484085, 8.774627], [80.48397, 8.774942], [80.483886, 8.775489], [80.483839, 8.775805], [80.483835, 8.776215], [80.483826, 8.776728], [80.483816, 8.777426], [80.48381, 8.777911]]
+}

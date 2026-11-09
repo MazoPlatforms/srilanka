@@ -1,0 +1,9 @@
+{
+  "id": 309160727,
+  "name": "Dakunu Ela Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.8342, 6.4137], [80.834002, 6.413723]]
+}

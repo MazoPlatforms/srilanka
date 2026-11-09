@@ -1,0 +1,9 @@
+{
+  "id": 817260706,
+  "name": "Dharga Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.077843, 7.117649], [80.078169, 7.117416], [80.078602, 7.117275], [80.078841, 7.117325], [80.079176, 7.11726], [80.079393, 7.117222], [80.079415, 7.117196]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 180367295,
+  "name": "Gurugewatte",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.879739, 6.986732], [79.880421, 6.986631], [79.880485, 6.986637]]
+}

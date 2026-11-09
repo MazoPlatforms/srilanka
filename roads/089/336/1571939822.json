@@ -1,0 +1,9 @@
+{
+  "id": 1571939822,
+  "name": "Painan Kaddu Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.825328, 7.370643], [81.825391, 7.370891], [81.825446, 7.371212], [81.825454, 7.371417], [81.825315, 7.371999], [81.825107, 7.372755]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 345479348,
+  "name": "Kiribathgalawatte Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.972054, 6.911667], [79.972157, 6.911642], [79.972693, 6.911596]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 1228756816,
+  "name": "Mavadiyodai Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.478698, 7.717372], [81.479005, 7.717479]]
+}

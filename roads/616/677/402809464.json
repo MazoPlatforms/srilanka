@@ -1,0 +1,9 @@
+{
+  "id": 402809464,
+  "name": "A.K.C Amarasingha Road (Yagoda Road)",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.976862, 7.058474], [79.97684, 7.058427]]
+}

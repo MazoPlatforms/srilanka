@@ -1,0 +1,9 @@
+{
+  "id": 519252234,
+  "name": "Thumpankerny cemetery road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.69861, 7.532693], [81.698629, 7.532528], [81.69872, 7.532084], [81.698833, 7.531824], [81.699423, 7.530837], [81.69953, 7.530747], [81.699865, 7.530611]]
+}

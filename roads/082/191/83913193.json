@@ -1,0 +1,9 @@
+{
+  "id": 83913193,
+  "name": "Dewanampiyatissa Mawatha",
+  "highway": "residential",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.862445, 6.924859], [79.861902, 6.924842], [79.861848, 6.92484]]
+}

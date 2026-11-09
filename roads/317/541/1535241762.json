@@ -1,0 +1,9 @@
+{
+  "id": 1535241762,
+  "name": "Karuwalagaswewa-Nawagattegama Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.973665, 8.048084], [79.97373, 8.047996]]
+}

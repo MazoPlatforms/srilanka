@@ -1,0 +1,9 @@
+{
+  "id": 330603198,
+  "name": "Badulla-Chenkaladi Road",
+  "highway": "trunk",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 70.0, "motorcycle": 70.0, "truck": 70.0, "foot": 5},
+  "coordinates": [[81.370971, 7.540566], [81.370387, 7.540135], [81.369911, 7.539814], [81.36935, 7.539483]]
+}

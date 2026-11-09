@@ -1,0 +1,9 @@
+{
+  "id": 1302591926,
+  "name": "Kirinda-Sithulpawwa Road",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.371354, 6.285963], [81.369894, 6.285033], [81.36879, 6.284007]]
+}

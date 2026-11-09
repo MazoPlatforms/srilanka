@@ -1,0 +1,9 @@
+{
+  "id": 245846025,
+  "name": "Valukkiaru-Punkudutivu-Kurikadduwan Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.796711, 9.592223], [79.796448, 9.592477], [79.796279, 9.592633]]
+}

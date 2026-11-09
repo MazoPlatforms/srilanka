@@ -1,0 +1,9 @@
+{
+  "id": 497337635,
+  "name": "VC Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.644439, 7.714891], [81.644432, 7.714834], [81.644429, 7.714765], [81.64438, 7.714506], [81.644389, 7.714409]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 1076800060,
+  "name": "Rajaye Idama Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.882246, 7.002534], [79.882777, 7.002327], [79.882867, 7.002313], [79.882978, 7.002316], [79.883234, 7.002364], [79.883628, 7.002399]]
+}

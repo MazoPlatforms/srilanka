@@ -1,0 +1,9 @@
+{
+  "id": 381922867,
+  "name": "Nagoda Church Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.896944, 7.035851], [79.89735, 7.035742], [79.897519, 7.035698], [79.898129, 7.035462]]
+}

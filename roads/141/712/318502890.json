@@ -1,0 +1,9 @@
+{
+  "id": 318502890,
+  "name": "Hikkaduwa-Baddegama Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.137662, 6.142187], [80.137257, 6.141635], [80.136957, 6.141402]]
+}

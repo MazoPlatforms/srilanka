@@ -1,0 +1,9 @@
+{
+  "id": 53260523,
+  "name": "Asiri Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.873097, 6.861834], [79.873121, 6.862235], [79.872927, 6.863587]]
+}

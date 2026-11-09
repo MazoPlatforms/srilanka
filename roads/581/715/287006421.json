@@ -1,0 +1,9 @@
+{
+  "id": 287006421,
+  "name": "Kiriamunukule Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.419255, 8.144636], [80.41949, 8.144579], [80.420114, 8.144451], [80.420956, 8.144354], [80.421075, 8.144345]]
+}

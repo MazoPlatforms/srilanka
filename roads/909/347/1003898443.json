@@ -1,0 +1,9 @@
+{
+  "id": 1003898443,
+  "name": "Tangalle Road",
+  "highway": "trunk",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 70.0, "motorcycle": 70.0, "truck": 70.0, "foot": 5},
+  "coordinates": [[80.639074, 5.949663], [80.639348, 5.949763]]
+}

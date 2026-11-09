@@ -1,0 +1,9 @@
+{
+  "id": 310189997,
+  "name": "Factory Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.840437, 6.32249], [80.84019, 6.322088], [80.840191, 6.322029], [80.840232, 6.321987], [80.840731, 6.321657], [80.842198, 6.320744], [80.844217, 6.319538]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 403564749,
+  "name": "Dambuwaththa Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.975652, 7.068636], [79.975803, 7.068779], [79.97591, 7.068865], [79.976472, 7.069137]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 308341565,
+  "name": "D. R. Wijewardene Mawatha",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.847001, 6.932498], [79.847236, 6.932539], [79.847862, 6.932618], [79.847877, 6.93262]]
+}

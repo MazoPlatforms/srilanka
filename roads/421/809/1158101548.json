@@ -1,0 +1,9 @@
+{
+  "id": 1158101548,
+  "name": "RDS Building Road",
+  "highway": "track",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 15, "foot": 4},
+  "coordinates": [[81.599463, 7.787051], [81.59983, 7.787414], [81.600156, 7.787722], [81.600207, 7.787733]]
+}

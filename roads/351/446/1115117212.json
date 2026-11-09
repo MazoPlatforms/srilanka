@@ -1,0 +1,9 @@
+{
+  "id": 1115117212,
+  "name": "Perahera Mawatha",
+  "highway": "secondary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.850701, 6.916697], [79.850842, 6.916612]]
+}

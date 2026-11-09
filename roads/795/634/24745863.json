@@ -1,0 +1,9 @@
+{
+  "id": 24745863,
+  "name": "Davidson Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.862884, 6.883037], [79.861455, 6.882712], [79.861356, 6.882689], [79.861284, 6.882672]]
+}

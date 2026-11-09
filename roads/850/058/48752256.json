@@ -1,0 +1,9 @@
+{
+  "id": 48752256,
+  "name": "Hospital Street",
+  "highway": "residential",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.843927, 6.9339], [79.844071, 6.933873], [79.844698, 6.933758]]
+}

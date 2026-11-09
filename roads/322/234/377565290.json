@@ -1,0 +1,9 @@
+{
+  "id": 377565290,
+  "name": "Praja Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.964011, 6.892269], [79.963676, 6.891966]]
+}

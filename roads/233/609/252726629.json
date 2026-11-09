@@ -1,0 +1,9 @@
+{
+  "id": 252726629,
+  "name": "Hoaragasdeka Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.088404, 7.025281], [80.088522, 7.025436], [80.088718, 7.025618], [80.088856, 7.025691], [80.089109, 7.02575], [80.089429, 7.025767], [80.089777, 7.025859]]
+}

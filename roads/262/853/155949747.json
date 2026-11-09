@@ -1,0 +1,9 @@
+{
+  "id": 155949747,
+  "name": "St.Annes 1st Veethy",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.685879, 7.701395], [81.68602, 7.701352], [81.686097, 7.701336], [81.686477, 7.701233], [81.686534, 7.701218], [81.686581, 7.701357], [81.687374, 7.701242]]
+}

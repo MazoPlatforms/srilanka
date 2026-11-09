@@ -1,0 +1,9 @@
+{
+  "id": 386435404,
+  "name": "15/A Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.025068, 7.085216], [80.02464, 7.085189]]
+}

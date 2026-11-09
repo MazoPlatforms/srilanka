@@ -1,0 +1,9 @@
+{
+  "id": 419747955,
+  "name": "Hemasinghe Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.897337, 6.899818], [79.897345, 6.899538], [79.897396, 6.899078]]
+}

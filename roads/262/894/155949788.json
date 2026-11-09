@@ -1,0 +1,9 @@
+{
+  "id": 155949788,
+  "name": "St. Annes Lane No2",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.685265, 7.699985], [81.68537, 7.699953], [81.685884, 7.699813], [81.68596, 7.699966], [81.686044, 7.700261], [81.686063, 7.700329], [81.686181, 7.700707]]
+}

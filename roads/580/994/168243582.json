@@ -1,0 +1,9 @@
+{
+  "id": 168243582,
+  "name": "Nirmala Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.904867, 6.70695], [79.905696, 6.707197], [79.905974, 6.707262], [79.90605, 6.70728], [79.906888, 6.707512], [79.907083, 6.707563], [79.908387, 6.707858]]
+}

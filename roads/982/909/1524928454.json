@@ -1,0 +1,9 @@
+{
+  "id": 1524928454,
+  "name": "Veeragoda-Central Camp Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.690916, 7.374724], [81.690937, 7.374689]]
+}

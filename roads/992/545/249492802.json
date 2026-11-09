@@ -1,0 +1,9 @@
+{
+  "id": 249492802,
+  "name": "Sumner Place",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.878842, 6.91281], [79.878428, 6.912828], [79.877967, 6.912847], [79.877553, 6.912864]]
+}

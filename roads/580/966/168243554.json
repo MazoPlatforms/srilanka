@@ -1,0 +1,9 @@
+{
+  "id": 168243554,
+  "name": "Galweti Modara Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.909638, 6.696738], [79.910698, 6.697016], [79.91173, 6.697362], [79.911942, 6.697398], [79.913135, 6.697771]]
+}

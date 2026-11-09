@@ -1,0 +1,9 @@
+{
+  "id": 172889211,
+  "name": "Cyril Jayasundara Mawatha",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "bicycle": 15, "foot": 5},
+  "coordinates": [[80.642303, 7.288668], [80.642943, 7.289361], [80.643021, 7.289453], [80.643082, 7.28952], [80.643134, 7.289575], [80.643177, 7.289616], [80.643274, 7.289682]]
+}

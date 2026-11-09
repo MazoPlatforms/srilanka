@@ -1,0 +1,9 @@
+{
+  "id": 361372272,
+  "name": "Marawila-Udubaddawa Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.830906, 7.413168], [79.830996, 7.413124], [79.831071, 7.413104], [79.831123, 7.413096], [79.831204, 7.413086]]
+}

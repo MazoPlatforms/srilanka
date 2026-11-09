@@ -1,0 +1,9 @@
+{
+  "id": 927366309,
+  "name": "Royal Court",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.89792, 6.904006], [79.897554, 6.904014], [79.897437, 6.904026], [79.896741, 6.904057]]
+}

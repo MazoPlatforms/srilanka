@@ -1,0 +1,9 @@
+{
+  "id": 179216214,
+  "name": "Central Road Kalkudah",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.562034, 7.917313], [81.561695, 7.917384], [81.561357, 7.917432], [81.561202, 7.91732], [81.560984, 7.917358]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 556471802,
+  "name": "Liyanwala - Kurugala - Madulawa Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 45, "motorcycle": 45, "truck": 45, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.069661, 6.8194], [80.069421, 6.819342], [80.069041, 6.819244]]
+}

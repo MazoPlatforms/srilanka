@@ -1,0 +1,9 @@
+{
+  "id": 610452524,
+  "name": "Balagolla Tank Rd",
+  "highway": "track",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 15, "foot": 4},
+  "coordinates": [[80.099177, 7.652656], [80.099, 7.652622], [80.098778, 7.652531], [80.09863, 7.652438], [80.098515, 7.652298]]
+}

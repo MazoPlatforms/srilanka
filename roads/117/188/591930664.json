@@ -1,0 +1,9 @@
+{
+  "id": 591930664,
+  "name": "Damme Bridge",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40, "motorcycle": 40, "truck": 40, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.36242, 6.657195], [80.36236, 6.657162], [80.362166, 6.657038]]
+}

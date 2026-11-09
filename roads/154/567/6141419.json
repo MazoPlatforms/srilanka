@@ -1,0 +1,9 @@
+{
+  "id": 6141419,
+  "name": "Lighthouse Bungalows Street",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.194987, 6.047853], [80.19507, 6.047892], [80.195281, 6.048001], [80.195686, 6.048048]]
+}

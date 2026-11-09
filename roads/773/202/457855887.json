@@ -1,0 +1,9 @@
+{
+  "id": 457855887,
+  "name": "Vairavar Temple Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.720301, 7.600688], [81.720366, 7.600472], [81.720421, 7.600344], [81.720608, 7.599867], [81.720647, 7.599811], [81.720996, 7.599176], [81.721391, 7.598379], [81.721489, 7.598221]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 707972389,
+  "name": "Bokolamulla Rd",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.341872, 7.280952], [80.341896, 7.280937], [80.342002, 7.280789], [80.342031, 7.280592], [80.34211, 7.280374], [80.342321, 7.280154]]
+}

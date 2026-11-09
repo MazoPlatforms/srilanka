@@ -1,0 +1,9 @@
+{
+  "id": 377178636,
+  "name": "Ambal Street",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.210909, 8.586397], [81.211009, 8.586002], [81.211048, 8.585822], [81.210346, 8.58471]]
+}

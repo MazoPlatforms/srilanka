@@ -1,0 +1,9 @@
+{
+  "id": 1499373174,
+  "name": "Walasmulla-Julampitiya Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.732304, 6.202649], [80.732367, 6.202788]]
+}

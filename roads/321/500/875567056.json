@@ -1,0 +1,9 @@
+{
+  "id": 875567056,
+  "name": "Meepe-Ingiriya Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.121222, 6.839288], [80.121043, 6.839435], [80.120919, 6.839541], [80.120687, 6.83979]]
+}

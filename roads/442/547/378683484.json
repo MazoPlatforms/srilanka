@@ -1,0 +1,9 @@
+{
+  "id": 378683484,
+  "name": "Poonthodam Periyarkulam road 2nd lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.499454, 8.771759], [80.499723, 8.77211], [80.500422, 8.772975], [80.500856, 8.773549]]
+}

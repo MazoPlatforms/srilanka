@@ -1,0 +1,9 @@
+{
+  "id": 1134352429,
+  "name": "Harbour Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.451535, 5.947041], [80.451396, 5.947042], [80.451184, 5.946973], [80.450443, 5.946697], [80.450194, 5.946718]]
+}

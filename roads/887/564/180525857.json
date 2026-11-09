@@ -1,0 +1,9 @@
+{
+  "id": 180525857,
+  "name": "Madama Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.88232, 6.990275], [79.882454, 6.989788], [79.882582, 6.989304], [79.882757, 6.988641], [79.882802, 6.988573]]
+}

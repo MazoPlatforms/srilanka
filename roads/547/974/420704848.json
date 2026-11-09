@@ -1,0 +1,9 @@
+{
+  "id": 420704848,
+  "name": "Arunalu Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.895749, 7.130357], [79.89582, 7.130352], [79.896375, 7.130342]]
+}

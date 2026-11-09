@@ -1,0 +1,9 @@
+{
+  "id": 541114023,
+  "name": "Rendapola-Ambewela Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.826035, 6.904876], [80.825977, 6.904749]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 109417677,
+  "name": "Dewala Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.928293, 6.799643], [79.927941, 6.799638], [79.927907, 6.799633], [79.927882, 6.799613], [79.927828, 6.79944], [79.927781, 6.799205], [79.927728, 6.79898]]
+}

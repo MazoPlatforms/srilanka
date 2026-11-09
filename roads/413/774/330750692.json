@@ -1,0 +1,9 @@
+{
+  "id": 330750692,
+  "name": "Kiliveddi Bridge",
+  "highway": "trunk",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
+  "coordinates": [[81.287721, 8.347742], [81.287108, 8.348489]]
+}

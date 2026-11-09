@@ -1,0 +1,9 @@
+{
+  "id": 712103692,
+  "name": "Thopputota-Nattandiya-Madampe Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.864421, 7.272693], [79.864285, 7.272606]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 402348273,
+  "name": "Ramalingam Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.021056, 9.736367], [80.021008, 9.736095], [80.020941, 9.735688], [80.020847, 9.735593], [80.020814, 9.735454], [80.020746, 9.735092], [80.020699, 9.734748]]
+}

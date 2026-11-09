@@ -1,0 +1,9 @@
+{
+  "id": 309384517,
+  "name": "Ganisama Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.861464, 6.330759], [80.861625, 6.331244], [80.861881, 6.331951], [80.862276, 6.332987]]
+}

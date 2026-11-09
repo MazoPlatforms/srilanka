@@ -1,0 +1,9 @@
+{
+  "id": 388180770,
+  "name": "Anura Mawatha 2nd Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.96386, 7.075349], [79.963917, 7.075494], [79.963958, 7.075711], [79.964112, 7.075854], [79.964293, 7.075927]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 41657486,
+  "name": "Abdul Caffoor Mawatha",
+  "highway": "residential",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.850736, 6.908053], [79.850811, 6.908088], [79.851237, 6.908223]]
+}

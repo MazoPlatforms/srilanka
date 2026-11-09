@@ -1,0 +1,9 @@
+{
+  "id": 674169322,
+  "name": "Sirimalwatte - Menikhinna Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.687655, 7.305207], [80.687853, 7.305178], [80.68799, 7.305165]]
+}

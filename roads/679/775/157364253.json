@@ -1,0 +1,9 @@
+{
+  "id": 157364253,
+  "name": "Bus Stand Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.605768, 7.775505], [81.605825, 7.775574], [81.605986, 7.775883], [81.606047, 7.776065], [81.606138, 7.776413], [81.606241, 7.776978], [81.606354, 7.777276]]
+}

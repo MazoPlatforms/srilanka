@@ -1,0 +1,9 @@
+{
+  "id": 224829609,
+  "name": "Vanniyasingam Veethy",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.682307, 7.700756], [81.682355, 7.700988], [81.682462, 7.701714]]
+}

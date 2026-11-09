@@ -1,0 +1,9 @@
+{
+  "id": 403005283,
+  "name": "Manungala Temple Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.024403, 6.88247], [80.024431, 6.882623], [80.024465, 6.882879], [80.024512, 6.882971], [80.02475, 6.883219], [80.024833, 6.883452]]
+}

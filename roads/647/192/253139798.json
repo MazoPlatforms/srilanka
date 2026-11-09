@@ -1,0 +1,9 @@
+{
+  "id": 253139798,
+  "name": "Watson Peiris Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.88077, 6.778993], [79.880854, 6.778502], [79.880887, 6.778384], [79.881045, 6.777923], [79.881092, 6.777778], [79.88122, 6.7774], [79.881228, 6.777344], [79.881174, 6.777319]]
+}

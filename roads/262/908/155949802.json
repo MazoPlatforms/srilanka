@@ -1,0 +1,9 @@
+{
+  "id": 155949802,
+  "name": "8th Cross",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "bicycle": 15, "foot": 5},
+  "coordinates": [[81.678918, 7.695589], [81.679011, 7.695588], [81.679782, 7.695609], [81.680144, 7.695568]]
+}

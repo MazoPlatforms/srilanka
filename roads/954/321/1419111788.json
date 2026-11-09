@@ -1,0 +1,9 @@
+{
+  "id": 1419111788,
+  "name": "Norwood-Bogawantalawa-Campion Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.645275, 6.812378], [80.645344, 6.812362], [80.645447, 6.81235]]
+}

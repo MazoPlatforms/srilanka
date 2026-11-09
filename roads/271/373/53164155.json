@@ -1,0 +1,9 @@
+{
+  "id": 53164155,
+  "name": "Lionel Edirisinghe Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.87903, 6.880619], [79.879003, 6.880675], [79.878803, 6.881195], [79.878452, 6.881023], [79.878633, 6.880611], [79.87903, 6.880619], [79.879937, 6.880657], [79.880212, 6.880686]]
+}

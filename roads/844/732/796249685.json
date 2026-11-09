@@ -1,0 +1,9 @@
+{
+  "id": 796249685,
+  "name": "Galmaduwa-Muwangala-Hingurana Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.663958, 7.247144], [81.663882, 7.247181]]
+}

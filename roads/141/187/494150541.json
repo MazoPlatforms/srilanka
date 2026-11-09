@@ -1,0 +1,9 @@
+{
+  "id": 494150541,
+  "name": "School Road 6th cross",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.719133, 7.616189], [81.7192, 7.616185], [81.719818, 7.616186], [81.720175, 7.616217]]
+}

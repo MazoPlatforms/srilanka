@@ -1,0 +1,9 @@
+{
+  "id": 345488547,
+  "name": "Nirmana Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.887001, 6.881758], [79.88696, 6.881613]]
+}

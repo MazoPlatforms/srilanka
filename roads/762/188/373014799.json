@@ -1,0 +1,9 @@
+{
+  "id": 373014799,
+  "name": "Kovilputhukulam 6th lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.510143, 8.738154], [80.509754, 8.738221], [80.509473, 8.738266], [80.50914, 8.738321], [80.508888, 8.738356], [80.508633, 8.738388], [80.508454, 8.738406], [80.508261, 8.738439]]
+}

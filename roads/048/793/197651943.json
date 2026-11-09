@@ -1,0 +1,9 @@
+{
+  "id": 197651943,
+  "name": "Bazaar Street",
+  "highway": "residential",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.057175, 6.98888], [81.057815, 6.988808], [81.058146, 6.98879], [81.058431, 6.988786], [81.058823, 6.988825]]
+}

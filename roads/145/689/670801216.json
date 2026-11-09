@@ -1,0 +1,9 @@
+{
+  "id": 670801216,
+  "name": "Vattappalai Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.805218, 9.232051], [80.805187, 9.232124], [80.805142, 9.232186], [80.805052, 9.232273]]
+}

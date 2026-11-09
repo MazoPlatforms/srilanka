@@ -1,0 +1,9 @@
+{
+  "id": 1571740411,
+  "name": "Access Road to Peliyagoda Interchange",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 70.0, "motorcycle": 70.0, "truck": 70.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.89849, 6.968835], [79.898195, 6.96889], [79.897817, 6.968952]]
+}

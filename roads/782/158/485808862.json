@@ -1,0 +1,9 @@
+{
+  "id": 485808862,
+  "name": "Bandarawaththa Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.961399, 7.008988], [79.961436, 7.008242], [79.96147, 7.007514], [79.961471, 7.007429]]
+}

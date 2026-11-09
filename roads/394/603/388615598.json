@@ -1,0 +1,9 @@
+{
+  "id": 388615598,
+  "name": "kaalikovil 9th cross",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.565026, 7.821567], [81.565265, 7.821327], [81.56562, 7.820998]]
+}

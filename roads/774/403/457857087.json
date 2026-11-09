@@ -1,0 +1,9 @@
+{
+  "id": 457857087,
+  "name": "Velappody Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.723475, 7.600252], [81.723565, 7.600078], [81.72374, 7.59969], [81.723829, 7.599546]]
+}

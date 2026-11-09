@@ -1,0 +1,9 @@
+{
+  "id": 502451037,
+  "name": "Kalugalla Mawatha",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
+  "coordinates": [[80.34364, 7.248522], [80.343604, 7.248596], [80.343598, 7.248708], [80.343609, 7.248826]]
+}

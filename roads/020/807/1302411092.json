@@ -1,0 +1,9 @@
+{
+  "id": 1302411092,
+  "name": "K. B. Christie Perera Mawatha (Jampettah Street)",
+  "highway": "secondary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.856523, 6.946766], [79.856619, 6.946756], [79.856716, 6.946735]]
+}

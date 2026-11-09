@@ -1,0 +1,9 @@
+{
+  "id": 386891692,
+  "name": "Dehiwela Road (Dehiwela-Maharagama Road)",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.901332, 6.840819], [79.901427, 6.840908], [79.901473, 6.840936], [79.901634, 6.841026]]
+}

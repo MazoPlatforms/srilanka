@@ -1,0 +1,9 @@
+{
+  "id": 178557695,
+  "name": "Visa Vaithiyar Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.851736, 7.206175], [81.851453, 7.206248], [81.851194, 7.206313], [81.851173, 7.206353], [81.851173, 7.206449], [81.850253, 7.206633], [81.849308, 7.206744]]
+}

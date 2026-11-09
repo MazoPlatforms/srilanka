@@ -1,0 +1,9 @@
+{
+  "id": 1158102320,
+  "name": "Alaimagal Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.564433, 7.82266], [81.564539, 7.822765], [81.564797, 7.823061], [81.564894, 7.823172], [81.565133, 7.823424], [81.565332, 7.823664]]
+}

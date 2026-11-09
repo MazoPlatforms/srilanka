@@ -1,0 +1,9 @@
+{
+  "id": 494328236,
+  "name": "Majilipody Road",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[81.742298, 7.605332], [81.742183, 7.605318], [81.741982, 7.605291], [81.741694, 7.605194]]
+}

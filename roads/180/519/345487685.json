@@ -1,0 +1,9 @@
+{
+  "id": 345487685,
+  "name": "Kumaragewatte Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.934099, 6.883264], [79.93401, 6.88314], [79.933885, 6.882905], [79.933872, 6.882879], [79.933626, 6.882615], [79.933567, 6.882582]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 756137249,
+  "name": "Colombo-Horana Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.964161, 6.787107], [79.96404, 6.787115], [79.963739, 6.787133], [79.963394, 6.787154], [79.96312, 6.787178], [79.962896, 6.787203], [79.962727, 6.787224]]
+}

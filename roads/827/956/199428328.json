@@ -1,0 +1,9 @@
+{
+  "id": 199428328,
+  "name": "Gunasekara Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.874779, 6.920303], [79.873767, 6.919794], [79.873581, 6.919722], [79.873347, 6.919598], [79.873056, 6.919422], [79.87299, 6.919367]]
+}

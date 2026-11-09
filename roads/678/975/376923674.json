@@ -1,0 +1,9 @@
+{
+  "id": 376923674,
+  "name": "Palm Grove",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.852897, 6.909842], [79.853067, 6.909901], [79.853301, 6.910081], [79.853626, 6.910307], [79.853757, 6.91035], [79.854195, 6.910494]]
+}

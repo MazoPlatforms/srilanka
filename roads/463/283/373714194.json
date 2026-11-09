@@ -1,0 +1,9 @@
+{
+  "id": 373714194,
+  "name": "Market Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 45, "motorcycle": 45, "truck": 45, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.733536, 6.048608], [80.735193, 6.048066]]
+}

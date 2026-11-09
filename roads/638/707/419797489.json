@@ -1,0 +1,9 @@
+{
+  "id": 419797489,
+  "name": "private dirt road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.990672, 6.940474], [79.990778, 6.940541], [79.991004, 6.940632], [79.991077, 6.94064], [79.991124, 6.94062], [79.991697, 6.939943]]
+}

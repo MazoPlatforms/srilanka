@@ -1,0 +1,9 @@
+{
+  "id": 413507619,
+  "name": "gama mada para",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.948945, 7.092553], [79.948815, 7.092083], [79.948805, 7.092013]]
+}

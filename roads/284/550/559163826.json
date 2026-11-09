@@ -1,0 +1,9 @@
+{
+  "id": 559163826,
+  "name": "Rajasinghe Mawatha 1st Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.997614, 7.041876], [79.997438, 7.04167], [79.997046, 7.041119]]
+}

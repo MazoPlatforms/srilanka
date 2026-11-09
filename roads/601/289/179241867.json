@@ -1,0 +1,9 @@
+{
+  "id": 179241867,
+  "name": "Vaddayar Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.545548, 7.843594], [81.546237, 7.843657], [81.546728, 7.843736], [81.547386, 7.843768], [81.548106, 7.843812]]
+}

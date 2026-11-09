@@ -1,0 +1,9 @@
+{
+  "id": 1529329379,
+  "name": "Dockyard Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.23571, 8.561354], [81.235729, 8.561462]]
+}

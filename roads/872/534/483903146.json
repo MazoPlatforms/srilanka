@@ -1,0 +1,9 @@
+{
+  "id": 483903146,
+  "name": "Kande Gedara Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.987469, 7.112169], [80.987592, 7.112101], [80.98784, 7.112001], [80.988545, 7.111845]]
+}

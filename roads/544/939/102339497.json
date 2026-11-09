@@ -1,0 +1,9 @@
+{
+  "id": 102339497,
+  "name": "New Matara Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 70.0, "motorcycle": 70.0, "truck": 70.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.420314, 5.961697], [80.420134, 5.961571]]
+}

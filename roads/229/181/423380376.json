@@ -1,0 +1,9 @@
+{
+  "id": 423380376,
+  "name": "Paramee Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.911916, 7.136732], [79.911913, 7.136648], [79.911938, 7.136334]]
+}

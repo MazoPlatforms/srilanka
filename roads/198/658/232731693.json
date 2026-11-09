@@ -1,0 +1,9 @@
+{
+  "id": 232731693,
+  "name": "Mannar road 4th lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.480159, 8.766459], [80.480207, 8.764932], [80.480306, 8.763157], [80.480309, 8.763071]]
+}

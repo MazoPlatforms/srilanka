@@ -1,0 +1,9 @@
+{
+  "id": 52563681,
+  "name": "Jawatta Gardens",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.868568, 6.895053], [79.868383, 6.894982], [79.868159, 6.894949], [79.867322, 6.895027]]
+}

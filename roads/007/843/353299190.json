@@ -1,0 +1,9 @@
+{
+  "id": 353299190,
+  "name": "Keppetipola-Boralande-Haputale Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.914755, 6.79823], [80.914884, 6.79817]]
+}

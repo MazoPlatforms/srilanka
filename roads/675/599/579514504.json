@@ -1,0 +1,9 @@
+{
+  "id": 579514504,
+  "name": "Annasihena Road",
+  "highway": "tertiary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.923742, 7.028162], [79.923561, 7.028124], [79.923513, 7.028108], [79.923466, 7.028069], [79.923392, 7.027992]]
+}

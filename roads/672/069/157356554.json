@@ -1,0 +1,9 @@
+{
+  "id": 157356554,
+  "name": "Tissa Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.343245, 6.867994], [81.344071, 6.867483], [81.345314, 6.869413], [81.345525, 6.869785]]
+}

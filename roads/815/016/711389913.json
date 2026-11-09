@@ -1,0 +1,9 @@
+{
+  "id": 711389913,
+  "name": "Kalmunai-Chavalakadai Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.827195, 7.412768], [81.827095, 7.412863], [81.826991, 7.413031], [81.826918, 7.413108], [81.826816, 7.413214], [81.826524, 7.41342], [81.825597, 7.414104], [81.824952, 7.414467]]
+}

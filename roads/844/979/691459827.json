@@ -1,0 +1,9 @@
+{
+  "id": 691459827,
+  "name": "Vavunathivu Main Street",
+  "highway": "tertiary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.655511, 7.695301], [81.655727, 7.695236]]
+}

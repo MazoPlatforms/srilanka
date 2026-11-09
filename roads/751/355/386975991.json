@@ -1,0 +1,9 @@
+{
+  "id": 386975991,
+  "name": "Mihindu Pedesa",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.984481, 7.046111], [79.984959, 7.046641], [79.985066, 7.046736], [79.985365, 7.047002], [79.985618, 7.047229], [79.985761, 7.047328]]
+}

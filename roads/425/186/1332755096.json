@@ -1,0 +1,9 @@
+{
+  "id": 1332755096,
+  "name": "Wimal Perera Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.929806, 6.792921], [79.929567, 6.792919], [79.929351, 6.792904], [79.929064, 6.792897], [79.928895, 6.792904]]
+}

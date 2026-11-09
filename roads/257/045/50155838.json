@@ -1,0 +1,9 @@
+{
+  "id": 50155838,
+  "name": "Upatissa Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.856706, 6.889917], [79.856612, 6.889899], [79.85414, 6.889421]]
+}
