@@ -50,6 +50,10 @@ jobs:
           URL="https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
           git clone --depth 1 --branch site "$URL" site || { git clone --depth 1 "$URL" site && cd site && git checkout --orphan site && git rm -rf . -q; }
           mkdir -p site/routing
+          # Keep site/index.html synchronized with the maintained frontend.
+          # Never restore the former generated map template.
+          git -C site fetch -q origin "${GITHUB_EVENT_REPOSITORY_DEFAULT_BRANCH:-main}" --depth 1
+          git -C site show FETCH_HEAD:public/index.html > site/index.html
 
       - name: Build graphs
         run: |
