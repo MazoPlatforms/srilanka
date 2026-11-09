@@ -244,9 +244,35 @@ def main():
            "base":run_tiles(stage/"base.pmtiles",base,8,14),
            "buildings":[]}
     if buildings:
-        # Do not commit an oversized archive; fail safely instead.
-        if run_tiles(stage/"buildings-0.pmtiles",buildings,15,15):
-            files["buildings"]=["buildings-0.pmtiles"]
+        # Build one file first, then split along latitude if GitHub's file limit
+        # requires it. This is tile packaging, not a road/routing partition.
+        for bands in (1,2,4,8,16):
+            for previous in stage.glob("buildings-*.pmtiles"):previous.unlink()
+            outs=[]
+            south,north=window(idx)[1],window(idx)[3]
+            west,east=window(idx)[0],window(idx)[2]
+            try:
+                for band in range(bands):
+                    b0=south+(north-south)*band/bands
+                    b1=south+(north-south)*(band+1)/bands
+                    out=stage/f"buildings-{band}.pmtiles"
+                    clip=",".join(map(str,(west,b0,east,b1)))
+                    args=["tippecanoe","--force","-o",str(out),"-Z15","-z15",
+                          "--read-parallel","--drop-densest-as-needed",
+                          "--maximum-tile-bytes=400000",
+                          "--attribution=© OpenStreetMap contributors",
+                          "--clip-bounding-box="+clip,
+                          "-L",json.dumps({"file":str(temp/"building.geojsonseq"),"layer":"building"})]
+                    subprocess.run(args,check=True)
+                    if out.stat().st_size>MAX_FILE:
+                        raise RuntimeError("PMTiles above GitHub limit")
+                    outs.append(out.name)
+            except RuntimeError as exc:
+                if "above GitHub limit" not in str(exc):raise
+                if bands==16:raise RuntimeError("Building tiles could not be split under 95MB") from exc
+                continue
+            files["buildings"]=outs
+            break
     if not files["base"]:raise RuntimeError("No usable OSM base tiles created")
     # Preserve the existing frontend, routing, custom data, and every other zone.
     target=data/"districts"/slug
