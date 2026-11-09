@@ -1,9 +1,0 @@
-{
-  "id": 452212087,
-  "name": "Cane Industry 2nd Cross Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.57094, 7.772646], [81.570791, 7.772675], [81.570148, 7.772832], [81.569973, 7.77291]]
-}

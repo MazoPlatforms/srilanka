@@ -1,9 +1,0 @@
-{
-  "id": 405273444,
-  "name": "Tobias Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.887074, 7.092035], [79.887195, 7.092058], [79.887275, 7.09209], [79.887352, 7.09212], [79.887373, 7.092158], [79.887349, 7.092355]]
-}

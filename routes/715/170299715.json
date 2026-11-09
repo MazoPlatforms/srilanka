@@ -1,9 +1,0 @@
-{
-  "id": 170299715,
-  "name": "Tower Hill Street",
-  "highway": "tertiary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.125239, 6.124509], [81.125502, 6.123808], [81.125633, 6.123613], [81.125987, 6.123162], [81.126223, 6.12289], [81.126312, 6.122756]]
-}

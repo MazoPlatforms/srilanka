@@ -1,9 +1,0 @@
-{
-  "id": 1289797776,
-  "name": "Jubilee Post",
-  "highway": "primary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.900886, 6.875441], [79.900839, 6.875716], [79.900801, 6.875869], [79.900727, 6.876071], [79.900702, 6.876133], [79.900669, 6.87622]]
-}

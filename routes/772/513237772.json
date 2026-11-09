@@ -1,9 +1,0 @@
-{
-  "id": 513237772,
-  "name": "gandhy bridge",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.110356, 6.47079], [80.110408, 6.470746], [80.110414, 6.470741], [80.110509, 6.470662]]
-}

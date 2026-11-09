@@ -1,9 +1,0 @@
-{
-  "id": 1430870462,
-  "name": "Hapuwala Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.672649, 7.299265], [80.672503, 7.299124], [80.672399, 7.299084], [80.672228, 7.299156], [80.671916, 7.299398], [80.671736, 7.299401], [80.671675, 7.29935]]
-}

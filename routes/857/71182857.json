@@ -1,9 +1,0 @@
-{
-  "id": 71182857,
-  "name": "Ponnalai Causeway",
-  "highway": "primary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.893644, 9.740935], [79.893865, 9.740962], [79.894235, 9.741008]]
-}

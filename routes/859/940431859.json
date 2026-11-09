@@ -1,9 +1,0 @@
-{
-  "id": 940431859,
-  "name": "Canal Road (New Negombo Road)",
-  "highway": "primary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.868395, 7.009011], [79.868338, 7.009358], [79.868214, 7.010252], [79.867627, 7.014067], [79.867595, 7.014219], [79.867534, 7.014636]]
-}

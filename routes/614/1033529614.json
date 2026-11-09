@@ -1,9 +1,0 @@
-{
-  "id": 1033529614,
-  "name": "Kajugahawatte Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.908925, 6.926552], [79.908994, 6.927006], [79.909121, 6.927419]]
-}

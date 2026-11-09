@@ -1,9 +1,0 @@
-{
-  "id": 46940692,
-  "name": "Lilly Avenue",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.857831, 6.874089], [79.859724, 6.874623], [79.861114, 6.874905]]
-}

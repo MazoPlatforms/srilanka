@@ -1,9 +1,0 @@
-{
-  "id": 458235495,
-  "name": "Kunjankulam Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.424906, 8.015251], [81.424516, 8.015391], [81.423628, 8.015741], [81.422808, 8.016037], [81.420768, 8.016856]]
-}

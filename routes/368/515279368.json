@@ -1,9 +1,0 @@
-{
-  "id": 515279368,
-  "name": "Imbula Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.002097, 6.662268], [80.002155, 6.662207], [80.002359, 6.662001]]
-}

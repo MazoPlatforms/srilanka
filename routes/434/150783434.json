@@ -1,9 +1,0 @@
-{
-  "id": 150783434,
-  "name": "Galle Port Access Road",
-  "highway": "primary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 70.0, "motorcycle": 70.0, "truck": 70.0, "foot": 5},
-  "coordinates": [[80.261746, 6.064314], [80.261696, 6.064156], [80.261536, 6.063518]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 519227434,
-  "name": "20th housing project 2nd cross road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.701231, 7.534597], [81.701173, 7.534778], [81.701004, 7.535169], [81.700988, 7.535336]]
-}

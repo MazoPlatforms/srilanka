@@ -1,9 +1,0 @@
-{
-  "id": 180525869,
-  "name": "2nd Cross Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.884639, 6.992597], [79.884684, 6.99265], [79.884737, 6.992675], [79.885153, 6.992667], [79.885268, 6.992796], [79.885339, 6.992836], [79.886668, 6.993161]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 98371214,
-  "name": "Navam Mawatha",
-  "highway": "residential",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.849708, 6.918304], [79.849673, 6.918198], [79.849688, 6.918065]]
-}

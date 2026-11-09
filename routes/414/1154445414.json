@@ -1,9 +1,0 @@
-{
-  "id": 1154445414,
-  "name": "Sellathurai Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.844483, 7.370753], [81.844508, 7.370732], [81.844536, 7.370732], [81.844703, 7.370772], [81.845079, 7.370889], [81.845733, 7.371091]]
-}

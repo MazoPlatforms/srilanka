@@ -1,9 +1,0 @@
-{
-  "id": 588273647,
-  "name": "Villoonri Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.008664, 9.67274], [80.00849, 9.672814], [80.008281, 9.672884], [80.008029, 9.672949], [80.007847, 9.672999]]
-}

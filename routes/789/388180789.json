@@ -1,9 +1,0 @@
-{
-  "id": 388180789,
-  "name": "1st Lane Pokuna Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.962795, 7.044714], [79.96279, 7.044658], [79.962804, 7.044608], [79.962767, 7.044476], [79.962757, 7.044331]]
-}

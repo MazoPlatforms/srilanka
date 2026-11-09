@@ -1,9 +1,0 @@
-{
-  "id": 560212838,
-  "name": "North Coast Road",
-  "highway": "primary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.21907, 8.598917], [81.219016, 8.598985]]
-}

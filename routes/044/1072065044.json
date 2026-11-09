@@ -1,9 +1,0 @@
-{
-  "id": 1072065044,
-  "name": "Rail Lane North",
-  "highway": "living_street",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "bicycle": 10, "foot": 5},
-  "coordinates": [[80.492206, 8.820767], [80.491996, 8.819143]]
-}

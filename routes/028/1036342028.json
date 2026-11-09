@@ -1,9 +1,0 @@
-{
-  "id": 1036342028,
-  "name": "Havelock Road",
-  "highway": "primary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20},
-  "coordinates": [[79.869513, 6.877138], [79.869487, 6.877225]]
-}

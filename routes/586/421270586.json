@@ -1,9 +1,0 @@
-{
-  "id": 421270586,
-  "name": "Samurththi Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.587535, 7.827514], [81.587446, 7.826813], [81.587428, 7.826582], [81.587453, 7.826365], [81.58759, 7.825807]]
-}

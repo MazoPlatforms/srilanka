@@ -1,9 +1,0 @@
-{
-  "id": 258337373,
-  "name": "Race Course Round Road",
-  "highway": "primary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.771835, 6.963161], [80.771837, 6.963016]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 55419784,
-  "name": "Baseline Lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.877489, 6.938931], [79.877781, 6.938749], [79.878105, 6.938677], [79.87815, 6.93867]]
-}

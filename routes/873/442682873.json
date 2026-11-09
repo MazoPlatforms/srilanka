@@ -1,9 +1,0 @@
-{
-  "id": 442682873,
-  "name": "Abul Master Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.849512, 7.225095], [81.849412, 7.224659], [81.849342, 7.224315], [81.849216, 7.223643], [81.849141, 7.22336]]
-}

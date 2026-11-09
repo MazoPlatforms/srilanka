@@ -1,9 +1,0 @@
-{
-  "id": 48596067,
-  "name": "Wanaguru Road",
-  "highway": "primary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.960031, 6.880442], [79.960142, 6.880437], [79.960239, 6.880415], [79.960347, 6.880385], [79.960528, 6.880328]]
-}

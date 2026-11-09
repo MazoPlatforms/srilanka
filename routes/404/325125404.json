@@ -1,9 +1,0 @@
-{
-  "id": 325125404,
-  "name": "Al hilal road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.837574, 7.391682], [81.837574, 7.391998], [81.837583, 7.392329], [81.837627, 7.392865]]
-}

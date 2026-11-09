@@ -1,9 +1,0 @@
-{
-  "id": 376541268,
-  "name": "Ginaraja Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.927987, 7.086194], [79.927852, 7.086164], [79.927606, 7.086049], [79.9272, 7.085963], [79.926728, 7.085821]]
-}

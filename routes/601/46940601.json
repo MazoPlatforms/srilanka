@@ -1,9 +1,0 @@
-{
-  "id": 46940601,
-  "name": "Albert Place",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.86053, 6.858265], [79.86059, 6.858272], [79.862031, 6.858433], [79.862758, 6.858555], [79.864513, 6.858991]]
-}

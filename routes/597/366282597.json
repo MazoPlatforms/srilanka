@@ -1,9 +1,0 @@
-{
-  "id": 366282597,
-  "name": "Eden Park",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.092667, 6.72469], [80.092919, 6.724227], [80.093232, 6.723807], [80.093458, 6.723438], [80.093737, 6.723011], [80.093725, 6.722975]]
-}

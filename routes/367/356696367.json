@@ -1,9 +1,0 @@
-{
-  "id": 356696367,
-  "name": "Access Road to Matara",
-  "highway": "primary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 70.0, "motorcycle": 70.0, "truck": 70.0},
-  "coordinates": [[80.51449, 5.976297], [80.51413, 5.976469], [80.513743, 5.976735], [80.51327, 5.977167]]
-}

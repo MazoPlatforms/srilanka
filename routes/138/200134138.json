@@ -1,9 +1,0 @@
-{
-  "id": 200134138,
-  "name": "Sapugaskanda Place",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.950975, 6.972488], [79.951162, 6.972824], [79.951683, 6.973596]]
-}

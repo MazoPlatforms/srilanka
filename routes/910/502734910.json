@@ -1,9 +1,0 @@
-{
-  "id": 502734910,
-  "name": "Kopiwatte Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.338247, 7.248709], [80.337968, 7.248513], [80.337283, 7.248104], [80.33705, 7.247865], [80.336863, 7.247737], [80.336582, 7.247614], [80.336079, 7.247516]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 319225624,
-  "name": "Prison Road",
-  "highway": "primary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.797455, 6.022012], [80.797641, 6.022071], [80.79844, 6.022343], [80.798773, 6.022415]]
-}

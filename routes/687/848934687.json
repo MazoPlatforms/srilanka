@@ -1,9 +1,0 @@
-{
-  "id": 848934687,
-  "name": "Aramaya Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.882093, 6.937799], [79.882111, 6.937727], [79.882128, 6.937667], [79.882248, 6.937305], [79.882248, 6.937251]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 155121023,
-  "name": "Love Lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.697185, 7.710298], [81.697402, 7.710714], [81.697456, 7.710827], [81.697651, 7.71122], [81.697659, 7.711238]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 1355298159,
-  "name": "Wolfendahl Round About",
-  "highway": "primary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 55, "motorcycle": 55, "truck": 50, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.85966, 6.941699], [79.859666, 6.941725], [79.85968, 6.941748], [79.859701, 6.941765], [79.859726, 6.941775]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 742797323,
-  "name": "New Kelani Bridge Road",
-  "highway": "primary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.878094, 6.950405], [79.878266, 6.950399], [79.87835, 6.950382], [79.878467, 6.950346]]
-}

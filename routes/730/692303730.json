@@ -1,9 +1,0 @@
-{
-  "id": 692303730,
-  "name": "Gangarama Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.907834, 6.806917], [79.907087, 6.806872], [79.906689, 6.806866], [79.906373, 6.806871], [79.906279, 6.806866]]
-}

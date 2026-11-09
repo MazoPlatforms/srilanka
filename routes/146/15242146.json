@@ -1,9 +1,0 @@
-{
-  "id": 15242146,
-  "name": "Costha Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.880788, 6.863054], [79.880495, 6.863099], [79.880218, 6.863104], [79.880076, 6.86312], [79.879546, 6.863076]]
-}

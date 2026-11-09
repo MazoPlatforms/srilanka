@@ -1,9 +1,0 @@
-{
-  "id": 411733855,
-  "name": "Periyarkulam RDS road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.497915, 8.775811], [80.498173, 8.775615], [80.498623, 8.775191], [80.498741, 8.775058], [80.498898, 8.774954], [80.499134, 8.774831]]
-}

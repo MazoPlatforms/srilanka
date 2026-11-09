@@ -1,9 +1,0 @@
-{
-  "id": 155760171,
-  "name": "MC Road",
-  "highway": "secondary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.684132, 7.72851], [81.684285, 7.728814], [81.684405, 7.728996], [81.684599, 7.729263], [81.684715, 7.729377]]
-}

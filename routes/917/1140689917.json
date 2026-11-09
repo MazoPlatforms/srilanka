@@ -1,9 +1,0 @@
-{
-  "id": 1140689917,
-  "name": "Liberty Roundabout",
-  "highway": "trunk",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0},
-  "coordinates": [[79.851458, 6.912229], [79.851478, 6.912255], [79.851505, 6.912275], [79.851535, 6.912288], [79.851568, 6.912293], [79.851602, 6.91229]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 1419111842,
-  "name": "Upcot Road",
-  "highway": "primary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.608773, 6.832405], [80.608798, 6.832493], [80.6088, 6.832544], [80.608794, 6.832572], [80.608775, 6.832581], [80.608743, 6.832583]]
-}

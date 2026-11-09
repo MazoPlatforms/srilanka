@@ -1,9 +1,0 @@
-{
-  "id": 829382867,
-  "name": "Kohobakanda Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.300532, 6.707546], [80.3005, 6.707484], [80.300424, 6.707358], [80.300368, 6.707335], [80.300232, 6.707302]]
-}

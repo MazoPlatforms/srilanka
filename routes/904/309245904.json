@@ -1,9 +1,0 @@
-{
-  "id": 309245904,
-  "name": "Pannipitiya-Malabe Road",
-  "highway": "primary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.964582, 6.890626], [79.964582, 6.890787], [79.964593, 6.890846], [79.964611, 6.890902]]
-}

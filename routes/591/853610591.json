@@ -1,9 +1,0 @@
-{
-  "id": 853610591,
-  "name": "Wharf Road",
-  "highway": "secondary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.84251, 6.939785], [79.842284, 6.940038], [79.842197, 6.940241]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 519482314,
-  "name": "Parasuramar road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.705693, 7.530438], [81.705781, 7.530336], [81.706853, 7.529171], [81.707547, 7.528461]]
-}

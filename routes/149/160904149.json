@@ -1,9 +1,0 @@
-{
-  "id": 160904149,
-  "name": "Tharmalingam Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.500585, 8.755444], [80.5006, 8.755645], [80.500624, 8.755819], [80.500912, 8.756836], [80.500963, 8.75705]]
-}

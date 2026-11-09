@@ -1,9 +1,0 @@
-{
-  "id": 1539505241,
-  "name": "2nd Cross Street",
-  "highway": "tertiary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 40, "motorcycle": 40, "truck": 40, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.830002, 8.033312], [79.8308, 8.033747], [79.830851, 8.0338], [79.830887, 8.034228]]
-}

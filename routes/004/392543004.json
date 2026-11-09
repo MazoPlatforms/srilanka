@@ -1,9 +1,0 @@
-{
-  "id": 392543004,
-  "name": "Lakeside Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.410447, 8.188104], [81.409643, 8.188054], [81.409414, 8.187969], [81.408558, 8.187939]]
-}

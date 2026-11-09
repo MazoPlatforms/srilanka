@@ -1,9 +1,0 @@
-{
-  "id": 385810814,
-  "name": "police Post Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.406115, 8.219372], [81.406211, 8.218822], [81.40632, 8.218258], [81.4064, 8.218037], [81.406615, 8.217236]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 388402030,
-  "name": "Mihraj Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.609152, 7.786949], [81.609754, 7.787937], [81.609987, 7.78832], [81.610015, 7.788364], [81.610427, 7.789161]]
-}

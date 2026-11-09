@@ -1,9 +1,0 @@
-{
-  "id": 1479602231,
-  "name": "",
-  "highway": "primary_link",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 40, "motorcycle": 40, "truck": 40, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.394641, 8.320642], [80.394601, 8.320656], [80.394566, 8.320661], [80.394527, 8.320658], [80.394463, 8.320652]]
-}

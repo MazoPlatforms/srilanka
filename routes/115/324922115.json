@@ -1,9 +1,0 @@
-{
-  "id": 324922115,
-  "name": "Masjith Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.858787, 7.289144], [81.858892, 7.289786], [81.858965, 7.29013], [81.858988, 7.290238], [81.859118, 7.290677]]
-}

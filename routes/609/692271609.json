@@ -1,9 +1,0 @@
-{
-  "id": 692271609,
-  "name": "Viyasar Road",
-  "highway": "tertiary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.480819, 8.750541], [80.481734, 8.750543], [80.482169, 8.750544], [80.482372, 8.750544], [80.482953, 8.750536]]
-}

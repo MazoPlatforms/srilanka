@@ -1,9 +1,0 @@
-{
-  "id": 48729755,
-  "name": "Cotta Road",
-  "highway": "primary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.896049, 6.909331], [79.896025, 6.909368], [79.896002, 6.909402], [79.895951, 6.909476], [79.89588, 6.909555], [79.895798, 6.909614]]
-}

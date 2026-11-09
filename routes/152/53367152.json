@@ -1,9 +1,0 @@
-{
-  "id": 53367152,
-  "name": "Ishwari Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.871251, 6.879018], [79.871017, 6.878891], [79.870728, 6.878752], [79.870575, 6.878711], [79.870115, 6.878639], [79.869431, 6.878594], [79.869371, 6.87859]]
-}

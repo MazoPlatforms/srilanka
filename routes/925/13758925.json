@@ -1,9 +1,0 @@
-{
-  "id": 13758925,
-  "name": "Deal Place",
-  "highway": "residential",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.851359, 6.906175], [79.851441, 6.906204], [79.851832, 6.906322]]
-}

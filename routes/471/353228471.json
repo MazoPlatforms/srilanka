@@ -1,9 +1,0 @@
-{
-  "id": 353228471,
-  "name": "Sisilasa Uyana road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.495104, 5.948605], [80.494869, 5.948549], [80.494607, 5.948633], [80.494343, 5.948779], [80.493573, 5.949194], [80.4932, 5.949312], [80.492999, 5.949399]]
-}

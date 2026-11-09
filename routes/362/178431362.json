@@ -1,9 +1,0 @@
-{
-  "id": 178431362,
-  "name": "Notary Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.830375, 7.366819], [79.831171, 7.367028], [79.831998, 7.367142], [79.8326, 7.367269]]
-}

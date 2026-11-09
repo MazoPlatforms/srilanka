@@ -1,9 +1,0 @@
-{
-  "id": 345532387,
-  "name": "Halovita Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.160008, 6.574385], [80.160748, 6.574634], [80.160862, 6.57466], [80.161148, 6.574709]]
-}

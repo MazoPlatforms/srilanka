@@ -1,9 +1,0 @@
-{
-  "id": 406725753,
-  "name": "Pathima Road 1st Lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.891152, 7.06035], [79.891135, 7.06031], [79.890869, 7.059135], [79.890869, 7.059041]]
-}

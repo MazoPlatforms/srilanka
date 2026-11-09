@@ -1,9 +1,0 @@
-{
-  "id": 517388175,
-  "name": "Kotagala Station Road",
-  "highway": "primary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.608955, 6.925229], [80.608991, 6.925367], [80.609003, 6.92544], [80.609008, 6.92555], [80.609, 6.925777]]
-}

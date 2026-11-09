@@ -1,9 +1,0 @@
-{
-  "id": 24745861,
-  "name": "Layard Street",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.863247, 6.882806], [79.863402, 6.882138], [79.863431, 6.882011]]
-}

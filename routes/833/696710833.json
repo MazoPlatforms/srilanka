@@ -1,9 +1,0 @@
-{
-  "id": 696710833,
-  "name": "Hakmana-Beliatte Road",
-  "highway": "primary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 55, "motorcycle": 55, "truck": 50, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.645051, 6.083814], [80.645445, 6.083676], [80.645574, 6.083626], [80.645734, 6.083564], [80.64682, 6.083143], [80.646941, 6.083084]]
-}

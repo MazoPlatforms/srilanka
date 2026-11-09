@@ -1,9 +1,0 @@
-{
-  "id": 1536889282,
-  "name": "Madawala Road",
-  "highway": "trunk",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
-  "coordinates": [[80.626153, 7.325265], [80.626164, 7.325221], [80.626171, 7.325173], [80.62616, 7.325131], [80.626149, 7.325105]]
-}

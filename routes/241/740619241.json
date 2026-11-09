@@ -1,9 +1,0 @@
-{
-  "id": 740619241,
-  "name": "Tyre Corporation Road",
-  "highway": "tertiary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.913824, 6.968798], [79.913708, 6.968918], [79.913641, 6.969137], [79.913572, 6.969351], [79.913538, 6.969453], [79.913505, 6.969548], [79.913446, 6.969681]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 552244995,
-  "name": "Mahawatte Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.870683, 6.958066], [79.870639, 6.957992], [79.870613, 6.95793], [79.870579, 6.957855], [79.870559, 6.957808], [79.870542, 6.957755]]
-}

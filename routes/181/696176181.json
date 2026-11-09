@@ -1,9 +1,0 @@
-{
-  "id": 696176181,
-  "name": "Hekitta Road",
-  "highway": "primary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.875269, 6.98295], [79.874961, 6.982906], [79.874849, 6.982878], [79.874757, 6.982831]]
-}

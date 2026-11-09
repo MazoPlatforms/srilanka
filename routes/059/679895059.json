@@ -1,9 +1,0 @@
-{
-  "id": 679895059,
-  "name": "Park View Square",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.890632, 6.877889], [79.89108, 6.877881], [79.891568, 6.877855], [79.891645, 6.877835], [79.891658, 6.877795], [79.891544, 6.877204]]
-}

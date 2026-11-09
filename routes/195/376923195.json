@@ -1,9 +1,0 @@
-{
-  "id": 376923195,
-  "name": "Temple Lane",
-  "highway": "residential",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.8545, 6.89656], [79.854588, 6.896593], [79.854772, 6.896663], [79.85509, 6.896772], [79.856338, 6.897215], [79.856412, 6.897241]]
-}

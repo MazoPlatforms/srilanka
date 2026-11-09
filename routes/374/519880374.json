@@ -1,9 +1,0 @@
-{
-  "id": 519880374,
-  "name": "Nakkeerar Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.757312, 7.5196], [81.757304, 7.519961], [81.757313, 7.520207], [81.75734, 7.520457], [81.757364, 7.520818], [81.757378, 7.521042], [81.757386, 7.521399]]
-}

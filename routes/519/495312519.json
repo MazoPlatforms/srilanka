@@ -1,9 +1,0 @@
-{
-  "id": 495312519,
-  "name": "Ragala Road",
-  "highway": "primary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.806296, 7.100736], [80.80626, 7.100686], [80.806234, 7.100663]]
-}

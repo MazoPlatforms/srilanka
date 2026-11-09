@@ -1,9 +1,0 @@
-{
-  "id": 365148506,
-  "name": "CT Gardens Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.914555, 6.808651], [79.914379, 6.808737], [79.914407, 6.808915], [79.914548, 6.808842], [79.914555, 6.808651]]
-}

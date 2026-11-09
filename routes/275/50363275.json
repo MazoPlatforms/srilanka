@@ -1,9 +1,0 @@
-{
-  "id": 50363275,
-  "name": "Mayura Place",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.866293, 6.881143], [79.867745, 6.881817], [79.869239, 6.882596]]
-}

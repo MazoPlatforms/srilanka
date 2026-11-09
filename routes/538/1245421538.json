@@ -1,9 +1,0 @@
-{
-  "id": 1245421538,
-  "name": "Munwatta Road",
-  "highway": "primary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.797991, 7.092402], [80.798105, 7.092406], [80.798233, 7.092415], [80.798352, 7.092455]]
-}

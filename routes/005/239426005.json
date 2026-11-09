@@ -1,9 +1,0 @@
-{
-  "id": 239426005,
-  "name": "Rural Street",
-  "highway": "living_street",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
-  "coordinates": [[79.944027, 6.621158], [79.943923, 6.621096], [79.94373, 6.621003], [79.94364, 6.620982], [79.943592, 6.621034], [79.943525, 6.621251]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 50309330,
-  "name": "1st Cross Street",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.833969, 7.209136], [79.833764, 7.209631], [79.833575, 7.210121], [79.833325, 7.210864], [79.832993, 7.211445], [79.832911, 7.211587]]
-}

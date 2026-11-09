@@ -1,9 +1,0 @@
-{
-  "id": 519827606,
-  "name": "Vinayakar 2nd cross road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.708855, 7.527727], [81.70871, 7.527906], [81.708629, 7.528004], [81.708527, 7.528071], [81.708395, 7.528267]]
-}

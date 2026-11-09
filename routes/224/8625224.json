@@ -1,9 +1,0 @@
-{
-  "id": 8625224,
-  "name": "Jawatte Road",
-  "highway": "secondary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.86644, 6.900412], [79.866448, 6.900339], [79.866484, 6.900047]]
-}

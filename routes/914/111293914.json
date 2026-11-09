@@ -1,9 +1,0 @@
-{
-  "id": 111293914,
-  "name": "Sea Street",
-  "highway": "tertiary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.833002, 7.209433], [79.833032, 7.209592], [79.833034, 7.209616], [79.833042, 7.209711], [79.833039, 7.209888]]
-}

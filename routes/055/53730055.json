@@ -1,9 +1,0 @@
-{
-  "id": 53730055,
-  "name": "Vajira Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.861155, 6.893377], [79.861212, 6.893122], [79.861304, 6.892595]]
-}

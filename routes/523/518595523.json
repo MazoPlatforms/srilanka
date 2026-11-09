@@ -1,9 +1,0 @@
-{
-  "id": 518595523,
-  "name": "St. Joseph's Street",
-  "highway": "secondary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.873957, 6.950301], [79.873985, 6.950439], [79.874004, 6.95057], [79.874004, 6.95062], [79.874, 6.950666], [79.87399, 6.950744]]
-}

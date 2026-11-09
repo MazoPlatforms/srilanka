@@ -1,9 +1,0 @@
-{
-  "id": 1186005532,
-  "name": "food path",
-  "highway": "path",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"bicycle": 12, "foot": 4},
-  "coordinates": [[80.731278, 6.943153], [80.731428, 6.943478], [80.73145, 6.943798], [80.731503, 6.944138], [80.731562, 6.944567]]
-}

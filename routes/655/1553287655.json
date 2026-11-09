@@ -1,9 +1,0 @@
-{
-  "id": 1553287655,
-  "name": "Erukkalampiddy Road",
-  "highway": "primary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.873743, 9.035483], [79.873769, 9.035482], [79.8738, 9.035474], [79.873846, 9.035459], [79.873973, 9.035403], [79.875132, 9.034885]]
-}

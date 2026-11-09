@@ -1,9 +1,0 @@
-{
-  "id": 205021497,
-  "name": "Paradise Place",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.374775, 6.757433], [80.374979, 6.757565], [80.375644, 6.757922], [80.375937, 6.756586], [80.37659, 6.755016], [80.376202, 6.755051]]
-}

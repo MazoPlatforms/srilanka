@@ -1,9 +1,0 @@
-{
-  "id": 457175583,
-  "name": "Central Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.707877, 7.620835], [81.707845, 7.620913], [81.707748, 7.621224], [81.707678, 7.621416], [81.707643, 7.621639]]
-}

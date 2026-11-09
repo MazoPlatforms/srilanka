@@ -1,9 +1,0 @@
-{
-  "id": 50537937,
-  "name": "Edward Avenue",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.869239, 6.882596], [79.869642, 6.882854], [79.8698, 6.882926], [79.870763, 6.883003]]
-}

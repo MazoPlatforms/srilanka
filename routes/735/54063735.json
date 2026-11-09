@@ -1,9 +1,0 @@
-{
-  "id": 54063735,
-  "name": "Vivekaramaya Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.875775, 6.922484], [79.875781, 6.922447], [79.875742, 6.922053], [79.875813, 6.921457], [79.875823, 6.921389]]
-}

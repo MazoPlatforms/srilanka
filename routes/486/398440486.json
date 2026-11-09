@@ -1,9 +1,0 @@
-{
-  "id": 398440486,
-  "name": "3rd Cross Lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.348766, 9.396073], [80.350785, 9.396181], [80.351667, 9.396216]]
-}

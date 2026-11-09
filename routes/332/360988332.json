@@ -1,9 +1,0 @@
-{
-  "id": 360988332,
-  "name": "Depot Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.796143, 7.582271], [79.796912, 7.582184], [79.797408, 7.582133], [79.797983, 7.582073]]
-}

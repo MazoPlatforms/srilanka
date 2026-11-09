@@ -1,9 +1,0 @@
-{
-  "id": 131520358,
-  "name": "Millenium Drive",
-  "highway": "tertiary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.959196, 6.917172], [79.959139, 6.917155], [79.958942, 6.917098]]
-}

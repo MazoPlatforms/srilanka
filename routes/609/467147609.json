@@ -1,9 +1,0 @@
-{
-  "id": 467147609,
-  "name": "Kadakkarai by road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.778811, 9.32038], [80.779855, 9.319457], [80.78116, 9.320773]]
-}

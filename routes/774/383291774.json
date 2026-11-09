@@ -1,9 +1,0 @@
-{
-  "id": 383291774,
-  "name": "Gama Meda Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.957902, 7.059473], [79.957736, 7.05951], [79.957677, 7.05948], [79.95766, 7.059409], [79.957571, 7.058561], [79.957325, 7.057738]]
-}

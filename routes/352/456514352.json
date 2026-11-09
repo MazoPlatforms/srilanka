@@ -1,9 +1,0 @@
-{
-  "id": 456514352,
-  "name": "20th housing project 3rd cross road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.700704, 7.534338], [81.700654, 7.534391], [81.70047, 7.534738], [81.700359, 7.535038]]
-}

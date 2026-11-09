@@ -1,9 +1,0 @@
-{
-  "id": 32152658,
-  "name": "Galkaduwa road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.055654, 6.716134], [80.055568, 6.716239], [80.055462, 6.716413], [80.055417, 6.716425], [80.055075, 6.716304], [80.054608, 6.716161], [80.054317, 6.716088]]
-}

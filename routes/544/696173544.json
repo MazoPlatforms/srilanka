@@ -1,9 +1,0 @@
-{
-  "id": 696173544,
-  "name": "Hendala Road",
-  "highway": "primary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.874053, 6.99461], [79.874135, 6.994612], [79.874367, 6.994605]]
-}

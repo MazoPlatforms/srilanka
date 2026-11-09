@@ -1,9 +1,0 @@
-{
-  "id": 381178649,
-  "name": "Madiwella Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.928578, 6.876765], [79.928603, 6.876705], [79.92862, 6.876609], [79.928573, 6.876513]]
-}

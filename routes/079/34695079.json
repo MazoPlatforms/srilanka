@@ -1,9 +1,0 @@
-{
-  "id": 34695079,
-  "name": "Dam Street",
-  "highway": "secondary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.854283, 6.93913], [79.854471, 6.939175], [79.854844, 6.93922], [79.855452, 6.939222]]
-}

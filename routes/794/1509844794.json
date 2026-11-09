@@ -1,9 +1,0 @@
-{
-  "id": 1509844794,
-  "name": "Old Road",
-  "highway": "tertiary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.425219, 6.763181], [80.425147, 6.763261], [80.425029, 6.763418], [80.425001, 6.763482], [80.424995, 6.763532]]
-}

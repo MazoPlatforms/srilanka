@@ -1,9 +1,0 @@
-{
-  "id": 450560240,
-  "name": "Kulakkaddu Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.739372, 7.608988], [81.739278, 7.609071], [81.738885, 7.609681], [81.73878, 7.610152], [81.738663, 7.610725], [81.738513, 7.611209]]
-}

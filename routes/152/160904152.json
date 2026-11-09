@@ -1,9 +1,0 @@
-{
-  "id": 160904152,
-  "name": "Convent Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.502627, 8.750732], [80.503029, 8.751285], [80.503049, 8.751295], [80.503065, 8.751291], [80.503368, 8.75105], [80.503387, 8.751035], [80.503932, 8.750774]]
-}

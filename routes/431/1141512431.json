@@ -1,9 +1,0 @@
-{
-  "id": 1141512431,
-  "name": "Bastian Mawatha",
-  "highway": "tertiary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.851208, 6.934166], [79.851119, 6.93419], [79.850963, 6.934239]]
-}

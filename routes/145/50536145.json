@@ -1,9 +1,0 @@
-{
-  "id": 50536145,
-  "name": "Mahasen Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.888386, 6.876195], [79.888409, 6.876277], [79.888818, 6.876706], [79.888873, 6.876741], [79.890538, 6.876873]]
-}

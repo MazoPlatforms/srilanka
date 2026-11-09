@@ -1,9 +1,0 @@
-{
-  "id": 188070019,
-  "name": "New Road",
-  "highway": "secondary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.122416, 6.126685], [81.12265, 6.126748], [81.123098, 6.126847], [81.123718, 6.126954], [81.124696, 6.127058]]
-}

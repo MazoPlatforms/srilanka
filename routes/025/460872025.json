@@ -1,9 +1,0 @@
-{
-  "id": 460872025,
-  "name": "Manmunai Bridge",
-  "highway": "secondary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 45, "motorcycle": 45, "truck": 45, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.732307, 7.638283], [81.731902, 7.638228], [81.728624, 7.637652]]
-}

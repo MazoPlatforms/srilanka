@@ -1,9 +1,0 @@
-{
-  "id": 1024603184,
-  "name": "Central Expressway",
-  "highway": "motorway",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 100.0, "motorcycle": 80, "truck": 70},
-  "coordinates": [[80.309404, 7.433815], [80.30758, 7.433262], [80.306223, 7.43273], [80.304077, 7.431613], [80.302468, 7.430539], [80.301359, 7.429589]]
-}

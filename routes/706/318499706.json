@@ -1,9 +1,0 @@
-{
-  "id": 318499706,
-  "name": "1st Cross Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.101114, 6.135744], [80.101029, 6.136185], [80.101072, 6.136686], [80.101242, 6.13724], [80.101173, 6.13759]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 52502479,
-  "name": "Macleod Place",
-  "highway": "residential",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.860526, 6.884678], [79.860443, 6.884661], [79.859548, 6.884473], [79.859427, 6.884454], [79.858848, 6.884298]]
-}

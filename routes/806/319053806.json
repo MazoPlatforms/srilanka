@@ -1,9 +1,0 @@
-{
-  "id": 319053806,
-  "name": "Kamathawatte Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.962533, 6.775817], [79.962729, 6.775367], [79.963072, 6.774529]]
-}

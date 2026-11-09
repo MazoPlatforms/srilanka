@@ -1,9 +1,0 @@
-{
-  "id": 1174714140,
-  "name": "2nd By Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 15.0, "motorcycle": 15.0, "truck": 15.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.947189, 6.766005], [80.94725, 6.765979]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 49002083,
-  "name": "Roxy Garden",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.863245, 6.865256], [79.863159, 6.865241], [79.862419, 6.865074], [79.861978, 6.864992], [79.861845, 6.86496], [79.861187, 6.864812]]
-}

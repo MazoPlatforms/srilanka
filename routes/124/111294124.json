@@ -1,9 +1,0 @@
-{
-  "id": 111294124,
-  "name": "Mosque Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.83575, 7.214751], [79.836263, 7.21437], [79.836552, 7.214169], [79.83684, 7.213918], [79.837137, 7.213639], [79.837798, 7.212918]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 376924927,
-  "name": "16th Lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.850569, 6.907408], [79.850441, 6.907362], [79.85027, 6.90729], [79.849756, 6.90714]]
-}

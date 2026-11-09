@@ -1,9 +1,0 @@
-{
-  "id": 530358923,
-  "name": "Kandawatta Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.927063, 6.895846], [79.927299, 6.896149], [79.927493, 6.896379], [79.927581, 6.896474], [79.927777, 6.896503], [79.928193, 6.896517], [79.928258, 6.89653]]
-}

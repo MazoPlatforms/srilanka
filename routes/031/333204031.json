@@ -1,9 +1,0 @@
-{
-  "id": 333204031,
-  "name": "Biyagama Road",
-  "highway": "primary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 55, "motorcycle": 55, "truck": 50, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.888138, 6.955739], [79.8881, 6.955757], [79.88807, 6.95578], [79.888038, 6.955815], [79.888024, 6.955838], [79.888018, 6.955869]]
-}

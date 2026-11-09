@@ -1,9 +1,0 @@
-{
-  "id": 453662249,
-  "name": "kovil road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.788096, 7.506423], [81.78842, 7.506447], [81.788855, 7.506372]]
-}

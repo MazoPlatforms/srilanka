@@ -1,9 +1,0 @@
-{
-  "id": 1116740485,
-  "name": "Lake Drive",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.887296, 6.907367], [79.887316, 6.907482], [79.887389, 6.907686], [79.887453, 6.907806]]
-}

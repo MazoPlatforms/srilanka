@@ -1,9 +1,0 @@
-{
-  "id": 494322422,
-  "name": "2nd Cross Road",
-  "highway": "living_street",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
-  "coordinates": [[81.735591, 7.615114], [81.735484, 7.615104], [81.735124, 7.615076]]
-}

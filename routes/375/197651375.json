@@ -1,9 +1,0 @@
-{
-  "id": 197651375,
-  "name": "Modern Street",
-  "highway": "residential",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.059882, 6.985825], [81.059567, 6.985719], [81.058702, 6.985444]]
-}

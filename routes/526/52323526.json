@@ -1,9 +1,0 @@
-{
-  "id": 52323526,
-  "name": "Clovis Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.881191, 6.770444], [79.881815, 6.770595], [79.882669, 6.7708], [79.882741, 6.770831], [79.882802, 6.77083], [79.883103, 6.770888], [79.883181, 6.770901]]
-}

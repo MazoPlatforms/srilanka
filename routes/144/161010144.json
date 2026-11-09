@@ -1,9 +1,0 @@
-{
-  "id": 161010144,
-  "name": "Kandy Road 14th Lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.490636, 8.740531], [80.491813, 8.740148], [80.49298, 8.739702]]
-}

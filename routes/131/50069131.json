@@ -1,9 +1,0 @@
-{
-  "id": 50069131,
-  "name": "Fussel's Lane",
-  "highway": "residential",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.861529, 6.873784], [79.863154, 6.874137], [79.864244, 6.87437], [79.864475, 6.874418], [79.865903, 6.874829]]
-}

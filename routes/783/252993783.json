@@ -1,9 +1,0 @@
-{
-  "id": 252993783,
-  "name": "Lower King's Street",
-  "highway": "primary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.058172, 6.984473], [81.058071, 6.984726], [81.05796, 6.984994], [81.057731, 6.985517], [81.057595, 6.98587], [81.0575, 6.986154]]
-}

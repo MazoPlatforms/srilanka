@@ -1,9 +1,0 @@
-{
-  "id": 180524776,
-  "name": "Canal Bank Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.888478, 6.989876], [79.888573, 6.989499], [79.889311, 6.989076], [79.889793, 6.988802]]
-}

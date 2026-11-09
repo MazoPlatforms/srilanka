@@ -1,9 +1,0 @@
-{
-  "id": 538916012,
-  "name": "Aintree Street",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.869007, 6.892844], [79.869002, 6.892824], [79.869005, 6.892804], [79.869182, 6.892684]]
-}

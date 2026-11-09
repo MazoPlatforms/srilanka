@@ -1,9 +1,0 @@
-{
-  "id": 111477941,
-  "name": "Base Line Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.861865, 7.228716], [79.862053, 7.228393], [79.862335, 7.227794], [79.862677, 7.226993], [79.862993, 7.226342], [79.86302, 7.225999], [79.863104, 7.225816]]
-}

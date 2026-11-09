@@ -1,9 +1,0 @@
-{
-  "id": 54057561,
-  "name": "Francis Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.87043, 6.920761], [79.871248, 6.919945], [79.871931, 6.919194], [79.872008, 6.919124], [79.872214, 6.918883]]
-}

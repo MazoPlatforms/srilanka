@@ -1,9 +1,0 @@
-{
-  "id": 50155837,
-  "name": "Ramya Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.854188, 6.889155], [79.854696, 6.889264], [79.85497, 6.889246], [79.85513, 6.889264], [79.85678, 6.889635]]
-}

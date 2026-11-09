@@ -1,9 +1,0 @@
-{
-  "id": 509117319,
-  "name": "Digandala Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.581335, 6.503788], [80.581434, 6.504005], [80.581565, 6.504148], [80.581699, 6.504237], [80.581904, 6.50432], [80.582599, 6.50447], [80.582908, 6.504533]]
-}

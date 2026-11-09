@@ -1,9 +1,0 @@
-{
-  "id": 311546251,
-  "name": "Rajagiriya Road",
-  "highway": "tertiary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.893045, 6.910717], [79.893081, 6.910959], [79.893085, 6.911168]]
-}

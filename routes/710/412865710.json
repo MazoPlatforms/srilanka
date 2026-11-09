@@ -1,9 +1,0 @@
-{
-  "id": 412865710,
-  "name": "Kovilkulam 4th lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.507601, 8.740885], [80.506469, 8.740612], [80.506203, 8.741387], [80.50627, 8.741622], [80.506369, 8.74189], [80.506533, 8.742513]]
-}

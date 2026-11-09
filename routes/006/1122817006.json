@@ -1,9 +1,0 @@
-{
-  "id": 1122817006,
-  "name": "Stace Road",
-  "highway": "primary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.878178, 6.943806], [79.878077, 6.943755], [79.878, 6.943724], [79.87796, 6.943709], [79.877872, 6.943684], [79.877826, 6.943672]]
-}

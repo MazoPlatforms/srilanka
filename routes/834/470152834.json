@@ -1,9 +1,0 @@
-{
-  "id": 470152834,
-  "name": "Navalar2nd Cross Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.561011, 7.823434], [81.561326, 7.823136], [81.561412, 7.823043], [81.561767, 7.822675]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 456500082,
-  "name": "1st division road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.665351, 7.50953], [81.665079, 7.508215], [81.665052, 7.507848], [81.665117, 7.507051], [81.665219, 7.506785], [81.665428, 7.506487], [81.666082, 7.505934]]
-}

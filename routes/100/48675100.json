@@ -1,9 +1,0 @@
-{
-  "id": 48675100,
-  "name": "Nagahawatta Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.921265, 6.851137], [79.921331, 6.851179], [79.921437, 6.85127], [79.921582, 6.851327], [79.921638, 6.851371]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 456293597,
-  "name": "Suntharar Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.54896, 7.843932], [81.549008, 7.843625], [81.549195, 7.842114]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 546392548,
-  "name": "Kasturiar First Lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.011094, 9.672673], [80.011725, 9.672434], [80.011861, 9.672394], [80.011934, 9.672366], [80.012124, 9.672318], [80.012335, 9.672305]]
-}

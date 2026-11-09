@@ -1,9 +1,0 @@
-{
-  "id": 493818853,
-  "name": "Navladi Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.704012, 7.625398], [81.704056, 7.625489], [81.704096, 7.625692], [81.704121, 7.625964], [81.704138, 7.62599], [81.704269, 7.626014], [81.704284, 7.626056]]
-}

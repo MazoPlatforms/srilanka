@@ -1,9 +1,0 @@
-{
-  "id": 232515540,
-  "name": "Alakar road 2nd lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.510546, 8.753914], [80.510382, 8.753321], [80.510239, 8.752638], [80.51077, 8.752539]]
-}

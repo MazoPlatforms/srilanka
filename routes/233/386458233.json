@@ -1,9 +1,0 @@
-{
-  "id": 386458233,
-  "name": "Hena Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.019216, 7.107414], [80.019194, 7.107633], [80.019118, 7.107802], [80.018995, 7.108079], [80.018683, 7.108777]]
-}

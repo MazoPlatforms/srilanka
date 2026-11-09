@@ -1,9 +1,0 @@
-{
-  "id": 111293552,
-  "name": "5th Cross Street",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.836643, 7.209538], [79.836595, 7.209616], [79.836571, 7.209639], [79.836252, 7.20998], [79.835946, 7.210547]]
-}

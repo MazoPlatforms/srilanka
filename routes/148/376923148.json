@@ -1,9 +1,0 @@
-{
-  "id": 376923148,
-  "name": "Joseph's Lane",
-  "highway": "residential",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.856155, 6.892871], [79.855851, 6.892781], [79.855774, 6.892753]]
-}

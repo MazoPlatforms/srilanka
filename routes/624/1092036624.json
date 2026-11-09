@@ -1,9 +1,0 @@
-{
-  "id": 1092036624,
-  "name": "Edmonton Road",
-  "highway": "trunk",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0},
-  "coordinates": [[79.876501, 6.878546], [79.876477, 6.878291]]
-}

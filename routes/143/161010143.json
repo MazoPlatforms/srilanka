@@ -1,9 +1,0 @@
-{
-  "id": 161010143,
-  "name": "Kandy road 18th lane sub lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.48952, 8.736182], [80.489875, 8.737175], [80.490507, 8.736918], [80.490517, 8.736774], [80.490452, 8.736537], [80.490196, 8.735828]]
-}

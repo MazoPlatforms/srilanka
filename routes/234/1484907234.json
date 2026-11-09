@@ -1,9 +1,0 @@
-{
-  "id": 1484907234,
-  "name": "Katugastota Road",
-  "highway": "trunk",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
-  "coordinates": [[80.625011, 7.322286], [80.625066, 7.322258], [80.625132, 7.322231]]
-}

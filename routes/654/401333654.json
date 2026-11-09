@@ -1,9 +1,0 @@
-{
-  "id": 401333654,
-  "name": "Pokuna Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.959953, 6.816882], [79.960664, 6.816805], [79.961479, 6.816778]]
-}

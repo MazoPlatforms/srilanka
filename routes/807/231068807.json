@@ -1,9 +1,0 @@
-{
-  "id": 231068807,
-  "name": "Saunders Place Link",
-  "highway": "service",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 15, "motorcycle": 15, "bicycle": 15, "foot": 5},
-  "coordinates": [[79.856784, 6.935992], [79.856789, 6.935934], [79.856749, 6.935887], [79.856388, 6.935747], [79.856223, 6.935702], [79.85602, 6.935663], [79.855817, 6.935615]]
-}

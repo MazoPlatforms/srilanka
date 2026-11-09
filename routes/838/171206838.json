@@ -1,9 +1,0 @@
-{
-  "id": 171206838,
-  "name": "Cross Lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.964472, 6.57061], [79.964854, 6.570701], [79.964922, 6.570717], [79.965377, 6.570891]]
-}

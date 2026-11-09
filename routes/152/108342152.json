@@ -1,9 +1,0 @@
-{
-  "id": 108342152,
-  "name": "St. Anthony's Street",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.231681, 8.571029], [81.232423, 8.571663], [81.232732, 8.571977], [81.233069, 8.572349], [81.233124, 8.572381], [81.233541, 8.572799]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 171206468,
-  "name": "Keselwatte Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.960152, 6.584051], [79.960388, 6.583453], [79.960569, 6.583224], [79.96071, 6.583071], [79.960786, 6.582974], [79.960846, 6.582878]]
-}

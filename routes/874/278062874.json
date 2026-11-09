@@ -1,9 +1,0 @@
-{
-  "id": 278062874,
-  "name": "Sarwodaya Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.852767, 7.131075], [81.852774, 7.13098], [81.85275, 7.130473], [81.852708, 7.130202], [81.852605, 7.129411]]
-}

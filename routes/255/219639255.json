@@ -1,9 +1,0 @@
-{
-  "id": 219639255,
-  "name": "3rd Cross road",
-  "highway": "tertiary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.69221, 7.743414], [81.692351, 7.743522], [81.692415, 7.743572], [81.692546, 7.743631], [81.692603, 7.74367], [81.692987, 7.744112]]
-}

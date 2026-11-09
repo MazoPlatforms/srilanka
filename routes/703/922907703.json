@@ -1,9 +1,0 @@
-{
-  "id": 922907703,
-  "name": "Kaduwela Road",
-  "highway": "primary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.994505, 6.887914], [79.994384, 6.887794], [79.994337, 6.887735], [79.994275, 6.887658], [79.994193, 6.887595]]
-}

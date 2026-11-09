@@ -1,9 +1,0 @@
-{
-  "id": 360980677,
-  "name": "Fish Market Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.789096, 7.577627], [79.789079, 7.577812], [79.789057, 7.578241], [79.789052, 7.578338], [79.789066, 7.579075], [79.789037, 7.579302]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 173226770,
-  "name": "3rd Cross Street",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.927204, 6.982102], [79.927888, 6.982634], [79.928549, 6.983149]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 376090006,
-  "name": "Thandikulam 2nd lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.486661, 8.781192], [80.486333, 8.781252], [80.485712, 8.781435], [80.485226, 8.781571], [80.484641, 8.781576]]
-}

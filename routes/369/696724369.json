@@ -1,9 +1,0 @@
-{
-  "id": 696724369,
-  "name": "Kapuwatta Road",
-  "highway": "residential",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.43841, 5.992043], [80.438247, 5.992038], [80.437896, 5.99208]]
-}

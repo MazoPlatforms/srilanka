@@ -1,9 +1,0 @@
-{
-  "id": 129884432,
-  "name": "Gallage Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.905693, 6.874909], [79.905653, 6.874909], [79.905323, 6.874953], [79.905016, 6.874963], [79.904899, 6.874966], [79.904539, 6.874955], [79.904398, 6.874911]]
-}

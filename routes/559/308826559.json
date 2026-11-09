@@ -1,9 +1,0 @@
-{
-  "id": 308826559,
-  "name": "Lotus Road",
-  "highway": "primary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.84685, 6.933962], [79.846905, 6.93404], [79.846934, 6.934094], [79.846979, 6.934197], [79.846994, 6.934231]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 346332100,
-  "name": "Old Kotte Road",
-  "highway": "primary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.89707, 6.909619], [79.896874, 6.909465]]
-}

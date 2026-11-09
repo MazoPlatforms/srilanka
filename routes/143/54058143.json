@@ -1,9 +1,0 @@
-{
-  "id": 54058143,
-  "name": "Tichbone Passage",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.868422, 6.922394], [79.868913, 6.922549], [79.869219, 6.922684], [79.869532, 6.922948]]
-}

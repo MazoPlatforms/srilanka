@@ -1,9 +1,0 @@
-{
-  "id": 50310140,
-  "name": "Green's Road",
-  "highway": "secondary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.840834, 7.207084], [79.840811, 7.207242]]
-}

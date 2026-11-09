@@ -1,9 +1,0 @@
-{
-  "id": 303066770,
-  "name": "Panchikawatte Road",
-  "highway": "primary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.864217, 6.929011], [79.864172, 6.928913], [79.86415, 6.928821], [79.864161, 6.928777]]
-}

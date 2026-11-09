@@ -1,9 +1,0 @@
-{
-  "id": 543422173,
-  "name": "Court Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.236764, 8.565006], [81.238005, 8.563693]]
-}

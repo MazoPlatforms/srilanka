@@ -1,9 +1,0 @@
-{
-  "id": 54048697,
-  "name": "Rajamalwatta Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.869157, 6.967447], [79.869839, 6.966912], [79.86989, 6.96686], [79.870375, 6.966358], [79.870831, 6.966057]]
-}

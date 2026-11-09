@@ -1,9 +1,0 @@
-{
-  "id": 1495050353,
-  "name": "Jawatta Road",
-  "highway": "secondary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.867075, 6.891366], [79.867059, 6.891442], [79.867042, 6.891546], [79.867048, 6.891578], [79.867063, 6.891617]]
-}

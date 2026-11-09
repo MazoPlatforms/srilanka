@@ -1,9 +1,0 @@
-{
-  "id": 277771107,
-  "name": "New Town Road",
-  "highway": "primary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.000029, 7.914746], [81.000184, 7.914771]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 171976959,
-  "name": "Fair Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.698475, 6.65188], [80.69842, 6.652183], [80.698371, 6.652431], [80.698319, 6.652513], [80.698247, 6.652562]]
-}

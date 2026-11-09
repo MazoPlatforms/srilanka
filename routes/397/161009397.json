@@ -1,9 +1,0 @@
-{
-  "id": 161009397,
-  "name": "Katkuli road 4th Lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.492818, 8.748175], [80.492519, 8.747571], [80.492525, 8.747511], [80.492551, 8.747475], [80.492734, 8.747378], [80.493025, 8.747215], [80.493324, 8.747053]]
-}

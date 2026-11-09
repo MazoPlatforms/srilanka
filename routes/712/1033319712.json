@@ -1,9 +1,0 @@
-{
-  "id": 1033319712,
-  "name": "11th Lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.970167, 6.90444], [79.970231, 6.904253], [79.970311, 6.903775], [79.970429, 6.903304]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 520483585,
-  "name": "Miyani Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.642309, 7.755178], [81.642105, 7.754803], [81.641893, 7.754414], [81.641554, 7.753729]]
-}

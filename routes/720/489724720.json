@@ -1,9 +1,0 @@
-{
-  "id": 489724720,
-  "name": "Munai Street",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.409709, 8.21784], [81.409824, 8.217878], [81.409872, 8.217894], [81.409943, 8.217917], [81.411581, 8.218255], [81.413987, 8.218584]]
-}

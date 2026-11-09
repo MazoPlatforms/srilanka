@@ -1,9 +1,0 @@
-{
-  "id": 384799056,
-  "name": "1 st lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.004767, 7.066898], [80.004427, 7.06712], [80.004196, 7.067419], [80.00411, 7.067538], [80.003157, 7.068729], [80.003091, 7.068844]]
-}

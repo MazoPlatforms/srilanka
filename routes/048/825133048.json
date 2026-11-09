@@ -1,9 +1,0 @@
-{
-  "id": 825133048,
-  "name": "Pannala-Kuliyapitiya Road",
-  "highway": "primary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.026455, 7.468809], [80.026412, 7.468958], [80.026376, 7.469449], [80.02637, 7.469567], [80.026367, 7.469703], [80.026368, 7.469817], [80.026379, 7.469876], [80.026402, 7.469929]]
-}

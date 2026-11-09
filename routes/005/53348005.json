@@ -1,9 +1,0 @@
-{
-  "id": 53348005,
-  "name": "Parakumba Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.877707, 6.851378], [79.877912, 6.85136], [79.87831, 6.851284], [79.878596, 6.851188], [79.878657, 6.851191]]
-}

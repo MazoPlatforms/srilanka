@@ -1,9 +1,0 @@
-{
-  "id": 399153935,
-  "name": "Power Plant Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.342311, 7.253153], [80.342489, 7.253271], [80.342598, 7.253293], [80.342822, 7.253309], [80.342842, 7.253327], [80.342872, 7.253439], [80.342964, 7.253885]]
-}

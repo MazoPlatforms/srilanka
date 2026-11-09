@@ -1,9 +1,0 @@
-{
-  "id": 50633781,
-  "name": "Grenier Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.882642, 6.916396], [79.882508, 6.916358], [79.882159, 6.916207], [79.881711, 6.916052], [79.881469, 6.915221], [79.881254, 6.914485]]
-}

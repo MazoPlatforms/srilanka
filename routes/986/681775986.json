@@ -1,9 +1,0 @@
-{
-  "id": 681775986,
-  "name": "Tank access road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.33646, 9.604365], [80.336741, 9.604706], [80.336934, 9.604865], [80.337085, 9.605055], [80.337243, 9.605189], [80.337288, 9.605227]]
-}

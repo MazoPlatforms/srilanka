@@ -1,9 +1,0 @@
-{
-  "id": 360151302,
-  "name": "Matara-Akuressa Road",
-  "highway": "trunk",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
-  "coordinates": [[80.518437, 5.976218], [80.518429, 5.976336], [80.5184, 5.97663], [80.518378, 5.976734], [80.51835, 5.97685]]
-}

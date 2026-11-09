@@ -1,9 +1,0 @@
-{
-  "id": 1122816976,
-  "name": "Gabo's Roundabout",
-  "highway": "primary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.854119, 6.939692], [79.854115, 6.939728], [79.854123, 6.939765], [79.85414, 6.939797]]
-}

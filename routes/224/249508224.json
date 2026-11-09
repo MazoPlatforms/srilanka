@@ -1,9 +1,0 @@
-{
-  "id": 249508224,
-  "name": "Transformer Aroudabout",
-  "highway": "residential",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.01535, 6.730246], [80.015364, 6.73021], [80.015406, 6.730186], [80.015478, 6.730261]]
-}

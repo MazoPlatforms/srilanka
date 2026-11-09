@@ -1,9 +1,0 @@
-{
-  "id": 386580034,
-  "name": "Preshcool Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.525031, 7.916475], [81.524743, 7.916552], [81.524534, 7.916605], [81.524279, 7.916671], [81.52389, 7.916786]]
-}

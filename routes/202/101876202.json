@@ -1,9 +1,0 @@
-{
-  "id": 101876202,
-  "name": "Gohagoda Road",
-  "highway": "primary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.624498, 7.321894], [80.624562, 7.321784], [80.624586, 7.321712], [80.624601, 7.321647], [80.624614, 7.321585], [80.624586, 7.321469]]
-}

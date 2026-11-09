@@ -1,9 +1,0 @@
-{
-  "id": 693391675,
-  "name": "Palavi-Kalladi Road",
-  "highway": "primary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.897623, 7.992727], [79.897545, 7.992705], [79.897458, 7.992686], [79.897306, 7.992663]]
-}

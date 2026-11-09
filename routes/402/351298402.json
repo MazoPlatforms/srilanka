@@ -1,9 +1,0 @@
-{
-  "id": 351298402,
-  "name": "3rd Lane Duwa Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.913599, 6.89089], [79.913577, 6.890424], [79.913298, 6.889955], [79.913199, 6.88975], [79.912964, 6.888975]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 232729696,
-  "name": "Kurumankadu Internal roads",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.485178, 8.767988], [80.485525, 8.767957], [80.485734, 8.767969], [80.486767, 8.768076]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 993561067,
-  "name": "HCC Car-park Access Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 10.0, "motorcycle": 10.0, "truck": 10.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.006888, 7.087561], [80.006681, 7.087417]]
-}

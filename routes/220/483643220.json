@@ -1,9 +1,0 @@
-{
-  "id": 483643220,
-  "name": "Bake House 1st Cross",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.576603, 7.809088], [81.575443, 7.810389], [81.574639, 7.811289], [81.574033, 7.811967]]
-}

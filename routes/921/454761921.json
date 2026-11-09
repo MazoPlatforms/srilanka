@@ -1,9 +1,0 @@
-{
-  "id": 454761921,
-  "name": "Poomahal Lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.194253, 9.819676], [80.194223, 9.819383], [80.194135, 9.818822], [80.194029, 9.818517], [80.193938, 9.81835], [80.19382, 9.818134], [80.193495, 9.817388]]
-}

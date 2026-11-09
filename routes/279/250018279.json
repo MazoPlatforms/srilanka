@@ -1,9 +1,0 @@
-{
-  "id": 250018279,
-  "name": "Jamiya Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.526343, 7.920417], [81.526424, 7.920892], [81.526536, 7.921769], [81.526584, 7.922158], [81.526696, 7.923041]]
-}

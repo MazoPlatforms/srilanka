@@ -1,9 +1,0 @@
-{
-  "id": 530674643,
-  "name": "Park Circus",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.870613, 6.887463], [79.870998, 6.887551], [79.871024, 6.887549]]
-}

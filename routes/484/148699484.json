@@ -1,9 +1,0 @@
-{
-  "id": 148699484,
-  "name": "Royal City by Road",
-  "highway": "living_street",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "bicycle": 10, "foot": 5},
-  "coordinates": [[80.23106, 6.062618], [80.23096, 6.062786], [80.230756, 6.062869], [80.23051, 6.063001], [80.230443, 6.063059]]
-}

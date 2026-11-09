@@ -1,9 +1,0 @@
-{
-  "id": 179537316,
-  "name": "GSO Cross Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.579182, 7.803008], [81.578816, 7.8033], [81.577863, 7.803903]]
-}

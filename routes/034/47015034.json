@@ -1,9 +1,0 @@
-{
-  "id": 47015034,
-  "name": "Kandalanda 2nd Lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.009892, 6.844834], [80.009971, 6.844403], [80.010155, 6.843754], [80.01039, 6.843263], [80.010615, 6.842666], [80.010851, 6.841953]]
-}

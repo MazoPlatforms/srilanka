@@ -1,9 +1,0 @@
-{
-  "id": 309709716,
-  "name": "Kynsey Road",
-  "highway": "tertiary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.877073, 6.908741], [79.877035, 6.908786], [79.876962, 6.908883], [79.876951, 6.908906], [79.876871, 6.909076], [79.876801, 6.909296]]
-}

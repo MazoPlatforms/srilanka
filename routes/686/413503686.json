@@ -1,9 +1,0 @@
-{
-  "id": 413503686,
-  "name": "1st croos Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.609408, 7.520034], [81.609331, 7.519736], [81.609242, 7.519137], [81.609122, 7.518384], [81.608998, 7.517722]]
-}

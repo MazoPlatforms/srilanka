@@ -1,9 +1,0 @@
-{
-  "id": 1464201394,
-  "name": "Modera Street",
-  "highway": "tertiary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.871501, 6.970739], [79.871601, 6.970785], [79.871692, 6.970784], [79.871857, 6.970734], [79.872246, 6.970575], [79.872702, 6.970314]]
-}

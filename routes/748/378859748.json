@@ -1,9 +1,0 @@
-{
-  "id": 378859748,
-  "name": "Horizon Drive",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.960887, 6.926242], [79.960942, 6.926334], [79.960987, 6.926365], [79.961045, 6.92639], [79.961766, 6.926417], [79.962371, 6.926442]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 412304615,
-  "name": "Joseph Vaas Road 1st Lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.506469, 8.752417], [80.506322, 8.752135], [80.506305, 8.752127], [80.506288, 8.752129], [80.505709, 8.752377]]
-}

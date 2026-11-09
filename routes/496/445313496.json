@@ -1,9 +1,0 @@
-{
-  "id": 445313496,
-  "name": "St Maries Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.88928, 7.089556], [79.889392, 7.089572], [79.889448, 7.089591], [79.889514, 7.089619]]
-}

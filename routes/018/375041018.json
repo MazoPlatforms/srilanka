@@ -1,9 +1,0 @@
-{
-  "id": 375041018,
-  "name": "Palm Breeze Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.905299, 6.727804], [79.904865, 6.727749], [79.904235, 6.727667], [79.903815, 6.727553], [79.903792, 6.727529], [79.903824, 6.727395]]
-}

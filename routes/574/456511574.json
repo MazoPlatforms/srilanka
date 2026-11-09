@@ -1,9 +1,0 @@
-{
-  "id": 456511574,
-  "name": "Kanthi Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.75276, 7.517965], [81.752786, 7.517845], [81.752838, 7.517627], [81.75278, 7.517116], [81.753165, 7.517061], [81.753398, 7.517058]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 154980262,
-  "name": "Old Polwatta Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.057349, 6.237408], [80.05718, 6.238138], [80.057386, 6.238448], [80.057628, 6.238863], [80.057876, 6.239239]]
-}

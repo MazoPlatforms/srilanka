@@ -1,9 +1,0 @@
-{
-  "id": 183110070,
-  "name": "Kulasevana Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.964653, 6.848701], [79.964752, 6.848436], [79.964778, 6.848295]]
-}

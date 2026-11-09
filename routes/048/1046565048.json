@@ -1,9 +1,0 @@
-{
-  "id": 1046565048,
-  "name": "අඩිපාර (Foot path)",
-  "highway": "footway",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"bicycle": 8, "foot": 5},
-  "coordinates": [[80.849796, 6.624526], [80.849798, 6.62452], [80.850105, 6.624354], [80.85038, 6.624164]]
-}

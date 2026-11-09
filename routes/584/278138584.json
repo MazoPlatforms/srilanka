@@ -1,9 +1,0 @@
-{
-  "id": 278138584,
-  "name": "School Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.25662, 7.617096], [80.256548, 7.617111], [80.256048, 7.617111], [80.255754, 7.617166], [80.255614, 7.617217]]
-}

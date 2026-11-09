@@ -1,9 +1,0 @@
-{
-  "id": 475438002,
-  "name": "13th Lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.941634, 6.885483], [79.943349, 6.886446]]
-}

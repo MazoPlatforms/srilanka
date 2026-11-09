@@ -1,9 +1,0 @@
-{
-  "id": 278787276,
-  "name": "Lighthouse Street",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.217415, 6.024215], [80.217393, 6.024305], [80.21718, 6.025126]]
-}

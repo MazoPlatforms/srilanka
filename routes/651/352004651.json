@@ -1,9 +1,0 @@
-{
-  "id": 352004651,
-  "name": "Millenium City Circular Road",
-  "highway": "residential",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.909562, 7.119494], [79.909565, 7.118903]]
-}

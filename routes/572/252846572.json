@@ -1,9 +1,0 @@
-{
-  "id": 252846572,
-  "name": "13th Lane (Cycle Path)",
-  "highway": "cycleway",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"bicycle": 18, "foot": 5},
-  "coordinates": [[79.877833, 6.781826], [79.877621, 6.781744], [79.877648, 6.781702], [79.876924, 6.781402]]
-}

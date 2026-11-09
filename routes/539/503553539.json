@@ -1,9 +1,0 @@
-{
-  "id": 503553539,
-  "name": "Kent Estate Rd",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.577052, 7.630993], [80.576984, 7.630313], [80.576813, 7.628856], [80.576813, 7.628277], [80.5767, 7.627803], [80.576507, 7.626453]]
-}

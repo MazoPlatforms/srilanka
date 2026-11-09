@@ -1,9 +1,0 @@
-{
-  "id": 492939459,
-  "name": "Vijayakanth Ground Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.410744, 8.206522], [81.410993, 8.206539], [81.411477, 8.206557], [81.412175, 8.206656], [81.412586, 8.206765]]
-}

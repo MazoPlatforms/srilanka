@@ -1,9 +1,0 @@
-{
-  "id": 52563412,
-  "name": "Sakvithi Lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.868317, 6.893058], [79.868911, 6.892369], [79.869127, 6.892072], [79.869215, 6.891906], [79.869257, 6.891858]]
-}

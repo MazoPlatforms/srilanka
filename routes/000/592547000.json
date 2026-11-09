@@ -1,9 +1,0 @@
-{
-  "id": 592547000,
-  "name": "Telecom road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.314192, 8.405193], [81.314245, 8.404802], [81.31427, 8.404538], [81.314269, 8.404317]]
-}

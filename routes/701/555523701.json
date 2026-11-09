@@ -1,9 +1,0 @@
-{
-  "id": 555523701,
-  "name": "ABC Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.869398, 6.93592], [79.869366, 6.93569], [79.869424, 6.93541], [79.869491, 6.93514], [79.869528, 6.935038], [79.869588, 6.934887]]
-}

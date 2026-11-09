@@ -1,9 +1,0 @@
-{
-  "id": 489020982,
-  "name": "Police Lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.406778, 8.216268], [81.407225, 8.21634], [81.407866, 8.216428], [81.408049, 8.216473]]
-}

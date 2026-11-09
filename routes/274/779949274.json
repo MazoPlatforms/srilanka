@@ -1,9 +1,0 @@
-{
-  "id": 779949274,
-  "name": "Canada Friendship Road",
-  "highway": "primary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.87471, 7.158254], [79.874497, 7.158025], [79.87406, 7.157644], [79.873594, 7.157327], [79.87335, 7.157201], [79.872669, 7.156917], [79.872084, 7.156696]]
-}

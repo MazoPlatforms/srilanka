@@ -1,9 +1,0 @@
-{
-  "id": 155763422,
-  "name": "1A Cross Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.696626, 7.731142], [81.696735, 7.731375], [81.697053, 7.732045], [81.697241, 7.732492], [81.697465, 7.733037]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 108292493,
-  "name": "Lavender Lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.237059, 8.56873], [81.237216, 8.568899], [81.237339, 8.569027], [81.237514, 8.569312], [81.237684, 8.569629], [81.237872, 8.570045]]
-}

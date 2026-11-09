@@ -1,9 +1,0 @@
-{
-  "id": 691985362,
-  "name": "Bar Road",
-  "highway": "primary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.701002, 7.720652], [81.70108, 7.720552], [81.70112, 7.720471]]
-}

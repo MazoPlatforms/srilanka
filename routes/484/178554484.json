@@ -1,9 +1,0 @@
-{
-  "id": 178554484,
-  "name": "Wellington Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.849289, 7.212663], [81.848391, 7.212455], [81.847345, 7.212247], [81.846822, 7.212311], [81.845939, 7.212323]]
-}

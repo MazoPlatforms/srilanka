@@ -1,9 +1,0 @@
-{
-  "id": 376175838,
-  "name": "Thalangama Bus Depot",
-  "highway": "service",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 15, "motorcycle": 15, "bicycle": 15, "foot": 5},
-  "coordinates": [[79.926415, 6.907785], [79.926522, 6.907515], [79.926468, 6.907282], [79.926334, 6.906941], [79.926327, 6.906235], [79.926278, 6.906028]]
-}

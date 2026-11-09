@@ -1,9 +1,0 @@
-{
-  "id": 483608778,
-  "name": "Cane Industry Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.570934, 7.770448], [81.570854, 7.770876], [81.57079, 7.771656], [81.57077, 7.771828], [81.57094, 7.772646], [81.570956, 7.772807], [81.57094, 7.773293]]
-}

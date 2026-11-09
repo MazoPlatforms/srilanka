@@ -1,9 +1,0 @@
-{
-  "id": 232519058,
-  "name": "Poonthodam Kudiyiruppu lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.506163, 8.770031], [80.50588, 8.76964], [80.506766, 8.768963], [80.507196, 8.768627], [80.507255, 8.76859], [80.507329, 8.76859], [80.507548, 8.769095]]
-}

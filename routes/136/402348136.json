@@ -1,9 +1,0 @@
-{
-  "id": 402348136,
-  "name": "Sandilipay Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.021249, 9.734526], [80.021308, 9.734495], [80.021434, 9.734428], [80.021785, 9.73424], [80.021963, 9.73414]]
-}

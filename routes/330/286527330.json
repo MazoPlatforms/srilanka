@@ -1,9 +1,0 @@
-{
-  "id": 286527330,
-  "name": "Unalla Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.519381, 5.979596], [80.519332, 5.979622], [80.519294, 5.979723]]
-}

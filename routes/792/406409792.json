@@ -1,9 +1,0 @@
-{
-  "id": 406409792,
-  "name": "Daniel Avenue",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.872275, 6.892057], [79.87251, 6.892062], [79.872897, 6.892047], [79.872926, 6.892044], [79.872954, 6.892039], [79.872967, 6.892024], [79.872977, 6.891928]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 457827321,
-  "name": "Navakkaadu 1st Cross Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.715002, 7.608666], [81.714995, 7.608981], [81.715, 7.609337]]
-}

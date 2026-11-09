@@ -1,9 +1,0 @@
-{
-  "id": 450707702,
-  "name": "Baduriya Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.726874, 7.676596], [81.727205, 7.676737], [81.727555, 7.676867], [81.728007, 7.676972], [81.728108, 7.676507], [81.728166, 7.675935], [81.728249, 7.675436]]
-}

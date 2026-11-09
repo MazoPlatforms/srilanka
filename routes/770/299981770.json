@@ -1,9 +1,0 @@
-{
-  "id": 299981770,
-  "name": "Medawatte Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.951508, 6.855176], [79.951239, 6.855059], [79.950832, 6.854984], [79.950687, 6.854904], [79.950526, 6.85475], [79.950055, 6.854599]]
-}

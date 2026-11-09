@@ -1,9 +1,0 @@
-{
-  "id": 278502506,
-  "name": "Kothmale Road",
-  "highway": "primary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.661468, 6.938241], [80.66154, 6.93819], [80.6617, 6.938136]]
-}

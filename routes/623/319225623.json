@@ -1,9 +1,0 @@
-{
-  "id": 319225623,
-  "name": "Circular Road",
-  "highway": "service",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 15, "motorcycle": 15, "bicycle": 15, "foot": 5},
-  "coordinates": [[80.797082, 6.021903], [80.79706, 6.021941], [80.797029, 6.021993], [80.796936, 6.022104], [80.796563, 6.022554], [80.796516, 6.02262]]
-}

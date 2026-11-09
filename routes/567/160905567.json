@@ -1,9 +1,0 @@
-{
-  "id": 160905567,
-  "name": "Kithul Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.500757, 8.759118], [80.500883, 8.759339], [80.501229, 8.759852], [80.501657, 8.760449]]
-}

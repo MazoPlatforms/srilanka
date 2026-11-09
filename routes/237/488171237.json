@@ -1,9 +1,0 @@
-{
-  "id": 488171237,
-  "name": "Market Cross Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.55522, 7.82728], [81.555436, 7.826329], [81.555577, 7.825743]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 46940656,
-  "name": "Rajasinghe Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.862357, 6.868852], [79.862298, 6.868842], [79.860296, 6.868516], [79.858911, 6.868325]]
-}

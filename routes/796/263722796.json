@@ -1,9 +1,0 @@
-{
-  "id": 263722796,
-  "name": "21st Lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.980383, 6.912687], [79.979987, 6.911857]]
-}

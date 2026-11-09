@@ -1,9 +1,0 @@
-{
-  "id": 360993628,
-  "name": "4th Lane",
-  "highway": "unclassified",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.80433, 7.57493], [79.804195, 7.576371], [79.804073, 7.576965], [79.803991, 7.577518]]
-}

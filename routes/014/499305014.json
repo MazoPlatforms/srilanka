@@ -1,9 +1,0 @@
-{
-  "id": 499305014,
-  "name": "Venora Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.909275, 6.793128], [79.909631, 6.793349], [79.909766, 6.793435]]
-}

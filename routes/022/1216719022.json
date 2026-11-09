@@ -1,9 +1,0 @@
-{
-  "id": 1216719022,
-  "name": "Groud road",
-  "highway": "residential",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.128955, 7.750003], [81.129354, 7.750034], [81.129773, 7.750082], [81.129947, 7.750082], [81.13009, 7.750234]]
-}

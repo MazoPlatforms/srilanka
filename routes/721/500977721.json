@@ -1,9 +1,0 @@
-{
-  "id": 500977721,
-  "name": "Scale Bridge",
-  "highway": "service",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "bicycle": 15, "foot": 5},
-  "coordinates": [[80.988202, 7.338531], [80.988743, 7.33873]]
-}

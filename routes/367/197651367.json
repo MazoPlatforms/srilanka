@@ -1,9 +1,0 @@
-{
-  "id": 197651367,
-  "name": "1st Cross Lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.061202, 6.992484], [81.061395, 6.992482], [81.061615, 6.992478], [81.062019, 6.992474]]
-}

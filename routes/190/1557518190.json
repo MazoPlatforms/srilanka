@@ -1,9 +1,0 @@
-{
-  "id": 1557518190,
-  "name": "Lake City Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.889356, 7.078443], [79.889822, 7.078352], [79.890402, 7.078443]]
-}

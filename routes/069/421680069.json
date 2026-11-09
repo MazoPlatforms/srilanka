@@ -1,9 +1,0 @@
-{
-  "id": 421680069,
-  "name": "Batalanda Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.960793, 6.967464], [79.960814, 6.967776], [79.961005, 6.968097], [79.961303, 6.968411], [79.961415, 6.968865]]
-}

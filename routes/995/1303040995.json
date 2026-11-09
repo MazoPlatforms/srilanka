@@ -1,9 +1,0 @@
-{
-  "id": 1303040995,
-  "name": "Prime New City Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.950143, 6.791796], [79.950344, 6.792282], [79.950439, 6.792548], [79.950511, 6.792744], [79.950576, 6.792971]]
-}

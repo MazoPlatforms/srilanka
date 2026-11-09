@@ -1,9 +1,0 @@
-{
-  "id": 1461874091,
-  "name": "Beach Drive",
-  "highway": "unclassified",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.838287, 6.929864], [79.83815, 6.929818], [79.837235, 6.929532]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 23233979,
-  "name": "Market Street",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.550511, 5.944672], [80.550512, 5.944634], [80.550562, 5.94309], [80.550564, 5.94302]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 52562944,
-  "name": "Bois Place",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.869688, 6.888182], [79.869612, 6.887131], [79.869586, 6.886624]]
-}

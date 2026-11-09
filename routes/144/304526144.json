@@ -1,9 +1,0 @@
-{
-  "id": 304526144,
-  "name": "Minro Lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.802621, 7.364543], [81.802692, 7.365], [81.802849, 7.365674]]
-}

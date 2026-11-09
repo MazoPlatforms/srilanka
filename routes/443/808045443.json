@@ -1,9 +1,0 @@
-{
-  "id": 808045443,
-  "name": "Denuk Gedara Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.384022, 6.658283], [80.383932, 6.658246], [80.38307, 6.657975], [80.382866, 6.657821], [80.381998, 6.657509], [80.381648, 6.657408]]
-}

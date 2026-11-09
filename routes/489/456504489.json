@@ -1,9 +1,0 @@
-{
-  "id": 456504489,
-  "name": "2nd division cross road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.670712, 7.506161], [81.670631, 7.50591], [81.670631, 7.505402], [81.670814, 7.505277], [81.670862, 7.505171], [81.670824, 7.505006], [81.670878, 7.504868], [81.670814, 7.504724]]
-}

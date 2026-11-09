@@ -1,9 +1,0 @@
-{
-  "id": 512896760,
-  "name": "Kachcheri East Lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.035078, 9.659203], [80.035244, 9.659398], [80.035294, 9.65947], [80.035395, 9.659681], [80.035503, 9.659692], [80.035549, 9.659691]]
-}

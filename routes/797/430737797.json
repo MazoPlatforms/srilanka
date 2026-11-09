@@ -1,9 +1,0 @@
-{
-  "id": 430737797,
-  "name": "Minuwangoda New Road",
-  "highway": "primary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.991151, 7.097351], [79.9912, 7.097593], [79.991263, 7.097924]]
-}

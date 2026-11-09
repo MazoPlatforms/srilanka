@@ -1,9 +1,0 @@
-{
-  "id": 53790008,
-  "name": "Kanatta Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.918915, 6.904433], [79.919055, 6.904181], [79.919113, 6.904077], [79.919157, 6.903999], [79.9192, 6.903919], [79.919351, 6.903593]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 52450805,
-  "name": "Schofield Place",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.85196, 6.89783], [79.852454, 6.897961], [79.852724, 6.898031], [79.852917, 6.898087], [79.853931, 6.898345]]
-}

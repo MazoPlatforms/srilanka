@@ -1,9 +1,0 @@
-{
-  "id": 204200067,
-  "name": "Mendis Lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.845193, 7.211744], [79.84484, 7.2118], [79.844739, 7.211803], [79.844701, 7.211679], [79.844658, 7.211627], [79.844463, 7.211602], [79.843779, 7.211482]]
-}

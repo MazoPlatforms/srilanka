@@ -1,9 +1,0 @@
-{
-  "id": 457158381,
-  "name": "Post office Cross Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.712186, 7.625726], [81.71201, 7.624963], [81.71141, 7.625107]]
-}

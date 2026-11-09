@@ -1,9 +1,0 @@
-{
-  "id": 306438663,
-  "name": "Old DRO Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.901414, 7.045365], [79.901387, 7.045428], [79.901306, 7.045618], [79.901179, 7.045985], [79.901125, 7.046127], [79.902044, 7.046496]]
-}

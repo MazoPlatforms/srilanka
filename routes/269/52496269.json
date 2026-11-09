@@ -1,9 +1,0 @@
-{
-  "id": 52496269,
-  "name": "Kreda Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.865587, 6.86518], [79.865718, 6.865156], [79.865934, 6.865172], [79.867044, 6.865363]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 52510642,
-  "name": "Borella Kottawa Road",
-  "highway": "secondary_link",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.948508, 6.84878], [79.948566, 6.848693], [79.948595, 6.84861], [79.948619, 6.848515], [79.948657, 6.848224], [79.948682, 6.847762], [79.948698, 6.847694], [79.948768, 6.847585]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 890841989,
-  "name": "Anuradhapura Road",
-  "highway": "trunk",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "foot": 5},
-  "coordinates": [[80.270429, 7.995542], [80.270372, 7.995525], [80.270311, 7.995506], [80.270253, 7.995486], [80.270171, 7.995474]]
-}

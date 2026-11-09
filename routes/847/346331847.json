@@ -1,9 +1,0 @@
-{
-  "id": 346331847,
-  "name": "Pala Valavu Lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.042394, 9.657544], [80.042951, 9.657351], [80.043294, 9.657237], [80.043601, 9.657147], [80.043993, 9.657047], [80.044283, 9.656962]]
-}

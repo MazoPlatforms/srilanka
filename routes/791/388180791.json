@@ -1,9 +1,0 @@
-{
-  "id": 388180791,
-  "name": "2nd Lane Pokuna Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.962237, 7.043971], [79.962273, 7.043998], [79.962387, 7.044092], [79.962511, 7.044155], [79.963004, 7.044251]]
-}

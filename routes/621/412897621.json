@@ -1,9 +1,0 @@
-{
-  "id": 412897621,
-  "name": "Pallewela Road",
-  "highway": "primary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.573909, 7.161906], [80.573829, 7.16185], [80.573725, 7.1618], [80.573669, 7.161763], [80.573635, 7.161725]]
-}

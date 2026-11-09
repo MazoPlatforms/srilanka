@@ -1,9 +1,0 @@
-{
-  "id": 628488272,
-  "name": "Pallikkuda road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.189547, 9.476819], [80.187654, 9.476782], [80.186567, 9.476809], [80.185183, 9.476842], [80.18424, 9.476866]]
-}

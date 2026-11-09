@@ -1,9 +1,0 @@
-{
-  "id": 231688839,
-  "name": "7th Lane",
-  "highway": "living_street",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
-  "coordinates": [[79.968469, 6.881777], [79.967749, 6.88218], [79.967893, 6.882472], [79.967893, 6.882505], [79.967419, 6.882839]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 331980370,
-  "name": "Bonavista Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.774384, 6.955566], [80.77502, 6.955053], [80.775138, 6.955013], [80.775707, 6.954976], [80.775815, 6.95493], [80.776814, 6.95424]]
-}

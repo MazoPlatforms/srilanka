@@ -1,9 +1,0 @@
-{
-  "id": 53720964,
-  "name": "Moragan Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.852348, 6.928195], [79.852809, 6.928058], [79.852961, 6.928038], [79.853571, 6.927918]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 356878133,
-  "name": "Matara-Hakmana Road",
-  "highway": "primary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.547072, 5.948821], [80.547054, 5.948959], [80.546982, 5.949197], [80.546862, 5.949596], [80.546828, 5.949678], [80.546776, 5.949788], [80.546757, 5.949828]]
-}

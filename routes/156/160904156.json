@@ -1,9 +1,0 @@
-{
-  "id": 160904156,
-  "name": "Convent road 1st lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.50311, 8.750154], [80.503387, 8.751035]]
-}

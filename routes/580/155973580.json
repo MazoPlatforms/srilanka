@@ -1,9 +1,0 @@
-{
-  "id": 155973580,
-  "name": "Cemetery Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.674008, 7.736502], [81.674291, 7.73687], [81.674773, 7.737557], [81.675334, 7.738361], [81.675587, 7.738773], [81.675711, 7.738962], [81.676046, 7.73955]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 304526142,
-  "name": "Amparai 5th Street",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.800559, 7.36367], [81.800575, 7.363392], [81.800582, 7.362873], [81.800536, 7.362711], [81.800502, 7.362455]]
-}

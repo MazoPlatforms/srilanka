@@ -1,9 +1,0 @@
-{
-  "id": 384803001,
-  "name": "Parakum Padesa",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.988681, 7.089138], [79.988716, 7.089107], [79.98875, 7.089078]]
-}

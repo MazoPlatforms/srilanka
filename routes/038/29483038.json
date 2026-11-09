@@ -1,9 +1,0 @@
-{
-  "id": 29483038,
-  "name": "Japan Friendship Bridge (Victoria Bridge)",
-  "highway": "primary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.879498, 6.960595], [79.877495, 6.960205]]
-}

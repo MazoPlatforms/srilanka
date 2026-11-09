@@ -1,9 +1,0 @@
-{
-  "id": 182130080,
-  "name": "Fernando Place",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.865209, 6.943345], [79.865595, 6.942121]]
-}

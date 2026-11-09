@@ -1,9 +1,0 @@
-{
-  "id": 179540910,
-  "name": "Gs Office Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.559743, 7.846244], [81.559822, 7.846036], [81.560006, 7.845681], [81.560095, 7.845511], [81.560669, 7.844528]]
-}

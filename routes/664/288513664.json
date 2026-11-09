@@ -1,9 +1,0 @@
-{
-  "id": 288513664,
-  "name": "Kovil Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.810576, 7.413121], [81.811022, 7.413159], [81.810895, 7.414322], [81.810873, 7.414521]]
-}

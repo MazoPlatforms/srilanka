@@ -1,9 +1,0 @@
-{
-  "id": 316753754,
-  "name": "Thomputhar 2 lane Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.779305, 7.441983], [81.779412, 7.441998], [81.779645, 7.442033], [81.779916, 7.442058], [81.780382, 7.442086], [81.780782, 7.442086]]
-}

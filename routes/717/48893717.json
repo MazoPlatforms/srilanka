@@ -1,9 +1,0 @@
-{
-  "id": 48893717,
-  "name": "Atapattu Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.866417, 6.860089], [79.866323, 6.860087], [79.866097, 6.860081], [79.865306, 6.860099], [79.864401, 6.859901]]
-}

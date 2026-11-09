@@ -1,9 +1,0 @@
-{
-  "id": 457167789,
-  "name": "Housing Scheam road",
-  "highway": "living_street",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
-  "coordinates": [[81.713835, 7.616202], [81.71375, 7.616208], [81.712822, 7.616388], [81.712432, 7.616455], [81.71138, 7.616533]]
-}

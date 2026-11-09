@@ -1,9 +1,0 @@
-{
-  "id": 494580602,
-  "name": "Main Road",
-  "highway": "secondary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.734434, 7.569641], [81.734381, 7.569548], [81.734346, 7.569516]]
-}

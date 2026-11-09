@@ -1,9 +1,0 @@
-{
-  "id": 363161991,
-  "name": "Warayaya Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.932498, 6.233158], [80.932755, 6.232547], [80.932855, 6.232393], [80.933751, 6.231019], [80.934612, 6.229874], [80.935265, 6.229096]]
-}

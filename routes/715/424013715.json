@@ -1,9 +1,0 @@
-{
-  "id": 424013715,
-  "name": "14/1st Lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.873606, 7.122441], [79.87389, 7.122478], [79.874216, 7.122506]]
-}

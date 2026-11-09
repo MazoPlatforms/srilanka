@@ -1,9 +1,0 @@
-{
-  "id": 384156011,
-  "name": "Kamatha Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.976706, 7.072708], [79.976825, 7.072883], [79.976927, 7.073025], [79.977016, 7.073014], [79.977082, 7.073113], [79.977142, 7.073408], [79.977304, 7.073663]]
-}

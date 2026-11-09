@@ -1,9 +1,0 @@
-{
-  "id": 160701993,
-  "name": "Maligatenna Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.616414, 7.465982], [80.615874, 7.464604], [80.615788, 7.464385], [80.615762, 7.464306], [80.615449, 7.463417], [80.615294, 7.462852]]
-}

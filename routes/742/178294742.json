@@ -1,9 +1,0 @@
-{
-  "id": 178294742,
-  "name": "Unique View Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.763825, 6.96334], [80.763792, 6.963379], [80.763738, 6.963488], [80.763702, 6.963726], [80.763601, 6.963865], [80.763425, 6.964102], [80.763274, 6.964646]]
-}

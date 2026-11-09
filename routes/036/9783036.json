@@ -1,9 +1,0 @@
-{
-  "id": 9783036,
-  "name": "Police Station Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.04835, 6.876212], [81.048323, 6.875501], [81.048307, 6.874946], [81.048338, 6.874406]]
-}

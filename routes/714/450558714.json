@@ -1,9 +1,0 @@
-{
-  "id": 450558714,
-  "name": "Kalaivaani Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.5868, 7.7959], [81.587285, 7.795434], [81.587713, 7.795021], [81.588179, 7.794633], [81.588691, 7.794152], [81.589387, 7.793424], [81.589707, 7.792975]]
-}

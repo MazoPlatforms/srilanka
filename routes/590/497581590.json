@@ -1,9 +1,0 @@
-{
-  "id": 497581590,
-  "name": "Moras Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.549854, 7.622104], [81.549352, 7.621994], [81.548676, 7.621882], [81.548526, 7.621887], [81.5484, 7.621954]]
-}

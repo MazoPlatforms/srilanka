@@ -1,9 +1,0 @@
-{
-  "id": 668689820,
-  "name": "Keppetipola Road",
-  "highway": "secondary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.633569, 7.291679], [80.633622, 7.291713], [80.633669, 7.291731], [80.633719, 7.291738], [80.633761, 7.291735], [80.633807, 7.291723]]
-}

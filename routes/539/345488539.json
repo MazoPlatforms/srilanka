@@ -1,9 +1,0 @@
-{
-  "id": 345488539,
-  "name": "Saman Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.890073, 6.880466], [79.889761, 6.880133], [79.889572, 6.879933], [79.889546, 6.879924], [79.889528, 6.879935], [79.889336, 6.880146]]
-}

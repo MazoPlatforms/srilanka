@@ -1,9 +1,0 @@
-{
-  "id": 377705219,
-  "name": "Inservice Road",
-  "highway": "service",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "bicycle": 15, "foot": 5},
-  "coordinates": [[80.602445, 7.273624], [80.601645, 7.272619], [80.601256, 7.272156], [80.600098, 7.270777]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 204621125,
-  "name": "Kothwila Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.262613, 6.849461], [80.262235, 6.850241], [80.262224, 6.850266], [80.26185, 6.851432], [80.261632, 6.8523], [80.261753, 6.852538], [80.262026, 6.852958]]
-}

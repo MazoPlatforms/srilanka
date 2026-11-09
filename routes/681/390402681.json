@@ -1,9 +1,0 @@
-{
-  "id": 390402681,
-  "name": "Matara Road",
-  "highway": "trunk",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 70.0, "motorcycle": 70.0, "truck": 70.0, "foot": 5},
-  "coordinates": [[80.241845, 6.029552], [80.241793, 6.029604], [80.24173, 6.02966], [80.24161, 6.029778], [80.241297, 6.030136]]
-}

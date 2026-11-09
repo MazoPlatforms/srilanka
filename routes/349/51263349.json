@@ -1,9 +1,0 @@
-{
-  "id": 51263349,
-  "name": "Mountainhallwatta Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.231931, 6.059143], [80.232308, 6.058983], [80.23268, 6.058926], [80.232866, 6.058879], [80.233299, 6.05862], [80.233427, 6.058576]]
-}

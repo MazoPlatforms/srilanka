@@ -1,9 +1,0 @@
-{
-  "id": 579336708,
-  "name": "Miriswatta-Waturugama Road",
-  "highway": "primary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.016898, 7.073392], [80.016787, 7.073425], [80.016665, 7.073474], [80.016565, 7.073551], [80.016513, 7.073602]]
-}

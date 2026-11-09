@@ -1,9 +1,0 @@
-{
-  "id": 48731371,
-  "name": "Magazine Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.877732, 6.916945], [79.877774, 6.91695], [79.878147, 6.916994]]
-}

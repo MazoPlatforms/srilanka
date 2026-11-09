@@ -1,9 +1,0 @@
-{
-  "id": 197653217,
-  "name": "North Lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.058738, 6.989097], [81.057831, 6.989121], [81.057148, 6.989113]]
-}

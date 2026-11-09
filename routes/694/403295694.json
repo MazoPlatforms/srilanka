@@ -1,9 +1,0 @@
-{
-  "id": 403295694,
-  "name": "Puthuvilankulam Road 2nd Lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.444641, 9.039249], [80.446202, 9.038407], [80.446985, 9.037741], [80.447774, 9.037439], [80.452811, 9.036645]]
-}

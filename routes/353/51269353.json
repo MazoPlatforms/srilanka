@@ -1,9 +1,0 @@
-{
-  "id": 51269353,
-  "name": "Gabos Lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.854123, 6.939765], [79.853986, 6.939767], [79.853817, 6.939769], [79.853516, 6.939728], [79.853302, 6.939705]]
-}

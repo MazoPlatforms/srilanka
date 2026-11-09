@@ -1,9 +1,0 @@
-{
-  "id": 354003768,
-  "name": "29th Lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.426874, 9.3216], [80.423303, 9.321756], [80.422073, 9.321801]]
-}

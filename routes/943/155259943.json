@@ -1,9 +1,0 @@
-{
-  "id": 155259943,
-  "name": "Olive Lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.696898, 7.717496], [81.69714, 7.717734], [81.697395, 7.717927], [81.697869, 7.718438], [81.69788, 7.71845], [81.698085, 7.718666]]
-}

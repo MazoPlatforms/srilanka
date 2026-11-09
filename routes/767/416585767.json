@@ -1,9 +1,0 @@
-{
-  "id": 416585767,
-  "name": "Private Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.968883, 6.89882], [79.968927, 6.898514], [79.969039, 6.89818]]
-}

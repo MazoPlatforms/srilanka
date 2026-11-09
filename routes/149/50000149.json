@@ -1,9 +1,0 @@
-{
-  "id": 50000149,
-  "name": "New Ferry Lane",
-  "highway": "residential",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.850452, 6.925198], [79.850541, 6.925235], [79.850771, 6.925291]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 421352543,
-  "name": "Sellam Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.592663, 7.789199], [81.591351, 7.789175], [81.590881, 7.789217]]
-}

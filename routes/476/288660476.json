@@ -1,9 +1,0 @@
-{
-  "id": 288660476,
-  "name": "TC 3rd lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.807461, 7.369132], [81.806915, 7.369252], [81.806168, 7.36941]]
-}

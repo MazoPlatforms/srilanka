@@ -1,9 +1,0 @@
-{
-  "id": 1528575385,
-  "name": "Main Street",
-  "highway": "primary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.223713, 8.580554], [81.223607, 8.580424], [81.223524, 8.58034]]
-}

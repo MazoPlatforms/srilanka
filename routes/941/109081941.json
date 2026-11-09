@@ -1,9 +1,0 @@
-{
-  "id": 109081941,
-  "name": "Delgahawatta Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.870521, 6.818885], [79.87063, 6.818885], [79.871402, 6.818945], [79.872149, 6.818985], [79.872273, 6.818991], [79.872335, 6.818996], [79.873848, 6.819062]]
-}

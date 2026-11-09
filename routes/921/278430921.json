@@ -1,9 +1,0 @@
-{
-  "id": 278430921,
-  "name": "Radella Short Cut Road",
-  "highway": "primary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.720663, 6.9285], [80.720792, 6.928547], [80.720834, 6.928569], [80.720877, 6.928597], [80.720913, 6.928623]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 1568889702,
-  "name": "Dutugemunu Street",
-  "highway": "primary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.87364, 6.873082], [79.873568, 6.873079], [79.873311, 6.873199], [79.873201, 6.873259], [79.873133, 6.873294], [79.873032, 6.873366]]
-}

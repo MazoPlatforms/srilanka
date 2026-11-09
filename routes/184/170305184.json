@@ -1,9 +1,0 @@
-{
-  "id": 170305184,
-  "name": "Terrace Street",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.125642, 6.126157], [81.12565, 6.127144], [81.125709, 6.127723], [81.1258, 6.127751], [81.125941, 6.127739]]
-}

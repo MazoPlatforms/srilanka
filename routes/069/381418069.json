@@ -1,9 +1,0 @@
-{
-  "id": 381418069,
-  "name": "Flower Garden 4th lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.981472, 7.042752], [79.981989, 7.042644], [79.982176, 7.042611]]
-}

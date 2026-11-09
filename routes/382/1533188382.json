@@ -1,9 +1,0 @@
-{
-  "id": 1533188382,
-  "name": "Anuradhapura Road (Villu Road)",
-  "highway": "primary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.853464, 8.030294], [79.853582, 8.030311], [79.853701, 8.030345]]
-}

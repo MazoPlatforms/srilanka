@@ -1,9 +1,0 @@
-{
-  "id": 533627576,
-  "name": "Second Lane",
-  "highway": "living_street",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
-  "coordinates": [[79.985329, 6.775805], [79.986514, 6.775108]]
-}

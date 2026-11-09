@@ -1,9 +1,0 @@
-{
-  "id": 97415332,
-  "name": "Borella Road",
-  "highway": "primary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.948604, 6.847334], [79.948543, 6.846874], [79.94846, 6.846398]]
-}

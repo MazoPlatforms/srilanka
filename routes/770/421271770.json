@@ -1,9 +1,0 @@
-{
-  "id": 421271770,
-  "name": "Maithana Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.589756, 7.824644], [81.589106, 7.824953], [81.588429, 7.82543], [81.588226, 7.825623], [81.588003, 7.825911]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 170299728,
-  "name": "Well Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.120684, 6.123192], [81.121207, 6.123871], [81.121849, 6.124653]]
-}

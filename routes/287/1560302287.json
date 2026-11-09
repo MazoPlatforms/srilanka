@@ -1,9 +1,0 @@
-{
-  "id": 1560302287,
-  "name": "Vahaneri Main Road",
-  "highway": "tertiary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.443914, 7.9519], [81.444005, 7.951848], [81.444108, 7.95181], [81.444193, 7.951804], [81.444364, 7.951814], [81.444528, 7.951842], [81.444704, 7.951906]]
-}

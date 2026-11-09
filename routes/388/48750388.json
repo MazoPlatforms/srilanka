@@ -1,9 +1,0 @@
-{
-  "id": 48750388,
-  "name": "Zaviya Road",
-  "highway": "tertiary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.852828, 6.923799], [79.852697, 6.923461], [79.852653, 6.92337]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 52445575,
-  "name": "Charles Drive",
-  "highway": "tertiary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.854519, 6.903015], [79.8546, 6.903039], [79.855124, 6.903191], [79.855529, 6.90334], [79.855702, 6.90339]]
-}

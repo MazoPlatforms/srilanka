@@ -1,9 +1,0 @@
-{
-  "id": 178554459,
-  "name": "Palipody Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.845993, 7.207301], [81.846777, 7.207358], [81.847763, 7.207385], [81.848208, 7.207382], [81.849291, 7.207341]]
-}

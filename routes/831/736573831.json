@@ -1,9 +1,0 @@
-{
-  "id": 736573831,
-  "name": "Airport Access Driveway",
-  "highway": "secondary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 45, "motorcycle": 45, "truck": 45, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.066925, 9.795764], [80.066255, 9.79646], [80.065939, 9.79679], [80.064879, 9.797864], [80.064759, 9.797975]]
-}

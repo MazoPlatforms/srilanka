@@ -1,9 +1,0 @@
-{
-  "id": 1495050349,
-  "name": "Fife Road",
-  "highway": "secondary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.868477, 6.891165], [79.868427, 6.891213], [79.868402, 6.891286], [79.868371, 6.891381], [79.868357, 6.891452]]
-}

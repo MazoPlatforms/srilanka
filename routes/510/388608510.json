@@ -1,9 +1,0 @@
-{
-  "id": 388608510,
-  "name": "Tracmo Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.992102, 7.047652], [79.991796, 7.04752], [79.991502, 7.047381], [79.990829, 7.046865]]
-}

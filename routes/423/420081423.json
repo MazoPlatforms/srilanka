@@ -1,9 +1,0 @@
-{
-  "id": 420081423,
-  "name": "Cross Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.957294, 6.911789], [79.957321, 6.911793], [79.957432, 6.911809], [79.957682, 6.912007]]
-}

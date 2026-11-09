@@ -1,9 +1,0 @@
-{
-  "id": 180781644,
-  "name": "5th Lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.90111, 6.908482], [79.90095, 6.908249], [79.900775, 6.908281], [79.900177, 6.907525]]
-}

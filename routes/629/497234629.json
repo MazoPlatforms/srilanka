@@ -1,9 +1,0 @@
-{
-  "id": 497234629,
-  "name": "Farm road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.955631, 6.647149], [79.954805, 6.647219], [79.954717, 6.647179], [79.954671, 6.647104], [79.954683, 6.646225], [79.95469, 6.645745]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 456937516,
-  "name": "Footpath",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.689978, 7.550084], [81.68994, 7.55011], [81.689851, 7.550111], [81.689299, 7.550017], [81.689215, 7.55003], [81.688993, 7.550126], [81.688824, 7.550131]]
-}

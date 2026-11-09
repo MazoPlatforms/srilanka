@@ -1,9 +1,0 @@
-{
-  "id": 489138414,
-  "name": "Roof Tile Factory Road",
-  "highway": "residential",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 45, "motorcycle": 45, "truck": 45, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.992892, 7.340206], [80.992915, 7.340247], [80.992959, 7.340375], [80.99302, 7.340539]]
-}

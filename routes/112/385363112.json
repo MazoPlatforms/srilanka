@@ -1,9 +1,0 @@
-{
-  "id": 385363112,
-  "name": "Gama Madha road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.98325, 7.078222], [79.983234, 7.078236], [79.983221, 7.078261], [79.983194, 7.078388], [79.983143, 7.078517]]
-}

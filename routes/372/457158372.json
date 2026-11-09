@@ -1,9 +1,0 @@
-{
-  "id": 457158372,
-  "name": "East Boundary Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.707928, 7.628949], [81.707376, 7.628928], [81.707106, 7.628918], [81.706963, 7.628912], [81.706305, 7.628915], [81.705906, 7.628956], [81.705519, 7.628965]]
-}

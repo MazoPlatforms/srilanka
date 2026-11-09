@@ -1,9 +1,0 @@
-{
-  "id": 155120954,
-  "name": "Angle Road (Nallaiah Road)",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.693335, 7.708966], [81.693318, 7.709002], [81.693126, 7.709088], [81.692573, 7.70929], [81.692007, 7.709485]]
-}

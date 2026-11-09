@@ -1,9 +1,0 @@
-{
-  "id": 180524801,
-  "name": "Cherry Lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.888796, 6.991777], [79.888935, 6.991689], [79.888957, 6.991058], [79.88892, 6.991021], [79.888846, 6.991026], [79.888384, 6.991141]]
-}

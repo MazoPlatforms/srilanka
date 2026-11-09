@@ -1,9 +1,0 @@
-{
-  "id": 200627144,
-  "name": "ismail road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.52245, 5.95532], [80.522676, 5.955436], [80.522844, 5.955439], [80.524178, 5.955722]]
-}

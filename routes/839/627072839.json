@@ -1,9 +1,0 @@
-{
-  "id": 627072839,
-  "name": "Lakeview 1st Cross Street",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.782286, 6.039028], [80.782143, 6.039084], [80.781736, 6.039214], [80.781625, 6.039414]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 523958260,
-  "name": "Co-op road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.657388, 7.539557], [81.657397, 7.539443], [81.657339, 7.538969], [81.65717, 7.538648], [81.657064, 7.538384]]
-}

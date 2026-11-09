@@ -1,9 +1,0 @@
-{
-  "id": 1192335366,
-  "name": "concreat road",
-  "highway": "unclassified",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.042658, 7.157409], [80.042739, 7.15815], [80.042726, 7.158231], [80.042591, 7.158545], [80.042578, 7.158634], [80.042602, 7.158716], [80.042715, 7.158805]]
-}

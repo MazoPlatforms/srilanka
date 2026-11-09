@@ -1,9 +1,0 @@
-{
-  "id": 179535157,
-  "name": "WRDS Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.615155, 7.768071], [81.615262, 7.76821], [81.615353, 7.768364], [81.615509, 7.768708], [81.615782, 7.769228]]
-}

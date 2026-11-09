@@ -1,9 +1,0 @@
-{
-  "id": 18599218,
-  "name": "Dun Short Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.775493, 6.962902], [80.77543, 6.962936], [80.775288, 6.963001], [80.773509, 6.963556], [80.772967, 6.963753]]
-}

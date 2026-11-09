@@ -1,9 +1,0 @@
-{
-  "id": 205624646,
-  "name": "Mera Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.532264, 5.955852], [80.532288, 5.955882], [80.532349, 5.955945], [80.532398, 5.955999]]
-}

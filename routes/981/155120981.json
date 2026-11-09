@@ -1,9 +1,0 @@
-{
-  "id": 155120981,
-  "name": "Victoria Lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.696783, 7.711612], [81.697033, 7.711492], [81.697223, 7.711405], [81.697659, 7.711238]]
-}

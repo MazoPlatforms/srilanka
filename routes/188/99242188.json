@@ -1,9 +1,0 @@
-{
-  "id": 99242188,
-  "name": "Welewatte Road",
-  "highway": "tertiary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.88783, 6.942778], [79.887862, 6.942582], [79.887868, 6.942442], [79.887822, 6.942257], [79.887529, 6.941824]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 406122925,
-  "name": "Prajamandala road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.882443, 7.073986], [79.882468, 7.074067], [79.882517, 7.074281], [79.882333, 7.074308], [79.882264, 7.074312], [79.88219, 7.074187]]
-}

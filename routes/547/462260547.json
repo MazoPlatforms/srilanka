@@ -1,9 +1,0 @@
-{
-  "id": 462260547,
-  "name": "Iirigation Bridge",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.578323, 7.695858], [81.578301, 7.695927], [81.57828, 7.695996]]
-}

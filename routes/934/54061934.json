@@ -1,9 +1,0 @@
-{
-  "id": 54061934,
-  "name": "Reservoir Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.87106, 6.928674], [79.871055, 6.928734], [79.870906, 6.929091], [79.87057, 6.929887]]
-}

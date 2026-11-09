@@ -1,9 +1,0 @@
-{
-  "id": 565491826,
-  "name": "Jaffna-Kankesanturai Road",
-  "highway": "primary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.009599, 9.664812], [80.009479, 9.664898], [80.009396, 9.664976], [80.009351, 9.665026]]
-}

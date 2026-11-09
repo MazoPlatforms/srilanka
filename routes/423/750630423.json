@@ -1,9 +1,0 @@
-{
-  "id": 750630423,
-  "name": "Iyanar Street",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.233899, 9.820548], [80.233571, 9.820704], [80.232782, 9.821017]]
-}

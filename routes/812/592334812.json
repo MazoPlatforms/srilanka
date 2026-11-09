@@ -1,9 +1,0 @@
-{
-  "id": 592334812,
-  "name": "canal road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.398461, 8.842086], [80.397873, 8.843075], [80.397649, 8.843629], [80.397462, 8.843998], [80.397182, 8.844773], [80.397257, 8.845327], [80.397321, 8.84677]]
-}

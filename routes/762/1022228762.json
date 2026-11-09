@@ -1,9 +1,0 @@
-{
-  "id": 1022228762,
-  "name": "Koddamunai Bridge",
-  "highway": "trunk",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "foot": 5},
-  "coordinates": [[81.698341, 7.715192], [81.698297, 7.715101], [81.69818, 7.714865], [81.698057, 7.714625], [81.69793, 7.714385]]
-}

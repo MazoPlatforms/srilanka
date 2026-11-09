@@ -1,9 +1,0 @@
-{
-  "id": 373014748,
-  "name": "Kovilkulam 5th lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.506981, 8.738661], [80.507359, 8.738626], [80.507654, 8.738597], [80.507989, 8.738539], [80.508261, 8.738439]]
-}

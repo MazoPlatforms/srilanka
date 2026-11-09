@@ -1,9 +1,0 @@
-{
-  "id": 376602333,
-  "name": "Bodhirukarama road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.866233, 6.867881], [79.866537, 6.867925], [79.866748, 6.868029]]
-}

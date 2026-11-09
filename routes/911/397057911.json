@@ -1,9 +1,0 @@
-{
-  "id": 397057911,
-  "name": "Barigama Road",
-  "highway": "primary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.606588, 7.292413], [80.606806, 7.292194], [80.606958, 7.291869], [80.607075, 7.291383], [80.60715, 7.290769]]
-}

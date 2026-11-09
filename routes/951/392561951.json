@@ -1,9 +1,0 @@
-{
-  "id": 392561951,
-  "name": "KPNDU road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.423092, 8.158106], [81.422579, 8.157832], [81.422026, 8.157514]]
-}

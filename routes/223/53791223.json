@@ -1,9 +1,0 @@
-{
-  "id": 53791223,
-  "name": "Devala Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.931352, 6.907471], [79.931334, 6.907155], [79.931357, 6.906779]]
-}

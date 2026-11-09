@@ -1,9 +1,0 @@
-{
-  "id": 179537315,
-  "name": "Bake House Cross Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.574089, 7.804531], [81.573713, 7.804561], [81.573468, 7.804613], [81.572843, 7.804828], [81.572816, 7.804884], [81.572824, 7.804953], [81.572602, 7.805159]]
-}

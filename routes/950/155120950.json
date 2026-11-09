@@ -1,9 +1,0 @@
-{
-  "id": 155120950,
-  "name": "Main Street",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.699334, 7.712625], [81.698977, 7.712855], [81.698486, 7.713065], [81.698232, 7.713168], [81.698198, 7.713186], [81.698082, 7.713254]]
-}

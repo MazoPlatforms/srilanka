@@ -1,9 +1,0 @@
-{
-  "id": 220001192,
-  "name": "Government Quarters Lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.710423, 7.714897], [81.711306, 7.715004], [81.711535, 7.715018], [81.712244, 7.715099], [81.712359, 7.715105], [81.712866, 7.715161], [81.712916, 7.715169], [81.713255, 7.715255]]
-}

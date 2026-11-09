@@ -1,9 +1,0 @@
-{
-  "id": 469846684,
-  "name": "Mahalwarawa road",
-  "highway": "tertiary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.961443, 6.829962], [79.961609, 6.829623], [79.961633, 6.829585], [79.961668, 6.829551], [79.961718, 6.829523]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 411746997,
-  "name": "Thandikulam 2nd & 3rd lane connecting lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.485985, 8.78344], [80.486025, 8.783374], [80.486019, 8.782706], [80.485931, 8.782029], [80.485875, 8.781865], [80.485792, 8.781783], [80.485712, 8.781435]]
-}

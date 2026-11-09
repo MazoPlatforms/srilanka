@@ -1,9 +1,0 @@
-{
-  "id": 173226796,
-  "name": "YMBA Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.928726, 6.980358], [79.929343, 6.981024]]
-}

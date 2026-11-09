@@ -1,9 +1,0 @@
-{
-  "id": 6504106,
-  "name": "Upper Dickson Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.21803, 6.041053], [80.218245, 6.041017], [80.218384, 6.040913], [80.218468, 6.040719], [80.21852, 6.040454], [80.218597, 6.039959], [80.218646, 6.039687]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 483607934,
-  "name": "Theviga Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.579924, 7.801889], [81.580589, 7.80115], [81.581408, 7.80031]]
-}

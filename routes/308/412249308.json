@@ -1,9 +1,0 @@
-{
-  "id": 412249308,
-  "name": "Old Trincomalee Road",
-  "highway": "secondary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.416519, 8.355659], [80.416599, 8.355666], [80.416755, 8.355706]]
-}

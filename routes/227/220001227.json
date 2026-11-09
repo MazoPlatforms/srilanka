@@ -1,9 +1,0 @@
-{
-  "id": 220001227,
-  "name": "6th Cross Street",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.714819, 7.713592], [81.714877, 7.713371], [81.714983, 7.713378], [81.715123, 7.712853], [81.715372, 7.711838], [81.715474, 7.71139], [81.715615, 7.710927]]
-}

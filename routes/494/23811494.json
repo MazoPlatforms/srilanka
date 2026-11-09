@@ -1,9 +1,0 @@
-{
-  "id": 23811494,
-  "name": "Katugastota Bridge",
-  "highway": "trunk",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
-  "coordinates": [[80.626348, 7.321728], [80.625112, 7.322163]]
-}

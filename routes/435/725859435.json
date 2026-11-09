@@ -1,9 +1,0 @@
-{
-  "id": 725859435,
-  "name": "Residential Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.026955, 6.83627], [80.026984, 6.836211], [80.026997, 6.836112], [80.026888, 6.83565], [80.026552, 6.835177], [80.026256, 6.83493]]
-}

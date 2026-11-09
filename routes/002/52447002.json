@@ -1,9 +1,0 @@
-{
-  "id": 52447002,
-  "name": "Carmel Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.85264, 6.914221], [79.85175, 6.91399], [79.851297, 6.913876], [79.850959, 6.913797]]
-}

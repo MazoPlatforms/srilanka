@@ -1,9 +1,0 @@
-{
-  "id": 331977073,
-  "name": "Gibson Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.769908, 6.960503], [80.769792, 6.960212], [80.769631, 6.95983], [80.769618, 6.959707]]
-}

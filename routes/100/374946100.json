@@ -1,9 +1,0 @@
-{
-  "id": 374946100,
-  "name": "Mahindarama Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.906736, 6.898052], [79.907473, 6.898015], [79.907668, 6.898009], [79.907849, 6.898], [79.907989, 6.897993]]
-}

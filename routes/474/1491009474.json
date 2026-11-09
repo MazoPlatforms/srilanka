@@ -1,9 +1,0 @@
-{
-  "id": 1491009474,
-  "name": "Kelani Railway Flyover",
-  "highway": "trunk",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
-  "coordinates": [[79.896535, 6.964133], [79.896264, 6.963852]]
-}

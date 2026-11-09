@@ -1,9 +1,0 @@
-{
-  "id": 155973605,
-  "name": "Boundary 3rd Cross",
-  "highway": "service",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "bicycle": 15, "foot": 5},
-  "coordinates": [[81.672387, 7.741528], [81.672555, 7.74135], [81.672751, 7.741166], [81.67291, 7.740987]]
-}

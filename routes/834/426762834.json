@@ -1,9 +1,0 @@
-{
-  "id": 426762834,
-  "name": "Library Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.926941, 6.844658], [79.926771, 6.844653], [79.926496, 6.844646], [79.925987, 6.84469]]
-}

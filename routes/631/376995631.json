@@ -1,9 +1,0 @@
-{
-  "id": 376995631,
-  "name": "Waththa Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.870546, 6.813897], [79.871268, 6.813668], [79.871742, 6.813307], [79.872446, 6.81275], [79.87288, 6.81234], [79.873293, 6.811858]]
-}

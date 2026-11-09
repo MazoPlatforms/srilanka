@@ -1,9 +1,0 @@
-{
-  "id": 524642617,
-  "name": "Anderson Road",
-  "highway": "secondary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.882173, 6.854203], [79.882176, 6.854065], [79.88219, 6.853739], [79.882213, 6.85329], [79.882257, 6.852702], [79.882265, 6.852222]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 691983621,
-  "name": "Trincomalee Road",
-  "highway": "trunk",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "foot": 5},
-  "coordinates": [[81.699011, 7.717648], [81.698969, 7.717742], [81.698942, 7.717804], [81.698917, 7.717862], [81.698891, 7.717926]]
-}

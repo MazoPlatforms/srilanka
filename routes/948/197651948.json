@@ -1,9 +1,0 @@
-{
-  "id": 197651948,
-  "name": "Masjid Road",
-  "highway": "residential",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.058823, 6.988825], [81.058922, 6.988849], [81.059234, 6.98897], [81.05961, 6.989083]]
-}

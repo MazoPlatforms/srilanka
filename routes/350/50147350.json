@@ -1,9 +1,0 @@
-{
-  "id": 50147350,
-  "name": "De Alwis Place",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.861394, 6.854367], [79.864238, 6.855196], [79.864782, 6.855351], [79.864897, 6.855387], [79.864929, 6.855442], [79.865004, 6.855465], [79.86531, 6.855536]]
-}

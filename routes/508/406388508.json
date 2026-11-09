@@ -1,9 +1,0 @@
-{
-  "id": 406388508,
-  "name": "St. Maria Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.892789, 7.079431], [79.892734, 7.079529], [79.892694, 7.079615], [79.892623, 7.079735], [79.892565, 7.079837], [79.892509, 7.079956]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 523974376,
-  "name": "Vammiyadiuttu main road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.683224, 7.530628], [81.683483, 7.530564], [81.684176, 7.530377], [81.684326, 7.530327], [81.684382, 7.53028], [81.684416, 7.529842]]
-}

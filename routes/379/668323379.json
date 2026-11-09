@@ -1,9 +1,0 @@
-{
-  "id": 668323379,
-  "name": "Slave Island Police Round About",
-  "highway": "trunk",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
-  "coordinates": [[79.849801, 6.927695], [79.849837, 6.927685], [79.849857, 6.927676], [79.84988, 6.927659], [79.849896, 6.927643]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 52937693,
-  "name": "Wekanda Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.852225, 6.918634], [79.852158, 6.919251], [79.852145, 6.919378], [79.852017, 6.919866], [79.851768, 6.920617]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 50130621,
-  "name": "Mangala Road",
-  "highway": "tertiary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.993929, 7.09341], [79.994052, 7.093315], [79.994663, 7.092881], [79.995053, 7.092622]]
-}

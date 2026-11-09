@@ -1,9 +1,0 @@
-{
-  "id": 173115365,
-  "name": "Rampart Cross Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.906253, 6.893504], [79.906276, 6.893608], [79.90648, 6.894543]]
-}

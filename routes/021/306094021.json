@@ -1,9 +1,0 @@
-{
-  "id": 306094021,
-  "name": "Barkath Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.522217, 7.907279], [81.522215, 7.907505]]
-}

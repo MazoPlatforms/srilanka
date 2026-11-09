@@ -1,9 +1,0 @@
-{
-  "id": 161010158,
-  "name": "Kandy Road 1st Lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.493687, 8.747564], [80.494109, 8.747279], [80.494461, 8.747125], [80.4955, 8.746688]]
-}

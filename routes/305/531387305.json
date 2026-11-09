@@ -1,9 +1,0 @@
-{
-  "id": 531387305,
-  "name": "Kolonnawa-Angoda Road",
-  "highway": "primary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.913309, 6.923084], [79.913035, 6.923484], [79.912996, 6.923587]]
-}

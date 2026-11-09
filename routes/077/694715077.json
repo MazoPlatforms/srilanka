@@ -1,9 +1,0 @@
-{
-  "id": 694715077,
-  "name": "Buthgamuva Cross Road",
-  "highway": "residential",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.903041, 6.909627], [79.903037, 6.909802], [79.902989, 6.909998]]
-}

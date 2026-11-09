@@ -1,9 +1,0 @@
-{
-  "id": 97415303,
-  "name": "Pannipitiya Flyover",
-  "highway": "primary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.948523, 6.847346], [79.948534, 6.847556], [79.948539, 6.84781], [79.948537, 6.847975], [79.948528, 6.848104], [79.948498, 6.848349], [79.94844, 6.848768]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 232513266,
-  "name": "Hospital Circular road 1st lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.501424, 8.759659], [80.501229, 8.759852], [80.500486, 8.760288]]
-}

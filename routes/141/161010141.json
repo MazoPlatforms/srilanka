@@ -1,9 +1,0 @@
-{
-  "id": 161010141,
-  "name": "Kandy Road 8th Lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.493118, 8.743853], [80.49433, 8.743407]]
-}

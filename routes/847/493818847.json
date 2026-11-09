@@ -1,9 +1,0 @@
-{
-  "id": 493818847,
-  "name": "Navalady Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.704303, 7.628156], [81.704329, 7.628034], [81.704278, 7.627651]]
-}

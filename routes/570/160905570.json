@@ -1,9 +1,0 @@
-{
-  "id": 160905570,
-  "name": "Madathady Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.500671, 8.7611], [80.50078, 8.761104], [80.500959, 8.761022], [80.501212, 8.760847], [80.501657, 8.760449], [80.502308, 8.759887]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 200058011,
-  "name": "Thirunavatkulam RDS infront lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.483452, 8.777965], [80.48344, 8.777655], [80.48345, 8.777436], [80.483468, 8.77704], [80.483469, 8.77672], [80.483469, 8.77641], [80.48347, 8.77611], [80.483471, 8.775808]]
-}

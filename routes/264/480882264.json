@@ -1,9 +1,0 @@
-{
-  "id": 480882264,
-  "name": "Peliyagoda Roundabout",
-  "highway": "trunk",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
-  "coordinates": [[79.884017, 6.955939], [79.884034, 6.95594], [79.884049, 6.955938], [79.884065, 6.955934], [79.884079, 6.955927]]
-}

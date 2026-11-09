@@ -1,9 +1,0 @@
-{
-  "id": 50633770,
-  "name": "Skanda Deval Mwa Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.891878, 6.916049], [79.891966, 6.916386], [79.892004, 6.916509], [79.892019, 6.916623], [79.891018, 6.916846]]
-}

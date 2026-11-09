@@ -1,9 +1,0 @@
-{
-  "id": 53162001,
-  "name": "Victoria Place",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.877181, 6.90209], [79.876442, 6.902073], [79.876316, 6.902037], [79.875872, 6.902011]]
-}

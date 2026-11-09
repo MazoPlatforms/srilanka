@@ -1,9 +1,0 @@
-{
-  "id": 286443128,
-  "name": "Thomputhor Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.816499, 7.428639], [81.817653, 7.428902], [81.817986, 7.428947], [81.819947, 7.429218]]
-}

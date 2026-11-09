@@ -1,9 +1,0 @@
-{
-  "id": 287036856,
-  "name": "MPCS Street",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.805099, 7.362393], [81.805066, 7.362636], [81.805024, 7.362857], [81.805014, 7.362965], [81.80529, 7.363955]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 1121956777,
-  "name": "Kanatta Roundabout",
-  "highway": "trunk",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0},
-  "coordinates": [[79.877073, 6.908741], [79.877107, 6.90879], [79.877155, 6.908827], [79.87721, 6.908849]]
-}

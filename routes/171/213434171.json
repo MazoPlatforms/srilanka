@@ -1,9 +1,0 @@
-{
-  "id": 213434171,
-  "name": "Akkirasanaar Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.852972, 7.220021], [81.853246, 7.219958], [81.854072, 7.219766], [81.854399, 7.219724], [81.854483, 7.219737], [81.855437, 7.219468], [81.856268, 7.219216]]
-}

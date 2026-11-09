@@ -1,9 +1,0 @@
-{
-  "id": 385793064,
-  "name": "Sammanthar Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.324293, 8.143455], [81.324384, 8.143042], [81.324537, 8.142243]]
-}

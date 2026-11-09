@@ -1,9 +1,0 @@
-{
-  "id": 1116190118,
-  "name": "Don Carolis Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.864953, 6.894653], [79.865736, 6.8948], [79.865796, 6.894839], [79.865823, 6.895], [79.865885, 6.895071], [79.866554, 6.895232]]
-}

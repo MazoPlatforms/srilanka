@@ -1,9 +1,0 @@
-{
-  "id": 487439433,
-  "name": "Kew Road",
-  "highway": "tertiary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.85145, 6.926354], [79.851696, 6.926147]]
-}

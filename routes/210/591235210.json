@@ -1,9 +1,0 @@
-{
-  "id": 591235210,
-  "name": "Old Matale Road",
-  "highway": "secondary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.609506, 7.409225], [80.609472, 7.409237], [80.609421, 7.409266], [80.609276, 7.409359], [80.609198, 7.409418], [80.609081, 7.409521], [80.608919, 7.409676]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 1504021387,
-  "name": "Maskeliya-Upcot Road",
-  "highway": "primary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.571757, 6.836479], [80.571796, 6.836555], [80.57186, 6.836691], [80.571957, 6.836882]]
-}

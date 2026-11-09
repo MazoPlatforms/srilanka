@@ -1,9 +1,0 @@
-{
-  "id": 271080937,
-  "name": "Samagipura Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.966401, 6.902959], [79.966819, 6.902947], [79.967237, 6.903019]]
-}

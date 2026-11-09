@@ -1,9 +1,0 @@
-{
-  "id": 411584817,
-  "name": "cenral road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.72231, 7.67794], [81.722491, 7.678022], [81.722934, 7.678232], [81.723446, 7.678399], [81.723583, 7.678464]]
-}

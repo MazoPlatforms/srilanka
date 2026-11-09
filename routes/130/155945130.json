@@ -1,9 +1,0 @@
-{
-  "id": 155945130,
-  "name": "St.Annes Lane No2",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.68381, 7.699531], [81.683942, 7.699512], [81.684158, 7.699494], [81.684544, 7.699424], [81.684731, 7.699359], [81.685078, 7.699297]]
-}

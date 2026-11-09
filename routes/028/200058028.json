@@ -1,9 +1,0 @@
-{
-  "id": 200058028,
-  "name": "Nagathampiran kovil road 2nd lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.481245, 8.778533], [80.481813, 8.77679], [80.482147, 8.77577], [80.482472, 8.774785], [80.482871, 8.773561]]
-}

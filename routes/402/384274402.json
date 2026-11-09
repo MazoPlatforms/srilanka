@@ -1,9 +1,0 @@
-{
-  "id": 384274402,
-  "name": "Green Terrace Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.021036, 7.092423], [80.020737, 7.092591], [80.020676, 7.092595], [80.020094, 7.092383], [80.01886, 7.092418]]
-}

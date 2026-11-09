@@ -1,9 +1,0 @@
-{
-  "id": 180373034,
-  "name": "2nd Ave",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.870075, 6.974064], [79.870936, 6.973576]]
-}

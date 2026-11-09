@@ -1,9 +1,0 @@
-{
-  "id": 179237124,
-  "name": "Coop city road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.612017, 7.806255], [81.611756, 7.805288], [81.611642, 7.804852], [81.61162, 7.804592], [81.611606, 7.804366], [81.611513, 7.803942]]
-}

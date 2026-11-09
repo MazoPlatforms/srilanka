@@ -1,9 +1,0 @@
-{
-  "id": 24877908,
-  "name": "Police Park Terrace",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.859406, 6.893893], [79.859278, 6.894735], [79.859221, 6.894795], [79.859111, 6.894802], [79.858722, 6.894723]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 225111262,
-  "name": "Old Galle Road",
-  "highway": "trunk",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
-  "coordinates": [[79.905357, 6.727044], [79.905374, 6.726971], [79.905378, 6.726925], [79.905389, 6.726815], [79.905369, 6.726723]]
-}

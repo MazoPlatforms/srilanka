@@ -1,9 +1,0 @@
-{
-  "id": 1199315869,
-  "name": "Private Lane",
-  "highway": "path",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"bicycle": 12, "foot": 4},
-  "coordinates": [[80.181792, 9.800098], [80.181607, 9.800163], [80.181483, 9.800199], [80.181388, 9.800223], [80.181331, 9.800223]]
-}

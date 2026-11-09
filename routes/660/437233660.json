@@ -1,9 +1,0 @@
-{
-  "id": 437233660,
-  "name": "4th Lane Kandawatta Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.928644, 6.895573], [79.928795, 6.89579], [79.928702, 6.896232]]
-}

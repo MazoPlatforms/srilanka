@@ -1,9 +1,0 @@
-{
-  "id": 6504094,
-  "name": "Ward Street",
-  "highway": "residential",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.21958, 6.035743], [80.219482, 6.035573], [80.219217, 6.035126], [80.21902, 6.034931], [80.218763, 6.034812]]
-}

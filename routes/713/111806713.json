@@ -1,9 +1,0 @@
-{
-  "id": 111806713,
-  "name": "Galwala Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.917048, 6.831713], [79.916995, 6.831706], [79.916804, 6.831628], [79.916739, 6.831503], [79.916045, 6.831421], [79.915785, 6.831393], [79.913516, 6.831137]]
-}

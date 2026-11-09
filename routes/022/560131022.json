@@ -1,9 +1,0 @@
-{
-  "id": 560131022,
-  "name": "yaya road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.968579, 7.514687], [79.968253, 7.515087], [79.967506, 7.516017], [79.967456, 7.516109]]
-}

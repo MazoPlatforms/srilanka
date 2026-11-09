@@ -1,9 +1,0 @@
-{
-  "id": 201239401,
-  "name": "1st Lane Gajaba Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.889567, 6.925275], [79.889566, 6.925367], [79.889565, 6.92564], [79.889576, 6.925666], [79.889601, 6.925683], [79.890191, 6.925703], [79.890352, 6.925718]]
-}

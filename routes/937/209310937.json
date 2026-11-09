@@ -1,9 +1,0 @@
-{
-  "id": 209310937,
-  "name": "15th Lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.979504, 6.913064], [79.978866, 6.91164], [79.978635, 6.911177]]
-}

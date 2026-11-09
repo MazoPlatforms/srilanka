@@ -1,9 +1,0 @@
-{
-  "id": 50536146,
-  "name": "Nanda Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.888404, 6.876027], [79.888321, 6.875994], [79.887915, 6.875789], [79.887682, 6.875873]]
-}

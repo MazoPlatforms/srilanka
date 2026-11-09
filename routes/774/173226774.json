@@ -1,9 +1,0 @@
-{
-  "id": 173226774,
-  "name": "Cemetery Broadway Lane",
-  "highway": "residential",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.924791, 6.981662], [79.924765, 6.981423], [79.924727, 6.981316], [79.924577, 6.981194], [79.924256, 6.98106]]
-}

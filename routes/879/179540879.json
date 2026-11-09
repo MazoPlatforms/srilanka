@@ -1,9 +1,0 @@
-{
-  "id": 179540879,
-  "name": "Poopalar Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.559806, 7.820369], [81.559742, 7.820315], [81.55968, 7.820265], [81.558365, 7.819225]]
-}

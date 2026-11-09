@@ -1,9 +1,0 @@
-{
-  "id": 363448730,
-  "name": "New Hambantota Road",
-  "highway": "trunk",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
-  "coordinates": [[81.118358, 6.153281], [81.119847, 6.153589], [81.120899, 6.15371]]
-}

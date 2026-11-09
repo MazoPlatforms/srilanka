@@ -1,9 +1,0 @@
-{
-  "id": 1490152032,
-  "name": "Air Port Road",
-  "highway": "trunk_link",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "foot": 5},
-  "coordinates": [[79.880938, 6.812788], [79.880845, 6.812723]]
-}

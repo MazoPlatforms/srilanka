@@ -1,9 +1,0 @@
-{
-  "id": 374451477,
-  "name": "Yaya Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.751059, 6.148974], [80.750988, 6.148018], [80.750988, 6.144438]]
-}

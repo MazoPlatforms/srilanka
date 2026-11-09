@@ -1,9 +1,0 @@
-{
-  "id": 526847503,
-  "name": "Kelanimulla Road",
-  "highway": "primary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.923511, 6.943547], [79.923542, 6.943441], [79.923561, 6.943302], [79.923566, 6.943247], [79.923575, 6.943059]]
-}

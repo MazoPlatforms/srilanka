@@ -1,9 +1,0 @@
-{
-  "id": 342891822,
-  "name": "Awasa Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.936106, 6.800866], [79.936067, 6.801095], [79.936042, 6.801378], [79.936072, 6.802005], [79.936066, 6.802065], [79.936052, 6.802125]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 23323430,
-  "name": "Staple Street",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.856141, 6.921226], [79.855791, 6.92049], [79.855697, 6.920294], [79.855438, 6.919749]]
-}

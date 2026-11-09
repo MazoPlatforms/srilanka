@@ -1,9 +1,0 @@
-{
-  "id": 353432333,
-  "name": "Polwattakanda Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.688108, 7.521524], [80.688221, 7.521608], [80.688377, 7.52173], [80.688489, 7.521856], [80.689183, 7.522749]]
-}

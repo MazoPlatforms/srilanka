@@ -1,9 +1,0 @@
-{
-  "id": 696731674,
-  "name": "Udugama Road",
-  "highway": "primary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.33491, 6.107124], [80.334933, 6.107183], [80.334993, 6.107396]]
-}

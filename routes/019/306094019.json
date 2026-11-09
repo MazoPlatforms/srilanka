@@ -1,9 +1,0 @@
-{
-  "id": 306094019,
-  "name": "Fisheries Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.519745, 7.908902], [81.52013, 7.908915], [81.520291, 7.90891], [81.52089, 7.908887], [81.520932, 7.908883], [81.521636, 7.908867]]
-}

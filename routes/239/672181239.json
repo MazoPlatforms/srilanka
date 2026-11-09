@@ -1,9 +1,0 @@
-{
-  "id": 672181239,
-  "name": "Point Pedro Road",
-  "highway": "primary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.018393, 9.668048], [80.01836, 9.667967], [80.018342, 9.667925], [80.018321, 9.667872], [80.018289, 9.667798], [80.018265, 9.667744]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 366414145,
-  "name": "Perth Paradise",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.107702, 6.727169], [80.107955, 6.725948], [80.108046, 6.725356], [80.109448, 6.725569]]
-}

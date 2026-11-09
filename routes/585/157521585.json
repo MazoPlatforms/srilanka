@@ -1,9 +1,0 @@
-{
-  "id": 157521585,
-  "name": "Galagedara-Padukka Road",
-  "highway": "primary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.089069, 6.854348], [80.089123, 6.854309], [80.089176, 6.854279], [80.089258, 6.854235], [80.089345, 6.854188]]
-}

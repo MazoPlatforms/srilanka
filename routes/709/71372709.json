@@ -1,9 +1,0 @@
-{
-  "id": 71372709,
-  "name": "Old Railroad",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.029328, 9.662171], [80.028668, 9.662435], [80.028541, 9.662486], [80.027497, 9.662899], [80.026485, 9.663293], [80.026468, 9.663303], [80.025663, 9.663595]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 270555939,
-  "name": "Kekirideniya Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.977302, 6.923641], [79.977484, 6.923632], [79.977598, 6.923844]]
-}

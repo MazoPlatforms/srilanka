@@ -1,9 +1,0 @@
-{
-  "id": 52453359,
-  "name": "Shanthi Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.880437, 6.872146], [79.88094, 6.872144], [79.881455, 6.872048], [79.881798, 6.871342], [79.881975, 6.872175], [79.882422, 6.873077]]
-}

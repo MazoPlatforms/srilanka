@@ -1,9 +1,0 @@
-{
-  "id": 1092506478,
-  "name": "Deniya road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.935421, 6.882879], [79.935133, 6.882851], [79.934938, 6.882862]]
-}

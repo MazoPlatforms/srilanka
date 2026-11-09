@@ -1,9 +1,0 @@
-{
-  "id": 128541732,
-  "name": "Bentota Circular Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.028221, 6.418207], [80.027886, 6.418077], [80.027631, 6.418026], [80.026819, 6.418855], [80.026119, 6.419102], [80.024732, 6.419426]]
-}

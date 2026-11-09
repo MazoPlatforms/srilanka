@@ -1,9 +1,0 @@
-{
-  "id": 374061661,
-  "name": "Thandikulam 1st lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.486502, 8.778019], [80.485701, 8.777898], [80.485193, 8.777838]]
-}

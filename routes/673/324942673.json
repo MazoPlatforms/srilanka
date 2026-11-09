@@ -1,9 +1,0 @@
-{
-  "id": 324942673,
-  "name": "Vadivel Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.843464, 7.365173], [81.843947, 7.365299], [81.844343, 7.365399], [81.844744, 7.365494], [81.84509, 7.365599], [81.845911, 7.365838], [81.847304, 7.366231]]
-}

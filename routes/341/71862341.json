@@ -1,9 +1,0 @@
-{
-  "id": 71862341,
-  "name": "Grand Bazaar Road",
-  "highway": "residential",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.009446, 9.667877], [80.009741, 9.667793], [80.009787, 9.667777], [80.009851, 9.667758], [80.010781, 9.667472]]
-}

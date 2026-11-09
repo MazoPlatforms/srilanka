@@ -1,9 +1,0 @@
-{
-  "id": 1225842261,
-  "name": "Nalagasdeniya Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.105458, 6.129628], [80.105174, 6.128998], [80.105148, 6.12894], [80.105125, 6.128908], [80.105003, 6.128735], [80.104854, 6.128571], [80.104484, 6.128235]]
-}

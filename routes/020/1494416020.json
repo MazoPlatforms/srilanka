@@ -1,9 +1,0 @@
-{
-  "id": 1494416020,
-  "name": "New Tangalle Road",
-  "highway": "trunk",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
-  "coordinates": [[80.548819, 5.945333], [80.548892, 5.944945]]
-}

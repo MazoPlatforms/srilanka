@@ -1,9 +1,0 @@
-{
-  "id": 187344277,
-  "name": "Medawala Road",
-  "highway": "primary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.6257, 7.324708], [80.625659, 7.324813], [80.625651, 7.324894]]
-}

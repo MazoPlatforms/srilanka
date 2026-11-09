@@ -1,9 +1,0 @@
-{
-  "id": 179237142,
-  "name": "Navalar Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.586464, 7.798902], [81.587112, 7.798334], [81.587271, 7.798188], [81.588146, 7.797359]]
-}

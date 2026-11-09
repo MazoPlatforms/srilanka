@@ -1,9 +1,0 @@
-{
-  "id": 178431365,
-  "name": "Sadasarana Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.832066, 7.370216], [79.832151, 7.370212], [79.832922, 7.370208], [79.833476, 7.370367], [79.83546, 7.370703], [79.83606, 7.370863]]
-}

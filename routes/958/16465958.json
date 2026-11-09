@@ -1,9 +1,0 @@
-{
-  "id": 16465958,
-  "name": "Small Cross Street",
-  "highway": "service",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "bicycle": 15, "foot": 5},
-  "coordinates": [[80.218937, 6.024884], [80.21865, 6.024863], [80.218538, 6.024854], [80.218365, 6.024823], [80.218097, 6.024771]]
-}

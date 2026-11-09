@@ -1,9 +1,0 @@
-{
-  "id": 180373057,
-  "name": "St.James Street",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.868141, 6.961488], [79.867304, 6.962389], [79.866615, 6.963207], [79.866043, 6.963838], [79.865529, 6.964466]]
-}

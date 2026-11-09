@@ -1,9 +1,0 @@
-{
-  "id": 1174284851,
-  "name": "AG road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.657557, 6.814233], [80.657592, 6.814148], [80.657638, 6.814104], [80.65768, 6.814053], [80.657727, 6.813974]]
-}

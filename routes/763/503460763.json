@@ -1,9 +1,0 @@
-{
-  "id": 503460763,
-  "name": "Jayantha Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.996931, 7.08726], [79.996905, 7.087237], [79.996717, 7.087274], [79.9962, 7.087467], [79.995563, 7.087799]]
-}

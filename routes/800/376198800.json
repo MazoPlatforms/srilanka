@@ -1,9 +1,0 @@
-{
-  "id": 376198800,
-  "name": "Linkon Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.957569, 7.075288], [79.957723, 7.075279], [79.95792, 7.075224], [79.957992, 7.075134], [79.958525, 7.075145]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 511817660,
-  "name": "Temple Access Road",
-  "highway": "residential",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.963353, 8.955268], [79.963435, 8.955085]]
-}

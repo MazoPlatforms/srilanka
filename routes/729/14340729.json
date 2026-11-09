@@ -1,9 +1,0 @@
-{
-  "id": 14340729,
-  "name": "Colombo Road",
-  "highway": "trunk",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
-  "coordinates": [[80.216831, 6.032655], [80.216914, 6.032662], [80.217161, 6.032604], [80.217201, 6.032557]]
-}

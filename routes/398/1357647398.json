@@ -1,9 +1,0 @@
-{
-  "id": 1357647398,
-  "name": "Convention Center Drive",
-  "highway": "unclassified",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.836714, 6.938986], [79.836832, 6.938852], [79.836928, 6.938767], [79.836948, 6.938759], [79.837078, 6.938692], [79.837273, 6.938608]]
-}

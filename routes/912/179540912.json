@@ -1,9 +1,0 @@
-{
-  "id": 179540912,
-  "name": "Keni Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.554501, 7.821777], [81.553465, 7.821547], [81.552812, 7.821505], [81.552219, 7.821551], [81.551587, 7.821611], [81.551076, 7.821634]]
-}

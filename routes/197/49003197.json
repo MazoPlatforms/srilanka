@@ -1,9 +1,0 @@
-{
-  "id": 49003197,
-  "name": "Alfred House Avenue",
-  "highway": "residential",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.856187, 6.897884], [79.856112, 6.897857], [79.855881, 6.897775], [79.855569, 6.897656], [79.854872, 6.897394], [79.854368, 6.897227], [79.854297, 6.897197]]
-}

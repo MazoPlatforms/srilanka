@@ -1,9 +1,0 @@
-{
-  "id": 454226268,
-  "name": "Water Tank Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.427211, 7.883463], [81.427244, 7.883621], [81.427293, 7.883991], [81.427273, 7.88428], [81.42724, 7.884475]]
-}

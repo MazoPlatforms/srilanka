@@ -1,9 +1,0 @@
-{
-  "id": 52357464,
-  "name": "Walpola Road",
-  "highway": "primary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.923697, 6.91641], [79.923646, 6.916552], [79.923587, 6.916744], [79.923606, 6.916862], [79.923649, 6.916907]]
-}

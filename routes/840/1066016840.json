@@ -1,9 +1,0 @@
-{
-  "id": 1066016840,
-  "name": "Upper Drive",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.943271, 6.879201], [79.943293, 6.879291], [79.943275, 6.879361], [79.942108, 6.881057], [79.941857, 6.881434]]
-}

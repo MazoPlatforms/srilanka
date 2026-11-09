@@ -1,9 +1,0 @@
-{
-  "id": 50154666,
-  "name": "Melbourne Avenue",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.857862, 6.886017], [79.85674, 6.885692], [79.85569, 6.885391], [79.855058, 6.885193]]
-}

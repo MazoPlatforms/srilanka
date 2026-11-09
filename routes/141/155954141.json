@@ -1,9 +1,0 @@
-{
-  "id": 155954141,
-  "name": "New Bridge",
-  "highway": "secondary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.693898, 7.714799], [81.694002, 7.715566]]
-}

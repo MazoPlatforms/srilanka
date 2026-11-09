@@ -1,9 +1,0 @@
-{
-  "id": 406152468,
-  "name": "Wataraum road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.884066, 7.073682], [79.884073, 7.073628], [79.88406, 7.073451], [79.884038, 7.073383], [79.883941, 7.073262]]
-}

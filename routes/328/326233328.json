@@ -1,9 +1,0 @@
-{
-  "id": 326233328,
-  "name": "Temple Road",
-  "highway": "tertiary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.928579, 7.023569], [79.928572, 7.023464], [79.928559, 7.02336], [79.928481, 7.023153]]
-}

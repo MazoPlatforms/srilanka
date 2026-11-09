@@ -1,9 +1,0 @@
-{
-  "id": 1491914395,
-  "name": "De Soysa Road",
-  "highway": "primary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.885169, 6.788103], [79.88545, 6.787907]]
-}

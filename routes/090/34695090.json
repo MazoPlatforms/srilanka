@@ -1,9 +1,0 @@
-{
-  "id": 34695090,
-  "name": "Princes Gate",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.866309, 6.937741], [79.865793, 6.937692], [79.865143, 6.937627], [79.864721, 6.93754], [79.864585, 6.937463], [79.86445, 6.937314], [79.86411, 6.936832]]
-}

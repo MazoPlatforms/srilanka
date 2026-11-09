@@ -1,9 +1,0 @@
-{
-  "id": 849205784,
-  "name": "Wishaka Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.014747, 7.048534], [80.014814, 7.048594], [80.014853, 7.048625]]
-}

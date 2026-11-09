@@ -1,9 +1,0 @@
-{
-  "id": 1326648363,
-  "name": "Free Trade Zone Road",
-  "highway": "tertiary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.206351, 6.95916], [80.206564, 6.959239], [80.206797, 6.959281], [80.207526, 6.959472], [80.208318, 6.959707]]
-}

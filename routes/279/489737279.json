@@ -1,9 +1,0 @@
-{
-  "id": 489737279,
-  "name": "Mullai Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.489039, 8.010461], [81.488862, 8.010325], [81.488545, 8.010166], [81.488157, 8.010008], [81.488034, 8.009858], [81.487852, 8.009731]]
-}

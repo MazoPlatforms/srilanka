@@ -1,9 +1,0 @@
-{
-  "id": 1514044685,
-  "name": "Andaulpotha Road",
-  "highway": "primary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.080462, 7.262311], [81.080443, 7.262437], [81.080442, 7.26254], [81.080452, 7.262654]]
-}

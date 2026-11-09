@@ -1,9 +1,0 @@
-{
-  "id": 667314479,
-  "name": "Lewaya Road",
-  "highway": "primary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.144462, 6.152355], [81.144512, 6.15264], [81.144542, 6.152774], [81.144557, 6.152839], [81.144578, 6.1529]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 318153616,
-  "name": "University Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.396768, 9.319181], [80.405174, 9.319121], [80.406398, 9.319112], [80.407814, 9.319112], [80.409458, 9.319116]]
-}

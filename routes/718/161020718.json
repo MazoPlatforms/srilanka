@@ -1,9 +1,0 @@
-{
-  "id": 161020718,
-  "name": "Kandy road 20th lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.488626, 8.730075], [80.489507, 8.729767]]
-}

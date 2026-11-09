@@ -1,9 +1,0 @@
-{
-  "id": 53260804,
-  "name": "Pinwatta Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.867783, 6.86283], [79.867656, 6.862786], [79.867562, 6.862745], [79.867519, 6.862578], [79.867477, 6.862534], [79.866883, 6.86247], [79.866337, 6.862451]]
-}

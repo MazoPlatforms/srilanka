@@ -1,9 +1,0 @@
-{
-  "id": 161010142,
-  "name": "Kandy Road 11th Lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.491161, 8.742256], [80.492396, 8.741805], [80.493585, 8.741366]]
-}

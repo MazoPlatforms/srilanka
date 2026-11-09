@@ -1,9 +1,0 @@
-{
-  "id": 375532618,
-  "name": "Public Ground Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.340328, 7.250532], [80.340233, 7.25073], [80.340125, 7.250934], [80.339936, 7.251175], [80.339799, 7.251397], [80.339712, 7.251974], [80.339674, 7.252174]]
-}

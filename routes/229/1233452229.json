@@ -1,9 +1,0 @@
-{
-  "id": 1233452229,
-  "name": "Ahmad Road",
-  "highway": "unclassified",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.838243, 7.388367], [81.838509, 7.388364], [81.83872, 7.388351], [81.838857, 7.388335], [81.839063, 7.388323]]
-}

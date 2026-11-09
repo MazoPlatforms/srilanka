@@ -1,9 +1,0 @@
-{
-  "id": 545651161,
-  "name": "Kandy Road",
-  "highway": "trunk",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
-  "coordinates": [[80.572423, 7.16702], [80.572434, 7.166899], [80.572435, 7.166814]]
-}

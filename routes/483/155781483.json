@@ -1,9 +1,0 @@
-{
-  "id": 155781483,
-  "name": "4th Cross Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.684887, 7.731958], [81.685037, 7.732145], [81.685187, 7.732306], [81.685819, 7.733003]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 402363644,
-  "name": "Valluvarpuram Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.572552, 9.368681], [80.572072, 9.367525], [80.571276, 9.365525], [80.569997, 9.362185], [80.569496, 9.361232]]
-}

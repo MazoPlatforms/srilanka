@@ -1,9 +1,0 @@
-{
-  "id": 432852689,
-  "name": "Wallawwa Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.926596, 7.132967], [79.926823, 7.132959], [79.927446, 7.132919]]
-}

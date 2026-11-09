@@ -1,9 +1,0 @@
-{
-  "id": 374649692,
-  "name": "Thevalaya Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.551629, 7.725912], [81.552829, 7.725416], [81.553416, 7.725149], [81.554926, 7.724422], [81.555107, 7.724335], [81.55667, 7.723727]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 29461824,
-  "name": "Old Moor Street",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.860502, 6.939356], [79.859343, 6.939185], [79.858869, 6.939101], [79.858419, 6.93901], [79.857264, 6.938813], [79.856754, 6.938783]]
-}

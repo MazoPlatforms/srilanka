@@ -1,9 +1,0 @@
-{
-  "id": 148866249,
-  "name": "Hirimbura Crossroad",
-  "highway": "secondary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.225634, 6.066893], [80.225654, 6.066934], [80.225741, 6.067112]]
-}

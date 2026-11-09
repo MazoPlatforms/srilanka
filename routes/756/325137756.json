@@ -1,9 +1,0 @@
-{
-  "id": 325137756,
-  "name": "Ceylon Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.842349, 7.388805], [81.842282, 7.389202], [81.842252, 7.389704], [81.842233, 7.39001], [81.842225, 7.390142], [81.842123, 7.390638]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 1106586939,
-  "name": "rural road",
-  "highway": "residential",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.06922, 7.284195], [80.069259, 7.284051], [80.06937, 7.283776], [80.069575, 7.283663], [80.069702, 7.28329], [80.069697, 7.283148], [80.069917, 7.282716]]
-}

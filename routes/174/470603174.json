@@ -1,9 +1,0 @@
-{
-  "id": 470603174,
-  "name": "36th Lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.882275, 6.912213], [79.882257, 6.911828], [79.882264, 6.911318]]
-}

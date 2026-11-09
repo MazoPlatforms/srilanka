@@ -1,9 +1,0 @@
-{
-  "id": 363973822,
-  "name": "panvila road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.868797, 6.092284], [80.869982, 6.091274], [80.869738, 6.090461], [80.869982, 6.09029]]
-}

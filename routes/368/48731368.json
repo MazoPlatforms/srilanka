@@ -1,9 +1,0 @@
-{
-  "id": 48731368,
-  "name": "Borella Cross Road",
-  "highway": "tertiary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.874884, 6.915193], [79.874949, 6.915407], [79.874993, 6.915629], [79.875056, 6.915959], [79.875132, 6.916199], [79.875648, 6.916674]]
-}

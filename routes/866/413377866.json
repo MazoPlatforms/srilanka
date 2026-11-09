@@ -1,9 +1,0 @@
-{
-  "id": 413377866,
-  "name": "Courts Road",
-  "highway": "primary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.99382, 7.090237], [79.993875, 7.090289], [79.993967, 7.090398]]
-}

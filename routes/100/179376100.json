@@ -1,9 +1,0 @@
-{
-  "id": 179376100,
-  "name": "Ponnuthurai Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.631069, 7.767661], [81.630821, 7.767374], [81.630546, 7.767089], [81.629775, 7.766284], [81.628546, 7.764883]]
-}

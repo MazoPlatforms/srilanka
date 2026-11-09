@@ -1,9 +1,0 @@
-{
-  "id": 615254730,
-  "name": "Schokman Place",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.905007, 6.872593], [79.905143, 6.87273], [79.905196, 6.872814], [79.905233, 6.873114], [79.905279, 6.873136], [79.905552, 6.873121]]
-}

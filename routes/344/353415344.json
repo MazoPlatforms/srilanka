@@ -1,9 +1,0 @@
-{
-  "id": 353415344,
-  "name": "Old Colombo Road",
-  "highway": "trunk",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
-  "coordinates": [[80.435347, 7.252078], [80.435385, 7.251989], [80.435535, 7.25175]]
-}

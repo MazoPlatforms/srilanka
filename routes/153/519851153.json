@@ -1,9 +1,0 @@
-{
-  "id": 519851153,
-  "name": "Kochchi farm road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.69076, 7.552291], [81.690924, 7.55271], [81.691183, 7.553487], [81.691225, 7.553528], [81.691776, 7.553445], [81.69186, 7.553449], [81.691886, 7.55348]]
-}

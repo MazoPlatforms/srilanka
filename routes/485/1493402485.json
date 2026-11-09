@@ -1,9 +1,0 @@
-{
-  "id": 1493402485,
-  "name": "Old Puttalam Road",
-  "highway": "primary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.890563, 7.08686], [79.890613, 7.08683], [79.890662, 7.086802]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 411018451,
-  "name": "Nagathampiran kovil road 3rd lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.482412, 8.773417], [80.482038, 8.774622], [80.481689, 8.775663], [80.481361, 8.776678], [80.480769, 8.778489]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 220908552,
-  "name": "Wasala Lane",
-  "highway": "residential",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.860085, 6.862402], [79.860945, 6.862345], [79.861809, 6.862218], [79.862342, 6.862208], [79.862964, 6.862362], [79.863404, 6.862357], [79.863767, 6.86235]]
-}

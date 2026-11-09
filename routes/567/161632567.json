@@ -1,9 +1,0 @@
-{
-  "id": 161632567,
-  "name": "Bogahawila Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.965233, 6.834799], [79.965545, 6.83468], [79.966409, 6.834547]]
-}

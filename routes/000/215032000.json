@@ -1,9 +1,0 @@
-{
-  "id": 215032000,
-  "name": "கோவில் வீதி",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.963073, 8.957369], [79.963121, 8.957178], [79.963213, 8.956638], [79.963276, 8.95618], [79.963353, 8.955268]]
-}

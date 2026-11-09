@@ -1,9 +1,0 @@
-{
-  "id": 162084730,
-  "name": "Hansa Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.32766, 6.417364], [81.3275, 6.41693], [81.32731, 6.41597], [81.32732, 6.41578]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 470124717,
-  "name": "R.D.S Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.564686, 7.811964], [81.564384, 7.811652], [81.563721, 7.811069]]
-}

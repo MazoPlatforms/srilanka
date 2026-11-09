@@ -1,9 +1,0 @@
-{
-  "id": 53167483,
-  "name": "Nawala Avenue",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.886082, 6.88594], [79.886144, 6.886164], [79.886219, 6.886302], [79.886361, 6.886372], [79.886491, 6.886402], [79.886646, 6.886414], [79.887155, 6.886346]]
-}

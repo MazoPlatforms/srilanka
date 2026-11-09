@@ -1,9 +1,0 @@
-{
-  "id": 456725186,
-  "name": "4th cros2nd road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.661115, 7.480071], [81.661562, 7.480181], [81.661879, 7.480266], [81.662913, 7.480393], [81.663038, 7.480374], [81.663169, 7.480422], [81.663459, 7.480355]]
-}

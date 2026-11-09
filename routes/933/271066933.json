@@ -1,9 +1,0 @@
-{
-  "id": 271066933,
-  "name": "Welthera Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.978155, 6.921666], [79.978345, 6.921809], [79.978488, 6.921781], [79.978793, 6.921638], [79.978975, 6.921946], [79.978033, 6.922414]]
-}

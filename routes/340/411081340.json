@@ -1,9 +1,0 @@
-{
-  "id": 411081340,
-  "name": "Kurumankadu post box lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.489147, 8.762991], [80.489257, 8.763386], [80.489321, 8.763718], [80.489739, 8.763733]]
-}

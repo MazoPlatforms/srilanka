@@ -1,9 +1,0 @@
-{
-  "id": 54030528,
-  "name": "Viharawatte Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.920181, 6.858262], [79.920133, 6.858821], [79.920069, 6.859267], [79.920068, 6.859337], [79.920729, 6.859709], [79.920842, 6.859866]]
-}

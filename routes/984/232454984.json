@@ -1,9 +1,0 @@
-{
-  "id": 232454984,
-  "name": "Badulla Road",
-  "highway": "trunk",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
-  "coordinates": [[80.780277, 6.953374], [80.780417, 6.953305], [80.780594, 6.953239]]
-}

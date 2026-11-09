@@ -1,9 +1,0 @@
-{
-  "id": 51193155,
-  "name": "St.Antony's Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.874147, 6.931776], [79.873571, 6.93168], [79.873361, 6.931574], [79.873147, 6.931307], [79.872918, 6.930858]]
-}

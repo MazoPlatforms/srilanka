@@ -1,9 +1,0 @@
-{
-  "id": 516786649,
-  "name": "3rd Lane",
-  "highway": "living_street",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
-  "coordinates": [[79.918736, 6.918506], [79.918641, 6.918496], [79.918609, 6.918486], [79.91858, 6.918334]]
-}

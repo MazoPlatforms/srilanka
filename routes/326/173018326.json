@@ -1,9 +1,0 @@
-{
-  "id": 173018326,
-  "name": "Siddhartha Lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.882593, 6.841604], [79.88363, 6.841543], [79.883724, 6.841534], [79.883899, 6.841577], [79.884657, 6.841472]]
-}

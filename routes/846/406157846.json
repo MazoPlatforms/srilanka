@@ -1,9 +1,0 @@
-{
-  "id": 406157846,
-  "name": "Baswatta Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.889508, 7.095711], [79.889142, 7.0957], [79.888974, 7.095677], [79.888889, 7.095665], [79.888318, 7.095644]]
-}

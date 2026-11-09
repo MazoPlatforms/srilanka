@@ -1,9 +1,0 @@
-{
-  "id": 152178656,
-  "name": "Mahanama Bridge",
-  "highway": "trunk",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "foot": 5},
-  "coordinates": [[80.548725, 5.945425], [80.548709, 5.946495]]
-}

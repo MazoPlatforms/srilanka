@@ -1,9 +1,0 @@
-{
-  "id": 180549621,
-  "name": "Praja Mandala Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.880923, 7.002251], [79.880947, 7.002207], [79.880993, 7.001935], [79.881048, 7.001827], [79.881168, 7.001774], [79.881917, 7.001667]]
-}

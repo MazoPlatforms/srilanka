@@ -1,9 +1,0 @@
-{
-  "id": 1205169658,
-  "name": "Bypass road 1",
-  "highway": "track",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"bicycle": 15, "foot": 4},
-  "coordinates": [[80.816806, 9.273904], [80.817154, 9.273387], [80.817028, 9.273274], [80.817284, 9.27288]]
-}

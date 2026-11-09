@@ -1,9 +1,0 @@
-{
-  "id": 23802864,
-  "name": "Cross Street (Haras Veediya)",
-  "highway": "tertiary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.637398, 7.297152], [80.637327, 7.297153], [80.636544, 7.297108], [80.635687, 7.297045]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 581274933,
-  "name": "APC cross Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.853143, 7.132712], [81.85318, 7.132713], [81.853686, 7.132718], [81.854029, 7.132765], [81.854448, 7.132797], [81.854493, 7.132771], [81.854597, 7.131026]]
-}

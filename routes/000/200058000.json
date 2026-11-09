@@ -1,9 +1,0 @@
-{
-  "id": 200058000,
-  "name": "Nagathampiran kovil road 6th lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.48281, 8.773542], [80.483053, 8.772717], [80.483095, 8.772481], [80.483315, 8.771648], [80.483413, 8.771378]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 1215812023,
-  "name": "Helkade Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.157188, 6.589088], [80.157187, 6.589152], [80.157116, 6.589382], [80.157117, 6.589487], [80.157093, 6.589579]]
-}

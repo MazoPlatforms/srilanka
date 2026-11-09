@@ -1,9 +1,0 @@
-{
-  "id": 46897989,
-  "name": "Off Hotel Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.86453, 6.84107], [79.865232, 6.84117], [79.865327, 6.841167], [79.865406, 6.84108], [79.865433, 6.841072], [79.865729, 6.841104], [79.866948, 6.841283]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 456336892,
-  "name": "co -op city road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.761637, 7.543641], [81.761285, 7.543593], [81.760597, 7.543546], [81.760443, 7.54355]]
-}

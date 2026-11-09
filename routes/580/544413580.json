@@ -1,9 +1,0 @@
-{
-  "id": 544413580,
-  "name": "Main Road",
-  "highway": "service",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 15, "motorcycle": 15, "bicycle": 15, "foot": 5},
-  "coordinates": [[80.012823, 9.68203], [80.012799, 9.681922], [80.012787, 9.681875], [80.012776, 9.68185]]
-}

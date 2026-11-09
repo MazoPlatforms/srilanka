@@ -1,9 +1,0 @@
-{
-  "id": 245927578,
-  "name": "Church Lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.085121, 9.726373], [80.085238, 9.72683], [80.085262, 9.726885], [80.085364, 9.72712], [80.08542, 9.727248], [80.085785, 9.727902]]
-}

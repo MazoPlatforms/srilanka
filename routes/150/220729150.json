@@ -1,9 +1,0 @@
-{
-  "id": 220729150,
-  "name": "Edn Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.718942, 7.687185], [81.718753, 7.68707], [81.718356, 7.686985], [81.718046, 7.687002]]
-}

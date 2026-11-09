@@ -1,9 +1,0 @@
-{
-  "id": 519227431,
-  "name": "20th housing project center cross road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.700359, 7.535038], [81.700757, 7.535245], [81.700988, 7.535336], [81.701548, 7.535582], [81.701767, 7.535655], [81.702017, 7.535768]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 666183909,
-  "name": "Nikawewa-Oyamaduwa Road",
-  "highway": "secondary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.260649, 8.434549], [80.260592, 8.434551], [80.260537, 8.434567], [80.260416, 8.434601], [80.260352, 8.434633]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 196814028,
-  "name": "Station 1st Lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.909185, 6.862112], [79.909219, 6.861966], [79.909345, 6.861528], [79.909392, 6.860812], [79.909405, 6.860254], [79.909329, 6.8599]]
-}

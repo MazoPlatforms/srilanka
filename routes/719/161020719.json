@@ -1,9 +1,0 @@
-{
-  "id": 161020719,
-  "name": "Moonrumurippu school road 1st lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.488768, 8.733328], [80.488597, 8.73243], [80.488308, 8.731446], [80.489005, 8.731134]]
-}

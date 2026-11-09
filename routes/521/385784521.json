@@ -1,9 +1,0 @@
-{
-  "id": 385784521,
-  "name": "Polwatta 1st Lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.091122, 6.722284], [80.092203, 6.722362], [80.092469, 6.722373], [80.093131, 6.722389]]
-}

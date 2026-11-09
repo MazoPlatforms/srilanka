@@ -1,9 +1,0 @@
-{
-  "id": 641646289,
-  "name": "Living Street No 1",
-  "highway": "living_street",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "bicycle": 10, "foot": 5},
-  "coordinates": [[80.029366, 6.834404], [80.029302, 6.833738], [80.029242, 6.833483]]
-}

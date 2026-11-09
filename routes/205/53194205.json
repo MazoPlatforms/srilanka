@@ -1,9 +1,0 @@
-{
-  "id": 53194205,
-  "name": "Koswatta Cross Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.895409, 6.897892], [79.895516, 6.898074], [79.89559, 6.898237], [79.895722, 6.898711], [79.895794, 6.899418]]
-}

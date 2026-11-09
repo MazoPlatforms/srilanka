@@ -1,9 +1,0 @@
-{
-  "id": 350044022,
-  "name": "Bandara Mawatha",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.983452, 6.833501], [79.983541, 6.833547], [79.984149, 6.833727], [79.984302, 6.833813], [79.984964, 6.833961], [79.985679, 6.834018]]
-}

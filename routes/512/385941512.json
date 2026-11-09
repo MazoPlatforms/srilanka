@@ -1,9 +1,0 @@
-{
-  "id": 385941512,
-  "name": "Raajan Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.408181, 8.209373], [81.408459, 8.209503], [81.40903, 8.209717], [81.409298, 8.209734], [81.409976, 8.209912]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 211239028,
-  "name": "Malwatta Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.896856, 7.037982], [79.896742, 7.038356], [79.896764, 7.038406], [79.898205, 7.038875]]
-}

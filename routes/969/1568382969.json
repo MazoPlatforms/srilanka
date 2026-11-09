@@ -1,9 +1,0 @@
-{
-  "id": 1568382969,
-  "name": "Admin Road",
-  "highway": "service",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 15, "motorcycle": 15, "bicycle": 15, "foot": 5},
-  "coordinates": [[81.855322, 7.300076], [81.855335, 7.300192], [81.855349, 7.300302]]
-}

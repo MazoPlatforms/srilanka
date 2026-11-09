@@ -1,9 +1,0 @@
-{
-  "id": 405431311,
-  "name": "Sinhasala 1 sub Lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.885914, 7.09486], [79.885942, 7.094736], [79.885926, 7.09465], [79.885807, 7.094544], [79.885533, 7.094403]]
-}

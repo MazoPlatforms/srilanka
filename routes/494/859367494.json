@@ -1,9 +1,0 @@
-{
-  "id": 859367494,
-  "name": "Club Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.339909, 7.248278], [80.340627, 7.247857]]
-}

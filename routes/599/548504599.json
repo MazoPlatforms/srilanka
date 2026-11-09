@@ -1,9 +1,0 @@
-{
-  "id": 548504599,
-  "name": "Noragalla Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.453767, 6.621644], [80.453725, 6.621645], [80.453456, 6.621595]]
-}

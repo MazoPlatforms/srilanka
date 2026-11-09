@@ -1,9 +1,0 @@
-{
-  "id": 392888922,
-  "name": "Sea Avenue",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.798368, 6.023837], [80.797822, 6.024885], [80.797771, 6.024987], [80.797712, 6.025124], [80.797667, 6.025241]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 1458939980,
-  "name": "Walasgala Road",
-  "highway": "primary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.672081, 6.002658], [80.672123, 6.002677], [80.672166, 6.002688], [80.672218, 6.002698], [80.672266, 6.002699], [80.672322, 6.002696]]
-}

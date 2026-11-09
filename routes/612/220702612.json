@@ -1,9 +1,0 @@
-{
-  "id": 220702612,
-  "name": "New Boundary Road",
-  "highway": "tertiary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.684641, 7.748515], [81.684791, 7.748695], [81.685053, 7.748918], [81.685311, 7.749138], [81.685387, 7.749234], [81.685531, 7.749414], [81.685676, 7.749529]]
-}

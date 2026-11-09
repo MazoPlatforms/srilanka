@@ -1,9 +1,0 @@
-{
-  "id": 1122545020,
-  "name": "Nagahamada Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.465044, 6.930393], [81.465172, 6.930188]]
-}

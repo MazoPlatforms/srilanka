@@ -1,9 +1,0 @@
-{
-  "id": 1240684560,
-  "name": "Church Road",
-  "highway": "tertiary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.998104, 7.079415], [79.998162, 7.079509], [79.998256, 7.07972]]
-}

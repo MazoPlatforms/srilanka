@@ -1,9 +1,0 @@
-{
-  "id": 161010160,
-  "name": "Kandy Road 2nd Lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.494109, 8.747279], [80.493806, 8.746685], [80.493801, 8.74664], [80.493819, 8.7466], [80.494107, 8.746456], [80.494653, 8.746282], [80.495286, 8.74608]]
-}

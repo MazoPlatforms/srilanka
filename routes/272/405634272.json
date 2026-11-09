@@ -1,9 +1,0 @@
-{
-  "id": 405634272,
-  "name": "Kings Drive Avenue",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.89885, 7.074908], [79.898835, 7.074852], [79.898762, 7.074683], [79.898639, 7.074369], [79.898498, 7.074035], [79.898415, 7.073866]]
-}

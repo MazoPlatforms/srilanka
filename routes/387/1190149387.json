@@ -1,9 +1,0 @@
-{
-  "id": 1190149387,
-  "name": "minor road",
-  "highway": "unclassified",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.161986, 7.174037], [81.161444, 7.173135], [81.161208, 7.173028], [81.160058, 7.173175], [81.158952, 7.173409], [81.158118, 7.172809], [81.157702, 7.17237]]
-}

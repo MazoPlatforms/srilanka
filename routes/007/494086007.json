@@ -1,9 +1,0 @@
-{
-  "id": 494086007,
-  "name": "Maal Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.711217, 7.626475], [81.711189, 7.626524], [81.711072, 7.626639], [81.710988, 7.626691], [81.710646, 7.627077], [81.71033, 7.626918], [81.710151, 7.626794]]
-}

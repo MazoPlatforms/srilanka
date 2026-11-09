@@ -1,9 +1,0 @@
-{
-  "id": 1560221242,
-  "name": "Post Office Road",
-  "highway": "primary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.912339, 8.979406], [79.911766, 8.979183], [79.911661, 8.979139], [79.911545, 8.979081], [79.911354, 8.978969], [79.910438, 8.978409]]
-}

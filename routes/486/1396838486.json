@@ -1,9 +1,0 @@
-{
-  "id": 1396838486,
-  "name": "Tomorrowland Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.866073, 6.055829], [80.866108, 6.055924], [80.866097, 6.056527], [80.866091, 6.05688], [80.866016, 6.057872], [80.865984, 6.057995]]
-}

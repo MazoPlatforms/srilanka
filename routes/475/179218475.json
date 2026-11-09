@@ -1,9 +1,0 @@
-{
-  "id": 179218475,
-  "name": "Cental Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.559541, 7.82555], [81.559614, 7.82698], [81.559671, 7.827712], [81.559639, 7.827935], [81.559517, 7.828563]]
-}

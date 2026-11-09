@@ -1,9 +1,0 @@
-{
-  "id": 170299730,
-  "name": "Moor Street",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.125689, 6.124721], [81.125631, 6.125578], [81.125642, 6.126157]]
-}

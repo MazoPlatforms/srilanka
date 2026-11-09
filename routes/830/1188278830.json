@@ -1,9 +1,0 @@
-{
-  "id": 1188278830,
-  "name": "Riverside Road",
-  "highway": "tertiary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.020079, 6.625648], [80.020374, 6.625694], [80.02079, 6.625718], [80.021078, 6.625738], [80.021466, 6.625777]]
-}

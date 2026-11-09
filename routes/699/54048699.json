@@ -1,9 +1,0 @@
-{
-  "id": 54048699,
-  "name": "Hubert Place",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.86989, 6.96686], [79.869955, 6.96693], [79.870073, 6.967044], [79.870139, 6.967109], [79.870212, 6.967188], [79.870658, 6.967586]]
-}

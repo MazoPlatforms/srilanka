@@ -1,9 +1,0 @@
-{
-  "id": 1500752181,
-  "name": "Batticaloa Road",
-  "highway": "trunk",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
-  "coordinates": [[81.710342, 7.712444], [81.710344, 7.712395]]
-}

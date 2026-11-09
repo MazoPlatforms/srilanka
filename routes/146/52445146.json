@@ -1,9 +1,0 @@
-{
-  "id": 52445146,
-  "name": "Unity Place",
-  "highway": "tertiary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.855567, 6.908357], [79.855447, 6.908705], [79.855151, 6.909557], [79.855014, 6.909909], [79.854989, 6.909948]]
-}

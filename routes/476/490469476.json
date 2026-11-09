@@ -1,9 +1,0 @@
-{
-  "id": 490469476,
-  "name": "World vision scheme road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.775225, 9.321672], [80.775224, 9.321612], [80.775227, 9.321026], [80.775291, 9.320453], [80.77533, 9.319479], [80.775338, 9.319281], [80.775306, 9.31919]]
-}

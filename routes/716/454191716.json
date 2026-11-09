@@ -1,9 +1,0 @@
-{
-  "id": 454191716,
-  "name": "Barathi 3rd Cross Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.536508, 7.869926], [81.536492, 7.869914], [81.536255, 7.868596], [81.536277, 7.868536], [81.53633, 7.868502]]
-}

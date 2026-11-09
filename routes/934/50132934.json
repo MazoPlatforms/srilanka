@@ -1,9 +1,0 @@
-{
-  "id": 50132934,
-  "name": "New Hospital Road",
-  "highway": "secondary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.928911, 6.872519], [79.928197, 6.872054], [79.927703, 6.871713], [79.927157, 6.871344], [79.926789, 6.870947], [79.926642, 6.87068]]
-}

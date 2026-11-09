@@ -1,9 +1,0 @@
-{
-  "id": 220702665,
-  "name": "Jesuit Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.695902, 7.712095], [81.695987, 7.712099], [81.696748, 7.712139], [81.69681, 7.712141], [81.696846, 7.712142]]
-}

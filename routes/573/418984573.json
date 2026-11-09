@@ -1,9 +1,0 @@
-{
-  "id": 418984573,
-  "name": "17th Lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.89562, 6.886956], [79.896003, 6.886948], [79.896387, 6.886941]]
-}

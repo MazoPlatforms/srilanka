@@ -1,9 +1,0 @@
-{
-  "id": 23323122,
-  "name": "Old Kottawa Road",
-  "highway": "primary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.919736, 6.851894], [79.919528, 6.852074], [79.919136, 6.852618]]
-}

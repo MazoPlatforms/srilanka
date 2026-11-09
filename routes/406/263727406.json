@@ -1,9 +1,0 @@
-{
-  "id": 263727406,
-  "name": "20th Lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.980689, 6.912556], [79.980897, 6.913083]]
-}

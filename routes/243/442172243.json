@@ -1,9 +1,0 @@
-{
-  "id": 442172243,
-  "name": "Zoo entrance",
-  "highway": "service",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 15, "motorcycle": 15, "bicycle": 15, "foot": 5},
-  "coordinates": [[80.386707, 7.29608], [80.386877, 7.296093], [80.387146, 7.296189]]
-}

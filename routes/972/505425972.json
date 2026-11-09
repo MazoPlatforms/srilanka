@@ -1,9 +1,0 @@
-{
-  "id": 505425972,
-  "name": "3rd Lane Henawatte",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.041367, 6.853806], [80.041647, 6.854668], [80.041769, 6.855044], [80.041807, 6.855212], [80.041937, 6.855785], [80.042067, 6.856359]]
-}

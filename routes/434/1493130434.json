@@ -1,9 +1,0 @@
-{
-  "id": 1493130434,
-  "name": "High Level Road",
-  "highway": "trunk",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
-  "coordinates": [[79.96444, 6.84148], [79.964319, 6.841491], [79.964142, 6.841499], [79.963943, 6.841541], [79.963813, 6.84156]]
-}

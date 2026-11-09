@@ -1,9 +1,0 @@
-{
-  "id": 52453358,
-  "name": "Arthurs Place",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.883504, 6.870244], [79.883431, 6.870486], [79.883396, 6.870744], [79.883369, 6.871661], [79.883309, 6.87179], [79.883603, 6.87235]]
-}

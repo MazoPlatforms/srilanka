@@ -1,9 +1,0 @@
-{
-  "id": 209483652,
-  "name": "Schnakenberg Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.841835, 7.240366], [79.842378, 7.240437], [79.843438, 7.2406], [79.84382, 7.240662], [79.844315, 7.240746], [79.844823, 7.240797]]
-}

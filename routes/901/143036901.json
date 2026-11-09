@@ -1,9 +1,0 @@
-{
-  "id": 143036901,
-  "name": "The Nest Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.906409, 7.117601], [79.906408, 7.117746], [79.906407, 7.118269], [79.906405, 7.118379]]
-}

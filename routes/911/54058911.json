@@ -1,9 +1,0 @@
-{
-  "id": 54058911,
-  "name": "Marikkar Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.874124, 6.924279], [79.873493, 6.924756], [79.872691, 6.925231], [79.872067, 6.925351]]
-}

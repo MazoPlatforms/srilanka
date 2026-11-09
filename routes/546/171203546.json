@@ -1,9 +1,0 @@
-{
-  "id": 171203546,
-  "name": "New Vijaya Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.969426, 6.591871], [79.969349, 6.592232], [79.969239, 6.592436], [79.969145, 6.592659]]
-}

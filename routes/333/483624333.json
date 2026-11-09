@@ -1,9 +1,0 @@
-{
-  "id": 483624333,
-  "name": "Boundary Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.568978, 7.806734], [81.568922, 7.806329], [81.56886, 7.805999]]
-}

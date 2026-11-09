@@ -1,9 +1,0 @@
-{
-  "id": 50312256,
-  "name": "Deans Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.846966, 7.218713], [79.846055, 7.218485], [79.845388, 7.218399], [79.845322, 7.218388]]
-}

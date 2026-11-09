@@ -1,9 +1,0 @@
-{
-  "id": 325125343,
-  "name": "Gaffoor Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.838428, 7.387585], [81.838335, 7.387948], [81.838243, 7.388367], [81.838205, 7.388541], [81.838191, 7.388882], [81.838149, 7.389471]]
-}

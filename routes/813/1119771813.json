@@ -1,9 +1,0 @@
-{
-  "id": 1119771813,
-  "name": "Pansala Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.615713, 7.325622], [80.615771, 7.325749], [80.615817, 7.325846], [80.615845, 7.325897], [80.616001, 7.32606], [80.616229, 7.32671]]
-}

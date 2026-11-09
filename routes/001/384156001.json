@@ -1,9 +1,0 @@
-{
-  "id": 384156001,
-  "name": "2nd Lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.978863, 7.071231], [79.979043, 7.071124], [79.979524, 7.070816], [79.979779, 7.070685], [79.979996, 7.070618], [79.980197, 7.070496]]
-}

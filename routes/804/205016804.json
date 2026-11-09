@@ -1,9 +1,0 @@
-{
-  "id": 205016804,
-  "name": "Industrial Zone Road",
-  "highway": "service",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 15, "motorcycle": 15, "bicycle": 15, "foot": 5},
-  "coordinates": [[80.370375, 6.764903], [80.370592, 6.764115], [80.370895, 6.763265], [80.371131, 6.762542], [80.372341, 6.762931]]
-}

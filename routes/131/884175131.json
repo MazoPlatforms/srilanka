@@ -1,9 +1,0 @@
-{
-  "id": 884175131,
-  "name": "Polduwa Road",
-  "highway": "primary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.92091, 6.905342], [79.920616, 6.90505], [79.920305, 6.904705], [79.919968, 6.904405], [79.919406, 6.904018], [79.9192, 6.903919]]
-}

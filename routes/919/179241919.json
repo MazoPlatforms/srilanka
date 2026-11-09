@@ -1,9 +1,0 @@
-{
-  "id": 179241919,
-  "name": "Ingaran Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.558044, 7.825628], [81.558004, 7.826422], [81.558058, 7.827612], [81.558008, 7.828095]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 28531280,
-  "name": "Fernando Avenue",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.840266, 7.210948], [79.840164, 7.21132], [79.840045, 7.211749], [79.839851, 7.212497], [79.839798, 7.212678], [79.839709, 7.212819], [79.83961, 7.212936]]
-}

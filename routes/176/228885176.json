@@ -1,9 +1,0 @@
-{
-  "id": 228885176,
-  "name": "Galbokka Road",
-  "highway": "primary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.427863, 5.975843], [80.427819, 5.975784], [80.427756, 5.975716], [80.427705, 5.975686], [80.427636, 5.975661]]
-}

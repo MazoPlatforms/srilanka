@@ -1,9 +1,0 @@
-{
-  "id": 708604728,
-  "name": "Muttiah Road",
-  "highway": "residential",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.856605, 6.918973], [79.856549, 6.918959], [79.856429, 6.918895], [79.856272, 6.918645]]
-}

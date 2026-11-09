@@ -1,9 +1,0 @@
-{
-  "id": 219383516,
-  "name": "Central",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.952161, 8.040567], [80.952536, 8.040685], [80.952574, 8.040697], [80.952675, 8.040728], [80.95287, 8.04079], [80.953305, 8.040917]]
-}

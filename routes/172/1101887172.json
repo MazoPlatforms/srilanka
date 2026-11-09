@@ -1,9 +1,0 @@
-{
-  "id": 1101887172,
-  "name": "Pradesiyasabha",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.858652, 9.745484], [79.858965, 9.745338], [79.859168, 9.745243], [79.859659, 9.74509]]
-}

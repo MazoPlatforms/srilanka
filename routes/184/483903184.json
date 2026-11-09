@@ -1,9 +1,0 @@
-{
-  "id": 483903184,
-  "name": "Sudaroly Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.585381, 7.794334], [81.585825, 7.793922], [81.586259, 7.793545], [81.586466, 7.793342], [81.58697, 7.79277]]
-}

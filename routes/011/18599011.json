@@ -1,9 +1,0 @@
-{
-  "id": 18599011,
-  "name": "St Michael's Road",
-  "highway": "tertiary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.850921, 6.913045], [79.850912, 6.913037], [79.850846, 6.913003], [79.849404, 6.912548], [79.849336, 6.912527]]
-}

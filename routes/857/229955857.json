@@ -1,9 +1,0 @@
-{
-  "id": 229955857,
-  "name": "Samanalawewa Road",
-  "highway": "primary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.785853, 6.719311], [80.785768, 6.719475], [80.785679, 6.719646]]
-}

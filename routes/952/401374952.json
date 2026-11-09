@@ -1,9 +1,0 @@
-{
-  "id": 401374952,
-  "name": "Koshena Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.980911, 6.816071], [79.981406, 6.815956], [79.981728, 6.816127], [79.982521, 6.816414]]
-}

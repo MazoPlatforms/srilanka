@@ -1,9 +1,0 @@
-{
-  "id": 391877001,
-  "name": "Nagaha Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.982193, 6.851046], [79.982, 6.850905], [79.98198, 6.850824], [79.981977, 6.850623], [79.981952, 6.850575], [79.981579, 6.850358], [79.981509, 6.850275]]
-}

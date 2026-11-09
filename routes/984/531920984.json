@@ -1,9 +1,0 @@
-{
-  "id": 531920984,
-  "name": "Veyangoda Flyover",
-  "highway": "primary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.059273, 7.155219], [80.059634, 7.155061], [80.060018, 7.15489], [80.060294, 7.154757], [80.060561, 7.154624], [80.061092, 7.15435], [80.061412, 7.15418]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 1559993260,
-  "name": "Beach Road",
-  "highway": "primary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.819092, 9.271641], [80.819294, 9.271243], [80.819651, 9.270587], [80.819996, 9.269937], [80.820667, 9.26863]]
-}

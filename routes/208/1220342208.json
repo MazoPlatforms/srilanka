@@ -1,9 +1,0 @@
-{
-  "id": 1220342208,
-  "name": "Punnakuda Road",
-  "highway": "tertiary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.60413, 7.776807], [81.604139, 7.776875], [81.604162, 7.776945], [81.604204, 7.777044]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 108292351,
-  "name": "Sea View Road",
-  "highway": "secondary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.23187, 8.581059], [81.231793, 8.581], [81.231585, 8.58078], [81.231482, 8.580671], [81.231336, 8.580524]]
-}

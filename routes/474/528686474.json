@@ -1,9 +1,0 @@
-{
-  "id": 528686474,
-  "name": "Thudugala Road",
-  "highway": "tertiary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 40, "motorcycle": 40, "truck": 40, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.024136, 6.554732], [80.024177, 6.554774], [80.024499, 6.554951]]
-}

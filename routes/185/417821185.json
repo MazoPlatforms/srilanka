@@ -1,9 +1,0 @@
-{
-  "id": 417821185,
-  "name": "Pathum Mawatha",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.909348, 7.139253], [79.909611, 7.139059], [79.909858, 7.138919], [79.909998, 7.138885], [79.910291, 7.138712], [79.91046, 7.13864]]
-}

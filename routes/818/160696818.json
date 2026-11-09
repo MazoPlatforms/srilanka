@@ -1,9 +1,0 @@
-{
-  "id": 160696818,
-  "name": "Chetty Street",
-  "highway": "tertiary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.622802, 7.473244], [80.623206, 7.473255], [80.623802, 7.473273], [80.624252, 7.47329]]
-}

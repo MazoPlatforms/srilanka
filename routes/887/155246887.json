@@ -1,9 +1,0 @@
-{
-  "id": 155246887,
-  "name": "Amman Lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.701328, 7.719018], [81.701556, 7.718987], [81.701926, 7.718871], [81.702071, 7.718831], [81.70228, 7.718765], [81.702513, 7.718658]]
-}

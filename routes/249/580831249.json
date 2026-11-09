@@ -1,9 +1,0 @@
-{
-  "id": 580831249,
-  "name": "Kadawatha Bypass Road",
-  "highway": "primary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.957196, 7.002982], [79.957, 7.002981], [79.956881, 7.002981], [79.956755, 7.002977], [79.95662, 7.002975], [79.956458, 7.002968]]
-}

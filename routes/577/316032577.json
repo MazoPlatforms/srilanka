@@ -1,9 +1,0 @@
-{
-  "id": 316032577,
-  "name": "Rambaikulam lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.508446, 8.747704], [80.508185, 8.747208], [80.507928, 8.746142], [80.507735, 8.745744], [80.507284, 8.744978], [80.507732, 8.744787], [80.508859, 8.744464]]
-}

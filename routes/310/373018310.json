@@ -1,9 +1,0 @@
-{
-  "id": 373018310,
-  "name": "Kovilkulam 7th Lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.506021, 8.73593], [80.506621, 8.735957], [80.507287, 8.735978], [80.507904, 8.735983], [80.50821, 8.736]]
-}

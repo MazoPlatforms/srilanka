@@ -1,9 +1,0 @@
-{
-  "id": 220695698,
-  "name": "Shareefdeen Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.725352, 7.691332], [81.725484, 7.691135], [81.725691, 7.69084], [81.725915, 7.690479], [81.726247, 7.689959], [81.726776, 7.689162]]
-}

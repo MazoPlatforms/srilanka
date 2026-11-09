@@ -1,9 +1,0 @@
-{
-  "id": 388811778,
-  "name": "Walagamba road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.942958, 7.066653], [79.943086, 7.066662], [79.943122, 7.066665], [79.943576, 7.066741], [79.943695, 7.066661], [79.944102, 7.066712], [79.944426, 7.066726]]
-}

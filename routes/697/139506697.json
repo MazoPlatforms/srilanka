@@ -1,9 +1,0 @@
-{
-  "id": 139506697,
-  "name": "Railway Avenue",
-  "highway": "residential",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.927551, 6.848009], [79.927978, 6.847573], [79.928375, 6.847062]]
-}

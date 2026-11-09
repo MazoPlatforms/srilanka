@@ -1,9 +1,0 @@
-{
-  "id": 379497902,
-  "name": "Katuwana-Urubokka Road",
-  "highway": "primary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.691295, 6.264603], [80.691268, 6.264709], [80.691245, 6.264876]]
-}

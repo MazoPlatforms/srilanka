@@ -1,9 +1,0 @@
-{
-  "id": 48056140,
-  "name": "Waduruppa Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.017376, 6.109345], [81.017451, 6.110081], [81.017719, 6.110241], [81.018749, 6.110508], [81.0192, 6.110967], [81.019886, 6.111884], [81.021074, 6.113385]]
-}

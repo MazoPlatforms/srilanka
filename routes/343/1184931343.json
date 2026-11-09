@@ -1,9 +1,0 @@
-{
-  "id": 1184931343,
-  "name": "Road to Hostel",
-  "highway": "service",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 15, "motorcycle": 15, "bicycle": 15, "foot": 5},
-  "coordinates": [[80.787336, 6.709662], [80.787113, 6.709623], [80.786654, 6.709484], [80.786447, 6.709449]]
-}

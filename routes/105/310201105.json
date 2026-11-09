@@ -1,9 +1,0 @@
-{
-  "id": 310201105,
-  "name": "Hemamallika Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.834225, 6.318362], [80.835281, 6.318221], [80.835552, 6.318173], [80.83815, 6.317697]]
-}

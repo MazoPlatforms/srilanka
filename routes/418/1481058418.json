@@ -1,9 +1,0 @@
-{
-  "id": 1481058418,
-  "name": "1st street",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.609261, 7.437578], [80.609231, 7.437678], [80.609204, 7.437883], [80.609218, 7.437907], [80.609401, 7.437964]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 201237421,
-  "name": "C T B Road",
-  "highway": "tertiary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.886762, 6.935199], [79.887336, 6.935174], [79.887476, 6.935205]]
-}

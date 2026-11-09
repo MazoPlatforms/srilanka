@@ -1,9 +1,0 @@
-{
-  "id": 155781468,
-  "name": "10th Cross Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.682226, 7.734282], [81.68249, 7.734601], [81.6827, 7.734834], [81.683035, 7.735134]]
-}

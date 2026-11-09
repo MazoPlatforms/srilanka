@@ -1,9 +1,0 @@
-{
-  "id": 511513780,
-  "name": "Dampe Road",
-  "highway": "tertiary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.049345, 6.820955], [80.049445, 6.820966], [80.049734, 6.821029]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 384275690,
-  "name": "Dewata Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.967199, 7.071772], [79.967218, 7.071672], [79.967302, 7.071055]]
-}

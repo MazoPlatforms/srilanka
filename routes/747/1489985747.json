@@ -1,9 +1,0 @@
-{
-  "id": 1489985747,
-  "name": "Pannipitiya Road",
-  "highway": "primary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.928869, 6.891307], [79.928869, 6.891388]]
-}

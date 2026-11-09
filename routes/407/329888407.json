@@ -1,9 +1,0 @@
-{
-  "id": 329888407,
-  "name": "友谊大道 Friendship Avenue",
-  "highway": "service",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 15, "motorcycle": 15, "bicycle": 15, "foot": 5},
-  "coordinates": [[81.092152, 6.121664], [81.091941, 6.121577], [81.091826, 6.121492], [81.091729, 6.121375], [81.091666, 6.121229], [81.091653, 6.120915]]
-}

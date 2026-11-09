@@ -1,9 +1,0 @@
-{
-  "id": 225080855,
-  "name": "Mamangam Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.694911, 7.737756], [81.695135, 7.738074], [81.69529, 7.738352], [81.695308, 7.738688], [81.695288, 7.739015], [81.695239, 7.73977], [81.695275, 7.740043]]
-}

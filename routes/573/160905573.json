@@ -1,9 +1,0 @@
-{
-  "id": 160905573,
-  "name": "Pandaravanniyan Road",
-  "highway": "tertiary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.500928, 8.757169], [80.501041, 8.757235], [80.501121, 8.757291], [80.50148, 8.758137], [80.501689, 8.758494], [80.502308, 8.759887]]
-}

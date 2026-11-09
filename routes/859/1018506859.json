@@ -1,9 +1,0 @@
-{
-  "id": 1018506859,
-  "name": "Trincomalee-Batticaloa Road",
-  "highway": "trunk",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
-  "coordinates": [[81.300641, 8.325665], [81.300672, 8.325641], [81.300693, 8.325623], [81.300724, 8.325605], [81.300753, 8.32559], [81.300808, 8.325564]]
-}

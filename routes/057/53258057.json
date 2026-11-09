@@ -1,9 +1,0 @@
-{
-  "id": 53258057,
-  "name": "Rodrigo Avenue",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.889853, 6.897599], [79.889544, 6.897746], [79.889502, 6.897785], [79.889543, 6.897934], [79.889709, 6.898169], [79.889786, 6.898281], [79.89009, 6.898725]]
-}

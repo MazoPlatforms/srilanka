@@ -1,9 +1,0 @@
-{
-  "id": 401797662,
-  "name": "Nedunkerny north 2nd Lane Cross Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.659695, 9.058669], [80.659757, 9.058633], [80.660163, 9.058426], [80.660892, 9.058174]]
-}

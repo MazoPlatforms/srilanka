@@ -1,9 +1,0 @@
-{
-  "id": 326481630,
-  "name": "Chavatkalai Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.805092, 7.419037], [81.805291, 7.419874], [81.805292, 7.419903], [81.805268, 7.419918], [81.804308, 7.420063]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 51193156,
-  "name": "School Lane",
-  "highway": "residential",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.872735, 6.930727], [79.87256, 6.93096], [79.872231, 6.931323], [79.872156, 6.931435], [79.872164, 6.931699]]
-}

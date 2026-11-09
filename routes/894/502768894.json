@@ -1,9 +1,0 @@
-{
-  "id": 502768894,
-  "name": "Batagalla Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.688984, 7.250688], [80.689126, 7.250695], [80.689265, 7.250903], [80.689576, 7.251108], [80.689709, 7.251378]]
-}

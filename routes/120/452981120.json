@@ -1,9 +1,0 @@
-{
-  "id": 452981120,
-  "name": "Rampitiya Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.926381, 7.027087], [79.926464, 7.027278], [79.926537, 7.027415], [79.926708, 7.027727], [79.927081, 7.028264]]
-}

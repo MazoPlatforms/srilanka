@@ -1,9 +1,0 @@
-{
-  "id": 381418071,
-  "name": "Udara Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.98544, 7.045197], [79.985562, 7.045284], [79.985833, 7.04552], [79.986112, 7.045759], [79.986512, 7.046174], [79.986625, 7.046244]]
-}

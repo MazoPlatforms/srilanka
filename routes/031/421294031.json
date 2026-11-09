@@ -1,9 +1,0 @@
-{
-  "id": 421294031,
-  "name": "Pothagar road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.593401, 7.783304], [81.593302, 7.78311], [81.593015, 7.782366], [81.592889, 7.781933], [81.592793, 7.781741], [81.592635, 7.781375], [81.592369, 7.780591]]
-}

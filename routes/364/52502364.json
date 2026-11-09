@@ -1,9 +1,0 @@
-{
-  "id": 52502364,
-  "name": "Mary's Road",
-  "highway": "residential",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.859163, 6.881585], [79.856162, 6.880716]]
-}

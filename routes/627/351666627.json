@@ -1,9 +1,0 @@
-{
-  "id": 351666627,
-  "name": "Gorokgoda Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.105291, 6.777666], [80.105672, 6.777677], [80.106792, 6.777778], [80.107058, 6.777775], [80.107395, 6.777723], [80.108346, 6.777581]]
-}

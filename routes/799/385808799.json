@@ -1,9 +1,0 @@
-{
-  "id": 385808799,
-  "name": "Kalyani Cross Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.006698, 7.089527], [80.006097, 7.089524], [80.005882, 7.089519]]
-}

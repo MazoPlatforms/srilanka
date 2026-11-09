@@ -1,9 +1,0 @@
-{
-  "id": 157195739,
-  "name": "Station Lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.915822, 6.856109], [79.916235, 6.856204], [79.917267, 6.856525]]
-}

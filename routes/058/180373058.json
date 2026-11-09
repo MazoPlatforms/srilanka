@@ -1,9 +1,0 @@
-{
-  "id": 180373058,
-  "name": "7th Lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.871013, 6.974203], [79.871088, 6.974162], [79.871947, 6.973726], [79.872298, 6.97353]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 498189628,
-  "name": "Rose Garden",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.935128, 6.652708], [79.935288, 6.652736], [79.936026, 6.652827], [79.936067, 6.652847], [79.935917, 6.653467], [79.934977, 6.653265]]
-}

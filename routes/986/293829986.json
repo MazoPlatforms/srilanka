@@ -1,9 +1,0 @@
-{
-  "id": 293829986,
-  "name": "8th Lane",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.938744, 6.883207], [79.939037, 6.882566], [79.939228, 6.882192]]
-}

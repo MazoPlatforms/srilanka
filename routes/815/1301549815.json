@@ -1,9 +1,0 @@
-{
-  "id": 1301549815,
-  "name": "Kalmunai Road",
-  "highway": "trunk",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
-  "coordinates": [[81.710225, 7.712382], [81.710224, 7.712439], [81.710215, 7.712758]]
-}

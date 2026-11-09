@@ -1,9 +1,0 @@
-{
-  "id": 406661662,
-  "name": "Chilaw Road",
-  "highway": "primary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.844959, 7.219309], [79.845025, 7.219362], [79.845301, 7.219481], [79.845392, 7.219483]]
-}

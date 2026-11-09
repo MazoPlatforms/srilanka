@@ -1,9 +1,0 @@
-{
-  "id": 330745350,
-  "name": "Gangai Bridge",
-  "highway": "trunk",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
-  "coordinates": [[81.230962, 8.459484], [81.230468, 8.459683], [81.229961, 8.459893], [81.229339, 8.460154], [81.228735, 8.46041]]
-}

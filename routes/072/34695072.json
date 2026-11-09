@@ -1,9 +1,0 @@
-{
-  "id": 34695072,
-  "name": "China Street",
-  "highway": "residential",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.852192, 6.939836], [79.852509, 6.939237], [79.852836, 6.938581]]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 387057244,
-  "name": "Mawela road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.982875, 7.084058], [79.982826, 7.084166], [79.982753, 7.084335]]
-}

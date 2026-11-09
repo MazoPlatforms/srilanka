@@ -1,9 +1,0 @@
-{
-  "id": 388182515,
-  "name": "Gallena Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.97694, 7.070475], [79.976865, 7.07046], [79.976687, 7.070332], [79.976545, 7.070269], [79.976382, 7.070242], [79.976195, 7.070115]]
-}

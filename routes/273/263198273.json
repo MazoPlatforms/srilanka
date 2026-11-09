@@ -1,9 +1,0 @@
-{
-  "id": 263198273,
-  "name": "Park Lane Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.005959, 6.831849], [80.004993, 6.831792], [80.004767, 6.831732]]
-}

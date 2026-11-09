@@ -1,9 +1,0 @@
-{
-  "id": 519880368,
-  "name": "Internal road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.755741, 7.520206], [81.756615, 7.520209], [81.757313, 7.520207]]
-}

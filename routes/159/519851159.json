@@ -1,9 +1,0 @@
-{
-  "id": 519851159,
-  "name": "Redvana road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.691729, 7.543265], [81.692001, 7.543411], [81.693049, 7.543956], [81.69321, 7.544028], [81.693385, 7.544048]]
-}

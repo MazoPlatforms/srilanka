@@ -1,9 +1,0 @@
-{
-  "id": 146021986,
-  "name": "Jaya Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.875598, 6.864415], [79.875757, 6.863924], [79.87582, 6.863167], [79.875856, 6.862535], [79.875854, 6.86226], [79.875848, 6.861703]]
-}

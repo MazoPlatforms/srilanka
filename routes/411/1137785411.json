@@ -1,9 +1,0 @@
-{
-  "id": 1137785411,
-  "name": "Andeniya bridge",
-  "highway": "tertiary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[81.061322, 6.998832], [81.061202, 6.998888], [81.061034, 6.998985], [81.060907, 6.999058], [81.060782, 6.999122]]
-}

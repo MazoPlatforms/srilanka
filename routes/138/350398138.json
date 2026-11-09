@@ -1,9 +1,0 @@
-{
-  "id": 350398138,
-  "name": "Bazzar Street",
-  "highway": "primary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.500585, 8.755444], [80.500898, 8.755712], [80.501291, 8.756045]]
-}

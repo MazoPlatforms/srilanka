@@ -1,9 +1,0 @@
-{
-  "id": 550879131,
-  "name": "Bridge(Railway)",
-  "highway": "living_street",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
-  "coordinates": [[80.412742, 6.684361], [80.412848, 6.684311]]
-}

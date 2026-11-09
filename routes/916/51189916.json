@@ -1,9 +1,0 @@
-{
-  "id": 51189916,
-  "name": "Park Avenue",
-  "highway": "tertiary",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.877627, 6.91874], [79.877557, 6.918809], [79.877073, 6.919285]]
-}

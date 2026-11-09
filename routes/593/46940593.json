@@ -1,9 +1,0 @@
-{
-  "id": 46940593,
-  "name": "Initium Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.864387, 6.859532], [79.863951, 6.859489]]
-}

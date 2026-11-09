@@ -1,9 +1,0 @@
-{
-  "id": 50147348,
-  "name": "Vanderwert Place",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.861108, 6.855515], [79.862559, 6.855868], [79.862701, 6.855902], [79.863389, 6.856066], [79.865117, 6.856453]]
-}

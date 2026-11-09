@@ -1,9 +1,0 @@
-{
-  "id": 46940659,
-  "name": "Fairline Road",
-  "highway": "residential",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[79.862372, 6.853902], [79.862522, 6.85346], [79.862573, 6.853424], [79.862633, 6.853415], [79.863416, 6.853635], [79.863941, 6.853792], [79.865569, 6.854119]]
-}

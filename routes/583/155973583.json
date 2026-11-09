@@ -1,9 +1,0 @@
-{
-  "id": 155973583,
-  "name": "Boundary 2nd Cross",
-  "highway": "service",
-  "oneway": false,
-  "deleted": false,
-  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "bicycle": 15, "foot": 5},
-  "coordinates": [[81.671504, 7.741247], [81.671808, 7.740994], [81.671827, 7.740978], [81.672034, 7.740805], [81.672208, 7.740672], [81.672423, 7.740534]]
-}

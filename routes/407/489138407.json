@@ -1,9 +1,0 @@
-{
-  "id": 489138407,
-  "name": "Bibile Road",
-  "highway": "primary",
-  "oneway": "forward",
-  "deleted": false,
-  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
-  "coordinates": [[80.99301, 7.340038], [80.992942, 7.339923], [80.992881, 7.339822], [80.992828, 7.33974]]
-}
