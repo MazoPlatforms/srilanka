@@ -84,9 +84,9 @@ function init(index) {
     layout: { "symbol-placement": "line", "text-field": lbl, "text-font": ["NotoSans-Regular"], "text-size": 11 },
     paint: { "text-color": "#44504d", "text-halo-color": "#fff", "text-halo-width": 1.5 } }));
   const placeIds = [];
-  each(d => d.files.base && d.counts.place && (add("Places", { id: "pd-" + d.slug, type: "circle", source: "o_" + d.slug, "source-layer": "place", minzoom: 12,
-    paint: { "circle-radius": ["interpolate", ["linear"], ["zoom"], 12, 2, 16, 5], "circle-color": "#0b7f86",
-      "circle-stroke-width": 1, "circle-stroke-color": "#fff" } }),
+  each(d => d.files.base && d.counts.place && (add("Places", { id: "pd-" + d.slug, type: "circle", source: "o_" + d.slug, "source-layer": "place", minzoom: 10,
+    paint: { "circle-radius": ["interpolate", ["linear"], ["zoom"], 10, 2.2, 13, 4, 16, 6], "circle-color": "#0969da",
+      "circle-stroke-width": 1.5, "circle-stroke-color": "#fff", "circle-opacity": 0.96 } }),
     add("Places", { id: "pt-" + d.slug, type: "symbol", source: "o_" + d.slug, "source-layer": "place", minzoom: 15,
       layout: { "text-field": lbl, "text-font": ["NotoSans-Regular"], "text-size": 11, "text-offset": [0, 0.9],
         "text-anchor": "top", "text-optional": true },
@@ -123,11 +123,49 @@ function init(index) {
     try {localStorage.setItem("sl-map-theme", document.documentElement.dataset.theme)} catch {}
     applyMapTheme();
   });
+  let locationMarker = null;
+  let selectedMarker = null;
+  function pin(color, label) {
+    const el = document.createElement("div");
+    el.setAttribute("role", "img");
+    el.setAttribute("aria-label", label);
+    el.style.cssText = "width:18px;height:18px;border-radius:50%;border:3px solid white;background:"+color+";box-shadow:0 0 0 2px "+color+",0 2px 10px #0005";
+    return el;
+  }
+  function showSelectedMarker(coords) {
+    if (selectedMarker) selectedMarker.remove();
+    selectedMarker = new maplibregl.Marker({element:pin("#0969da","Selected place"),anchor:"bottom"})
+      .setLngLat(coords).addTo(map);
+  }
   document.getElementById("map-locate").addEventListener("click", () => {
-    if (!navigator.geolocation) return;
-    navigator.geolocation.getCurrentPosition(p => map.flyTo({center:[p.coords.longitude,p.coords.latitude],zoom:15}), () => {document.getElementById("meta").textContent="Location unavailable. Check browser permissions."},{enableHighAccuracy:false,timeout:12000});
+    const btn = document.getElementById("map-locate");
+    if (!navigator.geolocation) {
+      document.getElementById("meta").textContent="Location is not supported by this browser.";
+      return;
+    }
+    btn.disabled = true;
+    btn.setAttribute("aria-busy","true");
+    navigator.geolocation.getCurrentPosition(p => {
+      const coords=[p.coords.longitude,p.coords.latitude];
+      if (locationMarker) locationMarker.remove();
+      locationMarker=new maplibregl.Marker({element:pin("#2377fa","Your location")})
+        .setLngLat(coords).addTo(map);
+      map.flyTo({center:coords,zoom:15});
+      btn.disabled=false;
+      btn.removeAttribute("aria-busy");
+    }, err => {
+      btn.disabled=false;
+      btn.removeAttribute("aria-busy");
+      document.getElementById("meta").textContent =
+        err.code===1 ? "Location permission denied. Allow location access in browser settings." :
+        "Location unavailable. Check GPS, connectivity, and browser permissions.";
+    },{enableHighAccuracy:true,timeout:15000,maximumAge:30000});
   });
-  map.on("error", ev => console.error("Map error:", ev && ev.error ? ev.error.message : ev));
+  map.on("error", ev => {
+    console.error("Map error:", ev && ev.error ? ev.error.message : ev);
+    const msg=String(ev?.error?.message||"");
+    if (/glyph|tile|source|pmtiles/i.test(msg)) document.getElementById("meta").textContent="Map assets failed to load. Refresh or check the network.";
+  });
   // Minimal Mazo Maps-style controls: zoom by touch/scroll, location via the custom button.
   map.addControl(new maplibregl.ScaleControl(), "bottom-left");
 
@@ -135,8 +173,9 @@ function init(index) {
   const sheet = document.getElementById("place-sheet");
   const info = document.getElementById("place-info");
   const addText = (tag, value, cls) => {const e=document.createElement(tag);e.textContent=value;if(cls)e.className=cls;info.appendChild(e);return e;};
-  document.getElementById("place-close").addEventListener("click",()=>sheet.hidden=true);
+  document.getElementById("place-close").addEventListener("click",()=>{sheet.hidden=true;if(selectedMarker){selectedMarker.remove();selectedMarker=null;}});
   async function openPlace(d,id,f,lngLat,name) {
+    showSelectedMarker(lngLat);
     sheet.hidden=false;
     document.getElementById("place-title").textContent=name||"Place";
     info.replaceChildren();
@@ -172,7 +211,7 @@ function init(index) {
   }
   const q = document.getElementById("q"), list = document.getElementById("results");
   document.getElementById("search-btn").addEventListener("click",()=>{q.focus();runSearch();});
-  document.getElementById("explore").addEventListener("click",()=>{q.value="";list.replaceChildren();list.hidden=true;sheet.hidden=true;map.fitBounds([[w,s],[e,n]],{padding:30});});
+  document.getElementById("explore").addEventListener("click",()=>{q.value="";list.replaceChildren();list.hidden=true;sheet.hidden=true;if(selectedMarker){selectedMarker.remove();selectedMarker=null;}map.fitBounds([[w,s],[e,n]],{padding:30});});
   let timer;
   q.addEventListener("input", () => { clearTimeout(timer); timer = setTimeout(runSearch, 150); });
   async function runSearch() {
