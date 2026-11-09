@@ -1,0 +1,651 @@
+name: Build Sri Lanka map (Overture + GitHub Pages)
+
+on:
+  workflow_dispatch:
+    inputs:
+      site_title:
+        description: "Title shown on the map page"
+        default: "Sri Lanka Map"
+      deploy_pages:
+        description: "Also deploy to GitHub Pages from this repo (Settings > Pages > Source: GitHub Actions)"
+        type: boolean
+        default: false
+      overturemaps_version:
+        description: "Pin the overturemaps pip version (blank = latest Overture release)"
+        default: ""
+  push:
+    paths:
+      - ".github/workflows/build-sri-lanka-map.yml"
+
+permissions:
+  contents: read
+
+env:
+  BBOX: "79.45,5.85,81.95,9.9"          # all of Sri Lanka incl. nearby islands
+  SITE_TITLE: ${{ inputs.site_title || 'Sri Lanka Map' }}
+  OVERTURE_PIN: ${{ inputs.overturemaps_version }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    steps:
+      - name: Free disk space
+        run: |
+          sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /opt/hostedtoolcache/CodeQL
+          df -h /
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install overturemaps CLI
+        run: |
+          if [ -n "$OVERTURE_PIN" ]; then pip install "overturemaps==$OVERTURE_PIN"; else pip install -U overturemaps; fi
+          overturemaps download --help | head -20
+
+      - name: Cache tippecanoe
+        id: tip
+        uses: actions/cache@v4
+        with:
+          path: ~/tippecanoe-bin
+          key: tippecanoe-2.72.0-${{ runner.os }}
+
+      - name: Build tippecanoe
+        if: steps.tip.outputs.cache-hit != 'true'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y build-essential libsqlite3-dev zlib1g-dev
+          git clone --depth 1 --branch 2.72.0 https://github.com/felt/tippecanoe.git /tmp/tippecanoe
+          make -C /tmp/tippecanoe -j"$(nproc)"
+          mkdir -p ~/tippecanoe-bin
+          cp /tmp/tippecanoe/tippecanoe ~/tippecanoe-bin/
+
+      - name: Write builder script (inline)
+        run: |
+          mkdir -p build site
+          cat > build/builder.py <<'PYEOF'
+          #!/usr/bin/env python3
+          """Sri Lanka Overture builder: JSON places (999/folder), search shards, PMTiles."""
+          import glob, json, os, subprocess, sys, time, uuid
+
+          BBOX = os.environ.get("BBOX", "79.45,5.85,81.95,9.9")
+          W, S, E, N = [float(x) for x in BBOX.split(",")]
+          DATA = "site/data"
+          PER_FOLDER = 999
+          LIMIT = 95_000_000            # stay under GitHub's 100 MB per-file limit
+          CROCKFORD = "0123456789ABCDEFGHJKMNPQRSTVWXYZ"
+          STATUS = {"open": "OPEN", "permanently_closed": "CLOSED_PERMANENTLY",
+                    "temporarily_closed": "CLOSED_TEMPORARILY"}
+          SEP = set(" \t\n,.;:()[]/\\-_&'\"")
+
+          # ---------- helpers ----------
+          def to_ulid(oid):
+              try:
+                  n = uuid.UUID(str(oid)).int
+              except ValueError:
+                  n = uuid.uuid5(uuid.NAMESPACE_URL, str(oid)).int
+              s = ""
+              for _ in range(26):
+                  s = CROCKFORD[n & 31] + s
+                  n >>= 5
+              return s
+
+          def humanize(s):
+              s = str(s).replace("_", " ").strip()
+              return s[:1].upper() + s[1:]
+
+          def tokens(name):
+              out, cur = [], []
+              for ch in name.lower():
+                  if ch in SEP:
+                      if cur:
+                          out.append("".join(cur)); cur = []
+                  else:
+                      cur.append(ch)
+              if cur:
+                  out.append("".join(cur))
+              return out
+
+          def shard_key(tok):
+              return "-".join(format(ord(c), "x") for c in tok[:2])
+
+          def stream(otype):
+              """Stream features straight from the Overture CLI (no giant temp file)."""
+              cmd = ["overturemaps", "download", f"--bbox={BBOX}", "-f", "geojsonseq", f"--type={otype}"]
+              p = subprocess.Popen(cmd, stdout=subprocess.PIPE, text=True, encoding="utf-8", bufsize=1 << 20)
+              for line in p.stdout:
+                  line = line.strip().lstrip("\x1e")
+                  if line:
+                      yield json.loads(line)
+              if p.wait() != 0:
+                  sys.exit(f"overturemaps download failed for {otype}")
+
+          def feature_id(f):
+              return f.get("id") or (f.get("properties") or {}).get("id")
+
+          def names_of(p):
+              names = p.get("names")
+              if not isinstance(names, dict):
+                  return None, None
+              common = names.get("common")
+              en = common.get("en") if isinstance(common, dict) else None
+              return names.get("primary"), en
+
+          # ---------- places ----------
+          def is_valid_place(f):
+              g = f.get("geometry") or {}
+              p = f.get("properties") or {}
+              return g.get("type") == "Point" and bool(names_of(p)[0]) and bool(feature_id(f))
+
+          def place_categories(p):
+              raw = []
+              tax = p.get("taxonomy")
+              if isinstance(tax, dict) and tax.get("primary"):
+                  raw.append(tax["primary"])
+              cats = p.get("categories")
+              if isinstance(cats, dict):
+                  if cats.get("primary"):
+                      raw.append(cats["primary"])
+                  raw += cats.get("alternate") or []
+              out = []
+              for c in raw:
+                  h = humanize(c)
+                  if h not in out:
+                      out.append(h)
+              return out
+
+          def place_address(p):
+              a = p.get("addresses")
+              if not (isinstance(a, list) and a and isinstance(a[0], dict)):
+                  return ""
+              a = a[0]
+              tail = " ".join(x for x in [a.get("locality"), a.get("postcode")] if x)
+              return ", ".join(x for x in [a.get("freeform"), tail] if x)
+
+          def place_record(f, ulid):
+              p = f["properties"]
+              lon, lat = f["geometry"]["coordinates"][:2]
+              phones = p.get("phones") or []
+              return {
+                  "name": names_of(p)[0],
+                  "coordinates": {"latitude": round(lat, 7), "longitude": round(lon, 7)},
+                  "address": place_address(p),
+                  "categories": place_categories(p),
+                  "phone": str(phones[0]).strip() if phones else "",
+                  "hours": [],
+                  "business_status": STATUS.get(p.get("operating_status"), "UNKNOWN"),
+                  "id": ulid,
+              }
+
+          def process_places():
+              out_dir = os.path.join(DATA, "places")
+              sdir = os.path.join(DATA, "search")
+              tmp = "build/places.jsonl"
+              ids = set()
+              with open(tmp, "w", encoding="utf-8") as fo:               # pass A: spool
+                  for f in stream("place"):
+                      if not is_valid_place(f):
+                          continue
+                      ulid = to_ulid(feature_id(f))
+                      if ulid in ids:
+                          continue
+                      ids.add(ulid)
+                      fo.write(json.dumps({"r": place_record(f, ulid), "g": f["geometry"],
+                                           "en": names_of(f["properties"])[1]}, ensure_ascii=False) + "\n")
+              order = sorted(ids)
+              total = len(order)
+              folders = max(1, -(-total // PER_FOLDER))
+              width = max(4, len(str(folders)))
+              rank = {u: i for i, u in enumerate(order)}
+              os.makedirs(out_dir, exist_ok=True)
+              os.makedirs(sdir, exist_ok=True)
+
+              made, search = set(), {}
+              with open(tmp, encoding="utf-8") as fi, open("build/place.geojsonseq", "w", encoding="utf-8") as tiles:
+                  for line in fi:                                         # pass B: write
+                      o = json.loads(line)
+                      rec, ulid = o["r"], o["r"]["id"]
+                      folder = str(rank[ulid] // PER_FOLDER + 1).zfill(width)
+                      d = os.path.join(out_dir, folder)
+                      if d not in made:
+                          os.makedirs(d, exist_ok=True)
+                          made.add(d)
+                      with open(os.path.join(d, ulid + ".json"), "w", encoding="utf-8") as fo:
+                          json.dump(rec, fo, ensure_ascii=False, separators=(",", ":"))
+                      cats = rec["categories"]
+                      props = {"id": ulid, "f": folder, "name": rec["name"],
+                               "category": cats[0] if cats else ""}
+                      if o.get("en"):
+                          props["name_en"] = o["en"]
+                      tiles.write(json.dumps({"type": "Feature", "geometry": o["g"], "properties": props},
+                                             ensure_ascii=False) + "\n")
+                      entry = [rec["name"], round(rec["coordinates"]["longitude"], 6),
+                               round(rec["coordinates"]["latitude"], 6), ulid, folder]
+                      keys = {shard_key(t) for t in tokens(rec["name"]) if len(t) >= 2}
+                      for k in keys:
+                          search.setdefault(k, []).append(entry)
+              os.remove(tmp)
+              for k, entries in search.items():
+                  entries.sort(key=lambda e: e[0].lower())
+                  with open(os.path.join(sdir, k + ".json"), "w", encoding="utf-8") as fo:
+                      json.dump(entries, fo, ensure_ascii=False, separators=(",", ":"))
+              manifest = {"schema": 1, "per_folder": PER_FOLDER, "folder_width": width,
+                          "total": total, "folders": folders, "path": "places/{folder}/{id}.json"}
+              with open(os.path.join(out_dir, "manifest.json"), "w") as fo:
+                  json.dump(manifest, fo)
+              return manifest
+
+          # ---------- other layers ----------
+          KEEP = {
+              "land": {"class", "subtype"},
+              "land_use": {"class", "subtype"},
+              "water": {"class", "subtype"},
+              "division_area": {"subtype", "class", "country", "region"},
+              "segment": {"class", "subtype"},
+              "building": {"height", "num_floors", "class", "subtype"},
+          }
+
+          def convert_layer(layer, otype):
+              keep, n = KEEP[layer], 0
+              with open(f"build/{layer}.geojsonseq", "w", encoding="utf-8") as fo:
+                  for f in stream(otype):
+                      p = f.get("properties") or {}
+                      props = {k: p[k] for k in keep if p.get(k) is not None and not isinstance(p[k], (dict, list))}
+                      name, en = names_of(p)
+                      if name:
+                          props["name"] = name
+                      if en:
+                          props["name_en"] = en
+                      fo.write(json.dumps({"type": "Feature", "geometry": f["geometry"], "properties": props},
+                                          ensure_ascii=False) + "\n")
+                      n += 1
+              print(f"   {layer}: {n} features", flush=True)
+              return n
+
+          # ---------- tiles ----------
+          def tippecanoe(out, args, minz, maxz, tile_bytes, coalesce):
+              cmd = ["tippecanoe", "-o", out, "--force", f"-Z{minz}", f"-z{maxz}",
+                     "--drop-densest-as-needed", "--read-parallel",
+                     f"--maximum-tile-bytes={tile_bytes}",
+                     "--attribution=Overture Maps Foundation"]
+              if coalesce:
+                  cmd.append("--coalesce-densest-as-needed")
+              subprocess.run(cmd + args, check=True)
+              return os.path.getsize(out)
+
+          def first_y(g):
+              c = g.get("coordinates")
+              while isinstance(c, list) and c and isinstance(c[0], list):
+                  c = c[0]
+              return c[1] if isinstance(c, list) and len(c) > 1 else S
+
+          def split_bands(src, n):
+              files = [f"build/bband{i}.geojsonseq" for i in range(n)]
+              outs = [open(f, "w", encoding="utf-8") for f in files]
+              step = (N - S) / n
+              with open(src, encoding="utf-8") as fi:
+                  for line in fi:
+                      y = first_y(json.loads(line)["geometry"])
+                      outs[min(n - 1, max(0, int((y - S) / step)))].write(line)
+              for o in outs:
+                  o.close()
+              return files
+
+          def build_buildings(counts):
+              counts["building"] = convert_layer("building", "building")
+              if not counts["building"]:
+                  return []
+              for bands in (3, 6, 12):
+                  for old in glob.glob(f"{DATA}/buildings-*.pmtiles"):
+                      os.remove(old)
+                  print(f"== buildings: {bands} files ==", flush=True)
+                  ok, outs = True, []
+                  for i, f in enumerate(split_bands("build/building.geojsonseq", bands)):
+                      if os.path.getsize(f) == 0:
+                          os.remove(f)
+                          continue
+                      out = f"{DATA}/buildings-{i}.pmtiles"
+                      size = tippecanoe(out, ["-l", "building", f], 15, 15, 500000, False)
+                      os.remove(f)
+                      if size > LIMIT:
+                          ok = False
+                          break
+                      outs.append(os.path.basename(out))
+                  for left in glob.glob("build/bband*.geojsonseq"):
+                      os.remove(left)
+                  if ok:
+                      return outs
+                  print(f"   a file exceeded {LIMIT} bytes, splitting finer", flush=True)
+              for old in glob.glob(f"{DATA}/buildings-*.pmtiles"):
+                  os.remove(old)
+              print("::warning::Buildings skipped: could not fit GitHub's 100 MB file limit")
+              return []
+
+          def main():
+              os.makedirs("build", exist_ok=True)
+              os.makedirs(DATA, exist_ok=True)
+              counts, base_args = {}, []
+              for layer, otype, minz in [("land", "land", 0), ("land_use", "land_use", 6),
+                                         ("water", "water", 0), ("division_area", "division_area", 4),
+                                         ("segment", "segment", 8)]:
+                  print(f"== {layer} ==", flush=True)
+                  counts[layer] = convert_layer(layer, otype)
+                  if counts[layer]:
+                      base_args += ["-L", json.dumps({"file": f"build/{layer}.geojsonseq",
+                                                      "layer": layer, "minzoom": minz})]
+              print("== place ==", flush=True)
+              manifest = process_places()
+              counts["place"] = manifest["total"]
+              if manifest["total"]:
+                  base_args += ["-L", json.dumps({"file": "build/place.geojsonseq",
+                                                  "layer": "place", "minzoom": 12})]
+              print(f"   place: {manifest['total']} JSON files in {manifest['folders']} folders", flush=True)
+
+              base = f"{DATA}/base.pmtiles"
+              for tb in (500000, 250000, 120000):
+                  print(f"== base tiles (max tile {tb} bytes) ==", flush=True)
+                  if tippecanoe(base, base_args, 0, 14, tb, True) <= LIMIT:
+                      break
+              else:
+                  sys.exit("base.pmtiles is larger than 95 MB even at the smallest setting")
+
+              try:
+                  buildings = build_buildings(counts)
+              except Exception as e:                       # keep the rest of the map working
+                  print(f"::warning::Buildings failed: {e}")
+                  buildings = []
+
+              with open(f"{DATA}/meta.json", "w") as fo:
+                  json.dump({"bbox": [W, S, E, N], "counts": counts, "buildings": buildings,
+                             "places": manifest, "built": time.strftime("%Y-%m-%d", time.gmtime())}, fo)
+
+          if __name__ == "__main__":
+              main()
+          PYEOF
+
+      - name: Download Overture data and build tiles + place JSON
+        run: |
+          export PATH="$HOME/tippecanoe-bin:$PATH"
+          python build/builder.py
+
+      - name: Vendor MapLibre, PMTiles and fonts
+        run: |
+          mkdir -p site/vendor site/fonts /tmp/npm
+          cd /tmp/npm
+          npm pack maplibre-gl@4.7.1 pmtiles@3.2.0 >/dev/null
+          for f in *.tgz; do mkdir -p "x-$f" && tar -xzf "$f" -C "x-$f"; done
+          cd "$GITHUB_WORKSPACE"
+          cp /tmp/npm/x-maplibre-gl-*/package/dist/maplibre-gl.js  site/vendor/
+          cp /tmp/npm/x-maplibre-gl-*/package/dist/maplibre-gl.css site/vendor/
+          cp /tmp/npm/x-pmtiles-*/package/dist/pmtiles.js          site/vendor/
+          curl -fsSL https://github.com/protomaps/basemaps-assets/archive/refs/heads/main.tar.gz | tar -xz -C /tmp
+          test -d "/tmp/basemaps-assets-main/fonts/Noto Sans Regular"
+          cp -r "/tmp/basemaps-assets-main/fonts/Noto Sans Regular" site/fonts/NotoSans-Regular
+
+      - name: Write map page and Pages workflow (inline)
+        run: |
+          cat > build/index.tpl.html <<'HTMLEOF'
+          <!doctype html>
+          <html lang="en">
+          <head>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+          <title>__TITLE__</title>
+          <link rel="stylesheet" href="vendor/maplibre-gl.css">
+          <style>
+            :root { --ink:#10343a; --panel:#f7fbfa; --line:#c6dad8; --accent:#0b7f86; --muted:#5b7a7d; }
+            @media (prefers-color-scheme: dark) {
+              :root { --ink:#e3f1f0; --panel:#14262a; --line:#2c4a4f; --accent:#5fd0d6; --muted:#93b3b5; }
+            }
+            html, body { height:100%; margin:0; color:var(--ink);
+              font-family:"Noto Sans","Noto Sans Tamil","Noto Sans Sinhala",system-ui,-apple-system,"Segoe UI",sans-serif; }
+            #map { position:absolute; inset:0; }
+            .panel { position:absolute; top:max(10px, env(safe-area-inset-top)); left:10px; z-index:2;
+              width:min(320px, calc(100vw - 20px)); box-sizing:border-box; background:var(--panel);
+              border:1px solid var(--line); border-radius:10px; padding:12px; font-size:14px; line-height:1.4; }
+            .panel h1 { font-size:16px; margin:0 0 8px; }
+            .panel input[type=search] { width:100%; box-sizing:border-box; padding:8px 10px; font:inherit; color:inherit;
+              background:transparent; border:1px solid var(--line); border-radius:6px; }
+            .panel input:focus-visible, .panel button:focus-visible, .panel summary:focus-visible { outline:2px solid var(--accent); outline-offset:1px; }
+            #results { list-style:none; margin:6px 0 0; padding:0; max-height:36vh; overflow:auto; }
+            #results button { display:block; width:100%; text-align:left; padding:6px 4px; font:inherit; color:inherit;
+              background:none; border:0; border-bottom:1px solid var(--line); cursor:pointer; }
+            #results button:hover { background:color-mix(in srgb, var(--accent) 12%, transparent); }
+            #results .none { color:var(--muted); padding:6px 4px; }
+            details { margin-top:8px; }
+            summary { cursor:pointer; }
+            label { display:flex; gap:8px; align-items:center; padding:3px 0; cursor:pointer; }
+            small { display:block; margin-top:8px; color:var(--muted); }
+            .maplibregl-popup-content { background:var(--panel); color:var(--ink); border-radius:8px; font-size:13px; line-height:1.45; }
+            .maplibregl-popup-anchor-bottom .maplibregl-popup-tip { border-top-color:var(--panel); }
+            .maplibregl-popup-anchor-top .maplibregl-popup-tip { border-bottom-color:var(--panel); }
+            .maplibregl-popup-close-button { color:var(--ink); }
+            .muted { color:var(--muted); font-size:12px; }
+          </style>
+          </head>
+          <body>
+          <div id="map"></div>
+          <div class="panel">
+            <h1>__TITLE__</h1>
+            <input id="q" type="search" placeholder="Search places by name" aria-label="Search places" autocomplete="off">
+            <ul id="results" aria-live="polite"></ul>
+            <details><summary>Layers</summary><div id="toggles"></div></details>
+            <small id="meta"></small>
+          </div>
+          <script src="vendor/maplibre-gl.js"></script>
+          <script src="vendor/pmtiles.js"></script>
+          <script>
+          const DATA = "data/";
+          const abs = p => new URL(DATA + p, location.href).href;
+          maplibregl.addProtocol("pmtiles", new pmtiles.Protocol().tile);
+
+          fetch(DATA + "meta.json").then(r => r.json()).then(meta => {
+            const sources = { o: { type: "vector", url: "pmtiles://" + abs("base.pmtiles"), attribution: "© Overture Maps Foundation" } };
+            const L = [{ id: "bg", type: "background", paint: { "background-color": "#eaf0e8" } }];
+            const has = k => (meta.counts[k] || 0) > 0;
+            const lbl = ["coalesce", ["get", "name_en"], ["get", "name"]];
+
+            if (has("land")) L.push({ id: "land", type: "fill", source: "o", "source-layer": "land", paint: { "fill-color": "#e2ebdc" } });
+            if (has("land_use")) L.push({ id: "land_use", type: "fill", source: "o", "source-layer": "land_use",
+              paint: { "fill-opacity": 0.85, "fill-color": ["match", ["get", "class"],
+                ["park", "protected", "recreation", "golf", "garden", "grass", "forest", "wood"], "#c9e3bd",
+                ["agriculture", "farmland", "orchard", "plantation"], "#dfe8c3",
+                ["residential"], "#e9ece2", ["industrial", "construction"], "#dcd8e2", "#e4e8dc"] } });
+            if (has("water")) L.push({ id: "water", type: "fill", source: "o", "source-layer": "water", paint: { "fill-color": "#9fd0dc" } });
+            if (has("division_area")) L.push({ id: "division_area", type: "line", source: "o", "source-layer": "division_area",
+              paint: { "line-color": "#8a8fb0", "line-width": 1, "line-dasharray": [4, 2] } });
+            if (has("segment")) {
+              const road = ["==", ["get", "subtype"], "road"];
+              const major = ["motorway", "trunk", "primary"];
+              L.push({ id: "roads_casing", type: "line", source: "o", "source-layer": "segment", filter: road,
+                layout: { "line-cap": "round", "line-join": "round" },
+                paint: { "line-color": "#b7beb2", "line-width": ["interpolate", ["linear"], ["zoom"], 8, 0.4, 14,
+                  ["match", ["get", "class"], major, 6, ["secondary", "tertiary"], 4, 2.5], 18, 12] } });
+              L.push({ id: "roads", type: "line", source: "o", "source-layer": "segment", filter: road,
+                layout: { "line-cap": "round", "line-join": "round" },
+                paint: { "line-color": ["match", ["get", "class"], ["motorway", "trunk"], "#f2a65a", "primary", "#f6cf8a", "#ffffff"],
+                  "line-width": ["interpolate", ["linear"], ["zoom"], 8, 0.2, 14,
+                  ["match", ["get", "class"], major, 4.5, ["secondary", "tertiary"], 3, 1.5], 18, 9] } });
+              L.push({ id: "rail", type: "line", source: "o", "source-layer": "segment", filter: ["==", ["get", "subtype"], "rail"],
+                paint: { "line-color": "#80857d", "line-width": 1, "line-dasharray": [3, 2] } });
+              L.push({ id: "road_label", type: "symbol", source: "o", "source-layer": "segment", minzoom: 13, filter: road,
+                layout: { "symbol-placement": "line", "text-field": lbl, "text-font": ["NotoSans-Regular"], "text-size": 11 },
+                paint: { "text-color": "#44504d", "text-halo-color": "#fff", "text-halo-width": 1.5 } });
+            }
+            (meta.buildings || []).forEach((file, i) => {
+              sources["b" + i] = { type: "vector", url: "pmtiles://" + abs(file), attribution: "© Overture Maps Foundation" };
+              L.push({ id: "building-" + i, type: "fill-extrusion", source: "b" + i, "source-layer": "building", minzoom: 15,
+                paint: { "fill-extrusion-color": "#cfc7b6", "fill-extrusion-opacity": 0.85,
+                  "fill-extrusion-height": ["to-number", ["get", "height"], 6] } });
+            });
+            if (has("place")) {
+              L.push({ id: "place_dot", type: "circle", source: "o", "source-layer": "place", minzoom: 12,
+                paint: { "circle-radius": ["interpolate", ["linear"], ["zoom"], 12, 2, 16, 5], "circle-color": "#0b7f86",
+                  "circle-stroke-width": 1, "circle-stroke-color": "#fff" } });
+              L.push({ id: "place_label", type: "symbol", source: "o", "source-layer": "place", minzoom: 15,
+                layout: { "text-field": lbl, "text-font": ["NotoSans-Regular"], "text-size": 11, "text-offset": [0, 0.9],
+                  "text-anchor": "top", "text-optional": true },
+                paint: { "text-color": "#10343a", "text-halo-color": "#fff", "text-halo-width": 1.2 } });
+            }
+
+            const [w, s, e, n] = meta.bbox;
+            const map = new maplibregl.Map({
+              container: "map", hash: true, minZoom: 6, maxBounds: [[w - 0.5, s - 0.5], [e + 0.5, n + 0.5]],
+              style: { version: 8, glyphs: new URL("fonts/{fontstack}/{range}.pbf", location.href).href, sources, layers: L },
+              bounds: [[w, s], [e, n]], fitBoundsOptions: { padding: 20 }
+            });
+            map.addControl(new maplibregl.NavigationControl(), "bottom-right");
+            map.addControl(new maplibregl.GeolocateControl({ trackUserLocation: false }), "bottom-right");
+            map.addControl(new maplibregl.ScaleControl(), "bottom-left");
+
+            // ----- place details -----
+            let popup = null;
+            const mk = (box, tag, text, css) => { const x = document.createElement(tag); x.textContent = text;
+              if (css) x.style.cssText = css; box.appendChild(x); return x; };
+            async function openPlace(id, f, lngLat, name) {
+              const box = document.createElement("div");
+              mk(box, "strong", name || "");
+              try {
+                const r = await fetch(DATA + `places/${f}/${id}.json`);
+                if (!r.ok) throw new Error(r.status);
+                const p = await r.json();
+                box.replaceChildren();
+                mk(box, "strong", p.name);
+                if (p.categories.length) mk(box, "div", p.categories.join(", "), "color:var(--muted);font-size:12px");
+                if (p.address) mk(box, "div", p.address, "margin-top:4px");
+                if (p.phone) { const a = mk(box, "a", p.phone); a.href = "tel:" + p.phone.replace(/[^+\d]/g, ""); a.style.color = "var(--accent)"; }
+                mk(box, "div", p.business_status, "font-size:12px;margin-top:4px");
+                (p.hours || []).forEach(h => mk(box, "div", h.day + ": " + h.times.join(", "), "font-size:12px"));
+              } catch (err) { mk(box, "div", "Details are not available for this place.", "color:var(--muted);font-size:12px"); }
+              if (popup) popup.remove();
+              popup = new maplibregl.Popup({ maxWidth: "280px" }).setLngLat(lngLat).setDOMContent(box).addTo(map);
+            }
+            ["place_dot", "place_label"].forEach(l => {
+              map.on("click", l, e => { const p = e.features[0].properties; openPlace(p.id, p.f, e.lngLat, p.name); });
+              map.on("mouseenter", l, () => map.getCanvas().style.cursor = "pointer");
+              map.on("mouseleave", l, () => map.getCanvas().style.cursor = "");
+            });
+
+            // ----- search -----
+            const SEP = /[\s,.;:()\[\]\/\\\-_&'"]+/;
+            const shards = new Map();
+            async function shard(key) {
+              if (shards.has(key)) return shards.get(key);
+              let d = [];
+              try { const r = await fetch(DATA + "search/" + key + ".json"); if (r.ok) d = await r.json(); } catch (e) {}
+              shards.set(key, d); return d;
+            }
+            const q = document.getElementById("q"), list = document.getElementById("results");
+            let timer;
+            q.addEventListener("input", () => { clearTimeout(timer); timer = setTimeout(runSearch, 150); });
+            async function runSearch() {
+              const qt = q.value.toLowerCase().split(SEP).filter(Boolean);
+              const lead = qt.find(t => Array.from(t).length >= 2);
+              list.replaceChildren();
+              if (!lead) return;
+              const key = Array.from(lead).slice(0, 2).map(c => c.codePointAt(0).toString(16)).join("-");
+              const hits = (await shard(key)).filter(x => { const nm = x[0].toLowerCase(); return qt.every(t => nm.includes(t)); }).slice(0, 8);
+              if (!hits.length) { const li = document.createElement("li"); li.className = "none"; li.textContent = "No places found"; list.appendChild(li); return; }
+              hits.forEach(([name, lon, lat, id, f]) => {
+                const li = document.createElement("li"), b = document.createElement("button");
+                b.type = "button"; b.textContent = name;
+                b.addEventListener("click", () => { map.flyTo({ center: [lon, lat], zoom: 17 }); openPlace(id, f, [lon, lat], name); });
+                li.appendChild(b); list.appendChild(li);
+              });
+            }
+
+            // ----- layer toggles -----
+            const bIds = (meta.buildings || []).map((_, i) => "building-" + i);
+            const groups = { Roads: ["roads_casing", "roads", "rail", "road_label"], Buildings: bIds,
+              Places: ["place_dot", "place_label"], Water: ["water"], "Land use": ["land_use"], Boundaries: ["division_area"] };
+            const box = document.getElementById("toggles");
+            for (const [name, ids] of Object.entries(groups)) {
+              const present = ids.filter(i => L.some(l => l.id === i));
+              if (!present.length) continue;
+              const lab = document.createElement("label");
+              const cb = document.createElement("input"); cb.type = "checkbox"; cb.checked = true;
+              cb.addEventListener("change", () => present.forEach(i => map.setLayoutProperty(i, "visibility", cb.checked ? "visible" : "none")));
+              lab.append(cb, document.createTextNode(name)); box.appendChild(lab);
+            }
+            document.getElementById("meta").textContent =
+              `${(meta.places.total || 0).toLocaleString()} places · Overture Maps Foundation · built ${meta.built}`;
+          });
+          </script>
+          </body>
+          </html>
+          HTMLEOF
+          python - <<'PYEOF'
+          import html, os
+          t = open("build/index.tpl.html", encoding="utf-8").read()
+          open("site/index.html", "w", encoding="utf-8").write(t.replace("__TITLE__", html.escape(os.environ["SITE_TITLE"])))
+          PYEOF
+          touch site/.nojekyll
+          mkdir -p site/.github/workflows
+          cat > site/.github/workflows/pages.yml <<'YMLEOF'
+          name: Deploy to GitHub Pages
+          on:
+            push:
+              branches: [main]
+            workflow_dispatch:
+          permissions:
+            contents: read
+            pages: write
+            id-token: write
+          concurrency:
+            group: pages
+            cancel-in-progress: true
+          jobs:
+            deploy:
+              runs-on: ubuntu-latest
+              environment:
+                name: github-pages
+              steps:
+                - uses: actions/checkout@v4
+                - run: rm -rf .github .git
+                - uses: actions/configure-pages@v5
+                - uses: actions/upload-pages-artifact@v3
+                  with:
+                    path: .
+                - uses: actions/deploy-pages@v4
+          YMLEOF
+
+      - name: Check limits
+        run: |
+          echo "Site size: $(du -sm --apparent-size site | cut -f1) MB, $(find site -type f | wc -l) files"
+          find site -type f -size +99M -print -exec false {} + || { echo "::error::A file exceeds 100 MB"; exit 1; }
+          [ "$(du -sm --apparent-size site | cut -f1)" -le 950 ] || { echo "::error::Site exceeds ~1 GB"; exit 1; }
+          cat site/data/meta.json
+
+      - name: Create ready-to-push zip
+        run: |
+          cd site && zip -qr ../sri-lanka-map-site.zip . -x "*.DS_Store" && cd ..
+          ls -lh sri-lanka-map-site.zip
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: sri-lanka-map-site
+          path: sri-lanka-map-site.zip
+          compression-level: 0
+          retention-days: 30
+
+      - name: Prepare Pages artifact
+        if: ${{ inputs.deploy_pages == true }}
+        run: rm -rf site/.github
+
+      - uses: actions/upload-pages-artifact@v3
+        if: ${{ inputs.deploy_pages == true }}
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    if: ${{ inputs.deploy_pages == true }}
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+    steps:
+      - uses: actions/deploy-pages@v4
