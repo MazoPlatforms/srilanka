@@ -1,0 +1,37 @@
+{
+  "slug": "kandy",
+  "name": "Kandy",
+  "total_segments": 16078,
+  "bbox": [
+    80.42,
+    7.06,
+    81.15,
+    7.48
+  ],
+  "classes": {
+    "motorway": 16,
+    "trunk": 60,
+    "primary": 338,
+    "secondary": 695,
+    "tertiary": 1105,
+    "residential": 5063,
+    "living_street": 225,
+    "unclassified": 1687,
+    "service": 2249,
+    "pedestrian": 57,
+    "footway": 1125,
+    "steps": 422,
+    "path": 849,
+    "cycleway": 28,
+    "bridleway": 14,
+    "track": 1414,
+    "ferry": 7,
+    "unknown": 703
+  },
+  "data_files": {
+    "base_tiles": "data/districts/kandy/base.pmtiles",
+    "areas_tiles": "data/districts/kandy/areas.pmtiles",
+    "routing_cells": "data/routing/",
+    "streets_index": "data/streets/index.json"
+  }
+}

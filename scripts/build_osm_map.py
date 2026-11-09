@@ -16,7 +16,10 @@ import subprocess
 import sys
 import uuid
 
-import osmium
+try:
+    import osmium
+except ImportError:
+    osmium = None
 
 DISTRICTS = [
     ("ampara",7.20,81.60),("anuradhapura",8.40,80.40),("badulla",6.95,81.05),
@@ -81,7 +84,9 @@ def point_category(t):
             return value.replace("_"," ")
     return None
 
-class Collector(osmium.SimpleHandler):
+_HandlerBase = osmium.SimpleHandler if osmium else object
+
+class Collector(_HandlerBase):
     def __init__(self,idx,tmp):
         super().__init__()
         self.idx=idx
@@ -205,6 +210,38 @@ def export_places(collector,ddir,idx,search):
     (out/"manifest.json").write_text(json.dumps(manifest))
     return manifest
 
+def export_streets(collector, slug, data, idx):
+    """Update streets catalog for the district."""
+    streets_dir = data / "streets"
+    by_dist = streets_dir / "by-district"
+    by_dist.mkdir(parents=True, exist_ok=True)
+    seg_total = collector.counts.get("segment", 0)
+    dist_file = by_dist / f"{slug}.json"
+    dist_data = {}
+    if dist_file.exists():
+        try: dist_data = json.loads(dist_file.read_text())
+        except Exception: pass
+    dist_data["slug"] = slug
+    dist_data["total_segments"] = seg_total
+    dist_data["counts"] = collector.counts
+    dist_file.write_text(json.dumps(dist_data, indent=2, ensure_ascii=False))
+
+def rebuild_streets_index(public_dir=Path("public")):
+    """Rebuild the streets index from public/data/districts.json."""
+    data = public_dir / "data"
+    d_path = data / "districts.json"
+    if not d_path.exists():
+        print("districts.json not found, skipping streets rebuild")
+        return
+    districts = json.loads(d_path.read_text()).get("districts", [])
+    streets_dir = data / "streets"
+    idx_path = streets_dir / "index.json"
+    idx_data = json.loads(idx_path.read_text()) if idx_path.exists() else {"schema": 1, "classes": []}
+    idx_data["districts"] = [{"slug": d["slug"], "segments": d["counts"].get("segment", 0)} for d in districts]
+    idx_data["total_segments"] = sum(d["counts"].get("segment", 0) for d in districts)
+    idx_path.write_text(json.dumps(idx_data, indent=2, ensure_ascii=False))
+    print(f"Rebuilt streets index: {len(districts)} districts, {idx_data['total_segments']} segments")
+
 def run_tiles(out,inputs,minz,maxz):
     if not inputs:return False
     args=["tippecanoe","--force","-o",str(out),f"-Z{minz}",f"-z{maxz}",
@@ -219,11 +256,17 @@ def run_tiles(out,inputs,minz,maxz):
 
 def main():
     ap=argparse.ArgumentParser()
-    ap.add_argument("--index",type=int,required=True)
-    ap.add_argument("--pbf",type=Path,required=True)
-    ap.add_argument("--newmaps",type=Path,required=True)
+    ap.add_argument("--index",type=int,required=False,default=None)
+    ap.add_argument("--pbf",type=Path,required=False,default=None)
+    ap.add_argument("--newmaps",type=Path,required=False,default=None)
     ap.add_argument("--public",type=Path,default=Path("public"))
+    ap.add_argument("--export-streets-only",action="store_true",help="Rebuild streets index and exit")
     args=ap.parse_args()
+    if args.export_streets_only:
+        rebuild_streets_index(args.public)
+        return
+    if args.index is None or args.pbf is None or args.newmaps is None:
+        ap.error("--index, --pbf, and --newmaps are required unless --export-streets-only is used")
     if args.index not in range(25):raise SystemExit("District zone index must be 0..24")
     idx=args.index;slug=DISTRICTS[idx][0]
     data=args.public/"data"
@@ -303,6 +346,7 @@ def main():
         else:path.unlink()
     for key,rows in search.items():
         (searchdir/(key+".json")).write_text(json.dumps(sorted(rows,key=lambda r:r[0].casefold()),ensure_ascii=False,separators=(",",":")))
+    export_streets(collector, slug, data, idx)
     print(json.dumps({"zone":slug,"osm_features":collector.counts,"places":places["total"],"reviewed_newmaps":reviewed},indent=2))
 
 if __name__=="__main__":main()

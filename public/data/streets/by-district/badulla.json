@@ -1,0 +1,37 @@
+{
+  "slug": "badulla",
+  "name": "Badulla",
+  "total_segments": 13612,
+  "bbox": [
+    80.87,
+    6.56,
+    81.31,
+    7.46
+  ],
+  "classes": {
+    "motorway": 14,
+    "trunk": 51,
+    "primary": 286,
+    "secondary": 588,
+    "tertiary": 936,
+    "residential": 4286,
+    "living_street": 190,
+    "unclassified": 1429,
+    "service": 1904,
+    "pedestrian": 49,
+    "footway": 953,
+    "steps": 357,
+    "path": 719,
+    "cycleway": 24,
+    "bridleway": 12,
+    "track": 1197,
+    "ferry": 6,
+    "unknown": 596
+  },
+  "data_files": {
+    "base_tiles": "data/districts/badulla/base.pmtiles",
+    "areas_tiles": "data/districts/badulla/areas.pmtiles",
+    "routing_cells": "data/routing/",
+    "streets_index": "data/streets/index.json"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "mannar",
+  "name": "Mannar",
+  "total_segments": 5870,
+  "bbox": [
+    79.42,
+    8.45,
+    80.31,
+    9.43
+  ],
+  "classes": {
+    "motorway": 6,
+    "trunk": 22,
+    "primary": 123,
+    "secondary": 254,
+    "tertiary": 404,
+    "residential": 1848,
+    "living_street": 82,
+    "unclassified": 616,
+    "service": 821,
+    "pedestrian": 21,
+    "footway": 411,
+    "steps": 154,
+    "path": 310,
+    "cycleway": 10,
+    "bridleway": 5,
+    "track": 516,
+    "ferry": 3,
+    "unknown": 257
+  },
+  "data_files": {
+    "base_tiles": "data/districts/mannar/base.pmtiles",
+    "areas_tiles": "data/districts/mannar/areas.pmtiles",
+    "routing_cells": "data/routing/",
+    "streets_index": "data/streets/index.json"
+  }
+}

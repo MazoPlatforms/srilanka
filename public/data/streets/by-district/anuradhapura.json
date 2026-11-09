@@ -1,0 +1,37 @@
+{
+  "slug": "anuradhapura",
+  "name": "Anuradhapura",
+  "total_segments": 25167,
+  "bbox": [
+    79.95,
+    7.97,
+    80.85,
+    8.68
+  ],
+  "classes": {
+    "motorway": 26,
+    "trunk": 94,
+    "primary": 529,
+    "secondary": 1087,
+    "tertiary": 1730,
+    "residential": 7925,
+    "living_street": 352,
+    "unclassified": 2641,
+    "service": 3520,
+    "pedestrian": 90,
+    "footway": 1762,
+    "steps": 661,
+    "path": 1329,
+    "cycleway": 44,
+    "bridleway": 22,
+    "track": 2213,
+    "ferry": 11,
+    "unknown": 1101
+  },
+  "data_files": {
+    "base_tiles": "data/districts/anuradhapura/base.pmtiles",
+    "areas_tiles": "data/districts/anuradhapura/areas.pmtiles",
+    "routing_cells": "data/routing/",
+    "streets_index": "data/streets/index.json"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "hambantota",
+  "name": "Hambantota",
+  "total_segments": 22547,
+  "bbox": [
+    80.68,
+    5.82,
+    81.97,
+    6.63
+  ],
+  "classes": {
+    "motorway": 23,
+    "trunk": 85,
+    "primary": 474,
+    "secondary": 974,
+    "tertiary": 1550,
+    "residential": 7100,
+    "living_street": 315,
+    "unclassified": 2366,
+    "service": 3154,
+    "pedestrian": 80,
+    "footway": 1578,
+    "steps": 592,
+    "path": 1190,
+    "cycleway": 39,
+    "bridleway": 20,
+    "track": 1982,
+    "ferry": 10,
+    "unknown": 986
+  },
+  "data_files": {
+    "base_tiles": "data/districts/hambantota/base.pmtiles",
+    "areas_tiles": "data/districts/hambantota/areas.pmtiles",
+    "routing_cells": "data/routing/",
+    "streets_index": "data/streets/index.json"
+  }
+}

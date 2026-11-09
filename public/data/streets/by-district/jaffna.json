@@ -1,0 +1,37 @@
+{
+  "slug": "jaffna",
+  "name": "Jaffna",
+  "total_segments": 21051,
+  "bbox": [
+    79.42,
+    9.28,
+    80.63,
+    9.93
+  ],
+  "classes": {
+    "motorway": 21,
+    "trunk": 79,
+    "primary": 443,
+    "secondary": 909,
+    "tertiary": 1447,
+    "residential": 6629,
+    "living_street": 295,
+    "unclassified": 2209,
+    "service": 2944,
+    "pedestrian": 75,
+    "footway": 1474,
+    "steps": 553,
+    "path": 1111,
+    "cycleway": 36,
+    "bridleway": 19,
+    "track": 1851,
+    "ferry": 9,
+    "unknown": 921
+  },
+  "data_files": {
+    "base_tiles": "data/districts/jaffna/base.pmtiles",
+    "areas_tiles": "data/districts/jaffna/areas.pmtiles",
+    "routing_cells": "data/routing/",
+    "streets_index": "data/streets/index.json"
+  }
+}

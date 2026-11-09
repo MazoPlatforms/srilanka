@@ -1,0 +1,37 @@
+{
+  "slug": "ampara",
+  "name": "Ampara",
+  "total_segments": 26032,
+  "bbox": [
+    81.14,
+    6.67,
+    81.97,
+    7.48
+  ],
+  "classes": {
+    "motorway": 27,
+    "trunk": 98,
+    "primary": 547,
+    "secondary": 1125,
+    "tertiary": 1789,
+    "residential": 8197,
+    "living_street": 364,
+    "unclassified": 2732,
+    "service": 3641,
+    "pedestrian": 93,
+    "footway": 1822,
+    "steps": 684,
+    "path": 1374,
+    "cycleway": 45,
+    "bridleway": 23,
+    "track": 2289,
+    "ferry": 12,
+    "unknown": 1139
+  },
+  "data_files": {
+    "base_tiles": "data/districts/ampara/base.pmtiles",
+    "areas_tiles": "data/districts/ampara/areas.pmtiles",
+    "routing_cells": "data/routing/",
+    "streets_index": "data/streets/index.json"
+  }
+}

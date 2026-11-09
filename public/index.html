@@ -42,6 +42,15 @@
   <input id="q" type="search" placeholder="Search places by name" aria-label="Search places" autocomplete="off">
   <ul id="results" aria-live="polite"></ul>
   <details><summary>Layers</summary><div id="toggles"></div></details>
+  <details><summary>API &amp; SDKs (Android / Web)</summary>
+    <div style="font-size:12px;margin-top:6px;line-height:1.5;background:rgba(0,0,0,0.03);padding:8px;border-radius:6px;">
+      <div><strong>Vector (PBF):</strong> <code>/tiles/{z}/{x}/{y}.pbf</code></div>
+      <div><strong>Raster (PNG):</strong> <code>/tiles/{z}/{x}/{y}.png</code></div>
+      <div><strong>Style JSON:</strong> <a href="style.json" target="_blank" style="color:var(--accent)">style.json</a></div>
+      <div><strong>Streets Data:</strong> <a href="data/streets/index.json" target="_blank" style="color:var(--accent)">streets/index.json</a></div>
+      <div style="margin-top:4px;"><strong>SDKs:</strong> <a href="sdk/web/example.html" style="color:var(--accent)">Web SDK Demo</a> · <a href="sdk/android/README.md" style="color:var(--accent)">Android SDK</a></div>
+    </div>
+  </details>
   <small id="meta"></small>
 </div>
 <script src="vendor/maplibre-gl.js"></script>
@@ -83,7 +92,13 @@ function init(index) {
       ["match", ["get", "class"], major, 6, ["secondary", "tertiary"], 4, 2.5], 18, 12] } }));
   each(d => d.files.base && add("Roads", { id: "rd-" + d.slug, type: "line", source: "o_" + d.slug, "source-layer": "segment", filter: road,
     layout: { "line-cap": "round", "line-join": "round" },
-    paint: { "line-color": ["match", ["get", "class"], ["motorway", "trunk"], "#f2a65a", "primary", "#f6cf8a", "#ffffff"],
+    paint: { "line-color": ["match", ["get", "class"],
+      "motorway", "#e44444",
+      "trunk", "#ff8800",
+      "primary", "#ffd700",
+      ["cycleway"], "#00aa44",
+      ["pedestrian", "footway"], "#9999dd",
+      "#ffffff"],
       "line-width": ["interpolate", ["linear"], ["zoom"], 8, 0.2, 14,
       ["match", ["get", "class"], major, 4.5, ["secondary", "tertiary"], 3, 1.5], 18, 9] } }));
   each(d => d.files.base && add("Roads", { id: "rl-" + d.slug, type: "line", source: "o_" + d.slug, "source-layer": "segment",

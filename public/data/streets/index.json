@@ -1,0 +1,141 @@
+{
+  "schema": 1,
+  "built": "2026-11-09",
+  "total_segments": 572790,
+  "total_edges": 721721,
+  "bbox": [
+    79.4,
+    5.8,
+    82.0,
+    9.95
+  ],
+  "classes": [
+    "motorway",
+    "trunk",
+    "primary",
+    "secondary",
+    "tertiary",
+    "residential",
+    "living_street",
+    "unclassified",
+    "service",
+    "pedestrian",
+    "footway",
+    "steps",
+    "path",
+    "cycleway",
+    "bridleway",
+    "track",
+    "ferry",
+    "unknown"
+  ],
+  "districts": [
+    {
+      "slug": "ampara",
+      "segments": 26032
+    },
+    {
+      "slug": "anuradhapura",
+      "segments": 25167
+    },
+    {
+      "slug": "badulla",
+      "segments": 13612
+    },
+    {
+      "slug": "batticaloa",
+      "segments": 29618
+    },
+    {
+      "slug": "colombo",
+      "segments": 75606
+    },
+    {
+      "slug": "galle",
+      "segments": 24457
+    },
+    {
+      "slug": "gampaha",
+      "segments": 71055
+    },
+    {
+      "slug": "hambantota",
+      "segments": 22547
+    },
+    {
+      "slug": "jaffna",
+      "segments": 21051
+    },
+    {
+      "slug": "kalutara",
+      "segments": 34808
+    },
+    {
+      "slug": "kandy",
+      "segments": 16078
+    },
+    {
+      "slug": "kegalle",
+      "segments": 9554
+    },
+    {
+      "slug": "kilinochchi",
+      "segments": 9940
+    },
+    {
+      "slug": "kurunegala",
+      "segments": 36653
+    },
+    {
+      "slug": "mannar",
+      "segments": 5870
+    },
+    {
+      "slug": "matale",
+      "segments": 8907
+    },
+    {
+      "slug": "matara",
+      "segments": 23247
+    },
+    {
+      "slug": "monaragala",
+      "segments": 3812
+    },
+    {
+      "slug": "mullaitivu",
+      "segments": 9479
+    },
+    {
+      "slug": "nuwara-eliya",
+      "segments": 9418
+    },
+    {
+      "slug": "polonnaruwa",
+      "segments": 17315
+    },
+    {
+      "slug": "puttalam",
+      "segments": 30859
+    },
+    {
+      "slug": "ratnapura",
+      "segments": 16261
+    },
+    {
+      "slug": "trincomalee",
+      "segments": 17762
+    },
+    {
+      "slug": "vavuniya",
+      "segments": 13682
+    }
+  ],
+  "data_sources": {
+    "routing": "data/routing/",
+    "tiles": "data/districts/{district}/base.pmtiles",
+    "streets_by_class": "data/streets/by-class/{class}.json",
+    "streets_by_district": "data/streets/by-district/{district}.json"
+  },
+  "how_to_extend": "See README.md for instructions on adding new JSON data files"
+}

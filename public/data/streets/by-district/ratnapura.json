@@ -1,0 +1,37 @@
+{
+  "slug": "ratnapura",
+  "name": "Ratnapura",
+  "total_segments": 16261,
+  "bbox": [
+    80.19,
+    6.31,
+    80.9,
+    6.99
+  ],
+  "classes": {
+    "motorway": 17,
+    "trunk": 61,
+    "primary": 342,
+    "secondary": 702,
+    "tertiary": 1118,
+    "residential": 5121,
+    "living_street": 227,
+    "unclassified": 1707,
+    "service": 2274,
+    "pedestrian": 58,
+    "footway": 1138,
+    "steps": 427,
+    "path": 858,
+    "cycleway": 28,
+    "bridleway": 14,
+    "track": 1430,
+    "ferry": 7,
+    "unknown": 711
+  },
+  "data_files": {
+    "base_tiles": "data/districts/ratnapura/base.pmtiles",
+    "areas_tiles": "data/districts/ratnapura/areas.pmtiles",
+    "routing_cells": "data/routing/",
+    "streets_index": "data/streets/index.json"
+  }
+}

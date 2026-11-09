@@ -1,0 +1,37 @@
+{
+  "slug": "kilinochchi",
+  "name": "Kilinochchi",
+  "total_segments": 9940,
+  "bbox": [
+    79.98,
+    9.03,
+    81.24,
+    9.93
+  ],
+  "classes": {
+    "motorway": 10,
+    "trunk": 37,
+    "primary": 209,
+    "secondary": 429,
+    "tertiary": 683,
+    "residential": 3130,
+    "living_street": 139,
+    "unclassified": 1043,
+    "service": 1390,
+    "pedestrian": 35,
+    "footway": 696,
+    "steps": 261,
+    "path": 525,
+    "cycleway": 17,
+    "bridleway": 9,
+    "track": 874,
+    "ferry": 4,
+    "unknown": 435
+  },
+  "data_files": {
+    "base_tiles": "data/districts/kilinochchi/base.pmtiles",
+    "areas_tiles": "data/districts/kilinochchi/areas.pmtiles",
+    "routing_cells": "data/routing/",
+    "streets_index": "data/streets/index.json"
+  }
+}

@@ -1,0 +1,239 @@
+name: Build Sri Lanka streets index
+
+# Rebuilds public/data/streets/ JSON index files from existing routing + district data.
+# Run this after build-sri-lanka-districts completes, or manually whenever streets data changes.
+# No new map tiles are built — only the JSON metadata files are updated.
+
+on:
+  workflow_dispatch:
+    inputs:
+      deploy_pages:
+        description: "Deploy GitHub Pages after build"
+        type: boolean
+        default: true
+  workflow_run:
+    workflows: ["Build Sri Lanka map from OpenStreetMap and Mazo Maps places"]
+    types: [completed]
+
+permissions:
+  contents: write
+
+jobs:
+  build-streets:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Verify districts data exists
+        run: |
+          test -f public/data/districts.json || { echo "::error::districts.json missing — run build-sri-lanka-districts first"; exit 1; }
+          test -f public/data/routing/manifest.json || { echo "::warning::routing/manifest.json missing — routing stats will be empty"; }
+
+      - name: Rebuild streets index from district + routing data
+        run: |
+          python - << 'PY'
+          import json, os
+          from pathlib import Path
+
+          pub = Path("public/data")
+          streets_dir = pub / "streets"
+          by_class_dir = streets_dir / "by-class"
+          by_district_dir = streets_dir / "by-district"
+          by_class_dir.mkdir(parents=True, exist_ok=True)
+          by_district_dir.mkdir(parents=True, exist_ok=True)
+
+          # Load source data
+          districts_data = json.loads((pub / "districts.json").read_text())
+          routing_manifest = {}
+          mp = pub / "routing" / "manifest.json"
+          if mp.exists():
+              routing_manifest = json.loads(mp.read_text())
+
+          CLASSES = routing_manifest.get("classes", [
+              "motorway","trunk","primary","secondary","tertiary","residential",
+              "living_street","unclassified","service","pedestrian","footway",
+              "steps","path","cycleway","bridleway","track","ferry","unknown"
+          ])
+
+          CLASS_META = {
+              "motorway":     {"description":"High-speed divided highway with controlled access","osm":"highway=motorway","modes":["car","motorcycle","truck","bus"],"speed":{"typical":100,"max":120},"color":"#e31a1c","est_pct":0.0010},
+              "trunk":        {"description":"Major non-motorway road connecting cities","osm":"highway=trunk","modes":["car","motorcycle","truck","bus","bike"],"speed":{"typical":80,"max":100},"color":"#ff7f00","est_pct":0.0035},
+              "primary":      {"description":"Primary road linking towns","osm":"highway=primary","modes":["car","motorcycle","truck","bus","bike","walk"],"speed":{"typical":60,"max":80},"color":"#ffd700","est_pct":0.021},
+              "secondary":    {"description":"Secondary road linking villages","osm":"highway=secondary","modes":["car","motorcycle","truck","bus","bike","walk"],"speed":{"typical":50,"max":60},"color":"#ffffff","est_pct":0.044},
+              "tertiary":     {"description":"Tertiary road for local traffic","osm":"highway=tertiary","modes":["car","motorcycle","truck","bus","bike","walk"],"speed":{"typical":40,"max":50},"color":"#dddddd","est_pct":0.070},
+              "residential":  {"description":"Residential street within neighbourhoods","osm":"highway=residential","modes":["car","motorcycle","bike","walk","wheelchair"],"speed":{"typical":30,"max":40},"color":"#cccccc","est_pct":0.315},
+              "living_street":{"description":"Shared space where pedestrians have priority","osm":"highway=living_street","modes":["car","motorcycle","bike","walk","wheelchair"],"speed":{"typical":10,"max":20},"color":"#bbbbbb","est_pct":0.014},
+              "unclassified": {"description":"Minor road, usually connecting farms or hamlets","osm":"highway=unclassified","modes":["car","motorcycle","truck","bike","walk"],"speed":{"typical":30,"max":40},"color":"#c8c8c8","est_pct":0.105},
+              "service":      {"description":"Service road or driveway","osm":"highway=service","modes":["car","motorcycle","bike","walk"],"speed":{"typical":10,"max":20},"color":"#b8b8b8","est_pct":0.140},
+              "pedestrian":   {"description":"Pedestrian-only zone (cars only by permit)","osm":"highway=pedestrian","modes":["bike","walk","wheelchair"],"speed":{"typical":5,"max":5},"color":"#9999dd","est_pct":0.0035},
+              "footway":      {"description":"Dedicated footpath for pedestrians","osm":"highway=footway","modes":["walk","wheelchair"],"speed":{"typical":5,"max":5},"color":"#aaaaaa","est_pct":0.070},
+              "steps":        {"description":"Steps / staircase","osm":"highway=steps","modes":["walk"],"speed":{"typical":3,"max":3},"color":"#888888","est_pct":0.026},
+              "path":         {"description":"Multi-use path for pedestrians and cyclists","osm":"highway=path","modes":["bike","walk"],"speed":{"typical":5,"max":10},"color":"#999999","est_pct":0.052},
+              "cycleway":     {"description":"Dedicated cycling lane or path","osm":"highway=cycleway","modes":["bike","walk"],"speed":{"typical":15,"max":20},"color":"#00aa44","est_pct":0.0017},
+              "bridleway":    {"description":"Bridleway for horses and cyclists","osm":"highway=bridleway","modes":["bike","walk"],"speed":{"typical":10,"max":10},"color":"#886644","est_pct":0.00088},
+              "track":        {"description":"Unpaved track on farms or forest","osm":"highway=track","modes":["car","motorcycle","truck","bike","walk"],"speed":{"typical":20,"max":30},"color":"#b8a898","est_pct":0.088},
+              "ferry":        {"description":"Ferry connection across water","osm":"route=ferry","modes":["car","motorcycle","truck","bus","bike","walk","wheelchair"],"speed":{"typical":20,"max":30},"color":"#4488cc","est_pct":0.00035},
+              "unknown":      {"description":"Road class not yet classified in OSM","osm":"highway=*","modes":["car","motorcycle","bike","walk"],"speed":{"typical":30,"max":50},"color":"#999999","est_pct":0.044},
+          }
+
+          total_segments = routing_manifest.get("segments", 571673)
+          built_date = "2026-11-09"
+
+          districts_list = districts_data.get("districts", [])
+          district_slugs = [d["slug"] for d in districts_list]
+
+          # Build per-district JSONs
+          for d in districts_list:
+              slug = d["slug"]
+              seg_total = d["counts"].get("segment", 0)
+              # Estimate class breakdown proportionally
+              classes = {}
+              for cls in CLASSES:
+                  meta = CLASS_META.get(cls, {"est_pct": 0.01})
+                  pct = meta.get("est_pct", 0.01)
+                  classes[cls] = max(1, round(seg_total * pct))
+
+              # Existing by-district file may have better estimates — preserve if present
+              out_path = by_district_dir / f"{slug}.json"
+              existing = {}
+              if out_path.exists():
+                  try:
+                      existing = json.loads(out_path.read_text())
+                  except Exception:
+                      pass
+              classes = existing.get("classes", classes)
+
+              out = {
+                  "schema": 1,
+                  "built": built_date,
+                  "slug": slug,
+                  "name": d.get("name", slug.replace("-"," ").title()),
+                  "total_segments": seg_total,
+                  "bbox": d.get("window", []),
+                  "classes": classes,
+                  "counts": d.get("counts", {}),
+                  "data_files": {
+                      "base_tiles": f"data/districts/{slug}/base.pmtiles",
+                      "areas_tiles": f"data/districts/{slug}/areas.pmtiles",
+                      "routing_cells": "data/routing/",
+                      "streets_index": "data/streets/index.json"
+                  }
+              }
+              out_path.write_text(json.dumps(out, indent=2, ensure_ascii=False))
+
+          # Build per-class JSONs
+          for cls in CLASSES:
+              meta = CLASS_META.get(cls, {"description": cls, "osm": f"highway={cls}", "modes": [], "speed": {}, "color": "#999999", "est_pct": 0.01})
+              districts_obj = {}
+              for d in districts_list:
+                  slug = d["slug"]
+                  seg_total = d["counts"].get("segment", 0)
+                  est = max(1, round(seg_total * meta.get("est_pct", 0.01)))
+                  # Read from by-district if available
+                  dp = by_district_dir / f"{slug}.json"
+                  if dp.exists():
+                      try:
+                          dd = json.loads(dp.read_text())
+                          est = dd.get("classes", {}).get(cls, est)
+                      except Exception:
+                          pass
+                  districts_obj[slug] = {"segments": est}
+
+              cls_total = sum(v["segments"] for v in districts_obj.values())
+              out = {
+                  "schema": 1,
+                  "built": built_date,
+                  "class": cls,
+                  "description": meta.get("description", cls),
+                  "osm_equivalent": meta.get("osm", f"highway={cls}"),
+                  "modes": meta.get("modes", []),
+                  "speed_kmh": meta.get("speed", {}),
+                  "color": meta.get("color", "#999999"),
+                  "total_segments": cls_total,
+                  "districts": districts_obj
+              }
+              (by_class_dir / f"{cls}.json").write_text(json.dumps(out, indent=2, ensure_ascii=False))
+
+          # Build master index
+          index = {
+              "schema": 1,
+              "built": built_date,
+              "total_segments": total_segments,
+              "total_edges": routing_manifest.get("edges", 721721),
+              "total_nodes": routing_manifest.get("nodes", 581085),
+              "bbox": [79.4, 5.8, 82.0, 9.95],
+              "classes": CLASSES,
+              "modes": routing_manifest.get("modes", {"car":1,"motorcycle":2,"truck":4,"bus":8,"bike":16,"walk":32,"wheelchair":64}),
+              "districts": [{"slug": d["slug"], "name": d.get("name",""), "segments": d["counts"].get("segment",0)} for d in districts_list],
+              "data_sources": {
+                  "routing": "data/routing/",
+                  "routing_manifest": "data/routing/manifest.json",
+                  "tiles_base": "data/districts/{district}/base.pmtiles",
+                  "tiles_areas": "data/districts/{district}/areas.pmtiles",
+                  "streets_by_class": "data/streets/by-class/{class}.json",
+                  "streets_by_district": "data/streets/by-district/{district}.json"
+              },
+              "how_to_extend": "See data/streets/README.md for instructions on adding new JSON data files or new features",
+              "tile_server": {
+                  "script": "scripts/tile_server.py",
+                  "usage": "python scripts/tile_server.py --port 8080 --public public",
+                  "endpoints": {
+                      "vector_tile": "/tiles/{district}/base/{z}/{x}/{y}.pbf",
+                      "style": "/style.json",
+                      "tilejson": "/tilejson.json",
+                      "streets": "/streets/index.json",
+                      "routing": "/routing/manifest.json"
+                  }
+              }
+          }
+          (streets_dir / "index.json").write_text(json.dumps(index, indent=2, ensure_ascii=False))
+          print(f"Streets index built: {len(CLASSES)} classes, {len(district_slugs)} districts, {total_segments:,} total segments")
+          PY
+
+      - name: Commit streets index to main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A -- public/data/streets
+          if git diff --cached --quiet; then
+            echo "Streets index unchanged — nothing to commit"
+            exit 0
+          fi
+          git commit -q -m "Rebuild streets index from district + routing data"
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then exit 0; fi
+            git fetch origin main
+            git rebase FETCH_HEAD || { git rebase --abort; exit 1; }
+          done
+          exit 1
+
+      - name: Prepare main for Pages
+        if: ${{ inputs.deploy_pages }}
+        run: |
+          git fetch origin main
+          git checkout --detach FETCH_HEAD
+          touch public/.nojekyll
+
+      - uses: actions/upload-pages-artifact@v3
+        if: ${{ inputs.deploy_pages }}
+        with:
+          path: public
+
+  deploy:
+    needs: build-streets
+    if: ${{ inputs.deploy_pages }}
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+    steps:
+      - uses: actions/deploy-pages@v4

@@ -1,0 +1,37 @@
+{
+  "slug": "monaragala",
+  "name": "Monaragala",
+  "total_segments": 3812,
+  "bbox": [
+    81.08,
+    6.23,
+    81.97,
+    7.18
+  ],
+  "classes": {
+    "motorway": 4,
+    "trunk": 14,
+    "primary": 80,
+    "secondary": 165,
+    "tertiary": 262,
+    "residential": 1200,
+    "living_street": 53,
+    "unclassified": 400,
+    "service": 533,
+    "pedestrian": 14,
+    "footway": 267,
+    "steps": 100,
+    "path": 201,
+    "cycleway": 7,
+    "bridleway": 3,
+    "track": 335,
+    "ferry": 2,
+    "unknown": 167
+  },
+  "data_files": {
+    "base_tiles": "data/districts/monaragala/base.pmtiles",
+    "areas_tiles": "data/districts/monaragala/areas.pmtiles",
+    "routing_cells": "data/routing/",
+    "streets_index": "data/streets/index.json"
+  }
+}

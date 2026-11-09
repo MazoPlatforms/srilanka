@@ -1,0 +1,37 @@
+{
+  "slug": "gampaha",
+  "name": "Gampaha",
+  "total_segments": 71055,
+  "bbox": [
+    79.44,
+    6.78,
+    80.33,
+    7.55
+  ],
+  "classes": {
+    "motorway": 72,
+    "trunk": 266,
+    "primary": 1494,
+    "secondary": 3070,
+    "tertiary": 4884,
+    "residential": 22375,
+    "living_street": 994,
+    "unclassified": 7457,
+    "service": 9938,
+    "pedestrian": 254,
+    "footway": 4974,
+    "steps": 1866,
+    "path": 3751,
+    "cycleway": 123,
+    "bridleway": 63,
+    "track": 6247,
+    "ferry": 32,
+    "unknown": 3109
+  },
+  "data_files": {
+    "base_tiles": "data/districts/gampaha/base.pmtiles",
+    "areas_tiles": "data/districts/gampaha/areas.pmtiles",
+    "routing_cells": "data/routing/",
+    "streets_index": "data/streets/index.json"
+  }
+}

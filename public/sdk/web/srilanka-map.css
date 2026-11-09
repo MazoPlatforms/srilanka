@@ -1,0 +1,367 @@
+/* srilanka-map.css — Default styles for the Sri Lanka Map Web SDK */
+
+/* =========================================================================
+   Reset / Base
+   ========================================================================= */
+
+.sl-map-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  font-family: "Noto Sans", "Noto Sans Sinhala", "Noto Sans Tamil",
+    system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #10343a;
+}
+
+/* =========================================================================
+   Control panel
+   ========================================================================= */
+
+.sl-panel {
+  position: absolute;
+  top: max(10px, env(safe-area-inset-top));
+  left: 10px;
+  z-index: 10;
+  width: min(320px, calc(100vw - 20px));
+  box-sizing: border-box;
+  background: #f7fbfa;
+  border: 1px solid #c6dad8;
+  border-radius: 10px;
+  padding: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+@media (prefers-color-scheme: dark) {
+  .sl-panel {
+    background: #14262a;
+    border-color: #2c4a4f;
+    color: #e3f1f0;
+  }
+}
+
+.sl-panel h1,
+.sl-panel h2 {
+  margin: 0 0 8px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #10343a;
+}
+
+@media (prefers-color-scheme: dark) {
+  .sl-panel h1,
+  .sl-panel h2 {
+    color: #e3f1f0;
+  }
+}
+
+/* =========================================================================
+   Search input
+   ========================================================================= */
+
+.sl-search {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px 10px;
+  font: inherit;
+  color: inherit;
+  background: transparent;
+  border: 1px solid #c6dad8;
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 0.15s;
+}
+
+.sl-search:focus {
+  border-color: #0b7f86;
+  box-shadow: 0 0 0 2px rgba(11, 127, 134, 0.2);
+}
+
+@media (prefers-color-scheme: dark) {
+  .sl-search {
+    border-color: #2c4a4f;
+  }
+  .sl-search:focus {
+    border-color: #5fd0d6;
+    box-shadow: 0 0 0 2px rgba(95, 208, 214, 0.2);
+  }
+}
+
+/* =========================================================================
+   Search results
+   ========================================================================= */
+
+.sl-results {
+  list-style: none;
+  margin: 6px 0 0;
+  padding: 0;
+  max-height: 36vh;
+  overflow-y: auto;
+  border-radius: 6px;
+}
+
+.sl-results li + li {
+  border-top: 1px solid #c6dad8;
+}
+
+@media (prefers-color-scheme: dark) {
+  .sl-results li + li {
+    border-top-color: #2c4a4f;
+  }
+}
+
+.sl-results button {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 7px 6px;
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.1s;
+}
+
+.sl-results button:hover,
+.sl-results button:focus-visible {
+  background: rgba(11, 127, 134, 0.1);
+  outline: none;
+}
+
+.sl-results .sl-no-results {
+  padding: 7px 6px;
+  color: #5b7a7d;
+  font-style: italic;
+}
+
+/* =========================================================================
+   Layer / street toggles
+   ========================================================================= */
+
+.sl-layer-panel {
+  margin-top: 10px;
+}
+
+.sl-layer-panel details > summary {
+  cursor: pointer;
+  user-select: none;
+  font-weight: 500;
+  padding: 2px 0;
+  color: #0b7f86;
+}
+
+@media (prefers-color-scheme: dark) {
+  .sl-layer-panel details > summary {
+    color: #5fd0d6;
+  }
+}
+
+.sl-toggle-list {
+  margin-top: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.sl-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 3px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.1s;
+}
+
+.sl-toggle:hover {
+  background: rgba(11, 127, 134, 0.07);
+}
+
+.sl-toggle input[type="checkbox"] {
+  accent-color: #0b7f86;
+  width: 15px;
+  height: 15px;
+  flex-shrink: 0;
+}
+
+.sl-toggle-swatch {
+  display: inline-block;
+  width: 20px;
+  height: 6px;
+  border-radius: 3px;
+  flex-shrink: 0;
+}
+
+/* =========================================================================
+   API info panel (slide-out)
+   ========================================================================= */
+
+.sl-api-panel {
+  position: absolute;
+  bottom: 40px;
+  right: 10px;
+  z-index: 10;
+  width: min(280px, calc(100vw - 20px));
+  box-sizing: border-box;
+  background: #f7fbfa;
+  border: 1px solid #c6dad8;
+  border-radius: 10px;
+  padding: 12px;
+  font-size: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  display: none;
+}
+
+.sl-api-panel.sl-visible {
+  display: block;
+}
+
+@media (prefers-color-scheme: dark) {
+  .sl-api-panel {
+    background: #14262a;
+    border-color: #2c4a4f;
+    color: #e3f1f0;
+  }
+}
+
+.sl-api-panel h3 {
+  margin: 0 0 8px;
+  font-size: 13px;
+}
+
+.sl-api-panel code {
+  display: block;
+  background: rgba(0, 0, 0, 0.06);
+  border-radius: 4px;
+  padding: 3px 6px;
+  font-family: ui-monospace, "Cascadia Code", monospace;
+  font-size: 11px;
+  margin: 2px 0;
+  word-break: break-all;
+}
+
+@media (prefers-color-scheme: dark) {
+  .sl-api-panel code {
+    background: rgba(255, 255, 255, 0.08);
+  }
+}
+
+/* =========================================================================
+   Routing panel
+   ========================================================================= */
+
+.sl-route-panel {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid #c6dad8;
+}
+
+@media (prefers-color-scheme: dark) {
+  .sl-route-panel {
+    border-top-color: #2c4a4f;
+  }
+}
+
+.sl-route-panel label {
+  display: block;
+  font-size: 12px;
+  color: #5b7a7d;
+  margin-bottom: 2px;
+}
+
+.sl-route-panel input,
+.sl-route-panel select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5px 8px;
+  font: inherit;
+  color: inherit;
+  background: transparent;
+  border: 1px solid #c6dad8;
+  border-radius: 5px;
+  margin-bottom: 6px;
+}
+
+.sl-route-panel button {
+  width: 100%;
+  padding: 7px;
+  background: #0b7f86;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 500;
+  transition: background 0.15s;
+}
+
+.sl-route-panel button:hover {
+  background: #09686e;
+}
+
+.sl-route-info {
+  margin-top: 6px;
+  font-size: 12px;
+  color: #5b7a7d;
+  text-align: center;
+}
+
+/* =========================================================================
+   Loading spinner
+   ========================================================================= */
+
+.sl-spinner {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #c6dad8;
+  border-top-color: #0b7f86;
+  border-radius: 50%;
+  animation: sl-spin 0.7s linear infinite;
+  vertical-align: middle;
+}
+
+@keyframes sl-spin {
+  to { transform: rotate(360deg); }
+}
+
+/* =========================================================================
+   Popup overrides
+   ========================================================================= */
+
+.maplibregl-popup-content {
+  background: #f7fbfa;
+  color: #10343a;
+  border-radius: 8px;
+  font-size: 13px;
+  line-height: 1.45;
+  padding: 10px 12px;
+}
+
+.maplibregl-popup-anchor-bottom .maplibregl-popup-tip { border-top-color: #f7fbfa; }
+.maplibregl-popup-anchor-top    .maplibregl-popup-tip { border-bottom-color: #f7fbfa; }
+
+@media (prefers-color-scheme: dark) {
+  .maplibregl-popup-content {
+    background: #14262a;
+    color: #e3f1f0;
+  }
+  .maplibregl-popup-anchor-bottom .maplibregl-popup-tip { border-top-color: #14262a; }
+  .maplibregl-popup-anchor-top    .maplibregl-popup-tip { border-bottom-color: #14262a; }
+}
+
+.maplibregl-popup-close-button {
+  color: #5b7a7d;
+}
+
+/* =========================================================================
+   Utility
+   ========================================================================= */
+
+.sl-muted { color: #5b7a7d; }
+.sl-accent { color: #0b7f86; }
+.sl-hidden { display: none !important; }
