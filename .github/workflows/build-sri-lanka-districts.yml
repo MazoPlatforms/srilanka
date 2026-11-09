@@ -2,6 +2,8 @@ name: Build Sri Lanka map district by district
 
 # Run once (start_index 0). Each run builds ONE district, saves it to the `site`
 # branch, deploys Pages, then automatically starts a new run for the next district.
+# After the LAST district, the full site is also committed to the default branch
+# (main) under /public instead of being uploaded as a zip artifact.
 on:
   workflow_dispatch:
     inputs:
@@ -600,11 +602,15 @@ jobs:
               placeIds.push("pd-" + d.slug, "pt-" + d.slug)));
 
             const [w, s, e, n] = index.bbox;
+            // FIX: new URL("fonts/{fontstack}/{range}.pbf") percent-encodes the braces and the
+            // style then fails validation (blank map). Build the base URL first, append tokens after.
+            const GLYPHS = new URL("fonts/", location.href).href + "{fontstack}/{range}.pbf";
             const map = new maplibregl.Map({
               container: "map", hash: true, minZoom: 6, maxBounds: [[w - 0.5, s - 0.5], [e + 0.5, n + 0.5]],
-              style: { version: 8, glyphs: new URL("fonts/{fontstack}/{range}.pbf", location.href).href, sources, layers: L },
+              style: { version: 8, glyphs: GLYPHS, sources, layers: L },
               bounds: [[w, s], [e, n]], fitBoundsOptions: { padding: 20 }
             });
+            map.on("error", ev => console.error("Map error:", ev && ev.error ? ev.error.message : ev));
             map.addControl(new maplibregl.NavigationControl(), "bottom-right");
             map.addControl(new maplibregl.GeolocateControl({ trackUserLocation: false }), "bottom-right");
             map.addControl(new maplibregl.ScaleControl(), "bottom-left");
@@ -712,19 +718,26 @@ jobs:
         with:
           path: pages
 
-      - name: Zip the full site (last district only)
+      # Replaces the old "zip + upload-artifact" steps: after the last district the whole
+      # site is committed to the default branch (main) under /public.
+      - name: Save the full site to the main branch (last district only)
         if: ${{ inputs.chain == false || inputs.end_index == '' || env.IDX == env.END_INDEX }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          MAIN_BRANCH: ${{ github.event.repository.default_branch }}
         run: |
-          cd site && zip -qr ../sri-lanka-map-site.zip . -x ".git/*" && cd ..
-          ls -lh sri-lanka-map-site.zip
-
-      - uses: actions/upload-artifact@v4
-        if: ${{ inputs.chain == false || inputs.end_index == '' || env.IDX == env.END_INDEX }}
-        with:
-          name: sri-lanka-map-site
-          path: sri-lanka-map-site.zip
-          compression-level: 0
-          retention-days: 30
+          URL="https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git clone --depth 1 --branch "$MAIN_BRANCH" "$URL" mainrepo
+          rm -rf mainrepo/public
+          mkdir -p mainrepo/public
+          rsync -a --exclude .git site/ mainrepo/public/
+          cd mainrepo
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config http.postBuffer 524288000
+          git add -A
+          git commit -q -m "Sri Lanka map site (full build)" || echo "Nothing to commit"
+          git push -q origin "HEAD:${MAIN_BRANCH}"
 
   deploy:
     needs: build
