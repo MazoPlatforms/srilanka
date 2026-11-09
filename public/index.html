@@ -117,7 +117,7 @@ function init(index) {
   map.on("error", ev => console.error("Map error:", ev && ev.error ? ev.error.message : ev));
   map.addControl(new maplibregl.NavigationControl(), "bottom-right");
   map.addControl(new maplibregl.GeolocateControl({ trackUserLocation: false }), "bottom-right");
-  map.addControl(new maplibregl.ScaleControl(), "bottom-left");
+  map.addControl(new maplibregl.ScaleControl(), "bottom-left"); window.__map = map;
 
   // ----- place details -----
   let popup = null;
@@ -188,5 +188,6 @@ function init(index) {
     `${D.length} of 25 districts built · ${total.toLocaleString()} places · Overture Maps Foundation`;
 }
 </script>
+<script src="routing.js"></script>
 </body>
 </html>
