@@ -128,8 +128,7 @@ function init(index) {
     navigator.geolocation.getCurrentPosition(p => map.flyTo({center:[p.coords.longitude,p.coords.latitude],zoom:15}), () => {document.getElementById("meta").textContent="Location unavailable. Check browser permissions."},{enableHighAccuracy:false,timeout:12000});
   });
   map.on("error", ev => console.error("Map error:", ev && ev.error ? ev.error.message : ev));
-  map.addControl(new maplibregl.NavigationControl(), "bottom-right");
-  map.addControl(new maplibregl.GeolocateControl({ trackUserLocation: false }), "bottom-right");
+  // Minimal Mazo Maps-style controls: zoom by touch/scroll, location via the custom button.
   map.addControl(new maplibregl.ScaleControl(), "bottom-left");
 
   // ----- place details: Mazo Maps-style responsive sheet -----
