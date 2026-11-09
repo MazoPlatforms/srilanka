@@ -1,9 +1,7 @@
 name: Build Sri Lanka map district by district
 
-# Run once (start_index 0). Each run builds ONE district, saves it to the `site`
-# branch, deploys Pages, then automatically starts a new run for the next district.
-# After the LAST district, the full site is also committed to the default branch
-# (main) under /public instead of being uploaded as a zip artifact.
+# Builds districts incrementally from main/public and publishes only to main/public.
+# No separate site branch. Each district run can deploy Pages from its working output.
 on:
   workflow_dispatch:
     inputs:
@@ -460,18 +458,15 @@ jobs:
               main()
           PYEOF
 
-      - name: Check out the data branch (created on first run)
-        env:
-          GH_TOKEN: ${{ github.token }}
+      - name: Prepare working site from main/public
+        uses: actions/checkout@v4
+        with:
+          path: src
+      - name: Copy canonical main/public assets
         run: |
-          URL="https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
-          if git ls-remote --exit-code --heads "$URL" site >/dev/null 2>&1; then
-            git clone --depth 1 --branch site "$URL" site
-          else
-            mkdir site && git -C site init -q -b site && git -C site remote add origin "$URL"
-          fi
-          git -C site config user.name "github-actions[bot]"
-          git -C site config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          mkdir -p site
+          if [ -d src/public ]; then cp -a src/public/. site/; fi
+          mkdir -p site/data
 
       - name: Build this district
         run: |
@@ -495,8 +490,7 @@ jobs:
           fi
           # The published UI is maintained in main/public/index.html, never generated here.
           # Fetch the current main version, not the workflow's old inline template.
-          git -C site fetch -q origin "${GITHUB_EVENT_REPOSITORY_DEFAULT_BRANCH:-main}" --depth 1
-          git -C site show FETCH_HEAD:public/index.html > site/index.html
+          cp src/public/index.html site/index.html
           test -s site/index.html
           touch site/.nojekyll
 
@@ -508,42 +502,43 @@ jobs:
           fi
           [ "$(du -sm --apparent-size --exclude=.git site | cut -f1)" -le 950 ] || echo "::warning::Site is approaching the 1 GB Pages limit"
 
-      - name: Save to the site branch
-        run: |
-          cd site
-          git add -A
-          git commit -q -m "District ${IDX}" || echo "Nothing to commit"
-          git push -q origin HEAD:site
-
-      - name: Prepare Pages artifact
-        if: ${{ inputs.deploy_pages || inputs.deploy_pages == null }}
-        run: rsync -a --exclude .git site/ pages/
-
-      - uses: actions/upload-pages-artifact@v3
-        if: ${{ inputs.deploy_pages || inputs.deploy_pages == null }}
-        with:
-          path: pages
-
-      # Replaces the old "zip + upload-artifact" steps: after the last district the whole
-      # site is committed to the default branch (main) under /public.
-      - name: Save the full site to the main branch (last district only)
-        if: ${{ inputs.chain == false || inputs.end_index == '' || env.IDX == env.END_INDEX }}
+      - name: Publish district data to main/public only
         env:
           GH_TOKEN: ${{ github.token }}
           MAIN_BRANCH: ${{ github.event.repository.default_branch }}
         run: |
           URL="https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
           git clone --depth 1 --branch "$MAIN_BRANCH" "$URL" mainrepo
-          rm -rf mainrepo/public
-          mkdir -p mainrepo/public
-          rsync -a --exclude .git site/ mainrepo/public/
+          mkdir -p mainrepo/public/data/districts mainrepo/public/data/search
+          DISTRICT=$(python -c 'import json,os; d=json.load(open("site/data/districts.json"))["districts"]; print(next(x["slug"] for x in d if x["idx"]==int(os.environ["IDX"])))')
+          rm -rf "mainrepo/public/data/districts/$DISTRICT"
+          cp -a "site/data/districts/$DISTRICT" "mainrepo/public/data/districts/$DISTRICT"
+          cp -a site/data/districts.json mainrepo/public/data/districts.json
+          rsync -a --delete site/data/search/ mainrepo/public/data/search/
+          for part in vendor fonts; do
+            if [ -d "site/$part" ]; then mkdir -p "mainrepo/public/$part"; cp -a "site/$part/." "mainrepo/public/$part/"; fi
+          done
           cd mainrepo
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config http.postBuffer 524288000
-          git add -A
-          git commit -q -m "Sri Lanka map site (full build)" || echo "Nothing to commit"
-          git push -q origin "HEAD:${MAIN_BRANCH}"
+          git add -A -- public/data public/vendor public/fonts
+          if ! git diff --cached --quiet; then
+            git commit -q -m "Build district $DISTRICT"
+            for attempt in 1 2 3; do
+              if git push -q origin "HEAD:$MAIN_BRANCH"; then break; fi
+              git fetch -q origin "$MAIN_BRANCH"
+              git rebase FETCH_HEAD || { git rebase --abort; exit 1; }
+              if [ "$attempt" = "3" ]; then exit 1; fi
+            done
+          fi
+
+      - name: Prepare Pages artifact from main/public
+        if: ${{ inputs.deploy_pages || inputs.deploy_pages == null }}
+        run: rsync -a --exclude .git site/ pages/
+      - uses: actions/upload-pages-artifact@v3
+        if: ${{ inputs.deploy_pages || inputs.deploy_pages == null }}
+        with:
+          path: pages
 
   deploy:
     needs: build
