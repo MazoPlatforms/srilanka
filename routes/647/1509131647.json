@@ -1,0 +1,9 @@
+{
+  "id": 1509131647,
+  "name": "Balangoda-Bowatte-Kaltota Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.887868, 6.662153], [80.887802, 6.662068]]
+}

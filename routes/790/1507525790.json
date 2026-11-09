@@ -1,0 +1,9 @@
+{
+  "id": 1507525790,
+  "name": "Mawela-Kothmale Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.6685, 7.07305], [80.668524, 7.073008], [80.668542, 7.072961]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 160197222,
+  "name": "Polgaswatte Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.148451, 6.30583], [80.148416, 6.305788], [80.14742, 6.305216], [80.147313, 6.304902]]
+}

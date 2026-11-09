@@ -1,0 +1,9 @@
+{
+  "id": 1524423361,
+  "name": "Chadayantalawa-Uhana Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.671443, 7.372762], [81.671331, 7.372877]]
+}

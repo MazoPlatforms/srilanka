@@ -1,0 +1,9 @@
+{
+  "id": 458013138,
+  "name": "Kanakasapai Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.714794, 7.602197], [81.714851, 7.602206], [81.715552, 7.602593], [81.716022, 7.602753], [81.71636, 7.602792], [81.716876, 7.602757], [81.717457, 7.602767]]
+}

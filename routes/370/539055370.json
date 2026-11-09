@@ -1,0 +1,9 @@
+{
+  "id": 539055370,
+  "name": "Mannar Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 20, "foot": 5},
+  "coordinates": [[79.885721, 8.291145], [79.885346, 8.292032]]
+}

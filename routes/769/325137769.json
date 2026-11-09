@@ -1,0 +1,9 @@
+{
+  "id": 325137769,
+  "name": "Hijra Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.84169, 7.393225], [81.842254, 7.393374], [81.842646, 7.393426], [81.843222, 7.393481], [81.843307, 7.393501], [81.84361, 7.393568]]
+}

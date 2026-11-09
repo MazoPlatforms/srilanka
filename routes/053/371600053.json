@@ -1,0 +1,9 @@
+{
+  "id": 371600053,
+  "name": "Ranna-Udayala-Weeraketiya Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 70.0, "motorcycle": 70.0, "truck": 70.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.812028, 6.143304], [80.81221, 6.143292]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 369336117,
+  "name": "Galabadawatte Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.942532, 6.894979], [79.94254, 6.895047], [79.942635, 6.895241], [79.942734, 6.895336], [79.943616, 6.895734]]
+}

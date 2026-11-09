@@ -1,0 +1,9 @@
+{
+  "id": 48994622,
+  "name": "Nuwarawatta Rd",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.888211, 6.891122], [79.887981, 6.891089], [79.88698, 6.89096], [79.886633, 6.890915]]
+}

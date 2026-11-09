@@ -1,0 +1,9 @@
+{
+  "id": 1155360304,
+  "name": "MLAC /ALIGAR  ROAD",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 35, "motorcycle": 35, "bicycle": 15, "foot": 5},
+  "coordinates": [[80.106392, 7.193055], [80.10623, 7.193119], [80.106068, 7.193182]]
+}

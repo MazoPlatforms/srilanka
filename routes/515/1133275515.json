@@ -1,0 +1,9 @@
+{
+  "id": 1133275515,
+  "name": "Panama-Kumana Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.792878, 6.748827], [81.793143, 6.749535], [81.793537, 6.750621], [81.793717, 6.751283], [81.793807, 6.751616], [81.793901, 6.751912], [81.794042, 6.752037]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 172896775,
+  "name": "Park Ave",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.611578, 7.268965], [80.611755, 7.268898], [80.611922, 7.268834]]
+}

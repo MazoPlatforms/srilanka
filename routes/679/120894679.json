@@ -1,0 +1,9 @@
+{
+  "id": 120894679,
+  "name": "Saman Uyana",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.937791, 6.888234], [79.937849, 6.887871], [79.937894, 6.887594], [79.937989, 6.887012], [79.938122, 6.886208], [79.938284, 6.884998]]
+}

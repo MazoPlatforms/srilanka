@@ -1,0 +1,9 @@
+{
+  "id": 541337948,
+  "name": "Salgado Saw Mills Road",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[79.896102, 6.779562], [79.896583, 6.779734], [79.897205, 6.780003]]
+}

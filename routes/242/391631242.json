@@ -1,0 +1,9 @@
+{
+  "id": 391631242,
+  "name": "Sherburry garden",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.893723, 7.134736], [79.894629, 7.134925]]
+}

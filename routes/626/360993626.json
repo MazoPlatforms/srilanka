@@ -1,0 +1,9 @@
+{
+  "id": 360993626,
+  "name": "2nd Lane",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.803419, 7.574768], [79.803322, 7.575718], [79.803249, 7.576457], [79.803175, 7.577224]]
+}

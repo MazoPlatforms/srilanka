@@ -1,0 +1,9 @@
+{
+  "id": 388186656,
+  "name": "Perahara Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.978797, 7.047535], [79.97901, 7.047512], [79.979057, 7.047508], [79.979314, 7.047487], [79.979678, 7.047397]]
+}

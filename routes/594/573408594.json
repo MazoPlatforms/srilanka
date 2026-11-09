@@ -1,0 +1,9 @@
+{
+  "id": 573408594,
+  "name": "Rambukkana-Mawanella Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.446842, 7.252187], [80.446817, 7.252275], [80.446789, 7.252372], [80.446742, 7.252538], [80.446693, 7.252748], [80.446567, 7.253247]]
+}

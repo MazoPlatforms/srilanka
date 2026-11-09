@@ -1,0 +1,9 @@
+{
+  "id": 53260822,
+  "name": "Sirimal Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.869246, 6.861294], [79.869299, 6.861731], [79.869346, 6.861899], [79.869409, 6.862015], [79.869319, 6.862122]]
+}

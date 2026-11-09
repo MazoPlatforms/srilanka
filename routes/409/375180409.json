@@ -1,0 +1,9 @@
+{
+  "id": 375180409,
+  "name": "Denagamuwa Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.305914, 7.347811], [80.304455, 7.347686]]
+}

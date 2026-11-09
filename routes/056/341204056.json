@@ -1,0 +1,9 @@
+{
+  "id": 341204056,
+  "name": "Ayagama-Kukulegama Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.312239, 6.637829], [80.312092, 6.638384]]
+}

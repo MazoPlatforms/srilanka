@@ -1,0 +1,9 @@
+{
+  "id": 804155222,
+  "name": "Alamaha Amuna Para",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.235617, 6.375539], [80.235531, 6.375525], [80.235175, 6.375497], [80.234376, 6.375265], [80.234273, 6.375201], [80.234375, 6.374481], [80.234407, 6.374087]]
+}

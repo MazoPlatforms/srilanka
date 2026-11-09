@@ -1,0 +1,9 @@
+{
+  "id": 457175581,
+  "name": "Housing Scheem 3rd Cross Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.70595, 7.621957], [81.706413, 7.622083], [81.70689, 7.622172]]
+}

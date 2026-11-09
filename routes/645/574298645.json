@@ -1,0 +1,9 @@
+{
+  "id": 574298645,
+  "name": "8th Cross Street",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.003784, 9.682236], [80.003705, 9.682094], [80.003418, 9.68158], [80.003362, 9.681484]]
+}

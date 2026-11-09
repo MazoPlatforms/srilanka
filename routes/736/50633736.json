@@ -1,0 +1,9 @@
+{
+  "id": 50633736,
+  "name": "Skanda Deval Mw",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.891303, 6.915338], [79.891445, 6.91602], [79.891477, 6.916062], [79.891541, 6.916092], [79.891878, 6.916049]]
+}

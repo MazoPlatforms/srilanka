@@ -1,0 +1,9 @@
+{
+  "id": 506647513,
+  "name": "Yakkala-Radawana Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.034072, 7.085481], [80.033973, 7.085563], [80.033874, 7.085644], [80.03379, 7.085712], [80.033682, 7.085783], [80.033599, 7.085838], [80.033423, 7.085943]]
+}

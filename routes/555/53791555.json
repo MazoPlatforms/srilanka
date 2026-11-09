@@ -1,0 +1,9 @@
+{
+  "id": 53791555,
+  "name": "Nagahamulla Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.93038, 6.88342], [79.930577, 6.883551], [79.930648, 6.883572], [79.93131, 6.883749], [79.931572, 6.884027], [79.931624, 6.884135], [79.931736, 6.884466]]
+}

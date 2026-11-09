@@ -1,0 +1,9 @@
+{
+  "id": 34695083,
+  "name": "Hulftsdorp Street",
+  "highway": "tertiary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.860502, 6.939356], [79.860568, 6.939034], [79.860631, 6.938395], [79.860664, 6.938325], [79.860709, 6.938249]]
+}

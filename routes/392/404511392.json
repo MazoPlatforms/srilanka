@@ -1,0 +1,9 @@
+{
+  "id": 404511392,
+  "name": "Jayanthipura Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.358836, 7.478039], [80.358731, 7.478227], [80.358625, 7.478542], [80.358506, 7.478691], [80.358137, 7.479031]]
+}

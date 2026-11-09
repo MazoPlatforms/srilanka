@@ -1,0 +1,9 @@
+{
+  "id": 426955732,
+  "name": "uthuru gallawaththa 2",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.899798, 7.108413], [79.899551, 7.108397], [79.898325, 7.108517], [79.898293, 7.107825], [79.89827, 7.106528]]
+}

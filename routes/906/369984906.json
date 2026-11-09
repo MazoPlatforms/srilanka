@@ -1,0 +1,9 @@
+{
+  "id": 369984906,
+  "name": "Nugagahalanda Rd",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.059694, 7.11484], [80.059514, 7.115945], [80.059289, 7.116618], [80.05902, 7.117321], [80.05871, 7.117846]]
+}

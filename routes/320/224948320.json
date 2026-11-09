@@ -1,0 +1,9 @@
+{
+  "id": 224948320,
+  "name": "BOC Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.689985, 7.725512], [81.689889, 7.725194], [81.689855, 7.724921]]
+}

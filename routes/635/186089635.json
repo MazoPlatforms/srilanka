@@ -1,0 +1,9 @@
+{
+  "id": 186089635,
+  "name": "Samanala Pedesa",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.992523, 6.838318], [79.992592, 6.83884], [79.99402, 6.838646]]
+}

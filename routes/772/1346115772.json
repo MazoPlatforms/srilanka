@@ -1,0 +1,9 @@
+{
+  "id": 1346115772,
+  "name": "Kelimadala walking path",
+  "highway": "footway",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 8, "foot": 5},
+  "coordinates": [[79.90246, 6.835413], [79.902445, 6.835291], [79.90249, 6.835232], [79.90256, 6.8352], [79.902657, 6.835213]]
+}

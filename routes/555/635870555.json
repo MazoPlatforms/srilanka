@@ -1,0 +1,9 @@
+{
+  "id": 635870555,
+  "name": "Kahambiliyagoda Road",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.162661, 6.290089], [80.162976, 6.290108], [80.163109, 6.290117], [80.163183, 6.290127], [80.163231, 6.290138], [80.163482, 6.290276]]
+}

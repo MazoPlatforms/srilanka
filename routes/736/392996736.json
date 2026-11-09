@@ -1,0 +1,9 @@
+{
+  "id": 392996736,
+  "name": "Main Drive",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 15, "motorcycle": 15, "bicycle": 15, "foot": 5},
+  "coordinates": [[79.985798, 7.100727], [79.986829, 7.102226], [79.986871, 7.102284], [79.986879, 7.102307], [79.986895, 7.102399]]
+}

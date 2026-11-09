@@ -1,0 +1,9 @@
+{
+  "id": 1152572845,
+  "name": "Aluthgama-Ittapana Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.153592, 6.368074], [80.153746, 6.368098], [80.154181, 6.368067]]
+}

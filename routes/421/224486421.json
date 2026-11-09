@@ -1,0 +1,9 @@
+{
+  "id": 224486421,
+  "name": "7th Cross Street",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.716008, 7.711108], [81.715901, 7.711484], [81.715899, 7.711492], [81.715671, 7.712413], [81.715532, 7.712953], [81.715308, 7.713723]]
+}

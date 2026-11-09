@@ -1,0 +1,9 @@
+{
+  "id": 401359845,
+  "name": "Jayasinghe Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.97132, 6.828498], [79.971274, 6.828601], [79.971215, 6.82867], [79.971038, 6.828805], [79.970727, 6.828958], [79.970504, 6.82911], [79.970372, 6.829413]]
+}

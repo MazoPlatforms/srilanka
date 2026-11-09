@@ -1,0 +1,9 @@
+{
+  "id": 336107405,
+  "name": "Peliyagoda-Negombo Road",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
+  "coordinates": [[79.883482, 6.95597], [79.883246, 6.956136]]
+}

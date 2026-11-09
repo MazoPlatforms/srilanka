@@ -1,0 +1,9 @@
+{
+  "id": 519827608,
+  "name": "Vinayakar 4th cross road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.710417, 7.528903], [81.709975, 7.528581], [81.709952, 7.528562]]
+}

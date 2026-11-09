@@ -1,0 +1,9 @@
+{
+  "id": 384989112,
+  "name": "Hanwella-Pugoda-Weke-Urapola Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.144256, 7.078321], [80.144264, 7.078402], [80.144313, 7.078552]]
+}

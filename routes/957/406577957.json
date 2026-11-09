@@ -1,0 +1,9 @@
+{
+  "id": 406577957,
+  "name": "Malalasekara Place",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.869874, 6.90083], [79.870002, 6.900905], [79.870126, 6.90099], [79.871044, 6.901601]]
+}

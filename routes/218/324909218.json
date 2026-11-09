@@ -1,0 +1,9 @@
+{
+  "id": 324909218,
+  "name": "Haji Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.846328, 7.273508], [81.846632, 7.273514], [81.84695, 7.27347], [81.847023, 7.273471], [81.847528, 7.273375], [81.848064, 7.273299]]
+}

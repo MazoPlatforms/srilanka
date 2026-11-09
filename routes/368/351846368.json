@@ -1,0 +1,9 @@
+{
+  "id": 351846368,
+  "name": "Muwanhelawatta 4th Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.948457, 6.904618], [79.948466, 6.904578], [79.948868, 6.904129], [79.948883, 6.904095], [79.94888, 6.903688], [79.948898, 6.903461], [79.949041, 6.903335], [79.949329, 6.903125]]
+}

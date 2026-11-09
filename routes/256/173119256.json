@@ -1,0 +1,9 @@
+{
+  "id": 173119256,
+  "name": "Rajamalwatte Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.913408, 6.898761], [79.913497, 6.89884], [79.913534, 6.898903], [79.913623, 6.899159]]
+}

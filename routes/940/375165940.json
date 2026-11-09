@@ -1,0 +1,9 @@
+{
+  "id": 375165940,
+  "name": "Dambokka-Katupitiya Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.339281, 7.437263], [80.339171, 7.437338], [80.339072, 7.437391], [80.33869, 7.437564], [80.33856, 7.437632], [80.338446, 7.437703], [80.338315, 7.437798]]
+}

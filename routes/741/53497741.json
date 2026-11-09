@@ -1,0 +1,9 @@
+{
+  "id": 53497741,
+  "name": "Hill House Garden Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.866049, 6.85164], [79.866554, 6.85162], [79.867226, 6.851566], [79.867318, 6.851626], [79.867373, 6.851735], [79.867379, 6.852502], [79.86738, 6.852576], [79.867366, 6.852621]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 454191828,
+  "name": "Erikalamkaddu Brige",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.470039, 7.906811], [81.470033, 7.906718]]
+}

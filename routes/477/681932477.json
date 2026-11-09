@@ -1,0 +1,9 @@
+{
+  "id": 681932477,
+  "name": "Morontota-Arandara Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.361924, 7.174131], [80.361762, 7.174173], [80.361622, 7.174207], [80.361327, 7.174252], [80.361094, 7.174273], [80.360835, 7.174333]]
+}

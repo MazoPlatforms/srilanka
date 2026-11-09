@@ -1,0 +1,9 @@
+{
+  "id": 307014684,
+  "name": "Karandupana-Rambukkana Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.385649, 7.288702], [80.385343, 7.28853], [80.385073, 7.288389], [80.384531, 7.288105]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 777923143,
+  "name": "Kerawalapitiya Industrial Zone Access Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.882233, 7.018315], [79.882855, 7.018287], [79.883182, 7.018263]]
+}

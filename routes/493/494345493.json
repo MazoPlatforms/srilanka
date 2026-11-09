@@ -1,0 +1,9 @@
+{
+  "id": 494345493,
+  "name": "Multi pupase Building Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.72377, 7.621156], [81.723716, 7.621101], [81.723613, 7.620977], [81.723517, 7.620853], [81.723475, 7.62083]]
+}

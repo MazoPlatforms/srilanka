@@ -1,0 +1,9 @@
+{
+  "id": 205315895,
+  "name": "Kahawatte Road",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.502301, 6.587563], [80.502437, 6.587537], [80.502712, 6.58761], [80.502897, 6.5877], [80.503037, 6.587966], [80.503158, 6.588341]]
+}

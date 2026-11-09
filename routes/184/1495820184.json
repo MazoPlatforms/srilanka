@@ -1,0 +1,9 @@
+{
+  "id": 1495820184,
+  "name": "Uragaha Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.163612, 6.293631], [80.163618, 6.293556], [80.163636, 6.293475], [80.163671, 6.293389], [80.163702, 6.293327], [80.163875, 6.29299]]
+}

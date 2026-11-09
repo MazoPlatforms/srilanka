@@ -1,0 +1,9 @@
+{
+  "id": 54033351,
+  "name": "Thalagahawatte Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.934297, 6.847083], [79.933892, 6.847694], [79.933809, 6.847702], [79.933734, 6.847679], [79.933838, 6.848768]]
+}

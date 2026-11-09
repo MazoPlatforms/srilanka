@@ -1,0 +1,9 @@
+{
+  "id": 939306291,
+  "name": "Horton Place",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
+  "coordinates": [[79.866905, 6.911558], [79.86579, 6.911605], [79.86537, 6.911623], [79.865152, 6.911631], [79.864851, 6.911633]]
+}

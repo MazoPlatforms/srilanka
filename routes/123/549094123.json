@@ -1,0 +1,9 @@
+{
+  "id": 549094123,
+  "name": "Konaththa Tank Rd",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.223871, 7.712675], [80.223952, 7.712677], [80.226687, 7.71303], [80.227634, 7.713166], [80.228336, 7.713605], [80.229281, 7.714197], [80.229753, 7.714535]]
+}

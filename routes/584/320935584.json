@@ -1,0 +1,9 @@
+{
+  "id": 320935584,
+  "name": "Ali Master Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.847663, 7.353186], [81.847369, 7.353238], [81.8472, 7.353288], [81.847019, 7.353331], [81.846961, 7.353288], [81.846882, 7.353294], [81.846167, 7.353544]]
+}

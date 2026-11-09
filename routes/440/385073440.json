@@ -1,0 +1,9 @@
+{
+  "id": 385073440,
+  "name": "3 rd Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.967004, 7.072388], [79.966893, 7.072096], [79.966836, 7.071671]]
+}

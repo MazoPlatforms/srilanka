@@ -1,0 +1,9 @@
+{
+  "id": 188076113,
+  "name": "Puhulyaya Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.020463, 6.130474], [81.019524, 6.130458], [81.018985, 6.129653]]
+}

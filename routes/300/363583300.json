@@ -1,0 +1,9 @@
+{
+  "id": 363583300,
+  "name": "Weligatta-Lunugamvehera Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.181185, 6.223281], [81.181115, 6.223281], [81.179269, 6.222645], [81.179132, 6.222626], [81.178893, 6.222683]]
+}

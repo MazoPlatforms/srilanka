@@ -1,0 +1,9 @@
+{
+  "id": 1512216491,
+  "name": "Paragammana-Ekiriyagala-Meepitiya Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.357708, 7.245416], [80.357715, 7.245554], [80.357731, 7.245643]]
+}

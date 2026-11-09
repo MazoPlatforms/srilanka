@@ -1,0 +1,9 @@
+{
+  "id": 387281122,
+  "name": "polruppawa para",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.007927, 7.036072], [80.007655, 7.036013], [80.007011, 7.035821], [80.006447, 7.035583], [80.00579, 7.035128]]
+}

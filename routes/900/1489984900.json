@@ -1,0 +1,9 @@
+{
+  "id": 1489984900,
+  "name": "Parliament Approach",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.918698, 6.888136], [79.918702, 6.888484], [79.918714, 6.892397]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 200058010,
+  "name": "Nagathampiran kovil road 5th lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.48396, 8.77117], [80.483784, 8.771805], [80.483549, 8.772613], [80.483242, 8.773678]]
+}

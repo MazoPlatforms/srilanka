@@ -1,0 +1,9 @@
+{
+  "id": 345510948,
+  "name": "Kirula Place",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.901382, 6.842201], [79.901403, 6.842228], [79.901393, 6.842343], [79.901419, 6.842367], [79.902096, 6.842566]]
+}

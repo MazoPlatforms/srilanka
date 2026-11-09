@@ -1,0 +1,9 @@
+{
+  "id": 71224679,
+  "name": "Punkudutivu Causeway",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.892707, 9.6237], [79.890878, 9.622707], [79.881554, 9.617604], [79.879392, 9.616464], [79.86191, 9.606823]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 673020684,
+  "name": "Stanley Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.018234, 9.667754], [80.018265, 9.667744]]
+}

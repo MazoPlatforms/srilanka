@@ -1,0 +1,9 @@
+{
+  "id": 179237087,
+  "name": "Cheddiyar Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.586655, 7.795756], [81.586, 7.796266], [81.58507, 7.796928], [81.58488, 7.797083]]
+}

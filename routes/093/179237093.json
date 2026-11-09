@@ -1,0 +1,9 @@
+{
+  "id": 179237093,
+  "name": "Sinnaththampi Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.61291, 7.801092], [81.612185, 7.80148], [81.611499, 7.8018], [81.611496, 7.801852], [81.610526, 7.802317], [81.609429, 7.802809]]
+}

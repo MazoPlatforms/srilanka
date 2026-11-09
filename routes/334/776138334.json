@@ -1,0 +1,9 @@
+{
+  "id": 776138334,
+  "name": "Santhipuram Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.797447, 7.144619], [81.797369, 7.144681], [81.797276, 7.144732]]
+}

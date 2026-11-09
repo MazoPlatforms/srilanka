@@ -1,0 +1,9 @@
+{
+  "id": 386567607,
+  "name": "Koralankerny 1st Cross",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "bicycle": 15, "foot": 5},
+  "coordinates": [[81.566373, 7.827095], [81.56626, 7.827302], [81.566002, 7.827789], [81.565502, 7.828549], [81.565183, 7.829078]]
+}

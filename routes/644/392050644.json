@@ -1,0 +1,9 @@
+{
+  "id": 392050644,
+  "name": "Sinna Thaddumunai Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.436529, 8.131158], [81.436113, 8.131075], [81.435966, 8.131033], [81.435076, 8.13068], [81.434586, 8.130472], [81.434075, 8.130312]]
+}

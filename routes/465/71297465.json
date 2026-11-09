@@ -1,0 +1,9 @@
+{
+  "id": 71297465,
+  "name": "4th Cross Street",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.24091, 9.823001], [80.241384, 9.824146], [80.241833, 9.825229], [80.242217, 9.826161], [80.243007, 9.828081]]
+}

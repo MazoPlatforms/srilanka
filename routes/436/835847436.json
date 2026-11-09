@@ -1,0 +1,9 @@
+{
+  "id": 835847436,
+  "name": "Boraluhena - Ganema Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.248568, 6.308247], [80.248718, 6.308257], [80.248865, 6.308325], [80.249076, 6.308505]]
+}

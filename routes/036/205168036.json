@@ -1,0 +1,9 @@
+{
+  "id": 205168036,
+  "name": "Shaviya Mawatha",
+  "highway": "tertiary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.404278, 6.679038], [80.404374, 6.679632]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 170062619,
+  "name": "SK town nroad",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.570431, 5.93881], [80.570598, 5.939307], [80.570767, 5.939814], [80.570951, 5.940374], [80.571284, 5.941349], [80.571179, 5.941616]]
+}

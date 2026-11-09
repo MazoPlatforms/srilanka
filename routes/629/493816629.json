@@ -1,0 +1,9 @@
+{
+  "id": 493816629,
+  "name": "Valachchenai Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.75107, 7.576314], [81.751443, 7.576133], [81.7518, 7.575846], [81.75201, 7.575675], [81.75239, 7.575567], [81.753106, 7.575518]]
+}

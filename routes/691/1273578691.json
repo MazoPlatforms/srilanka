@@ -1,0 +1,9 @@
+{
+  "id": 1273578691,
+  "name": "Softhandle Road",
+  "highway": "footway",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 8, "foot": 5},
+  "coordinates": [[80.514486, 7.441934], [80.514294, 7.442073], [80.51427, 7.442329], [80.514183, 7.442243], [80.514141, 7.44204], [80.513982, 7.44203]]
+}

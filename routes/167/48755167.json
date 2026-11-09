@@ -1,0 +1,9 @@
+{
+  "id": 48755167,
+  "name": "Church Street",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.851884, 6.922829], [79.85179, 6.922799], [79.851687, 6.922767], [79.851428, 6.922685], [79.850975, 6.922508]]
+}

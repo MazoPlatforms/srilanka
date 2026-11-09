@@ -1,0 +1,9 @@
+{
+  "id": 180781643,
+  "name": "Diyawanna Place",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.899337, 6.906553], [79.899404, 6.906762], [79.899642, 6.907451]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 310202473,
+  "name": "Esala Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.844392, 6.327792], [80.843857, 6.327672], [80.84321, 6.32751], [80.843341, 6.327115], [80.843738, 6.325893]]
+}

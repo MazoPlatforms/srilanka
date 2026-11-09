@@ -1,0 +1,9 @@
+{
+  "id": 262172177,
+  "name": "Kumudu Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.917806, 6.846051], [79.917692, 6.846545], [79.917658, 6.846693], [79.917559, 6.846967], [79.91722, 6.847521]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 172896772,
+  "name": "Angampitiya Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.611826, 7.273301], [80.611742, 7.273292], [80.611542, 7.273265], [80.61144, 7.27319], [80.611268, 7.272606], [80.611193, 7.272459]]
+}

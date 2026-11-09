@@ -1,0 +1,9 @@
+{
+  "id": 1568044025,
+  "name": "Delgoda-Dompe-Giridara Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.047432, 6.96867], [80.047506, 6.968667]]
+}

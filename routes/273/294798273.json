@@ -1,0 +1,9 @@
+{
+  "id": 294798273,
+  "name": "Swarna Pradeepa Place",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.949891, 6.848684], [79.949427, 6.848538], [79.949331, 6.848628], [79.949125, 6.848625], [79.949011, 6.848586], [79.948619, 6.848515]]
+}

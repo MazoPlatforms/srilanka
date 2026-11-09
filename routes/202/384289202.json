@@ -1,0 +1,9 @@
+{
+  "id": 384289202,
+  "name": "Amarasingha Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.965194, 7.073231], [79.965311, 7.073126], [79.965423, 7.07299], [79.966052, 7.073133], [79.966779, 7.073147], [79.966854, 7.073459]]
+}

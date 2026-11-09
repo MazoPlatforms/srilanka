@@ -1,0 +1,9 @@
+{
+  "id": 531347113,
+  "name": "Hedgefield State Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.457532, 6.663642], [80.457446, 6.663688], [80.457325, 6.663726], [80.457257, 6.663723], [80.456971, 6.663629]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 420193274,
+  "name": "College Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.318186, 8.650094], [80.318138, 8.649977], [80.31656, 8.649696], [80.315332, 8.649221]]
+}

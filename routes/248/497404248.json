@@ -1,0 +1,9 @@
+{
+  "id": 497404248,
+  "name": "Diyatalawa-Aluthwela South Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.944758, 6.810707], [80.944268, 6.810353], [80.943417, 6.809761], [80.943118, 6.809538], [80.943068, 6.809505], [80.943026, 6.809484], [80.942989, 6.809481]]
+}

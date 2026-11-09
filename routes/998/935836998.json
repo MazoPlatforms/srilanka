@@ -1,0 +1,9 @@
+{
+  "id": 935836998,
+  "name": "Maina Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.006253, 7.766919], [81.007344, 7.765919], [81.007452, 7.76581], [81.007554, 7.765673]]
+}

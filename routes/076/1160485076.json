@@ -1,0 +1,9 @@
+{
+  "id": 1160485076,
+  "name": "Sri Dhamma Mawatha (Campbell Avenue)",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.87509, 6.92854], [79.87509, 6.928552], [79.875121, 6.92887], [79.875299, 6.929583], [79.875571, 6.930729], [79.875631, 6.931114]]
+}

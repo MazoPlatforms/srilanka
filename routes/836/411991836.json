@@ -1,0 +1,9 @@
+{
+  "id": 411991836,
+  "name": "Pandarikulam 5th Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.480786, 8.752794], [80.481464, 8.752794], [80.482966, 8.752809]]
+}

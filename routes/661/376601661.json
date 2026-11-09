@@ -1,0 +1,9 @@
+{
+  "id": 376601661,
+  "name": "Idamal Street",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "bicycle": 15, "foot": 5},
+  "coordinates": [[79.88936, 6.811655], [79.889182, 6.811964], [79.888993, 6.812324], [79.888651, 6.812947]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 421331356,
+  "name": "Wigoda Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.017931, 7.124695], [80.018207, 7.124499], [80.01831, 7.124453], [80.01895, 7.123995]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 179241909,
+  "name": "Vempadi pillayar Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.5463, 7.845606], [81.547529, 7.845858]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 1492471230,
+  "name": "San Sebastian Hill",
+  "highway": "secondary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.859486, 6.934426], [79.859498, 6.934357], [79.8595, 6.934288], [79.859488, 6.93419]]
+}

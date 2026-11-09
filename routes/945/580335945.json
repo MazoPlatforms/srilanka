@@ -1,0 +1,9 @@
+{
+  "id": 580335945,
+  "name": "Hulangamuwa Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.615623, 7.472055], [80.615659, 7.472106], [80.615726, 7.47217], [80.615843, 7.472176], [80.616187, 7.472017]]
+}

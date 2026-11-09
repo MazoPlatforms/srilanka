@@ -1,0 +1,9 @@
+{
+  "id": 179237116,
+  "name": "Maariyamman kovil road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.610903, 7.806546], [81.61067, 7.805524], [81.610473, 7.804264], [81.610449, 7.804122]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 376599230,
+  "name": "Kongahawatte Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.865614, 6.830703], [79.865913, 6.830751], [79.865934, 6.830751], [79.865956, 6.830742], [79.866231, 6.830371]]
+}

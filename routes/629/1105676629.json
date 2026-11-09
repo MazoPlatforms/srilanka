@@ -1,0 +1,9 @@
+{
+  "id": 1105676629,
+  "name": "2nd Lane Desingha Mawatha",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[79.933756, 6.892605], [79.933589, 6.892611], [79.933304, 6.892655]]
+}

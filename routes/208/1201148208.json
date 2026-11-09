@@ -1,0 +1,9 @@
+{
+  "id": 1201148208,
+  "name": "9th Lane Wickramasinghe Pura Road",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "bicycle": 10, "foot": 5},
+  "coordinates": [[79.939427, 6.88287], [79.939128, 6.883493], [79.939114, 6.883581], [79.939221, 6.883676]]
+}

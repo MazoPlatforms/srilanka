@@ -1,0 +1,9 @@
+{
+  "id": 457865928,
+  "name": "Kulakkaddu Internal Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.711297, 7.624305], [81.711828, 7.624245], [81.71202, 7.624219], [81.712679, 7.624189], [81.71306, 7.624174], [81.713221, 7.624195]]
+}

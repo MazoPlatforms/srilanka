@@ -1,0 +1,9 @@
+{
+  "id": 392541283,
+  "name": "Vairavar Kovil Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.408512, 8.183002], [81.408574, 8.182525], [81.408642, 8.181273], [81.408653, 8.18029], [81.408657, 8.180177]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 1528559287,
+  "name": "Romiyal Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.023167, 6.862399], [80.023106, 6.862309]]
+}

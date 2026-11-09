@@ -1,0 +1,9 @@
+{
+  "id": 1132980040,
+  "name": "New Elevated Kelani Bridge Road",
+  "highway": "motorway",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0},
+  "coordinates": [[79.871143, 6.953477], [79.871236, 6.953444], [79.871292, 6.953437], [79.871406, 6.953436]]
+}

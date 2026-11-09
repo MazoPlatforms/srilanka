@@ -1,0 +1,9 @@
+{
+  "id": 509987311,
+  "name": "Sandaham Pedesa",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[79.961699, 6.905591], [79.961716, 6.905449], [79.961733, 6.905296]]
+}

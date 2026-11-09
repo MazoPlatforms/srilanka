@@ -1,0 +1,9 @@
+{
+  "id": 139506525,
+  "name": "Gamunupura 1st Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.963271, 6.831869], [79.963009, 6.832363], [79.962648, 6.833055], [79.962358, 6.833624], [79.963065, 6.833957]]
+}

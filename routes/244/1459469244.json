@@ -1,0 +1,9 @@
+{
+  "id": 1459469244,
+  "name": "Canal Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.53689, 5.950668], [80.536886, 5.951099], [80.536925, 5.951752], [80.53697, 5.952596]]
+}

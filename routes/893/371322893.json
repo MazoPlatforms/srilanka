@@ -1,0 +1,9 @@
+{
+  "id": 371322893,
+  "name": "Sri Wijayarama Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.055404, 6.231943], [80.055368, 6.231681], [80.055335, 6.231479], [80.055376, 6.231334], [80.055457, 6.23114]]
+}

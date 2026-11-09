@@ -1,0 +1,9 @@
+{
+  "id": 590134360,
+  "name": "Brookside - Highforest Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.829485, 7.042645], [80.829581, 7.042551], [80.829678, 7.042458]]
+}

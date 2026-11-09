@@ -1,0 +1,9 @@
+{
+  "id": 1268039288,
+  "name": "Gurulugomi Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.026192, 6.843477], [80.025895, 6.843511], [80.025846, 6.843852], [80.025812, 6.843885], [80.025756, 6.843905], [80.025201, 6.843975]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 319048584,
+  "name": "Old Negombo Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.892809, 6.990003], [79.892878, 6.989853], [79.892945, 6.989708]]
+}

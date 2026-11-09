@@ -1,0 +1,9 @@
+{
+  "id": 229503588,
+  "name": "Lalitha Kala Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.67691, 7.282117], [80.676673, 7.282298], [80.676459, 7.282734], [80.676377, 7.283143], [80.676385, 7.283856], [80.676479, 7.284119], [80.676554, 7.284245]]
+}

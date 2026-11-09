@@ -1,0 +1,9 @@
+{
+  "id": 278138512,
+  "name": "Bhadrawaththa 1st Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.251918, 7.615646], [80.251947, 7.616556], [80.251979, 7.616751], [80.251961, 7.61718], [80.251932, 7.617286], [80.251777, 7.617314], [80.251239, 7.617349]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 49005109,
+  "name": "Queen's Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.855894, 6.898774], [79.855832, 6.898757], [79.855531, 6.898674], [79.85525, 6.898596]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 475570291,
+  "name": "Gold Market",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 15, "motorcycle": 15, "bicycle": 15, "foot": 5},
+  "coordinates": [[79.853011, 6.940662], [79.853031, 6.940594], [79.852977, 6.94043], [79.852928, 6.940366], [79.852703, 6.940182]]
+}

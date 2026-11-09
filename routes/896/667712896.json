@@ -1,0 +1,9 @@
+{
+  "id": 667712896,
+  "name": "Embilipitiya Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 70.0, "motorcycle": 70.0, "truck": 70.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.999491, 6.316101], [80.999591, 6.315972]]
+}

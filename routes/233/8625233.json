@@ -1,0 +1,9 @@
+{
+  "id": 8625233,
+  "name": "Baladaksha Mawatha",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.217129, 6.03102], [80.217131, 6.030959], [80.21714, 6.030877], [80.217134, 6.030794]]
+}

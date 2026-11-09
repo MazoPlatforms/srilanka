@@ -1,0 +1,9 @@
+{
+  "id": 370009532,
+  "name": "6th Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.021365, 7.080764], [80.02135, 7.081569], [80.021343, 7.08209], [80.021307, 7.082163], [80.021193, 7.082259], [80.021161, 7.082285]]
+}

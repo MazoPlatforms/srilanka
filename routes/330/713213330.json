@@ -1,0 +1,9 @@
+{
+  "id": 713213330,
+  "name": "Jaffna-Pannai-Kayts Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.997185, 9.650975], [79.996335, 9.649743], [79.995911, 9.649124], [79.995711, 9.648807], [79.995508, 9.648485], [79.995278, 9.648107]]
+}

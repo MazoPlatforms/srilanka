@@ -1,0 +1,9 @@
+{
+  "id": 854162118,
+  "name": "Kasawattha Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.617948, 7.364787], [80.617987, 7.364721]]
+}

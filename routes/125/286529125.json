@@ -1,0 +1,9 @@
+{
+  "id": 286529125,
+  "name": "Meegahakivula-Kalugahakandura Road",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.04699, 7.134918], [81.047049, 7.134892], [81.047367, 7.134751], [81.047785, 7.134626], [81.049192, 7.134033], [81.049452, 7.134013], [81.049806, 7.133815], [81.049928, 7.13369], [81.050326, 7.133392]]
+}

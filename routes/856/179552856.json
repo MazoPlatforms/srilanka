@@ -1,0 +1,9 @@
+{
+  "id": 179552856,
+  "name": "MOH Internal Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.655862, 7.695864], [81.655635, 7.695931], [81.655248, 7.696157], [81.655111, 7.696346], [81.654686, 7.696875]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 1480316586,
+  "name": "Jaffna Road",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
+  "coordinates": [[80.416755, 8.355706], [80.416728, 8.355734], [80.416707, 8.355766], [80.416702, 8.355803], [80.416697, 8.355842]]
+}

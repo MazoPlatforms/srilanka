@@ -1,0 +1,9 @@
+{
+  "id": 508094187,
+  "name": "Nelligahawatte Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.880428, 6.961263], [79.880557, 6.961253], [79.880607, 6.961215], [79.88067, 6.961102], [79.880714, 6.961017], [79.880805, 6.960866]]
+}

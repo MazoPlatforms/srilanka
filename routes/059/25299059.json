@@ -1,0 +1,9 @@
+{
+  "id": 25299059,
+  "name": "Subhadrarama Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.897947, 6.86946], [79.897865, 6.869215], [79.897789, 6.869004], [79.897711, 6.868753], [79.89756, 6.868277], [79.89755, 6.868225], [79.897375, 6.867316]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 287283255,
+  "name": "Hijra 7th Street",
+  "highway": "residential",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.809287, 7.36423], [81.809377, 7.364102], [81.80949, 7.363751], [81.809525, 7.363393], [81.809507, 7.363184]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 109082682,
+  "name": "2nd Cross Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.880392, 6.822008], [79.880642, 6.82157], [79.880897, 6.821078], [79.881157, 6.820581], [79.88062, 6.820286], [79.880095, 6.819998], [79.880045, 6.81997]]
+}

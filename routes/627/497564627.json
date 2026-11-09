@@ -1,0 +1,9 @@
+{
+  "id": 497564627,
+  "name": "Kaashupathi Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.57823, 7.723871], [81.578258, 7.723966], [81.57834, 7.724296], [81.578451, 7.724571], [81.578423, 7.724802]]
+}

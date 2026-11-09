@@ -1,0 +1,9 @@
+{
+  "id": 483896734,
+  "name": "Anchaneyar Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.584273, 7.793024], [81.584467, 7.792873], [81.584989, 7.792426]]
+}

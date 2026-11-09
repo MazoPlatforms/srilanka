@@ -1,0 +1,9 @@
+{
+  "id": 530658618,
+  "name": "Thalduwa-Meewitigammana Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.186463, 7.029383], [80.186369, 7.029435], [80.185731, 7.029791], [80.185643, 7.029822], [80.18545, 7.029837], [80.185369, 7.0299]]
+}

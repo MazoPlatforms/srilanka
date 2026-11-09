@@ -1,0 +1,9 @@
+{
+  "id": 337930480,
+  "name": "Palapathwela-Galewela Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.606058, 7.617737], [80.606094, 7.618138]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 1189956766,
+  "name": "Paradise Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.932504, 6.725234], [79.932613, 6.725185], [79.932691, 6.72513], [79.93286, 6.724825]]
+}

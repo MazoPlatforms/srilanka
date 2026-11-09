@@ -1,0 +1,9 @@
+{
+  "id": 1333414343,
+  "name": "Hospital Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.01665, 9.664723], [80.016271, 9.664918], [80.015987, 9.665062]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 592549776,
+  "name": "Sahfa Madrisa Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.861108, 7.282978], [81.861067, 7.28266], [81.861011, 7.28195], [81.86099, 7.28159], [81.860973, 7.281268]]
+}

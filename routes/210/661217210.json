@@ -1,0 +1,9 @@
+{
+  "id": 661217210,
+  "name": "Laya Leisure",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.233421, 6.582883], [80.233923, 6.582761], [80.234286, 6.582677], [80.234729, 6.582509], [80.235183, 6.582552]]
+}

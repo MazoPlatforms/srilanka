@@ -1,0 +1,9 @@
+{
+  "id": 691988493,
+  "name": "Uppodai Lake Road",
+  "highway": "tertiary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.705159, 7.720486], [81.705218, 7.720513], [81.705256, 7.720536], [81.705298, 7.720573], [81.705368, 7.720661]]
+}

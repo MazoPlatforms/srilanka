@@ -1,0 +1,9 @@
+{
+  "id": 483638764,
+  "name": "Mavaniyaru road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.529274, 7.66376], [81.529042, 7.663818], [81.528843, 7.663833], [81.528672, 7.663818], [81.528307, 7.663765]]
+}

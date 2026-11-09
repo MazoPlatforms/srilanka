@@ -1,0 +1,9 @@
+{
+  "id": 117163101,
+  "name": "Andaragaha Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.929287, 6.682864], [79.929167, 6.682775], [79.929078, 6.682665], [79.929048, 6.682523], [79.929064, 6.682428], [79.929108, 6.682078], [79.929115, 6.68168]]
+}

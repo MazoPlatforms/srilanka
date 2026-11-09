@@ -1,0 +1,9 @@
+{
+  "id": 109081951,
+  "name": "Wlliam Place",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.868263, 6.824808], [79.868847, 6.825067], [79.868885, 6.825115], [79.868945, 6.8252], [79.868995, 6.825264], [79.869041, 6.825292], [79.869729, 6.825497]]
+}

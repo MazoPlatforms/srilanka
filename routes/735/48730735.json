@@ -1,0 +1,9 @@
+{
+  "id": 48730735,
+  "name": "Dematagoda Road",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.875631, 6.931114], [79.876281, 6.930943], [79.876374, 6.93092], [79.87721, 6.930645], [79.877556, 6.930528], [79.877934, 6.930407], [79.877991, 6.930389]]
+}

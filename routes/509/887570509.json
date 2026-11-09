@@ -1,0 +1,9 @@
+{
+  "id": 887570509,
+  "name": "Ramboda-Sangilipalama Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.683972, 7.060629], [80.684072, 7.06086], [80.684294, 7.061323], [80.684338, 7.061357], [80.684401, 7.061364], [80.684482, 7.061276]]
+}

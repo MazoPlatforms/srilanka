@@ -1,0 +1,9 @@
+{
+  "id": 358219706,
+  "name": "Katukurunda-Neboda Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.026387, 6.578507], [80.02669, 6.578572]]
+}

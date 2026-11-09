@@ -1,0 +1,9 @@
+{
+  "id": 1483510479,
+  "name": "Halpanu Ela Left Bank Road",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.4031, 8.343788], [80.402996, 8.344331], [80.402941, 8.344618], [80.402933, 8.344645], [80.402898, 8.344811], [80.402795, 8.345342]]
+}

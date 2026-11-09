@@ -1,0 +1,9 @@
+{
+  "id": 377409200,
+  "name": "Halkanuwala Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.009722, 7.078762], [80.00976, 7.078712], [80.010344, 7.078276]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 220695683,
+  "name": "Kachi Mohamed Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.727158, 7.689397], [81.726986, 7.689678], [81.726656, 7.690214], [81.725778, 7.691594]]
+}

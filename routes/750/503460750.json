@@ -1,0 +1,9 @@
+{
+  "id": 503460750,
+  "name": "Bauddhaloka Mawatha (King George Avenue)",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.999227, 7.091253], [79.999398, 7.091213]]
+}

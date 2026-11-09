@@ -1,0 +1,9 @@
+{
+  "id": 99227856,
+  "name": "St. Sebastian Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.841489, 7.2176], [79.841758, 7.217463], [79.841968, 7.217317], [79.842038, 7.217169], [79.84233, 7.216164]]
+}

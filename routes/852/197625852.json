@@ -1,0 +1,9 @@
+{
+  "id": 197625852,
+  "name": "Polgolla Dam Road",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.648183, 7.323642], [80.6481, 7.323258], [80.648087, 7.323201], [80.648069, 7.323149]]
+}

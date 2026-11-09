@@ -1,0 +1,9 @@
+{
+  "id": 419825090,
+  "name": "Hanwella - Malwana Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.016261, 6.946576], [80.016138, 6.946917], [80.016034, 6.947211], [80.015926, 6.947432]]
+}

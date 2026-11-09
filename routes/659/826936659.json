@@ -1,0 +1,9 @@
+{
+  "id": 826936659,
+  "name": "Koskabalawila Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.397847, 6.284442], [80.398051, 6.284344], [80.398196, 6.284277], [80.398287, 6.284175], [80.398494, 6.283856], [80.398781, 6.28356], [80.398818, 6.283472], [80.399097, 6.283069]]
+}

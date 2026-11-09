@@ -1,0 +1,9 @@
+{
+  "id": 497665789,
+  "name": "Ratunapura-Wellawaya Road",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "foot": 5},
+  "coordinates": [[80.701263, 6.647736], [80.701316, 6.647626], [80.701338, 6.647556]]
+}

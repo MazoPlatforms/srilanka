@@ -1,0 +1,9 @@
+{
+  "id": 10548319,
+  "name": "Keyzer Street",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.849609, 6.936158], [79.85004, 6.936362], [79.850648, 6.936618], [79.850834, 6.936697], [79.851936, 6.937198]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 452974216,
+  "name": "Weerasekara Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.942197, 7.004544], [79.942053, 7.004441], [79.941992, 7.004414], [79.941785, 7.004414], [79.941643, 7.004387], [79.941562, 7.004309]]
+}

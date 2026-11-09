@@ -1,0 +1,9 @@
+{
+  "id": 483400089,
+  "name": "Poosariyar Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.599873, 7.782807], [81.59994, 7.782256], [81.599938, 7.782053]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 293949148,
+  "name": "Nomis Weragala Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.951398, 6.879067], [79.951454, 6.879478], [79.95151, 6.880097], [79.951565, 6.880428], [79.95163, 6.880697], [79.951765, 6.880934]]
+}

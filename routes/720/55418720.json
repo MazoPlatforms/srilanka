@@ -1,0 +1,9 @@
+{
+  "id": 55418720,
+  "name": "Kopiwatta road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.879111, 6.933808], [79.879093, 6.933759], [79.87908, 6.933747], [79.878712, 6.93367], [79.87826, 6.933669], [79.878213, 6.933671]]
+}

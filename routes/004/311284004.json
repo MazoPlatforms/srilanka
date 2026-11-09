@@ -1,0 +1,9 @@
+{
+  "id": 311284004,
+  "name": "Pussalla Division Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.30991, 6.822814], [80.309815, 6.822703], [80.309741, 6.822622], [80.309683, 6.822674], [80.309407, 6.82281], [80.309023, 6.822416], [80.308594, 6.822043]]
+}

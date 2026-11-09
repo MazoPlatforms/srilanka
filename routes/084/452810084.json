@@ -1,0 +1,9 @@
+{
+  "id": 452810084,
+  "name": "Penrith Estate Housing Scheme Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.199699, 6.955755], [80.199856, 6.955809], [80.200003, 6.955815], [80.20045, 6.955727], [80.200899, 6.955553], [80.201097, 6.955447], [80.201568, 6.955226], [80.201979, 6.955185]]
+}

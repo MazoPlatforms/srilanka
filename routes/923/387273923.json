@@ -1,0 +1,9 @@
+{
+  "id": 387273923,
+  "name": "Dambuwatta - 1 Patumanga",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.994367, 7.052198], [79.994616, 7.052229], [79.99548, 7.052317]]
+}

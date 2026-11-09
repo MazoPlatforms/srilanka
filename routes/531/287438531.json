@@ -1,0 +1,9 @@
+{
+  "id": 287438531,
+  "name": "Bazar 14th Street",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.80166, 7.371868], [81.801649, 7.371917], [81.801686, 7.372131], [81.801719, 7.372341], [81.801756, 7.372655]]
+}

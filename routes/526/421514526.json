@@ -1,0 +1,9 @@
+{
+  "id": 421514526,
+  "name": "Kanthan Veethi",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.594977, 7.793445], [81.596168, 7.792592], [81.596724, 7.792267], [81.59725, 7.792025], [81.597577, 7.791761], [81.597913, 7.791548]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 307254017,
+  "name": "L. S. Perera Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.933773, 6.916109], [79.933729, 6.916436], [79.933583, 6.917528]]
+}

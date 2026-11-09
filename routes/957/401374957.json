@@ -1,0 +1,9 @@
+{
+  "id": 401374957,
+  "name": "Kereaba Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.982521, 6.816414], [79.983005, 6.81649], [79.983826, 6.816543], [79.984088, 6.81658], [79.984367, 6.816713], [79.984797, 6.816868], [79.98529, 6.81699]]
+}

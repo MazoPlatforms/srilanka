@@ -1,0 +1,9 @@
+{
+  "id": 1499401892,
+  "name": "Sooriyawewa-Migahajandura Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.034287, 6.359527], [81.034255, 6.359399], [81.034228, 6.359307], [81.034058, 6.357197], [81.034002, 6.3569], [81.033893, 6.356612]]
+}

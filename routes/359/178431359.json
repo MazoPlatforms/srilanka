@@ -1,0 +1,9 @@
+{
+  "id": 178431359,
+  "name": "St.Jude's Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.831838, 7.372268], [79.832496, 7.372298], [79.833261, 7.372344], [79.834331, 7.372612], [79.83482, 7.372708], [79.835813, 7.372837]]
+}

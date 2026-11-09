@@ -1,0 +1,9 @@
+{
+  "id": 387074223,
+  "name": "Alamkulam 1st Cross Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.498034, 7.946434], [81.497556, 7.946394], [81.497068, 7.946383], [81.496124, 7.946232]]
+}

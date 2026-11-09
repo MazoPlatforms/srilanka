@@ -1,0 +1,9 @@
+{
+  "id": 482787314,
+  "name": "3rd Street, Godaparagahawatta, Honnantara North, Piliyandala",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.947736, 6.802525], [79.946989, 6.802091], [79.946359, 6.801707]]
+}

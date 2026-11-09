@@ -1,0 +1,9 @@
+{
+  "id": 310190011,
+  "name": "Weera Puran Appu Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.842715, 6.324137], [80.84311, 6.324413], [80.843412, 6.324615], [80.843707, 6.32478], [80.844213, 6.324915]]
+}

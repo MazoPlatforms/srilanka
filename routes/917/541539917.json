@@ -1,0 +1,9 @@
+{
+  "id": 541539917,
+  "name": "Linganagar",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.213811, 8.579837], [81.213669, 8.579915], [81.213518, 8.580004], [81.213372, 8.580127], [81.213273, 8.580219]]
+}

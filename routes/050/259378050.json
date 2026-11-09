@@ -1,0 +1,9 @@
+{
+  "id": 259378050,
+  "name": "Hasalaka-Hettipola Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.948365, 7.354225], [80.948812, 7.35393], [80.949007, 7.353801]]
+}

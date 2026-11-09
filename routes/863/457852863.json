@@ -1,0 +1,9 @@
+{
+  "id": 457852863,
+  "name": "Thumpankrny 4th cross road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.710438, 7.538779], [81.710441, 7.538648], [81.710508, 7.537596], [81.710528, 7.537185], [81.710515, 7.537137]]
+}

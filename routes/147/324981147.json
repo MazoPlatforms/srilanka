@@ -1,0 +1,9 @@
+{
+  "id": 324981147,
+  "name": "Faizal Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.840419, 7.387023], [81.841144, 7.387128], [81.841648, 7.3872], [81.841614, 7.387459], [81.841548, 7.388034], [81.841495, 7.388488]]
+}

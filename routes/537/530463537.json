@@ -1,0 +1,9 @@
+{
+  "id": 530463537,
+  "name": "Dikpitiya Road",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[80.995336, 7.545374], [80.995204, 7.544557], [80.995033, 7.543549], [80.994875, 7.543585]]
+}

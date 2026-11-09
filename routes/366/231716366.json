@@ -1,0 +1,9 @@
+{
+  "id": 231716366,
+  "name": "Susilarama Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.958593, 6.897858], [79.95901, 6.897992]]
+}

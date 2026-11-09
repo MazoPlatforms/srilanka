@@ -1,0 +1,9 @@
+{
+  "id": 378230406,
+  "name": "Kali Kovil Street",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.765451, 7.526548], [81.765236, 7.5265], [81.76483, 7.526339], [81.764641, 7.526333], [81.764409, 7.526423], [81.763526, 7.526426], [81.76241, 7.526398]]
+}

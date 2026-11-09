@@ -1,0 +1,9 @@
+{
+  "id": 464131323,
+  "name": "Methsiri Uyana",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.899625, 7.193455], [79.899683, 7.193454], [79.900101, 7.193445], [79.90053, 7.193445], [79.900902, 7.193436]]
+}

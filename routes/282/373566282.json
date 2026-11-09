@@ -1,0 +1,9 @@
+{
+  "id": 373566282,
+  "name": "Watakedeniya Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.517225, 7.103195], [80.517348, 7.103195]]
+}

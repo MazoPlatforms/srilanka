@@ -1,0 +1,9 @@
+{
+  "id": 395475789,
+  "name": "Sirimavo Bandaranaike Mawatha (Peradeniya Road)",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
+  "coordinates": [[80.605372, 7.271313], [80.605383, 7.27141], [80.605407, 7.271508]]
+}

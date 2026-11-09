@@ -1,0 +1,9 @@
+{
+  "id": 915417799,
+  "name": "Kadurupolayagama Tank Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.157949, 7.807624], [80.157906, 7.807474], [80.157835, 7.807383], [80.157642, 7.807295], [80.157405, 7.807221], [80.157216, 7.807128], [80.156316, 7.806458]]
+}

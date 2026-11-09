@@ -1,0 +1,9 @@
+{
+  "id": 1493091772,
+  "name": "Gingathena Road",
+  "highway": "trunk",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 70.0, "motorcycle": 70.0, "truck": 70.0, "foot": 5},
+  "coordinates": [[80.407729, 6.997485], [80.407805, 6.997514]]
+}

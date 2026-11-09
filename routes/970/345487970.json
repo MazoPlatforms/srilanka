@@ -1,0 +1,9 @@
+{
+  "id": 345487970,
+  "name": "Shri Rangajothi Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.892793, 6.899763], [79.893219, 6.899936], [79.893499, 6.90003], [79.893654, 6.900039], [79.893968, 6.900002]]
+}

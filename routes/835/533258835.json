@@ -1,0 +1,9 @@
+{
+  "id": 533258835,
+  "name": "samupakara Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.917061, 7.102436], [79.916775, 7.10288], [79.916504, 7.103292], [79.916374, 7.103515], [79.916269, 7.103694]]
+}

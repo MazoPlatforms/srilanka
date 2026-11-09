@@ -1,0 +1,9 @@
+{
+  "id": 449485110,
+  "name": "Asgangula Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.264357, 6.851673], [80.264309, 6.851628], [80.263861, 6.851218]]
+}

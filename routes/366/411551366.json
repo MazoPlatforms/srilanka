@@ -1,0 +1,9 @@
+{
+  "id": 411551366,
+  "name": "Ashwa Gaala Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.914779, 7.11706], [79.914836, 7.117106], [79.91528, 7.11724], [79.915462, 7.117299], [79.915499, 7.117369], [79.915534, 7.117614], [79.915571, 7.117694]]
+}

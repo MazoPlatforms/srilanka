@@ -1,0 +1,9 @@
+{
+  "id": 24745844,
+  "name": "Don Carolis Road",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "bicycle": 15, "foot": 5},
+  "coordinates": [[79.864758, 6.895182], [79.864833, 6.894701]]
+}

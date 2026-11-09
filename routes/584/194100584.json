@@ -1,0 +1,9 @@
+{
+  "id": 194100584,
+  "name": "Sir James Peiris Mawatha",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
+  "coordinates": [[79.852455, 6.922958], [79.852496, 6.922808]]
+}

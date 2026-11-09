@@ -1,0 +1,9 @@
+{
+  "id": 609644083,
+  "name": "Kallegedara Tank Rd",
+  "highway": "track",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 15, "foot": 4},
+  "coordinates": [[80.128549, 7.808291], [80.128647, 7.808275], [80.129688, 7.808689], [80.129681, 7.808914]]
+}

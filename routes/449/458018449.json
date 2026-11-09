@@ -1,0 +1,9 @@
+{
+  "id": 458018449,
+  "name": "Manalpiddy Bridge",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.70441, 7.594867], [81.704619, 7.594739]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 568616286,
+  "name": "Olukaranda Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.627816, 8.090879], [80.628286, 8.090837], [80.628661, 8.090769]]
+}

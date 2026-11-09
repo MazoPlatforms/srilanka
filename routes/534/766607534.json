@@ -1,0 +1,9 @@
+{
+  "id": 766607534,
+  "name": "poot path",
+  "highway": "path",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 12, "foot": 4},
+  "coordinates": [[79.947039, 7.428876], [79.947351, 7.428228]]
+}

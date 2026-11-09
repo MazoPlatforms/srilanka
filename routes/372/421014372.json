@@ -1,0 +1,9 @@
+{
+  "id": 421014372,
+  "name": "Buddha Jayanthi Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.924986, 7.151335], [79.92458, 7.150909], [79.924351, 7.150726], [79.924187, 7.150623], [79.924099, 7.150568], [79.923461, 7.150019]]
+}

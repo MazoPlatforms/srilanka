@@ -1,0 +1,9 @@
+{
+  "id": 160314535,
+  "name": "No Name Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.999589, 6.836345], [79.999338, 6.83651], [79.999089, 6.836691], [79.999111, 6.83677], [79.999205, 6.836925]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 424037700,
+  "name": "Araliya Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.904616, 7.127017], [79.904844, 7.126579], [79.904572, 7.126388], [79.904547, 7.126163]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 178557691,
+  "name": "Aruchunan Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.849312, 7.206537], [81.848465, 7.206581], [81.847746, 7.206613], [81.846795, 7.206601]]
+}

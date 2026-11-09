@@ -1,0 +1,9 @@
+{
+  "id": 1432236049,
+  "name": "Athurugiriya-Kottawa Road",
+  "highway": "secondary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.964826, 6.842141], [79.964795, 6.842095], [79.964722, 6.842049]]
+}

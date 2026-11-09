@@ -1,0 +1,9 @@
+{
+  "id": 603334144,
+  "name": "Dematapitiya Sirigampola Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.840039, 7.359338], [79.839359, 7.359187], [79.839022, 7.359084], [79.838494, 7.358936], [79.83814, 7.35882], [79.837694, 7.35869], [79.835211, 7.35793]]
+}

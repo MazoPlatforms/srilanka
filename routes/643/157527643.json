@@ -1,0 +1,9 @@
+{
+  "id": 157527643,
+  "name": "Menerigama Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.137485, 6.790133], [80.137305, 6.7903], [80.13703, 6.790577], [80.136893, 6.790822]]
+}

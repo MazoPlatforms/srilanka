@@ -1,0 +1,9 @@
+{
+  "id": 267019667,
+  "name": "Kumara Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.011858, 6.862111], [80.012315, 6.862296], [80.011909, 6.863353], [80.011284, 6.865166]]
+}

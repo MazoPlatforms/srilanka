@@ -1,0 +1,9 @@
+{
+  "id": 386013560,
+  "name": "Farm Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.409133, 8.205303], [81.408673, 8.205285], [81.408246, 8.205251], [81.407444, 8.205134], [81.407396, 8.205224], [81.407328, 8.205574]]
+}

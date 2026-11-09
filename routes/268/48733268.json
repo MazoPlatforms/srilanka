@@ -1,0 +1,9 @@
+{
+  "id": 48733268,
+  "name": "Laxapana Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.918456, 6.897035], [79.918462, 6.89655], [79.918462, 6.896539], [79.918468, 6.8963], [79.918489, 6.895513], [79.918499, 6.895126], [79.918513, 6.89458]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 52563069,
+  "name": "Esther Place",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.872578, 6.886472], [79.872183, 6.887104]]
+}

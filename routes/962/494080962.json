@@ -1,0 +1,9 @@
+{
+  "id": 494080962,
+  "name": "Kannathasan Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.750787, 7.581891], [81.750774, 7.581752], [81.75071, 7.581565], [81.750651, 7.581346], [81.750628, 7.580912], [81.750621, 7.580827]]
+}

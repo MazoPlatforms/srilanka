@@ -1,0 +1,9 @@
+{
+  "id": 487435376,
+  "name": "Katubedda-Kospelena Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.889104, 6.797485], [79.888842, 6.797445], [79.888702, 6.797434], [79.888633, 6.797428], [79.888573, 6.797428]]
+}

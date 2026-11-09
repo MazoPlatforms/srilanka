@@ -1,0 +1,9 @@
+{
+  "id": 595286375,
+  "name": "Bhodirajarama Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.891514, 6.845928], [79.891462, 6.845905]]
+}

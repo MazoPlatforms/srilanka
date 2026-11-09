@@ -1,0 +1,9 @@
+{
+  "id": 376925026,
+  "name": "Lower Bagatalle Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.851603, 6.900862], [79.852678, 6.901224]]
+}

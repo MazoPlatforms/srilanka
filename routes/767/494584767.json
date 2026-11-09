@@ -1,0 +1,9 @@
+{
+  "id": 494584767,
+  "name": "Naavatkaadu Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.714564, 7.608691], [81.714544, 7.609333], [81.714537, 7.609568], [81.714539, 7.610187]]
+}

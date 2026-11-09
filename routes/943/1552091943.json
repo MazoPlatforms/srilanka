@@ -1,0 +1,9 @@
+{
+  "id": 1552091943,
+  "name": "York Street",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
+  "coordinates": [[79.844747, 6.93332], [79.844721, 6.933372], [79.844695, 6.933538], [79.844698, 6.933758], [79.844728, 6.934012]]
+}

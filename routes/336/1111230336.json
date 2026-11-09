@@ -1,0 +1,9 @@
+{
+  "id": 1111230336,
+  "name": "Nugedeniya Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.938631, 6.897779], [79.938667, 6.897611], [79.938672, 6.897432], [79.938643, 6.897226], [79.938618, 6.897054], [79.938516, 6.896783]]
+}

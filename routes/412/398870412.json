@@ -1,0 +1,9 @@
+{
+  "id": 398870412,
+  "name": "Ranawana Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.593627, 7.341542], [80.593595, 7.341428]]
+}

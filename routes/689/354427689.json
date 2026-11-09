@@ -1,0 +1,9 @@
+{
+  "id": 354427689,
+  "name": "18th Lane",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.422363, 9.326221], [80.423226, 9.326265]]
+}

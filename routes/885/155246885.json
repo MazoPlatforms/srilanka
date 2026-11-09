@@ -1,0 +1,9 @@
+{
+  "id": 155246885,
+  "name": "Suppiah Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.699758, 7.715384], [81.70027, 7.715089], [81.700866, 7.714744], [81.700996, 7.714628], [81.701089, 7.714517]]
+}

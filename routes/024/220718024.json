@@ -1,0 +1,9 @@
+{
+  "id": 220718024,
+  "name": "Husainiya Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.72013, 7.685446], [81.719791, 7.685314], [81.71982, 7.685242]]
+}

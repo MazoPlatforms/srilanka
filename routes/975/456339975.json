@@ -1,0 +1,9 @@
+{
+  "id": 456339975,
+  "name": "Nagamunai Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.755065, 7.580965], [81.755142, 7.580763], [81.755244, 7.580339], [81.755583, 7.579219], [81.755783, 7.578614], [81.755948, 7.578253], [81.756186, 7.577795]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 825133046,
+  "name": "Kurunegala-Narammala-Madampe Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.029922, 7.46911], [80.030126, 7.469211]]
+}

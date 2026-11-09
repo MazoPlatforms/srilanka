@@ -1,0 +1,9 @@
+{
+  "id": 400918152,
+  "name": "Horahena Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.971056, 7.041266], [79.971063, 7.041217], [79.971148, 7.040791], [79.971252, 7.040348], [79.97126, 7.040257], [79.97122, 7.040099]]
+}

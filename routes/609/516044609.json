@@ -1,0 +1,9 @@
+{
+  "id": 516044609,
+  "name": "Wasalawatte Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.964211, 6.860735], [79.964621, 6.860976]]
+}

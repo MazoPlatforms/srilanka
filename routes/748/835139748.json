@@ -1,0 +1,9 @@
+{
+  "id": 835139748,
+  "name": "Walakanda road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.662554, 6.028323], [80.662521, 6.028491], [80.662442, 6.028804]]
+}

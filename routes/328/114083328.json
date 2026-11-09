@@ -1,0 +1,9 @@
+{
+  "id": 114083328,
+  "name": "Vijaya Padesa",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.997172, 7.088494], [79.99654, 7.088715], [79.996335, 7.088658], [79.996168, 7.088723], [79.996041, 7.088753], [79.996011, 7.088757]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 1529955916,
+  "name": "Doranegama Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.556187, 7.375654], [80.556254, 7.375591], [80.556348, 7.375517], [80.556371, 7.375455], [80.556359, 7.375391]]
+}

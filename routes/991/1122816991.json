@@ -1,0 +1,9 @@
+{
+  "id": 1122816991,
+  "name": "Sri Sangaraja Mawatha",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
+  "coordinates": [[79.865589, 6.934315], [79.865718, 6.934435]]
+}

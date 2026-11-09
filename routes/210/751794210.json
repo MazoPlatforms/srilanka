@@ -1,0 +1,9 @@
+{
+  "id": 751794210,
+  "name": "Chavakachcheri-Puloly Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.178343, 9.732491], [80.178812, 9.733466], [80.180028, 9.735759]]
+}

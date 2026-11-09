@@ -1,0 +1,9 @@
+{
+  "id": 28331424,
+  "name": "Galle Road",
+  "highway": "trunk",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 70.0, "motorcycle": 70.0, "truck": 70.0, "foot": 5},
+  "coordinates": [[79.997718, 6.425825], [79.997846, 6.426337]]
+}

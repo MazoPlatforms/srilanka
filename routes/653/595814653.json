@@ -1,0 +1,9 @@
+{
+  "id": 595814653,
+  "name": "Yasapala Kaluarachchi Road",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[79.958391, 6.897787], [79.958524, 6.897834], [79.958593, 6.897858]]
+}

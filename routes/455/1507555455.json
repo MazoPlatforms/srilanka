@@ -1,0 +1,9 @@
+{
+  "id": 1507555455,
+  "name": "Watawala Railway Station Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.526516, 6.961986], [80.527014, 6.961381], [80.527061, 6.961249], [80.527042, 6.961218], [80.527023, 6.961188], [80.52701, 6.961167]]
+}

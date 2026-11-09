@@ -1,0 +1,9 @@
+{
+  "id": 401772635,
+  "name": "Pesum Kiramam Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.571969, 7.816093], [81.571843, 7.815976], [81.57158, 7.815722], [81.570998, 7.815053], [81.570878, 7.814872]]
+}

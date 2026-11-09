@@ -1,0 +1,9 @@
+{
+  "id": 849865107,
+  "name": "Kanewala road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.03808, 6.713006], [80.038144, 6.712913]]
+}

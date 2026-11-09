@@ -1,0 +1,9 @@
+{
+  "id": 510566996,
+  "name": "Somananda Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.878227, 6.847484], [79.878303, 6.847732], [79.87848, 6.848373], [79.87847, 6.848418]]
+}

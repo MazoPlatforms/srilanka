@@ -1,0 +1,9 @@
+{
+  "id": 515934135,
+  "name": "Pahalawela Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.926062, 6.889258], [79.926125, 6.889332], [79.92651, 6.889383]]
+}

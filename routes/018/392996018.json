@@ -1,0 +1,9 @@
+{
+  "id": 392996018,
+  "name": "Gampaha-Ja Ela Road",
+  "highway": "trunk",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "foot": 5},
+  "coordinates": [[79.989658, 7.092806], [79.989677, 7.092803], [79.989695, 7.092801], [79.98977, 7.092794], [79.989881, 7.092786], [79.989979, 7.09278]]
+}

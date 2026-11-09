@@ -1,0 +1,9 @@
+{
+  "id": 391086649,
+  "name": "Rodney Street",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.884687, 6.913279], [79.884671, 6.913122], [79.884653, 6.912955]]
+}

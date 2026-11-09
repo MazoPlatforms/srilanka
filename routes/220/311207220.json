@@ -1,0 +1,9 @@
+{
+  "id": 311207220,
+  "name": "",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[80.195925, 7.39943], [80.196074, 7.399048], [80.196271, 7.398544], [80.196639, 7.397544]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 487583615,
+  "name": "New Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.547198, 7.846989], [81.547602, 7.847077], [81.549559, 7.84755]]
+}

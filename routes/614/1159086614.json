@@ -1,0 +1,9 @@
+{
+  "id": 1159086614,
+  "name": "Model Farm Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.8816, 6.911002], [79.881664, 6.910856]]
+}

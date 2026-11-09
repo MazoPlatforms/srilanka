@@ -1,0 +1,9 @@
+{
+  "id": 388177653,
+  "name": "Sooriya Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.97445, 7.045821], [79.974515, 7.045809], [79.974609, 7.045816], [79.974908, 7.045912], [79.975014, 7.04599]]
+}

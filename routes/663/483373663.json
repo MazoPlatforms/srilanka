@@ -1,0 +1,9 @@
+{
+  "id": 483373663,
+  "name": "Nallaiya 4th Cross Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.563834, 7.823753], [81.563699, 7.823868], [81.563323, 7.824205]]
+}

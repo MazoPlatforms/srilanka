@@ -1,0 +1,9 @@
+{
+  "id": 1431494193,
+  "name": "Shortcut",
+  "highway": "path",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 12, "foot": 4},
+  "coordinates": [[80.670925, 6.715615], [80.670978, 6.715811], [80.671078, 6.715968], [80.671168, 6.716247]]
+}

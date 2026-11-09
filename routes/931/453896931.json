@@ -1,0 +1,9 @@
+{
+  "id": 453896931,
+  "name": "Meeranakadavai Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.406071, 7.84405], [81.406016, 7.844009], [81.403869, 7.842265], [81.402939, 7.841535], [81.402263, 7.84096], [81.401414, 7.840315]]
+}

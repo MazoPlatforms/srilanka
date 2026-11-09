@@ -1,0 +1,9 @@
+{
+  "id": 1463446451,
+  "name": "Hakmana-Walasmulla Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.648328, 6.106416], [80.648436, 6.106554], [80.648517, 6.106679], [80.648589, 6.106811], [80.648655, 6.106948], [80.648715, 6.107086]]
+}

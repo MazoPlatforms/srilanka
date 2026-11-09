@@ -1,0 +1,9 @@
+{
+  "id": 392890080,
+  "name": "Tangalle-Weeraketiya Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 72.0, "motorcycle": 72.0, "truck": 70, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.79646, 6.032747], [80.79644, 6.032807], [80.796407, 6.03288], [80.79636, 6.032955]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 405421902,
+  "name": "Bandarawela Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.883198, 7.109077], [79.883045, 7.108996], [79.882476, 7.108829], [79.882274, 7.10874]]
+}

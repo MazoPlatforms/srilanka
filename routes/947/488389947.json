@@ -1,0 +1,9 @@
+{
+  "id": 488389947,
+  "name": "Eriaikalai road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.539413, 7.857062], [81.539462, 7.856904], [81.539622, 7.856384]]
+}

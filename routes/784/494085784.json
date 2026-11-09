@@ -1,0 +1,9 @@
+{
+  "id": 494085784,
+  "name": "Housing Scheem Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.706703, 7.622955], [81.706789, 7.622538]]
+}

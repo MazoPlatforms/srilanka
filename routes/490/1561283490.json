@@ -1,0 +1,9 @@
+{
+  "id": 1561283490,
+  "name": "3rd Ln",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[79.898032, 6.883497], [79.898524, 6.883594]]
+}

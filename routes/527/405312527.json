@@ -1,0 +1,9 @@
+{
+  "id": 405312527,
+  "name": "Polonnaruwa-Batticaloa Road",
+  "highway": "trunk",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 70.0, "motorcycle": 70.0, "truck": 70.0, "foot": 5},
+  "coordinates": [[81.103116, 7.909719], [81.103267, 7.909707], [81.103538, 7.909701]]
+}

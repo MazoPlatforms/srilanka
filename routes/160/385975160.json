@@ -1,0 +1,9 @@
+{
+  "id": 385975160,
+  "name": "Church Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.964342, 7.072122], [79.964411, 7.072089], [79.965371, 7.07165]]
+}

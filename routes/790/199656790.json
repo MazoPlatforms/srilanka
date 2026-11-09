@@ -1,0 +1,9 @@
+{
+  "id": 199656790,
+  "name": "Balibathgoda Muwagama Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.362973, 6.682885], [80.362794, 6.682681], [80.362481, 6.68242]]
+}

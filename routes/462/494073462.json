@@ -1,0 +1,9 @@
+{
+  "id": 494073462,
+  "name": "Kovil Internal Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.75636, 7.582456], [81.756521, 7.582431], [81.756745, 7.58241]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 49331643,
+  "name": "School Avenue",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.891898, 6.897104], [79.892009, 6.897], [79.892155, 6.896864], [79.892277, 6.896765]]
+}

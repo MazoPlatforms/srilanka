@@ -1,0 +1,9 @@
+{
+  "id": 1357180620,
+  "name": "West Emerald Walk",
+  "highway": "footway",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 8, "foot": 5},
+  "coordinates": [[79.83479, 6.935679], [79.837294, 6.936668], [79.837442, 6.93672], [79.839149, 6.937346]]
+}

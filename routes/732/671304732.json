@@ -1,0 +1,9 @@
+{
+  "id": 671304732,
+  "name": "Mankulam-Mullaitivu Road",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
+  "coordinates": [[80.650089, 9.154127], [80.649976, 9.154049], [80.649899, 9.154], [80.649791, 9.153947]]
+}

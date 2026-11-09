@@ -1,0 +1,9 @@
+{
+  "id": 546042114,
+  "name": "5th Lane, Desingha Mawatha",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[79.933021, 6.893367], [79.933034, 6.893434], [79.933262, 6.893462], [79.933526, 6.893456]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 669491834,
+  "name": "Dedugala-Dolosbage Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.461624, 7.080218], [80.461699, 7.080327]]
+}

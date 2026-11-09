@@ -1,0 +1,9 @@
+{
+  "id": 360972931,
+  "name": "Wariyapola Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.795726, 7.576725], [79.795894, 7.57668], [79.796017, 7.576639]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 456538958,
+  "name": "Madpanda cross road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.765488, 7.524529], [81.765451, 7.524202], [81.765416, 7.523914], [81.765392, 7.52337], [81.765341, 7.522627], [81.765315, 7.522312], [81.764914, 7.522258]]
+}

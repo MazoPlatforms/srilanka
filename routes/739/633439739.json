@@ -1,0 +1,9 @@
+{
+  "id": 633439739,
+  "name": "Hotel Road",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 15, "motorcycle": 15, "bicycle": 15, "foot": 5},
+  "coordinates": [[80.323319, 7.392355], [80.323452, 7.392321], [80.323635, 7.392305], [80.323915, 7.392172], [80.324326, 7.392119], [80.32444, 7.392139]]
+}

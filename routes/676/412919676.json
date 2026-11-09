@@ -1,0 +1,9 @@
+{
+  "id": 412919676,
+  "name": "Wijayaramaya-Kosgolla Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.563, 7.153383], [80.563064, 7.153397], [80.563501, 7.153427], [80.564076, 7.153435], [80.564624, 7.153442], [80.565125, 7.153412]]
+}

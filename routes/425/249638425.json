@@ -1,0 +1,9 @@
+{
+  "id": 249638425,
+  "name": "Narampanawa-Putuhapuwa Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.733571, 7.344752], [80.734097, 7.344599], [80.734303, 7.344528], [80.734831, 7.344371]]
+}

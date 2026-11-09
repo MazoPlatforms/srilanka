@@ -1,0 +1,9 @@
+{
+  "id": 750644790,
+  "name": "Kayanmadu Main Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40, "motorcycle": 40, "truck": 40, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.660154, 7.672746], [81.661472, 7.673514], [81.662818, 7.674371]]
+}

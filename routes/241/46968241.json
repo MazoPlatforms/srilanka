@@ -1,0 +1,9 @@
+{
+  "id": 46968241,
+  "name": "Dawatagahawatta Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.887646, 6.816122], [79.887857, 6.815726], [79.88827, 6.814957], [79.888286, 6.814925], [79.88863, 6.81425], [79.889204, 6.813252]]
+}

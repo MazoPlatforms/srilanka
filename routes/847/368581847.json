@@ -1,0 +1,9 @@
+{
+  "id": 368581847,
+  "name": "Warakapola Bypass Road",
+  "highway": "tertiary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40, "motorcycle": 40, "truck": 40, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.194672, 7.223662], [80.194474, 7.223738], [80.194201, 7.223867]]
+}

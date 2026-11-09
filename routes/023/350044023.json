@@ -1,0 +1,9 @@
+{
+  "id": 350044023,
+  "name": "Niyandagala Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.985776, 6.822317], [79.985849, 6.822316], [79.986264, 6.822338]]
+}

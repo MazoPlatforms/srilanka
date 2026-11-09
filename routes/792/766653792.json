@@ -1,0 +1,9 @@
+{
+  "id": 766653792,
+  "name": "Talawatugoda-Hokandara Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.947841, 6.880282], [79.947775, 6.880253], [79.94767, 6.880237], [79.947553, 6.880229], [79.947481, 6.880251]]
+}

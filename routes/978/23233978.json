@@ -1,0 +1,9 @@
+{
+  "id": 23233978,
+  "name": "St.Servatius Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.551349, 5.945867], [80.551485, 5.944932], [80.551571, 5.943947], [80.551576, 5.943888], [80.551653, 5.942983], [80.551657, 5.942936]]
+}

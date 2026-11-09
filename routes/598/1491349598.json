@@ -1,0 +1,9 @@
+{
+  "id": 1491349598,
+  "name": "Poruthota Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.842864, 7.261567], [79.843634, 7.26178], [79.844086, 7.261951], [79.84431, 7.262013]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 458014047,
+  "name": "Nagamunai 6th Cross",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.755663, 7.573244], [81.755932, 7.573245], [81.756912, 7.573121]]
+}

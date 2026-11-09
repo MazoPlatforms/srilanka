@@ -1,0 +1,9 @@
+{
+  "id": 23233935,
+  "name": "Sri Karathota nahimi Mawath",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.546766, 5.948082], [80.546659, 5.948493], [80.546683, 5.948847], [80.546687, 5.948877]]
+}

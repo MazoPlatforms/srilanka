@@ -1,0 +1,9 @@
+{
+  "id": 327349172,
+  "name": "Nawala Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.895627, 6.907745], [79.89564, 6.907929], [79.895641, 6.908031], [79.895585, 6.908173], [79.895359, 6.90848], [79.895302, 6.908558]]
+}

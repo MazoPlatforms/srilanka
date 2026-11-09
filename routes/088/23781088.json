@@ -1,0 +1,9 @@
+{
+  "id": 23781088,
+  "name": "Jayasuriya waththa",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.063769, 6.712742], [80.063975, 6.712893], [80.064793, 6.713472], [80.065457, 6.713919], [80.065685, 6.714066], [80.066136, 6.714343]]
+}

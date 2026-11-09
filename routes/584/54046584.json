@@ -1,0 +1,9 @@
+{
+  "id": 54046584,
+  "name": "Jinananda Mawatha",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "bicycle": 10, "foot": 5},
+  "coordinates": [[79.862212, 6.951267], [79.862219, 6.950753], [79.862218, 6.950573], [79.862527, 6.950557], [79.862923, 6.950543]]
+}

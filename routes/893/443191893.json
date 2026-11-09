@@ -1,0 +1,9 @@
+{
+  "id": 443191893,
+  "name": "Ihala Meegolla Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.948645, 7.444512], [80.948537, 7.444679], [80.94806, 7.446211], [80.947126, 7.44687], [80.946129, 7.447445], [80.945608, 7.447812]]
+}

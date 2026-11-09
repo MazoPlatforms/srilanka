@@ -1,0 +1,9 @@
+{
+  "id": 1010408562,
+  "name": "Independence Golden Jubilee Road (New Town Road)",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.03047, 7.928264], [81.030335, 7.928288], [81.030251, 7.928306]]
+}

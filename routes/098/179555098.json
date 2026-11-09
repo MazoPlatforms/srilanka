@@ -1,0 +1,9 @@
+{
+  "id": 179555098,
+  "name": "3rd Cross Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.721183, 7.696961], [81.720903, 7.697529], [81.720895, 7.697542], [81.720457, 7.698193], [81.720155, 7.698641]]
+}

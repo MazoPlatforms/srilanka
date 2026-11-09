@@ -1,0 +1,9 @@
+{
+  "id": 347544919,
+  "name": "St. Sebastian Hill",
+  "highway": "secondary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.860287, 6.932502], [79.860207, 6.932605], [79.860167, 6.932699]]
+}

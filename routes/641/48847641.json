@@ -1,0 +1,9 @@
+{
+  "id": 48847641,
+  "name": "Foster Lane",
+  "highway": "residential",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.862716, 6.918116], [79.863163, 6.918217]]
+}

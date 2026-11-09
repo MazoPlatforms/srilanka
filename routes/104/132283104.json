@@ -1,0 +1,9 @@
+{
+  "id": 132283104,
+  "name": "Paranthan-Mullaitivu Road",
+  "highway": "trunk",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
+  "coordinates": [[80.601423, 9.356434], [80.60121, 9.356493]]
+}

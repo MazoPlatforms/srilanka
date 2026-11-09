@@ -1,0 +1,9 @@
+{
+  "id": 552373477,
+  "name": "Kandana Road",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.961383, 7.069306], [79.961316, 7.069307], [79.961041, 7.069407], [79.960385, 7.069892], [79.960329, 7.069933]]
+}

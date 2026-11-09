@@ -1,0 +1,9 @@
+{
+  "id": 259451368,
+  "name": "Church Street",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 35, "motorcycle": 35, "bicycle": 15, "foot": 5},
+  "coordinates": [[79.84504, 6.937673], [79.845135, 6.937646], [79.845192, 6.937552]]
+}

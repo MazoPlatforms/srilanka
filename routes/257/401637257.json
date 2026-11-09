@@ -1,0 +1,9 @@
+{
+  "id": 401637257,
+  "name": "Rambakulam Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.654812, 9.061593], [80.655535, 9.062194], [80.656773, 9.06294], [80.659215, 9.064327]]
+}

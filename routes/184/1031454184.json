@@ -1,0 +1,9 @@
+{
+  "id": 1031454184,
+  "name": "Ambalangoda-Elpitiya-Pitigala Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.223191, 6.340408], [80.223163, 6.34022], [80.223082, 6.339662]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 467592567,
+  "name": "Barnes Place",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.865526, 6.913474], [79.86488, 6.913524], [79.864829, 6.913528]]
+}

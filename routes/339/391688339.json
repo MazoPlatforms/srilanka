@@ -1,0 +1,9 @@
+{
+  "id": 391688339,
+  "name": "Olumadu paddy field Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.668624, 9.041184], [80.668694, 9.041177], [80.668731, 9.041162], [80.66875, 9.041116], [80.668754, 9.041], [80.668715, 9.040287], [80.668632, 9.039043], [80.668645, 9.038838]]
+}

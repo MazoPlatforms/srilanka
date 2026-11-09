@@ -1,0 +1,9 @@
+{
+  "id": 457825790,
+  "name": "Piradesiya Saba 1st Cross",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.713795, 7.60759], [81.713627, 7.607599], [81.713026, 7.60757], [81.712712, 7.607544], [81.712082, 7.607563]]
+}

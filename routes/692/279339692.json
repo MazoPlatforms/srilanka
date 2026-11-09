@@ -1,0 +1,9 @@
+{
+  "id": 279339692,
+  "name": "Maithripala Senanayake Mawatha (Main Street)",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.409519, 8.332066], [80.409098, 8.331261], [80.40856, 8.330266], [80.408212, 8.329652], [80.407782, 8.328981]]
+}

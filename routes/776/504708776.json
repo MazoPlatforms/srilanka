@@ -1,0 +1,9 @@
+{
+  "id": 504708776,
+  "name": "Barrier Junction-Girandurukotte Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.017953, 7.466682], [81.017667, 7.467385], [81.017254, 7.46835], [81.017145, 7.468475], [81.016963, 7.468591], [81.016483, 7.468812], [81.015774, 7.469084], [81.01535, 7.469268], [81.015218, 7.469339]]
+}

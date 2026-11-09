@@ -1,0 +1,9 @@
+{
+  "id": 388615612,
+  "name": "Villu Road 1st Cross",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.567187, 7.823915], [81.56734, 7.823754], [81.567786, 7.823349], [81.56845, 7.822499]]
+}

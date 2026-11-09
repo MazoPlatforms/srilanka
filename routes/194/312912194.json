@@ -1,0 +1,9 @@
+{
+  "id": 312912194,
+  "name": "Sri Sudharmarama MV",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.869796, 6.934823], [79.869871, 6.934724], [79.870059, 6.934498], [79.870225, 6.93432], [79.870311, 6.934217], [79.870585, 6.933883]]
+}

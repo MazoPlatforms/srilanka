@@ -1,0 +1,9 @@
+{
+  "id": 271080970,
+  "name": "Suprme City",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.974047, 6.901111], [79.974192, 6.901184], [79.97462, 6.901407], [79.974924, 6.901561], [79.975119, 6.90167], [79.975327, 6.901764]]
+}

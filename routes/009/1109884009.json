@@ -1,0 +1,9 @@
+{
+  "id": 1109884009,
+  "name": "Dr. Colvin R. de Silva Mawatha (Union Place)",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20},
+  "coordinates": [[79.863888, 6.917516], [79.863918, 6.917441], [79.863935, 6.91737]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 694735316,
+  "name": "Park Street",
+  "highway": "tertiary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.859229, 6.916578], [79.859032, 6.916828], [79.858986, 6.916884], [79.858329, 6.91768], [79.858058, 6.918015]]
+}

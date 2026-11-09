@@ -1,0 +1,9 @@
+{
+  "id": 1524572977,
+  "name": "Kaluvanchikudy-Vellaveli Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.781102, 7.515945], [81.781222, 7.515746], [81.781932, 7.514904], [81.782061, 7.514752], [81.782177, 7.514619], [81.782217, 7.51458], [81.782321, 7.514489]]
+}

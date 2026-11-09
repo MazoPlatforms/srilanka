@@ -1,0 +1,9 @@
+{
+  "id": 229647783,
+  "name": "Buwelikada Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.649526, 7.294153], [80.649874, 7.294284], [80.650014, 7.294344]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 487583612,
+  "name": "Kannaki Amman Kovil Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.548612, 7.83651], [81.548644, 7.836513], [81.549491, 7.836902], [81.550049, 7.837044]]
+}

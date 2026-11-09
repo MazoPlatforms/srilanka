@@ -1,0 +1,9 @@
+{
+  "id": 456917432,
+  "name": "Palavadi Rd",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.762254, 7.484708], [81.762181, 7.484955], [81.762106, 7.485223]]
+}

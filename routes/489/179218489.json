@@ -1,0 +1,9 @@
+{
+  "id": 179218489,
+  "name": "Thillainathan Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.56117, 7.82692], [81.560796, 7.826916], [81.560371, 7.826931], [81.559614, 7.82698]]
+}

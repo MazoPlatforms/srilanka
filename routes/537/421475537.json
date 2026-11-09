@@ -1,0 +1,9 @@
+{
+  "id": 421475537,
+  "name": "Amman puram",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 15, "motorcycle": 15, "bicycle": 15, "foot": 5},
+  "coordinates": [[81.591676, 7.780824], [81.591608, 7.780651], [81.591504, 7.780432], [81.591288, 7.78], [81.591138, 7.779725], [81.590741, 7.778763]]
+}

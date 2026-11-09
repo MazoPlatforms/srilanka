@@ -1,0 +1,9 @@
+{
+  "id": 1497388112,
+  "name": "Walasmulla-Katuwana-Middeniya Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.691295, 6.264603], [80.691417, 6.264703], [80.691578, 6.264828], [80.691726, 6.264974], [80.692233, 6.265423], [80.692707, 6.265778], [80.69304, 6.266004], [80.693663, 6.266268]]
+}

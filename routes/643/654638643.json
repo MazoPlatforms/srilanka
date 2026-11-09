@@ -1,0 +1,9 @@
+{
+  "id": 654638643,
+  "name": "Halaba Wewa Rd",
+  "highway": "track",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 15, "foot": 4},
+  "coordinates": [[80.141035, 7.676406], [80.140941, 7.676186], [80.140817, 7.675819], [80.141239, 7.673472], [80.141328, 7.672811]]
+}

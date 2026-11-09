@@ -1,0 +1,9 @@
+{
+  "id": 807835574,
+  "name": "Jaffna-Point Pedro Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.050323, 9.688202], [80.050861, 9.688558], [80.050994, 9.688686], [80.051066, 9.688799], [80.05116, 9.688936], [80.051296, 9.689266]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 1537759533,
+  "name": "Fort Road",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 45, "motorcycle": 45, "truck": 45, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.794046, 7.577662], [79.794146, 7.577693], [79.794222, 7.577713]]
+}

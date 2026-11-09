@@ -1,0 +1,9 @@
+{
+  "id": 633183449,
+  "name": "Stayt Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.403199, 7.510244], [80.403553, 7.510693], [80.403882, 7.511035], [80.404104, 7.511206], [80.404175, 7.511319], [80.404175, 7.511518]]
+}

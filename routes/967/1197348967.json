@@ -1,0 +1,9 @@
+{
+  "id": 1197348967,
+  "name": "Resolve Garden Hotel Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.041532, 6.565432], [80.041562, 6.56546]]
+}

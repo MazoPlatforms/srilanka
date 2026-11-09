@@ -1,0 +1,9 @@
+{
+  "id": 903420070,
+  "name": "9th Lane",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.395459, 6.720041], [80.395441, 6.720063], [80.3954, 6.720213], [80.395325, 6.720344]]
+}

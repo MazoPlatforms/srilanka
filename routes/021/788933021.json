@@ -1,0 +1,9 @@
+{
+  "id": 788933021,
+  "name": "Pathulpana Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.44519, 6.663259], [80.445208, 6.663383]]
+}

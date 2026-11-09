@@ -1,0 +1,9 @@
+{
+  "id": 52496568,
+  "name": "Ramanathan Avenue",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.861613, 6.860521], [79.861715, 6.860011], [79.861763, 6.859772], [79.861803, 6.859581], [79.861881, 6.859235], [79.862031, 6.858433], [79.862112, 6.858026]]
+}

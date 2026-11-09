@@ -1,0 +1,9 @@
+{
+  "id": 112452049,
+  "name": "Gallawatta Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.892942, 7.123584], [79.892317, 7.123229], [79.892399, 7.121813], [79.892439, 7.121093], [79.892458, 7.120812]]
+}

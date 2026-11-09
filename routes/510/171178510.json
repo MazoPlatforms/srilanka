@@ -1,0 +1,9 @@
+{
+  "id": 171178510,
+  "name": "Wijemanna Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.955823, 6.603965], [79.956233, 6.604117], [79.956549, 6.604279], [79.956972, 6.604535], [79.957211, 6.604654], [79.957464, 6.604768]]
+}

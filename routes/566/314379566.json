@@ -1,0 +1,9 @@
+{
+  "id": 314379566,
+  "name": "NASAR MAWATHA",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 45, "motorcycle": 45, "truck": 45, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.384702, 7.479452], [80.384573, 7.478335], [80.384544, 7.478111], [80.384485, 7.477502], [80.384423, 7.477151]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 310202476,
+  "name": "Medhananda Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.844272, 6.328404], [80.844902, 6.328523], [80.844983, 6.328535], [80.845277, 6.328575], [80.845742, 6.32864]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 951258503,
+  "name": "Makandana Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.956676, 6.767272], [79.956509, 6.767283], [79.956014, 6.767362], [79.955295, 6.767493], [79.954452, 6.7677], [79.953948, 6.767891]]
+}

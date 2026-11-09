@@ -1,0 +1,9 @@
+{
+  "id": 371823502,
+  "name": "Pathiniyarmahilankulam 3rd lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.474082, 8.785957], [80.474167, 8.786361], [80.47445, 8.787828], [80.474505, 8.787967], [80.474895, 8.788279], [80.475544, 8.788968], [80.475998, 8.789533]]
+}

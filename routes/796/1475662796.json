@@ -1,0 +1,9 @@
+{
+  "id": 1475662796,
+  "name": "Goldern Beach Promenade",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.824322, 6.9328], [79.824326, 6.932685], [79.824332, 6.932333], [79.824358, 6.931639], [79.824362, 6.931601], [79.82437, 6.931563]]
+}

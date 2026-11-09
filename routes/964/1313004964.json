@@ -1,0 +1,9 @@
+{
+  "id": 1313004964,
+  "name": "Ven. Baddegama Wimalawansa Thero Mawatha (Dean's Road)",
+  "highway": "secondary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.864973, 6.917714], [79.864949, 6.917554], [79.864913, 6.917373]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 403306738,
+  "name": "Palaiya Kudimanai Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.477278, 9.075749], [80.47745, 9.076215], [80.477879, 9.077932], [80.47878, 9.078641], [80.479928, 9.079383], [80.480926, 9.080178], [80.482159, 9.0809]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 107530560,
+  "name": "",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.251335, 6.061756], [80.251428, 6.061872], [80.251725, 6.062126], [80.253648, 6.063918]]
+}

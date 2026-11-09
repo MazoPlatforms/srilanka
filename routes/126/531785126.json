@@ -1,0 +1,9 @@
+{
+  "id": 531785126,
+  "name": "Kegalle-Bulathkohupitiya-Karawanella Road",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "foot": 5},
+  "coordinates": [[80.261265, 7.02397], [80.26134, 7.023871], [80.261386, 7.023794], [80.261472, 7.023713]]
+}

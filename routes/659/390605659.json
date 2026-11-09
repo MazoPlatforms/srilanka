@@ -1,0 +1,9 @@
+{
+  "id": 390605659,
+  "name": "Baseline Road",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
+  "coordinates": [[79.878457, 6.949523], [79.878455, 6.950129], [79.87846, 6.950258], [79.878467, 6.950346]]
+}

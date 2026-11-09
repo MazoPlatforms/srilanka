@@ -1,0 +1,9 @@
+{
+  "id": 392544841,
+  "name": "Iraasathurai Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.409468, 8.200166], [81.410128, 8.200178], [81.4103, 8.200198], [81.410968, 8.200175], [81.41181, 8.200188]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 747085882,
+  "name": "Thoduwa Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.815798, 7.910454], [79.81612, 7.910379]]
+}

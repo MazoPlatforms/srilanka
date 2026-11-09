@@ -1,0 +1,9 @@
+{
+  "id": 359947710,
+  "name": "Srimath Anagarika Dharmapala Mawatha",
+  "highway": "secondary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.855263, 6.912853], [79.855589, 6.912905], [79.855691, 6.912922]]
+}

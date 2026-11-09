@@ -1,0 +1,9 @@
+{
+  "id": 1106647343,
+  "name": "Weeraketiya-Debokkawa Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.808109, 6.204198], [80.807765, 6.204017], [80.807142, 6.203664]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 493818856,
+  "name": "Thuraiyadi Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.702836, 7.625448], [81.70308, 7.625447], [81.70333, 7.625426], [81.703585, 7.625407], [81.703956, 7.62538], [81.704012, 7.625398]]
+}

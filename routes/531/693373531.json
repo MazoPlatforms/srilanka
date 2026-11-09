@@ -1,0 +1,9 @@
+{
+  "id": 693373531,
+  "name": "Biyagama Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 55, "motorcycle": 55, "truck": 50, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.888254, 6.955796], [79.888275, 6.955792], [79.888318, 6.955787], [79.888559, 6.955763]]
+}

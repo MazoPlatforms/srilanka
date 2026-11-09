@@ -1,0 +1,9 @@
+{
+  "id": 354296662,
+  "name": "Nagathampiran kovil road 4th lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.483687, 8.773818], [80.483998, 8.772744], [80.484222, 8.771931], [80.484481, 8.771111]]
+}

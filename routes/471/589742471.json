@@ -1,0 +1,9 @@
+{
+  "id": 589742471,
+  "name": "D1 pathway",
+  "highway": "track",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 15, "foot": 4},
+  "coordinates": [[79.887014, 7.723166], [79.88704, 7.723066], [79.887061, 7.722968], [79.886615, 7.720597], [79.887027, 7.720135]]
+}

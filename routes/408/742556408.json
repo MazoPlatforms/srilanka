@@ -1,0 +1,9 @@
+{
+  "id": 742556408,
+  "name": "Veera Gula Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.044971, 7.094302], [80.045113, 7.094301]]
+}

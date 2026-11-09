@@ -1,0 +1,9 @@
+{
+  "id": 789316524,
+  "name": "Egoda Malawala Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.441669, 6.708029], [80.441645, 6.707679], [80.441518, 6.707215]]
+}

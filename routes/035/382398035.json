@@ -1,0 +1,9 @@
+{
+  "id": 382398035,
+  "name": "Budumadura Wattha Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.969122, 7.03827], [79.969156, 7.038482], [79.96919, 7.038854], [79.969219, 7.039176], [79.969289, 7.039384], [79.969272, 7.039508], [79.969269, 7.039532], [79.968965, 7.039707]]
+}

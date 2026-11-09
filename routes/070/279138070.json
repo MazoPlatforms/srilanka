@@ -1,0 +1,9 @@
+{
+  "id": 279138070,
+  "name": "Mihintale Road",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
+  "coordinates": [[80.418014, 8.355921], [80.418048, 8.355941], [80.418084, 8.355952], [80.418141, 8.355963], [80.418208, 8.355968], [80.41827, 8.355966]]
+}

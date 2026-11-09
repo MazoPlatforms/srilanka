@@ -1,0 +1,9 @@
+{
+  "id": 383574309,
+  "name": "Olumadu 4th Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.668887, 9.033877], [80.66838, 9.033374], [80.668206, 9.033247], [80.667471, 9.03286], [80.666961, 9.032663]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 353520916,
+  "name": "Wattala-Mahara Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 70.0, "motorcycle": 70.0, "truck": 70.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.924257, 6.997326], [79.924511, 6.99746]]
+}

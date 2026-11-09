@@ -1,0 +1,9 @@
+{
+  "id": 406373634,
+  "name": "2nd Lane-Roland Park",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.896826, 7.075131], [79.896858, 7.075142], [79.896917, 7.075159], [79.89707, 7.07517], [79.897547, 7.075192]]
+}

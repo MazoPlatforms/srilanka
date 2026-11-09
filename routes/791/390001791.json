@@ -1,0 +1,9 @@
+{
+  "id": 390001791,
+  "name": "Rosmead Place",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.873659, 6.914079], [79.873874, 6.91405], [79.874169, 6.914011], [79.874556, 6.91396], [79.87494, 6.913902]]
+}

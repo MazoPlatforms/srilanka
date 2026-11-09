@@ -1,0 +1,9 @@
+{
+  "id": 819075330,
+  "name": "Elpitiya Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.068362, 6.362331], [80.068468, 6.362083]]
+}

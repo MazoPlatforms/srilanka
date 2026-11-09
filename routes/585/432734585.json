@@ -1,0 +1,9 @@
+{
+  "id": 432734585,
+  "name": "Mullipotana-Soorangal Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.099364, 8.432609], [81.099248, 8.432692]]
+}

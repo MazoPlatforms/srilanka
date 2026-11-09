@@ -1,0 +1,9 @@
+{
+  "id": 161137953,
+  "name": "Sriluxmi Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.480124, 8.748595], [80.480892, 8.74819], [80.481312, 8.748093], [80.481812, 8.748009], [80.482726, 8.747856]]
+}

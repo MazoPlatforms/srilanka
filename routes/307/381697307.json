@@ -1,0 +1,9 @@
+{
+  "id": 381697307,
+  "name": "1 Ela Bunt Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.920528, 6.229847], [80.92031, 6.230116], [80.919768, 6.230729], [80.919521, 6.231044], [80.919441, 6.231078], [80.918437, 6.231067], [80.917474, 6.231155]]
+}

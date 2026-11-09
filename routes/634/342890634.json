@@ -1,0 +1,9 @@
+{
+  "id": 342890634,
+  "name": "Kesbewa - Kindelpitiya - Bandaragama Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 72.0, "motorcycle": 72.0, "truck": 70, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.940825, 6.795509], [79.940756, 6.79532], [79.940748, 6.795311], [79.940647, 6.79507], [79.940605, 6.795017]]
+}

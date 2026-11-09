@@ -1,0 +1,9 @@
+{
+  "id": 377552999,
+  "name": "Katkulam Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.003378, 9.672826], [80.00393, 9.672505], [80.004435, 9.672207], [80.004979, 9.671886], [80.005305, 9.671689]]
+}

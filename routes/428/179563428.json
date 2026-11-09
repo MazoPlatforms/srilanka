@@ -1,0 +1,9 @@
+{
+  "id": 179563428,
+  "name": "Maeliya Kandawatta 2nd Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.898295, 7.079633], [79.899154, 7.080359], [79.899203, 7.080396], [79.899252, 7.080414], [79.89932, 7.080416], [79.899387, 7.080404]]
+}

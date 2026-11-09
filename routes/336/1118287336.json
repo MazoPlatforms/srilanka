@@ -1,0 +1,9 @@
+{
+  "id": 1118287336,
+  "name": "Lieutenant Asoka Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.934274, 6.889483], [79.93414, 6.889821], [79.933967, 6.890276], [79.933868, 6.890536]]
+}

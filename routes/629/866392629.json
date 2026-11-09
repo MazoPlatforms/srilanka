@@ -1,0 +1,9 @@
+{
+  "id": 866392629,
+  "name": "St Mary's Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.85792, 7.223584], [79.857148, 7.223288], [79.857119, 7.223255]]
+}

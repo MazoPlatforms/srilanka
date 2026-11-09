@@ -1,0 +1,9 @@
+{
+  "id": 386322447,
+  "name": "Mankada road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.941871, 7.082611], [79.942114, 7.082891], [79.942258, 7.083111], [79.942355, 7.083321], [79.942496, 7.083747], [79.942703, 7.084066], [79.94276, 7.084114]]
+}

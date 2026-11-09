@@ -1,0 +1,9 @@
+{
+  "id": 1141512427,
+  "name": "Approach Road to Central Bus Station",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10.0, "motorcycle": 10.0, "truck": 10.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.854891, 6.934748], [79.854855, 6.934655]]
+}

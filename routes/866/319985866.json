@@ -1,0 +1,9 @@
+{
+  "id": 319985866,
+  "name": "Raja Mawatha (Gam Udawa Road)",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.324827, 6.418055], [81.324815, 6.418098], [81.324798, 6.418152], [81.324775, 6.418213], [81.324734, 6.418325]]
+}

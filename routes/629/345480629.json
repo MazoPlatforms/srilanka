@@ -1,0 +1,9 @@
+{
+  "id": 345480629,
+  "name": "Avissawella Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.98394, 6.936101], [79.983994, 6.93604], [79.984072, 6.935953], [79.984076, 6.935946], [79.984247, 6.935722], [79.984432, 6.935502], [79.984607, 6.935294]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 405662039,
+  "name": "Deraniyagala Bus Depot",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 15, "motorcycle": 15, "bicycle": 15, "foot": 5},
+  "coordinates": [[80.333009, 6.944529], [80.332531, 6.944006], [80.332335, 6.943701]]
+}

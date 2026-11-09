@@ -1,0 +1,9 @@
+{
+  "id": 378852520,
+  "name": "Pereira Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.862715, 6.87031], [79.862845, 6.870339], [79.864334, 6.870719], [79.865238, 6.87095], [79.865473, 6.870988], [79.865685, 6.870996]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 180367288,
+  "name": "Bogahawatte Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.88114, 6.983234], [79.881239, 6.983411], [79.881325, 6.983503], [79.88151, 6.983659], [79.881627, 6.983746]]
+}

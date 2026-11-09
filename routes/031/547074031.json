@@ -1,0 +1,9 @@
+{
+  "id": 547074031,
+  "name": "Rikillagaskada Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.754746, 7.213236], [80.754863, 7.213168]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 510038443,
+  "name": "Hapugoda - Ambatenna Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.61072, 7.349154], [80.610763, 7.349204], [80.610847, 7.349278], [80.611099, 7.349391], [80.611865, 7.349808], [80.613124, 7.34993], [80.613387, 7.350048]]
+}

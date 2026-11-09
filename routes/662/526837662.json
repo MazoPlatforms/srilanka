@@ -1,0 +1,9 @@
+{
+  "id": 526837662,
+  "name": "Periyamadu, Down Street",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40, "motorcycle": 40, "truck": 40, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.148156, 8.975337], [80.148101, 8.975291], [80.147294, 8.974614], [80.144093, 8.971918], [80.143423, 8.971354], [80.142366, 8.969812]]
+}

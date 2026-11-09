@@ -1,0 +1,9 @@
+{
+  "id": 473496041,
+  "name": "Vevegananda Cross Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.586752, 7.793998], [81.587125, 7.794408], [81.587713, 7.795021]]
+}

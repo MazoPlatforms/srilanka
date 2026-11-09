@@ -1,0 +1,9 @@
+{
+  "id": 641646308,
+  "name": "Uduwana-Pansala Handiya Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.026115, 6.827763], [80.026345, 6.827945], [80.026576, 6.828121]]
+}

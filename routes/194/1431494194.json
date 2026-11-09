@@ -1,0 +1,9 @@
+{
+  "id": 1431494194,
+  "name": "Careful With Steps",
+  "highway": "steps",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"foot": 2},
+  "coordinates": [[80.670994, 6.716886], [80.671053, 6.71667], [80.671168, 6.716247]]
+}

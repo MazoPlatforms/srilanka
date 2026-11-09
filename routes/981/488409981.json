@@ -1,0 +1,9 @@
+{
+  "id": 488409981,
+  "name": "Bangadeniya-Andigama-Anamaduwa Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.010958, 7.877584], [80.010904, 7.8775], [80.010829, 7.877431]]
+}

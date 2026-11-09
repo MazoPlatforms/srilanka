@@ -1,0 +1,9 @@
+{
+  "id": 1472184882,
+  "name": "Siththankerny pillaiyar kovil road 4th lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.96193, 9.752718], [79.962114, 9.752635], [79.962281, 9.752543], [79.962378, 9.752501], [79.962458, 9.752465], [79.96248, 9.752429], [79.962468, 9.752351], [79.962437, 9.752216], [79.962405, 9.752146]]
+}

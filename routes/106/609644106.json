@@ -1,0 +1,9 @@
+{
+  "id": 609644106,
+  "name": "Kotuaththawala Tank Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.117517, 7.804659], [80.118544, 7.804112], [80.119053, 7.803881], [80.119214, 7.803825], [80.119388, 7.803804], [80.122793, 7.804092]]
+}

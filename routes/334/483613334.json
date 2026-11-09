@@ -1,0 +1,9 @@
+{
+  "id": 483613334,
+  "name": "Muylavedduvan Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.557413, 7.760772], [81.557437, 7.760607], [81.557488, 7.760301], [81.557531, 7.760246], [81.559016, 7.759404], [81.55926, 7.759305], [81.559447, 7.759265]]
+}

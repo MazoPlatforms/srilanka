@@ -1,0 +1,9 @@
+{
+  "id": 907765906,
+  "name": "Colombo-Ratnapura Road",
+  "highway": "trunk",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 72.0, "motorcycle": 72.0, "truck": 70, "foot": 5},
+  "coordinates": [[80.359816, 6.782944], [80.35993, 6.782898], [80.360156, 6.782813]]
+}

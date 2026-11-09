@@ -1,0 +1,9 @@
+{
+  "id": 638780498,
+  "name": "Mihindu Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.161051, 6.293785], [80.161247, 6.293444], [80.161317, 6.29323], [80.161303, 6.292915], [80.161107, 6.292269]]
+}

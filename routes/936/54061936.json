@@ -1,0 +1,9 @@
+{
+  "id": 54061936,
+  "name": "Clifton Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.867653, 6.92784], [79.868132, 6.927201], [79.868517, 6.92686]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 1227829361,
+  "name": "Gurupuraya Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.579994, 7.15415], [80.579972, 7.153727], [80.579938, 7.153426], [80.579969, 7.15318], [80.579963, 7.153006], [80.579926, 7.15275], [80.579878, 7.152577]]
+}

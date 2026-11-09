@@ -1,0 +1,9 @@
+{
+  "id": 1152314098,
+  "name": "Aluthgama-Meegama Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.052009, 6.420646], [80.052137, 6.420597]]
+}

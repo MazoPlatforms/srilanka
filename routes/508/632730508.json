@@ -1,0 +1,9 @@
+{
+  "id": 632730508,
+  "name": "Gintota-Wakwella Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.18585, 6.084099], [80.185547, 6.083954], [80.184616, 6.083595], [80.184002, 6.083339]]
+}

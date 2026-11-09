@@ -1,0 +1,9 @@
+{
+  "id": 125909436,
+  "name": "Saddhawasa mawatha",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.419586, 5.970819], [80.419532, 5.97068], [80.419496, 5.970421], [80.419458, 5.96989]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 328761233,
+  "name": "Patuinigoda 1st Lane",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 15, "motorcycle": 15, "bicycle": 15, "foot": 5},
+  "coordinates": [[80.010331, 6.419303], [80.010324, 6.419515], [80.010361, 6.419611], [80.010378, 6.419719], [80.010357, 6.419802], [80.010294, 6.419826]]
+}

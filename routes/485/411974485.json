@@ -1,0 +1,9 @@
+{
+  "id": 411974485,
+  "name": "Karappankadu Internal road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.488651, 8.762287], [80.488671, 8.761736], [80.488701, 8.761301]]
+}

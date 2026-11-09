@@ -1,0 +1,9 @@
+{
+  "id": 173011483,
+  "name": "Kotalawala place",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.854858, 6.890278], [79.854944, 6.889741]]
+}

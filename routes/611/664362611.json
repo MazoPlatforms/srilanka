@@ -1,0 +1,9 @@
+{
+  "id": 664362611,
+  "name": "Knuckles Waterfall Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.778177, 7.405283], [80.778254, 7.405235], [80.778341, 7.405214], [80.779173, 7.405157], [80.779432, 7.405199], [80.779723, 7.405348], [80.779778, 7.405354], [80.779837, 7.405312]]
+}

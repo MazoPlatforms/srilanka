@@ -1,0 +1,9 @@
+{
+  "id": 195234690,
+  "name": "Ratwatte Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.053728, 6.999292], [81.05383, 6.999356], [81.054205, 6.999372], [81.054817, 6.99938], [81.0551, 6.999376]]
+}

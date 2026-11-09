@@ -1,0 +1,9 @@
+{
+  "id": 457826019,
+  "name": "Thuraiyadi Cross Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.702836, 7.625448], [81.702828, 7.625612], [81.702864, 7.626112], [81.702883, 7.626364], [81.702871, 7.626854], [81.702847, 7.627344], [81.702815, 7.627675]]
+}

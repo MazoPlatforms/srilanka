@@ -1,0 +1,9 @@
+{
+  "id": 1066018334,
+  "name": "Lower Drive",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.942472, 6.879034], [79.942463, 6.879129], [79.942442, 6.879186]]
+}

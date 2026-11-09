@@ -1,0 +1,9 @@
+{
+  "id": 330539956,
+  "name": "Katunayake Kotugoda road",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.900588, 7.165355], [79.901022, 7.165221]]
+}

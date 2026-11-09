@@ -1,0 +1,9 @@
+{
+  "id": 547700629,
+  "name": "Udapanguwagama Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.203964, 7.055545], [81.204099, 7.055575], [81.204709, 7.055798], [81.205581, 7.055976], [81.205719, 7.056015], [81.205764, 7.05605]]
+}

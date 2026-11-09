@@ -1,0 +1,9 @@
+{
+  "id": 218585423,
+  "name": "Somawathiya Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.113465, 8.070708], [81.113203, 8.070733]]
+}

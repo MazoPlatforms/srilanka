@@ -1,0 +1,9 @@
+{
+  "id": 460027399,
+  "name": "Kundaathu Bridge குண்டாத்து பாலம்",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.911388, 8.934055], [80.912226, 8.93368], [80.913234, 8.932472]]
+}

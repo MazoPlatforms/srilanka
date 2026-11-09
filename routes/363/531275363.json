@@ -1,0 +1,9 @@
+{
+  "id": 531275363,
+  "name": "Nalanda Place",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.615366, 7.271752], [80.615535, 7.271657], [80.615609, 7.271605], [80.615707, 7.271488], [80.615757, 7.271394]]
+}

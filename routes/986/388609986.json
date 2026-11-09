@@ -1,0 +1,9 @@
+{
+  "id": 388609986,
+  "name": "Villuththodda 2nd Cross Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.567462, 7.824954], [81.566922, 7.824469], [81.566821, 7.824362], [81.566515, 7.824098]]
+}

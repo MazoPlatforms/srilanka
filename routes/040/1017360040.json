@@ -1,0 +1,9 @@
+{
+  "id": 1017360040,
+  "name": "St.Antony Church Road",
+  "highway": "track",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 15, "foot": 4},
+  "coordinates": [[81.56317, 7.92313], [81.563307, 7.92329], [81.563406, 7.923339], [81.563893, 7.923431]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 186580745,
+  "name": "Kethsiri Place",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.962219, 6.842227], [79.962053, 6.842067], [79.961756, 6.841872], [79.961014, 6.841703], [79.960981, 6.841721], [79.960918, 6.842085]]
+}

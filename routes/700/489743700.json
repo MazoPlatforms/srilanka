@@ -1,0 +1,9 @@
+{
+  "id": 489743700,
+  "name": "Kanthavanam Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.48535, 8.015649], [81.485135, 8.015551], [81.484929, 8.015517], [81.48461, 8.015583]]
+}

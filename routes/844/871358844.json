@@ -1,0 +1,9 @@
+{
+  "id": 871358844,
+  "name": "Beeriya Dola Ela",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.355208, 6.342218], [80.355541, 6.342453], [80.35575, 6.342554], [80.356042, 6.34265], [80.356191, 6.342765], [80.35627, 6.342896], [80.356417, 6.343034]]
+}

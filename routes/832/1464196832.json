@@ -1,0 +1,9 @@
+{
+  "id": 1464196832,
+  "name": "St. Anthony's Mawatha",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.856498, 6.946806], [79.856516, 6.946791], [79.856523, 6.946766]]
+}

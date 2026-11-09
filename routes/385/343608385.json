@@ -1,0 +1,9 @@
+{
+  "id": 343608385,
+  "name": "Athwela Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.908879, 6.829829], [79.90955, 6.830899]]
+}

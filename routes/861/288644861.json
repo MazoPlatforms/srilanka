@@ -1,0 +1,9 @@
+{
+  "id": 288644861,
+  "name": "1st lane of Mal 6th Street",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.801465, 7.359897], [81.801515, 7.359608], [81.801619, 7.358815], [81.801648, 7.358701], [81.801654, 7.358607]]
+}

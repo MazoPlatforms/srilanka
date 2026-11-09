@@ -1,0 +1,9 @@
+{
+  "id": 1514418285,
+  "name": "Bibile-Mahiyangana Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.017352, 7.293937], [81.01731, 7.294188], [81.017281, 7.295109], [81.017436, 7.295841], [81.01744, 7.295881]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 833159894,
+  "name": "Athkam Niwasa Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.386657, 6.288174], [80.387092, 6.287876], [80.387709, 6.287524], [80.387891, 6.28745], [80.388229, 6.287396], [80.388508, 6.287503], [80.388851, 6.287673]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 1490978976,
+  "name": "Kadawatha-Mawaramandiya Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.956801, 6.99148], [79.957173, 6.991285]]
+}

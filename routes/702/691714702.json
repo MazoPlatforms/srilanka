@@ -1,0 +1,9 @@
+{
+  "id": 691714702,
+  "name": "Bulugaha wewa Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.845771, 7.37898], [79.845971, 7.379005], [79.846555, 7.37898], [79.847329, 7.378916]]
+}

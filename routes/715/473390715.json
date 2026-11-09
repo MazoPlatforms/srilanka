@@ -1,0 +1,9 @@
+{
+  "id": 473390715,
+  "name": "Himbutana Lane",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "bicycle": 10, "foot": 5},
+  "coordinates": [[79.929951, 6.921743], [79.930026, 6.921795], [79.930814, 6.922192], [79.930897, 6.922304]]
+}

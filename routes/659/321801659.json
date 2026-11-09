@@ -1,0 +1,9 @@
+{
+  "id": 321801659,
+  "name": "Rajamalwaththa Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.019401, 6.955076], [80.017319, 6.955277], [80.017051, 6.955228], [80.016433, 6.955014]]
+}

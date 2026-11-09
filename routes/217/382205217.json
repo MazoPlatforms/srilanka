@@ -1,0 +1,9 @@
+{
+  "id": 382205217,
+  "name": "Negombo-Mirigama Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.014861, 7.225121], [80.015606, 7.225025], [80.017026, 7.224843], [80.018658, 7.224652], [80.018713, 7.224646], [80.019023, 7.224601]]
+}

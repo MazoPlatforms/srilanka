@@ -1,0 +1,9 @@
+{
+  "id": 390197193,
+  "name": "Salliththeevu Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.444864, 8.103804], [81.444899, 8.103949], [81.445231, 8.104447], [81.445378, 8.104626], [81.445679, 8.105111], [81.445951, 8.105495]]
+}

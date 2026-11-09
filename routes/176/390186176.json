@@ -1,0 +1,9 @@
+{
+  "id": 390186176,
+  "name": "Suppaiya Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.446542, 8.086482], [81.44639, 8.086431], [81.445884, 8.086297], [81.445585, 8.086246], [81.444064, 8.085843]]
+}

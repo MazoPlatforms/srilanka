@@ -1,0 +1,9 @@
+{
+  "id": 406122889,
+  "name": "Uthuru Wella road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.880348, 7.07729], [79.880459, 7.077048], [79.880614, 7.076772], [79.880748, 7.0765], [79.880864, 7.076177], [79.880981, 7.075878]]
+}

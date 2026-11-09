@@ -1,0 +1,9 @@
+{
+  "id": 330745855,
+  "name": "Ralkuli Bridge",
+  "highway": "trunk",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
+  "coordinates": [[81.244684, 8.447321], [81.24381, 8.447282], [81.242914, 8.447245]]
+}

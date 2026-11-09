@@ -1,0 +1,9 @@
+{
+  "id": 379155540,
+  "name": "Leyden Bastian Road",
+  "highway": "tertiary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.846788, 6.936911], [79.846928, 6.936841], [79.847033, 6.936795], [79.84722, 6.936719]]
+}

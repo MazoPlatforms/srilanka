@@ -1,0 +1,9 @@
+{
+  "id": 1347717243,
+  "name": "Road to Ramboda Lower Falls, then walk through hotel",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 15, "motorcycle": 15, "bicycle": 15, "foot": 5},
+  "coordinates": [[80.698866, 7.056008], [80.698781, 7.055919], [80.698402, 7.056148], [80.69849, 7.05593], [80.698142, 7.056], [80.69829, 7.055799]]
+}

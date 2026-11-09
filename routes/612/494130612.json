@@ -1,0 +1,9 @@
+{
+  "id": 494130612,
+  "name": "Panichchaiyadi Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.706176, 7.627452], [81.706235, 7.627442], [81.706827, 7.627415]]
+}

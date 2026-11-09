@@ -1,0 +1,9 @@
+{
+  "id": 494327454,
+  "name": "Kudijiruppu 1 St Cross",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.742423, 7.604464], [81.74233, 7.604403], [81.742297, 7.604345], [81.742236, 7.604326], [81.742211, 7.604241], [81.741997, 7.604226], [81.741757, 7.604104], [81.741435, 7.604049]]
+}

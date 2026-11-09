@@ -1,0 +1,9 @@
+{
+  "id": 229639363,
+  "name": "Haragama Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.666484, 7.281272], [80.666471, 7.281218], [80.666435, 7.280937]]
+}

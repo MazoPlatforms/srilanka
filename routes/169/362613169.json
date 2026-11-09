@@ -1,0 +1,9 @@
+{
+  "id": 362613169,
+  "name": "Kent Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.880686, 6.93302], [79.880481, 6.933025], [79.879596, 6.933046], [79.878234, 6.933073], [79.878197, 6.933074]]
+}

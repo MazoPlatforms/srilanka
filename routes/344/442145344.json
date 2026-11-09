@@ -1,0 +1,9 @@
+{
+  "id": 442145344,
+  "name": "Lower Circular Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.082564, 7.13317], [80.082791, 7.133206], [80.083128, 7.133271], [80.083752, 7.133236], [80.084024, 7.13305], [80.08442, 7.132851], [80.084612, 7.132721], [80.084916, 7.132405]]
+}

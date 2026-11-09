@@ -1,0 +1,9 @@
+{
+  "id": 376022186,
+  "name": "Pathiniyarkulam sub lane 1",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.475149, 8.786584], [80.475402, 8.787346], [80.476737, 8.788895]]
+}

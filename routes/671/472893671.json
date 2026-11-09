@@ -1,0 +1,9 @@
+{
+  "id": 472893671,
+  "name": "Kalkudah Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.566908, 7.917819], [81.566968, 7.917856]]
+}

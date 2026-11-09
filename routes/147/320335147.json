@@ -1,0 +1,9 @@
+{
+  "id": 320335147,
+  "name": "Brother House Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.823936, 7.423286], [81.824608, 7.42372], [81.825271, 7.424127], [81.825511, 7.42428], [81.825992, 7.424577], [81.827771, 7.425743], [81.828352, 7.426132]]
+}

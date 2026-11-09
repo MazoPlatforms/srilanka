@@ -1,0 +1,9 @@
+{
+  "id": 234746316,
+  "name": "H.P.T. Watta Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.901511, 6.791342], [79.901518, 6.791423], [79.901545, 6.791636], [79.901534, 6.79195]]
+}

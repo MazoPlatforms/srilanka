@@ -1,0 +1,9 @@
+{
+  "id": 1001407732,
+  "name": "Queen's Road",
+  "highway": "tertiary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.855866, 6.898858], [79.855937, 6.898822], [79.856026, 6.898813]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 1536304344,
+  "name": "Panaliya Road",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.325696, 7.32873], [80.325597, 7.328558], [80.325561, 7.328509]]
+}

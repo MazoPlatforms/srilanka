@@ -1,0 +1,9 @@
+{
+  "id": 226364113,
+  "name": "Nelum Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.698131, 7.284979], [80.697745, 7.284572], [80.697496, 7.284314], [80.696916, 7.283598]]
+}

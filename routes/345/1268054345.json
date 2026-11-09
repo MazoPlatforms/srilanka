@@ -1,0 +1,9 @@
+{
+  "id": 1268054345,
+  "name": "Gabadawatte Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.018729, 6.839524], [80.018454, 6.839846], [80.018265, 6.840155]]
+}

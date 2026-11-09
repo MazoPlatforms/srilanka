@@ -1,0 +1,9 @@
+{
+  "id": 366059841,
+  "name": "Village Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.854527, 7.123442], [81.85455, 7.122992], [81.85455, 7.122496], [81.854592, 7.12188], [81.854615, 7.121454]]
+}

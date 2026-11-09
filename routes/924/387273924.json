@@ -1,0 +1,9 @@
+{
+  "id": 387273924,
+  "name": "Dambuwatta 2 Patumanga",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.994148, 7.052628], [79.994356, 7.052727], [79.994643, 7.052952], [79.994833, 7.053054], [79.994929, 7.053071], [79.995065, 7.053095], [79.995225, 7.053211]]
+}

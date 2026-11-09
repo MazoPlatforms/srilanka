@@ -1,0 +1,9 @@
+{
+  "id": 303124407,
+  "name": "Kandy View Garden Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.616865, 7.283517], [80.617129, 7.283568], [80.617256, 7.283634], [80.617388, 7.283691], [80.617589, 7.283809], [80.617654, 7.283842], [80.617795, 7.283932]]
+}

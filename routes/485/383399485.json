@@ -1,0 +1,9 @@
+{
+  "id": 383399485,
+  "name": "Welimada Bypass",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.909761, 6.905803], [80.909731, 6.90591], [80.909713, 6.905962]]
+}

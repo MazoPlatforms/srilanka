@@ -1,0 +1,9 @@
+{
+  "id": 184759175,
+  "name": "Peella Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.23733, 6.016664], [80.237433, 6.016643], [80.237569, 6.016585], [80.237789, 6.016501], [80.238214, 6.01641], [80.238418, 6.016311], [80.238722, 6.016171]]
+}

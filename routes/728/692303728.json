@@ -1,0 +1,9 @@
+{
+  "id": 692303728,
+  "name": "Muhandiram Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.879282, 6.897299], [79.879752, 6.897459], [79.880068, 6.897561], [79.880795, 6.897723], [79.881203, 6.897813], [79.881824, 6.897951]]
+}

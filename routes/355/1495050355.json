@@ -1,0 +1,9 @@
+{
+  "id": 1495050355,
+  "name": "Ven. Murutthettuwe Ananda Nahimi Mawatha (Thimbirigasyaya Road)",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.867105, 6.891372], [79.867075, 6.891366], [79.866781, 6.891258]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 510832816,
+  "name": "Meda Welikada Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.895831, 6.914509], [79.89583, 6.91457], [79.896005, 6.915053], [79.895972, 6.91513]]
+}

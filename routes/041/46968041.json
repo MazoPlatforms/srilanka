@@ -1,0 +1,9 @@
+{
+  "id": 46968041,
+  "name": "Maligawa Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.884514, 6.806932], [79.884631, 6.807], [79.885244, 6.807392]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 434825104,
+  "name": "Bunt Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.942192, 6.912175], [79.942116, 6.911984], [79.941924, 6.911816], [79.941602, 6.911645], [79.941479, 6.911613], [79.940476, 6.911603]]
+}

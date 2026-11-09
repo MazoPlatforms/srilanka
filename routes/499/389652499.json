@@ -1,0 +1,9 @@
+{
+  "id": 389652499,
+  "name": "Jawfeer Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.613013, 7.776929], [81.61388, 7.77671], [81.614485, 7.776524]]
+}

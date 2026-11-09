@@ -1,0 +1,9 @@
+{
+  "id": 28531519,
+  "name": "KEPZ Access Road",
+  "highway": "service",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 35, "motorcycle": 35, "bicycle": 15, "foot": 5},
+  "coordinates": [[79.888095, 7.170132], [79.887694, 7.17053]]
+}

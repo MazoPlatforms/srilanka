@@ -1,0 +1,9 @@
+{
+  "id": 403013765,
+  "name": "Koottewattha Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.030686, 6.877311], [80.030706, 6.87723], [80.031061, 6.876776]]
+}

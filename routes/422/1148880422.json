@@ -1,0 +1,9 @@
+{
+  "id": 1148880422,
+  "name": "Kadduvan-Mayiliddy Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.059518, 9.789949], [80.059646, 9.790086], [80.059695, 9.790143], [80.059732, 9.79021], [80.05982, 9.790431], [80.059904, 9.790662]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 225111793,
+  "name": "Galle Road New Deviation",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.905252, 6.726667], [79.905182, 6.726679], [79.905121, 6.726709], [79.905003, 6.726771]]
+}

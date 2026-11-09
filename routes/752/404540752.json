@@ -1,0 +1,9 @@
+{
+  "id": 404540752,
+  "name": "Padaviya-Welioya Road",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.770482, 8.939887], [80.770975, 8.939355]]
+}

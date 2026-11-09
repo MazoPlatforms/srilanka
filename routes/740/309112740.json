@@ -1,0 +1,9 @@
+{
+  "id": 309112740,
+  "name": "Makandawa Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.424238, 6.985726], [80.424264, 6.985688], [80.424268, 6.985582], [80.424204, 6.985125]]
+}

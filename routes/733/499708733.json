@@ -1,0 +1,9 @@
+{
+  "id": 499708733,
+  "name": "Bulugolla-Rambukkana Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.322668, 7.395238], [80.322454, 7.395283], [80.322235, 7.395338], [80.322084, 7.395373], [80.321958, 7.395407], [80.32183, 7.395452], [80.321703, 7.395507]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 50633778,
+  "name": "Fairfield Garden",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.879718, 6.913821], [79.879738, 6.913913]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 577299164,
+  "name": "6th Lane, Pahalawela Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.923884, 6.887379], [79.924093, 6.887237], [79.924565, 6.887021]]
+}

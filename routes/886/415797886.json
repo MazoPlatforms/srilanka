@@ -1,0 +1,9 @@
+{
+  "id": 415797886,
+  "name": "Warna Pedesa",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.922572, 6.907956], [79.922456, 6.908418], [79.922383, 6.908563], [79.922221, 6.908769]]
+}

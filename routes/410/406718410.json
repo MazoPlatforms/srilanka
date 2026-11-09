@@ -1,0 +1,9 @@
+{
+  "id": 406718410,
+  "name": "Purana Dewala Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.935091, 7.091353], [79.935126, 7.091292], [79.93507, 7.091259], [79.935093, 7.091208], [79.935156, 7.091181]]
+}

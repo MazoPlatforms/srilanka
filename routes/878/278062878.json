@@ -1,0 +1,9 @@
+{
+  "id": 278062878,
+  "name": "Thaninayagam sir Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.851491, 7.132946], [81.851515, 7.132989], [81.851623, 7.133373], [81.851666, 7.133438], [81.852189, 7.133194]]
+}

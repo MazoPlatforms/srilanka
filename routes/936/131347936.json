@@ -1,0 +1,9 @@
+{
+  "id": 131347936,
+  "name": "Lakshapathiya Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.880996, 6.789746], [79.881, 6.789698], [79.881044, 6.789384], [79.880963, 6.789034], [79.880908, 6.788746], [79.880947, 6.788421], [79.880949, 6.788233]]
+}

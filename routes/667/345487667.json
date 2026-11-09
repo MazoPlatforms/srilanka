@@ -1,0 +1,9 @@
+{
+  "id": 345487667,
+  "name": "Kotte Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.906775, 6.903867], [79.906703, 6.9038], [79.906637, 6.903742], [79.906529, 6.903664], [79.906457, 6.903629], [79.906368, 6.903597]]
+}

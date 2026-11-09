@@ -1,0 +1,9 @@
+{
+  "id": 456937793,
+  "name": "Vairabar kovil Road Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25.0, "motorcycle": 25.0, "truck": 25.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.690668, 7.476498], [81.690607, 7.476406], [81.690553, 7.476325]]
+}

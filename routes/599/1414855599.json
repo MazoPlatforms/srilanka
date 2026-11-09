@@ -1,0 +1,9 @@
+{
+  "id": 1414855599,
+  "name": "Kadugannawa-Pottepitiya Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.495782, 7.288722], [80.495761, 7.288678], [80.495761, 7.288618], [80.49579, 7.288534], [80.495937, 7.288225], [80.495979, 7.288019], [80.496004, 7.28791], [80.495975, 7.287824]]
+}

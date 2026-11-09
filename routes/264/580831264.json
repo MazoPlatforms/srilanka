@@ -1,0 +1,9 @@
+{
+  "id": 580831264,
+  "name": "Kadawatha Link Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.953356, 7.004713], [79.953456, 7.004716], [79.953559, 7.004716], [79.953726, 7.004709], [79.953888, 7.004705]]
+}

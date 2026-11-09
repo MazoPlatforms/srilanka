@@ -1,0 +1,9 @@
+{
+  "id": 50173715,
+  "name": "Arch Bishop 4th Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.89668, 7.089578], [79.896664, 7.08973], [79.896653, 7.089887], [79.896506, 7.089887], [79.896478, 7.089926], [79.896452, 7.090057], [79.896325, 7.091435]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 376604794,
+  "name": "Yasodara Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.86521, 6.865887], [79.865453, 6.865912], [79.865527, 6.865918]]
+}

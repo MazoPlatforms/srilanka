@@ -1,0 +1,9 @@
+{
+  "id": 456325709,
+  "name": "Kurichchi Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.763225, 7.541718], [81.763358, 7.541742], [81.763802, 7.541875], [81.764682, 7.54205], [81.765018, 7.542111], [81.765223, 7.542177]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 457823608,
+  "name": "Gnanamuththu 3rd Cross Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.705956, 7.625604], [81.705955, 7.625436], [81.70594, 7.625071], [81.705951, 7.624344], [81.706093, 7.624098]]
+}

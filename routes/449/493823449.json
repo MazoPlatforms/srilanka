@@ -1,0 +1,9 @@
+{
+  "id": 493823449,
+  "name": "3rd Cross Kokkaddicholai",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.713999, 7.613919], [81.713133, 7.613977], [81.71306, 7.613985], [81.713002, 7.614027]]
+}

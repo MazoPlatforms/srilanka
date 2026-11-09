@@ -1,0 +1,9 @@
+{
+  "id": 747180642,
+  "name": "Vavunathivu Bridge",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.662432, 7.69331], [81.664099, 7.693746]]
+}

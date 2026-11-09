@@ -1,0 +1,9 @@
+{
+  "id": 245929312,
+  "name": "Center Roard",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.077235, 9.722771], [80.077281, 9.723205], [80.077004, 9.72321], [80.076645, 9.723308], [80.076521, 9.723416], [80.07663, 9.723941]]
+}

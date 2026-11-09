@@ -1,0 +1,9 @@
+{
+  "id": 431112916,
+  "name": "Dewalawaththa Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.945844, 7.1466], [79.946018, 7.14643], [79.946207, 7.146243], [79.946329, 7.146142]]
+}

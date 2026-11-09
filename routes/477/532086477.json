@@ -1,0 +1,9 @@
+{
+  "id": 532086477,
+  "name": "Huludagoda Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.871671, 6.837973], [79.87144, 6.837969], [79.8713, 6.837987], [79.870712, 6.838121], [79.870687, 6.83835], [79.870655, 6.838634], [79.870591, 6.838845]]
+}

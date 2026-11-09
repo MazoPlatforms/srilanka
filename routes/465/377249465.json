@@ -1,0 +1,9 @@
+{
+  "id": 377249465,
+  "name": "Yaaya Watta Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.929232, 7.073531], [79.929214, 7.073377], [79.929144, 7.072635], [79.928946, 7.072605], [79.928941, 7.072406], [79.92888, 7.072332]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 179555192,
+  "name": "Clinic Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.727027, 7.675179], [81.72708, 7.675036], [81.727114, 7.674907], [81.727171, 7.674216], [81.72728, 7.673829], [81.727314, 7.673641]]
+}

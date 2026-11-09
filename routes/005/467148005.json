@@ -1,0 +1,9 @@
+{
+  "id": 467148005,
+  "name": "Murukankovil Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.778378, 9.312219], [80.778528, 9.312353], [80.778624, 9.312453], [80.778813, 9.312653], [80.779194, 9.313047], [80.779669, 9.313543], [80.77975, 9.31361]]
+}

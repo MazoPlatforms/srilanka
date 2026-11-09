@@ -1,0 +1,9 @@
+{
+  "id": 722949501,
+  "name": "Mosque Road",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 15, "motorcycle": 15, "bicycle": 15, "foot": 5},
+  "coordinates": [[80.24526, 7.619785], [80.245257, 7.619497], [80.245239, 7.619385]]
+}

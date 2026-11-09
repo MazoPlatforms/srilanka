@@ -1,0 +1,9 @@
+{
+  "id": 493818840,
+  "name": "Corprative 1st Cross Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.70519, 7.626315], [81.705216, 7.626309], [81.705699, 7.626373], [81.70571, 7.626428], [81.706169, 7.626468]]
+}

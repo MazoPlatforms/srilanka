@@ -1,0 +1,9 @@
+{
+  "id": 102652282,
+  "name": "Borupana Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.898451, 6.818394], [79.898603, 6.818499], [79.898672, 6.81855], [79.898858, 6.818681], [79.89895, 6.818745]]
+}

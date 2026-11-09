@@ -1,0 +1,9 @@
+{
+  "id": 592778357,
+  "name": "Athula Place",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.874881, 6.884592], [79.874939, 6.884606], [79.876037, 6.884418]]
+}

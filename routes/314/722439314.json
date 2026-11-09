@@ -1,0 +1,9 @@
+{
+  "id": 722439314,
+  "name": "Uggalla-Pinnawala Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.113613, 6.861763], [80.114014, 6.862271], [80.114182, 6.862587], [80.114274, 6.862883], [80.1143, 6.863034]]
+}

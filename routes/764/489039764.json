@@ -1,0 +1,9 @@
+{
+  "id": 489039764,
+  "name": "Millbord Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.409249, 8.017665], [81.408696, 8.017515], [81.408186, 8.017526], [81.407886, 8.017658], [81.407511, 8.018623], [81.406845, 8.020336], [81.406643, 8.021044]]
+}

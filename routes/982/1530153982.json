@@ -1,0 +1,9 @@
+{
+  "id": 1530153982,
+  "name": "Yanthampalawa Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.354763, 7.484467], [80.354793, 7.484441]]
+}

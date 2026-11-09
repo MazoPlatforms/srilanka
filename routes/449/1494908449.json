@@ -1,0 +1,9 @@
+{
+  "id": 1494908449,
+  "name": "Walukarama Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.853779, 6.905177], [79.85386, 6.905206], [79.854749, 6.905518], [79.855581, 6.905778]]
+}

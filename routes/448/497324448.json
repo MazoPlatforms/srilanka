@@ -1,0 +1,9 @@
+{
+  "id": 497324448,
+  "name": "Nallaiya Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.646868, 7.714524], [81.646868, 7.714448], [81.646928, 7.714047], [81.647055, 7.713436], [81.647082, 7.71312], [81.647115, 7.71307]]
+}

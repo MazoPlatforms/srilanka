@@ -1,0 +1,9 @@
+{
+  "id": 53337673,
+  "name": "Sunandarama Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.875174, 6.866009], [79.874963, 6.86477], [79.874944, 6.864648], [79.874979, 6.864369], [79.875254, 6.863551]]
+}

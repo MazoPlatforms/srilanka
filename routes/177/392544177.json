@@ -1,0 +1,9 @@
+{
+  "id": 392544177,
+  "name": "Naaheasvaran Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.414769, 8.196588], [81.41497, 8.195662]]
+}

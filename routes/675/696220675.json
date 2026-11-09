@@ -1,0 +1,9 @@
+{
+  "id": 696220675,
+  "name": "Bogahawewa-Pulmoddai Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.799302, 8.809898], [80.799077, 8.809506]]
+}

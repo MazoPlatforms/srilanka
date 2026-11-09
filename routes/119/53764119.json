@@ -1,0 +1,9 @@
+{
+  "id": 53764119,
+  "name": "Pirivena Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.913253, 6.839406], [79.912802, 6.839331]]
+}

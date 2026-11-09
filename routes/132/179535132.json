@@ -1,0 +1,9 @@
+{
+  "id": 179535132,
+  "name": "Noththasiyar Veethy",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.616093, 7.769738], [81.616155, 7.769912], [81.616872, 7.771585]]
+}

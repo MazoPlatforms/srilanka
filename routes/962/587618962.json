@@ -1,0 +1,9 @@
+{
+  "id": 587618962,
+  "name": "Kirkoswald State Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.65814, 6.814087], [80.658007, 6.813916]]
+}

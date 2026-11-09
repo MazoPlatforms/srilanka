@@ -1,0 +1,9 @@
+{
+  "id": 1491072889,
+  "name": "Katunayake-Veyangoda Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 55, "motorcycle": 55, "truck": 50, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.883825, 7.1687], [79.883621, 7.168449], [79.883456, 7.16828], [79.883117, 7.168016], [79.882953, 7.167914]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 1494659931,
+  "name": "Pattiya wela - Pallattara road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.720385, 6.083608], [80.720103, 6.083566], [80.719006, 6.083509], [80.718821, 6.083549]]
+}

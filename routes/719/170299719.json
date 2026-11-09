@@ -1,0 +1,9 @@
+{
+  "id": 170299719,
+  "name": "Philip Street",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.123712, 6.12503], [81.124913, 6.125415], [81.124986, 6.125433], [81.125114, 6.125465], [81.125368, 6.125531], [81.125631, 6.125578]]
+}

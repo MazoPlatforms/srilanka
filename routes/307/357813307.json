@@ -1,0 +1,9 @@
+{
+  "id": 357813307,
+  "name": "Model tenement road 4th lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.489923, 8.763777], [80.489622, 8.764969], [80.489411, 8.765678], [80.489156, 8.766493], [80.48891, 8.767415]]
+}

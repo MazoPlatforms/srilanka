@@ -1,0 +1,9 @@
+{
+  "id": 1181666362,
+  "name": "37th Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.863455, 6.869396], [79.863629, 6.869439], [79.863667, 6.86942], [79.863677, 6.869395], [79.863698, 6.869313], [79.863825, 6.869345]]
+}

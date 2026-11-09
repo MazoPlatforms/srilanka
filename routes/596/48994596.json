@@ -1,0 +1,9 @@
+{
+  "id": 48994596,
+  "name": "Skelton Gardens",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.867487, 6.884624], [79.867195, 6.884473], [79.865628, 6.883802], [79.865215, 6.883602]]
+}

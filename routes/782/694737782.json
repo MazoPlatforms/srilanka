@@ -1,0 +1,9 @@
+{
+  "id": 694737782,
+  "name": "Flower Terrace",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.854468, 6.909842], [79.854803, 6.909952], [79.854888, 6.909968], [79.854989, 6.909948]]
+}

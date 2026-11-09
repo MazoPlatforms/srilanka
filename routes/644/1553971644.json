@@ -1,0 +1,9 @@
+{
+  "id": 1553971644,
+  "name": "Kandasamy Kovil-Nachchimar Kovil Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.786768, 9.665855], [79.785967, 9.665896]]
+}

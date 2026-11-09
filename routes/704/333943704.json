@@ -1,0 +1,9 @@
+{
+  "id": 333943704,
+  "name": "පන්සල පාර",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.09169, 7.094833], [80.091953, 7.094622], [80.092347, 7.094298], [80.092507, 7.094194]]
+}

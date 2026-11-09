@@ -1,0 +1,9 @@
+{
+  "id": 745683807,
+  "name": "Aswedduma Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.405352, 7.13067], [80.405395, 7.130602], [80.405541, 7.130425]]
+}

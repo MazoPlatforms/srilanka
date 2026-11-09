@@ -1,0 +1,9 @@
+{
+  "id": 489737274,
+  "name": "Pre School 1 st cross",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.486993, 8.009247], [81.486761, 8.00947], [81.486177, 8.010065]]
+}

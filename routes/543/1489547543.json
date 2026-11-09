@@ -1,0 +1,9 @@
+{
+  "id": 1489547543,
+  "name": "Trace Lane",
+  "highway": "trunk_link",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 45, "motorcycle": 45, "truck": 45, "foot": 5},
+  "coordinates": [[79.858961, 6.931915], [79.85897, 6.931984]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 504912853,
+  "name": "Weediyagoda-Weedhagama Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.988728, 6.755003], [79.988878, 6.754878]]
+}

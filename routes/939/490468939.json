@@ -1,0 +1,9 @@
+{
+  "id": 490468939,
+  "name": "Amaani Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.783129, 9.310071], [80.783317, 9.309889], [80.783519, 9.309693], [80.783913, 9.309312], [80.784311, 9.308927], [80.784617, 9.308651], [80.784704, 9.308584]]
+}

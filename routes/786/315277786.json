@@ -1,0 +1,9 @@
+{
+  "id": 315277786,
+  "name": "Kings Street",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.560929, 7.418093], [80.560631, 7.418306], [80.560107, 7.418561], [80.560004, 7.418599]]
+}

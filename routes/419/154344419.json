@@ -1,0 +1,9 @@
+{
+  "id": 154344419,
+  "name": "Pelpola Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.001327, 6.647345], [80.001795, 6.647141]]
+}

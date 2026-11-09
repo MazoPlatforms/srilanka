@@ -1,0 +1,9 @@
+{
+  "id": 376322677,
+  "name": "Sunil Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.941435, 7.07601], [79.941401, 7.075954], [79.940909, 7.075311]]
+}

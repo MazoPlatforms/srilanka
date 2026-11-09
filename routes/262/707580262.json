@@ -1,0 +1,9 @@
+{
+  "id": 707580262,
+  "name": "Banagoda Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.54185, 6.690898], [80.541745, 6.691025]]
+}

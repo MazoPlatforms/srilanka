@@ -1,0 +1,9 @@
+{
+  "id": 140794355,
+  "name": "Vaiththiyar Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.705801, 7.622362], [81.706343, 7.622464], [81.706789, 7.622538], [81.707342, 7.622634], [81.70746, 7.622651], [81.708144, 7.622749]]
+}

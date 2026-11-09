@@ -1,0 +1,9 @@
+{
+  "id": 665896575,
+  "name": "Ananda Rajakaruna Mawatha (Campbell Place)",
+  "highway": "secondary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.871288, 6.921474], [79.871322, 6.92148], [79.87165, 6.921465]]
+}

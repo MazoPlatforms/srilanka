@@ -1,0 +1,9 @@
+{
+  "id": 377010200,
+  "name": "9th Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.897296, 6.820722], [79.896945, 6.820676], [79.896506, 6.820629], [79.896317, 6.820614]]
+}

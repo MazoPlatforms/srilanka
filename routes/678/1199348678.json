@@ -1,0 +1,9 @@
+{
+  "id": 1199348678,
+  "name": "Welihela pthana Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.006508, 6.846994], [81.006474, 6.846736], [81.006328, 6.846551], [81.006083, 6.846499], [81.005715, 6.846589], [81.005242, 6.846585]]
+}

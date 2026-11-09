@@ -1,0 +1,9 @@
+{
+  "id": 155753877,
+  "name": "Glennie Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.693163, 7.722651], [81.693241, 7.72272], [81.693427, 7.722871], [81.693761, 7.722945], [81.693921, 7.723172], [81.694307, 7.723629], [81.694532, 7.723896]]
+}

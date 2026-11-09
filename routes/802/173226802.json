@@ -1,0 +1,9 @@
+{
+  "id": 173226802,
+  "name": "Prince Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.926473, 6.979505], [79.927136, 6.979198], [79.927531, 6.978912], [79.927695, 6.978716]]
+}

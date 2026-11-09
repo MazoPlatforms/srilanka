@@ -1,0 +1,9 @@
+{
+  "id": 303066760,
+  "name": "San Sebastian Link",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.857366, 6.935744], [79.857449, 6.935609], [79.857527, 6.935574], [79.857621, 6.935565], [79.858284, 6.935628]]
+}

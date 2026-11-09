@@ -1,0 +1,9 @@
+{
+  "id": 390553826,
+  "name": "Puthoor Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.403742, 8.229051], [81.403749, 8.228418], [81.403752, 8.227809]]
+}

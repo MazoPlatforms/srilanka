@@ -1,0 +1,9 @@
+{
+  "id": 378862965,
+  "name": "Chatham Street",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.842897, 6.934717], [79.843457, 6.934603], [79.844586, 6.934379], [79.844618, 6.934374]]
+}

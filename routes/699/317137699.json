@@ -1,0 +1,9 @@
+{
+  "id": 317137699,
+  "name": "Sakkaraya Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.182257, 8.492716], [81.181905, 8.492605], [81.18183, 8.492577], [81.180989, 8.492347], [81.180046, 8.492079]]
+}

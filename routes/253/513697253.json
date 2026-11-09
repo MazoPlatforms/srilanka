@@ -1,0 +1,9 @@
+{
+  "id": 513697253,
+  "name": "Sri Mangala Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.549072, 5.95193], [80.549062, 5.951868], [80.548993, 5.951185], [80.548987, 5.951134], [80.548971, 5.950943], [80.548912, 5.950244]]
+}

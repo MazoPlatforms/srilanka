@@ -1,0 +1,9 @@
+{
+  "id": 198352549,
+  "name": "7th Cross Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.683547, 7.733193], [81.683393, 7.732867], [81.683253, 7.732488], [81.682939, 7.731528], [81.682759, 7.731059]]
+}

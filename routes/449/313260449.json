@@ -1,0 +1,9 @@
+{
+  "id": 313260449,
+  "name": "E. W. Perera Mawatha (Regent Street)",
+  "highway": "secondary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.871037, 6.921101], [79.871118, 6.921221], [79.871146, 6.92129]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 51270645,
+  "name": "Abdul Hameed Street",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.862885, 6.93725], [79.862937, 6.937487], [79.86303, 6.937908], [79.863093, 6.938488], [79.863106, 6.938697], [79.863089, 6.938851], [79.862903, 6.939305]]
+}

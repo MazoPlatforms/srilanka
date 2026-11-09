@@ -1,0 +1,9 @@
+{
+  "id": 563207427,
+  "name": "Manampitiya-Aralaganwila Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.184443, 7.808835], [81.184472, 7.808973]]
+}

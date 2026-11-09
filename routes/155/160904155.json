@@ -1,0 +1,9 @@
+{
+  "id": 160904155,
+  "name": "Market Circular Road 1st lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.499859, 8.754865], [80.499766, 8.754985], [80.499502, 8.755342], [80.499403, 8.755421], [80.499388, 8.755489], [80.499406, 8.755557], [80.499551, 8.755698]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 553748143,
+  "name": "Colombo-Piliyandala-Horana Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.920643, 6.809376], [79.920646, 6.809134], [79.920639, 6.809058], [79.920616, 6.808973]]
+}

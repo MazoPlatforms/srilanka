@@ -1,0 +1,9 @@
+{
+  "id": 361355640,
+  "name": "Vellons Passage",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.850756, 6.923854], [79.851403, 6.924018], [79.851413, 6.92401], [79.851511, 6.923801], [79.851634, 6.92365], [79.851636, 6.923622], [79.851554, 6.923432]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 164733360,
+  "name": "Barnes Avenue",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.864656, 6.840045], [79.864951, 6.840085], [79.865587, 6.840154], [79.866293, 6.840221], [79.866532, 6.840269], [79.86691, 6.840287]]
+}

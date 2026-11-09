@@ -1,0 +1,9 @@
+{
+  "id": 269125416,
+  "name": "Temple Foot path",
+  "highway": "footway",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 8, "foot": 5},
+  "coordinates": [[81.829164, 7.12622], [81.828761, 7.126481]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 387308816,
+  "name": "Veevin Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.93829, 7.1628], [79.938283, 7.162801], [79.938076, 7.162827], [79.93745, 7.162939], [79.937173, 7.162984], [79.936879, 7.163151]]
+}

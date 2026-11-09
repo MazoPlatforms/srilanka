@@ -1,0 +1,9 @@
+{
+  "id": 457176708,
+  "name": "Community Center Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.754918, 7.583043], [81.75486, 7.582855], [81.75471, 7.582834], [81.754678, 7.582239], [81.754663, 7.581771], [81.754619, 7.581352], [81.754592, 7.580934]]
+}

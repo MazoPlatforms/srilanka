@@ -1,0 +1,9 @@
+{
+  "id": 385521153,
+  "name": "Nivasipura Main road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.904758, 7.120043], [79.904722, 7.119827], [79.904655, 7.11918]]
+}

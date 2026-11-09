@@ -1,0 +1,9 @@
+{
+  "id": 101876200,
+  "name": "Srimath Bennet Soysa Veediya (Colombo Street)",
+  "highway": "tertiary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.635887, 7.294488], [80.636007, 7.294464], [80.636771, 7.29435], [80.636979, 7.294317], [80.638064, 7.294167], [80.63827, 7.294141], [80.639366, 7.293987]]
+}

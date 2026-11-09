@@ -1,0 +1,9 @@
+{
+  "id": 815859399,
+  "name": "Outer Circular Highway",
+  "highway": "motorway",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 100.0, "motorcycle": 80, "truck": 70},
+  "coordinates": [[79.935486, 7.009106], [79.936184, 7.009199], [79.938177, 7.009385], [79.943296, 7.009703]]
+}

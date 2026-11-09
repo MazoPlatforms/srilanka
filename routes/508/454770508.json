@@ -1,0 +1,9 @@
+{
+  "id": 454770508,
+  "name": "Pootha Vinayagar Theru",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.194704, 9.80654], [80.194087, 9.806841], [80.193903, 9.806941], [80.193441, 9.807146], [80.193462, 9.807381], [80.193334, 9.807437], [80.192491, 9.807601]]
+}

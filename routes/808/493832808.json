@@ -1,0 +1,9 @@
+{
+  "id": 493832808,
+  "name": "Farm 3rd Cross",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.709422, 7.615405], [81.709223, 7.615407], [81.708766, 7.615409], [81.70829, 7.6154]]
+}

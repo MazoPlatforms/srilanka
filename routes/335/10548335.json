@@ -1,0 +1,9 @@
+{
+  "id": 10548335,
+  "name": "Prince Street",
+  "highway": "residential",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.849759, 6.935282], [79.850634, 6.935583], [79.850944, 6.93568], [79.852241, 6.936105], [79.852963, 6.936342], [79.853379, 6.936439], [79.853941, 6.936399]]
+}

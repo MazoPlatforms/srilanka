@@ -1,0 +1,9 @@
+{
+  "id": 1111230321,
+  "name": "Isuru Uyana",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.938983, 6.895023], [79.939975, 6.894469]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 510167439,
+  "name": "Madama Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.899996, 6.996491], [79.899965, 6.996913], [79.899949, 6.997196]]
+}

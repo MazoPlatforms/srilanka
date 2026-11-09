@@ -1,0 +1,9 @@
+{
+  "id": 671904381,
+  "name": "D. S. Senanayake Mawatha",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.394851, 8.320518], [80.394726, 8.320588], [80.394641, 8.320642], [80.39457, 8.32076]]
+}

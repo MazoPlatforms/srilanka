@@ -1,0 +1,9 @@
+{
+  "id": 524030798,
+  "name": "Sudalai vairavar road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.756226, 7.54731], [81.756295, 7.54728], [81.756496, 7.547255], [81.756705, 7.54712], [81.756839, 7.547102], [81.757263, 7.547143], [81.758018, 7.547138]]
+}

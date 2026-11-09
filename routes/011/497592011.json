@@ -1,0 +1,9 @@
+{
+  "id": 497592011,
+  "name": "Paddalipuram Internal Road",
+  "highway": "pedestrian",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 10, "foot": 5},
+  "coordinates": [[81.636754, 7.716998], [81.636627, 7.717099], [81.63662, 7.717646], [81.637103, 7.718467]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 1354334690,
+  "name": "Nallathanniya - Sri Pada Foot-path",
+  "highway": "path",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 12, "foot": 4},
+  "coordinates": [[80.517556, 6.823999], [80.517736, 6.824057], [80.518117, 6.824089]]
+}

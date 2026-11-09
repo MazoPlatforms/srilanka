@@ -1,0 +1,9 @@
+{
+  "id": 388179090,
+  "name": "Field Brezed Garden Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.021735, 7.072833], [80.02178, 7.072691], [80.021858, 7.07234], [80.021943, 7.072255], [80.022081, 7.072211], [80.021754, 7.071304]]
+}

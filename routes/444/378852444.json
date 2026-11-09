@@ -1,0 +1,9 @@
+{
+  "id": 378852444,
+  "name": "W. A. Silva Mawatha (High Street)",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.86624, 6.876705], [79.866624, 6.876743], [79.866889, 6.876769], [79.867259, 6.876845], [79.86784, 6.876955], [79.868004, 6.87699], [79.868437, 6.877081], [79.869473, 6.877311]]
+}

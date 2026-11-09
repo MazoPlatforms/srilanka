@@ -1,0 +1,9 @@
+{
+  "id": 153609095,
+  "name": "Lilian Avenue",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.86442, 6.832409], [79.864295, 6.833114], [79.864233, 6.83346]]
+}

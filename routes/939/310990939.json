@@ -1,0 +1,9 @@
+{
+  "id": 310990939,
+  "name": "Prajashlawa Road",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[79.951294, 6.912538], [79.951123, 6.912967], [79.95103, 6.913222], [79.950983, 6.913376], [79.951617, 6.913545]]
+}

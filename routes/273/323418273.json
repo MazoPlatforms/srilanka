@@ -1,0 +1,9 @@
+{
+  "id": 323418273,
+  "name": "Nooraniya Mosque Roas",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.855334, 7.222606], [81.855416, 7.22309], [81.855471, 7.223339], [81.855503, 7.223541], [81.855578, 7.223912], [81.855582, 7.223954]]
+}

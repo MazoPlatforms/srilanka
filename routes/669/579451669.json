@@ -1,0 +1,9 @@
+{
+  "id": 579451669,
+  "name": "Araliya Udyanaya",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.92953, 6.837431], [79.929542, 6.837369], [79.929438, 6.837087], [79.929372, 6.836706], [79.928696, 6.836494]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 397207334,
+  "name": "Benfella Kaka Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.847882, 7.223101], [81.848462, 7.222923], [81.848618, 7.222895], [81.849368, 7.222699]]
+}

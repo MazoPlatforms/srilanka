@@ -1,0 +1,9 @@
+{
+  "id": 356425853,
+  "name": "Rajamaha Vihara Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.625667, 7.284257], [80.625748, 7.284173]]
+}

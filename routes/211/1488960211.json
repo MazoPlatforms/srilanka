@@ -1,0 +1,9 @@
+{
+  "id": 1488960211,
+  "name": "Uda Pussellawa Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.794351, 6.97087], [80.794275, 6.970828], [80.793827, 6.970795]]
+}

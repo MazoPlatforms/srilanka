@@ -1,0 +1,9 @@
+{
+  "id": 1560226153,
+  "name": "Esplanade Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.913164, 8.978198], [79.91324, 8.978261], [79.913266, 8.978288], [79.913284, 8.978311], [79.913305, 8.978342], [79.91332, 8.978383], [79.913332, 8.97845]]
+}

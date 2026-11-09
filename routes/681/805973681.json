@@ -1,0 +1,9 @@
+{
+  "id": 805973681,
+  "name": "Chariot Path Road",
+  "highway": "path",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 12, "foot": 4},
+  "coordinates": [[80.742051, 7.089955], [80.742016, 7.089995], [80.7418, 7.090089], [80.741639, 7.090096], [80.741611, 7.090117]]
+}

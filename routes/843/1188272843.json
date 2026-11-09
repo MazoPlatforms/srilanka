@@ -1,0 +1,9 @@
+{
+  "id": 1188272843,
+  "name": "Horana-Kalutara Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.017563, 6.62856], [80.017036, 6.629012], [80.01669, 6.629346]]
+}

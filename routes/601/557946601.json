@@ -1,0 +1,9 @@
+{
+  "id": 557946601,
+  "name": "baduwatta road",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[79.872097, 7.380541], [79.872782, 7.380338], [79.873231, 7.380256]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 464590682,
+  "name": "Hambantota-Wellawaya Road",
+  "highway": "trunk",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 70.0, "motorcycle": 70.0, "truck": 70.0, "foot": 5},
+  "coordinates": [[81.111031, 6.678346], [81.110941, 6.67862], [81.1107, 6.679162], [81.110347, 6.680104], [81.110251, 6.680355]]
+}

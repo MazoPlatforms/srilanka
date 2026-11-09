@@ -1,0 +1,9 @@
+{
+  "id": 454819926,
+  "name": "Park Road",
+  "highway": "secondary_link",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 35, "motorcycle": 35, "truck": 35, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.876846, 6.888929], [79.87678, 6.889007], [79.876705, 6.889057], [79.876609, 6.889088]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 526574495,
+  "name": "Weragantota-Randenigala Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.926639, 7.201914], [80.927219, 7.201678], [80.927904, 7.201435], [80.928624, 7.201333], [80.929191, 7.20132]]
+}

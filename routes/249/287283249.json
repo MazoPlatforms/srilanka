@@ -1,0 +1,9 @@
+{
+  "id": 287283249,
+  "name": "Al Muneer lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.809022, 7.36544], [81.808916, 7.365438], [81.808252, 7.365558], [81.807926, 7.365623], [81.807528, 7.365653], [81.806835, 7.365748]]
+}

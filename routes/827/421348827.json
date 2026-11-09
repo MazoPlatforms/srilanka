@@ -1,0 +1,9 @@
+{
+  "id": 421348827,
+  "name": "East Road,Rameshpuram",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.597201, 7.785561], [81.597103, 7.78555], [81.596761, 7.785368], [81.596583, 7.78526], [81.596401, 7.785169], [81.596061, 7.784919]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 351897433,
+  "name": "Lichchigewatta",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.911168, 7.134745], [79.911772, 7.13527], [79.911811, 7.135268], [79.912016, 7.134902], [79.912062, 7.134747], [79.911646, 7.134439]]
+}

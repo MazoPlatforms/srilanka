@@ -1,0 +1,9 @@
+{
+  "id": 389997731,
+  "name": "Pahalagedarawatta road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.985923, 7.049528], [79.986074, 7.049988], [79.986191, 7.050294], [79.986617, 7.050937]]
+}

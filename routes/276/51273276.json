@@ -1,0 +1,9 @@
+{
+  "id": 51273276,
+  "name": "Galpotta Street",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.862144, 6.947264], [79.86194, 6.947142], [79.86187, 6.947094], [79.861814, 6.947014], [79.861691, 6.946426], [79.861588, 6.945771]]
+}

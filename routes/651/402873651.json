@@ -1,0 +1,9 @@
+{
+  "id": 402873651,
+  "name": "Puthoor Kovil Road1st lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.493028, 9.010857], [80.493009, 9.010546], [80.493022, 9.010423]]
+}

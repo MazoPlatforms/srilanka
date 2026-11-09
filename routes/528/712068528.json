@@ -1,0 +1,9 @@
+{
+  "id": 712068528,
+  "name": "Siyambalanduwa-Damana-Ampara Road",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "foot": 5},
+  "coordinates": [[81.559373, 6.90704], [81.559397, 6.906906], [81.559404, 6.906817], [81.559396, 6.906771]]
+}

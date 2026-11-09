@@ -1,0 +1,9 @@
+{
+  "id": 826439922,
+  "name": "Hedawaggodakanda Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.372987, 6.296594], [80.372618, 6.296119], [80.372484, 6.296024], [80.37238, 6.295997], [80.372208, 6.295773], [80.372185, 6.295579]]
+}

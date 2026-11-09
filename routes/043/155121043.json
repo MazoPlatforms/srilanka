@@ -1,0 +1,9 @@
+{
+  "id": 155121043,
+  "name": "Casie Street",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.696939, 7.709027], [81.697013, 7.70932], [81.697166, 7.709764], [81.697322, 7.710224]]
+}

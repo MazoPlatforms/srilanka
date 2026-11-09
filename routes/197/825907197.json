@@ -1,0 +1,9 @@
+{
+  "id": 825907197,
+  "name": "Delgahawattha Para",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.237305, 6.372401], [80.237466, 6.372491], [80.237694, 6.372633], [80.237912, 6.372757]]
+}

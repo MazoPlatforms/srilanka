@@ -1,0 +1,9 @@
+{
+  "id": 386166205,
+  "name": "Samaya Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.962594, 7.072841], [79.962413, 7.072899], [79.962328, 7.072947], [79.962172, 7.073175], [79.961966, 7.073184]]
+}

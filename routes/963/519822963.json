@@ -1,0 +1,9 @@
+{
+  "id": 519822963,
+  "name": "Vinayakar road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.707181, 7.532488], [81.707412, 7.532143], [81.707633, 7.53179], [81.708019, 7.531186], [81.708054, 7.531131]]
+}

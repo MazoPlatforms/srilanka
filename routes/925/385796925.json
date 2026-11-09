@@ -1,0 +1,9 @@
+{
+  "id": 385796925,
+  "name": "Naavalar Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.406843, 8.22737], [81.407048, 8.227408], [81.407769, 8.227582]]
+}

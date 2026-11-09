@@ -1,0 +1,9 @@
+{
+  "id": 50543113,
+  "name": "St. Lawrence Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.864307, 6.873351], [79.864376, 6.873084], [79.864378, 6.87299], [79.864282, 6.872934], [79.862587, 6.87254]]
+}

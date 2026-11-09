@@ -1,0 +1,9 @@
+{
+  "id": 244845186,
+  "name": "Haputale-Diyatalawa Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.958157, 6.806109], [80.957974, 6.806204], [80.95765, 6.80639], [80.957499, 6.806508]]
+}

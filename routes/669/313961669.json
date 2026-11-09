@@ -1,0 +1,9 @@
+{
+  "id": 313961669,
+  "name": "Durewatta road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.004187, 7.023729], [80.004193, 7.02395], [80.004163, 7.024406], [80.004076, 7.024595], [80.004003, 7.024774], [80.003836, 7.025222]]
+}

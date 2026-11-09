@@ -1,0 +1,9 @@
+{
+  "id": 386804361,
+  "name": "Melrose Place",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.952641, 6.875855], [79.952612, 6.875874], [79.952017, 6.875905], [79.951374, 6.875928]]
+}

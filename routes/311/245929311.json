@@ -1,0 +1,9 @@
+{
+  "id": 245929311,
+  "name": "Center Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.078544, 9.722208], [80.078571, 9.722353], [80.078608, 9.722546], [80.078598, 9.722649], [80.07848, 9.722692], [80.077235, 9.722771]]
+}

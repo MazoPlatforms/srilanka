@@ -1,0 +1,9 @@
+{
+  "id": 46940590,
+  "name": "Rathnakara Place",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.864216, 6.860279], [79.861715, 6.860011], [79.860409, 6.859854], [79.860336, 6.859845]]
+}

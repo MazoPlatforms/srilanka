@@ -1,0 +1,9 @@
+{
+  "id": 1465166607,
+  "name": "Ananda Rajakaruna Road",
+  "highway": "tertiary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40, "motorcycle": 40, "truck": 40, "bicycle": 20},
+  "coordinates": [[79.877844, 6.921268], [79.877721, 6.921274]]
+}

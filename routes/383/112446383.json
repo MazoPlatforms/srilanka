@@ -1,0 +1,9 @@
+{
+  "id": 112446383,
+  "name": "Holy Cross Avenue",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.878143, 6.778132], [79.878518, 6.778282], [79.879017, 6.778415], [79.879403, 6.778575], [79.879763, 6.778745], [79.880202, 6.778846], [79.88077, 6.778993]]
+}

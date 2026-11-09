@@ -1,0 +1,9 @@
+{
+  "id": 422172219,
+  "name": "Male Rose Park II",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.91718, 7.124717], [79.916671, 7.125121], [79.916404, 7.125351]]
+}

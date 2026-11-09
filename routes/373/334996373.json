@@ -1,0 +1,9 @@
+{
+  "id": 334996373,
+  "name": "Railway Station Road",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "bicycle": 15, "foot": 5},
+  "coordinates": [[79.941374, 6.62948], [79.94111, 6.630285], [79.94071, 6.631738], [79.940526, 6.632451], [79.940155, 6.63365], [79.941242, 6.634084]]
+}

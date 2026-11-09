@@ -1,0 +1,9 @@
+{
+  "id": 493634314,
+  "name": "Sivan Temple Back Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.708639, 7.613169], [81.708505, 7.613611]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 345488718,
+  "name": "Kandewatta Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.889852, 6.878627], [79.890473, 6.878518], [79.890749, 6.878465]]
+}

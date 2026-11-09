@@ -1,0 +1,9 @@
+{
+  "id": 376563404,
+  "name": "Abdul Jabbar Road",
+  "highway": "residential",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.862511, 6.940115], [79.862191, 6.940856]]
+}

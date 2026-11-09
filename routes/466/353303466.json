@@ -1,0 +1,9 @@
+{
+  "id": 353303466,
+  "name": "Aluthwela-Kirinde Road",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.914911, 6.799751], [80.914894, 6.799854], [80.914892, 6.799886], [80.914896, 6.799911], [80.914901, 6.799945]]
+}

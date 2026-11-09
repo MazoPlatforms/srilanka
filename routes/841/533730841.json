@@ -1,0 +1,9 @@
+{
+  "id": 533730841,
+  "name": "AGRICULTURE ROAD",
+  "highway": "track",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 15, "foot": 4},
+  "coordinates": [[81.718877, 7.706375], [81.718766, 7.706544], [81.718582, 7.706978]]
+}

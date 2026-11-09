@@ -1,0 +1,9 @@
+{
+  "id": 18598879,
+  "name": "Bambalapitiya Station Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.855404, 6.893811], [79.855322, 6.893792], [79.854631, 6.893593], [79.85448, 6.893553], [79.854388, 6.893528], [79.854139, 6.893448], [79.853571, 6.893249]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 114077375,
+  "name": "Wisman Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.950615, 7.060445], [79.950601, 7.060309], [79.950607, 7.059846], [79.950594, 7.059515], [79.949898, 7.059466]]
+}

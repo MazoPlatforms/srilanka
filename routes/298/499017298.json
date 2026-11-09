@@ -1,0 +1,9 @@
+{
+  "id": 499017298,
+  "name": "Akarella Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.639137, 6.608652], [80.639166, 6.608417]]
+}

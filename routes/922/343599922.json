@@ -1,0 +1,9 @@
+{
+  "id": 343599922,
+  "name": "Dias Terrace",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.894858, 6.851179], [79.894903, 6.851225], [79.895072, 6.851409], [79.895463, 6.851658], [79.895561, 6.851757], [79.895295, 6.852042], [79.894953, 6.852354]]
+}

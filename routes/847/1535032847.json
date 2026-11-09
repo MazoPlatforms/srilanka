@@ -1,0 +1,9 @@
+{
+  "id": 1535032847,
+  "name": "Ibbagamuwa-Kumbukgete-Madagalla Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.410767, 7.770566], [80.41114, 7.770052], [80.411229, 7.769911], [80.411326, 7.769751], [80.411446, 7.769585]]
+}

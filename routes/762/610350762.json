@@ -1,0 +1,9 @@
+{
+  "id": 610350762,
+  "name": "Aluth Wewa Rd",
+  "highway": "track",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 15, "foot": 4},
+  "coordinates": [[80.113242, 7.66061], [80.113427, 7.660476], [80.113664, 7.660354], [80.11408, 7.660208], [80.115082, 7.659745]]
+}

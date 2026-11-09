@@ -1,0 +1,9 @@
+{
+  "id": 412554374,
+  "name": "Kekirawa-Eppawala Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.596361, 8.040824], [80.596476, 8.040843], [80.596689, 8.040822], [80.596801, 8.040823], [80.596892, 8.040836], [80.596979, 8.040856]]
+}

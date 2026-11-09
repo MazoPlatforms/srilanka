@@ -1,0 +1,9 @@
+{
+  "id": 111294756,
+  "name": "Cemetery 2nd Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.844835, 7.228139], [79.844186, 7.228037], [79.843998, 7.228149], [79.843025, 7.228166]]
+}

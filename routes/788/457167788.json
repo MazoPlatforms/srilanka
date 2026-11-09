@@ -1,0 +1,9 @@
+{
+  "id": 457167788,
+  "name": "Mavadi 1st Cross",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.709476, 7.620782], [81.709169, 7.620749], [81.708542, 7.620565], [81.707993, 7.620453]]
+}

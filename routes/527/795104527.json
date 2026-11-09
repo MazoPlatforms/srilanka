@@ -1,0 +1,9 @@
+{
+  "id": 795104527,
+  "name": "Koswatta Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40, "motorcycle": 40, "truck": 40, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.90047, 6.903659], [79.900425, 6.904073], [79.900343, 6.904574]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 621059037,
+  "name": "causeway",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.142668, 9.824282], [80.142635, 9.824346]]
+}

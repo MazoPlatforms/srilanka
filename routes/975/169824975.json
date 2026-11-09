@@ -1,0 +1,9 @@
+{
+  "id": 169824975,
+  "name": "Kottagala Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.430655, 6.897524], [81.431037, 6.898753], [81.431068, 6.898867], [81.431072, 6.89899], [81.431029, 6.899402]]
+}

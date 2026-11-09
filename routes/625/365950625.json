@@ -1,0 +1,9 @@
+{
+  "id": 365950625,
+  "name": "Hungama-Angunukolapelessa Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.931975, 6.110028], [80.931922, 6.110344], [80.931778, 6.111088], [80.931637, 6.111755], [80.931414, 6.112787], [80.931402, 6.112884], [80.931399, 6.113013], [80.931409, 6.113137]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 609283182,
+  "name": "Pubbiliya Wewa Rd",
+  "highway": "track",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 15, "foot": 4},
+  "coordinates": [[80.152109, 7.681057], [80.152282, 7.681109], [80.152893, 7.681126], [80.152906, 7.680841], [80.15292, 7.680552]]
+}

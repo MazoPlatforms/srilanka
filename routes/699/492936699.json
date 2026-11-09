@@ -1,0 +1,9 @@
+{
+  "id": 492936699,
+  "name": "Keerthi Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.411858, 8.199683], [81.412083, 8.19971], [81.412896, 8.199777], [81.412928, 8.199723], [81.413885, 8.199782]]
+}

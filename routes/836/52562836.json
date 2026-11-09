@@ -1,0 +1,9 @@
+{
+  "id": 52562836,
+  "name": "Spathodea Avenue",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.865394, 6.890564], [79.865543, 6.88993], [79.865546, 6.889868]]
+}

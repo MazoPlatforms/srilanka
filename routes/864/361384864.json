@@ -1,0 +1,9 @@
+{
+  "id": 361384864,
+  "name": "Harold Herath Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.821028, 7.391732], [79.821817, 7.391888], [79.822659, 7.391999], [79.824252, 7.392211], [79.826984, 7.39254], [79.829355, 7.392848], [79.832019, 7.39314]]
+}

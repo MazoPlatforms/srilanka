@@ -1,0 +1,9 @@
+{
+  "id": 182130442,
+  "name": "Swarna Chaitya Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.871156, 6.94586], [79.871466, 6.945547]]
+}

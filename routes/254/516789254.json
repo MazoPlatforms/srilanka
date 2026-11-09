@@ -1,0 +1,9 @@
+{
+  "id": 516789254,
+  "name": "Halgahadeniya Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.917315, 6.919781], [79.917316, 6.91987], [79.917337, 6.920042], [79.917407, 6.920194], [79.917484, 6.92024]]
+}

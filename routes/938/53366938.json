@@ -1,0 +1,9 @@
+{
+  "id": 53366938,
+  "name": "Kirulapana Masjid Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.88083, 6.875835], [79.880619, 6.875711], [79.879848, 6.87524]]
+}

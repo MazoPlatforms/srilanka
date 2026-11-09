@@ -1,0 +1,9 @@
+{
+  "id": 1347743272,
+  "name": "Jaffna Karainagar 4th lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.96353, 9.752752], [79.963341, 9.752295], [79.963285, 9.752174], [79.963186, 9.752014]]
+}

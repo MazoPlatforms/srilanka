@@ -1,0 +1,9 @@
+{
+  "id": 1498543793,
+  "name": "Tissa-Akurugoda Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 70.0, "motorcycle": 70.0, "truck": 70.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.291712, 6.280677], [81.291768, 6.280582]]
+}

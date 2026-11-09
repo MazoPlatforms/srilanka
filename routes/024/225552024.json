@@ -1,0 +1,9 @@
+{
+  "id": 225552024,
+  "name": "Manikhinna - Narampanawa Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.698894, 7.317832], [80.699112, 7.318259], [80.699282, 7.318583], [80.699506, 7.318842]]
+}

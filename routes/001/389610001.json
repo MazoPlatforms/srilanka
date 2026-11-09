@@ -1,0 +1,9 @@
+{
+  "id": 389610001,
+  "name": "Galigamuwa-Ruwanwella Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.269521, 7.073259], [80.2693, 7.072982]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 1312152101,
+  "name": "Airport Entrance Road",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 35, "motorcycle": 35, "bicycle": 15, "foot": 5},
+  "coordinates": [[79.884804, 7.170195], [79.885114, 7.17059], [79.885433, 7.170992], [79.885779, 7.171375]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 411931460,
+  "name": "Vairavar Kovil 8th Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.491013, 8.759248], [80.491207, 8.7592], [80.491538, 8.759081], [80.492052, 8.758961]]
+}

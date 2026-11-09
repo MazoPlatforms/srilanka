@@ -1,0 +1,9 @@
+{
+  "id": 497928527,
+  "name": "Gankanda Road (Pasel Mawatha)",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.539468, 6.626771], [80.539323, 6.626616], [80.539066, 6.626334], [80.538777, 6.625684]]
+}

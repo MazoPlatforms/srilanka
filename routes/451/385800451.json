@@ -1,0 +1,9 @@
+{
+  "id": 385800451,
+  "name": "Kiulakkaddu Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.325746, 8.14117], [81.325581, 8.141128], [81.32492, 8.140966], [81.324783, 8.140953], [81.324642, 8.140842], [81.324241, 8.140657], [81.323859, 8.140259]]
+}

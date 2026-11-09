@@ -1,0 +1,9 @@
+{
+  "id": 698309417,
+  "name": "National Basilica Mawatha",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.921761, 7.028327], [79.921806, 7.028486], [79.921831, 7.028629]]
+}

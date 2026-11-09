@@ -1,0 +1,9 @@
+{
+  "id": 580831237,
+  "name": "Kadawatha-Ganemulla Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 55, "motorcycle": 55, "truck": 50, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.954235, 7.005019], [79.954268, 7.004776]]
+}

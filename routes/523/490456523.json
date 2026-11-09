@@ -1,0 +1,9 @@
+{
+  "id": 490456523,
+  "name": "Deltota Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.766509, 7.107644], [80.766539, 7.107803]]
+}

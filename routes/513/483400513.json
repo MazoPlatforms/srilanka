@@ -1,0 +1,9 @@
+{
+  "id": 483400513,
+  "name": "Rasanayagam 1st cross",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.599059, 7.782404], [81.599245, 7.782234]]
+}

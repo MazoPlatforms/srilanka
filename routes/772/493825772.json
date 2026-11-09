@@ -1,0 +1,9 @@
+{
+  "id": 493825772,
+  "name": "Farm Internal Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.70547, 7.619832], [81.7054, 7.620367]]
+}

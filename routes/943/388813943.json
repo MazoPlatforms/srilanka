@@ -1,0 +1,9 @@
+{
+  "id": 388813943,
+  "name": "Kekunahena Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.981035, 7.040463], [79.981263, 7.040469], [79.982432, 7.040496]]
+}

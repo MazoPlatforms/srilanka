@@ -1,0 +1,9 @@
+{
+  "id": 180525852,
+  "name": "9th Cross Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.885391, 6.990423], [79.885324, 6.989782], [79.885318, 6.989723], [79.885329, 6.989615], [79.885368, 6.989592]]
+}

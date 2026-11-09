@@ -1,0 +1,9 @@
+{
+  "id": 222852329,
+  "name": "University acsess road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.193545, 6.079819], [80.193387, 6.079742], [80.193218, 6.07967], [80.192952, 6.079595], [80.192657, 6.079563], [80.192605, 6.07954]]
+}

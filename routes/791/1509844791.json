@@ -1,0 +1,9 @@
+{
+  "id": 1509844791,
+  "name": "Ratnapura-Palabaddala Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.43726, 6.726116], [80.437329, 6.72609], [80.437416, 6.726076]]
+}

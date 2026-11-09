@@ -1,0 +1,9 @@
+{
+  "id": 48703019,
+  "name": "Mews Street",
+  "highway": "residential",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.850341, 6.925925], [79.851035, 6.925667], [79.851165, 6.925389], [79.851684, 6.925525]]
+}

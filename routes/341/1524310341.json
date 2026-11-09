@@ -1,0 +1,9 @@
+{
+  "id": 1524310341,
+  "name": "Akkaraipattu-Varipathanchenai Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.746451, 7.217282], [81.746461, 7.217161]]
+}

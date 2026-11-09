@@ -1,0 +1,9 @@
+{
+  "id": 1092505087,
+  "name": "Cambridge Terrace",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.936411, 6.886254], [79.935902, 6.886199], [79.93565, 6.886185]]
+}

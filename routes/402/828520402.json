@@ -1,0 +1,9 @@
+{
+  "id": 828520402,
+  "name": "Koon Gaha Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.291733, 6.007574], [80.291933, 6.007503], [80.291994, 6.007466], [80.292029, 6.007317], [80.292087, 6.007264], [80.292313, 6.007248], [80.292636, 6.007266]]
+}

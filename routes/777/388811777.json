@@ -1,0 +1,9 @@
+{
+  "id": 388811777,
+  "name": "Wakanda road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.94285, 7.067051], [79.942887, 7.066946], [79.942958, 7.066653], [79.943001, 7.06649], [79.943156, 7.066137], [79.943318, 7.065896], [79.943456, 7.065743]]
+}

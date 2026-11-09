@@ -1,0 +1,9 @@
+{
+  "id": 179548797,
+  "name": "10th Cross",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.668689, 7.7124], [81.669534, 7.712451], [81.670019, 7.7124], [81.670988, 7.712351], [81.671446, 7.712337], [81.671817, 7.712369]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 287438520,
+  "name": "Bazar 5th Street",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.804868, 7.371339], [81.804859, 7.371208], [81.804852, 7.370819], [81.804694, 7.369716], [81.804593, 7.369313]]
+}

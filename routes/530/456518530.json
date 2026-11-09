@@ -1,0 +1,9 @@
+{
+  "id": 456518530,
+  "name": "Upstair Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.536301, 7.92592], [81.53627, 7.925754], [81.536211, 7.924644], [81.53616, 7.923957]]
+}

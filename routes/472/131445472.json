@@ -1,0 +1,9 @@
+{
+  "id": 131445472,
+  "name": "Horana Road",
+  "highway": "trunk",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 70.0, "motorcycle": 70.0, "truck": 70.0, "foot": 5},
+  "coordinates": [[80.007667, 6.718507], [80.007545, 6.718508]]
+}

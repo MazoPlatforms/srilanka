@@ -1,0 +1,9 @@
+{
+  "id": 387276649,
+  "name": "Sumedha Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.980908, 7.066003], [79.980627, 7.065481], [79.980461, 7.065207], [79.980397, 7.064981]]
+}

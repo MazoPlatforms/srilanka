@@ -1,0 +1,9 @@
+{
+  "id": 457852865,
+  "name": "Thumpankrny 5th concret cross road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.709696, 7.538665], [81.709694, 7.538496], [81.709785, 7.53776], [81.709906, 7.537312]]
+}

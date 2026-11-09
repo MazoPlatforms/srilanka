@@ -1,0 +1,9 @@
+{
+  "id": 360844009,
+  "name": "Pemapala Mawata",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.546904, 5.966337], [80.547013, 5.966233], [80.547038, 5.966063], [80.547339, 5.965967], [80.547397, 5.965266], [80.54765, 5.965245], [80.547724, 5.965239]]
+}

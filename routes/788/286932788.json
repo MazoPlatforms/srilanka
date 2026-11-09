@@ -1,0 +1,9 @@
+{
+  "id": 286932788,
+  "name": "Amparai 2nd Street",
+  "highway": "residential",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.802104, 7.362083], [81.802062, 7.36181], [81.801887, 7.360935]]
+}

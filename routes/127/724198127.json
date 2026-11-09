@@ -1,0 +1,9 @@
+{
+  "id": 724198127,
+  "name": "Thunadahena Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.9802, 6.907828], [79.980441, 6.907745]]
+}

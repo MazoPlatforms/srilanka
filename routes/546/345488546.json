@@ -1,0 +1,9 @@
+{
+  "id": 345488546,
+  "name": "Senanayake Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.888255, 6.888804], [79.887942, 6.888621], [79.887775, 6.88852], [79.887642, 6.88844], [79.887447, 6.888376]]
+}

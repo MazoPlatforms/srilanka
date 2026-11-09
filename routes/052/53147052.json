@@ -1,0 +1,9 @@
+{
+  "id": 53147052,
+  "name": "Mahawela Place",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.87873, 6.875039], [79.878543, 6.874992], [79.87827, 6.87495], [79.877677, 6.874847]]
+}

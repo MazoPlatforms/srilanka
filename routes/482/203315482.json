@@ -1,0 +1,9 @@
+{
+  "id": 203315482,
+  "name": "6th Lane Kandawatta Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.92848, 6.897991], [79.928243, 6.897955], [79.927989, 6.897925], [79.92794, 6.897893], [79.927809, 6.897701], [79.927675, 6.897538]]
+}

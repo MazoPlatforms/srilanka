@@ -1,0 +1,9 @@
+{
+  "id": 390190675,
+  "name": "Rasaiah Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.44934, 8.087925], [81.449287, 8.08825], [81.449352, 8.088466], [81.449342, 8.088589], [81.44934, 8.088616], [81.449231, 8.089617]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 400544139,
+  "name": "Chithra Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.993183, 7.037384], [79.993342, 7.037318], [79.993682, 7.037206], [79.993937, 7.03708], [79.994251, 7.036938]]
+}

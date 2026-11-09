@@ -1,0 +1,9 @@
+{
+  "id": 128352724,
+  "name": "Badulla-Bandarawela Road",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 70.0, "motorcycle": 70.0, "truck": 70.0, "foot": 5},
+  "coordinates": [[81.021408, 6.855906], [81.021586, 6.856289], [81.021736, 6.856615], [81.021854, 6.856789], [81.021914, 6.856872]]
+}

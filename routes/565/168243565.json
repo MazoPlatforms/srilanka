@@ -1,0 +1,9 @@
+{
+  "id": 168243565,
+  "name": "Uyankele Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.905826, 6.704728], [79.906295, 6.704887], [79.906827, 6.705066], [79.907519, 6.705329], [79.90835, 6.705643], [79.908392, 6.70566], [79.908976, 6.705836]]
+}

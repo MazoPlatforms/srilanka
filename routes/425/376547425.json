@@ -1,0 +1,9 @@
+{
+  "id": 376547425,
+  "name": "Keragala Avenue",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.86033, 6.950065], [79.859739, 6.950142], [79.859724, 6.950151], [79.859721, 6.950167], [79.85983, 6.950807]]
+}

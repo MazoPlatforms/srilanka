@@ -1,0 +1,9 @@
+{
+  "id": 712679683,
+  "name": "Hotel Grand Guardian",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 15.0, "motorcycle": 15.0, "truck": 15.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.383795, 6.73654], [80.384344, 6.736049], [80.384512, 6.735924]]
+}

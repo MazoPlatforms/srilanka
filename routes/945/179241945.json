@@ -1,0 +1,9 @@
+{
+  "id": 179241945,
+  "name": "7th Cross",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.56653, 7.816781], [81.565927, 7.817319], [81.565869, 7.817371], [81.565111, 7.818014]]
+}

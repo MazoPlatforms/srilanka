@@ -1,0 +1,9 @@
+{
+  "id": 397065890,
+  "name": "Elgin - Maria Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.713272, 6.898203], [80.713171, 6.898237], [80.712934, 6.898754], [80.712508, 6.899737], [80.712444, 6.899896]]
+}

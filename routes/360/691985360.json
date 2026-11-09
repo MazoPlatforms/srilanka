@@ -1,0 +1,9 @@
+{
+  "id": 691985360,
+  "name": "Baily Road",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
+  "coordinates": [[81.701158, 7.720463], [81.701205, 7.720494], [81.701693, 7.720781], [81.701948, 7.720941]]
+}

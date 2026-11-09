@@ -1,0 +1,9 @@
+{
+  "id": 550805867,
+  "name": "Polgahawela-Kegalle Old Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.303469, 7.330104], [80.303561, 7.330056], [80.303618, 7.330014], [80.303719, 7.329935], [80.303779, 7.32989], [80.303832, 7.329847]]
+}

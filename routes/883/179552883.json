@@ -1,0 +1,9 @@
+{
+  "id": 179552883,
+  "name": "Paddalipuram Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.636314, 7.716397], [81.636734, 7.71637], [81.637435, 7.71628], [81.637756, 7.716228], [81.638081, 7.716201], [81.638535, 7.716164]]
+}

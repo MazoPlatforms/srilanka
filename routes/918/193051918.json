@@ -1,0 +1,9 @@
+{
+  "id": 193051918,
+  "name": "Mahinda Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.782893, 6.97083], [80.782888, 6.970377], [80.782905, 6.969983], [80.782894, 6.969716], [80.782801, 6.96952]]
+}

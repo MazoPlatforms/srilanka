@@ -1,0 +1,9 @@
+{
+  "id": 417441366,
+  "name": "William Gopallawa Mawatha",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.632819, 7.289948], [80.632791, 7.290024], [80.63274, 7.290106], [80.632708, 7.290139], [80.632667, 7.290181], [80.632624, 7.290225]]
+}

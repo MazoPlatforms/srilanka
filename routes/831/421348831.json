@@ -1,0 +1,9 @@
+{
+  "id": 421348831,
+  "name": "Parangiyar Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.599565, 7.780574], [81.599261, 7.780741], [81.599127, 7.780854], [81.598962, 7.781042], [81.59883, 7.781095], [81.598662, 7.781265]]
+}

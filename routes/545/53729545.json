@@ -1,0 +1,9 @@
+{
+  "id": 53729545,
+  "name": "Sigiriya Gardens",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.855859, 6.901788], [79.856041, 6.901255]]
+}

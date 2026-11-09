@@ -1,0 +1,9 @@
+{
+  "id": 413077126,
+  "name": "Market Circular Road 2nd Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.500134, 8.755935], [80.500624, 8.755819]]
+}

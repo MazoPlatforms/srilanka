@@ -1,0 +1,9 @@
+{
+  "id": 497596623,
+  "name": "Karaveddyaaru Road",
+  "highway": "track",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 15, "foot": 4},
+  "coordinates": [[81.559512, 7.608481], [81.559674, 7.608495], [81.559752, 7.608491], [81.559943, 7.608479], [81.560111, 7.608535], [81.560213, 7.608623]]
+}

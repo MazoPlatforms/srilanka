@@ -1,0 +1,9 @@
+{
+  "id": 330539972,
+  "name": "Playground Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.899941, 7.112764], [79.899942, 7.112308], [79.899943, 7.111816], [79.899946, 7.111408]]
+}

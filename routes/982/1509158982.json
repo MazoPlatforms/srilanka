@@ -1,0 +1,9 @@
+{
+  "id": 1509158982,
+  "name": "Bodagma-Hambegamuwa-Kaltota Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.02252, 6.449264], [81.022742, 6.449286]]
+}

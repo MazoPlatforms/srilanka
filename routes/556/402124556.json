@@ -1,0 +1,9 @@
+{
+  "id": 402124556,
+  "name": "Parisankulam Puthiyakudiyerupu Internal Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.522828, 8.985992], [80.522837, 8.985066], [80.522849, 8.98401], [80.522918, 8.983843], [80.523054, 8.983829], [80.523578, 8.983761], [80.523996, 8.983732], [80.524517, 8.98375], [80.52461, 8.983723], [80.52473, 8.981803]]
+}

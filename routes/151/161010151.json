@@ -1,0 +1,9 @@
+{
+  "id": 161010151,
+  "name": "Kandy Road 15th Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.49048, 8.739978], [80.491598, 8.739596], [80.4928, 8.739172]]
+}

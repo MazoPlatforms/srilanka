@@ -1,0 +1,9 @@
+{
+  "id": 457127151,
+  "name": "Vand road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.691192, 7.507702], [81.691342, 7.507571], [81.691466, 7.50747], [81.691613, 7.507435], [81.691825, 7.507443], [81.692163, 7.507342], [81.692316, 7.507127]]
+}

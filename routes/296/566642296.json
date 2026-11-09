@@ -1,0 +1,9 @@
+{
+  "id": 566642296,
+  "name": "Galabodawatta Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.219722, 6.072773], [80.219867, 6.072821], [80.220001, 6.072867], [80.220138, 6.072901], [80.220282, 6.072899], [80.220545, 6.072843], [80.220934, 6.072816]]
+}

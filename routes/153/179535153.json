@@ -1,0 +1,9 @@
+{
+  "id": 179535153,
+  "name": "Thamotharam Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.601764, 7.776499], [81.601865, 7.776878], [81.601904, 7.777133], [81.601918, 7.777788]]
+}

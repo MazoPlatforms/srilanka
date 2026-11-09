@@ -1,0 +1,9 @@
+{
+  "id": 402068014,
+  "name": "Ramanoor Puliyankulam Kudiyurupu 2nd Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.51809, 8.949064], [80.518799, 8.948666], [80.519657, 8.948415], [80.520117, 8.948263]]
+}

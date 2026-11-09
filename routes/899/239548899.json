@@ -1,0 +1,9 @@
+{
+  "id": 239548899,
+  "name": "Vipulanantha Puram 1st Cross",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "bicycle": 15, "foot": 5},
+  "coordinates": [[81.601202, 7.788492], [81.601461, 7.788284], [81.601687, 7.78812], [81.602138, 7.787832], [81.602799, 7.787443]]
+}

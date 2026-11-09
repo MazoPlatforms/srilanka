@@ -1,0 +1,9 @@
+{
+  "id": 423564296,
+  "name": "Seeduwa-Kotugoda Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.906622, 7.128436], [79.906683, 7.128385]]
+}

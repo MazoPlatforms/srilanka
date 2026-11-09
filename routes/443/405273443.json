@@ -1,0 +1,9 @@
+{
+  "id": 405273443,
+  "name": "Pantalin Weedhi sub Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.886442, 7.090638], [79.886257, 7.090596], [79.886, 7.090563], [79.885683, 7.090555], [79.885391, 7.090568], [79.885311, 7.090579]]
+}

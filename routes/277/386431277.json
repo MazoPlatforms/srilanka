@@ -1,0 +1,9 @@
+{
+  "id": 386431277,
+  "name": "Muhuppu Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.957881, 7.079935], [79.95788, 7.079901], [79.957842, 7.079848], [79.95762, 7.079538], [79.95739, 7.079339]]
+}

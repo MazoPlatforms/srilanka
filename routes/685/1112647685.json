@@ -1,0 +1,9 @@
+{
+  "id": 1112647685,
+  "name": "Welakumbura Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.965885, 6.784627], [79.965921, 6.784485], [79.966456, 6.78292]]
+}

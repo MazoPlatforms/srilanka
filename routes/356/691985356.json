@@ -1,0 +1,9 @@
+{
+  "id": 691985356,
+  "name": "Station Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.702776, 7.721711], [81.702735, 7.721753], [81.702598, 7.721873]]
+}

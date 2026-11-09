@@ -1,0 +1,9 @@
+{
+  "id": 775561264,
+  "name": "Wewalwala Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.211589, 6.056994], [80.211648, 6.056758], [80.211786, 6.056601], [80.212002, 6.055589], [80.212, 6.055146], [80.211996, 6.054526]]
+}

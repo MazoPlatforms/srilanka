@@ -1,0 +1,9 @@
+{
+  "id": 709360584,
+  "name": "Jayathunge Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.907129, 6.730198], [79.907251, 6.730202], [79.907523, 6.730182], [79.907651, 6.730161], [79.907702, 6.730171], [79.907717, 6.730241], [79.907744, 6.730761]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 354005723,
+  "name": "Alahenegama Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.000298, 7.673145], [80.001142, 7.673208], [80.001977, 7.673309], [80.002213, 7.673282], [80.003622, 7.672811], [80.003713, 7.672794], [80.003787, 7.672805]]
+}

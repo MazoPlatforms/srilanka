@@ -1,0 +1,9 @@
+{
+  "id": 28516330,
+  "name": "De Croos Street",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.84071, 7.209762], [79.840431, 7.21044], [79.840266, 7.210948]]
+}

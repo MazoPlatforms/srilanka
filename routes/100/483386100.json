@@ -1,0 +1,9 @@
+{
+  "id": 483386100,
+  "name": "Anpalakan Road",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 15, "motorcycle": 15, "bicycle": 15, "foot": 5},
+  "coordinates": [[81.482864, 7.596742], [81.483405, 7.596372], [81.483978, 7.596007]]
+}

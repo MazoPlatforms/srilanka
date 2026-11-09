@@ -1,0 +1,9 @@
+{
+  "id": 517545151,
+  "name": "Kekulawala Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.307307, 7.699651], [80.306762, 7.699059], [80.306585, 7.698774], [80.306475, 7.698397]]
+}

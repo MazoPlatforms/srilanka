@@ -1,0 +1,9 @@
+{
+  "id": 50178814,
+  "name": "Gunarathne Mawatha",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.954456, 6.977081], [79.954438, 6.977165], [79.954424, 6.977271], [79.954413, 6.977477], [79.954383, 6.977672]]
+}

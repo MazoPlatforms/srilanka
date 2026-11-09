@@ -1,0 +1,9 @@
+{
+  "id": 340554680,
+  "name": "Pinthaliya Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.94995, 7.000953], [79.950014, 7.00085], [79.950202, 7.000474]]
+}

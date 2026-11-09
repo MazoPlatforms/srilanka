@@ -1,0 +1,9 @@
+{
+  "id": 172273542,
+  "name": "Wickramabahu Lane 1",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.564624, 7.153442], [80.564665, 7.153103], [80.564765, 7.152485], [80.564973, 7.151549], [80.565093, 7.151226], [80.565204, 7.150919], [80.565484, 7.150374]]
+}

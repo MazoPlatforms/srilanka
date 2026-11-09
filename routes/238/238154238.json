@@ -1,0 +1,9 @@
+{
+  "id": 238154238,
+  "name": "Maple Leaf road",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 15, "motorcycle": 15, "bicycle": 15, "foot": 5},
+  "coordinates": [[79.842362, 7.251437], [79.842816, 7.251457], [79.84287, 7.251459]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 205040955,
+  "name": "Waskaduwa-Bandaragama Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 70.0, "motorcycle": 70.0, "truck": 70.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.980494, 6.686261], [79.980392, 6.68662]]
+}

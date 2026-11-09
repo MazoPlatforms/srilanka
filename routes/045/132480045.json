@@ -1,0 +1,9 @@
+{
+  "id": 132480045,
+  "name": "Vinyagar Playground Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.76853, 9.215003], [80.768326, 9.215075], [80.767736, 9.215367], [80.766899, 9.215885], [80.76657, 9.216039], [80.764837, 9.216969]]
+}

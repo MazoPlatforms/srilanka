@@ -1,0 +1,9 @@
+{
+  "id": 179537262,
+  "name": "Beake House Cross Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.572019, 7.804514], [81.571665, 7.80499], [81.571504, 7.805166], [81.570874, 7.805558], [81.5706, 7.805737], [81.569719, 7.80634], [81.568978, 7.806734]]
+}

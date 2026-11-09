@@ -1,0 +1,9 @@
+{
+  "id": 1298024177,
+  "name": "Kappalgama Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.527662, 8.019802], [80.527206, 8.019923], [80.526803, 8.020011], [80.5238, 8.020128], [80.522384, 8.020152]]
+}

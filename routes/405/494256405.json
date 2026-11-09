@@ -1,0 +1,9 @@
+{
+  "id": 494256405,
+  "name": "Cambridge Court 2nd Lane",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[79.950423, 6.877099], [79.95062, 6.87672], [79.950681, 6.876679], [79.951074, 6.876749], [79.951301, 6.87679]]
+}

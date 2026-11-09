@@ -1,0 +1,9 @@
+{
+  "id": 287525024,
+  "name": "Bazar 16th Street",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.799429, 7.372275], [81.799454, 7.371759], [81.799397, 7.371186], [81.799403, 7.370766]]
+}

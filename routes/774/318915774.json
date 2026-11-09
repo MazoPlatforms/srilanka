@@ -1,0 +1,9 @@
+{
+  "id": 318915774,
+  "name": "Damitha Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.565069, 6.078089], [80.565267, 6.078028], [80.565715, 6.077983], [80.565962, 6.077906], [80.566068, 6.077831]]
+}

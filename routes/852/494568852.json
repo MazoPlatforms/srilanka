@@ -1,0 +1,9 @@
+{
+  "id": 494568852,
+  "name": "Kali Kovi Road 7 st Cross",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[81.743324, 7.593855], [81.743164, 7.593849], [81.742437, 7.59374]]
+}

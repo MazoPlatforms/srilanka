@@ -1,0 +1,9 @@
+{
+  "id": 390429829,
+  "name": "Hetti Veediya",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.422119, 5.968964], [80.422128, 5.96886], [80.422123, 5.968791]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 227637855,
+  "name": "Pradeep Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.92647, 7.037823], [79.926567, 7.036482], [79.926583, 7.036354], [79.926607, 7.036267]]
+}

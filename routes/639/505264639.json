@@ -1,0 +1,9 @@
+{
+  "id": 505264639,
+  "name": "Coniston Place",
+  "highway": "pedestrian",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 10, "foot": 5},
+  "coordinates": [[79.866997, 6.899336], [79.86656, 6.899234]]
+}

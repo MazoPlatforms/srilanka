@@ -1,0 +1,9 @@
+{
+  "id": 1095072636,
+  "name": "Welsiri Mawatha",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[79.951626, 6.882007], [79.951367, 6.88161], [79.951351, 6.881531], [79.951675, 6.881179], [79.951765, 6.880934]]
+}

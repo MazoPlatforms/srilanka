@@ -1,0 +1,9 @@
+{
+  "id": 494229487,
+  "name": "Elhena Road",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[79.921931, 6.849528], [79.922169, 6.849078], [79.922411, 6.848639]]
+}

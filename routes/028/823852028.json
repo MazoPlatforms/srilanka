@@ -1,0 +1,9 @@
+{
+  "id": 823852028,
+  "name": "Bodi Rukkaramaya Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.074776, 6.675139], [80.074985, 6.67507], [80.075676, 6.674869], [80.075781, 6.674827], [80.075827, 6.674726], [80.075882, 6.674644], [80.075958, 6.674539]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 24745857,
+  "name": "Elibank Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.86171, 6.887353], [79.862135, 6.886602], [79.862983, 6.885103], [79.863494, 6.884205], [79.863738, 6.883775]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 224829604,
+  "name": "Kangaratnam Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.682503, 7.700716], [81.682418, 7.700735], [81.682307, 7.700756]]
+}

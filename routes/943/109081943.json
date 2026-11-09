@@ -1,0 +1,9 @@
+{
+  "id": 109081943,
+  "name": "Upul Place",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.875669, 6.825904], [79.875937, 6.825396], [79.876394, 6.82453]]
+}

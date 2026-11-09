@@ -1,0 +1,9 @@
+{
+  "id": 693546602,
+  "name": "Katugastota-Kurunegala-Puttalam Road",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "foot": 5},
+  "coordinates": [[80.221021, 7.655668], [80.221052, 7.655442], [80.221053, 7.655319]]
+}

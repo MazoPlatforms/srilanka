@@ -1,0 +1,9 @@
+{
+  "id": 1571797498,
+  "name": "Uththararamaya Road",
+  "highway": "tertiary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.91261, 7.116919], [79.911976, 7.116926]]
+}

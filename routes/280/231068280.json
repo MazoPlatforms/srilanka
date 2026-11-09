@@ -1,0 +1,9 @@
+{
+  "id": 231068280,
+  "name": "Hulftsdorp Link",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.863335, 6.936696], [79.86274, 6.936876], [79.862223, 6.937022], [79.861598, 6.937049], [79.860905, 6.937139]]
+}

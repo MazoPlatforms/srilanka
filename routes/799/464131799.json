@@ -1,0 +1,9 @@
+{
+  "id": 464131799,
+  "name": "Vijaya Fernando road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.897563, 7.202049], [79.897799, 7.202044], [79.898374, 7.202042]]
+}

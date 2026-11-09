@@ -1,0 +1,9 @@
+{
+  "id": 704741535,
+  "name": "Raniswala sapugasthenna Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.043671, 7.122617], [80.043848, 7.122852], [80.043988, 7.122962], [80.044015, 7.123122], [80.043919, 7.123287], [80.04386, 7.123442], [80.043849, 7.123532], [80.04388, 7.123764]]
+}

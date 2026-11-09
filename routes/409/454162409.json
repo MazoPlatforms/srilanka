@@ -1,0 +1,9 @@
+{
+  "id": 454162409,
+  "name": "Play Ground Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.53794, 7.861598], [81.538229, 7.861645], [81.538852, 7.861796], [81.539351, 7.86197]]
+}

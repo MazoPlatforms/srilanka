@@ -1,0 +1,9 @@
+{
+  "id": 108292486,
+  "name": "Saratha Street",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.233188, 8.575205], [81.232598, 8.574254], [81.232261, 8.573792], [81.232204, 8.573725]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 401866632,
+  "name": "Amman Kovil Veethy Sub Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.01331, 9.74103], [80.014402, 9.740648]]
+}

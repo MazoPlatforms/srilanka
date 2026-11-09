@@ -1,0 +1,9 @@
+{
+  "id": 387276542,
+  "name": "1st Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.965777, 7.039063], [79.965805, 7.039055], [79.966098, 7.039036], [79.966475, 7.03883]]
+}

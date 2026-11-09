@@ -1,0 +1,9 @@
+{
+  "id": 53263163,
+  "name": "Parakum Mawata",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.875727, 6.857837], [79.876516, 6.857942], [79.877128, 6.858091]]
+}

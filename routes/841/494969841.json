@@ -1,0 +1,9 @@
+{
+  "id": 494969841,
+  "name": "Passara-Madulsima-Metigahatenne Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.160076, 7.052861], [81.160154, 7.052849], [81.160232, 7.052894]]
+}

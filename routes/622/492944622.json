@@ -1,0 +1,9 @@
+{
+  "id": 492944622,
+  "name": "Vaavikarai 2nd Cross Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.4097, 8.197798], [81.409589, 8.197788], [81.409364, 8.197775]]
+}

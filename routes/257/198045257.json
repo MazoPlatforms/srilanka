@@ -1,0 +1,9 @@
+{
+  "id": 198045257,
+  "name": "Pagnaloka Mawatha",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.871199, 6.843318], [79.871178, 6.843304], [79.87113, 6.84327]]
+}

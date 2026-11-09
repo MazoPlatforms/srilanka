@@ -1,0 +1,9 @@
+{
+  "id": 575651061,
+  "name": "Water's Edge Road",
+  "highway": "service",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 35, "motorcycle": 35, "bicycle": 15, "foot": 5},
+  "coordinates": [[79.911643, 6.904131], [79.911744, 6.90408], [79.911968, 6.90389], [79.912023, 6.903825]]
+}

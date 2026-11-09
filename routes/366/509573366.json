@@ -1,0 +1,9 @@
+{
+  "id": 509573366,
+  "name": "Kawdana Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.880406, 6.840023], [79.880188, 6.840065], [79.879903, 6.840132], [79.879441, 6.840214], [79.879073, 6.840282], [79.878856, 6.84032]]
+}

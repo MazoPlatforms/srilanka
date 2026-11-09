@@ -1,0 +1,9 @@
+{
+  "id": 170299736,
+  "name": "Bazzaar Street",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.124773, 6.125941], [81.124913, 6.125415], [81.124917, 6.125403], [81.125049, 6.124986], [81.125239, 6.124509]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 50315065,
+  "name": "Dunagaha-Nilpanagoda Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.971379, 7.231643], [79.971389, 7.231228], [79.971402, 7.230515], [79.971417, 7.229884]]
+}

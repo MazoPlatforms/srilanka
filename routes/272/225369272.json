@@ -1,0 +1,9 @@
+{
+  "id": 225369272,
+  "name": "Stadium Entrance",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 15, "motorcycle": 15, "bicycle": 15, "foot": 5},
+  "coordinates": [[80.722346, 7.281646], [80.722352, 7.281981], [80.722316, 7.28217], [80.722159, 7.282508], [80.722082, 7.282674], [80.722039, 7.282861]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 109077758,
+  "name": "Alponsu Avenue",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.864089, 6.848001], [79.863574, 6.847956], [79.863109, 6.847901]]
+}

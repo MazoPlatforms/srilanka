@@ -1,0 +1,9 @@
+{
+  "id": 304931184,
+  "name": "Nelumdeniya-Kongashandiya Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.313053, 7.311237], [80.312691, 7.311061], [80.312131, 7.310786], [80.311599, 7.310677], [80.310966, 7.310593], [80.310709, 7.310535], [80.310558, 7.310466], [80.310391, 7.310314]]
+}

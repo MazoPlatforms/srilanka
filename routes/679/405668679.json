@@ -1,0 +1,9 @@
+{
+  "id": 405668679,
+  "name": "Dehiowita-Deraniyagala Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.31122, 6.956429], [80.311282, 6.956402], [80.311395, 6.956367]]
+}

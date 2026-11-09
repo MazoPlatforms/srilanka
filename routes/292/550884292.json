@@ -1,0 +1,9 @@
+{
+  "id": 550884292,
+  "name": "Kelani Velley Railway(Abandoned)",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[80.412848, 6.684311], [80.413141, 6.684164], [80.414359, 6.683588], [80.414451, 6.68353], [80.41456, 6.68342], [80.414659, 6.683249], [80.414714, 6.683045], [80.414702, 6.682831], [80.414609, 6.682407]]
+}

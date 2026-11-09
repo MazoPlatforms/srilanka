@@ -1,0 +1,9 @@
+{
+  "id": 486170225,
+  "name": "Karmanthapura Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.304598, 8.152065], [80.306773, 8.153218], [80.307763, 8.153762], [80.307783, 8.153792]]
+}

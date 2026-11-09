@@ -1,0 +1,9 @@
+{
+  "id": 1216740850,
+  "name": "rose road",
+  "highway": "track",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 15, "foot": 4},
+  "coordinates": [[80.233678, 8.275279], [80.233045, 8.277158]]
+}

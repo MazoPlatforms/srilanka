@@ -1,0 +1,9 @@
+{
+  "id": 492213101,
+  "name": "Sithivinayagar Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.689904, 7.73897], [81.689742, 7.738743], [81.688824, 7.737535]]
+}

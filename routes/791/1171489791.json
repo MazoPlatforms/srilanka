@@ -1,0 +1,9 @@
+{
+  "id": 1171489791,
+  "name": "Withanagoda Road, Indrasara Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.478617, 5.941923], [80.478611, 5.942605], [80.478402, 5.942779], [80.478051, 5.943], [80.477902, 5.943216], [80.477736, 5.943479], [80.477877, 5.943855]]
+}

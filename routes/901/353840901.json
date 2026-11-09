@@ -1,0 +1,9 @@
+{
+  "id": 353840901,
+  "name": "R. A. de Mel Mawatha",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
+  "coordinates": [[79.852643, 6.908683], [79.852824, 6.908104], [79.852906, 6.907813], [79.852995, 6.907526]]
+}

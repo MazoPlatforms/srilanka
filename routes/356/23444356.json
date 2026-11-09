@@ -1,0 +1,9 @@
+{
+  "id": 23444356,
+  "name": "Signature Road 2",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.073372, 6.719484], [80.072782, 6.719121]]
+}

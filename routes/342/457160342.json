@@ -1,0 +1,9 @@
+{
+  "id": 457160342,
+  "name": "Farm 4th Cross Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.705182, 7.622001], [81.70532, 7.622004], [81.705688, 7.622059], [81.705878, 7.622127]]
+}

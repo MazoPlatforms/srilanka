@@ -1,0 +1,9 @@
+{
+  "id": 161137964,
+  "name": "Arasadi Lane",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.488897, 8.746697], [80.489298, 8.746684], [80.489406, 8.746737], [80.489472, 8.746816], [80.489788, 8.746886], [80.491502, 8.74725]]
+}

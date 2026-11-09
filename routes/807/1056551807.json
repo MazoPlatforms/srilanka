@@ -1,0 +1,9 @@
+{
+  "id": 1056551807,
+  "name": "Pottuvil-Panama Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.813432, 6.822351], [81.813525, 6.822491], [81.813608, 6.822622], [81.813681, 6.822747], [81.81374, 6.822851]]
+}

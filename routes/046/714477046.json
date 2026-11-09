@@ -1,0 +1,9 @@
+{
+  "id": 714477046,
+  "name": "Daham Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.013926, 6.865774], [80.013806, 6.86464]]
+}

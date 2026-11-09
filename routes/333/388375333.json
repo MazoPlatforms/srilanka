@@ -1,0 +1,9 @@
+{
+  "id": 388375333,
+  "name": "Bake House 3rd Cross",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.578476, 7.81067], [81.578267, 7.810946], [81.576574, 7.812921], [81.576094, 7.812491], [81.575613, 7.812099]]
+}

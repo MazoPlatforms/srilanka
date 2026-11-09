@@ -1,0 +1,9 @@
+{
+  "id": 267019665,
+  "name": "Meda Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.010901, 6.861802], [80.011398, 6.861952], [80.011056, 6.862934], [80.010883, 6.863393], [80.010363, 6.864749]]
+}

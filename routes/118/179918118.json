@@ -1,0 +1,9 @@
+{
+  "id": 179918118,
+  "name": "Averiwatte 1st Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.896665, 6.983539], [79.896842, 6.983044], [79.896979, 6.982428], [79.897043, 6.981912], [79.897047, 6.981844], [79.897081, 6.981351], [79.897085, 6.981234]]
+}

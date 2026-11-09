@@ -1,0 +1,9 @@
+{
+  "id": 229952923,
+  "name": "2nd Cross Street",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.923337, 6.801089], [79.923116, 6.80093], [79.922747, 6.800697], [79.922664, 6.800641], [79.922478, 6.80053], [79.922294, 6.80042]]
+}

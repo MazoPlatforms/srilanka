@@ -1,0 +1,9 @@
+{
+  "id": 399557533,
+  "name": "Beach Road",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[81.858411, 7.117563], [81.857729, 7.117493], [81.856816, 7.117341], [81.856327, 7.117317]]
+}

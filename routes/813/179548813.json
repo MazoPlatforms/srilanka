@@ -1,0 +1,9 @@
+{
+  "id": 179548813,
+  "name": "14th Cross",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.673886, 7.710355], [81.672771, 7.710184], [81.67225, 7.710069]]
+}

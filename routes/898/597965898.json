@@ -1,0 +1,9 @@
+{
+  "id": 597965898,
+  "name": "Komana Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.273889, 7.354042], [81.273898, 7.35391]]
+}

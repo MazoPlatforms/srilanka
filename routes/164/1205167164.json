@@ -1,0 +1,9 @@
+{
+  "id": 1205167164,
+  "name": "Ihalawaththa",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[80.176378, 7.199967], [80.17639, 7.200057], [80.176388, 7.200185]]
+}

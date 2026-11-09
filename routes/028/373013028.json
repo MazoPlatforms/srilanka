@@ -1,0 +1,9 @@
+{
+  "id": 373013028,
+  "name": "Kovilputhukulam 2nd & 3rd lane connecting lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.509073, 8.741911], [80.509413, 8.742485], [80.509505, 8.742729], [80.509605, 8.743016]]
+}

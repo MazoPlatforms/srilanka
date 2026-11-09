@@ -1,0 +1,9 @@
+{
+  "id": 507737014,
+  "name": "Madawala - Andawala Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.672688, 7.61726], [80.672962, 7.617217]]
+}

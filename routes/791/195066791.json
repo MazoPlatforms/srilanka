@@ -1,0 +1,9 @@
+{
+  "id": 195066791,
+  "name": "Dam Road",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 15, "motorcycle": 15, "bicycle": 15, "foot": 5},
+  "coordinates": [[81.535682, 7.214366], [81.537062, 7.205306]]
+}

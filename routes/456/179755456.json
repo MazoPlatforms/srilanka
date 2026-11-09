@@ -1,0 +1,9 @@
+{
+  "id": 179755456,
+  "name": "St,. Lasarus Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.912694, 7.027873], [79.912674, 7.028156], [79.912835, 7.028555]]
+}

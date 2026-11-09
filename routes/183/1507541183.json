@@ -1,0 +1,9 @@
+{
+  "id": 1507541183,
+  "name": "Pattipola-Horton Plains Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.831192, 6.854895], [80.831163, 6.854884], [80.831135, 6.854874], [80.831122, 6.854864], [80.831118, 6.854847], [80.83112, 6.854827], [80.831137, 6.854798]]
+}

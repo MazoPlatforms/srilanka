@@ -1,0 +1,9 @@
+{
+  "id": 1216739540,
+  "name": "Atheeb'''s Street",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 24.0, "motorcycle": 24.0, "truck": 24.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.877484, 6.867752], [79.877742, 6.867749], [79.877862, 6.867708], [79.877959, 6.867665], [79.878286, 6.867714], [79.878458, 6.867757], [79.878725, 6.867805]]
+}

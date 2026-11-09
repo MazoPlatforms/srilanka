@@ -1,0 +1,9 @@
+{
+  "id": 404876845,
+  "name": "Giragama - Gorakanga Rd",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.553288, 7.271082], [80.55349, 7.271117], [80.553665, 7.271083], [80.553895, 7.270971], [80.554155, 7.271076]]
+}

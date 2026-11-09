@@ -1,0 +1,9 @@
+{
+  "id": 123246725,
+  "name": "Pimbura-Udaowita Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.130121, 6.587638], [80.130262, 6.587629]]
+}

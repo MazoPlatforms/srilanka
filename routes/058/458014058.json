@@ -1,0 +1,9 @@
+{
+  "id": 458014058,
+  "name": "Post office Road",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[81.757294, 7.578405], [81.757279, 7.578249], [81.757246, 7.578051], [81.757227, 7.577607]]
+}

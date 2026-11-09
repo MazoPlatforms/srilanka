@@ -1,0 +1,9 @@
+{
+  "id": 327566471,
+  "name": "NPMRT A Gate Entry",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 15, "motorcycle": 15, "bicycle": 15, "foot": 5},
+  "coordinates": [[79.863281, 6.911697], [79.86328, 6.911631], [79.863285, 6.91142]]
+}

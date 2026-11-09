@@ -1,0 +1,9 @@
+{
+  "id": 351911646,
+  "name": "JP Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.852113, 7.13023], [81.852119, 7.130208], [81.852708, 7.130202], [81.853335, 7.130143]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 401781065,
+  "name": "Sannasiparanthan School 1st Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.558711, 9.010375], [80.558823, 9.009817], [80.558744, 9.009768], [80.55822, 9.009495]]
+}

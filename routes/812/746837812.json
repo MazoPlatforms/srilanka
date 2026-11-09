@@ -1,0 +1,9 @@
+{
+  "id": 746837812,
+  "name": "Alvai-Nelliady-Tunnalai Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.226495, 9.782173], [80.226446, 9.782191]]
+}

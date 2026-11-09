@@ -1,0 +1,9 @@
+{
+  "id": 706229393,
+  "name": "Rajapihilla Mawatha",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.637419, 7.291249], [80.637316, 7.291244], [80.637161, 7.291237], [80.637002, 7.291232], [80.636927, 7.29123], [80.636867, 7.291217]]
+}

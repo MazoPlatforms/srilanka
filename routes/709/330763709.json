@@ -1,0 +1,9 @@
+{
+  "id": 330763709,
+  "name": "Siribopura Flyover Access Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.079691, 6.150573], [81.077214, 6.148692], [81.07696, 6.148392], [81.076822, 6.148131], [81.076773, 6.147952], [81.076545, 6.146549], [81.076442, 6.14614]]
+}

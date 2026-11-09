@@ -1,0 +1,9 @@
+{
+  "id": 377479329,
+  "name": "Henewatte Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.963973, 6.928815], [79.964802, 6.929107]]
+}

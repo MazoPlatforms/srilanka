@@ -1,0 +1,9 @@
+{
+  "id": 80444851,
+  "name": "Lucas Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.877711, 6.960129], [79.877179, 6.959943], [79.876772, 6.959751], [79.876332, 6.959219], [79.876174, 6.959246]]
+}

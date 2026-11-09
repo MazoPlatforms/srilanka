@@ -1,0 +1,9 @@
+{
+  "id": 1218686641,
+  "name": "road",
+  "highway": "footway",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 8, "foot": 5},
+  "coordinates": [[81.810153, 7.355776], [81.810193, 7.354761]]
+}

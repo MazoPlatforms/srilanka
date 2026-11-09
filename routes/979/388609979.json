@@ -1,0 +1,9 @@
+{
+  "id": 388609979,
+  "name": "Navalar3 rd Cross Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.561717, 7.824232], [81.562095, 7.823906], [81.562209, 7.823799], [81.562408, 7.823641], [81.562587, 7.823448]]
+}

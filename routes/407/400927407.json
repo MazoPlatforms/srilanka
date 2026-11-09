@@ -1,0 +1,9 @@
+{
+  "id": 400927407,
+  "name": "Welaboda Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.967343, 7.044614], [79.967702, 7.04439], [79.967987, 7.044197]]
+}

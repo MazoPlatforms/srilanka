@@ -1,0 +1,9 @@
+{
+  "id": 1553606346,
+  "name": "Welawa Wewa Rd",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.169616, 7.699024], [80.169637, 7.699572], [80.169681, 7.700701]]
+}

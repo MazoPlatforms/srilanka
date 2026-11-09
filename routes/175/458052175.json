@@ -1,0 +1,9 @@
+{
+  "id": 458052175,
+  "name": "Old Market 3rd cross",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.713707, 7.609614], [81.713692, 7.609387], [81.7138, 7.609385], [81.713792, 7.609274], [81.713825, 7.609251], [81.713828, 7.60915], [81.713813, 7.608758]]
+}

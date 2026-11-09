@@ -1,0 +1,9 @@
+{
+  "id": 702179358,
+  "name": "Wanduramba-Mapalagama Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.285571, 6.222023], [80.285612, 6.221677], [80.285661, 6.221483], [80.285704, 6.221313]]
+}

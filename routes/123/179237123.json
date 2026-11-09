@@ -1,0 +1,9 @@
+{
+  "id": 179237123,
+  "name": "Siva Bakery Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.581643, 7.79076], [81.581759, 7.791362], [81.581835, 7.791783], [81.581848, 7.791857], [81.581891, 7.792232], [81.581924, 7.79242], [81.582028, 7.792691]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 452974368,
+  "name": "Nandana Gardens",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.943447, 7.004796], [79.943202, 7.004513], [79.943033, 7.004294]]
+}

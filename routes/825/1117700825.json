@@ -1,0 +1,9 @@
+{
+  "id": 1117700825,
+  "name": "Janadhipathi Mawatha",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
+  "coordinates": [[79.842119, 6.931617], [79.842159, 6.931779], [79.842193, 6.931924]]
+}

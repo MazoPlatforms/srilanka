@@ -1,0 +1,9 @@
+{
+  "id": 714514677,
+  "name": "Gal-Anda Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.402189, 6.698468], [80.402041, 6.698574], [80.401892, 6.698708], [80.401656, 6.699156], [80.4015, 6.699367]]
+}

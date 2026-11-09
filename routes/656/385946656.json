@@ -1,0 +1,9 @@
+{
+  "id": 385946656,
+  "name": "Kallarippu Road",
+  "highway": "track",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 15, "foot": 4},
+  "coordinates": [[81.369465, 8.252427], [81.369736, 8.25203], [81.369881, 8.251867]]
+}

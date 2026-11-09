@@ -1,0 +1,9 @@
+{
+  "id": 392032975,
+  "name": "Karumariyamman Kovil Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.418364, 8.123068], [81.418559, 8.123169], [81.418816, 8.123293], [81.419748, 8.123627]]
+}

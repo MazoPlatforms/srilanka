@@ -1,0 +1,9 @@
+{
+  "id": 350710154,
+  "name": "Jayathilakawattha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.078705, 6.728692], [80.079161, 6.728789], [80.079799, 6.728913], [80.080866, 6.729174]]
+}

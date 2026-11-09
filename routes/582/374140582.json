@@ -1,0 +1,9 @@
+{
+  "id": 374140582,
+  "name": "Ettampitiya-Ketawala-Keenakele Road",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.020485, 7.01811], [81.020403, 7.018218], [81.020373, 7.018304], [81.020352, 7.018414], [81.020327, 7.018599], [81.020078, 7.018998], [81.020034, 7.019154], [81.020034, 7.019951]]
+}

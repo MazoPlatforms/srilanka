@@ -1,0 +1,9 @@
+{
+  "id": 489977621,
+  "name": "Oil Refinery-Biyagama Road (Samurdhi Mawatha)",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.992715, 6.96156], [79.993, 6.961558]]
+}

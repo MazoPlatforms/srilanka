@@ -1,0 +1,9 @@
+{
+  "id": 419902444,
+  "name": "2nd Lane Ranabima Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.952301, 6.933452], [79.952963, 6.93341], [79.953447, 6.933388], [79.953691, 6.933385]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 209515190,
+  "name": "St Annes Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.854475, 7.234234], [79.855258, 7.232633]]
+}

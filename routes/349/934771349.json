@@ -1,0 +1,9 @@
+{
+  "id": 934771349,
+  "name": "Molkawa Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.233103, 6.587856], [80.233, 6.58823]]
+}

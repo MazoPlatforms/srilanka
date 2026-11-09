@@ -1,0 +1,9 @@
+{
+  "id": 52502481,
+  "name": "Hildon Place",
+  "highway": "residential",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.860196, 6.88552], [79.860019, 6.885487], [79.858501, 6.885099]]
+}

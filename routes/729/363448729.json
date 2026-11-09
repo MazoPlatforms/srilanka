@@ -1,0 +1,9 @@
+{
+  "id": 363448729,
+  "name": "New Tissa Road",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
+  "coordinates": [[81.122221, 6.153721], [81.125458, 6.153677], [81.126078, 6.153676], [81.126521, 6.153657]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 692303724,
+  "name": "Kottagewatta Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.921719, 6.908567], [79.921545, 6.908467], [79.921421, 6.908366], [79.92135, 6.908327], [79.921121, 6.90827], [79.921036, 6.908263], [79.92063, 6.908325]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 496491021,
+  "name": "Wedderburn Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.770851, 6.970236], [80.770505, 6.970515], [80.770145, 6.970768], [80.769717, 6.971072], [80.76962, 6.971182], [80.769848, 6.971545]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 310189996,
+  "name": "Leadership Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.839223, 6.321634], [80.840575, 6.320864], [80.841417, 6.320352], [80.842662, 6.319648], [80.843799, 6.318958]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 1186640681,
+  "name": "4 th Ln",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.911196, 6.716232], [79.91128, 6.716427], [79.911445, 6.716382]]
+}

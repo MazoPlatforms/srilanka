@@ -1,0 +1,9 @@
+{
+  "id": 53367155,
+  "name": "Grero Place",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.87071, 6.877904], [79.869489, 6.877755], [79.869429, 6.877748]]
+}

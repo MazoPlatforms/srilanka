@@ -1,0 +1,9 @@
+{
+  "id": 420809663,
+  "name": "Kudakanda Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.986792, 7.112314], [79.987269, 7.112399], [79.987292, 7.11242], [79.987307, 7.112471], [79.987356, 7.113324]]
+}

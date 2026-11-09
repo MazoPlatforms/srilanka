@@ -1,0 +1,9 @@
+{
+  "id": 363168709,
+  "name": "Dharmapala Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.023009, 6.112967], [81.02284, 6.112702], [81.022518, 6.112147]]
+}

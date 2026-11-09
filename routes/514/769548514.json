@@ -1,0 +1,9 @@
+{
+  "id": 769548514,
+  "name": "Weeraketiya-Middeniya Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.763575, 6.147763], [80.763509, 6.147622]]
+}

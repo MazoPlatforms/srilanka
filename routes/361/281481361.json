@@ -1,0 +1,9 @@
+{
+  "id": 281481361,
+  "name": "Dharmawardhene Anusmarana Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.991624, 7.101675], [79.991564, 7.101859], [79.991535, 7.101971], [79.991476, 7.102144], [79.991433, 7.102277], [79.991411, 7.102375]]
+}

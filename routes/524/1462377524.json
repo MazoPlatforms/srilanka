@@ -1,0 +1,9 @@
+{
+  "id": 1462377524,
+  "name": "Pamunugama Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.868182, 7.08229], [79.868216, 7.082319], [79.868243, 7.082346], [79.868262, 7.082367], [79.868282, 7.082391], [79.868299, 7.082416]]
+}

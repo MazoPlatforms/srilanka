@@ -1,0 +1,9 @@
+{
+  "id": 470124721,
+  "name": "6th Cross",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.566116, 7.816405], [81.566386, 7.816152], [81.5667, 7.815856], [81.567039, 7.815564], [81.567604, 7.815067]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 51081924,
+  "name": "Sir Razik Fareed Mawatha",
+  "highway": "residential",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 45, "motorcycle": 45, "truck": 45, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.845621, 6.936207], [79.845531, 6.935613], [79.845471, 6.935033], [79.845398, 6.934349], [79.845385, 6.934231]]
+}

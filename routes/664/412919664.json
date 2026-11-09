@@ -1,0 +1,9 @@
+{
+  "id": 412919664,
+  "name": "Nawalapitiya Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.565024, 7.159158], [80.56501, 7.159354]]
+}

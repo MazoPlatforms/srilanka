@@ -1,0 +1,9 @@
+{
+  "id": 421284151,
+  "name": "Thamarak Keany Road 1",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.59861, 7.77676], [81.598622, 7.776768], [81.599059, 7.776813], [81.599514, 7.776891]]
+}

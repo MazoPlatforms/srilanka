@@ -1,0 +1,9 @@
+{
+  "id": 426757943,
+  "name": "Colombo - Katunayake Expressway",
+  "highway": "motorway",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 100.0, "motorcycle": 80, "truck": 70},
+  "coordinates": [[79.876755, 7.111723], [79.876648, 7.112154]]
+}

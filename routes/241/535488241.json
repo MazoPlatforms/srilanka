@@ -1,0 +1,9 @@
+{
+  "id": 535488241,
+  "name": "Vasavilan",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 15, "motorcycle": 15, "bicycle": 15, "foot": 5},
+  "coordinates": [[80.074879, 9.791662], [80.075239, 9.792162], [80.075416, 9.79242], [80.075616, 9.792835]]
+}

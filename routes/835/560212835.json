@@ -1,0 +1,9 @@
+{
+  "id": 560212835,
+  "name": "Uppuveli Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.218146, 8.598624], [81.218171, 8.598498]]
+}

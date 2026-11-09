@@ -1,0 +1,9 @@
+{
+  "id": 404511444,
+  "name": "Kurunegala-Negombo Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.353684, 7.48333], [80.354453, 7.484097], [80.35446, 7.484104]]
+}

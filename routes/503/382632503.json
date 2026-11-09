@@ -1,0 +1,9 @@
+{
+  "id": 382632503,
+  "name": "Adi Visse Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.899596, 7.026728], [79.899488, 7.026651], [79.899313, 7.026529], [79.898839, 7.026077], [79.898783, 7.026029]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 391313595,
+  "name": "Velikulam 2nd lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.519984, 8.742802], [80.519955, 8.742603], [80.519974, 8.742295], [80.520059, 8.742028], [80.520183, 8.741609], [80.5202, 8.740814]]
+}

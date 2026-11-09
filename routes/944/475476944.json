@@ -1,0 +1,9 @@
+{
+  "id": 475476944,
+  "name": "Rajagiriya Flyover",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 70, "motorcycle": 60, "truck": 50, "foot": 5},
+  "coordinates": [[79.899033, 6.908093], [79.898492, 6.90846], [79.897702, 6.908902]]
+}

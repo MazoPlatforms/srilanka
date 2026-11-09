@@ -1,0 +1,9 @@
+{
+  "id": 541340778,
+  "name": "Sri Devananda Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.903842, 6.782709], [79.903818, 6.782857], [79.903782, 6.783068], [79.903708, 6.783379], [79.903609, 6.78357], [79.903578, 6.783648]]
+}

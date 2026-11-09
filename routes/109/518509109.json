@@ -1,0 +1,9 @@
+{
+  "id": 518509109,
+  "name": "Mahabuthgamuwa Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.906776, 6.936192], [79.906752, 6.936146], [79.906531, 6.935768]]
+}

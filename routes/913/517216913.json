@@ -1,0 +1,9 @@
+{
+  "id": 517216913,
+  "name": "Samagi Place",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[79.967397, 6.90969], [79.967395, 6.909583], [79.967405, 6.909533], [79.967445, 6.909506], [79.967506, 6.90949], [79.967663, 6.909457], [79.967702, 6.909435]]
+}

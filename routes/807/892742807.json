@@ -1,0 +1,9 @@
+{
+  "id": 892742807,
+  "name": "Town Council Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.806924, 7.368131], [81.806958, 7.368146], [81.807066, 7.36816]]
+}

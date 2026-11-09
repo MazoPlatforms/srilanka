@@ -1,0 +1,9 @@
+{
+  "id": 392544163,
+  "name": "Kathiraman Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.410291, 8.190983], [81.410832, 8.191006], [81.411354, 8.191044], [81.411979, 8.191143], [81.412142, 8.191143]]
+}

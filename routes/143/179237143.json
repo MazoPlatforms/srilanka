@@ -1,0 +1,9 @@
+{
+  "id": 179237143,
+  "name": "Kaanthi Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.587013, 7.796127], [81.586176, 7.796794], [81.585282, 7.797492]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 367551422,
+  "name": "Dipot Road",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 15, "motorcycle": 15, "bicycle": 15, "foot": 5},
+  "coordinates": [[80.343122, 7.252082], [80.343606, 7.252024], [80.343694, 7.252], [80.343816, 7.251833]]
+}

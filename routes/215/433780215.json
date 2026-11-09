@@ -1,0 +1,9 @@
+{
+  "id": 433780215,
+  "name": "Krishna Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.106571, 9.74527], [80.106555, 9.745293], [80.106535, 9.745314], [80.106512, 9.745335], [80.106476, 9.745356], [80.106159, 9.745509]]
+}

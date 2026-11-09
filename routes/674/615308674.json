@@ -1,0 +1,9 @@
+{
+  "id": 615308674,
+  "name": "Bulagala road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.643703, 7.90281], [80.643541, 7.902751], [80.643013, 7.902508], [80.642711, 7.902328], [80.642528, 7.902172], [80.642301, 7.902046]]
+}

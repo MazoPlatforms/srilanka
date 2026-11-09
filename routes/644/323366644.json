@@ -1,0 +1,9 @@
+{
+  "id": 323366644,
+  "name": "Crestwood",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.937202, 6.877611], [79.936974, 6.877562], [79.936934, 6.877544], [79.936927, 6.877521], [79.937004, 6.877249], [79.937099, 6.876821]]
+}

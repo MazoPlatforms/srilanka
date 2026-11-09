@@ -1,0 +1,9 @@
+{
+  "id": 483605439,
+  "name": "Tharavaichchenai 1 st Cross Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.620404, 7.768183], [81.620838, 7.767964]]
+}

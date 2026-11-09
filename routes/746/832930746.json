@@ -1,0 +1,9 @@
+{
+  "id": 832930746,
+  "name": "Atagovipala Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.326902, 6.289396], [80.327236, 6.289518], [80.327359, 6.2895], [80.327126, 6.28973], [80.327187, 6.290062], [80.327745, 6.29111]]
+}

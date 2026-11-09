@@ -1,0 +1,9 @@
+{
+  "id": 420686074,
+  "name": "Eksath Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.884494, 7.127677], [79.884363, 7.127641], [79.884227, 7.127605], [79.883891, 7.127568], [79.883022, 7.127526]]
+}

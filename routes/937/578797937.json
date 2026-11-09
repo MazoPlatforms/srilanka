@@ -1,0 +1,9 @@
+{
+  "id": 578797937,
+  "name": "Haputale Road 2nd Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.986301, 6.8297], [80.986254, 6.829667], [80.986227, 6.829629], [80.986243, 6.829489], [80.986229, 6.829458], [80.986113, 6.829344]]
+}

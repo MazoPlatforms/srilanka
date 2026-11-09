@@ -1,0 +1,9 @@
+{
+  "id": 530358928,
+  "name": "Pagoda Gardens",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.931676, 6.892351], [79.931446, 6.891884], [79.931079, 6.891222]]
+}

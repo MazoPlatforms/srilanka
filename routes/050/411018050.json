@@ -1,0 +1,9 @@
+{
+  "id": 411018050,
+  "name": "Thirunavatkulam Sivan kovil road 1st lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.482904, 8.774921], [80.482472, 8.774785], [80.482038, 8.774622], [80.481584, 8.774476], [80.48112, 8.774312]]
+}

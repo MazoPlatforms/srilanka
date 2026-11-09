@@ -1,0 +1,9 @@
+{
+  "id": 369990194,
+  "name": "Parakrama Place",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.055939, 7.117807], [80.055427, 7.11775], [80.054875, 7.117767], [80.054535, 7.117778], [80.054145, 7.117801], [80.053989, 7.117199]]
+}

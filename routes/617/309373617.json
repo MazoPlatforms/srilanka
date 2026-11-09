@@ -1,0 +1,9 @@
+{
+  "id": 309373617,
+  "name": "Embilipitiya-Middeniya Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.855506, 6.332653], [80.85543, 6.332617], [80.855253, 6.332543], [80.855014, 6.332414]]
+}

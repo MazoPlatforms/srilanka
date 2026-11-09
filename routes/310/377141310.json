@@ -1,0 +1,9 @@
+{
+  "id": 377141310,
+  "name": "Alawwa Nawathalwatta Road via Bujjomuwa",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.186126, 7.293475], [80.186198, 7.293238], [80.186285, 7.292991], [80.186295, 7.292896], [80.186247, 7.292534]]
+}

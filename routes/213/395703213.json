@@ -1,0 +1,9 @@
+{
+  "id": 395703213,
+  "name": "Sarvodaya Veethy",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 15, "motorcycle": 15, "bicycle": 15, "foot": 5},
+  "coordinates": [[81.4666, 7.58131], [81.465619, 7.581882], [81.464366, 7.583214], [81.464337, 7.583299], [81.464242, 7.584398]]
+}

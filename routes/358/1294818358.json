@@ -1,0 +1,9 @@
+{
+  "id": 1294818358,
+  "name": "Leyn Baan Street",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.21881, 6.026947], [80.218789, 6.027224], [80.218795, 6.0281]]
+}

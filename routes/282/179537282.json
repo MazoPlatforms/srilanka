@@ -1,0 +1,9 @@
+{
+  "id": 179537282,
+  "name": "Shankar Mill Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.56737, 7.802468], [81.568097, 7.803241], [81.568381, 7.803515], [81.568491, 7.803613], [81.568671, 7.803831], [81.56905, 7.804214], [81.569871, 7.804989]]
+}

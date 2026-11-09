@@ -1,0 +1,9 @@
+{
+  "id": 507904978,
+  "name": "Bandarawela-Welimada Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.988752, 6.830485], [80.988755, 6.830616], [80.988781, 6.830721]]
+}

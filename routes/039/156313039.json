@@ -1,0 +1,9 @@
+{
+  "id": 156313039,
+  "name": "Buddhangala Road",
+  "highway": "residential",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 45, "motorcycle": 45, "truck": 45, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.681811, 7.292111], [81.681854, 7.291981], [81.681871, 7.291916], [81.68189, 7.291838]]
+}

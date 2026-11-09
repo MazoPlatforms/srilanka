@@ -1,0 +1,9 @@
+{
+  "id": 377064100,
+  "name": "Aruppola Mawatha 3",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.648347, 7.310162], [80.648286, 7.310238], [80.647808, 7.310232], [80.647642, 7.310332], [80.647709, 7.310632], [80.647963, 7.311206], [80.648057, 7.311524]]
+}

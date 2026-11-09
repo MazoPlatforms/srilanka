@@ -1,0 +1,9 @@
+{
+  "id": 907765902,
+  "name": "Gonapitiya Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.367659, 6.773543], [80.367737, 6.773634], [80.367959, 6.773987]]
+}

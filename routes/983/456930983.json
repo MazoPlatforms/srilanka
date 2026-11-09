@@ -1,0 +1,9 @@
+{
+  "id": 456930983,
+  "name": "Puthumunmaricholai Nakathampiran kovil road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.677788, 7.493024], [81.677832, 7.492938], [81.677986, 7.492662], [81.678481, 7.491892], [81.678978, 7.490514], [81.679223, 7.489643]]
+}

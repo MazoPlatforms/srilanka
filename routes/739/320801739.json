@@ -1,0 +1,9 @@
+{
+  "id": 320801739,
+  "name": "Athurugiriya Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.955225, 6.903659], [79.955128, 6.903787], [79.954962, 6.904041]]
+}

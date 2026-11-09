@@ -1,0 +1,9 @@
+{
+  "id": 313916995,
+  "name": "Janapada Para",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "bicycle": 15, "foot": 5},
+  "coordinates": [[79.899198, 7.104731], [79.899255, 7.10271], [79.89927, 7.101955], [79.899271, 7.101829], [79.899271, 7.101758]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 587124745,
+  "name": "Meenachi Amman Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.004714, 9.663992], [80.004825, 9.664117], [80.004954, 9.664319], [80.005241, 9.664777]]
+}

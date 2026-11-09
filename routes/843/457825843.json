@@ -1,0 +1,9 @@
+{
+  "id": 457825843,
+  "name": "Senai Road",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[81.737125, 7.613179], [81.73711, 7.613233], [81.737095, 7.613286], [81.737078, 7.614123], [81.737115, 7.614416]]
+}

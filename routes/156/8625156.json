@@ -1,0 +1,9 @@
+{
+  "id": 8625156,
+  "name": "Jayalathgama Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.46117, 5.948976], [80.461557, 5.949033], [80.461842, 5.949082], [80.462395, 5.948794], [80.462778, 5.948755]]
+}

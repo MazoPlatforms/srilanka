@@ -1,0 +1,9 @@
+{
+  "id": 884175134,
+  "name": "Mallagaha Kamatha Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.920743, 6.905549], [79.920859, 6.905418], [79.92088, 6.905387], [79.92091, 6.905342], [79.920925, 6.905319], [79.92099, 6.905224]]
+}

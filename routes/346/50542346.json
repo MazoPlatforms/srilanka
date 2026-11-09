@@ -1,0 +1,9 @@
+{
+  "id": 50542346,
+  "name": "Sri Maha Vihara Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.870046, 6.870779], [79.869989, 6.871193], [79.869972, 6.871312], [79.870119, 6.871423], [79.870348, 6.871448], [79.870959, 6.871534]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 8625181,
+  "name": "Ko.Ga.Ruban Mawatha",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 15, "motorcycle": 15, "bicycle": 15, "foot": 5},
+  "coordinates": [[80.242331, 6.02513], [80.242204, 6.025203], [80.242082, 6.025277], [80.241993, 6.025315], [80.241736, 6.025354], [80.24121, 6.025497]]
+}

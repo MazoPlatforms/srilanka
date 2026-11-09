@@ -1,0 +1,9 @@
+{
+  "id": 378850372,
+  "name": "Lorenz Road",
+  "highway": "residential",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.861126, 6.883191], [79.861044, 6.883173], [79.860336, 6.883013], [79.859701, 6.882868], [79.859176, 6.882736], [79.85884, 6.882652]]
+}

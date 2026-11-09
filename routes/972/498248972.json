@@ -1,0 +1,9 @@
+{
+  "id": 498248972,
+  "name": "Multipurpose Building Road",
+  "highway": "path",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 12, "foot": 4},
+  "coordinates": [[81.66739, 7.63719], [81.66716, 7.637653], [81.667106, 7.638068], [81.66712, 7.638476], [81.667056, 7.638518]]
+}

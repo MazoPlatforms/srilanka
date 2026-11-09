@@ -1,0 +1,9 @@
+{
+  "id": 731173447,
+  "name": "Pasikudah Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.55853, 7.931847], [81.558605, 7.93199], [81.559442, 7.932904], [81.559768, 7.933214], [81.560022, 7.933334]]
+}

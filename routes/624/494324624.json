@@ -1,0 +1,9 @@
+{
+  "id": 494324624,
+  "name": "Kilatheevu 1 st Cross",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.739341, 7.605731], [81.739374, 7.605646], [81.739452, 7.605449], [81.7395, 7.605255], [81.739229, 7.605157], [81.739092, 7.605133], [81.739044, 7.605351], [81.739004, 7.605351]]
+}

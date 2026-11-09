@@ -1,0 +1,9 @@
+{
+  "id": 288582441,
+  "name": "Pamburawa Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.697657, 6.153619], [80.69796, 6.153524]]
+}

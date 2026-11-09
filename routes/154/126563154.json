@@ -1,0 +1,9 @@
+{
+  "id": 126563154,
+  "name": "Bandaranaike Mawatha",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.397025, 8.334734], [80.39764, 8.334492]]
+}

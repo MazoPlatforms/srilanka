@@ -1,0 +1,9 @@
+{
+  "id": 374524030,
+  "name": "Kosgolla Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.561825, 7.152659], [80.562061, 7.152724], [80.562126, 7.152844], [80.562167, 7.153293], [80.562669, 7.153313], [80.563, 7.153383]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 152181645,
+  "name": "Keremulla Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.028264, 6.859432], [80.027949, 6.859324], [80.027284, 6.859143], [80.026925, 6.859073], [80.026133, 6.858586], [80.025398, 6.858244], [80.025403, 6.858421]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 321578552,
+  "name": "Sri Deepankara Mawatha",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[81.266061, 6.280039], [81.266463, 6.279977], [81.267257, 6.279913], [81.267841, 6.279905], [81.268335, 6.279929], [81.268946, 6.279953], [81.269795, 6.28002]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 450736280,
+  "name": "Kali Kovil Road 14th Cross",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.619439, 7.774282], [81.619435, 7.774216], [81.618848, 7.773344]]
+}

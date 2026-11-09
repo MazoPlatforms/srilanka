@@ -1,0 +1,9 @@
+{
+  "id": 265562107,
+  "name": "Malabe - Athurugiriya Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.975743, 6.884151], [79.976086, 6.884113], [79.976337, 6.884075], [79.977913, 6.88372]]
+}

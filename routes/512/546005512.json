@@ -1,0 +1,9 @@
+{
+  "id": 546005512,
+  "name": "4th Lane, Pahalawela Road",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[79.924527, 6.889011], [79.924389, 6.888902], [79.924376, 6.888869], [79.924385, 6.888788], [79.924413, 6.888681], [79.924617, 6.888309]]
+}

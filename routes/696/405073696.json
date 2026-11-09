@@ -1,0 +1,9 @@
+{
+  "id": 405073696,
+  "name": "MUHANTHIRAM ROAD",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.605638, 7.772754], [81.605651, 7.772844], [81.605745, 7.773207], [81.605813, 7.773739], [81.60591, 7.774366], [81.605957, 7.774955], [81.606025, 7.775273]]
+}

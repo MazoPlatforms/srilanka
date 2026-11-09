@@ -1,0 +1,9 @@
+{
+  "id": 452963375,
+  "name": "Vayal Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.526219, 7.954353], [81.526112, 7.954905], [81.526071, 7.955213]]
+}

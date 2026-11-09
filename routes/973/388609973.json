@@ -1,0 +1,9 @@
+{
+  "id": 388609973,
+  "name": "Alaimagal 10 th Cross Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.563688, 7.825865], [81.563778, 7.825656], [81.564241, 7.824775], [81.564482, 7.824389], [81.564561, 7.824292], [81.564738, 7.824139], [81.565332, 7.823664]]
+}

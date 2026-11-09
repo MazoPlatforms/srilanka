@@ -1,0 +1,9 @@
+{
+  "id": 769390441,
+  "name": "Tank Bund",
+  "highway": "track",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 15, "foot": 4},
+  "coordinates": [[81.607668, 6.990262], [81.607722, 6.990058], [81.607768, 6.989731], [81.607745, 6.989387]]
+}

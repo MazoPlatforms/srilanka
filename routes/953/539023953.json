@@ -1,0 +1,9 @@
+{
+  "id": 539023953,
+  "name": "Meegahawatte Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.889934, 6.968633], [79.890053, 6.968733], [79.890257, 6.968909], [79.890346, 6.968987], [79.890532, 6.969157], [79.890769, 6.969374]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 1108916963,
+  "name": "5th Lane Kandawatta Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.926471, 6.896981], [79.926582, 6.897336], [79.926681, 6.897434], [79.927106, 6.897666], [79.927278, 6.897795], [79.927389, 6.897936]]
+}

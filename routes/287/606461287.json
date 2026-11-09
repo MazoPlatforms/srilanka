@@ -1,0 +1,9 @@
+{
+  "id": 606461287,
+  "name": "Issetiya Wewa Rd",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.182301, 7.685674], [80.182056, 7.685821], [80.182199, 7.686469], [80.182246, 7.68654], [80.182431, 7.686638], [80.183163, 7.68632]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 108343012,
+  "name": "Fathima road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.236593, 8.568105], [81.23609, 8.567284], [81.235431, 8.566324], [81.234974, 8.565628]]
+}

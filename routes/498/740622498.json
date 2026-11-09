@@ -1,0 +1,9 @@
+{
+  "id": 740622498,
+  "name": "Diyawanna Oya Foot path",
+  "highway": "footway",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 8, "foot": 5},
+  "coordinates": [[79.92826, 6.878773], [79.928265, 6.878572], [79.928207, 6.877673], [79.928158, 6.877569]]
+}

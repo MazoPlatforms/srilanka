@@ -1,0 +1,9 @@
+{
+  "id": 311215126,
+  "name": "Vijayaba Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.353099, 7.482748], [80.353346, 7.482526], [80.353532, 7.482372], [80.353735, 7.482231]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 452188203,
+  "name": "Risident Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.576186, 7.698126], [81.576267, 7.698253], [81.576369, 7.698452], [81.576484, 7.698596], [81.576583, 7.698795], [81.576907, 7.699304]]
+}

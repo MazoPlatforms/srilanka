@@ -1,0 +1,9 @@
+{
+  "id": 545855530,
+  "name": "Thambalagamuwa-Kinniya Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.125766, 8.478505], [81.125957, 8.478391], [81.126358, 8.478084], [81.126629, 8.47777], [81.126793, 8.47751], [81.126919, 8.477169]]
+}

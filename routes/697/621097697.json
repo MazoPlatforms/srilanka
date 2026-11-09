@@ -1,0 +1,9 @@
+{
+  "id": 621097697,
+  "name": "50 colony veethy",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.375904, 9.576256], [80.376081, 9.576643], [80.376287, 9.577122], [80.376586, 9.57788], [80.376841, 9.578467]]
+}

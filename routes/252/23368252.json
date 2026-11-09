@@ -1,0 +1,9 @@
+{
+  "id": 23368252,
+  "name": "Joseph Frazer Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.86372, 6.894928], [79.864058, 6.894977], [79.864457, 6.895089], [79.864702, 6.895169], [79.864758, 6.895182]]
+}

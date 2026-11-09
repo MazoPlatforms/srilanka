@@ -1,0 +1,9 @@
+{
+  "id": 295653253,
+  "name": "Footpath to Ella Rock",
+  "highway": "path",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 12, "foot": 4},
+  "coordinates": [[81.052681, 6.85577], [81.052718, 6.855789], [81.053077, 6.856024]]
+}

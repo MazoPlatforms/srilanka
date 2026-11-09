@@ -1,0 +1,9 @@
+{
+  "id": 52563174,
+  "name": "Goonathilaka Avenue",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.875327, 6.888234], [79.87518, 6.888739]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 516761443,
+  "name": "Mawanana Bridge",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.353825, 6.372574], [80.354316, 6.372797]]
+}

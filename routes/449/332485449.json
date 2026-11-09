@@ -1,0 +1,9 @@
+{
+  "id": 332485449,
+  "name": "Ampara-Inginiyagala Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.544994, 7.219378], [81.545375, 7.219308], [81.545545, 7.219284], [81.546105, 7.219198], [81.546645, 7.219131], [81.54837, 7.218884], [81.549202, 7.218623]]
+}

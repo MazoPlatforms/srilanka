@@ -1,0 +1,9 @@
+{
+  "id": 372779937,
+  "name": "Upekha Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.94631, 6.954145], [79.946919, 6.954096], [79.948649, 6.953962]]
+}

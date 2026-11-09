@@ -1,0 +1,9 @@
+{
+  "id": 367783126,
+  "name": "Panakawa Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.323553, 7.25162], [80.323331, 7.251878], [80.323148, 7.25198]]
+}

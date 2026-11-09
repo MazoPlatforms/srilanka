@@ -1,0 +1,9 @@
+{
+  "id": 1450997971,
+  "name": "World's End Loop",
+  "highway": "track",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 15, "foot": 4},
+  "coordinates": [[80.794125, 6.780089], [80.794038, 6.780051], [80.79397, 6.779979]]
+}

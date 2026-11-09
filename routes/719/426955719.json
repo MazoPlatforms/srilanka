@@ -1,0 +1,9 @@
+{
+  "id": 426955719,
+  "name": "HTP waththa wendesi para",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.895732, 7.107525], [79.896274, 7.107505], [79.897623, 7.107513]]
+}

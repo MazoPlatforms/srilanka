@@ -1,0 +1,9 @@
+{
+  "id": 894229347,
+  "name": "1st Lane",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 35, "motorcycle": 35, "bicycle": 15, "foot": 5},
+  "coordinates": [[80.217898, 6.928661], [80.217833, 6.928797], [80.21763, 6.929199], [80.21766, 6.929254], [80.217836, 6.929335]]
+}

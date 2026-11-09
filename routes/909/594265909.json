@@ -1,0 +1,9 @@
+{
+  "id": 594265909,
+  "name": "Victoria Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.858797, 7.236385], [79.85889, 7.236201], [79.859113, 7.235758], [79.859143, 7.235735]]
+}

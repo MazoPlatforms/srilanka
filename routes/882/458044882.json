@@ -1,0 +1,9 @@
+{
+  "id": 458044882,
+  "name": "Sivan Temple 1st Cross",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.708228, 7.61236], [81.708171, 7.612357], [81.707608, 7.612359], [81.707448, 7.612331]]
+}

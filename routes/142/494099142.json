@@ -1,0 +1,9 @@
+{
+  "id": 494099142,
+  "name": "Munaikkadu Main Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.711879, 7.625796], [81.711463, 7.625817], [81.710748, 7.625998], [81.71046, 7.626025], [81.710058, 7.626083], [81.709648, 7.6261], [81.708568, 7.625907]]
+}

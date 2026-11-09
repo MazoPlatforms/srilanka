@@ -1,0 +1,9 @@
+{
+  "id": 345487960,
+  "name": "Attigalla Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.900175, 6.908343], [79.900282, 6.908492], [79.900499, 6.908792], [79.900695, 6.909012], [79.900912, 6.909255]]
+}

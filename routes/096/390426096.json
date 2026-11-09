@@ -1,0 +1,9 @@
+{
+  "id": 390426096,
+  "name": "Castle Main Watta",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.137257, 6.130634], [80.13726, 6.130916], [80.137179, 6.131205], [80.137053, 6.131384], [80.136738, 6.131664], [80.136343, 6.132425]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 323322957,
+  "name": "New city Road",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[80.1588, 6.173706], [80.158822, 6.173454], [80.159412, 6.172937], [80.159705, 6.172708], [80.160102, 6.172353]]
+}

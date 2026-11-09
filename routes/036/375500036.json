@@ -1,0 +1,9 @@
+{
+  "id": 375500036,
+  "name": "DM Jayarathna Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.632126, 7.10973], [80.632606, 7.109794], [80.632891, 7.109796], [80.633138, 7.109834], [80.633349, 7.109903], [80.633591, 7.109826]]
+}

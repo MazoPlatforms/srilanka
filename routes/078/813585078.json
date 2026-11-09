@@ -1,0 +1,9 @@
+{
+  "id": 813585078,
+  "name": "Dambulla-Habarana Road",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "foot": 5},
+  "coordinates": [[80.651621, 7.88513], [80.651787, 7.885302], [80.651922, 7.88543], [80.652077, 7.885523]]
+}

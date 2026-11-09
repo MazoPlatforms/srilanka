@@ -1,0 +1,9 @@
+{
+  "id": 1121956803,
+  "name": "Peterson Lane",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20},
+  "coordinates": [[79.865995, 6.87661], [79.865986, 6.876684]]
+}

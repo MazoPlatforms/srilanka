@@ -1,0 +1,9 @@
+{
+  "id": 50306656,
+  "name": "Colombo-Puttalam Road",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 70.0, "motorcycle": 70.0, "truck": 70.0, "foot": 5},
+  "coordinates": [[79.863621, 7.270214], [79.863902, 7.27119]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 131347951,
+  "name": "Weluwanaramaya road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.882196, 6.793394], [79.882147, 6.793413], [79.88183, 6.79357], [79.881547, 6.7935], [79.881326, 6.793424], [79.881153, 6.793382], [79.880921, 6.793458]]
+}

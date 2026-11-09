@@ -1,0 +1,9 @@
+{
+  "id": 524358014,
+  "name": "Wanigasuriya Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.938982, 6.939814], [79.938989, 6.939906], [79.939015, 6.940065], [79.939049, 6.940157], [79.939117, 6.940323], [79.939151, 6.940427]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 108292576,
+  "name": "School Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.227843, 8.582514], [81.228829, 8.581693]]
+}

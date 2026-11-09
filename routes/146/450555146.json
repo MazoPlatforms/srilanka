@@ -1,0 +1,9 @@
+{
+  "id": 450555146,
+  "name": "Kandappan lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.728625, 7.668221], [81.728613, 7.668343], [81.728544, 7.668747], [81.728678, 7.668776], [81.728643, 7.668935], [81.728946, 7.668967], [81.728841, 7.669472]]
+}

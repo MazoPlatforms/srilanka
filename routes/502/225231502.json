@@ -1,0 +1,9 @@
+{
+  "id": 225231502,
+  "name": "Poompukar 8th Cross",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.689948, 7.722679], [81.689141, 7.723185], [81.688653, 7.723262]]
+}

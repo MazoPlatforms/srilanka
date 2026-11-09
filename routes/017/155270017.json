@@ -1,0 +1,9 @@
+{
+  "id": 155270017,
+  "name": "Bailey Cross Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.704252, 7.722697], [81.704228, 7.722762], [81.704137, 7.723101], [81.704153, 7.723218], [81.704162, 7.723299], [81.704101, 7.723428], [81.703832, 7.723865]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 376194202,
+  "name": "Silava Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.960792, 7.074478], [79.960717, 7.074495], [79.960244, 7.074652], [79.960105, 7.074661], [79.959941, 7.074703]]
+}

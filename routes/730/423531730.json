@@ -1,0 +1,9 @@
+{
+  "id": 423531730,
+  "name": "Sama Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.892676, 7.13284], [79.89273, 7.13284], [79.892754, 7.132833], [79.892764, 7.132811], [79.892797, 7.132465]]
+}

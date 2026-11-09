@@ -1,0 +1,9 @@
+{
+  "id": 378230405,
+  "name": "Ilanko Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.753744, 7.519896], [81.753691, 7.520339], [81.753601, 7.521255]]
+}

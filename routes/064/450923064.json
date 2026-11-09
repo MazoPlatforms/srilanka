@@ -1,0 +1,9 @@
+{
+  "id": 450923064,
+  "name": "Maradagahamula-Badalgama Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.996339, 7.260097], [79.996359, 7.260218]]
+}

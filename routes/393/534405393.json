@@ -1,0 +1,9 @@
+{
+  "id": 534405393,
+  "name": "Wakwella Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.217124, 6.034934], [80.217105, 6.034849], [80.217075, 6.034674], [80.217041, 6.034565]]
+}

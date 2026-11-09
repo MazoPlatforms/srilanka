@@ -1,0 +1,9 @@
+{
+  "id": 155935188,
+  "name": "1st Cross",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.682056, 7.746022], [81.682339, 7.746416], [81.682615, 7.746806], [81.682782, 7.747045], [81.683074, 7.747514]]
+}

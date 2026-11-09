@@ -1,0 +1,9 @@
+{
+  "id": 148791518,
+  "name": "Urala Pannasara Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.009883, 6.415889], [80.010007, 6.416094], [80.010381, 6.416227], [80.010559, 6.41666], [80.010954, 6.416998], [80.011617, 6.417479]]
+}

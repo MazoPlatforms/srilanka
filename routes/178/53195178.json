@@ -1,0 +1,9 @@
+{
+  "id": 53195178,
+  "name": "Lake Gardens",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.885401, 6.903738], [79.885353, 6.903761], [79.885286, 6.90379], [79.885237, 6.903837], [79.88519, 6.903915]]
+}

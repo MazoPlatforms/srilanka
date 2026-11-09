@@ -1,0 +1,9 @@
+{
+  "id": 50634207,
+  "name": "Kitulwatta Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.87741, 6.906425], [79.877982, 6.906425], [79.878698, 6.906399], [79.879165, 6.90639], [79.879552, 6.906388]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 450935075,
+  "name": "Prof. Stanley Wijesundara Mawatha",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.864886, 6.900227], [79.865053, 6.899993], [79.865143, 6.899883]]
+}

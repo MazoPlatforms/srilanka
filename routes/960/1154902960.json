@@ -1,0 +1,9 @@
+{
+  "id": 1154902960,
+  "name": "Stratford Avenue",
+  "highway": "secondary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.872881, 6.873995], [79.872835, 6.873909], [79.872776, 6.873817], [79.872754, 6.873775], [79.872725, 6.873694]]
+}

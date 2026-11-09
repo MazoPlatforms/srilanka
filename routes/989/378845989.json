@@ -1,0 +1,9 @@
+{
+  "id": 378845989,
+  "name": "Reid Avenue",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.8591, 6.895691], [79.85919, 6.895802], [79.859327, 6.896061], [79.859582, 6.896781], [79.859624, 6.896912], [79.859629, 6.896947], [79.859605, 6.89703]]
+}

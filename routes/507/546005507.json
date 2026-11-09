@@ -1,0 +1,9 @@
+{
+  "id": 546005507,
+  "name": "1st Lane, Pahalawela Road",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[79.925573, 6.890114], [79.925973, 6.889989], [79.926005, 6.889954], [79.926031, 6.889574], [79.926012, 6.889373]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 50536139,
+  "name": "Sarasavi Udyanaya",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.887242, 6.879782], [79.887792, 6.879734], [79.888261, 6.879682], [79.889003, 6.879497], [79.889457, 6.879319], [79.88984, 6.879257], [79.890156, 6.879236]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 328532878,
+  "name": "Mercantile Cricket Club (MC Club) Road",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "bicycle": 15, "foot": 5},
+  "coordinates": [[79.870889, 6.906044], [79.870202, 6.90693], [79.87018, 6.906981], [79.87019, 6.907046], [79.870263, 6.907117], [79.871039, 6.907658], [79.871181, 6.907763], [79.871232, 6.907805]]
+}

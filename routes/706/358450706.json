@@ -1,0 +1,9 @@
+{
+  "id": 358450706,
+  "name": "Rockland Place",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[79.972414, 6.926912], [79.97268, 6.926811], [79.972961, 6.926717], [79.973045, 6.926662]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 496409592,
+  "name": "Ibrahim Manzil Road",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[81.725218, 7.686767], [81.725773, 7.68708], [81.726416, 7.68753]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 179537265,
+  "name": "Saathiriyaar Amma Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.573597, 7.803273], [81.573081, 7.803349], [81.572465, 7.803537]]
+}

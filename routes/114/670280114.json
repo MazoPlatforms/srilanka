@@ -1,0 +1,9 @@
+{
+  "id": 670280114,
+  "name": "Thotupola Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.892272, 7.0288], [79.892496, 7.028777], [79.89269, 7.028707], [79.892877, 7.028671], [79.893077, 7.028599], [79.893375, 7.028496]]
+}

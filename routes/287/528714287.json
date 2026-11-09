@@ -1,0 +1,9 @@
+{
+  "id": 528714287,
+  "name": "Dorawaka Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.212782, 7.191244], [80.212781, 7.191016]]
+}

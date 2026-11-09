@@ -1,0 +1,9 @@
+{
+  "id": 418308683,
+  "name": "Batapola Road",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.054128, 6.238873], [80.054293, 6.238948], [80.054372, 6.238971], [80.05446, 6.238985], [80.05463, 6.23901], [80.054862, 6.238988], [80.055037, 6.238966]]
+}

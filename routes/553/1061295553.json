@@ -1,0 +1,9 @@
+{
+  "id": 1061295553,
+  "name": "Sugarcane Cultivation Road",
+  "highway": "track",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 15, "foot": 4},
+  "coordinates": [[80.89906, 6.403074], [80.900658, 6.404295], [80.901846, 6.405105], [80.902818, 6.405588], [80.904171, 6.406424], [80.904691, 6.406803]]
+}

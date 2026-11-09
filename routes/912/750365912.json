@@ -1,0 +1,9 @@
+{
+  "id": 750365912,
+  "name": "Paddakadu 2nd Croos road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.476037, 8.769175], [80.476543, 8.76893], [80.476901, 8.768761], [80.476929, 8.768576], [80.47697, 8.768517], [80.477892, 8.768052]]
+}

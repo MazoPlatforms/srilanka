@@ -1,0 +1,9 @@
+{
+  "id": 1033471723,
+  "name": "Raja Uyana 1st Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.958261, 6.925062], [79.958227, 6.925069], [79.958198, 6.925063], [79.958168, 6.925034], [79.957644, 6.924408], [79.957165, 6.92388]]
+}

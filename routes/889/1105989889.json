@@ -1,0 +1,9 @@
+{
+  "id": 1105989889,
+  "name": "Hyde Park Corner",
+  "highway": "tertiary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.860878, 6.918921], [79.860475, 6.918149], [79.860259, 6.917733], [79.860147, 6.917529]]
+}

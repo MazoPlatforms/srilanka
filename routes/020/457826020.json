@@ -1,0 +1,9 @@
+{
+  "id": 457826020,
+  "name": "Navladi 1st Cross Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.704138, 7.62599], [81.703995, 7.626004], [81.703537, 7.62602], [81.702864, 7.626112]]
+}

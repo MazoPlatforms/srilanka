@@ -1,0 +1,9 @@
+{
+  "id": 1489991655,
+  "name": "Main Street (New Kandy Road)",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.911554, 6.903246], [79.911696, 6.90315], [79.911796, 6.903094]]
+}

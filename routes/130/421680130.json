@@ -1,0 +1,9 @@
+{
+  "id": 421680130,
+  "name": "Rukmal PI Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.963151, 6.96954], [79.962626, 6.969547], [79.962073, 6.969555], [79.961373, 6.969571], [79.961043, 6.969589], [79.961033, 6.969142], [79.961415, 6.968865]]
+}

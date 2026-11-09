@@ -1,0 +1,9 @@
+{
+  "id": 378904445,
+  "name": "Warapitiya - Mawarala Road",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.597674, 6.19933], [80.597737, 6.199251], [80.598019, 6.198883], [80.598235, 6.198817], [80.598591, 6.198917], [80.598696, 6.199083], [80.598736, 6.199362]]
+}

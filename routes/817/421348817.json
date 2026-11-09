@@ -1,0 +1,9 @@
+{
+  "id": 421348817,
+  "name": "Ganthiyar Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.598144, 7.782258], [81.59774, 7.78171], [81.597397, 7.781211], [81.596985, 7.7806]]
+}

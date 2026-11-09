@@ -1,0 +1,9 @@
+{
+  "id": 374792807,
+  "name": "2nd Lane Henawatte",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.041437, 6.856538], [80.041294, 6.855942], [80.041176, 6.855446], [80.040996, 6.854697], [80.040844, 6.854038]]
+}

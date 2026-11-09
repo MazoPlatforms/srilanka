@@ -1,0 +1,9 @@
+{
+  "id": 1312095373,
+  "name": "Vidyartha Mawatha (Old Matale Road)",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.636599, 7.307255], [80.636603, 7.307323], [80.636611, 7.307385], [80.636636, 7.307468], [80.636668, 7.30754]]
+}

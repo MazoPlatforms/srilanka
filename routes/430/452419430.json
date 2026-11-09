@@ -1,0 +1,9 @@
+{
+  "id": 452419430,
+  "name": "Uthuwankanda Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.944057, 6.873857], [79.943811, 6.873839], [79.94357, 6.873756], [79.943461, 6.873718], [79.943312, 6.873661]]
+}

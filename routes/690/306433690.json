@@ -1,0 +1,9 @@
+{
+  "id": 306433690,
+  "name": "Outer Circular Road (Watawandana Road)",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.404997, 8.355279], [80.405055, 8.355636], [80.405117, 8.356096], [80.405187, 8.356636], [80.405212, 8.35689], [80.405223, 8.357067], [80.405225, 8.35725], [80.405222, 8.35741]]
+}

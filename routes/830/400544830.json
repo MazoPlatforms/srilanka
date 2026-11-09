@@ -1,0 +1,9 @@
+{
+  "id": 400544830,
+  "name": "Warella Waththa Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.019889, 7.07848], [80.020025, 7.078758], [80.020149, 7.079031], [80.020308, 7.079225], [80.020387, 7.079357], [80.020703, 7.079867]]
+}

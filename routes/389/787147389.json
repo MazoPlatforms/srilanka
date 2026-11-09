@@ -1,0 +1,9 @@
+{
+  "id": 787147389,
+  "name": "Dambuluwana Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.290424, 6.70954], [80.290568, 6.709611], [80.290688, 6.709644], [80.290749, 6.70964], [80.290942, 6.709591], [80.291083, 6.709524], [80.291382, 6.709512]]
+}

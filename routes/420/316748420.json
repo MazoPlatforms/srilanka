@@ -1,0 +1,9 @@
+{
+  "id": 316748420,
+  "name": "AB Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.821933, 7.422042], [81.821756, 7.422494], [81.821704, 7.422683], [81.821678, 7.42288], [81.821676, 7.422923], [81.821584, 7.423569]]
+}

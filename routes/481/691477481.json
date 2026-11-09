@@ -1,0 +1,9 @@
+{
+  "id": 691477481,
+  "name": "Kathirkamar Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.693146, 7.742506], [81.692792, 7.742881], [81.692585, 7.743057], [81.692421, 7.743196], [81.69221, 7.743414]]
+}

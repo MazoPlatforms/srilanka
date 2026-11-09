@@ -1,0 +1,9 @@
+{
+  "id": 129477822,
+  "name": "T. B. Jayah Mawatha",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.864259, 6.928294], [79.864122, 6.928248], [79.863073, 6.927917]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 168243557,
+  "name": "Samudra Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.906426, 6.703539], [79.907886, 6.703999], [79.9084, 6.704139], [79.909547, 6.704555]]
+}

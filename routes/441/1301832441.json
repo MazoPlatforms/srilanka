@@ -1,0 +1,9 @@
+{
+  "id": 1301832441,
+  "name": "Katupolwatta Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.167785, 6.117533], [80.167648, 6.11744], [80.167518, 6.117409], [80.167461, 6.117404], [80.167375, 6.117395], [80.167184, 6.117322]]
+}

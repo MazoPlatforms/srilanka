@@ -1,0 +1,9 @@
+{
+  "id": 200057938,
+  "name": "Nagathampiran kovil road 1st lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.483312, 8.7737], [80.482996, 8.774635], [80.482904, 8.774921], [80.482843, 8.775113], [80.482595, 8.775883], [80.482289, 8.776908], [80.481974, 8.777848], [80.481863, 8.778222], [80.48178, 8.778614]]
+}

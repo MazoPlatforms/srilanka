@@ -1,0 +1,9 @@
+{
+  "id": 558417048,
+  "name": "Thissapura Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.066113, 7.372912], [81.067547, 7.371687], [81.068703, 7.370499], [81.070056, 7.369079], [81.071262, 7.367766], [81.071327, 7.367731]]
+}

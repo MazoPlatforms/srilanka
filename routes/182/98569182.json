@@ -1,0 +1,9 @@
+{
+  "id": 98569182,
+  "name": "Baddegama-Halpotota Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.176662, 6.173245], [80.176586, 6.173303], [80.1765, 6.173361], [80.176378, 6.173432], [80.17619, 6.173531], [80.175933, 6.173665]]
+}

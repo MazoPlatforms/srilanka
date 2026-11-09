@@ -1,0 +1,9 @@
+{
+  "id": 519521504,
+  "name": "Kanthan kurukkal street",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.763724, 7.523929], [81.763883, 7.523969], [81.764222, 7.524025], [81.764437, 7.524033]]
+}

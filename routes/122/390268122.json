@@ -1,0 +1,9 @@
+{
+  "id": 390268122,
+  "name": "Rail Lane South",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "bicycle": 10, "foot": 5},
+  "coordinates": [[80.488457, 8.813912], [80.48908, 8.81465], [80.489546, 8.815147], [80.490239, 8.815769], [80.491628, 8.81588], [80.49181, 8.817363], [80.491996, 8.819143]]
+}

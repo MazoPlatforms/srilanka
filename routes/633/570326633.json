@@ -1,0 +1,9 @@
+{
+  "id": 570326633,
+  "name": "Mehal Cooray Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.607591, 7.276627], [80.607664, 7.276656], [80.607769, 7.276734], [80.607836, 7.276829], [80.607837, 7.276901], [80.607721, 7.277283], [80.607776, 7.277648]]
+}

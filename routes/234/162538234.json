@@ -1,0 +1,9 @@
+{
+  "id": 162538234,
+  "name": "K M Wimalasena Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.328195, 6.415616], [81.32838, 6.415587], [81.328977, 6.415509], [81.331235, 6.415209], [81.331305, 6.41519], [81.33217, 6.414981]]
+}

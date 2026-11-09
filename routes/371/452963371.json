@@ -1,0 +1,9 @@
+{
+  "id": 452963371,
+  "name": "Kannaki Amman Kovil 2nd Cross Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.527911, 7.953355], [81.528725, 7.953474]]
+}

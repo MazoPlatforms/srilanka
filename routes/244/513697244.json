@@ -1,0 +1,9 @@
+{
+  "id": 513697244,
+  "name": "Udyana Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.547996, 5.951318], [80.548027, 5.951375], [80.547863, 5.952109], [80.547876, 5.952324], [80.547877, 5.95236], [80.547879, 5.95273], [80.547905, 5.953404]]
+}

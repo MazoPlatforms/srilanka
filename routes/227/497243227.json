@@ -1,0 +1,9 @@
+{
+  "id": 497243227,
+  "name": "Ranmuthu Garden Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.962475, 6.643555], [79.962817, 6.643572], [79.962898, 6.643564], [79.962963, 6.643528], [79.963096, 6.642909]]
+}

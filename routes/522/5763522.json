@@ -1,0 +1,9 @@
+{
+  "id": 5763522,
+  "name": "Wimalasurendra Mawatha",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.209254, 6.043102], [80.209392, 6.043072], [80.209729, 6.042995], [80.209875, 6.042968], [80.210546, 6.043113], [80.211026, 6.043261]]
+}

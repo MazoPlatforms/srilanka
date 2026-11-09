@@ -1,0 +1,9 @@
+{
+  "id": 530358927,
+  "name": "Asiri Uyana 2nd Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.92755, 6.893339], [79.927613, 6.893548], [79.927671, 6.89379]]
+}

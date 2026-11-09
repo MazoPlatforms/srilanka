@@ -1,0 +1,9 @@
+{
+  "id": 463492870,
+  "name": "sivan road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.051945, 9.727883], [80.051826, 9.727371], [80.051774, 9.727257]]
+}

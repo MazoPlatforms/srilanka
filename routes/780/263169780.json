@@ -1,0 +1,9 @@
+{
+  "id": 263169780,
+  "name": "Sinha Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25.0, "motorcycle": 25.0, "truck": 25.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.963631, 6.835242], [79.96342, 6.836292]]
+}

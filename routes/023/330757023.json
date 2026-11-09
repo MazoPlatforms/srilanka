@@ -1,0 +1,9 @@
+{
+  "id": 330757023,
+  "name": "Hambantota-Gonnoruwa-Meegahajandura Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.127124, 6.146424], [81.12714, 6.146638], [81.127145, 6.146986]]
+}

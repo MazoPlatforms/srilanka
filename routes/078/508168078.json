@@ -1,0 +1,9 @@
+{
+  "id": 508168078,
+  "name": "Japan Temple Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.977343, 7.025403], [79.977926, 7.024623], [79.977984, 7.024551]]
+}

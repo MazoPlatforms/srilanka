@@ -1,0 +1,9 @@
+{
+  "id": 483372727,
+  "name": "Samiththampi Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.638274, 7.756518], [81.638395, 7.756756], [81.638274, 7.756813], [81.637731, 7.75707], [81.637152, 7.757371], [81.63682, 7.757547]]
+}

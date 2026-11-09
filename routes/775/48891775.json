@@ -1,0 +1,9 @@
+{
+  "id": 48891775,
+  "name": "Mile Post Avenue",
+  "highway": "residential",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.850499, 6.908791], [79.850902, 6.908909], [79.852408, 6.90941]]
+}

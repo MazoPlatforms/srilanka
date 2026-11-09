@@ -1,0 +1,9 @@
+{
+  "id": 421514531,
+  "name": "Udayaar Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.588559, 7.796674], [81.589236, 7.796012], [81.589944, 7.795198], [81.590194, 7.794951], [81.590948, 7.794187]]
+}

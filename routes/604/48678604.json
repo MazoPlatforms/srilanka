@@ -1,0 +1,9 @@
+{
+  "id": 48678604,
+  "name": "Ananda Coomaraswamy Mawatha",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "foot": 5},
+  "coordinates": [[79.857678, 6.911836], [79.857263, 6.911851], [79.857149, 6.911858], [79.856566, 6.911893]]
+}

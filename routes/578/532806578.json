@@ -1,0 +1,9 @@
+{
+  "id": 532806578,
+  "name": "ANURADHAPURE ROAD LANE-07",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.840449, 8.03576], [79.840535, 8.035418], [79.840633, 8.034889], [79.840758, 8.034302], [79.840909, 8.033768], [79.841386, 8.031521]]
+}

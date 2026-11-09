@@ -1,0 +1,9 @@
+{
+  "id": 114095267,
+  "name": "Siyane Road 2nd Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.00204, 7.088273], [80.002243, 7.088218], [80.00257, 7.088111], [80.002822, 7.088021], [80.003182, 7.087994], [80.003488, 7.087987]]
+}

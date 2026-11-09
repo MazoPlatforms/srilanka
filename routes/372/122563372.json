@@ -1,0 +1,9 @@
+{
+  "id": 122563372,
+  "name": "Visaka Road",
+  "highway": "residential",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.858941, 6.889725], [79.859053, 6.88969], [79.859127, 6.889686], [79.859197, 6.889693]]
+}

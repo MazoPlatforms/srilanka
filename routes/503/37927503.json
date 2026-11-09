@@ -1,0 +1,9 @@
+{
+  "id": 37927503,
+  "name": "Wimalasekara Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.071539, 6.702912], [80.071281, 6.702769], [80.070811, 6.702471]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 231056034,
+  "name": "8th Cross Road",
+  "highway": "path",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 12, "foot": 4},
+  "coordinates": [[81.687638, 7.729585], [81.687869, 7.730097], [81.687897, 7.730127], [81.688059, 7.730305]]
+}

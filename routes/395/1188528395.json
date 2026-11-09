@@ -1,0 +1,9 @@
+{
+  "id": 1188528395,
+  "name": "Kammala Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.89452, 6.766087], [79.894806, 6.766204], [79.895234, 6.766343], [79.895526, 6.766494], [79.895963, 6.766649]]
+}

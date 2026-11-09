@@ -1,0 +1,9 @@
+{
+  "id": 856869696,
+  "name": "Ajith Kumara Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.903582, 7.138498], [79.903629, 7.13856], [79.903874, 7.139188]]
+}

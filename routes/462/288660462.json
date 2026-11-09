@@ -1,0 +1,9 @@
+{
+  "id": 288660462,
+  "name": "Malkampitty 15A th Street",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.802874, 7.352994], [81.802433, 7.35294], [81.802199, 7.352933], [81.801676, 7.35287]]
+}

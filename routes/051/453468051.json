@@ -1,0 +1,9 @@
+{
+  "id": 453468051,
+  "name": "Bioundry 2nd cross",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.59645, 7.783049], [81.596799, 7.782804], [81.597212, 7.782525]]
+}

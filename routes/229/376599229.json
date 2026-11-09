@@ -1,0 +1,9 @@
+{
+  "id": 376599229,
+  "name": "Watarappola Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.871671, 6.837973], [79.871631, 6.838117], [79.871599, 6.838351], [79.871521, 6.83867], [79.871394, 6.839143]]
+}

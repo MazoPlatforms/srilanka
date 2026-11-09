@@ -1,0 +1,9 @@
+{
+  "id": 823777588,
+  "name": "Mangala Mawatha 1st Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.077223, 6.64736], [80.077255, 6.647432], [80.077518, 6.647685], [80.07757, 6.647774], [80.077644, 6.647995]]
+}

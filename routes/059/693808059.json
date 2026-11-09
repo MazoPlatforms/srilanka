@@ -1,0 +1,9 @@
+{
+  "id": 693808059,
+  "name": "Parliament Drive",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.921651, 6.892549], [79.92147, 6.892505], [79.921382, 6.892501], [79.921251, 6.892497]]
+}

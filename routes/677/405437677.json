@@ -1,0 +1,9 @@
+{
+  "id": 405437677,
+  "name": "Old Peoples Bank Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.52378, 7.914006], [81.523701, 7.91373], [81.52355, 7.912957], [81.523553, 7.91283], [81.523613, 7.912697], [81.523534, 7.912001]]
+}

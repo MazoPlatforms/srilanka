@@ -1,0 +1,9 @@
+{
+  "id": 922907705,
+  "name": "Kaduwela-Athurugiriya Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.994901, 6.888173], [79.994809, 6.888086], [79.994732, 6.888041], [79.994669, 6.888019], [79.994615, 6.887998]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 405431310,
+  "name": "Selle Kotuwa",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.882126, 7.105509], [79.882058, 7.105487], [79.881707, 7.105353], [79.881831, 7.105089]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 368717836,
+  "name": "Liyanwala Gamgoda Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.079061, 6.831533], [80.079399, 6.831529], [80.079721, 6.831572], [80.080172, 6.83171], [80.080612, 6.831817], [80.080941, 6.831988]]
+}

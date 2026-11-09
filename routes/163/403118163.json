@@ -1,0 +1,9 @@
+{
+  "id": 403118163,
+  "name": "Puthukulam Road 2nd Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.507687, 9.037485], [80.507335, 9.037753], [80.506987, 9.038088]]
+}

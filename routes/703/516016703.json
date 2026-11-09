@@ -1,0 +1,9 @@
+{
+  "id": 516016703,
+  "name": "Vihara Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.973612, 6.919363], [79.974229, 6.919408]]
+}

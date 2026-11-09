@@ -1,0 +1,9 @@
+{
+  "id": 715010794,
+  "name": "Main Street (New Bazaar Street)",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.766843, 6.973851], [80.766888, 6.9738], [80.766916, 6.973734], [80.766939, 6.973645]]
+}

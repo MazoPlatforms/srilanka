@@ -1,0 +1,9 @@
+{
+  "id": 1122818091,
+  "name": "Justice Akbar Mawatha",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.852455, 6.922958], [79.852327, 6.923036], [79.852142, 6.923142], [79.852102, 6.923161]]
+}

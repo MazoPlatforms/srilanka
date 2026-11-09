@@ -1,0 +1,9 @@
+{
+  "id": 457855888,
+  "name": "Veddkkaddu Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.719997, 7.601645], [81.720605, 7.601846], [81.721401, 7.602122], [81.721597, 7.601629], [81.721657, 7.601454], [81.721748, 7.601201]]
+}

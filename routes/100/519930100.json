@@ -1,0 +1,9 @@
+{
+  "id": 519930100,
+  "name": "Biyagama Road (New Kandy Road)",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.987303, 6.941681], [79.987302, 6.941603]]
+}

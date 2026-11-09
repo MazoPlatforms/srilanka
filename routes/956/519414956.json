@@ -1,0 +1,9 @@
+{
+  "id": 519414956,
+  "name": "Gampola-Nawalapitiya Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.564014, 7.105877], [80.564003, 7.10563]]
+}

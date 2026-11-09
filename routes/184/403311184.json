@@ -1,0 +1,9 @@
+{
+  "id": 403311184,
+  "name": "Manakulam Puthiyakudimanai 3rd cross Internal Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.466928, 9.084781], [80.467177, 9.08446], [80.467422, 9.084196]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 370381290,
+  "name": "Goomaraya Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.771704, 7.401034], [80.771644, 7.400835]]
+}

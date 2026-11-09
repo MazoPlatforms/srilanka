@@ -1,0 +1,9 @@
+{
+  "id": 440019333,
+  "name": "Chilaw-Wariyapola Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.113802, 7.609166], [80.113637, 7.609107], [80.113527, 7.609042]]
+}

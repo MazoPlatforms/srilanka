@@ -1,0 +1,9 @@
+{
+  "id": 433858218,
+  "name": "Molakade Bridge",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.014135, 6.168086], [81.014273, 6.168188]]
+}

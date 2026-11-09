@@ -1,0 +1,9 @@
+{
+  "id": 288660464,
+  "name": "Iraivar lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.801597, 7.353521], [81.80163, 7.353401], [81.801676, 7.35287], [81.801728, 7.352472], [81.801933, 7.351563], [81.801926, 7.351396], [81.801983, 7.351221]]
+}

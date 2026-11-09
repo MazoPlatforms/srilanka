@@ -1,0 +1,9 @@
+{
+  "id": 249418285,
+  "name": "Udadumbara-Kalugala Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.885988, 7.357495], [80.885887, 7.357302], [80.885778, 7.357126]]
+}

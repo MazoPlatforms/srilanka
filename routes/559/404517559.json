@@ -1,0 +1,9 @@
+{
+  "id": 404517559,
+  "name": "Henawala - Dambagoda Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.528093, 7.270194], [80.528067, 7.270219], [80.527548, 7.270423], [80.527442, 7.270562], [80.527351, 7.270762], [80.527275, 7.270862], [80.527072, 7.270972]]
+}

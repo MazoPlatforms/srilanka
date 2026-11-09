@@ -1,0 +1,9 @@
+{
+  "id": 131520373,
+  "name": "Thalangama Lake Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.947794, 6.888835], [79.947799, 6.888708]]
+}

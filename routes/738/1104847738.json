@@ -1,0 +1,9 @@
+{
+  "id": 1104847738,
+  "name": "8th Lane Church Road",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[79.929881, 6.885468], [79.929903, 6.885427], [79.929939, 6.885409], [79.930282, 6.885445]]
+}

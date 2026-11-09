@@ -1,0 +1,9 @@
+{
+  "id": 715010795,
+  "name": "Old Kandy Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.76416, 6.976395], [80.764241, 6.976425], [80.764298, 6.976448], [80.764366, 6.976481], [80.764429, 6.976518], [80.764515, 6.976569]]
+}

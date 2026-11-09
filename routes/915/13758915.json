@@ -1,0 +1,9 @@
+{
+  "id": 13758915,
+  "name": "Dr. C. W. W. Kannangara Mawatha (Alexandra Place)",
+  "highway": "secondary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.864904, 6.917195], [79.864892, 6.917055], [79.864896, 6.916745], [79.864896, 6.916382], [79.864903, 6.916047]]
+}

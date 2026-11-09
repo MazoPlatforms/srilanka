@@ -1,0 +1,9 @@
+{
+  "id": 1118289030,
+  "name": "Perera Gardens",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.931722, 6.891502], [79.931723, 6.891801], [79.931892, 6.892187]]
+}

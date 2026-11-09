@@ -1,0 +1,9 @@
+{
+  "id": 197909404,
+  "name": "Hingurugamuwa Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.063959, 6.975951], [81.063885, 6.975927], [81.063456, 6.9757], [81.062624, 6.975337]]
+}

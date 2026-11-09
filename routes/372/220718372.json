@@ -1,0 +1,9 @@
+{
+  "id": 220718372,
+  "name": "Clercker Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.722177, 7.685112], [81.722187, 7.685081], [81.722245, 7.684892], [81.721995, 7.684778], [81.721642, 7.684574], [81.721245, 7.684403], [81.720644, 7.684198]]
+}

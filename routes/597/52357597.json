@@ -1,0 +1,9 @@
+{
+  "id": 52357597,
+  "name": "Mulleriyawa Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.940565, 6.927136], [79.940506, 6.927152], [79.940093, 6.927112]]
+}

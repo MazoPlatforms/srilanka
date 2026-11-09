@@ -1,0 +1,9 @@
+{
+  "id": 404556301,
+  "name": "Albert sub Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.886628, 7.094357], [79.886877, 7.094355], [79.886885, 7.094344], [79.886886, 7.094329], [79.8869, 7.094054], [79.8869, 7.094024]]
+}

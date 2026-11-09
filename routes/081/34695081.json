@@ -1,0 +1,9 @@
+{
+  "id": 34695081,
+  "name": "Sri Kathiresan Street",
+  "highway": "residential",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.85517, 6.942153], [79.854464, 6.940855], [79.854337, 6.940543], [79.854334, 6.939971], [79.85432, 6.939895], [79.854291, 6.93983]]
+}

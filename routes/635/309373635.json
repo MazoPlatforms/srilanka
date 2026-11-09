@@ -1,0 +1,9 @@
+{
+  "id": 309373635,
+  "name": "Kolongaha Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.863179, 6.334484], [80.863147, 6.334857], [80.863455, 6.334892], [80.863365, 6.33563]]
+}

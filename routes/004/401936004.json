@@ -1,0 +1,9 @@
+{
+  "id": 401936004,
+  "name": "Ratnapura Road",
+  "highway": "trunk",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 70.0, "motorcycle": 70.0, "truck": 70.0, "foot": 5},
+  "coordinates": [[80.188901, 6.737365], [80.188643, 6.737256]]
+}

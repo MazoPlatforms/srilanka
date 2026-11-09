@@ -1,0 +1,9 @@
+{
+  "id": 53167669,
+  "name": "Millagahawatta Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.890097, 6.896722], [79.890561, 6.897313], [79.890997, 6.896965], [79.891044, 6.896905]]
+}

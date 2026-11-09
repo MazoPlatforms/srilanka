@@ -1,0 +1,9 @@
+{
+  "id": 405634267,
+  "name": "Green Park",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.898564, 7.077637], [79.898658, 7.077606], [79.89866, 7.077522], [79.898544, 7.076766], [79.898271, 7.076804]]
+}

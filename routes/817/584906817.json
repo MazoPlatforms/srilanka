@@ -1,0 +1,9 @@
+{
+  "id": 584906817,
+  "name": "Welihena Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.867741, 7.231391], [79.867764, 7.231304], [79.868648, 7.229703], [79.868674, 7.229618], [79.86888, 7.229345]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 387292090,
+  "name": "Jathika Niwasa",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.965784, 7.055909], [79.965744, 7.055983], [79.965547, 7.056348], [79.965462, 7.056596], [79.965476, 7.05668], [79.965453, 7.056792], [79.965352, 7.056913]]
+}

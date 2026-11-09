@@ -1,0 +1,9 @@
+{
+  "id": 376601680,
+  "name": "Ravidu's Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.884059, 6.800524], [79.884056, 6.800449]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 173114275,
+  "name": "Hedges Court",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.866849, 6.922097], [79.866028, 6.921974], [79.865953, 6.921966], [79.865803, 6.921939], [79.865765, 6.921932], [79.864395, 6.921687]]
+}

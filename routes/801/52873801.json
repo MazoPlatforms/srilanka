@@ -1,0 +1,9 @@
+{
+  "id": 52873801,
+  "name": "Pelawatta Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.893086, 6.87274], [79.893138, 6.873018]]
+}

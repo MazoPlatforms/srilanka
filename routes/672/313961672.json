@@ -1,0 +1,9 @@
+{
+  "id": 313961672,
+  "name": "Galawatta road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.002646, 7.026117], [80.002816, 7.026513], [80.002946, 7.027035], [80.003029, 7.027028], [80.003679, 7.026711]]
+}

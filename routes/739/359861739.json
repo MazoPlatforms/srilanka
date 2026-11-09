@@ -1,0 +1,9 @@
+{
+  "id": 359861739,
+  "name": "Sevendana - Kiralabokka Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.27583, 7.448732], [80.275655, 7.449327]]
+}

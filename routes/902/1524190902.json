@@ -1,0 +1,9 @@
+{
+  "id": 1524190902,
+  "name": "river path to the waterfall, at some point you will need to just follow the river",
+  "highway": "footway",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 8, "foot": 5},
+  "coordinates": [[80.686516, 7.620476], [80.686742, 7.621123], [80.68696, 7.621386], [80.68629, 7.622035], [80.686258, 7.622807], [80.685541, 7.623039], [80.684903, 7.623317], [80.684404, 7.623858], [80.68417, 7.624476], [80.684357, 7.624847], [80.684341, 7.625388]]
+}

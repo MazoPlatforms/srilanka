@@ -1,0 +1,9 @@
+{
+  "id": 1529652477,
+  "name": "Trincomalee-Pulmoddai Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.014409, 8.890802], [81.014515, 8.890777], [81.014617, 8.89077], [81.014792, 8.890783]]
+}

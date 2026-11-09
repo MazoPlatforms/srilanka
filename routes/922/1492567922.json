@@ -1,0 +1,9 @@
+{
+  "id": 1492567922,
+  "name": "Pelawatta-Pitigala Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.216573, 6.405373], [80.216648, 6.405414], [80.216779, 6.405413]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 510227617,
+  "name": "Koswatta, Situpura Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.952611, 6.827687], [79.953073, 6.826493], [79.953464, 6.826582], [79.953671, 6.826642]]
+}

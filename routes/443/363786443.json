@@ -1,0 +1,9 @@
+{
+  "id": 363786443,
+  "name": "Port Ring Road",
+  "highway": "track",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 15, "foot": 4},
+  "coordinates": [[81.103875, 6.12942], [81.100025, 6.134215], [81.096796, 6.134198]]
+}

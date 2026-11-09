@@ -1,0 +1,9 @@
+{
+  "id": 330234640,
+  "name": "Weligepola-Handagiriya Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.736399, 6.580575], [80.736311, 6.58061]]
+}

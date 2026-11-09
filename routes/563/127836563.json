@@ -1,0 +1,9 @@
+{
+  "id": 127836563,
+  "name": "lan2",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.373537, 8.339234], [80.375065, 8.340178]]
+}

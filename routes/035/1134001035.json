@@ -1,0 +1,9 @@
+{
+  "id": 1134001035,
+  "name": "Medaketiya Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.808512, 6.038714], [80.808677, 6.038797], [80.809156, 6.039045], [80.809373, 6.039141], [80.80983, 6.039293], [80.809995, 6.039394]]
+}

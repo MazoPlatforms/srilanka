@@ -1,0 +1,9 @@
+{
+  "id": 295690708,
+  "name": "Shantha Pedesa",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.89248, 6.803351], [79.892756, 6.802891], [79.892922, 6.802604], [79.893214, 6.802111], [79.89335, 6.801886], [79.893519, 6.801623]]
+}

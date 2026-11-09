@@ -1,0 +1,9 @@
+{
+  "id": 288660485,
+  "name": "Ravuthar Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.803212, 7.369279], [81.803226, 7.369711], [81.80325, 7.370081], [81.803303, 7.370334], [81.803557, 7.370331]]
+}

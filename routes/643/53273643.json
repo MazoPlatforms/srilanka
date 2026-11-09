@@ -1,0 +1,9 @@
+{
+  "id": 53273643,
+  "name": "Jayanthi Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.904333, 6.904501], [79.904944, 6.904438], [79.905103, 6.904463], [79.905166, 6.904529], [79.905233, 6.904545], [79.905501, 6.90454]]
+}

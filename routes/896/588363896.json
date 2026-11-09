@@ -1,0 +1,9 @@
+{
+  "id": 588363896,
+  "name": "Kalugala-Laxapana Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.447051, 6.987421], [80.447121, 6.987439], [80.447253, 6.987469], [80.447496, 6.987369]]
+}

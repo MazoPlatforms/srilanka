@@ -1,0 +1,9 @@
+{
+  "id": 139263974,
+  "name": "Wijerama Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.90627, 6.860133], [79.906431, 6.860131], [79.906655, 6.86006]]
+}

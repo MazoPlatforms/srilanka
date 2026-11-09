@@ -1,0 +1,9 @@
+{
+  "id": 705273802,
+  "name": "Kimbulamaladeniya Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.119136, 6.169428], [80.119234, 6.16962], [80.119254, 6.169744], [80.119263, 6.16979]]
+}

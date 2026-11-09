@@ -1,0 +1,9 @@
+{
+  "id": 201249992,
+  "name": "Nawam Mawatha",
+  "highway": "residential",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.849646, 6.919683], [79.850019, 6.919791], [79.850077, 6.919809], [79.850115, 6.919821]]
+}

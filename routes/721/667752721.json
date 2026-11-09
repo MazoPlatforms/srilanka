@@ -1,0 +1,9 @@
+{
+  "id": 667752721,
+  "name": "Mirijjawila-Sooriyawewa Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.043921, 6.215965], [81.044032, 6.214833], [81.044166, 6.213913], [81.044233, 6.213593], [81.044339, 6.21323]]
+}

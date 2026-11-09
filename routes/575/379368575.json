@@ -1,0 +1,9 @@
+{
+  "id": 379368575,
+  "name": "Bowala Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.697999, 6.180102], [80.697981, 6.1799], [80.697938, 6.178582], [80.697868, 6.178076], [80.697795, 6.177829]]
+}

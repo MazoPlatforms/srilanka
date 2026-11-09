@@ -1,0 +1,9 @@
+{
+  "id": 200884804,
+  "name": "Dr. Hector Fernando Mawatha (Station Road)",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.8416, 7.210416], [79.841616, 7.210507], [79.841592, 7.210634], [79.841284, 7.211445]]
+}

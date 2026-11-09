@@ -1,0 +1,9 @@
+{
+  "id": 673350504,
+  "name": "Ouvakelle State Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.741634, 6.895047], [80.741648, 6.895097], [80.741629, 6.895163], [80.741486, 6.895318], [80.741409, 6.895531], [80.741294, 6.895643], [80.741279, 6.895689]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 1461874094,
+  "name": "Serandib South Boulevard",
+  "highway": "unclassified",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.842082, 6.931296], [79.842015, 6.931247], [79.841619, 6.930967]]
+}

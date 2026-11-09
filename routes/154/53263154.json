@@ -1,0 +1,9 @@
+{
+  "id": 53263154,
+  "name": "Piyadarsanarama Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.875388, 6.852468], [79.874321, 6.852696], [79.87404, 6.852761], [79.873835, 6.852805], [79.873593, 6.852887], [79.873437, 6.852946], [79.872834, 6.853172]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 835535282,
+  "name": "shan Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.325068, 6.359878], [80.325033, 6.359923], [80.32493, 6.360202]]
+}

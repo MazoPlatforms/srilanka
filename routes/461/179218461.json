@@ -1,0 +1,9 @@
+{
+  "id": 179218461,
+  "name": "Nesavu Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.566479, 7.918918], [81.566191, 7.918534], [81.565997, 7.918303], [81.564811, 7.917238]]
+}

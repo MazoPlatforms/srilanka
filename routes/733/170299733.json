@@ -1,0 +1,9 @@
+{
+  "id": 170299733,
+  "name": "Braybrook Street",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.123947, 6.124179], [81.123831, 6.124703], [81.123823, 6.124737], [81.123712, 6.12503], [81.12361, 6.12531], [81.123098, 6.126847]]
+}

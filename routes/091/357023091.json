@@ -1,0 +1,9 @@
+{
+  "id": 357023091,
+  "name": "Ihala Bope-Labugama Road",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.171536, 6.853212], [80.171501, 6.853326], [80.171443, 6.853593], [80.171415, 6.854118]]
+}

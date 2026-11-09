@@ -1,0 +1,9 @@
+{
+  "id": 489727304,
+  "name": "Baratiyar 3rd Cross Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.49178, 8.006044], [81.491653, 8.0062], [81.491374, 8.006502]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 155760109,
+  "name": "Sri Nagathambiran Aalaya Veethy",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.689944, 7.728881], [81.689873, 7.728625], [81.689768, 7.728348], [81.690007, 7.728196], [81.690391, 7.727952]]
+}

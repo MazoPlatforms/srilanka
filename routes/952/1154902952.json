@@ -1,0 +1,9 @@
+{
+  "id": 1154902952,
+  "name": "Sri Saranankara Road",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.872699, 6.873607], [79.872677, 6.873548], [79.872655, 6.873512], [79.87263, 6.873486], [79.872561, 6.873435]]
+}

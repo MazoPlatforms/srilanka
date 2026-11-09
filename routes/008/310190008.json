@@ -1,0 +1,9 @@
+{
+  "id": 310190008,
+  "name": "Ananda Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.840933, 6.322172], [80.841292, 6.322679], [80.841588, 6.323059], [80.841816, 6.323304], [80.842715, 6.324137]]
+}

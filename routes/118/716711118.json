@@ -1,0 +1,9 @@
+{
+  "id": 716711118,
+  "name": "Welimanana Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.163694, 6.329416], [80.163655, 6.329527], [80.163565, 6.329952], [80.163353, 6.330174], [80.163208, 6.330417], [80.162821, 6.331123], [80.162532, 6.331806]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 1254847661,
+  "name": "1st Lane",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[80.539711, 6.927561], [80.539711, 6.927582], [80.539717, 6.927869], [80.539737, 6.9283]]
+}

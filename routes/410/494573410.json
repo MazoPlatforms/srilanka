@@ -1,0 +1,9 @@
+{
+  "id": 494573410,
+  "name": "Kulaththu Road",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[81.742911, 7.588681], [81.742464, 7.588506], [81.742277, 7.588441], [81.742124, 7.588351], [81.742041, 7.588183], [81.742039, 7.588189]]
+}

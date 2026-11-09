@@ -1,0 +1,9 @@
+{
+  "id": 378241301,
+  "name": "Srimath Bandaranayake Mawatha",
+  "highway": "tertiary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.865575, 6.94031], [79.864297, 6.939833], [79.864142, 6.939774], [79.863096, 6.939378], [79.862903, 6.939305]]
+}

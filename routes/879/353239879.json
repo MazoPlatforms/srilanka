@@ -1,0 +1,9 @@
+{
+  "id": 353239879,
+  "name": "Welipara",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.309899, 6.005715], [80.308868, 6.005717], [80.308295, 6.005719]]
+}

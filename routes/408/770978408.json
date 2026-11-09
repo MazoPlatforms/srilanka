@@ -1,0 +1,9 @@
+{
+  "id": 770978408,
+  "name": "Halpatota-Kurundugahahetekma Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.138979, 6.269845], [80.138955, 6.270017], [80.138903, 6.270828], [80.138889, 6.270966], [80.138837, 6.271511], [80.138796, 6.271674], [80.138763, 6.271833]]
+}

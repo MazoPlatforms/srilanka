@@ -1,0 +1,9 @@
+{
+  "id": 696326571,
+  "name": "Kurunda Road",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 15.0, "motorcycle": 15.0, "bicycle": 10, "foot": 5},
+  "coordinates": [[79.998949, 6.868492], [79.999166, 6.868589], [79.999333, 6.868687]]
+}

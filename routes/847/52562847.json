@@ -1,0 +1,9 @@
+{
+  "id": 52562847,
+  "name": "Jayaratne Avenue",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.865124, 6.891506], [79.865392, 6.891474], [79.865456, 6.891389], [79.865478, 6.891155], [79.865521, 6.891086], [79.865617, 6.89107], [79.865808, 6.890764]]
+}

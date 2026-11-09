@@ -1,0 +1,9 @@
+{
+  "id": 583647228,
+  "name": "Concrete Yard Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.855258, 6.323187], [80.855116, 6.323286]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 53729525,
+  "name": "Adams Avenue",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.858958, 6.897667], [79.858922, 6.897905], [79.858931, 6.897943], [79.858968, 6.897972], [79.859843, 6.898197], [79.860282, 6.898255]]
+}

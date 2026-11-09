@@ -1,0 +1,9 @@
+{
+  "id": 420814214,
+  "name": "Habarakada-Ranala Road",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.031103, 6.906195], [80.030799, 6.906057]]
+}

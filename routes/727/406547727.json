@@ -1,0 +1,9 @@
+{
+  "id": 406547727,
+  "name": "5th Lane St. Anthony Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.900547, 7.087941], [79.900547, 7.087779], [79.900545, 7.087559], [79.900543, 7.087361], [79.900553, 7.087201], [79.900565, 7.087187]]
+}

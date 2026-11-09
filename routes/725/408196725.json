@@ -1,0 +1,9 @@
+{
+  "id": 408196725,
+  "name": "43th Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.906454, 7.121478], [79.905632, 7.121485]]
+}

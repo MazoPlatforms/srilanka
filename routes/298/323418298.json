@@ -1,0 +1,9 @@
+{
+  "id": 323418298,
+  "name": "Meera Odai Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.857956, 7.222402], [81.85788, 7.222987], [81.857875, 7.223054], [81.857821, 7.22374]]
+}

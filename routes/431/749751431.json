@@ -1,0 +1,9 @@
+{
+  "id": 749751431,
+  "name": "Kurunegala-Dambulla Road",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 70.0, "motorcycle": 70.0, "truck": 70.0, "foot": 5},
+  "coordinates": [[80.564605, 7.752725], [80.564786, 7.752882]]
+}

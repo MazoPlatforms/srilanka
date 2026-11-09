@@ -1,0 +1,9 @@
+{
+  "id": 546005516,
+  "name": "11th Lane, Pahalawela Road",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[79.925823, 6.885134], [79.925482, 6.88454]]
+}

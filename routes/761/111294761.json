@@ -1,0 +1,9 @@
+{
+  "id": 111294761,
+  "name": "Thushara Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.842893, 7.227451], [79.844663, 7.22725], [79.845201, 7.2272]]
+}

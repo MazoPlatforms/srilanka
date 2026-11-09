@@ -1,0 +1,9 @@
+{
+  "id": 360962031,
+  "name": "Kirinde Road",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.206854, 6.207967], [81.208024, 6.20933], [81.208423, 6.209671]]
+}

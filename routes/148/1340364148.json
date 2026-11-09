@@ -1,0 +1,9 @@
+{
+  "id": 1340364148,
+  "name": "Suduwelimulla Road",
+  "highway": "track",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 15, "foot": 4},
+  "coordinates": [[81.512778, 6.358514], [81.512395, 6.358131], [81.512344, 6.358087], [81.512316, 6.358047]]
+}

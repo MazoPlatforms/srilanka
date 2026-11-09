@@ -1,0 +1,9 @@
+{
+  "id": 424020041,
+  "name": "Pubudu Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.891472, 7.120736], [79.891411, 7.121166], [79.891458, 7.121177], [79.891473, 7.121203], [79.891465, 7.122438]]
+}

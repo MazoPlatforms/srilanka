@@ -1,0 +1,9 @@
+{
+  "id": 46967628,
+  "name": "Rajamawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.867242, 6.816752], [79.867623, 6.816856], [79.867866, 6.816923], [79.867925, 6.816937], [79.867973, 6.816948], [79.868029, 6.81696], [79.868047, 6.816963]]
+}

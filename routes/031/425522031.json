@@ -1,0 +1,9 @@
+{
+  "id": 425522031,
+  "name": "Konesar Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.23962, 8.574589], [81.239704, 8.574552], [81.239786, 8.574523], [81.239839, 8.574515], [81.239894, 8.574508], [81.239979, 8.574508]]
+}

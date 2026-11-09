@@ -1,0 +1,9 @@
+{
+  "id": 314356021,
+  "name": "Duwa Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.913776, 6.888624], [79.91398, 6.888712], [79.914444, 6.888913]]
+}

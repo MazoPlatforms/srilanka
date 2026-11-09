@@ -1,0 +1,9 @@
+{
+  "id": 834969574,
+  "name": "Hindu Cemery Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.543816, 7.858044], [81.544126, 7.857314], [81.54441, 7.856574]]
+}

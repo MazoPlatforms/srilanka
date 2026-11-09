@@ -1,0 +1,9 @@
+{
+  "id": 200057987,
+  "name": "Nagathampiran kovil road 7th lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.482915, 8.771327], [80.48287, 8.771506], [80.4826, 8.772337], [80.48261, 8.772421], [80.482323, 8.773388]]
+}

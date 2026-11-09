@@ -1,0 +1,9 @@
+{
+  "id": 155949762,
+  "name": "2nd Cross",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "bicycle": 15, "foot": 5},
+  "coordinates": [[81.680878, 7.700881], [81.680813, 7.700886], [81.679821, 7.701036]]
+}

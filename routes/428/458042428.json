@@ -1,0 +1,9 @@
+{
+  "id": 458042428,
+  "name": "Piradesiya Saba Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.712054, 7.607076], [81.71211, 7.607076], [81.713721, 7.60708]]
+}

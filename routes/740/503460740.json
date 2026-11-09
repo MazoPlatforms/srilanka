@@ -1,0 +1,9 @@
+{
+  "id": 503460740,
+  "name": "City Paradise Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.998492, 7.08663], [79.998155, 7.086423], [79.997722, 7.086154], [79.997546, 7.086045]]
+}

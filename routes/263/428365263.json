@@ -1,0 +1,9 @@
+{
+  "id": 428365263,
+  "name": "Krindiwita-Assennawatta Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 55, "motorcycle": 55, "truck": 50, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.984339, 7.17844], [79.98434, 7.178404], [79.984341, 7.178387]]
+}

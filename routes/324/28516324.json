@@ -1,0 +1,9 @@
+{
+  "id": 28516324,
+  "name": "Rajapaksa Broadway",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.837934, 7.20774], [79.837966, 7.207958], [79.837986, 7.208046]]
+}

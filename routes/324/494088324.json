@@ -1,0 +1,9 @@
+{
+  "id": 494088324,
+  "name": "Youth Club Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.726634, 7.595318], [81.726506, 7.595858], [81.726417, 7.596146], [81.726321, 7.596404]]
+}

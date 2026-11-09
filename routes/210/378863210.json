@@ -1,0 +1,9 @@
+{
+  "id": 378863210,
+  "name": "Duke Street",
+  "highway": "residential",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 45, "motorcycle": 45, "truck": 45, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.845913, 6.934344], [79.846006, 6.934898], [79.846161, 6.93626], [79.846172, 6.93634]]
+}

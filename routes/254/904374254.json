@@ -1,0 +1,9 @@
+{
+  "id": 904374254,
+  "name": "Pethum Uyana",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.938373, 6.782287], [79.938259, 6.782195], [79.938107, 6.782059], [79.9381, 6.782018], [79.938275, 6.781809]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 1141512428,
+  "name": "Olcott Mawatha",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
+  "coordinates": [[79.85476, 6.934436], [79.85487, 6.934393]]
+}

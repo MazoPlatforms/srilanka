@@ -1,0 +1,9 @@
+{
+  "id": 568043746,
+  "name": "V.C.Rd",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.204589, 6.065799], [80.204374, 6.065516], [80.204671, 6.065005]]
+}

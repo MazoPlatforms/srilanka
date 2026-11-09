@@ -1,0 +1,9 @@
+{
+  "id": 287438519,
+  "name": "Bazar 4th Street",
+  "highway": "residential",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.804868, 7.371339], [81.804877, 7.371445], [81.804938, 7.371996], [81.805021, 7.372388], [81.805017, 7.372493]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 377010169,
+  "name": "J D Salaman Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.922568, 6.819483], [79.923193, 6.819791], [79.923508, 6.819939]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 441424004,
+  "name": "Beach side Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.459213, 5.946082], [80.458976, 5.945852], [80.458822, 5.945445], [80.458713, 5.945253], [80.458634, 5.945156], [80.458633, 5.945155]]
+}

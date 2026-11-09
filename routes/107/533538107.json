@@ -1,0 +1,9 @@
+{
+  "id": 533538107,
+  "name": "Nittambuwa-Urapola-Ruwanwella Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.24489, 7.042067], [80.244848, 7.042001], [80.244804, 7.041914]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 356867342,
+  "name": "Komanayagoda Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.484362, 5.972197], [80.484176, 5.97219], [80.483829, 5.972429], [80.483634, 5.972564], [80.483453, 5.972514], [80.483075, 5.972802]]
+}

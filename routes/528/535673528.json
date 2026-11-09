@@ -1,0 +1,9 @@
+{
+  "id": 535673528,
+  "name": "Puwakwatta Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.211981, 6.069171], [80.211883, 6.069218], [80.211854, 6.069263], [80.21172, 6.069473], [80.211444, 6.069541], [80.211293, 6.069457]]
+}

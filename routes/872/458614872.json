@@ -1,0 +1,9 @@
+{
+  "id": 458614872,
+  "name": "Hospital road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.435974, 8.133377], [81.435748, 8.133323], [81.434438, 8.133094], [81.434316, 8.133017]]
+}

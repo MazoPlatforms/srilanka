@@ -1,0 +1,9 @@
+{
+  "id": 134075145,
+  "name": "Makandura-Badalgama Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.98371, 7.301049], [79.983608, 7.302421]]
+}

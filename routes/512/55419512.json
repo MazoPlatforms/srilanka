@@ -1,0 +1,9 @@
+{
+  "id": 55419512,
+  "name": "Seelarathana Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.880554, 6.934381], [79.880485, 6.934391], [79.880396, 6.934405], [79.880185, 6.934451], [79.880088, 6.934489], [79.879266, 6.934778]]
+}

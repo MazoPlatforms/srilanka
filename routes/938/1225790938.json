@@ -1,0 +1,9 @@
+{
+  "id": 1225790938,
+  "name": "Thilak Ratnayake Mawatha",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 55, "motorcycle": 55, "truck": 50, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.633374, 7.293239], [80.633366, 7.293334], [80.633367, 7.293393], [80.63338, 7.293461], [80.63346, 7.29359]]
+}

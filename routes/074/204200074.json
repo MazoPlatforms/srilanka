@@ -1,0 +1,9 @@
+{
+  "id": 204200074,
+  "name": "Hugo Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.847078, 7.210209], [79.847254, 7.2111], [79.847459, 7.212161]]
+}

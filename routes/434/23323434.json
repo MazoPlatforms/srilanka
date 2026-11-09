@@ -1,0 +1,9 @@
+{
+  "id": 23323434,
+  "name": "Deshamanya H.K Dharmadasa Mawatha",
+  "highway": "residential",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.853007, 6.92118], [79.853066, 6.921221], [79.853115, 6.921299], [79.85361, 6.922402]]
+}

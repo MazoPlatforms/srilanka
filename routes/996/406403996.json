@@ -1,0 +1,9 @@
+{
+  "id": 406403996,
+  "name": "Rajina Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.906581, 7.087089], [79.906586, 7.086775], [79.906573, 7.086062], [79.906581, 7.085482], [79.906594, 7.085133]]
+}

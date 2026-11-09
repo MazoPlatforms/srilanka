@@ -1,0 +1,9 @@
+{
+  "id": 664637184,
+  "name": "Hurigaswewa-Meegalewa-Galgamuwa Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.355101, 8.056026], [80.355143, 8.056077], [80.355176, 8.056119]]
+}

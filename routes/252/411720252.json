@@ -1,0 +1,9 @@
+{
+  "id": 411720252,
+  "name": "Poonthodam Periyarkulam road 7thlane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.501939, 8.772845], [80.502137, 8.773192], [80.502491, 8.773823], [80.503105, 8.774707]]
+}

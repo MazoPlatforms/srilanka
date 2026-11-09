@@ -1,0 +1,9 @@
+{
+  "id": 419999548,
+  "name": "Nagalagam Street",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.878372, 6.958237], [79.878339, 6.958135], [79.878266, 6.958005], [79.87823, 6.957927], [79.878122, 6.957743], [79.878009, 6.957566], [79.877721, 6.957116]]
+}

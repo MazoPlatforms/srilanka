@@ -1,0 +1,9 @@
+{
+  "id": 376622327,
+  "name": "Dolarosa Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.892163, 7.077967], [79.892908, 7.077794], [79.893356, 7.077648], [79.893604, 7.077611], [79.89386, 7.077601]]
+}

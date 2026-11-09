@@ -1,0 +1,9 @@
+{
+  "id": 194735832,
+  "name": "Front Street",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.012878, 9.66019], [80.013078, 9.660579], [80.013319, 9.661054], [80.013456, 9.66131], [80.01412, 9.66245], [80.014237, 9.66267], [80.014329, 9.66286]]
+}

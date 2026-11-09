@@ -1,0 +1,9 @@
+{
+  "id": 172901711,
+  "name": "Deva Veediya",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.63931, 7.294915], [80.639336, 7.29485], [80.639346, 7.294593], [80.639365, 7.294079], [80.639366, 7.293987]]
+}

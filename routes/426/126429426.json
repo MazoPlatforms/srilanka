@@ -1,0 +1,9 @@
+{
+  "id": 126429426,
+  "name": "Harischandra Mawatha",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.413707, 8.333899], [80.413625, 8.333929], [80.413344, 8.33402], [80.412738, 8.334242], [80.411828, 8.334619], [80.411567, 8.334727], [80.411166, 8.334885]]
+}

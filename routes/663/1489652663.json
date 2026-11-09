@@ -1,0 +1,9 @@
+{
+  "id": 1489652663,
+  "name": "Kandethota Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.476283, 5.943175], [80.476404, 5.943466], [80.476109, 5.943965], [80.476349, 5.944199]]
+}

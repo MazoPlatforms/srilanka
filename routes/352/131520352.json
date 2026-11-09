@@ -1,0 +1,9 @@
+{
+  "id": 131520352,
+  "name": "Amaragoda - Pothuarawa Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.957628, 6.888796], [79.957655, 6.888716]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 1117292688,
+  "name": "Gnanartha Pradeepaya Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.87706, 6.915317], [79.877202, 6.915158], [79.877264, 6.9151]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 50282565,
+  "name": "Minuwangoda-Gampaha-Mriswatta Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 55, "motorcycle": 55, "truck": 50, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.981194, 7.125974], [79.981095, 7.126291]]
+}

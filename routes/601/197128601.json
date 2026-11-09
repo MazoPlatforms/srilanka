@@ -1,0 +1,9 @@
+{
+  "id": 197128601,
+  "name": "Muruthalawa-Godamuduna Rd",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.570769, 7.295177], [80.570642, 7.295178], [80.570485, 7.295166]]
+}

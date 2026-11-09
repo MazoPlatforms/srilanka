@@ -1,0 +1,9 @@
+{
+  "id": 1141512441,
+  "name": "Albert Crescent",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.863227, 6.909758], [79.863296, 6.909788], [79.863379, 6.909809], [79.863441, 6.909802], [79.863561, 6.909736]]
+}

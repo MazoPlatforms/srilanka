@@ -1,0 +1,9 @@
+{
+  "id": 288669172,
+  "name": "Center Street",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.794274, 7.367399], [81.794432, 7.367798], [81.794555, 7.36814], [81.794598, 7.368336], [81.794639, 7.369011]]
+}

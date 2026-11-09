@@ -1,0 +1,9 @@
+{
+  "id": 50002948,
+  "name": "Philip Gunawardena Mawatha (Reid Avenue)",
+  "highway": "secondary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.860774, 6.899256], [79.860702, 6.899113], [79.860632, 6.898988], [79.860558, 6.898927], [79.860459, 6.898914], [79.860342, 6.898955]]
+}

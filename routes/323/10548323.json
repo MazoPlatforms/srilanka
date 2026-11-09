@@ -1,0 +1,9 @@
+{
+  "id": 10548323,
+  "name": "Bankshall Street",
+  "highway": "residential",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.851554, 6.938622], [79.85065, 6.938105], [79.850548, 6.938041], [79.850059, 6.9378], [79.849742, 6.937696], [79.849657, 6.937765]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 1060532520,
+  "name": "Sri Uttarananda Mawatha",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 55, "motorcycle": 55, "truck": 50, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.849688, 6.918065], [79.849605, 6.918193], [79.849524, 6.918365], [79.849337, 6.918933], [79.84924, 6.919281]]
+}

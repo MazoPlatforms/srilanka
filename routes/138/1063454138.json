@@ -1,0 +1,9 @@
+{
+  "id": 1063454138,
+  "name": "Rohina Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.922256, 6.889822], [79.922359, 6.889912], [79.922479, 6.890063], [79.92281, 6.890481], [79.923225, 6.891026]]
+}

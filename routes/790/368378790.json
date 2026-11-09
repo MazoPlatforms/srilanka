@@ -1,0 +1,9 @@
+{
+  "id": 368378790,
+  "name": "Beligala Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.272044, 7.26183], [80.272001, 7.261519]]
+}

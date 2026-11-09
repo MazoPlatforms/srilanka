@@ -1,0 +1,9 @@
+{
+  "id": 53372493,
+  "name": "Colonel Avenue",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.883709, 6.85016], [79.884658, 6.849881], [79.884836, 6.849686], [79.884899, 6.849659], [79.885654, 6.849593]]
+}

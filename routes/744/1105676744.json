@@ -1,0 +1,9 @@
+{
+  "id": 1105676744,
+  "name": "Perera Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.930523, 6.894145], [79.930522, 6.893681], [79.930547, 6.893458], [79.930611, 6.893246], [79.93053, 6.892885]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 52562704,
+  "name": "Stubbs Place",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.860225, 6.888055], [79.860421, 6.886979]]
+}

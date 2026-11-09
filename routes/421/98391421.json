@@ -1,0 +1,9 @@
+{
+  "id": 98391421,
+  "name": "Sea Beach Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.8736, 6.79498], [79.873672, 6.794615]]
+}

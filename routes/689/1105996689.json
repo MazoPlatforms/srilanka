@@ -1,0 +1,9 @@
+{
+  "id": 1105996689,
+  "name": "Evergreen Park Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.880513, 6.894385], [79.880517, 6.894861], [79.880506, 6.89493], [79.880454, 6.895001], [79.880235, 6.895347], [79.880209, 6.895384]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 10548251,
+  "name": "Abesundara Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.21072, 6.034933], [80.21074, 6.034991], [80.210767, 6.035069], [80.210812, 6.035202], [80.210884, 6.035632], [80.210933, 6.035815], [80.211087, 6.036177]]
+}

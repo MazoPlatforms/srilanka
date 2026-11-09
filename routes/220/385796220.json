@@ -1,0 +1,9 @@
+{
+  "id": 385796220,
+  "name": "Valluvar Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.324828, 8.143578], [81.324837, 8.143532], [81.324876, 8.143269], [81.325, 8.142799], [81.325097, 8.142247]]
+}

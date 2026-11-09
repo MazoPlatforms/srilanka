@@ -1,0 +1,9 @@
+{
+  "id": 314671978,
+  "name": "Maralanda Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.445344, 7.441785], [80.445487, 7.441615], [80.445832, 7.441039], [80.446118, 7.440621], [80.446229, 7.440364], [80.446313, 7.439816]]
+}

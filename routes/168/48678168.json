@@ -1,0 +1,9 @@
+{
+  "id": 48678168,
+  "name": "Philip Gunawardena Mawatha",
+  "highway": "secondary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.86482, 6.908075], [79.864808, 6.908049], [79.864801, 6.908031], [79.86477, 6.907984], [79.864318, 6.907747]]
+}

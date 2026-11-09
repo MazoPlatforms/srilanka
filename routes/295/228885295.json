@@ -1,0 +1,9 @@
+{
+  "id": 228885295,
+  "name": "Sooriyawewa-Sewanagala Road",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.973052, 6.366206], [80.972903, 6.366259]]
+}

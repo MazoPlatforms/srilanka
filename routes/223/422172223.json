@@ -1,0 +1,9 @@
+{
+  "id": 422172223,
+  "name": "Uswatta Plant Nursery",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.917903, 7.120988], [79.917866, 7.120764], [79.917885, 7.120474], [79.918012, 7.120188], [79.918216, 7.119833]]
+}

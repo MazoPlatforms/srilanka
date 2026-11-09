@@ -1,0 +1,9 @@
+{
+  "id": 490008912,
+  "name": "Iraaloadai Road",
+  "highway": "track",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 15, "foot": 4},
+  "coordinates": [[81.522167, 7.974743], [81.522472, 7.974668], [81.522927, 7.974575], [81.525091, 7.97404], [81.525666, 7.973901]]
+}

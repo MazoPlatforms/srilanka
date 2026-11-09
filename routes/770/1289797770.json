@@ -1,0 +1,9 @@
+{
+  "id": 1289797770,
+  "name": "Stanley Thilakarathne Mawatha",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.900669, 6.87622], [79.900394, 6.876097], [79.900176, 6.875982], [79.899973, 6.875867], [79.899841, 6.875824]]
+}

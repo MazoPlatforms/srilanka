@@ -1,0 +1,9 @@
+{
+  "id": 23781086,
+  "name": "Labugama road",
+  "highway": "tertiary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.064134, 6.711609], [80.064186, 6.712101]]
+}

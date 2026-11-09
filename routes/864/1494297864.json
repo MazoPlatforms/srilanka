@@ -1,0 +1,9 @@
+{
+  "id": 1494297864,
+  "name": "Malwatu Oya Left Bank Road",
+  "highway": "secondary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.407399, 8.34592], [80.407562, 8.345986]]
+}

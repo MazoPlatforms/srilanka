@@ -1,0 +1,9 @@
+{
+  "id": 345479344,
+  "name": "Samanala Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.972678, 6.913894], [79.972315, 6.913948], [79.972165, 6.913965]]
+}

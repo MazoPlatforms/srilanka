@@ -1,0 +1,9 @@
+{
+  "id": 520577182,
+  "name": "Shanthi Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.928019, 6.907142], [79.927991, 6.907189], [79.927835, 6.907977], [79.927802, 6.908019]]
+}

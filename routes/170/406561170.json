@@ -1,0 +1,9 @@
+{
+  "id": 406561170,
+  "name": "Bandigoda Church Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.911868, 7.077457], [79.912023, 7.077454], [79.912322, 7.077459], [79.912604, 7.077473]]
+}

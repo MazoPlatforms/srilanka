@@ -1,0 +1,9 @@
+{
+  "id": 524558622,
+  "name": "Pudubulankulama Pansala Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.530429, 8.783758], [80.530403, 8.7836], [80.530284, 8.783191], [80.530258, 8.782943], [80.530226, 8.78267]]
+}

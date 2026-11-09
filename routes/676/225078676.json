@@ -1,0 +1,9 @@
+{
+  "id": 225078676,
+  "name": "Aranayaka-Horawala Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.458331, 7.174481], [80.458319, 7.174753]]
+}

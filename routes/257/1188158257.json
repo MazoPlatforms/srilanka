@@ -1,0 +1,9 @@
+{
+  "id": 1188158257,
+  "name": "Rusiru Uyana Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.176605, 6.745597], [80.176993, 6.74562]]
+}

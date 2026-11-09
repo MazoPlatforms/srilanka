@@ -1,0 +1,9 @@
+{
+  "id": 453439069,
+  "name": "Unnichai- Pavatkodichanai Main Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.568165, 7.618748], [81.568205, 7.618612], [81.568836, 7.617637], [81.569382, 7.616857], [81.569654, 7.616503]]
+}

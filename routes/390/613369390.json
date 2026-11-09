@@ -1,0 +1,9 @@
+{
+  "id": 613369390,
+  "name": "Hali Wewa Rd",
+  "highway": "track",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 15, "foot": 4},
+  "coordinates": [[80.163595, 7.706586], [80.163357, 7.706278], [80.162752, 7.705495], [80.162404, 7.705076]]
+}

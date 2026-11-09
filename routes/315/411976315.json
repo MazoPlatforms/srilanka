@@ -1,0 +1,9 @@
+{
+  "id": 411976315,
+  "name": "Weerakoonwatta old Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.988349, 7.044209], [79.988271, 7.044305], [79.988144, 7.044582], [79.988117, 7.04469]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 835275957,
+  "name": "Gahalakoladeniya Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.246263, 6.22159], [80.246291, 6.22154]]
+}

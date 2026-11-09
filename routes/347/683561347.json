@@ -1,0 +1,9 @@
+{
+  "id": 683561347,
+  "name": "Naotunna Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.62223, 5.964185], [80.622347, 5.964333]]
+}

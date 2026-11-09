@@ -1,0 +1,9 @@
+{
+  "id": 712070805,
+  "name": "Passara-Moneragala Road",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "foot": 5},
+  "coordinates": [[81.338475, 6.854211], [81.338415, 6.854273], [81.338323, 6.854541]]
+}

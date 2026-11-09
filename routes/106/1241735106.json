@@ -1,0 +1,9 @@
+{
+  "id": 1241735106,
+  "name": "Tharavai Agro Road",
+  "highway": "track",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 15, "foot": 4},
+  "coordinates": [[81.455929, 7.806645], [81.454932, 7.804998], [81.452979, 7.802405]]
+}

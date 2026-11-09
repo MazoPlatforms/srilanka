@@ -1,0 +1,9 @@
+{
+  "id": 664988250,
+  "name": "Arasankulam 2nd lane",
+  "highway": "path",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 12, "foot": 4},
+  "coordinates": [[80.503188, 8.877916], [80.502888, 8.87792], [80.501413, 8.877938], [80.501378, 8.877683], [80.501379, 8.877561]]
+}

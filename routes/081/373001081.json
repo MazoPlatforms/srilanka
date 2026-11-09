@@ -1,0 +1,9 @@
+{
+  "id": 373001081,
+  "name": "Harangala-Kalapitiya-Kumbaloluwa Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.591069, 7.051274], [80.59114, 7.051341], [80.59123, 7.051391], [80.591339, 7.051397], [80.591414, 7.051393], [80.591563, 7.05138], [80.591721, 7.051372], [80.591825, 7.051404]]
+}

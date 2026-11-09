@@ -1,0 +1,9 @@
+{
+  "id": 24745865,
+  "name": "Kensington Garden",
+  "highway": "residential",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.861455, 6.882072], [79.860877, 6.881928], [79.859851, 6.881673], [79.859183, 6.881518]]
+}

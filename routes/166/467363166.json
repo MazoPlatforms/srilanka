@@ -1,0 +1,9 @@
+{
+  "id": 467363166,
+  "name": "Palakkadu west Agriculture Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.640623, 7.695771], [81.644651, 7.69733], [81.648097, 7.698623], [81.648182, 7.698694], [81.648247, 7.698867], [81.648248, 7.698918]]
+}

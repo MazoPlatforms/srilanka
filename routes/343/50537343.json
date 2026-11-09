@@ -1,0 +1,9 @@
+{
+  "id": 50537343,
+  "name": "Economic Central Cross Road",
+  "highway": "residential",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.881923, 6.891974], [79.881836, 6.893484], [79.881781, 6.894414]]
+}

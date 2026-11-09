@@ -1,0 +1,9 @@
+{
+  "id": 1040123895,
+  "name": "Sirimal Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.178086, 6.812145], [80.177964, 6.811544], [80.17796, 6.811024], [80.178072, 6.810569], [80.178038, 6.810362], [80.17788, 6.810191]]
+}

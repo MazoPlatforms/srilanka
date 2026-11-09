@@ -1,0 +1,9 @@
+{
+  "id": 820883850,
+  "name": "Kanda Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.051555, 6.245154], [80.051652, 6.244639], [80.051682, 6.244445], [80.051682, 6.244421]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 220851810,
+  "name": "Light House 1st Cross",
+  "highway": "path",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 12, "foot": 4},
+  "coordinates": [[81.682378, 7.755804], [81.682476, 7.756053], [81.68268, 7.756345]]
+}

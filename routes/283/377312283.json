@@ -1,0 +1,9 @@
+{
+  "id": 377312283,
+  "name": "Magelegoda Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.056331, 7.121065], [80.056465, 7.121007], [80.056642, 7.120948], [80.057068, 7.120809], [80.058006, 7.120444], [80.058527, 7.12025], [80.059099, 7.120032]]
+}

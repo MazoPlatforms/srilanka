@@ -1,0 +1,9 @@
+{
+  "id": 406731732,
+  "name": "Kapuwaththa 4rd Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.893508, 7.063355], [79.893622, 7.063385], [79.894055, 7.06347], [79.89484, 7.063681]]
+}

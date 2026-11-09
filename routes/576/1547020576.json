@@ -1,0 +1,9 @@
+{
+  "id": 1547020576,
+  "name": "Minneriya-Gal Oya Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.89594, 8.09931], [80.895768, 8.09941]]
+}

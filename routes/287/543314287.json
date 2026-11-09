@@ -1,0 +1,9 @@
+{
+  "id": 543314287,
+  "name": "Hatton-Maskeliya-Sri Pada Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.598162, 6.889892], [80.598157, 6.890014], [80.598127, 6.890531], [80.598136, 6.890695], [80.598188, 6.890906], [80.59833, 6.89116], [80.598361, 6.891305], [80.598409, 6.891673]]
+}

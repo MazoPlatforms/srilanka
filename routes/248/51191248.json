@@ -1,0 +1,9 @@
+{
+  "id": 51191248,
+  "name": "Stork Place",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.86826, 6.923301], [79.866689, 6.922822]]
+}

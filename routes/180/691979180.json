@@ -1,0 +1,9 @@
+{
+  "id": 691979180,
+  "name": "Slaughter House Lake Road",
+  "highway": "secondary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.685881, 7.727096], [81.685861, 7.727041], [81.685857, 7.726972], [81.68585, 7.726906], [81.685847, 7.726839]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 504229285,
+  "name": "Perakumba Street",
+  "highway": "residential",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.363754, 7.489522], [80.363874, 7.489315], [80.364004, 7.489158], [80.364199, 7.488928], [80.364409, 7.48863]]
+}

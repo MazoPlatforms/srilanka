@@ -1,0 +1,9 @@
+{
+  "id": 709780211,
+  "name": "Wijithapura Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.940323, 6.782393], [79.940437, 6.782387], [79.940519, 6.782387], [79.940619, 6.78244], [79.940721, 6.782605], [79.940761, 6.782785], [79.940753, 6.7833]]
+}

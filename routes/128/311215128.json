@@ -1,0 +1,9 @@
+{
+  "id": 311215128,
+  "name": "Thabru Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.350105, 7.484685], [80.350273, 7.48457], [80.350565, 7.484284], [80.350857, 7.484029], [80.351062, 7.483852], [80.351509, 7.483384], [80.351999, 7.48294]]
+}

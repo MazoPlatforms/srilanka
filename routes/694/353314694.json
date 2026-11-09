@@ -1,0 +1,9 @@
+{
+  "id": 353314694,
+  "name": "Ellegama Road",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.947657, 6.843962], [80.947834, 6.843763]]
+}

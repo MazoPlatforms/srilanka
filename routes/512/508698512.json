@@ -1,0 +1,9 @@
+{
+  "id": 508698512,
+  "name": "Jayantha Mallimarachchi Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.87455, 6.953969], [79.874758, 6.953749], [79.874845, 6.953699]]
+}

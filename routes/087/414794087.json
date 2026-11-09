@@ -1,0 +1,9 @@
+{
+  "id": 414794087,
+  "name": "Alayadi road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.699356, 7.533325], [81.699163, 7.533419], [81.699033, 7.533689], [81.698949, 7.533964], [81.698925, 7.53411], [81.69893, 7.534377], [81.698874, 7.534642]]
+}

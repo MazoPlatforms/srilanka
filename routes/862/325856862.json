@@ -1,0 +1,9 @@
+{
+  "id": 325856862,
+  "name": "Moragahakanda-Wellewala Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.773076, 7.705025], [80.774115, 7.704932]]
+}

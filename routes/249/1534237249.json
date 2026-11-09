@@ -1,0 +1,9 @@
+{
+  "id": 1534237249,
+  "name": "",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 15, "motorcycle": 15, "bicycle": 15, "foot": 5},
+  "coordinates": [[79.864069, 7.078321], [79.863912, 7.078288], [79.863837, 7.07812], [79.863687, 7.078017]]
+}

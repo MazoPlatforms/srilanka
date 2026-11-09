@@ -1,0 +1,9 @@
+{
+  "id": 744688729,
+  "name": "Manipay-Kaithadi Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.078099, 9.696198], [80.078812, 9.695523], [80.079923, 9.694456], [80.080305, 9.694092]]
+}

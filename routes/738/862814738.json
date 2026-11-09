@@ -1,0 +1,9 @@
+{
+  "id": 862814738,
+  "name": "Kaduwanattha Hennaya Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.351564, 6.647962], [80.351615, 6.648007], [80.352047, 6.648235], [80.352926, 6.648653], [80.353537, 6.648993], [80.354019, 6.64941], [80.354267, 6.649648], [80.35432, 6.649732]]
+}

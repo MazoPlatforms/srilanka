@@ -1,0 +1,9 @@
+{
+  "id": 405431309,
+  "name": "Palkada Ela road",
+  "highway": "residential",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.882383, 7.10561], [79.882277, 7.105756], [79.88221, 7.105918], [79.882107, 7.10632], [79.882061, 7.106354], [79.881617, 7.106417]]
+}

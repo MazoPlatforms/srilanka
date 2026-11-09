@@ -1,0 +1,9 @@
+{
+  "id": 326503004,
+  "name": "VMV School Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.813074, 7.442888], [81.813032, 7.44322], [81.813025, 7.443272], [81.812849, 7.443499], [81.812849, 7.444115], [81.812905, 7.444238], [81.812877, 7.444753]]
+}

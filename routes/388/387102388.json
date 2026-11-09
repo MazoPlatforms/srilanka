@@ -1,0 +1,9 @@
+{
+  "id": 387102388,
+  "name": "Wndesiwatta road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.991751, 7.057425], [79.991872, 7.057417], [79.992184, 7.057421], [79.992283, 7.057389], [79.992684, 7.057177], [79.992983, 7.057133]]
+}

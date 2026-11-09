@@ -1,0 +1,9 @@
+{
+  "id": 320942783,
+  "name": "Erfan Bin Raheem Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.856489, 7.347471], [81.856519, 7.346739], [81.856525, 7.346603], [81.856502, 7.345507]]
+}

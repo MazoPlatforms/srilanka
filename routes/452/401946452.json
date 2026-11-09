@@ -1,0 +1,9 @@
+{
+  "id": 401946452,
+  "name": "Waraniyagoda Village Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.381581, 6.67078], [80.38157, 6.670694], [80.381262, 6.669844], [80.381169, 6.669704], [80.380779, 6.66932], [80.380508, 6.669285], [80.380443, 6.669258], [80.380208, 6.669295]]
+}

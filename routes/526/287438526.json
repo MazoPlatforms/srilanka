@@ -1,0 +1,9 @@
+{
+  "id": 287438526,
+  "name": "Girls School Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.803006, 7.371307], [81.802968, 7.37117], [81.802874, 7.370836], [81.802819, 7.370498], [81.802823, 7.370338], [81.802807, 7.369713], [81.802728, 7.369343]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 179237094,
+  "name": "Vaani Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.586203, 7.795282], [81.585751, 7.795609], [81.584755, 7.796314], [81.584618, 7.796427], [81.584402, 7.796593]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 200131657,
+  "name": "Gnanamoli Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.950186, 6.975011], [79.950197, 6.97514], [79.950201, 6.975209], [79.950192, 6.975282], [79.950166, 6.975359], [79.950133, 6.975444]]
+}

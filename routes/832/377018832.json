@@ -1,0 +1,9 @@
+{
+  "id": 377018832,
+  "name": "Green Paradise",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.948379, 6.816459], [79.948229, 6.817141], [79.948129, 6.817514], [79.947984, 6.818084]]
+}

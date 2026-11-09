@@ -1,0 +1,9 @@
+{
+  "id": 307251505,
+  "name": "Benku Watte Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.952206, 6.899512], [79.952352, 6.899565], [79.952583, 6.899616]]
+}

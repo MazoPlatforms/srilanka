@@ -1,0 +1,9 @@
+{
+  "id": 522869127,
+  "name": "Waleboda - Hituwala - Pinnawala Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25.0, "motorcycle": 25.0, "truck": 25.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.64204, 6.725759], [80.642156, 6.725657], [80.64219, 6.725606]]
+}

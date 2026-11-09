@@ -1,0 +1,9 @@
+{
+  "id": 391609817,
+  "name": "Sirilak Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.972185, 6.840249], [79.972625, 6.840241]]
+}

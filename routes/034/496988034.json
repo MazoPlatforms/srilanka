@@ -1,0 +1,9 @@
+{
+  "id": 496988034,
+  "name": "Medahena Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.527406, 5.950862], [80.527397, 5.950906], [80.527428, 5.951188], [80.527594, 5.952014], [80.527625, 5.952682]]
+}

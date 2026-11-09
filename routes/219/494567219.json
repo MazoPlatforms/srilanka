@@ -1,0 +1,9 @@
+{
+  "id": 494567219,
+  "name": "Kali Kovi Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.743516, 7.592994], [81.743012, 7.592901], [81.742923, 7.592885], [81.742388, 7.592764]]
+}

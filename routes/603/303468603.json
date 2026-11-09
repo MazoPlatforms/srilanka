@@ -1,0 +1,9 @@
+{
+  "id": 303468603,
+  "name": "Sisila Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.405691, 7.48076], [80.404687, 7.483036], [80.404631, 7.483075], [80.404252, 7.482799]]
+}

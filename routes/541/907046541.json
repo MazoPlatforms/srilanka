@@ -1,0 +1,9 @@
+{
+  "id": 907046541,
+  "name": "Ambanpola Ahatuwewa Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.27497, 7.925249], [80.274978, 7.925253], [80.27556, 7.925599], [80.276124, 7.925984], [80.276621, 7.926086], [80.27801, 7.926464]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 377462516,
+  "name": "Polgahayaya Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.204095, 7.446713], [80.204121, 7.446604], [80.204116, 7.446506], [80.204082, 7.446442], [80.203979, 7.446348], [80.203761, 7.446087]]
+}

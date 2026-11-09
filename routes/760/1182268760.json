@@ -1,0 +1,9 @@
+{
+  "id": 1182268760,
+  "name": "Thawalama Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40, "motorcycle": 40, "truck": 40, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.262338, 6.362923], [80.262421, 6.362923]]
+}

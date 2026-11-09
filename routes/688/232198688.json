@@ -1,0 +1,9 @@
+{
+  "id": 232198688,
+  "name": "Sri Sumanasara Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.530777, 5.948836], [80.530637, 5.948836], [80.530495, 5.948874], [80.529897, 5.94901], [80.529749, 5.949073], [80.529287, 5.949293], [80.528853, 5.949331]]
+}

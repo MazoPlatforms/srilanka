@@ -1,0 +1,9 @@
+{
+  "id": 120894674,
+  "name": "Dickland Watte",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.94432, 6.879201], [79.944151, 6.879948], [79.944256, 6.880245], [79.94427, 6.880489], [79.944281, 6.880612]]
+}

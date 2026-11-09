@@ -1,0 +1,9 @@
+{
+  "id": 322290705,
+  "name": "Kaali Kovil Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.584305, 7.795949], [81.584557, 7.795778], [81.584743, 7.795649], [81.585153, 7.795367], [81.585399, 7.795192], [81.585822, 7.794839]]
+}

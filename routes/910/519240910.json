@@ -1,0 +1,9 @@
+{
+  "id": 519240910,
+  "name": "Cross road",
+  "highway": "path",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 12, "foot": 4},
+  "coordinates": [[81.707302, 7.537502], [81.707358, 7.53744], [81.707429, 7.537344]]
+}

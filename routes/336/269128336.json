@@ -1,0 +1,9 @@
+{
+  "id": 269128336,
+  "name": "Cycle Road park",
+  "highway": "track",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 15, "foot": 4},
+  "coordinates": [[81.828134, 7.127342], [81.828508, 7.127105], [81.828962, 7.126847]]
+}

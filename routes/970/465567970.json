@@ -1,0 +1,9 @@
+{
+  "id": 465567970,
+  "name": "Galkotuwa Lane",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[80.614639, 7.270556], [80.614353, 7.270739], [80.614279, 7.270827]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 592547396,
+  "name": "balangoad plantation road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.371733, 6.755143], [80.371632, 6.754803], [80.37151, 6.754549], [80.371308, 6.754527], [80.370705, 6.754741], [80.370563, 6.754703], [80.37047, 6.754593], [80.370143, 6.754372]]
+}

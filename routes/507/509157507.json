@@ -1,0 +1,9 @@
+{
+  "id": 509157507,
+  "name": "Matara-Kamburupitiya Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.56297, 6.053589], [80.563004, 6.053441]]
+}

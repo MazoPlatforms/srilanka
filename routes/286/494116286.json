@@ -1,0 +1,9 @@
+{
+  "id": 494116286,
+  "name": "Gnanamuththu 2nd Cross Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.705716, 7.62406], [81.705783, 7.623671]]
+}

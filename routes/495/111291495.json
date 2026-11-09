@@ -1,0 +1,9 @@
+{
+  "id": 111291495,
+  "name": "Baseline Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.882934, 7.16761], [79.882937, 7.167573], [79.882939, 7.16754], [79.883002, 7.166572], [79.883024, 7.166237]]
+}

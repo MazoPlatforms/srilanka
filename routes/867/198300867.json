@@ -1,0 +1,9 @@
+{
+  "id": 198300867,
+  "name": "Silvernhurst Place",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.017166, 6.841963], [80.017147, 6.842365], [80.017145, 6.842392], [80.017122, 6.842873], [80.017122, 6.843337], [80.017117, 6.84383], [80.017113, 6.844207]]
+}

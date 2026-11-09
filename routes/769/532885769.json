@@ -1,0 +1,9 @@
+{
+  "id": 532885769,
+  "name": "NOOR_MASJIDH ROAD",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.839082, 8.037691], [79.838955, 8.036847], [79.838799, 8.036011]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 108292574,
+  "name": "Takkiya Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.231939, 8.5738], [81.231886, 8.57372], [81.231787, 8.573588], [81.231521, 8.573294], [81.231207, 8.573075], [81.230737, 8.572681], [81.230509, 8.572511]]
+}

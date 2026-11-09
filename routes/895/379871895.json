@@ -1,0 +1,9 @@
+{
+  "id": 379871895,
+  "name": "Thalgahavila road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.081202, 6.724995], [80.081206, 6.725074]]
+}

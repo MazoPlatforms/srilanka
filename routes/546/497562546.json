@@ -1,0 +1,9 @@
+{
+  "id": 497562546,
+  "name": "Thuraiyady Veethi",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.685636, 7.637993], [81.685763, 7.638099], [81.68634, 7.638564]]
+}

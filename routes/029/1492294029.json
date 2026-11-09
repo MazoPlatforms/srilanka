@@ -1,0 +1,9 @@
+{
+  "id": 1492294029,
+  "name": "Elpitiya-Avittawa Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.14638, 6.367943], [80.146379, 6.367823]]
+}

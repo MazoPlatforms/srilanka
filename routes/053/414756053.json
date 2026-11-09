@@ -1,0 +1,9 @@
+{
+  "id": 414756053,
+  "name": "vinayakar 2nd cross road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.709164, 7.531847], [81.709086, 7.531843], [81.708854, 7.531821], [81.708528, 7.531556], [81.708405, 7.53149], [81.708019, 7.531186], [81.70778, 7.530966], [81.707442, 7.530489]]
+}

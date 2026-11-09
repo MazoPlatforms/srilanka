@@ -1,0 +1,9 @@
+{
+  "id": 131349598,
+  "name": "Field Avenue",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.881426, 6.845591], [79.879708, 6.845994], [79.879565, 6.846032], [79.879745, 6.846148], [79.879859, 6.846242], [79.879963, 6.846327], [79.880334, 6.846777]]
+}

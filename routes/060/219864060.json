@@ -1,0 +1,9 @@
+{
+  "id": 219864060,
+  "name": "New Kallady Bridge",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
+  "coordinates": [[81.706035, 7.71991], [81.7073, 7.719251], [81.708502, 7.718588]]
+}

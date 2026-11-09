@@ -1,0 +1,9 @@
+{
+  "id": 489485601,
+  "name": "Kotta Lane",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[79.886255, 6.91099], [79.886288, 6.9111], [79.886516, 6.911708]]
+}

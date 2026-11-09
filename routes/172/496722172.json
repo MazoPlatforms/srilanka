@@ -1,0 +1,9 @@
+{
+  "id": 496722172,
+  "name": "Hattiduwa Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.534829, 5.985557], [80.53494, 5.985529]]
+}

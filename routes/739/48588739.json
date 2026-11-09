@@ -1,0 +1,9 @@
+{
+  "id": 48588739,
+  "name": "Dawson Street",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.858601, 6.922139], [79.857986, 6.920812], [79.857821, 6.920441]]
+}

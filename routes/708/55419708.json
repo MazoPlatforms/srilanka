@@ -1,0 +1,9 @@
+{
+  "id": 55419708,
+  "name": "Mahawela Gardens",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.879154, 6.939509], [79.879905, 6.940011], [79.880744, 6.940679], [79.881443, 6.941229]]
+}

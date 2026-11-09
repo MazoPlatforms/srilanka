@@ -1,0 +1,9 @@
+{
+  "id": 53258051,
+  "name": "Waluwatta Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.886718, 6.896816], [79.887191, 6.896841], [79.887235, 6.896861], [79.887238, 6.897353], [79.887238, 6.897878], [79.88722, 6.898209], [79.887303, 6.898821]]
+}

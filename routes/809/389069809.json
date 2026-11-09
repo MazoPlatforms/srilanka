@@ -1,0 +1,9 @@
+{
+  "id": 389069809,
+  "name": "Kapuhenwala Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.820295, 6.045322], [80.82093, 6.045292]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 388441673,
+  "name": "Tharusan Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.491033, 8.859726], [80.489691, 8.859668]]
+}

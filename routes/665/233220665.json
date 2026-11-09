@@ -1,0 +1,9 @@
+{
+  "id": 233220665,
+  "name": "4th Cross",
+  "highway": "track",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 15, "foot": 4},
+  "coordinates": [[81.675011, 7.720124], [81.674286, 7.720074], [81.674171, 7.720084], [81.673932, 7.72022], [81.673707, 7.72034]]
+}

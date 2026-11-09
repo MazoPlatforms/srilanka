@@ -1,0 +1,9 @@
+{
+  "id": 155120993,
+  "name": "Notharisu Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.696209, 7.71056], [81.695795, 7.71066], [81.695746, 7.710701], [81.695674, 7.710763], [81.695416, 7.710814], [81.69496, 7.710864]]
+}

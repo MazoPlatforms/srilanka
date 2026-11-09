@@ -1,0 +1,9 @@
+{
+  "id": 390197185,
+  "name": "2nd Kanthaiya Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.452407, 8.091135], [81.452508, 8.090451], [81.452594, 8.089948]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 55420386,
+  "name": "Rev. Devahandiye Dhammaaloka Thero Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.892068, 6.952474], [79.892103, 6.951904], [79.892121, 6.951415], [79.892128, 6.951221], [79.89216, 6.95081], [79.892183, 6.950214], [79.892247, 6.949358], [79.892312, 6.948814]]
+}

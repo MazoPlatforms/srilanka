@@ -1,0 +1,9 @@
+{
+  "id": 458966195,
+  "name": "12th Lane",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[79.962205, 6.894098], [79.962027, 6.893964], [79.961976, 6.893907]]
+}

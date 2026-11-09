@@ -1,0 +1,9 @@
+{
+  "id": 1187506912,
+  "name": "Ilimba thotupola road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.103543, 6.708072], [80.101862, 6.709208], [80.10124, 6.709926], [80.100536, 6.711192], [80.100193, 6.711682], [80.100015, 6.712165], [80.099915, 6.712659]]
+}

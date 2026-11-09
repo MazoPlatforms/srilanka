@@ -1,0 +1,9 @@
+{
+  "id": 199045493,
+  "name": "Pansalhena 1st Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.890036, 6.936459], [79.890049, 6.936592], [79.890072, 6.936805], [79.890058, 6.937045]]
+}

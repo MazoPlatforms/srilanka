@@ -1,0 +1,9 @@
+{
+  "id": 304522077,
+  "name": "Amparai 15th Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.791868, 7.364603], [81.791662, 7.365155], [81.791507, 7.365421], [81.791336, 7.365913], [81.791131, 7.366195], [81.790686, 7.366652]]
+}

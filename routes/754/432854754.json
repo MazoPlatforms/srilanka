@@ -1,0 +1,9 @@
+{
+  "id": 432854754,
+  "name": "CEB Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.926695, 7.134844], [79.92565, 7.134902], [79.925386, 7.134914], [79.925257, 7.13492]]
+}

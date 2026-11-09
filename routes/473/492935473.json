@@ -1,0 +1,9 @@
+{
+  "id": 492935473,
+  "name": "Amman Kovil Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.32015, 8.121642], [81.319761, 8.120901], [81.31971, 8.120815], [81.319218, 8.119933], [81.319193, 8.11989], [81.318927, 8.11935]]
+}

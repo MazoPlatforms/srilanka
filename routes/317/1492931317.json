@@ -1,0 +1,9 @@
+{
+  "id": 1492931317,
+  "name": "Alexandra Roundabout",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
+  "coordinates": [[79.864403, 6.911618], [79.864386, 6.911644]]
+}

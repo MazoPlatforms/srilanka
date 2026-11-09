@@ -1,0 +1,9 @@
+{
+  "id": 160327597,
+  "name": "Bodhirajarama Vihara Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.405227, 6.679506], [80.405793, 6.679469], [80.406811, 6.679382], [80.407263, 6.679351], [80.407665, 6.679321], [80.408093, 6.679276]]
+}

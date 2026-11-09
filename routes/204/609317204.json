@@ -1,0 +1,9 @@
+{
+  "id": 609317204,
+  "name": "Gramodaya Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.945467, 6.873138], [79.945547, 6.873076], [79.945987, 6.872778], [79.945995, 6.872731], [79.945942, 6.872645], [79.945938, 6.872587], [79.946066, 6.872507]]
+}

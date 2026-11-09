@@ -1,0 +1,9 @@
+{
+  "id": 1378253028,
+  "name": "Karaitivu-Ampara Road",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "foot": 5},
+  "coordinates": [[81.803672, 7.362108], [81.803747, 7.362123], [81.803839, 7.362131], [81.803981, 7.362136]]
+}

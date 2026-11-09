@@ -1,0 +1,9 @@
+{
+  "id": 50061748,
+  "name": "Sir Henry De Mel Mawatha",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.850578, 6.92452], [79.85081, 6.924574], [79.851899, 6.924824]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 728080798,
+  "name": "",
+  "highway": "motorway_link",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0},
+  "coordinates": [[80.523133, 5.993709], [80.523372, 5.993787], [80.523541, 5.993871], [80.523668, 5.99397], [80.523871, 5.994243]]
+}

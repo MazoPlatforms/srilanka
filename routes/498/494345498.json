@@ -1,0 +1,9 @@
+{
+  "id": 494345498,
+  "name": "School Road 1 st Cross",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[81.720286, 7.621993], [81.720483, 7.621983], [81.720843, 7.621941], [81.721126, 7.621934]]
+}

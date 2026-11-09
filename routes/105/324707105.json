@@ -1,0 +1,9 @@
+{
+  "id": 324707105,
+  "name": "OPA Road, Addalaichenai- 06",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.860825, 7.250257], [81.86083, 7.250805], [81.860836, 7.251103], [81.86078, 7.251912], [81.860786, 7.252402], [81.860779, 7.25275], [81.860764, 7.253368]]
+}

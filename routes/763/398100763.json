@@ -1,0 +1,9 @@
+{
+  "id": 398100763,
+  "name": "Isuru Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.997562, 7.032457], [79.997604, 7.032037], [79.997608, 7.031326]]
+}

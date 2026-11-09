@@ -1,0 +1,9 @@
+{
+  "id": 401906516,
+  "name": "Sri Indrarathna Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.999315, 7.037875], [79.999278, 7.037928], [79.999171, 7.03809], [79.998515, 7.038876], [79.998199, 7.039198]]
+}

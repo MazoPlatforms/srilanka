@@ -1,0 +1,9 @@
+{
+  "id": 397784645,
+  "name": "Mahawaththa Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.97199, 7.0363], [79.97196, 7.036322], [79.971691, 7.03637], [79.971438, 7.036428], [79.971099, 7.03645]]
+}

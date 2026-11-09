@@ -1,0 +1,9 @@
+{
+  "id": 670611162,
+  "name": "Hospital Circular Road",
+  "highway": "residential",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.500297, 8.759722], [80.500229, 8.759435]]
+}

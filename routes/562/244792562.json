@@ -1,0 +1,9 @@
+{
+  "id": 244792562,
+  "name": "To Quarters",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "bicycle": 15, "foot": 5},
+  "coordinates": [[80.958787, 6.816267], [80.958805, 6.816323], [80.958822, 6.816419]]
+}

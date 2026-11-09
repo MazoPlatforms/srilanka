@@ -1,0 +1,9 @@
+{
+  "id": 411736538,
+  "name": "Thandikulam vayal lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.488432, 8.781691], [80.488131, 8.781383], [80.486604, 8.781833], [80.485931, 8.782029]]
+}

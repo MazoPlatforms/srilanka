@@ -1,0 +1,9 @@
+{
+  "id": 179755417,
+  "name": "Dewa Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.888925, 7.058791], [79.888871, 7.058891], [79.888625, 7.059432], [79.888633, 7.059491], [79.8896, 7.060728]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 286101569,
+  "name": "Katugampola road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.099626, 7.393139], [80.099592, 7.393327], [80.099434, 7.393581], [80.09926, 7.393781]]
+}

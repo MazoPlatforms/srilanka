@@ -1,0 +1,9 @@
+{
+  "id": 542673117,
+  "name": "Thurairajah Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.011498, 9.688979], [80.011495, 9.688926], [80.01142, 9.688715], [80.011353, 9.688566], [80.011314, 9.688491], [80.011313, 9.688278], [80.0113, 9.68817]]
+}

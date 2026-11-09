@@ -1,0 +1,9 @@
+{
+  "id": 488994531,
+  "name": "Akbar Thaika Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.505449, 7.945253], [81.505448, 7.945384], [81.505432, 7.945738], [81.505295, 7.946357], [81.505258, 7.946675]]
+}

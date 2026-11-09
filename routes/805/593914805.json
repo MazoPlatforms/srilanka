@@ -1,0 +1,9 @@
+{
+  "id": 593914805,
+  "name": "Mount Calvary Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.896798, 7.07566], [79.896808, 7.075774], [79.896875, 7.076134], [79.896958, 7.07663], [79.896964, 7.076684], [79.896952, 7.076718], [79.896927, 7.076738]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 53276291,
+  "name": "Baddagana 1st Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.906342, 6.886853], [79.906857, 6.886691], [79.907189, 6.886544], [79.907882, 6.886086], [79.907948, 6.885971]]
+}

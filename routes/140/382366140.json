@@ -1,0 +1,9 @@
+{
+  "id": 382366140,
+  "name": "Ruhunupura",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.938653, 6.876699], [79.938868, 6.876462], [79.939074, 6.876217], [79.93912, 6.876012], [79.939087, 6.875437], [79.939034, 6.875352]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 456523167,
+  "name": "Manal Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.756699, 7.523762], [81.756724, 7.523513], [81.756776, 7.52274], [81.756756, 7.521739]]
+}

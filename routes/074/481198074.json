@@ -1,0 +1,9 @@
+{
+  "id": 481198074,
+  "name": "50/22 Thotawatta Road Ahungalla",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.030702, 6.314151], [80.02989, 6.314156], [80.029762, 6.314135], [80.029619, 6.314048], [80.02933, 6.313852], [80.029218, 6.313811], [80.029092, 6.313768]]
+}

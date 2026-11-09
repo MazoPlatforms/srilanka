@@ -1,0 +1,9 @@
+{
+  "id": 386283454,
+  "name": "Niwasa Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.885476, 7.085585], [79.885556, 7.085604], [79.885721, 7.085641], [79.885979, 7.085658], [79.886207, 7.085668], [79.886771, 7.085699]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 838613057,
+  "name": "Yahala Village Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.360731, 6.678008], [80.360766, 6.67782], [80.361018, 6.677208], [80.361119, 6.676822], [80.361332, 6.676452], [80.361786, 6.675745], [80.36223, 6.675396]]
+}

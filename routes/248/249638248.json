@@ -1,0 +1,9 @@
+{
+  "id": 249638248,
+  "name": "Oruthota Bridge",
+  "highway": "trunk",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
+  "coordinates": [[80.744959, 7.328286], [80.744203, 7.328109]]
+}

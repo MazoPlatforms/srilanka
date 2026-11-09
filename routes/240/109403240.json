@@ -1,0 +1,9 @@
+{
+  "id": 109403240,
+  "name": "Vihara Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.886602, 6.788967], [79.886304, 6.789007], [79.886017, 6.789074], [79.885613, 6.789204]]
+}

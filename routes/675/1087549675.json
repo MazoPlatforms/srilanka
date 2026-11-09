@@ -1,0 +1,9 @@
+{
+  "id": 1087549675,
+  "name": "isuru lane",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[79.971559, 7.004694], [79.971681, 7.00565]]
+}

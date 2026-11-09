@@ -1,0 +1,9 @@
+{
+  "id": 1492846301,
+  "name": "Morontuduwa Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.957615, 6.665587], [79.957751, 6.665587]]
+}

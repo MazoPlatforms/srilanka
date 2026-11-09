@@ -1,0 +1,9 @@
+{
+  "id": 1349109280,
+  "name": "Wilndagoda Road",
+  "highway": "track",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 15, "foot": 4},
+  "coordinates": [[80.010463, 8.199993], [80.011631, 8.200627], [80.01226, 8.200968], [80.013268, 8.201385], [80.015117, 8.20206]]
+}

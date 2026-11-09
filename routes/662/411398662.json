@@ -1,0 +1,9 @@
+{
+  "id": 411398662,
+  "name": "Bakmeegaha Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.983764, 6.881602], [79.983806, 6.881509], [79.9838, 6.881424], [79.983763, 6.881329], [79.983668, 6.881181]]
+}

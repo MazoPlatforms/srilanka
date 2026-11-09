@@ -1,0 +1,9 @@
+{
+  "id": 403088227,
+  "name": "Polgodalla Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.023028, 6.862161], [80.022917, 6.862186], [80.022773, 6.862198], [80.022612, 6.86216], [80.02227, 6.862153], [80.022265, 6.86229], [80.022334, 6.862438]]
+}

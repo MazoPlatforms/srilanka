@@ -1,0 +1,9 @@
+{
+  "id": 1496771099,
+  "name": "Urubokka-Kotapola Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.627911, 6.31581], [80.627881, 6.315731]]
+}

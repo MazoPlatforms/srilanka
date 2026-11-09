@@ -1,0 +1,9 @@
+{
+  "id": 201356060,
+  "name": "Gunathilaka Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.887267, 6.932576], [79.887321, 6.932452], [79.887393, 6.93221], [79.887483, 6.931992], [79.887667, 6.931531], [79.887731, 6.931446], [79.888123, 6.93131]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 385975991,
+  "name": "Gangaaramaya Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.984054, 7.0963], [79.984144, 7.096139]]
+}

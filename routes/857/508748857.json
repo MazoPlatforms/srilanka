@@ -1,0 +1,9 @@
+{
+  "id": 508748857,
+  "name": "Megoda Kolonnawa Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.897957, 6.937162], [79.897957, 6.937085], [79.898008, 6.936804], [79.898318, 6.936262], [79.898519, 6.935748]]
+}

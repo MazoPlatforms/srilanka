@@ -1,0 +1,9 @@
+{
+  "id": 387281121,
+  "name": "Suhada Mawatha I",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.004762, 7.035722], [80.00471, 7.035951]]
+}

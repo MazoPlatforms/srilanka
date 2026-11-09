@@ -1,0 +1,9 @@
+{
+  "id": 943607865,
+  "name": "Iyar Lane",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.149844, 9.662187], [80.149972, 9.662517], [80.150277, 9.663158]]
+}

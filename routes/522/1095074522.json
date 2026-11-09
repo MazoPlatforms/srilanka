@@ -1,0 +1,9 @@
+{
+  "id": 1095074522,
+  "name": "Majestic Avenue",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.855721, 6.893774], [79.856391, 6.893951]]
+}

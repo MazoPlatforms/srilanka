@@ -1,0 +1,9 @@
+{
+  "id": 1155358505,
+  "name": "Bund road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.309813, 7.821005], [80.309861, 7.820608], [80.309595, 7.819852], [80.309505, 7.819511], [80.309402, 7.819035], [80.309432, 7.818657]]
+}

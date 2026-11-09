@@ -1,0 +1,9 @@
+{
+  "id": 99072772,
+  "name": "Sri Maha Bodhi Mawatha",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.40336, 8.34374], [80.4031, 8.343788]]
+}

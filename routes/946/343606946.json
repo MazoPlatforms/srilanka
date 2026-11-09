@@ -1,0 +1,9 @@
+{
+  "id": 343606946,
+  "name": "Pirivena Road 7th by lane",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "bicycle": 15, "foot": 5},
+  "coordinates": [[79.907023, 6.835334], [79.906688, 6.835946], [79.906489, 6.835864], [79.906395, 6.835823], [79.906295, 6.835766], [79.906703, 6.835139]]
+}

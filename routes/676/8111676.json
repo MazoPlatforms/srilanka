@@ -1,0 +1,9 @@
+{
+  "id": 8111676,
+  "name": "Maitland Crescent",
+  "highway": "secondary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.865785, 6.909082], [79.866119, 6.909503], [79.866169, 6.909574]]
+}

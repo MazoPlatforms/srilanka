@@ -1,0 +1,9 @@
+{
+  "id": 506575883,
+  "name": "Siriwimal Uyana",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.888165, 6.885467], [79.887132, 6.885697]]
+}

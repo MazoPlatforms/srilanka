@@ -1,0 +1,9 @@
+{
+  "id": 1529329374,
+  "name": "Fort Fredrick Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.237872, 8.570045], [81.237891, 8.570163], [81.237909, 8.570315], [81.237911, 8.570408], [81.237903, 8.570483]]
+}

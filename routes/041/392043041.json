@@ -1,0 +1,9 @@
+{
+  "id": 392043041,
+  "name": "Maanikkapura Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.436353, 8.131912], [81.436556, 8.131924], [81.436874, 8.131982], [81.437352, 8.132177]]
+}

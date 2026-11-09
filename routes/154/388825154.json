@@ -1,0 +1,9 @@
+{
+  "id": 388825154,
+  "name": "Darshana Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.023723, 7.078099], [80.023794, 7.077951], [80.023934, 7.077681], [80.023981, 7.077473], [80.024009, 7.076966]]
+}

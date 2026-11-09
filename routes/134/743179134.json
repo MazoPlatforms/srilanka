@@ -1,0 +1,9 @@
+{
+  "id": 743179134,
+  "name": "Pelena-Polwatta-Denipitiya Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.445862, 5.980635], [80.446122, 5.981074], [80.446241, 5.981259], [80.446355, 5.981417], [80.446549, 5.981634], [80.446663, 5.981833], [80.446796, 5.982127]]
+}

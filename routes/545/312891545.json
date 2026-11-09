@@ -1,0 +1,9 @@
+{
+  "id": 312891545,
+  "name": "Bharathie Mawarha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.868718, 6.933892], [79.868144, 6.933783], [79.867928, 6.933742]]
+}

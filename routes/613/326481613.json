@@ -1,0 +1,9 @@
+{
+  "id": 326481613,
+  "name": "Vipulanandar Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.813084, 7.414009], [81.813724, 7.414039], [81.814781, 7.414088]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 170297945,
+  "name": "Charles Terrace",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.853804, 6.902515], [79.853991, 6.901885]]
+}

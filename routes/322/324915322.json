@@ -1,0 +1,9 @@
+{
+  "id": 324915322,
+  "name": "4 cross",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 15, "motorcycle": 15, "bicycle": 15, "foot": 5},
+  "coordinates": [[81.853546, 7.287961], [81.853466, 7.288595], [81.853405, 7.289193], [81.853318, 7.290389]]
+}

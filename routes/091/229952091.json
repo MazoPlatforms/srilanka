@@ -1,0 +1,9 @@
+{
+  "id": 229952091,
+  "name": "Atigala Housing Scheme",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[79.94876, 6.790366], [79.948626, 6.789276], [79.948591, 6.788977]]
+}

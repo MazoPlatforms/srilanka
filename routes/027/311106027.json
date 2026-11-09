@@ -1,0 +1,9 @@
+{
+  "id": 311106027,
+  "name": "Pelawatte Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.924339, 6.895034], [79.924551, 6.894866], [79.924573, 6.894849]]
+}

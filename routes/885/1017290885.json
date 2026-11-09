@@ -1,0 +1,9 @@
+{
+  "id": 1017290885,
+  "name": "Sub Post Office Street",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.17206, 8.731645], [81.172397, 8.731752], [81.173054, 8.73196], [81.173528, 8.732088]]
+}

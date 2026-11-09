@@ -1,0 +1,9 @@
+{
+  "id": 860556527,
+  "name": "Nagahawela Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.921291, 6.933096], [79.921073, 6.932793], [79.920904, 6.93256], [79.920781, 6.932358], [79.920575, 6.932014]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 279528372,
+  "name": "Eppawala-Talawa Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.35098, 8.23631], [80.350845, 8.236443]]
+}

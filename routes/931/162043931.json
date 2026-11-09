@@ -1,0 +1,9 @@
+{
+  "id": 162043931,
+  "name": "Kiri Vehera Path",
+  "highway": "path",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 12, "foot": 4},
+  "coordinates": [[81.332418, 6.423375], [81.333102, 6.418901], [81.332715, 6.418653]]
+}

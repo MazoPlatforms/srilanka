@@ -1,0 +1,9 @@
+{
+  "id": 310174203,
+  "name": "Akuregoda Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.945031, 6.895604], [79.945336, 6.895571], [79.94544, 6.895574], [79.945577, 6.89559]]
+}

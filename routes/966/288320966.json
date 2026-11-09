@@ -1,0 +1,9 @@
+{
+  "id": 288320966,
+  "name": "Malkampitty 4th Street",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.802955, 7.359935], [81.803139, 7.359875], [81.803769, 7.359657], [81.804059, 7.359532], [81.804766, 7.359099], [81.804792, 7.359083], [81.805203, 7.358791]]
+}

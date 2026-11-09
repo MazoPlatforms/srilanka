@@ -1,0 +1,9 @@
+{
+  "id": 465072359,
+  "name": "Alawwa-Giriulla Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.131908, 7.339195], [80.131816, 7.339207], [80.131728, 7.339235], [80.131551, 7.339319], [80.131439, 7.339378], [80.131367, 7.339428], [80.131298, 7.339478]]
+}

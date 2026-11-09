@@ -1,0 +1,9 @@
+{
+  "id": 370532261,
+  "name": "Havelock Place",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.865147, 6.88522], [79.866107, 6.885564]]
+}

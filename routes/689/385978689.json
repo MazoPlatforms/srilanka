@@ -1,0 +1,9 @@
+{
+  "id": 385978689,
+  "name": "Murukkaiyadi Munai Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.437467, 8.124892], [81.437962, 8.124942], [81.43973, 8.125188], [81.440697, 8.125304]]
+}

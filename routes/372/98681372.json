@@ -1,0 +1,9 @@
+{
+  "id": 98681372,
+  "name": "Orion City Entrance",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 35, "motorcycle": 35, "bicycle": 15, "foot": 5},
+  "coordinates": [[79.878352, 6.940763], [79.87839, 6.940767], [79.878405, 6.940768], [79.87914, 6.940826], [79.879254, 6.940647]]
+}

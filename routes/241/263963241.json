@@ -1,0 +1,9 @@
+{
+  "id": 263963241,
+  "name": "Chaaya Village Service Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.750429, 8.038049], [80.750535, 8.037951], [80.75104, 8.037751], [80.751176, 8.0375], [80.751291, 8.036243], [80.751348, 8.036121]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 180367289,
+  "name": "Kurunduhena",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.881809, 6.986966], [79.881318, 6.986322], [79.880827, 6.985612], [79.880722, 6.985677], [79.880498, 6.985741], [79.879815, 6.985888]]
+}

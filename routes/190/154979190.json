@@ -1,0 +1,9 @@
+{
+  "id": 154979190,
+  "name": "Sangaraja Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.053871, 6.239896], [80.05427, 6.239915], [80.054455, 6.239941], [80.054745, 6.239995], [80.055168, 6.239959], [80.055485, 6.239895], [80.055525, 6.239886]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 53790668,
+  "name": "Himalaya Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.922122, 6.903675], [79.922109, 6.903918], [79.922096, 6.904086]]
+}

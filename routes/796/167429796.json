@@ -1,0 +1,9 @@
+{
+  "id": 167429796,
+  "name": "Asiri Uyana Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.039415, 6.845228], [80.039767, 6.845631], [80.040338, 6.845303], [80.040843, 6.844582]]
+}

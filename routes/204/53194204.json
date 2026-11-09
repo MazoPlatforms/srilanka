@@ -1,0 +1,9 @@
+{
+  "id": 53194204,
+  "name": "Dharma Nikethana Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.894676, 6.89747], [79.894771, 6.897666], [79.894786, 6.897729], [79.894788, 6.897835], [79.8948, 6.897912], [79.894996, 6.898715], [79.895176, 6.899521]]
+}

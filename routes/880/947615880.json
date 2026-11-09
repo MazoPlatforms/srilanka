@@ -1,0 +1,9 @@
+{
+  "id": 947615880,
+  "name": "Pannala Mallawagedara Road",
+  "highway": "secondary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.024105, 7.328086], [80.024112, 7.328225], [80.024128, 7.328288]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 991849287,
+  "name": "Retiyagama Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.803024, 7.310802], [80.803081, 7.31077]]
+}

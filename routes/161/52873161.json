@@ -1,0 +1,9 @@
+{
+  "id": 52873161,
+  "name": "Ekanayake Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.890806, 6.870128], [79.890612, 6.869749], [79.890571, 6.869545], [79.890595, 6.869261], [79.890542, 6.86897]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 324909217,
+  "name": "Border Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.845863, 7.274168], [81.846347, 7.274159], [81.847, 7.274138], [81.847165, 7.274142], [81.847267, 7.274145], [81.847518, 7.274146], [81.848119, 7.274176]]
+}

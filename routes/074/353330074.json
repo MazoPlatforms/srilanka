@@ -1,0 +1,9 @@
+{
+  "id": 353330074,
+  "name": "Meewatura Road",
+  "highway": "trunk",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "foot": 5},
+  "coordinates": [[80.593301, 7.242802], [80.593324, 7.242625], [80.593342, 7.242451]]
+}

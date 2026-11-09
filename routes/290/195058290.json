@@ -1,0 +1,9 @@
+{
+  "id": 195058290,
+  "name": "Minipe Cannel Bunt Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.975258, 7.33683], [80.975162, 7.337008], [80.975016, 7.337281], [80.974293, 7.338202], [80.973966, 7.338931], [80.973862, 7.340207], [80.97353, 7.34168], [80.973165, 7.342335]]
+}

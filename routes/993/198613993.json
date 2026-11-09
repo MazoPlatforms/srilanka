@@ -1,0 +1,9 @@
+{
+  "id": 198613993,
+  "name": "Warawala New Bridge",
+  "highway": "trunk",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
+  "coordinates": [[80.268431, 7.072022], [80.269014, 7.072763]]
+}

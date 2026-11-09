@@ -1,0 +1,9 @@
+{
+  "id": 1494297855,
+  "name": "Sri Bharathindra Mawatha",
+  "highway": "secondary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.407412, 8.345802], [80.40742, 8.345678], [80.407412, 8.345634]]
+}

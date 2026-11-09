@@ -1,0 +1,9 @@
+{
+  "id": 609210813,
+  "name": "Mariyah Avenue",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.866351, 6.863585], [79.866429, 6.863001]]
+}

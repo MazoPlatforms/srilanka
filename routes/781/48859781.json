@@ -1,0 +1,9 @@
+{
+  "id": 48859781,
+  "name": "Weliweriya-Kirindiwela Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.028842, 7.03079], [80.028907, 7.030789], [80.029009, 7.030771], [80.029112, 7.030708], [80.029891, 7.030239]]
+}

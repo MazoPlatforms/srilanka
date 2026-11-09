@@ -1,0 +1,9 @@
+{
+  "id": 541651268,
+  "name": "Denzil Kobbekaduwa Mawatha",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 55, "motorcycle": 55, "truck": 50, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.929791, 6.907388], [79.929778, 6.907463], [79.929786, 6.907542], [79.929889, 6.907874]]
+}

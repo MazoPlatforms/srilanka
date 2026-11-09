@@ -1,0 +1,9 @@
+{
+  "id": 346332537,
+  "name": "Bawa Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.880886, 6.91371], [79.880884, 6.913783]]
+}

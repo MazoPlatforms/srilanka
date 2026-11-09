@@ -1,0 +1,9 @@
+{
+  "id": 387308400,
+  "name": "Shareep Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.936583, 7.161226], [79.936893, 7.161192], [79.93717, 7.161193], [79.937552, 7.161192], [79.937759, 7.161201]]
+}

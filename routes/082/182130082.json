@@ -1,0 +1,9 @@
+{
+  "id": 182130082,
+  "name": "De Mel Watta Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.86756, 6.940869], [79.86755, 6.940947], [79.86752, 6.941058], [79.867046, 6.94228], [79.866985, 6.942312], [79.866899, 6.942325], [79.866772, 6.942599]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 633247270,
+  "name": "namaluwa path",
+  "highway": "path",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 12, "foot": 4},
+  "coordinates": [[80.170865, 6.247101], [80.170965, 6.247208], [80.171159, 6.247516], [80.171175, 6.247528], [80.171253, 6.247471]]
+}

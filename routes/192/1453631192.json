@@ -1,0 +1,9 @@
+{
+  "id": 1453631192,
+  "name": "Viharagawa Watta Rd",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.331177, 6.807744], [80.331119, 6.807886], [80.331255, 6.808013], [80.331193, 6.808356], [80.331234, 6.808376]]
+}

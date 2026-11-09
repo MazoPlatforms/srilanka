@@ -1,0 +1,9 @@
+{
+  "id": 1122816987,
+  "name": "Sanchi Arachchi Garden",
+  "highway": "tertiary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.857609, 6.93265], [79.857549, 6.932525], [79.8575, 6.932422]]
+}

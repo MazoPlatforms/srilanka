@@ -1,0 +1,9 @@
+{
+  "id": 98399574,
+  "name": "Dummalamodara Bridge",
+  "highway": "trunk",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
+  "coordinates": [[79.982135, 6.510723], [79.982171, 6.510468]]
+}

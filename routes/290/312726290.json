@@ -1,0 +1,9 @@
+{
+  "id": 312726290,
+  "name": "pookie #112",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.351529, 7.490215], [80.350924, 7.491], [80.350802, 7.491182], [80.35058, 7.491512], [80.350549, 7.491545], [80.350507, 7.491556]]
+}

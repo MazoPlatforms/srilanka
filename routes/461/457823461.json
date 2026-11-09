@@ -1,0 +1,9 @@
+{
+  "id": 457823461,
+  "name": "Rasamma Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.716311, 7.619685], [81.71658, 7.619625], [81.717164, 7.619586], [81.717325, 7.619549], [81.717605, 7.619555], [81.717694, 7.61958], [81.717697, 7.619678]]
+}

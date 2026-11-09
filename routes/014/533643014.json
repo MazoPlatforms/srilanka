@@ -1,0 +1,9 @@
+{
+  "id": 533643014,
+  "name": "Asiri Place",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.989863, 6.709912], [79.989869, 6.709345], [79.989901, 6.7093], [79.99012, 6.709272], [79.990693, 6.70928], [79.991064, 6.709315]]
+}

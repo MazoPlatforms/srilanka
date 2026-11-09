@@ -1,0 +1,9 @@
+{
+  "id": 208175380,
+  "name": "Gagasiriya Bridge",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 20, "foot": 5},
+  "coordinates": [[80.333466, 6.343267], [80.333351, 6.343659]]
+}

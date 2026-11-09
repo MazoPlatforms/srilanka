@@ -1,0 +1,9 @@
+{
+  "id": 50302460,
+  "name": "Biyagama Free Trade Zone Road (Samurdhi Mawatha)",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.009006, 6.962728], [80.009129, 6.96272], [80.00924, 6.962707], [80.009304, 6.962696], [80.00936, 6.962684], [80.009416, 6.962663], [80.009487, 6.96263], [80.009557, 6.962595], [80.009658, 6.962535]]
+}

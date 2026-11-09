@@ -1,0 +1,9 @@
+{
+  "id": 385362110,
+  "name": "Mahajana Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.008305, 7.057643], [80.008386, 7.057632], [80.0085, 7.057616], [80.009527, 7.057475], [80.009626, 7.057488], [80.009971, 7.057669]]
+}

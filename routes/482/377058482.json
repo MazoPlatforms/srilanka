@@ -1,0 +1,9 @@
+{
+  "id": 377058482,
+  "name": "Suraki Sewana Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.949347, 6.862227], [79.949764, 6.862515], [79.949985, 6.862668], [79.950688, 6.863081], [79.951347, 6.863627]]
+}

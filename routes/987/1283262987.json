@@ -1,0 +1,9 @@
+{
+  "id": 1283262987,
+  "name": "ground road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.213236, 8.654913], [81.213032, 8.654561], [81.213013, 8.65452], [81.212946, 8.654361], [81.212799, 8.653987], [81.212772, 8.653946]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 545260363,
+  "name": "Colombo-Kandy Road",
+  "highway": "trunk",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 70.0, "motorcycle": 70.0, "truck": 70.0, "foot": 5},
+  "coordinates": [[80.2103, 7.241416], [80.210582, 7.241402], [80.210963, 7.241393]]
+}

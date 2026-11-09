@@ -1,0 +1,9 @@
+{
+  "id": 173226746,
+  "name": "Padiliyatuduwa Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.90541, 6.986489], [79.905595, 6.986375], [79.90588, 6.986214], [79.906136, 6.986081]]
+}

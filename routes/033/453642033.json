@@ -1,0 +1,9 @@
+{
+  "id": 453642033,
+  "name": "Tharava Kula Road",
+  "highway": "track",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 15, "foot": 4},
+  "coordinates": [[81.430563, 7.813159], [81.430429, 7.813313], [81.430041, 7.814151], [81.429952, 7.814328], [81.430002, 7.814696]]
+}

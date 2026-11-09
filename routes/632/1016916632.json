@@ -1,0 +1,9 @@
+{
+  "id": 1016916632,
+  "name": "Nayapamula-Unanvitiya-Nagoda Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.238723, 6.170513], [80.238786, 6.170594], [80.238882, 6.17078]]
+}

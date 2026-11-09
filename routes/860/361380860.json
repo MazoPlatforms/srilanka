@@ -1,0 +1,9 @@
+{
+  "id": 361380860,
+  "name": "Father Edward Karunanayake Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.824449, 7.385824], [79.826034, 7.385978], [79.828731, 7.386301], [79.831779, 7.386766]]
+}

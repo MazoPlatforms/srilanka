@@ -1,0 +1,9 @@
+{
+  "id": 610685787,
+  "name": "Bethesda Place",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.859038, 6.887116], [79.859181, 6.886632]]
+}

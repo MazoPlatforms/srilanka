@@ -1,0 +1,9 @@
+{
+  "id": 179376095,
+  "name": "Valanar Pura Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.644345, 7.753645], [81.643787, 7.753011], [81.643394, 7.75256]]
+}

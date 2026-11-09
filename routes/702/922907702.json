@@ -1,0 +1,9 @@
+{
+  "id": 922907702,
+  "name": "M.D.H Jayawardana Road",
+  "highway": "tertiary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.994428, 6.888093], [79.99441, 6.888157], [79.9944, 6.888214], [79.994392, 6.888303], [79.994391, 6.888387], [79.994417, 6.888518]]
+}

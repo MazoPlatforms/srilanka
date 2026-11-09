@@ -1,0 +1,9 @@
+{
+  "id": 411920734,
+  "name": "10th Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.941396, 6.855583], [79.940692, 6.85565], [79.940667, 6.855899], [79.940633, 6.856009]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 365947637,
+  "name": "Angunakolapelessa Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.897409, 6.162408], [80.897399, 6.162712], [80.897481, 6.164098], [80.89749, 6.164534], [80.897531, 6.165214], [80.89762, 6.16668], [80.897613, 6.166855]]
+}

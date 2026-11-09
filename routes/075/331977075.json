@@ -1,0 +1,9 @@
+{
+  "id": 331977075,
+  "name": "Upper Gibson Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.769618, 6.959707], [80.769785, 6.959488], [80.76995, 6.959371], [80.770921, 6.958838], [80.771283, 6.958599]]
+}

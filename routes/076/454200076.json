@@ -1,0 +1,9 @@
+{
+  "id": 454200076,
+  "name": "Natpuravu road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.554642, 7.855035], [81.554682, 7.85496], [81.555161, 7.853737], [81.555454, 7.852923], [81.555304, 7.85153]]
+}

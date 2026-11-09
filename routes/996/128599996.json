@@ -1,0 +1,9 @@
+{
+  "id": 128599996,
+  "name": "Yalegama-Miriswaththa Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60, "motorcycle": 60, "truck": 60, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.011597, 6.381982], [80.01133, 6.381857], [80.01082, 6.38166], [80.010263, 6.381586], [80.010141, 6.381574], [80.009844, 6.381554]]
+}

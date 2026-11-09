@@ -1,0 +1,9 @@
+{
+  "id": 402363715,
+  "name": "Valluvarpuram 2nd Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.573846, 9.36803], [80.57371, 9.36775], [80.573459, 9.367185], [80.572116, 9.363237], [80.571504, 9.361459], [80.571215, 9.360766], [80.571159, 9.360719]]
+}

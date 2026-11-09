@@ -1,0 +1,9 @@
+{
+  "id": 1245779830,
+  "name": "food paddy path",
+  "highway": "footway",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 8, "foot": 5},
+  "coordinates": [[80.502776, 8.446145], [80.504168, 8.446181], [80.507541, 8.44612], [80.50778, 8.44609], [80.507848, 8.446071], [80.507913, 8.44605]]
+}

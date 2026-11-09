@@ -1,0 +1,9 @@
+{
+  "id": 24773532,
+  "name": "W. A. D. Ramanayake Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.85592, 6.914383], [79.856335, 6.914306], [79.856509, 6.914311], [79.856609, 6.914323], [79.856832, 6.914429]]
+}

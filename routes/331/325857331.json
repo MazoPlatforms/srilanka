@@ -1,0 +1,9 @@
+{
+  "id": 325857331,
+  "name": "Dambulla-Bakamuna-Kalagahawela Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.834328, 7.731781], [80.83423, 7.730884]]
+}

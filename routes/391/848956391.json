@@ -1,0 +1,9 @@
+{
+  "id": 848956391,
+  "name": "Wadugodawatte Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.884907, 6.940142], [79.884557, 6.94022]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 386349044,
+  "name": "Buhary Aalim Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.526098, 7.917801], [81.526071, 7.917473], [81.526017, 7.916647], [81.525988, 7.916493], [81.525951, 7.916307], [81.525822, 7.915773], [81.525722, 7.915194]]
+}

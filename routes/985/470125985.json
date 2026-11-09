@@ -1,0 +1,9 @@
+{
+  "id": 470125985,
+  "name": "Vaithiyar street, 1st cross",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.549454, 7.823554], [81.549748, 7.82342]]
+}

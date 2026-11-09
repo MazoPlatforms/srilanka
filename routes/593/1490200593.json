@@ -1,0 +1,9 @@
+{
+  "id": 1490200593,
+  "name": "Kirigampanuwa Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.978295, 6.805455], [79.978394, 6.805541], [79.978766, 6.805963], [79.978955, 6.806197], [79.979159, 6.806537], [79.979501, 6.806733]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 610174168,
+  "name": "2nd Lane - Jayanthipura Mawatha",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[79.97421, 6.900356], [79.974481, 6.900459], [79.974679, 6.900539]]
+}

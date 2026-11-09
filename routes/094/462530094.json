@@ -1,0 +1,9 @@
+{
+  "id": 462530094,
+  "name": "Main Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.662345, 7.660387], [81.661913, 7.662831], [81.661874, 7.663047], [81.661468, 7.665305], [81.660546, 7.67039]]
+}

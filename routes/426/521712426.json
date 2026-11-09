@@ -1,0 +1,9 @@
+{
+  "id": 521712426,
+  "name": "Pushpa Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.946065, 6.993521], [79.946018, 6.993795], [79.945936, 6.993965], [79.945691, 6.994263], [79.94557, 6.994427], [79.945437, 6.994594], [79.94539, 6.994656]]
+}

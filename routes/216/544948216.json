@@ -1,0 +1,9 @@
+{
+  "id": 544948216,
+  "name": "Malwatte Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.417676, 7.017047], [80.417504, 7.016999]]
+}

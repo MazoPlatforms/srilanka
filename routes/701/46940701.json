@@ -1,0 +1,9 @@
+{
+  "id": 46940701,
+  "name": "Kotalawala Avenue",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.854115, 6.889563], [79.854944, 6.889741], [79.855222, 6.889799], [79.855517, 6.889861], [79.85618, 6.889976], [79.856565, 6.890055], [79.856653, 6.890071]]
+}

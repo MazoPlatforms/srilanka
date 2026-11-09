@@ -1,0 +1,9 @@
+{
+  "id": 315608880,
+  "name": "Nuwara Eliya Road",
+  "highway": "trunk",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
+  "coordinates": [[80.597594, 7.135131], [80.597577, 7.135131], [80.597433, 7.135125]]
+}

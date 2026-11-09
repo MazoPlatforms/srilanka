@@ -1,0 +1,9 @@
+{
+  "id": 24877913,
+  "name": "Police Park Avenue",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.86153, 6.894417], [79.861202, 6.894282], [79.860824, 6.894158], [79.859874, 6.893976], [79.859406, 6.893893], [79.859025, 6.89379]]
+}

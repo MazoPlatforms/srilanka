@@ -1,0 +1,9 @@
+{
+  "id": 268866210,
+  "name": "Sithumina Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.030369, 6.856258], [80.030066, 6.85609], [80.02981, 6.85597], [80.029521, 6.855763], [80.028736, 6.854984], [80.028167, 6.854651], [80.027984, 6.8545]]
+}

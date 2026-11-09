@@ -1,0 +1,9 @@
+{
+  "id": 280124178,
+  "name": "Ambakandawila Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.798312, 7.492759], [79.798644, 7.491821]]
+}

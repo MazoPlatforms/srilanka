@@ -1,0 +1,9 @@
+{
+  "id": 322625423,
+  "name": "King's Street",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.057391, 6.98677], [81.05741, 6.986457], [81.057435, 6.986352], [81.057462, 6.986267], [81.0575, 6.986154]]
+}

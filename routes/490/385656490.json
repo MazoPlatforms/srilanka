@@ -1,0 +1,9 @@
+{
+  "id": 385656490,
+  "name": "MRTC",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[81.174709, 7.829069], [81.174578, 7.828464], [81.174487, 7.827952]]
+}

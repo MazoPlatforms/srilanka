@@ -1,0 +1,9 @@
+{
+  "id": 1229467394,
+  "name": "Manipuram Road",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 15, "motorcycle": 15, "bicycle": 15, "foot": 5},
+  "coordinates": [[81.565274, 7.666392], [81.565257, 7.666534], [81.565235, 7.666657], [81.565208, 7.666957]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 248613477,
+  "name": "Papiliwala Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.976679, 6.825498], [79.976537, 6.825422], [79.976284, 6.82538], [79.976148, 6.825375], [79.975865, 6.825435]]
+}

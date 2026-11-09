@@ -1,0 +1,9 @@
+{
+  "id": 1103798298,
+  "name": "Granvilles Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.866469, 6.8487], [79.866247, 6.848677], [79.866055, 6.848657]]
+}

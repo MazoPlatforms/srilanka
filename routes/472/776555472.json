@@ -1,0 +1,9 @@
+{
+  "id": 776555472,
+  "name": "Andarawewa - Hambantota Highway",
+  "highway": "motorway",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 100.0, "motorcycle": 80, "truck": 70},
+  "coordinates": [[81.094801, 6.155582], [81.094799, 6.155678], [81.094784, 6.156125], [81.094782, 6.15665]]
+}

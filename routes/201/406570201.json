@@ -1,0 +1,9 @@
+{
+  "id": 406570201,
+  "name": "Nallachchiya Tank Road",
+  "highway": "cycleway",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"bicycle": 18, "foot": 5},
+  "coordinates": [[80.31038, 8.150457], [80.310526, 8.150496], [80.311291, 8.150625], [80.312296, 8.150759], [80.313103, 8.150953], [80.313556, 8.151115]]
+}

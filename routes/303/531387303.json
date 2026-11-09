@@ -1,0 +1,9 @@
+{
+  "id": 531387303,
+  "name": "Buthgamuwa Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.913387, 6.923164], [79.913495, 6.923364], [79.913574, 6.923489], [79.913646, 6.923548]]
+}

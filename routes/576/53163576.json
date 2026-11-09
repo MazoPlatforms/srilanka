@@ -1,0 +1,9 @@
+{
+  "id": 53163576,
+  "name": "Kalinga Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.87858, 6.886154], [79.878525, 6.886036], [79.878503, 6.885957], [79.878516, 6.885743], [79.878526, 6.885345], [79.878408, 6.88498]]
+}

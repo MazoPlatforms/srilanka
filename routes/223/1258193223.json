@@ -1,0 +1,9 @@
+{
+  "id": 1258193223,
+  "name": "Avanue",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[80.880668, 6.766754], [80.880705, 6.766771], [80.880731, 6.76677], [80.880853, 6.766695], [80.880947, 6.766659], [80.881037, 6.766677]]
+}

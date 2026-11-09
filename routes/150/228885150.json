@@ -1,0 +1,9 @@
+{
+  "id": 228885150,
+  "name": "Kaliyodai Bridge",
+  "highway": "trunk",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
+  "coordinates": [[81.848305, 7.297806], [81.848354, 7.297026]]
+}

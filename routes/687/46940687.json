@@ -1,0 +1,9 @@
+{
+  "id": 46940687,
+  "name": "Harmers Avenue",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.858049, 6.872942], [79.8587, 6.873117], [79.859223, 6.87326], [79.859779, 6.873375], [79.860059, 6.873427], [79.861475, 6.873702]]
+}

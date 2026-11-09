@@ -1,0 +1,9 @@
+{
+  "id": 371774309,
+  "name": "Sri Nagavihara Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.912885, 6.883835], [79.912685, 6.882817]]
+}

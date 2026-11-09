@@ -1,0 +1,9 @@
+{
+  "id": 712679670,
+  "name": "Amithagoda Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.377784, 6.725699], [80.377959, 6.725839]]
+}

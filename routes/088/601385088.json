@@ -1,0 +1,9 @@
+{
+  "id": 601385088,
+  "name": "Sirigampola Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.868895, 7.354556], [79.868498, 7.354334], [79.868117, 7.354075]]
+}

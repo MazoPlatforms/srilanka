@@ -1,0 +1,9 @@
+{
+  "id": 263169781,
+  "name": "Gemunu Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25.0, "motorcycle": 25.0, "truck": 25.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.963105, 6.83488], [79.962797, 6.836163]]
+}

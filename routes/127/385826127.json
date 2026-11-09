@@ -1,0 +1,9 @@
+{
+  "id": 385826127,
+  "name": "Moladanda - Malgammana Rd",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.560076, 7.276822], [80.559844, 7.276878], [80.559584, 7.27688], [80.55938, 7.2768], [80.559276, 7.276662], [80.559126, 7.276633]]
+}

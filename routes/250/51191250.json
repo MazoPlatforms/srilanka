@@ -1,0 +1,9 @@
+{
+  "id": 51191250,
+  "name": "Karunaratne Abeysekara Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.871907, 6.924184], [79.872146, 6.924212], [79.872369, 6.924203], [79.872565, 6.924172], [79.872779, 6.92407], [79.872962, 6.923956], [79.873416, 6.92355]]
+}

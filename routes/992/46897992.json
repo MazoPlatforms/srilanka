@@ -1,0 +1,9 @@
+{
+  "id": 46897992,
+  "name": "Abeysekara Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.876039, 6.84223], [79.87601, 6.842121], [79.875944, 6.841925]]
+}

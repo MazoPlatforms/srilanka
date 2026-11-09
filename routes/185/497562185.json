@@ -1,0 +1,9 @@
+{
+  "id": 497562185,
+  "name": "Mahilavadduwan Main Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.57198, 7.678656], [81.572007, 7.678627], [81.572199, 7.678445]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 180551315,
+  "name": "Asokarama Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.875353, 6.998399], [79.875053, 6.998428], [79.874866, 6.998446], [79.874801, 6.998458], [79.874758, 6.998516]]
+}

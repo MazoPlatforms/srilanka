@@ -1,0 +1,9 @@
+{
+  "id": 411753475,
+  "name": "Shanthasolai road sub lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.506301, 8.771583], [80.506664, 8.771214], [80.506738, 8.771141], [80.507624, 8.770271], [80.507988, 8.769901], [80.508298, 8.769543]]
+}

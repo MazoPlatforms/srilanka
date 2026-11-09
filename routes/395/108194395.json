@@ -1,0 +1,9 @@
+{
+  "id": 108194395,
+  "name": "Temple Cross Road (Piyadasi Mawatha)",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.968578, 7.060378], [79.968588, 7.060446], [79.96867, 7.060652], [79.968657, 7.060678], [79.968171, 7.061308]]
+}

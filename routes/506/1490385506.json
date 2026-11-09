@@ -1,0 +1,9 @@
+{
+  "id": 1490385506,
+  "name": "Street B",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 15, "motorcycle": 15, "bicycle": 15, "foot": 5},
+  "coordinates": [[79.87202, 6.900621], [79.872082, 6.900511]]
+}

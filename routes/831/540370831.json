@@ -1,0 +1,9 @@
+{
+  "id": 540370831,
+  "name": "Welikemulla",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.069169, 6.961021], [81.069782, 6.960925], [81.070037, 6.960864], [81.070092, 6.960821], [81.070225, 6.960691], [81.070368, 6.960496]]
+}

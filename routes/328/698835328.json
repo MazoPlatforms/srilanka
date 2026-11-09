@@ -1,0 +1,9 @@
+{
+  "id": 698835328,
+  "name": "Galgamuwa-Nikawewa Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.271342, 7.999746], [80.271529, 7.999766], [80.271599, 7.999774], [80.272073, 7.999812], [80.272814, 7.99988], [80.274021, 8.00002], [80.275581, 8.0001]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 356701040,
+  "name": "Ranawiru Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.50875, 5.962636], [80.508731, 5.962763], [80.508789, 5.962941], [80.508884, 5.96316], [80.508893, 5.963482]]
+}

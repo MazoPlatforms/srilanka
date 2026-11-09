@@ -1,0 +1,9 @@
+{
+  "id": 1388835150,
+  "name": "Edmond Samarasekara Mawatha",
+  "highway": "residential",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.547084, 5.949813], [80.546997, 5.949825], [80.546866, 5.949814], [80.546776, 5.949788]]
+}

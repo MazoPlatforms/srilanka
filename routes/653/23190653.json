@@ -1,0 +1,9 @@
+{
+  "id": 23190653,
+  "name": "Mosque Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.89515, 6.906494], [79.895581, 6.906342], [79.896279, 6.906094], [79.897548, 6.905646], [79.89771, 6.905523], [79.898219, 6.905387]]
+}

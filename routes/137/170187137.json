@@ -1,0 +1,9 @@
+{
+  "id": 170187137,
+  "name": "Waliveriya Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.539406, 5.956842], [80.539441, 5.956396], [80.5396, 5.956376], [80.539808, 5.955485]]
+}

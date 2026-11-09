@@ -1,0 +1,9 @@
+{
+  "id": 492938362,
+  "name": "Pillaiyar Kovil Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.323367, 8.142027], [81.322676, 8.142027], [81.322597, 8.142028], [81.322295, 8.142011], [81.32219, 8.142011], [81.321911, 8.142019]]
+}

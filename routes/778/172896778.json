@@ -1,0 +1,9 @@
+{
+  "id": 172896778,
+  "name": "Meda Bowala Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.611777, 7.273795], [80.611846, 7.273658]]
+}

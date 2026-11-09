@@ -1,0 +1,9 @@
+{
+  "id": 412418208,
+  "name": "Velikulam 1st lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.521379, 8.748827], [80.522115, 8.748606], [80.521789, 8.747727], [80.521595, 8.747376], [80.521185, 8.74661]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 48959757,
+  "name": "Heenati Kumbura Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.927549, 6.915134], [79.927638, 6.915189], [79.927895, 6.91542]]
+}

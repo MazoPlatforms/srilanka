@@ -1,0 +1,9 @@
+{
+  "id": 439832870,
+  "name": "Global Park Exit",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.872659, 7.145521], [79.872729, 7.1454], [79.872761, 7.145376], [79.873045, 7.145485], [79.873673, 7.145667]]
+}

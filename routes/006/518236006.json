@@ -1,0 +1,9 @@
+{
+  "id": 518236006,
+  "name": "Nivatthakachethiya Mawatha",
+  "highway": "trunk",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "foot": 5},
+  "coordinates": [[80.418038, 8.355815], [80.418037, 8.355694], [80.418026, 8.355627], [80.417981, 8.355572]]
+}

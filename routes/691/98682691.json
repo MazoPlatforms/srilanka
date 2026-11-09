@@ -1,0 +1,9 @@
+{
+  "id": 98682691,
+  "name": "Anguruwatota-Aluthgama Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.075135, 6.623651], [80.07549, 6.623982], [80.075695, 6.624225], [80.075793, 6.624415], [80.075909, 6.624799], [80.07624, 6.625295], [80.076328, 6.625377]]
+}

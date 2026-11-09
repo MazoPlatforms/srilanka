@@ -1,0 +1,9 @@
+{
+  "id": 548720063,
+  "name": "Council Avenue",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 55, "motorcycle": 55, "truck": 50, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.401877, 6.679829], [80.401885, 6.679781], [80.401907, 6.679639]]
+}

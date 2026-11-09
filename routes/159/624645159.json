@@ -1,0 +1,9 @@
+{
+  "id": 624645159,
+  "name": "Akbar Msjid Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.525631, 7.917852], [81.525857, 7.917813], [81.526098, 7.917801], [81.526395, 7.917794]]
+}

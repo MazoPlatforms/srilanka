@@ -1,0 +1,9 @@
+{
+  "id": 160723773,
+  "name": "Matale-Rattota Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.673004, 7.516257], [80.673357, 7.516227]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 1497387250,
+  "name": "Beliatte-Walasmulla Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.697887, 6.155565], [80.697895, 6.155627]]
+}

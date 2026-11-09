@@ -1,0 +1,9 @@
+{
+  "id": 1381711110,
+  "name": "Calton Place",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.421425, 5.973815], [80.421547, 5.973793], [80.421753, 5.973765]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 195412389,
+  "name": "Puliyankulam Main Street",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.213763, 8.608387], [81.213779, 8.60842], [81.213809, 8.608449], [81.216515, 8.608948]]
+}

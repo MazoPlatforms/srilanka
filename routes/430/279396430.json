@@ -1,0 +1,9 @@
+{
+  "id": 279396430,
+  "name": "Manampitiya Bridge",
+  "highway": "trunk",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 70.0, "motorcycle": 70.0, "truck": 70.0, "foot": 5},
+  "coordinates": [[81.087869, 7.913076], [81.088227, 7.913091], [81.090087, 7.913199], [81.090673, 7.913231]]
+}

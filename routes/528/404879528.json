@@ -1,0 +1,9 @@
+{
+  "id": 404879528,
+  "name": "DS Office Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.729927, 7.678498], [81.729636, 7.678375], [81.729568, 7.678343], [81.729268, 7.678286], [81.729349, 7.677643]]
+}

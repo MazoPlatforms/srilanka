@@ -1,0 +1,9 @@
+{
+  "id": 108530414,
+  "name": "Thuparamaya Mawatha",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.404997, 8.355279], [80.404936, 8.355317], [80.404872, 8.35534], [80.404772, 8.355352], [80.404668, 8.35536]]
+}

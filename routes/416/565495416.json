@@ -1,0 +1,9 @@
+{
+  "id": 565495416,
+  "name": "Jaffna-Ponnalai Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.005622, 9.663457], [80.005554, 9.663434], [80.00552, 9.663431], [80.005488, 9.663436], [80.005454, 9.663449], [80.00542, 9.663473]]
+}

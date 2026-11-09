@@ -1,0 +1,9 @@
+{
+  "id": 835535243,
+  "name": "Hingalgoda Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.322027, 6.328092], [80.322029, 6.328059], [80.321955, 6.327934]]
+}

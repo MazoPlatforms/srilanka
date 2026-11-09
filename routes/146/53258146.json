@@ -1,0 +1,9 @@
+{
+  "id": 53258146,
+  "name": "2nd  Ln",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.887961, 6.900872], [79.888165, 6.900392], [79.888319, 6.899952], [79.888358, 6.899625], [79.888703, 6.898737]]
+}

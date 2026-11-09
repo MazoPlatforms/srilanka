@@ -1,0 +1,9 @@
+{
+  "id": 530462342,
+  "name": "Manakola Road",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[80.783357, 7.076368], [80.783467, 7.076405], [80.783652, 7.076491], [80.783904, 7.076668], [80.783904, 7.07679], [80.784108, 7.076913]]
+}

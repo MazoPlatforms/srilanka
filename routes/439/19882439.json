@@ -1,0 +1,9 @@
+{
+  "id": 19882439,
+  "name": "Pepiliyana Road",
+  "highway": "secondary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.879193, 6.849848], [79.880085, 6.850473], [79.880259, 6.850617], [79.880716, 6.851131], [79.880891, 6.851328], [79.881029, 6.851456], [79.881122, 6.851538]]
+}

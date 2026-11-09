@@ -1,0 +1,9 @@
+{
+  "id": 807874251,
+  "name": "Pannis Road",
+  "highway": "unclassified",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30, "motorcycle": 30, "truck": 30, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.376529, 6.290812], [80.376399, 6.290829], [80.376159, 6.290965], [80.37583, 6.291177], [80.375833, 6.291482]]
+}

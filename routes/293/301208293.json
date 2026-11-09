@@ -1,0 +1,9 @@
+{
+  "id": 301208293,
+  "name": "Galketiya Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.38036, 5.965346], [80.380351, 5.965442], [80.380425, 5.96582], [80.380506, 5.966139], [80.380614, 5.966365], [80.380698, 5.966491], [80.380814, 5.966576]]
+}

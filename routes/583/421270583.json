@@ -1,0 +1,9 @@
+{
+  "id": 421270583,
+  "name": "Kannaki Amman Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.591431, 7.826319], [81.591699, 7.826125], [81.592041, 7.825915], [81.592068, 7.825857], [81.591898, 7.825642]]
+}

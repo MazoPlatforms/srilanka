@@ -1,0 +1,9 @@
+{
+  "id": 515647739,
+  "name": "Kiriwandeniya Road",
+  "highway": "living_street",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 10, "motorcycle": 10, "bicycle": 10, "foot": 5},
+  "coordinates": [[80.32901, 7.261998], [80.328661, 7.262014], [80.328384, 7.261996], [80.328022, 7.261893], [80.327732, 7.261723]]
+}

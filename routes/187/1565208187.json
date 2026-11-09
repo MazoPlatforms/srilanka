@@ -1,0 +1,9 @@
+{
+  "id": 1565208187,
+  "name": "Abandoned Railway",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.92219, 6.961513], [79.922324, 6.961315], [79.922451, 6.961137], [79.922781, 6.960802]]
+}

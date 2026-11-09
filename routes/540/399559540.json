@@ -1,0 +1,9 @@
+{
+  "id": 399559540,
+  "name": "Dharmashoka Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.958135, 6.890203], [79.957701, 6.890644]]
+}

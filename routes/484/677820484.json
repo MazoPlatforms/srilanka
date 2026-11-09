@@ -1,0 +1,9 @@
+{
+  "id": 677820484,
+  "name": "School Access",
+  "highway": "service",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 15.0, "motorcycle": 15.0, "bicycle": 15, "foot": 5},
+  "coordinates": [[81.163251, 7.066216], [81.163158, 7.066134], [81.163176, 7.065645], [81.163101, 7.065367], [81.163106, 7.065138]]
+}

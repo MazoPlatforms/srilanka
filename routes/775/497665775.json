@@ -1,0 +1,9 @@
+{
+  "id": 497665775,
+  "name": "Balangoda Bypass Road",
+  "highway": "primary",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 50.0, "motorcycle": 50.0, "truck": 50.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.701987, 6.651022], [80.701949, 6.651067], [80.701828, 6.651161]]
+}

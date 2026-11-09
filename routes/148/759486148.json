@@ -1,0 +1,9 @@
+{
+  "id": 759486148,
+  "name": "Gannoruwa Road",
+  "highway": "primary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 60.0, "motorcycle": 60.0, "truck": 60.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.592385, 7.265819], [80.592553, 7.265997], [80.592651, 7.266104]]
+}

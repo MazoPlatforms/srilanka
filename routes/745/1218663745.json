@@ -1,0 +1,9 @@
+{
+  "id": 1218663745,
+  "name": "Play ground street",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 20.0, "motorcycle": 20.0, "truck": 20.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.943685, 6.627353], [79.943807, 6.627379], [79.944147, 6.627443], [79.9444, 6.627542], [79.945245, 6.627837], [79.945646, 6.6279], [79.945881, 6.627938]]
+}

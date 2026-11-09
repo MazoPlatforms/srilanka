@@ -1,0 +1,9 @@
+{
+  "id": 420079632,
+  "name": "Batalawatte Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.953197, 6.912126], [79.953375, 6.9122], [79.953584, 6.912335], [79.953708, 6.91242], [79.954305, 6.912643], [79.95435, 6.912657]]
+}

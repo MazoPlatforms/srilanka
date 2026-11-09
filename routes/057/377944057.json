@@ -1,0 +1,9 @@
+{
+  "id": 377944057,
+  "name": "Kuriya Waththa Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.893899, 7.150923], [79.893711, 7.150859], [79.892501, 7.150479], [79.892332, 7.150408], [79.891727, 7.150237], [79.891393, 7.150123]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 46940684,
+  "name": "Castle Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.856, 6.881316], [79.858977, 6.882199]]
+}

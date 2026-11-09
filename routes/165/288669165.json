@@ -1,0 +1,9 @@
+{
+  "id": 288669165,
+  "name": "Green Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.8099, 7.36832], [81.810042, 7.369219], [81.810169, 7.370152], [81.810216, 7.370386]]
+}

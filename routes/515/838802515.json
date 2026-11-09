@@ -1,0 +1,9 @@
+{
+  "id": 838802515,
+  "name": "Galabada - Rathganga Road",
+  "highway": "tertiary",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 40.0, "motorcycle": 40.0, "truck": 40.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.482433, 6.739518], [80.482278, 6.738978]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 53791002,
+  "name": "Lily Avenue",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.924295, 6.902831], [79.925635, 6.90303], [79.926116, 6.903101], [79.926508, 6.903167]]
+}

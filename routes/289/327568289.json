@@ -1,0 +1,9 @@
+{
+  "id": 327568289,
+  "name": "Chaithya Road",
+  "highway": "service",
+  "oneway": "forward",
+  "deleted": false,
+  "speeds_kmh": {"car": 35, "motorcycle": 35, "bicycle": 15, "foot": 5},
+  "coordinates": [[79.841908, 6.931791], [79.841951, 6.93171], [79.841972, 6.93168], [79.841996, 6.931664], [79.842027, 6.931657], [79.842119, 6.931617]]
+}

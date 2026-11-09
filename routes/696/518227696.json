@@ -1,0 +1,9 @@
+{
+  "id": 518227696,
+  "name": "Wijesinghe Lane",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.904417, 6.918537], [79.904776, 6.918741]]
+}

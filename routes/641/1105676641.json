@@ -1,0 +1,9 @@
+{
+  "id": 1105676641,
+  "name": "Desinghe Mawatha",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.932651, 6.896087], [79.932823, 6.896177], [79.932854, 6.896189]]
+}

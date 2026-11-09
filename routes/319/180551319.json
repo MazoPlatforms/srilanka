@@ -1,0 +1,9 @@
+{
+  "id": 180551319,
+  "name": "Maradana 1st Cross Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[79.880156, 6.998725], [79.880006, 6.998733], [79.879477, 6.998774], [79.878986, 6.998848], [79.878459, 6.9989], [79.87795, 6.998963]]
+}

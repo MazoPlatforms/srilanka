@@ -1,0 +1,9 @@
+{
+  "id": 790634707,
+  "name": "Owala - Kehelwala Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 25, "motorcycle": 25, "truck": 25, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.580128, 7.271258], [80.580078, 7.271215], [80.580015, 7.271215]]
+}

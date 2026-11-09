@@ -1,0 +1,9 @@
+{
+  "id": 791245756,
+  "name": "Neeralla Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.617628, 7.373103], [80.617704, 7.373095], [80.617771, 7.373086]]
+}

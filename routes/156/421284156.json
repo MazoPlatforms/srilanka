@@ -1,0 +1,9 @@
+{
+  "id": 421284156,
+  "name": "Theepan Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[81.601134, 7.775709], [81.600459, 7.77586], [81.600222, 7.775883], [81.600116, 7.775886], [81.59955, 7.7758]]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 524549468,
+  "name": "Malmaduwa Road",
+  "highway": "residential",
+  "oneway": false,
+  "deleted": false,
+  "speeds_kmh": {"car": 30.0, "motorcycle": 30.0, "truck": 30.0, "bicycle": 20, "foot": 5},
+  "coordinates": [[80.542533, 8.783417], [80.541801, 8.78278], [80.541676, 8.782683], [80.541344, 8.782231], [80.541109, 8.781813], [80.540914, 8.781385]]
+}
