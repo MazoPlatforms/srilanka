@@ -55,16 +55,16 @@ fetch(DATA + "districts.json", { cache: "no-cache" }).then(r => r.json()).then(i
   .catch(() => { document.getElementById("meta").textContent = "No districts built yet. Run the workflow."; });
 
 function init(index) {
-  const D = index.districts, ATTR = "© Overture Maps Foundation";
+  const D = index.districts;
   const slugOf = {}; D.forEach(d => slugOf[d.idx] = d.slug);
   const sources = {}, L = [{ id: "bg", type: "background", paint: { "background-color": "#e2ebdc" } }];
   const G = { Roads: [], Buildings: [], Places: [], Water: [], "Land use": [] };
   const add = (g, layer) => { L.push(layer); G[g].push(layer.id); };
-  const src = (id, file) => { sources[id] = { type: "vector", url: "pmtiles://" + abs(file), attribution: ATTR }; };
+  const src = (id, file, d) => { sources[id] = { type: "vector", url: "pmtiles://" + abs(file), attribution: d.source ? "© OpenStreetMap contributors · Mazo Maps" : "© Overture Maps Foundation" }; };
   D.forEach(d => {
-    if (d.files.areas) src("a_" + d.slug, `districts/${d.slug}/areas.pmtiles`);
-    if (d.files.base) src("o_" + d.slug, `districts/${d.slug}/base.pmtiles`);
-    d.files.buildings.forEach((f, i) => src(`b_${d.slug}_${i}`, `districts/${d.slug}/${f}`));
+    if (d.files.areas) src("a_" + d.slug, `districts/${d.slug}/areas.pmtiles`, d);
+    if (d.files.base) src("o_" + d.slug, `districts/${d.slug}/base.pmtiles`, d);
+    d.files.buildings.forEach((f, i) => src(`b_${d.slug}_${i}`, `districts/${d.slug}/${f}`, d));
   });
   const lbl = ["coalesce", ["get", "name_en"], ["get", "name"]];
   const major = ["motorway", "trunk", "primary"], road = ["==", ["get", "subtype"], "road"];
@@ -185,7 +185,7 @@ function init(index) {
   }
   const total = D.reduce((a, d) => a + (d.places.total || 0), 0);
   document.getElementById("meta").textContent =
-    `${D.length} of 25 districts built · ${total.toLocaleString()} places · Overture Maps Foundation`;
+    `${D.length} of 25 districts built · ${total.toLocaleString()} places · OSM + Mazo Maps migration`;
 }
 </script>
 <script src="routing.js"></script>
