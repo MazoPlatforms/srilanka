@@ -1,41 +1,53 @@
 <!doctype html>
-<html lang="en" data-theme="light">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Mazo Maps — Sri Lanka</title>
-<meta name="theme-color" content="#f6f8fa">
-<meta name="description" content="Explore places and roads across Sri Lanka on a locally hosted vector map.">
+<title>Sri Lanka Map</title>
 <link rel="stylesheet" href="vendor/maplibre-gl.css">
 <style>
-:root{color-scheme:light;--page:#f6f8fa;--surface:#fff;--surface-alt:#f6f8fa;--ink:#1f2328;--muted:#656d76;--line:#d1d9e0;--accent:#0969da;--accent-soft:#ddf4ff;--shadow:0 1px 3px #1f232812,0 8px 24px #1f232814}
-:root[data-theme=dark]{color-scheme:dark;--page:#0d1117;--surface:#161b22;--surface-alt:#21262d;--ink:#e6edf3;--muted:#8b949e;--line:#30363d;--accent:#79c0ff;--accent-soft:#1f3552;--shadow:0 1px 3px #0003,0 8px 24px #0005}
-*{box-sizing:border-box}html,body{height:100%;margin:0;overflow:hidden}body{color:var(--ink);background:var(--page);font:14px system-ui,-apple-system,"Segoe UI",sans-serif}button,input{font:inherit;color:inherit}button{cursor:pointer}button:focus-visible,input:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px}[hidden]{display:none!important}#map{position:fixed;inset:0}.dock{position:absolute;z-index:3;top:max(12px,env(safe-area-inset-top));left:16px;width:min(460px,calc(100% - 92px))}.search-box{display:flex;align-items:center;gap:8px;height:52px;padding:4px 7px;background:var(--surface);border:1px solid var(--line);border-radius:9px;box-shadow:var(--shadow)}.brand{display:flex;align-items:center;gap:7px;white-space:nowrap;font-size:13px;font-weight:700;padding:0 5px}.mark{display:grid;place-items:center;width:29px;height:29px;border-radius:9px;background:#d3eb8c;color:#1c2821;font-size:19px;font-weight:800}.search-box input{min-width:0;flex:1;border:0;outline:0;background:transparent;height:42px}.tool{display:grid;place-items:center;flex:none;width:40px;height:40px;border-radius:8px;border:1px solid var(--line);background:var(--surface);box-shadow:var(--shadow)}.tool svg,.search-box svg,.sheet svg{width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}.search-box .tool{border:0;box-shadow:none}.tool:hover,.result:hover{background:var(--surface-alt)}.utils{position:absolute;z-index:3;top:max(12px,env(safe-area-inset-top));right:16px;display:grid;gap:7px}.results{margin-top:7px;max-height:min(47dvh,440px);overflow:auto;background:var(--surface);border:1px solid var(--line);border-radius:9px;box-shadow:var(--shadow);padding:5px}.result{width:100%;min-height:45px;text-align:left;background:transparent;border:0;border-radius:7px;padding:9px 10px;display:block}.result strong,.result small{display:block}.result strong{font-size:13px}.result small{margin-top:3px;color:var(--muted);font-size:11px}.none{padding:12px;color:var(--muted)}.chips{display:flex;gap:7px;margin-top:8px}.chip{padding:8px 12px;border:1px solid var(--line);border-radius:8px;background:var(--surface);box-shadow:var(--shadow);font-size:12px}.chip[aria-pressed=true]{background:var(--accent-soft);color:var(--accent)}.layer-panel{margin-top:7px;padding:12px 14px;border:1px solid var(--line);border-radius:9px;background:var(--surface);box-shadow:var(--shadow)}.layer-panel label{display:flex;align-items:center;gap:8px;padding:6px 0;font-size:13px}.layer-panel input{accent-color:var(--accent)}.meta{position:absolute;z-index:2;bottom:calc(12px + env(safe-area-inset-bottom));left:12px;max-width:55%;border:1px solid var(--line);border-radius:6px;padding:5px 8px;background:var(--surface);color:var(--muted);font-size:11px}.map-actions{position:absolute;z-index:2;right:16px;bottom:calc(80px + env(safe-area-inset-bottom));display:grid;gap:7px}.sheet{position:absolute;z-index:5;left:16px;bottom:calc(44px + env(safe-area-inset-bottom));width:min(360px,calc(100% - 32px));max-height:55dvh;overflow:auto;background:var(--surface);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow);padding:18px}.sheet h2{font-size:18px;margin:0 30px 5px 0}.sheet p{color:var(--muted);font-size:13px;line-height:1.5;margin:7px 0}.sheet .close{position:absolute;right:10px;top:10px}.sheet a{color:var(--accent)}.sheet .tag{display:inline-block;padding:5px 8px;background:var(--surface-alt);border-radius:6px;font-size:12px}.maplibregl-ctrl-bottom-right{bottom:22px}.maplibregl-ctrl-group{border-radius:8px!important;border:1px solid var(--line);box-shadow:var(--shadow)!important}.maplibregl-ctrl-attrib{font-size:10px}.status{display:inline-block;margin-top:8px;color:var(--muted);font-size:11px}.sr-only{position:absolute;width:1px;height:1px;clip-path:inset(50%);overflow:hidden}
-@media(max-width:600px){.dock{top:max(8px,env(safe-area-inset-top));left:10px;width:calc(100% - 70px)}.search-box{height:48px;gap:3px}.brand span:last-child{display:none}.utils{top:max(8px,env(safe-area-inset-top));right:8px}.tool{width:39px;height:39px}.sheet{left:0;bottom:0;width:100%;max-height:58dvh;border-radius:16px 16px 0 0;padding:22px 18px calc(20px + env(safe-area-inset-bottom))}.sheet:before{content:"";position:absolute;top:7px;left:calc(50% - 20px);width:40px;height:4px;border-radius:4px;background:var(--line)}.meta{bottom:calc(8px + env(safe-area-inset-bottom));left:7px}.map-actions{right:9px;bottom:calc(122px + env(safe-area-inset-bottom))}.results{max-height:45dvh}}
-@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+  :root { --ink:#10343a; --panel:#f7fbfa; --line:#c6dad8; --accent:#0b7f86; --muted:#5b7a7d; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink:#e3f1f0; --panel:#14262a; --line:#2c4a4f; --accent:#5fd0d6; --muted:#93b3b5; }
+  }
+  html, body { height:100%; margin:0; color:var(--ink);
+    font-family:"Noto Sans","Noto Sans Tamil","Noto Sans Sinhala",system-ui,-apple-system,"Segoe UI",sans-serif; }
+  #map { position:absolute; inset:0; }
+  .panel { position:absolute; top:max(10px, env(safe-area-inset-top)); left:10px; z-index:2;
+    width:min(320px, calc(100vw - 20px)); box-sizing:border-box; background:var(--panel);
+    border:1px solid var(--line); border-radius:10px; padding:12px; font-size:14px; line-height:1.4; }
+  .panel h1 { font-size:16px; margin:0 0 8px; }
+  .panel input[type=search] { width:100%; box-sizing:border-box; padding:8px 10px; font:inherit; color:inherit;
+    background:transparent; border:1px solid var(--line); border-radius:6px; }
+  .panel input:focus-visible, .panel button:focus-visible, .panel summary:focus-visible { outline:2px solid var(--accent); outline-offset:1px; }
+  #results { list-style:none; margin:6px 0 0; padding:0; max-height:36vh; overflow:auto; }
+  #results button { display:block; width:100%; text-align:left; padding:6px 4px; font:inherit; color:inherit;
+    background:none; border:0; border-bottom:1px solid var(--line); cursor:pointer; }
+  #results button:hover { background:color-mix(in srgb, var(--accent) 12%, transparent); }
+  #results .none { color:var(--muted); padding:6px 4px; }
+  details { margin-top:8px; }
+  summary { cursor:pointer; }
+  label { display:flex; gap:8px; align-items:center; padding:3px 0; cursor:pointer; }
+  small { display:block; margin-top:8px; color:var(--muted); }
+  .maplibregl-popup-content { background:var(--panel); color:var(--ink); border-radius:8px; font-size:13px; line-height:1.45; }
+  .maplibregl-popup-anchor-bottom .maplibregl-popup-tip { border-top-color:var(--panel); }
+  .maplibregl-popup-anchor-top .maplibregl-popup-tip { border-bottom-color:var(--panel); }
+  .maplibregl-popup-close-button { color:var(--ink); }
 </style>
 </head>
 <body>
-<div id="map" role="region" aria-label="Interactive map of Sri Lanka"></div>
-<div class="dock"><div class="search-box">
-  <div class="brand"><span class="mark" aria-hidden="true">M</span><span>Mazo Maps</span></div>
-  <label class="sr-only" for="q">Search places in Sri Lanka</label>
-  <input id="q" type="search" placeholder="Search places" autocomplete="off">
-  <button id="search-btn" class="tool" type="button" aria-label="Search"><svg viewBox="0 0 24 24"><circle cx="10" cy="10" r="6"/><path d="m15 15 6 6"/></svg></button>
-</div><div id="results" class="results" role="listbox" hidden></div>
-<div class="chips"><button class="chip" id="explore" aria-pressed="true">Explore</button><button class="chip" id="layers-btn" aria-expanded="false">Layers</button></div>
-<div id="layer-panel" class="layer-panel" hidden></div></div>
-<div class="utils"><button class="tool" id="theme-toggle" aria-label="Toggle map theme" title="Light or dark map"><svg viewBox="0 0 24 24"><path d="M20 14A8 8 0 0 1 10 4a8 8 0 1 0 10 10Z"/></svg></button></div>
-<div class="map-actions"><button class="tool" id="map-locate" aria-label="Find my location" title="My location"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/><path d="M12 2v4m0 12v4M2 12h4m12 0h4"/></svg></button></div>
-<div id="place-sheet" class="sheet" aria-label="Selected place details" hidden><button id="place-close" class="tool close" aria-label="Close place details">×</button><h2 id="place-title"></h2><div id="place-info"></div></div>
-<div class="meta" id="meta" role="status">Loading Sri Lanka map…</div>
+<div id="map"></div>
+<div class="panel">
+  <h1>Sri Lanka Map</h1>
+  <input id="q" type="search" placeholder="Search places by name" aria-label="Search places" autocomplete="off">
+  <ul id="results" aria-live="polite"></ul>
+  <details><summary>Layers</summary><div id="toggles"></div></details>
+  <small id="meta"></small>
+</div>
 <script src="vendor/maplibre-gl.js"></script>
 <script src="vendor/pmtiles.js"></script>
 <script>
 const DATA = "data/";
-try { const t = localStorage.getItem("sl-map-theme"); document.documentElement.dataset.theme = t === "dark" || (t !== "light" && matchMedia("(prefers-color-scheme: dark)").matches) ? "dark" : "light"; } catch {}
-const dark = () => document.documentElement.dataset.theme === "dark";
-let mapInstance;
 const abs = p => new URL(DATA + p, location.href).href;
 maplibregl.addProtocol("pmtiles", new pmtiles.Protocol().tile);
 
@@ -84,9 +96,9 @@ function init(index) {
     layout: { "symbol-placement": "line", "text-field": lbl, "text-font": ["NotoSans-Regular"], "text-size": 11 },
     paint: { "text-color": "#44504d", "text-halo-color": "#fff", "text-halo-width": 1.5 } }));
   const placeIds = [];
-  each(d => d.files.base && d.counts.place && (add("Places", { id: "pd-" + d.slug, type: "circle", source: "o_" + d.slug, "source-layer": "place", minzoom: 10,
-    paint: { "circle-radius": ["interpolate", ["linear"], ["zoom"], 10, 2.2, 13, 4, 16, 6], "circle-color": "#0969da",
-      "circle-stroke-width": 1.5, "circle-stroke-color": "#fff", "circle-opacity": 0.96 } }),
+  each(d => d.files.base && d.counts.place && (add("Places", { id: "pd-" + d.slug, type: "circle", source: "o_" + d.slug, "source-layer": "place", minzoom: 12,
+    paint: { "circle-radius": ["interpolate", ["linear"], ["zoom"], 12, 2, 16, 5], "circle-color": "#0b7f86",
+      "circle-stroke-width": 1, "circle-stroke-color": "#fff" } }),
     add("Places", { id: "pt-" + d.slug, type: "symbol", source: "o_" + d.slug, "source-layer": "place", minzoom: 15,
       layout: { "text-field": lbl, "text-font": ["NotoSans-Regular"], "text-size": 11, "text-offset": [0, 0.9],
         "text-anchor": "top", "text-optional": true },
@@ -102,103 +114,37 @@ function init(index) {
     style: { version: 8, glyphs: GLYPHS, sources, layers: L },
     bounds: [[w, s], [e, n]], fitBoundsOptions: { padding: 20 }
   });
-  mapInstance = map;
-  function applyMapTheme() {
-    const isDark = dark();
-    const bg = map.getLayer("bg");
-    if (bg) map.setPaintProperty("bg", "background-color", isDark ? "#19282c" : "#e2ebdc");
-    for (const d of D) {
-      for (const prefix of ["rd-", "rc-", "rt-", "pt-", "bu-"]) {
-        const id = prefix + d.slug;
-        if (!map.getLayer(id)) continue;
-        if (prefix === "rd-") map.setPaintProperty(id, "line-color", isDark ? "#485e65" : ["match", ["get", "class"], ["motorway", "trunk"], "#f2a65a", "primary", "#f6cf8a", "#ffffff"]);
-        if (prefix === "rc-") map.setPaintProperty(id, "line-color", isDark ? "#273e45" : "#b7beb2");
-        if (prefix === "rt-" || prefix === "pt-") map.setPaintProperty(id, "text-color", isDark ? "#d9e9e9" : "#44504d");
-      }
-    }
-  }
-  map.on("load", applyMapTheme);
-  document.getElementById("theme-toggle").addEventListener("click", () => {
-    document.documentElement.dataset.theme = dark() ? "light" : "dark";
-    try {localStorage.setItem("sl-map-theme", document.documentElement.dataset.theme)} catch {}
-    applyMapTheme();
-  });
-  let locationMarker = null;
-  let selectedMarker = null;
-  function pin(color, label) {
-    const el = document.createElement("div");
-    el.setAttribute("role", "img");
-    el.setAttribute("aria-label", label);
-    el.style.cssText = "width:18px;height:18px;border-radius:50%;border:3px solid white;background:"+color+";box-shadow:0 0 0 2px "+color+",0 2px 10px #0005";
-    return el;
-  }
-  function showSelectedMarker(coords) {
-    if (selectedMarker) selectedMarker.remove();
-    selectedMarker = new maplibregl.Marker({element:pin("#0969da","Selected place"),anchor:"bottom"})
-      .setLngLat(coords).addTo(map);
-  }
-  document.getElementById("map-locate").addEventListener("click", () => {
-    const btn = document.getElementById("map-locate");
-    if (!navigator.geolocation) {
-      document.getElementById("meta").textContent="Location is not supported by this browser.";
-      return;
-    }
-    btn.disabled = true;
-    btn.setAttribute("aria-busy","true");
-    navigator.geolocation.getCurrentPosition(p => {
-      const coords=[p.coords.longitude,p.coords.latitude];
-      if (locationMarker) locationMarker.remove();
-      locationMarker=new maplibregl.Marker({element:pin("#2377fa","Your location")})
-        .setLngLat(coords).addTo(map);
-      map.flyTo({center:coords,zoom:15});
-      btn.disabled=false;
-      btn.removeAttribute("aria-busy");
-    }, err => {
-      btn.disabled=false;
-      btn.removeAttribute("aria-busy");
-      document.getElementById("meta").textContent =
-        err.code===1 ? "Location permission denied. Allow location access in browser settings." :
-        "Location unavailable. Check GPS, connectivity, and browser permissions.";
-    },{enableHighAccuracy:true,timeout:15000,maximumAge:30000});
-  });
-  map.on("error", ev => {
-    console.error("Map error:", ev && ev.error ? ev.error.message : ev);
-    const msg=String(ev?.error?.message||"");
-    if (/glyph|tile|source|pmtiles/i.test(msg)) document.getElementById("meta").textContent="Map assets failed to load. Refresh or check the network.";
-  });
-  // Minimal Mazo Maps-style controls: zoom by touch/scroll, location via the custom button.
+  map.on("error", ev => console.error("Map error:", ev && ev.error ? ev.error.message : ev));
+  map.addControl(new maplibregl.NavigationControl(), "bottom-right");
+  map.addControl(new maplibregl.GeolocateControl({ trackUserLocation: false }), "bottom-right");
   map.addControl(new maplibregl.ScaleControl(), "bottom-left");
 
-  // ----- place details: Mazo Maps-style responsive sheet -----
-  const sheet = document.getElementById("place-sheet");
-  const info = document.getElementById("place-info");
-  const addText = (tag, value, cls) => {const e=document.createElement(tag);e.textContent=value;if(cls)e.className=cls;info.appendChild(e);return e;};
-  document.getElementById("place-close").addEventListener("click",()=>{sheet.hidden=true;if(selectedMarker){selectedMarker.remove();selectedMarker=null;}});
-  async function openPlace(d,id,f,lngLat,name) {
-    showSelectedMarker(lngLat);
-    sheet.hidden=false;
-    document.getElementById("place-title").textContent=name||"Place";
-    info.replaceChildren();
-    addText("p","Loading place details…");
+  // ----- place details -----
+  let popup = null;
+  const mk = (box, tag, text, css) => { const x = document.createElement(tag); x.textContent = text;
+    if (css) x.style.cssText = css; box.appendChild(x); return x; };
+  async function openPlace(d, id, f, lngLat, name) {
+    const box = document.createElement("div");
+    mk(box, "strong", name || "");
     try {
-      const r=await fetch(DATA+`districts/${slugOf[d]}/places/${f}/${id}.json`);
-      if(!r.ok)throw Error("Place details unavailable");
-      const p=await r.json();
-      if(sheet.hidden)return;
-      document.getElementById("place-title").textContent=p.name||name||"Place";
-      info.replaceChildren();
-      if(p.categories?.length)addText("div",p.categories.join(", "),"tag");
-      if(p.address)addText("p",p.address);
-      if(p.phone){const a=addText("a","Call · "+p.phone);a.href="tel:"+p.phone.replace(/[^+\\d]/g,"");}
-      if(p.business_status&&p.business_status!=="UNKNOWN")addText("p",p.business_status.replaceAll("_"," "));
-      for(const h of p.hours||[])addText("p",h.day+": "+(h.times||[]).join(", "));
-      addText("p",`Coordinates: ${lngLat[1].toFixed(5)}, ${lngLat[0].toFixed(5)}`);
-    } catch {info.replaceChildren();addText("p","Details are not available for this place.");}
+      const r = await fetch(DATA + `districts/${slugOf[d]}/places/${f}/${id}.json`);
+      if (!r.ok) throw new Error(r.status);
+      const p = await r.json();
+      box.replaceChildren();
+      mk(box, "strong", p.name);
+      if (p.categories.length) mk(box, "div", p.categories.join(", "), "color:var(--muted);font-size:12px");
+      if (p.address) mk(box, "div", p.address, "margin-top:4px");
+      if (p.phone) { const a = mk(box, "a", p.phone); a.href = "tel:" + p.phone.replace(/[^+\d]/g, ""); a.style.color = "var(--accent)"; }
+      mk(box, "div", p.business_status, "font-size:12px;margin-top:4px");
+      (p.hours || []).forEach(h => mk(box, "div", h.day + ": " + h.times.join(", "), "font-size:12px"));
+    } catch (err) { mk(box, "div", "Details are not available for this place.", "color:var(--muted);font-size:12px"); }
+    if (popup) popup.remove();
+    popup = new maplibregl.Popup({ maxWidth: "280px" }).setLngLat(lngLat).setDOMContent(box).addTo(map);
   }
-  placeIds.forEach(l=>{
-    map.on("click",l,e=>{const p=e.features[0].properties;openPlace(p.d,p.id,p.f,e.lngLat.toArray(),p.name);});
-    map.on("mouseenter",l,()=>map.getCanvas().style.cursor="pointer");
-    map.on("mouseleave",l,()=>map.getCanvas().style.cursor="");
+  placeIds.forEach(l => {
+    map.on("click", l, e => { const p = e.features[0].properties; openPlace(p.d, p.id, p.f, e.lngLat, p.name); });
+    map.on("mouseenter", l, () => map.getCanvas().style.cursor = "pointer");
+    map.on("mouseleave", l, () => map.getCanvas().style.cursor = "");
   });
 
   // ----- search (all districts built so far) -----
@@ -210,34 +156,26 @@ function init(index) {
     shards.set(key, d); return d;
   }
   const q = document.getElementById("q"), list = document.getElementById("results");
-  document.getElementById("search-btn").addEventListener("click",()=>{q.focus();runSearch();});
-  document.getElementById("explore").addEventListener("click",()=>{q.value="";list.replaceChildren();list.hidden=true;sheet.hidden=true;if(selectedMarker){selectedMarker.remove();selectedMarker=null;}map.fitBounds([[w,s],[e,n]],{padding:30});});
   let timer;
   q.addEventListener("input", () => { clearTimeout(timer); timer = setTimeout(runSearch, 150); });
   async function runSearch() {
     const qt = q.value.toLowerCase().split(SEP).filter(Boolean);
     const lead = qt.find(t => Array.from(t).length >= 2);
     list.replaceChildren();
-    list.hidden=!lead;
     if (!lead) return;
     const key = Array.from(lead).slice(0, 2).map(c => c.codePointAt(0).toString(16)).join("-");
     const hits = (await shard(key)).filter(x => { const nm = x[0].toLowerCase(); return qt.every(t => nm.includes(t)); }).slice(0, 8);
-    if (!hits.length) { const li = document.createElement("div"); li.className = "none"; li.textContent = "No places found"; list.appendChild(li); return; }
+    if (!hits.length) { const li = document.createElement("li"); li.className = "none"; li.textContent = "No places found"; list.appendChild(li); return; }
     hits.forEach(([name, lon, lat, id, f, d]) => {
-      const b = document.createElement("button");
-      b.type="button";b.className="result";
-      const strong=document.createElement("strong");strong.textContent=name;
-      const small=document.createElement("small");small.textContent=slugOf[d]||"Sri Lanka";
-      b.append(strong,small);
-      b.addEventListener("click",()=>{list.hidden=true;map.flyTo({center:[lon,lat],zoom:17});openPlace(d,id,f,[lon,lat],name);});
-      list.appendChild(b);
+      const li = document.createElement("li"), b = document.createElement("button");
+      b.type = "button"; b.textContent = name;
+      b.addEventListener("click", () => { map.flyTo({ center: [lon, lat], zoom: 17 }); openPlace(d, id, f, [lon, lat], name); });
+      li.appendChild(b); list.appendChild(li);
     });
   }
 
   // ----- layer toggles -----
-  const box = document.getElementById("layer-panel");
-  const layersBtn=document.getElementById("layers-btn");
-  layersBtn.addEventListener("click",()=>{box.hidden=!box.hidden;layersBtn.setAttribute("aria-expanded",String(!box.hidden));});
+  const box = document.getElementById("toggles");
   for (const [name, ids] of Object.entries(G)) {
     if (!ids.length) continue;
     const lab = document.createElement("label"), cb = document.createElement("input");
