@@ -69,8 +69,7 @@ def feature_point(geom):
     if typ=="Point":return co[:2]
     if typ=="LineString" and co:return co[len(co)//2][:2]
     if typ in ("Polygon","MultiPolygon"):
-        poly=co[0] if typ=="Polygon" else (co[0][0] if co else [])
-        ring=poly[0] if typ=="MultiPolygon" and poly else poly
+        ring=co[0] if typ=="Polygon" else (co[0][0] if co and co[0] else [])
         if ring:return [sum(x[0] for x in ring)/len(ring),sum(x[1] for x in ring)/len(ring)]
     return None
 
