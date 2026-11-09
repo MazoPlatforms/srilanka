@@ -9,6 +9,10 @@ on:
     inputs:
       pbf_url:
         default: "https://download.geofabrik.de/asia/sri-lanka-latest.osm.pbf"
+      reexport:
+        description: "Re-create routes/ from OSM (OVERWRITES your edits to routes/)"
+        type: boolean
+        default: false
       deploy_pages:
         type: boolean
         default: true
@@ -24,6 +28,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - uses: actions/checkout@v4
+        with:
+          path: src
       - run: pip install osmium numpy
 
       - name: Cache OSM extract (download once)
@@ -47,95 +54,131 @@ jobs:
       - name: Build graphs
         run: |
           cat > build.py <<'PYEOF'
-          import osmium, numpy as np, struct, math
+          import osmium, numpy as np, os, json, math, glob
           from array import array
-
-          # mode: (speeds km/h by highway, oneway?, vmax km/h)
+          EXPORT = os.environ["EXPORT"] == "1"; ROUTES = os.environ["ROUTES"]
           R = {"motorway":90,"motorway_link":50,"trunk":70,"trunk_link":45,"primary":55,"primary_link":40,
                "secondary":45,"secondary_link":35,"tertiary":40,"tertiary_link":30,"unclassified":30,
                "residential":25,"living_street":10,"service":15,"track":15}
           def sub(d, drop=(), cap=None):
               return {k: (min(v, cap) if cap else v) for k, v in d.items() if k not in drop}
           MODES = {
-            "car":        (sub(R, ("track",)), True),
-            "motorcycle": (sub(R, ("track",), 60), True),
-            "truck":      (sub(R, ("track","service","living_street"), 50), True),
-            "bicycle":    ({**sub(R, ("motorway","motorway_link","trunk","trunk_link"), 20),
-                            "cycleway":18, "path":12, "pedestrian":10, "footway":8}, True),
-            "foot":       ({**sub(R, ("motorway","motorway_link"), 5), "footway":5, "path":4,
-                            "pedestrian":5, "steps":2, "cycleway":5, "track":4}, False),
+            "car": sub(R, ("track",)),
+            "motorcycle": sub(R, ("track",), 60),
+            "truck": sub(R, ("track","service","living_street"), 50),
+            "bicycle": {**sub(R, ("motorway","motorway_link","trunk","trunk_link"), 20), "cycleway":18, "path":12, "pedestrian":10, "footway":8},
+            "foot": {**sub(R, ("motorway","motorway_link"), 5), "footway":5, "path":4, "pedestrian":5, "steps":2, "cycleway":5, "track":4},
           }
-          B = {m: [array("q"), array("q"), array("f")] for m in MODES}
-          XY = {}
-
           def hav(a, b):
               dx = math.radians(b[0]-a[0]) * math.cos(math.radians((a[1]+b[1])/2)); dy = math.radians(b[1]-a[1])
               return 6371000 * math.hypot(dx, dy)
 
+          # ---------- 1) export: one editable JSON file per OSM road/path ----------
           class H(osmium.SimpleHandler):
+              n = 0
               def way(self, w):
                   t = w.tags; hw = t.get("highway")
                   if not hw: return
                   if t.get("access") in ("no", "private") and t.get("foot") not in ("yes","designated"): return
-                  try:
-                      pts = [(n.ref, (n.lon, n.lat)) for n in w.nodes]
-                  except Exception:
-                      return
-                  ow = t.get("oneway"); rb = t.get("junction") in ("roundabout", "circular")
-                  fwd, bwd = True, True
-                  if ow in ("yes", "true", "1") or rb: bwd = False
-                  elif ow == "-1": fwd = False
+                  try: co = [[round(n.lon, 6), round(n.lat, 6)] for n in w.nodes]
+                  except Exception: return
                   ms = None
                   try: ms = float(str(t.get("maxspeed", "")).split()[0])
                   except Exception: pass
-                  for m, (sp, obey) in MODES.items():
-                      v = sp.get(hw)
+                  sp = {}
+                  for m, tab in MODES.items():
+                      v = tab.get(hw)
                       if m == "bicycle" and t.get("bicycle") == "no": v = None
                       if m == "foot" and t.get("foot") == "no": v = None
                       if m in ("car","motorcycle","truck") and t.get("motor_vehicle") == "no": v = None
                       if not v: continue
                       if ms and m in ("car","motorcycle","truck"): v = min(ms, v + 20)
-                      f, b = (fwd, bwd) if obey else (True, True)
-                      U, V, C = B[m]
-                      for (r1, p1), (r2, p2) in zip(pts, pts[1:]):
-                          XY[r1] = p1; XY[r2] = p2
-                          c = hav(p1, p2) / (v / 3.6)
-                          if f: U.append(r1); V.append(r2); C.append(c)
-                          if b: U.append(r2); V.append(r1); C.append(c)
+                      sp[m] = v
+                  if not sp or len(co) < 2: return
+                  ow = t.get("oneway"); rb = t.get("junction") in ("roundabout", "circular")
+                  o = "forward" if (ow in ("yes","true","1") or rb) else ("reverse" if ow == "-1" else False)
+                  d = {"id": w.id, "name": t.get("name", ""), "highway": hw, "oneway": o, "deleted": False,
+                       "speeds_kmh": sp, "coordinates": co}
+                  with open(f"{ROUTES}/{w.id % 1000:03d}/{w.id}.json", "w", encoding="utf-8") as f:
+                      f.write("{\n" + ",\n".join(f'  "{k}": {json.dumps(v, ensure_ascii=False)}' for k, v in d.items()) + "\n}\n")
+                  H.n += 1
 
-          H().apply_file("sl.osm.pbf", locations=True)
-          for m, (sp, _) in MODES.items():
-              U, V, C = (np.frombuffer(a, dtype=d) for a, d in zip(B[m], ("i8","i8","f4")))
+          if EXPORT:
+              for i in range(1000): os.makedirs(f"{ROUTES}/{i:03d}", exist_ok=True)
+              H().apply_file("sl.osm.pbf", locations=True)
+              print("exported", H.n, "routes")
+
+          # ---------- 2) build graphs from the route files (+ custom-routes) ----------
+          K = {}; LON = array("i"); LAT = array("i")
+          B = {m: [array("q"), array("q"), array("f")] for m in MODES}; VM = {m: 1.0 for m in MODES}
+          def node(p):
+              lo, la = round(p[0] * 1e6), round(p[1] * 1e6); k = lo * 33554432 + la
+              i = K.get(k)
+              if i is None: i = K[k] = len(LON); LON.append(lo); LAT.append(la)
+              return i
+          snap = None
+          def near(p):
+              k = math.cos(math.radians(p[1]))
+              d = np.hypot((snap[0] - p[0] * 1e6) * k, snap[1] - p[1] * 1e6) * 0.11132
+              i = int(d.argmin()); return i if d[i] <= 25 else None
+          def load(files, custom):
+              global snap
+              if custom: snap = (np.frombuffer(LON, np.int32).copy(), np.frombuffer(LAT, np.int32).copy())
+              for fn in files:
+                  r = json.load(open(fn, encoding="utf-8"))
+                  if r.get("deleted"): continue
+                  sp = r.get("speeds_kmh") or {m: float(r.get("speed_kmh", 30)) for m in (r.get("modes") or MODES)}
+                  ow = r.get("oneway", False); ow = "forward" if ow is True else ow
+                  co = r["coordinates"]; ids = [node(p) for p in co]
+                  if custom and r.get("snap", True):
+                      for j in (0, -1):
+                          x = near(co[j])
+                          if x is not None: ids[j] = x
+                  for m, v in sp.items():
+                      if m not in MODES or not v or v <= 0: continue
+                      VM[m] = max(VM[m], v)
+                      f, b = True, True
+                      if m != "foot":
+                          if ow == "forward": b = False
+                          elif ow == "reverse": f = False
+                      U, V, C = B[m]
+                      for a, c2 in zip(ids, ids[1:]):
+                          c = hav((LON[a]/1e6, LAT[a]/1e6), (LON[c2]/1e6, LAT[c2]/1e6)) / (v / 3.6)
+                          if f: U.append(a); V.append(c2); C.append(c)
+                          if b: U.append(c2); V.append(a); C.append(c)
+          load(glob.glob(f"{ROUTES}/*/*.json"), False)
+          cf = sorted(glob.glob("src/custom-routes/*.json")); load(cf, True); print("custom files", len(cf))
+          LL = np.stack([np.frombuffer(LON, np.int32), np.frombuffer(LAT, np.int32)], 1)
+          for m in MODES:
+              U, V, C = (np.frombuffer(a, dt) for a, dt in zip(B[m], ("i8","i8","f4")))
               refs, inv = np.unique(np.concatenate([U, V]), return_inverse=True)
               u, v = inv[:len(U)].astype(np.uint32), inv[len(U):].astype(np.uint32)
               o = np.argsort(u, kind="stable"); u, v, c = u[o], v[o], C[o].astype(np.float32)
-              N = len(refs)
-              offs = np.zeros(N + 1, np.uint32); np.cumsum(np.bincount(u, minlength=N), out=offs[1:])
-              ll = np.array([XY[int(r)] for r in refs], dtype=np.float64)
-              ll = np.round(ll * 1e6).astype(np.int32)
-              vmax = max(sp.values()) / 3.6
-              with open(f"site/routing/{m}.bin", "wb") as f:
-                  f.write(struct.pack("<IIIf", 0x52544731, N, len(v), vmax))
-                  for a in (ll.ravel(), offs, v, c): f.write(a.tobytes())
+              N = len(refs); offs = np.zeros(N + 1, np.uint32); np.cumsum(np.bincount(u, minlength=N), out=offs[1:])
+              d = f"site/routing/{m}"; os.makedirs(d, exist_ok=True)
+              for n, arr in (("coords", LL[refs].astype(np.int32).ravel()), ("offsets", offs), ("targets", v), ("costs", c)):
+                  arr.tofile(f"{d}/{n}.bin")
+              json.dump({"mode": m, "nodes": N, "edges": len(v), "vmax_ms": VM[m] / 3.6,
+                         "units": "coords=int32 lon/lat*1e6; costs=float32 seconds"}, open(f"{d}/meta.json", "w"), indent=2)
               print(m, N, len(v))
           PYEOF
+          if [ -d src/routes ] && [ "${{ inputs.reexport }}" != "true" ]; then
+            export EXPORT=0 ROUTES=src/routes
+          else
+            export EXPORT=1 ROUTES=routes_out
+          fi
+          echo "EXPORT=$EXPORT ROUTES=$ROUTES"
           python build.py
           cat > site/routing/router.js <<'JSEOF'
           // Static A* router. Usage:
-          //   const r = await SLRouter.load("routing/car.bin");   // car|motorcycle|truck|bicycle|foot
+          //   const r = await SLRouter.load("routing/car/");   // car|motorcycle|truck|bicycle|foot (folder; meta.json is editable)
           //   const res = r.route([lon1, lat1], [lon2, lat2]);    // {coords:[[lon,lat]..], meters, seconds} | null
           //   map.getSource("route").setData({type:"Feature",geometry:{type:"LineString",coordinates:res.coords}});
           const SLRouter = (() => {
             const hav = (a, b, c, d) => { const x = (c - a) * Math.PI / 180 * Math.cos((b + d) * Math.PI / 360), y = (d - b) * Math.PI / 180; return 6371000 * Math.hypot(x, y); };
             class R {
-              constructor(buf) {
-                const h = new DataView(buf); if (h.getUint32(0, true) !== 0x52544731) throw new Error("bad graph");
-                this.N = h.getUint32(4, true); this.E = h.getUint32(8, true); this.vmax = h.getFloat32(12, true);
-                let o = 16; const N = this.N, E = this.E;
-                this.ll = new Int32Array(buf, o, 2 * N); o += 8 * N;
-                this.offs = new Uint32Array(buf, o, N + 1); o += 4 * (N + 1);
-                this.dst = new Uint32Array(buf, o, E); o += 4 * E;
-                this.cost = new Float32Array(buf, o, E);
+              constructor(meta, ll, offs, dst, cost) {
+                Object.assign(this, { N: meta.nodes, E: meta.edges, vmax: meta.vmax_ms, ll, offs, dst, cost });
               }
               snap(lon, lat) {
                 let best = -1, bd = 1e18; const ll = this.ll, k = Math.cos(lat * Math.PI / 180);
@@ -172,7 +215,10 @@ jobs:
                 return { coords, meters: m, seconds: g.get(t) };
               }
             }
-            return { load: async url => new R(await (await fetch(url)).arrayBuffer()) };
+            const buf = async u => (await fetch(u)).arrayBuffer();
+            return { load: async dir => { const meta = await (await fetch(dir + "meta.json")).json();
+              const [c, o, t, w] = await Promise.all(["coords", "offsets", "targets", "costs"].map(n => buf(dir + n + ".bin")));
+              return new R(meta, new Int32Array(c), new Uint32Array(o), new Uint32Array(t), new Float32Array(w)); } };
           })();
           JSEOF
           # strip heredoc indentation
@@ -200,6 +246,7 @@ jobs:
           git clone --depth 1 --branch "$MAIN_BRANCH" "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" mainrepo
           mkdir -p mainrepo/public && rm -rf mainrepo/public/routing
           cp -r site/routing mainrepo/public/routing
+          if [ -d routes_out ]; then rm -rf mainrepo/routes && cp -r routes_out mainrepo/routes; fi
           cd mainrepo
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
