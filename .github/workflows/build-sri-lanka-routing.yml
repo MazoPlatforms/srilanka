@@ -1,21 +1,23 @@
-name: Build Sri Lanka routing graphs (one-time)
+name: Build Sri Lanka routing data
 
-# Maintains editable nationwide OSM road records in /public/roads/AAA/BBB/<id>.json
-# Compiled navigation graphs remain in main/public/routing.
-# Directory names are deterministic ID buckets (001..999), not districts.
-# Client: routing/router.js (A* in the browser, no server).
+# One-time run. Downloads Overture road segments, builds a routing graph as JSON
+# cells in public/data/routing/<001>/<001>/<cell>.json (max 999 files per folder,
+# extra nesting levels are added automatically so there is no overall limit),
+# adds a Directions panel to public/index.html and commits everything to main.
 on:
   workflow_dispatch:
     inputs:
-      pbf_url:
-        default: "https://download.geofabrik.de/asia/sri-lanka-latest.osm.pbf"
-      reexport:
-        description: "Re-create public/roads/ from OSM (OVERWRITES manually edited road JSON)"
-        type: boolean
-        default: false
       deploy_pages:
+        description: "Deploy GitHub Pages afterwards"
         type: boolean
         default: true
+      overturemaps_version:
+        description: "Pin overturemaps pip version (blank = latest)"
+        default: ""
+
+concurrency:
+  group: sri-lanka-routing
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -23,268 +25,429 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 300
     steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - uses: actions/checkout@v4
-        with:
-          path: src
-      - run: pip install osmium numpy
 
-      - name: Cache OSM extract (download once)
-        id: pbf
-        uses: actions/cache@v4
-        with:
-          path: sl.osm.pbf
-          key: sl-osm-pbf-${{ inputs.pbf_url }}
-      - name: Download
-        if: steps.pbf.outputs.cache-hit != 'true'
-        run: curl -fL --retry 3 -o sl.osm.pbf "${{ inputs.pbf_url }}"
-
-      - name: Prepare working site from main/public
+      - name: Install overturemaps CLI
+        env:
+          PIN: ${{ inputs.overturemaps_version }}
         run: |
-          mkdir -p site/routing
-          cp -a src/public/. site/
+          if [ -n "$PIN" ]; then pip install "overturemaps==$PIN"; else pip install -U overturemaps; fi
 
-      - name: Build graphs
+      - name: Write scripts
         run: |
-          cat > build.py <<'PYEOF'
-          import osmium, numpy as np, os, json, math, glob
-          from array import array
-          EXPORT = os.environ["EXPORT"] == "1"; ROUTES = os.environ["ROUTES"]
-          R = {"motorway":90,"motorway_link":50,"trunk":70,"trunk_link":45,"primary":55,"primary_link":40,
-               "secondary":45,"secondary_link":35,"tertiary":40,"tertiary_link":30,"unclassified":30,
-               "residential":25,"living_street":10,"service":15,"track":15}
-          def sub(d, drop=(), cap=None):
-              return {k: (min(v, cap) if cap else v) for k, v in d.items() if k not in drop}
-          MODES = {
-            "car": sub(R, ("track",)),
-            "motorcycle": sub(R, ("track",), 60),
-            "truck": sub(R, ("track","service","living_street"), 50),
-            "bicycle": {**sub(R, ("motorway","motorway_link","trunk","trunk_link"), 20), "cycleway":18, "path":12, "pedestrian":10, "footway":8},
-            "foot": {**sub(R, ("motorway","motorway_link"), 5), "footway":5, "path":4, "pedestrian":5, "steps":2, "cycleway":5, "track":4},
-          }
+          mkdir -p build
+          cat > build/route_builder.py <<'PYEOF'
+          import bisect, json, math, os, shutil, subprocess, sys, time
+
+          W0, S0, E0, N0 = 79.4, 5.8, 82.0, 9.95
+          CELL, PER = 0.05, 999
+          NX, NY = int((E0 - W0) / CELL) + 2, int((N0 - S0) / CELL) + 2
+          OUT = "public/data/routing"
+          CLASSES = ["motorway", "trunk", "primary", "secondary", "tertiary", "residential",
+                     "living_street", "unclassified", "service", "pedestrian", "footway", "steps",
+                     "path", "cycleway", "bridleway", "track", "ferry", "unknown"]
+          CI = {c: i for i, c in enumerate(CLASSES)}
+          # mode bits: 1 car, 2 motorcycle, 4 truck, 8 bus, 16 bicycle, 32 foot, 64 wheelchair
+          BASE = {"motorway": 15, "pedestrian": 112, "footway": 96, "steps": 32, "path": 48,
+                  "cycleway": 48, "bridleway": 48, "track": 51}
+          MB = {"vehicle": 31, "motor_vehicle": 15, "car": 1, "motorcar": 1, "motorcycle": 2,
+                "truck": 4, "hgv": 4, "bus": 8, "bicycle": 16, "foot": 96}
+
           def hav(a, b):
-              dx = math.radians(b[0]-a[0]) * math.cos(math.radians((a[1]+b[1])/2)); dy = math.radians(b[1]-a[1])
-              return 6371000 * math.hypot(dx, dy)
+              p1, p2 = math.radians(a[1]), math.radians(b[1])
+              h = math.sin((p2 - p1) / 2) ** 2 + math.cos(p1) * math.cos(p2) * math.sin(math.radians(b[0] - a[0]) / 2) ** 2
+              return 12742017.6 * math.asin(math.sqrt(h))
 
-          # ---------- 1) export: one editable JSON file per OSM road/path ----------
-          class H(osmium.SimpleHandler):
-              n = 0
-              def way(self, w):
-                  t = w.tags; hw = t.get("highway")
-                  if not hw: return
-                  if t.get("access") in ("no", "private") and t.get("foot") not in ("yes","designated"): return
-                  try: co = [[round(n.lon, 6), round(n.lat, 6)] for n in w.nodes]
-                  except Exception: return
-                  ms = None
-                  try: ms = float(str(t.get("maxspeed", "")).split()[0])
-                  except Exception: pass
-                  sp = {}
-                  for m, tab in MODES.items():
-                      v = tab.get(hw)
-                      if m == "bicycle" and t.get("bicycle") == "no": v = None
-                      if m == "foot" and t.get("foot") == "no": v = None
-                      if m in ("car","motorcycle","truck") and t.get("motor_vehicle") == "no": v = None
-                      if not v: continue
-                      if ms and m in ("car","motorcycle","truck"): v = min(ms, v + 20)
-                      sp[m] = v
-                  if not sp or len(co) < 2: return
-                  ow = t.get("oneway"); rb = t.get("junction") in ("roundabout", "circular")
-                  o = "forward" if (ow in ("yes","true","1") or rb) else ("reverse" if ow == "-1" else False)
-                  d = {"id": w.id, "name": t.get("name", ""), "highway": hw, "oneway": o, "deleted": False,
-                       "speeds_kmh": sp, "coordinates": co}
-                  # Two deterministic 001..999 directories; no district-based splitting.
-                  # Existing IDs always resolve to the same path on a later import.
-                  first = (w.id // 999) % 999 + 1
-                  second = w.id % 999 + 1
-                  dest = f"{ROUTES}/{first:03d}/{second:03d}"
-                  os.makedirs(dest, exist_ok=True)
-                  with open(f"{dest}/{w.id}.json", "w", encoding="utf-8") as f:
-                      f.write("{\n" + ",\n".join(f'  "{k}": {json.dumps(v, ensure_ascii=False)}' for k, v in d.items()) + "\n}\n")
-                  H.n += 1
+          def at_d(line, cum, d):
+              if d <= 0:
+                  return list(line[0][:2])
+              if d >= cum[-1]:
+                  return list(line[-1][:2])
+              i = bisect.bisect_right(cum, d)
+              seg = cum[i] - cum[i - 1]
+              t = (d - cum[i - 1]) / seg if seg else 0
+              a, b = line[i - 1], line[i]
+              return [a[0] + (b[0] - a[0]) * t, a[1] + (b[1] - a[1]) * t]
 
-          if EXPORT:
-              os.makedirs(ROUTES, exist_ok=True)
-              H().apply_file("sl.osm.pbf", locations=True)
-              print("exported", H.n, "routes")
+          def cell_of(c):
+              x = min(NX - 1, max(0, int(math.floor((c[0] - W0) / CELL))))
+              y = min(NY - 1, max(0, int(math.floor((c[1] - S0) / CELL))))
+              return y * NX + x
 
-          # ---------- 2) build graphs from the route files (+ custom-routes) ----------
-          K = {}; LON = array("i"); LAT = array("i")
-          B = {m: [array("q"), array("q"), array("f")] for m in MODES}; VM = {m: 1.0 for m in MODES}
-          def node(p):
-              lo, la = round(p[0] * 1e6), round(p[1] * 1e6); k = lo * 33554432 + la
-              i = K.get(k)
-              if i is None: i = K[k] = len(LON); LON.append(lo); LAT.append(la)
+          def cell_path(n, depth):
+              leaf, segs = n // PER, []
+              for _ in range(depth):
+                  segs.append("%03d" % (leaf % PER + 1))
+                  leaf //= PER
+              return "/".join(reversed(segs))
+
+          def stream():
+              cmd = ["overturemaps", "download", "--bbox=%s,%s,%s,%s" % (W0, S0, E0, N0),
+                     "-f", "geojsonseq", "--type=segment"]
+              p = subprocess.Popen(cmd, stdout=subprocess.PIPE, text=True, encoding="utf-8", bufsize=1 << 20)
+              for line in p.stdout:
+                  line = line.strip().lstrip("\x1e")
+                  if line:
+                      yield json.loads(line)
+              if p.wait() != 0:
+                  sys.exit("overturemaps download failed")
+
+          def jl(v):
+              if isinstance(v, str):
+                  try:
+                      return json.loads(v)
+                  except ValueError:
+                      return None
+              return v
+
+          nid, coords, cells = {}, [], {}
+
+          def node(key, pt):
+              i = nid.get(key)
+              if i is None:
+                  i = nid[key] = len(coords)
+                  coords.append([round(pt[0], 6), round(pt[1], 6)])
               return i
-          snap = None
-          def near(p):
-              k = math.cos(math.radians(p[1]))
-              d = np.hypot((snap[0] - p[0] * 1e6) * k, snap[1] - p[1] * 1e6) * 0.11132
-              i = int(d.argmin()); return i if d[i] <= 25 else None
-          def load(files, custom):
-              global snap
-              if custom: snap = (np.frombuffer(LON, np.int32).copy(), np.frombuffer(LAT, np.int32).copy())
-              for fn in files:
-                  r = json.load(open(fn, encoding="utf-8"))
-                  if r.get("deleted"): continue
-                  sp = r.get("speeds_kmh") or {m: float(r.get("speed_kmh", 30)) for m in (r.get("modes") or MODES)}
-                  ow = r.get("oneway", False); ow = "forward" if ow is True else ow
-                  co = r["coordinates"]; ids = [node(p) for p in co]
-                  if custom and r.get("snap", True):
-                      for j in (0, -1):
-                          x = near(co[j])
-                          if x is not None: ids[j] = x
-                  for m, v in sp.items():
-                      if m not in MODES or not v or v <= 0: continue
-                      VM[m] = max(VM[m], v)
-                      f, b = True, True
-                      if m != "foot":
-                          if ow == "forward": b = False
-                          elif ow == "reverse": f = False
-                      U, V, C = B[m]
-                      for a, c2 in zip(ids, ids[1:]):
-                          c = hav((LON[a]/1e6, LAT[a]/1e6), (LON[c2]/1e6, LAT[c2]/1e6)) / (v / 3.6)
-                          if f: U.append(a); V.append(c2); C.append(c)
-                          if b: U.append(c2); V.append(a); C.append(c)
-          load(glob.iglob(f"{ROUTES}/[0-9][0-9][0-9]/[0-9][0-9][0-9]/*.json"), False)
-          cf = sorted(glob.glob("src/custom-routes/*.json")); load(cf, True); print("custom files", len(cf))
-          LL = np.stack([np.frombuffer(LON, np.int32), np.frombuffer(LAT, np.int32)], 1)
-          for m in MODES:
-              U, V, C = (np.frombuffer(a, dt) for a, dt in zip(B[m], ("i8","i8","f4")))
-              refs, inv = np.unique(np.concatenate([U, V]), return_inverse=True)
-              u, v = inv[:len(U)].astype(np.uint32), inv[len(U):].astype(np.uint32)
-              o = np.argsort(u, kind="stable"); u, v, c = u[o], v[o], C[o].astype(np.float32)
-              N = len(refs); offs = np.zeros(N + 1, np.uint32); np.cumsum(np.bincount(u, minlength=N), out=offs[1:])
-              d = f"site/routing/{m}"; os.makedirs(d, exist_ok=True)
-              for n, arr in (("coords", LL[refs].astype(np.int32).ravel()), ("offsets", offs), ("targets", v), ("costs", c)):
-                  arr.tofile(f"{d}/{n}.bin")
-              json.dump({"mode": m, "nodes": N, "edges": len(v), "vmax_ms": VM[m] / 3.6,
-                         "units": "coords=int32 lon/lat*1e6; costs=float32 seconds"}, open(f"{d}/meta.json", "w"), indent=2)
-              print(m, N, len(v))
+
+          def access(p, mask):
+              fw = bw = mask
+              for r in jl(p.get("access_restrictions")) or []:
+                  if not isinstance(r, dict) or r.get("access_type") != "denied":
+                      continue
+                  w = r.get("when") or {}
+                  if w.get("during") or w.get("using") or w.get("recognized") or w.get("vehicle"):
+                      continue
+                  modes = w.get("mode")
+                  m = 127
+                  if modes:
+                      m = 0
+                      for x in modes:
+                          m |= MB.get(x, 0)
+                  if not m:
+                      continue
+                  h = w.get("heading")
+                  if h != "backward":
+                      fw &= ~m
+                  if h != "forward":
+                      bw &= ~m
+              return fw, bw
+
+          def speed_limit(p):
+              for s in jl(p.get("speed_limits")) or []:
+                  if not isinstance(s, dict) or s.get("when"):
+                      continue
+                  mx = s.get("max_speed") or {}
+                  v = mx.get("value")
+                  if isinstance(v, (int, float)) and v > 0:
+                      return int(round(v * 1.609 if mx.get("unit") == "mph" else v))
+              return 0
+
+          def main():
+              t0, nseg = time.time(), 0
+              shutil.rmtree(OUT, ignore_errors=True)
+              os.makedirs(OUT)
+              for f in stream():
+                  g, p = f.get("geometry") or {}, f.get("properties") or {}
+                  if g.get("type") != "LineString" or p.get("subtype") == "rail":
+                      continue
+                  cls = "ferry" if p.get("subtype") == "water" else (p.get("class") or "unknown")
+                  if cls not in CI:
+                      cls = "unknown"
+                  conns = jl(p.get("connectors"))
+                  if not isinstance(conns, list):
+                      continue
+                  cs = sorted((c.get("at") or 0, c["connector_id"]) for c in conns
+                              if isinstance(c, dict) and c.get("connector_id"))
+                  if len(cs) < 2:
+                      continue
+                  line = g["coordinates"]
+                  cum = [0.0]
+                  for i in range(1, len(line)):
+                      cum.append(cum[-1] + hav(line[i - 1], line[i]))
+                  total = cum[-1]
+                  if total <= 0:
+                      continue
+                  fw, bw = access(p, BASE.get(cls, 127))
+                  if not (fw or bw):
+                      continue
+                  spd = speed_limit(p)
+                  nseg += 1
+                  for k in range(len(cs) - 1):
+                      (t0_, i0), (t1_, i1) = cs[k], cs[k + 1]
+                      if i0 == i1 or t1_ <= t0_:
+                          continue
+                      d0, d1 = t0_ * total, t1_ * total
+                      pa, pb = at_d(line, cum, d0), at_d(line, cum, d1)
+                      a, b = node(i0, pa), node(i1, pb)
+                      if a == b:
+                          continue
+                      geom = []
+                      for j in range(len(line)):
+                          if d0 < cum[j] < d1:
+                              geom += [round(line[j][0], 5), round(line[j][1], 5)]
+                      e = [a, b, max(1, int(round(d1 - d0))), CI[cls], spd, fw, bw, geom or 0]
+                      ca, cb = cell_of(coords[a]), cell_of(coords[b])
+                      cells.setdefault(ca, []).append(e)
+                      if cb != ca:
+                          cells.setdefault(cb, []).append(e)
+              if not cells:
+                  sys.exit("No road segments downloaded")
+              depth = 2
+              while max(cells) // PER >= PER ** depth:
+                  depth += 1
+              edges = 0
+              for n, es in cells.items():
+                  ns = {}
+                  for e in es:
+                      ns[e[0]] = coords[e[0]]
+                      ns[e[1]] = coords[e[1]]
+                  d = os.path.join(OUT, cell_path(n, depth))
+                  os.makedirs(d, exist_ok=True)
+                  with open(os.path.join(d, "%d.json" % n), "w") as fo:
+                      json.dump({"n": ns, "e": es}, fo, separators=(",", ":"))
+                  edges += len(es)
+              with open(OUT + "/manifest.json", "w") as fo:
+                  json.dump({"schema": 1, "w": W0, "s": S0, "cell": CELL, "nx": NX, "ny": NY,
+                             "per": PER, "depth": depth, "classes": CLASSES,
+                             "modes": {"car": 1, "motorcycle": 2, "truck": 4, "bus": 8,
+                                       "bike": 16, "walk": 32, "wheelchair": 64},
+                             "segments": nseg, "nodes": len(coords), "edges": edges, "cells": len(cells),
+                             "built": time.strftime("%Y-%m-%d", time.gmtime())}, fo)
+              print("segments %d nodes %d edges %d cells %d depth %d in %ds" %
+                    (nseg, len(coords), edges, len(cells), depth, time.time() - t0))
+
+          main()
           PYEOF
-          if [ -d src/public/roads ] && find src/public/roads -name "*.json" -print -quit | grep -q . && [ "${{ inputs.reexport }}" != "true" ]; then
-            export EXPORT=0 ROUTES=src/public/roads
-          else
-            export EXPORT=1 ROUTES=roads_out
-          fi
-          echo "EXPORT=$EXPORT ROUTES=$ROUTES"
-          python build.py
-          if [ "$EXPORT" = "1" ]; then
-            rm -rf site/roads
-            mkdir -p site/roads
-            cp -a roads_out/. site/roads/
-          elif [ ! -d site/roads ]; then
-            mkdir -p site/roads
-            cp -a src/public/roads/. site/roads/
-          fi
-          cat > site/routing/router.js <<'JSEOF'
-          // Static A* router. Usage:
-          //   const r = await SLRouter.load("routing/car/");   // car|motorcycle|truck|bicycle|foot (folder; meta.json is editable)
-          //   const res = r.route([lon1, lat1], [lon2, lat2]);    // {coords:[[lon,lat]..], meters, seconds} | null
-          //   map.getSource("route").setData({type:"Feature",geometry:{type:"LineString",coordinates:res.coords}});
-          const SLRouter = (() => {
-            const hav = (a, b, c, d) => { const x = (c - a) * Math.PI / 180 * Math.cos((b + d) * Math.PI / 360), y = (d - b) * Math.PI / 180; return 6371000 * Math.hypot(x, y); };
-            class R {
-              constructor(meta, ll, offs, dst, cost) {
-                Object.assign(this, { N: meta.nodes, E: meta.edges, vmax: meta.vmax_ms, ll, offs, dst, cost });
-              }
-              snap(lon, lat) {
-                let best = -1, bd = 1e18; const ll = this.ll, k = Math.cos(lat * Math.PI / 180);
-                for (let i = 0; i < this.N; i++) {
-                  const dx = (ll[2 * i] / 1e6 - lon) * k, dy = ll[2 * i + 1] / 1e6 - lat, d = dx * dx + dy * dy;
-                  if (d < bd) { bd = d; best = i; }
-                }
-                return best;
-              }
-              route(a, b) {
-                const s = this.snap(a[0], a[1]), t = this.snap(b[0], b[1]); if (s < 0 || t < 0) return null;
-                const ll = this.ll, tx = ll[2 * t] / 1e6, ty = ll[2 * t + 1] / 1e6, vm = this.vmax;
-                const g = new Map([[s, 0]]), prev = new Map(), done = new Set();
-                const hp = [[0, s]]; // binary min-heap of [f, node]
-                const push = x => { hp.push(x); let i = hp.length - 1; while (i > 0) { const p = (i - 1) >> 1; if (hp[p][0] <= hp[i][0]) break; [hp[p], hp[i]] = [hp[i], hp[p]]; i = p; } };
-                const pop = () => { const top = hp[0], last = hp.pop(); if (hp.length) { hp[0] = last; let i = 0; for (;;) { let l = 2 * i + 1, r = l + 1, m = i; if (l < hp.length && hp[l][0] < hp[m][0]) m = l; if (r < hp.length && hp[r][0] < hp[m][0]) m = r; if (m === i) break; [hp[m], hp[i]] = [hp[i], hp[m]]; i = m; } } return top; };
-                while (hp.length) {
-                  const [, u] = pop(); if (done.has(u)) continue; done.add(u);
-                  if (u === t) break;
-                  const gu = g.get(u);
-                  for (let e = this.offs[u]; e < this.offs[u + 1]; e++) {
-                    const v = this.dst[e], gv = gu + this.cost[e];
-                    if (gv < (g.get(v) ?? Infinity)) {
-                      g.set(v, gv); prev.set(v, u);
-                      push([gv + hav(ll[2 * v] / 1e6, ll[2 * v + 1] / 1e6, tx, ty) / vm, v]);
-                    }
+
+          cat > build/routing.js <<'JSEOF'
+          (function () {
+            const R = "data/routing/";
+            const MODES = { car: { b: 1, max: 33 }, motorcycle: { b: 2, max: 30 }, truck: { b: 4, max: 25 },
+              bus: { b: 8, max: 25 }, bike: { b: 16, max: 8 }, walk: { b: 32, max: 1.6 }, wheelchair: { b: 64, max: 1.2 } };
+            const CS = { motorway: 27, trunk: 20, primary: 16, secondary: 13, tertiary: 11, residential: 8,
+              living_street: 5, unclassified: 9, service: 5, track: 4, unknown: 8 };
+            let M, map, mode = "car", pick = null, pts = { s: null, t: null }, marks = {};
+            const cache = new Map(), nodes = new Map(), adj = new Map(), cellNodes = new Map(), loaded = new Set();
+
+            const cellOf = (lon, lat) => {
+              const x = Math.min(M.nx - 1, Math.max(0, Math.floor((lon - M.w) / M.cell)));
+              const y = Math.min(M.ny - 1, Math.max(0, Math.floor((lat - M.s) / M.cell)));
+              return y * M.nx + x;
+            };
+            const path = n => {
+              let l = Math.floor(n / M.per), s = [];
+              for (let i = 0; i < M.depth; i++) { s.push(String(l % M.per + 1).padStart(3, "0")); l = Math.floor(l / M.per); }
+              return R + s.reverse().join("/") + "/" + n + ".json";
+            };
+            const dist = (a, b) => { const k = Math.cos((a[1] + b[1]) * Math.PI / 360);
+              return 111320 * Math.hypot((a[0] - b[0]) * k, a[1] - b[1]); };
+
+            function load(n) {
+              if (!cache.has(n)) cache.set(n, fetch(path(n)).then(r => r.ok ? r.json() : { n: {}, e: [] })
+                .catch(() => ({ n: {}, e: [] })).then(d => {
+                  for (const k in d.n) nodes.set(+k, d.n[k]);
+                  const ids = [];
+                  for (const e of d.e) for (const dir of [0, 1]) {
+                    const id = e[dir], c = nodes.get(id);
+                    if (cellOf(c[0], c[1]) !== n) continue;
+                    let a = adj.get(id);
+                    if (!a) { adj.set(id, a = []); ids.push(id); }
+                    a.push([e, dir]);
                   }
-                }
-                if (!done.has(t)) return null;
-                const coords = []; let m = 0;
-                for (let n = t; n !== undefined; n = prev.get(n)) coords.push([ll[2 * n] / 1e6, ll[2 * n + 1] / 1e6]);
-                coords.reverse();
-                for (let i = 1; i < coords.length; i++) m += hav(...coords[i - 1], ...coords[i]);
-                return { coords, meters: m, seconds: g.get(t) };
-              }
+                  cellNodes.set(n, ids); loaded.add(n);
+                }));
+              return cache.get(n);
             }
-            const buf = async u => (await fetch(u)).arrayBuffer();
-            return { load: async dir => { const meta = await (await fetch(dir + "meta.json")).json();
-              const [c, o, t, w] = await Promise.all(["coords", "offsets", "targets", "costs"].map(n => buf(dir + n + ".bin")));
-              return new R(meta, new Int32Array(c), new Uint32Array(o), new Uint32Array(t), new Float32Array(w)); } };
+            async function snap(m, lng, lat) {
+              const c = cellOf(lng, lat), cx = c % M.nx, cy = Math.floor(c / M.nx), cs = [];
+              for (let dy = -1; dy <= 1; dy++) for (let dx = -1; dx <= 1; dx++) {
+                const x = cx + dx, y = cy + dy;
+                if (x >= 0 && y >= 0 && x < M.nx && y < M.ny) cs.push(y * M.nx + x);
+              }
+              await Promise.all(cs.map(load));
+              const b = MODES[m].b, k = Math.cos(lat * Math.PI / 180);
+              let best = null, bd = 1e18;
+              for (const cc of cs) for (const id of cellNodes.get(cc) || []) {
+                if (!adj.get(id).some(([e, d]) => e[5 + d] & b)) continue;
+                const p = nodes.get(id), d2 = ((p[0] - lng) * k) ** 2 + (p[1] - lat) ** 2;
+                if (d2 < bd) { bd = d2; best = id; }
+              }
+              return best;
+            }
+            function speed(m, e) {
+              const c = M.classes[e[3]];
+              if (c === "ferry") return Math.min(5, MODES[m].max);
+              if (m === "walk") return c === "steps" ? 0.8 : 1.4;
+              if (m === "wheelchair") return 1.1;
+              if (m === "bike") return c === "path" || c === "track" ? 3 : 4.2;
+              const v = e[4] > 0 ? e[4] / 3.6 * 0.85 : (CS[c] || 8);
+              return Math.max(1, Math.min(v * (m === "car" || m === "motorcycle" ? 1 : 0.85), MODES[m].max));
+            }
+            class Heap {
+              constructor() { this.a = []; }
+              get n() { return this.a.length; }
+              push(k, v) { const a = this.a; a.push([k, v]); let i = a.length - 1;
+                while (i > 0) { const p = (i - 1) >> 1; if (a[p][0] <= a[i][0]) break; [a[p], a[i]] = [a[i], a[p]]; i = p; } }
+              pop() { const a = this.a, top = a[0], last = a.pop();
+                if (a.length) { a[0] = last; let i = 0;
+                  for (;;) { let l = 2 * i + 1, r = l + 1, s = i;
+                    if (l < a.length && a[l][0] < a[s][0]) s = l;
+                    if (r < a.length && a[r][0] < a[s][0]) s = r;
+                    if (s === i) break; [a[s], a[i]] = [a[i], a[s]]; i = s; } }
+                return top; }
+            }
+            async function route(m, s, t) {
+              const b = MODES[m].b, mx = MODES[m].max, T = nodes.get(t);
+              const h = id => dist(nodes.get(id), T) / mx;
+              const g = new Map([[s, 0]]), prev = new Map(), done = new Set(), H = new Heap();
+              H.push(h(s), s);
+              let it = 0;
+              while (H.n) {
+                const u = H.pop()[1];
+                if (done.has(u)) continue;
+                if (u === t) break;
+                done.add(u);
+                const p = nodes.get(u), c = cellOf(p[0], p[1]);
+                if (!loaded.has(c)) await load(c);
+                for (const [e, d] of adj.get(u) || []) {
+                  if (!(e[5 + d] & b)) continue;
+                  const v = e[1 - d], nd = g.get(u) + e[2] / speed(m, e);
+                  if (nd < (g.get(v) ?? 1e18)) { g.set(v, nd); prev.set(v, [u, e, d]); H.push(nd + h(v), v); }
+                }
+                if (++it > 4e6) break;
+              }
+              if (!prev.has(t) && s !== t) return null;
+              const steps = []; let v = t, len = 0;
+              while (v !== s) {
+                const [u, e, d] = prev.get(v), mid = [];
+                for (let i = 0; e[7] && i < e[7].length; i += 2) mid.push([e[7][i], e[7][i + 1]]);
+                if (d) mid.reverse();
+                steps.push([nodes.get(u), ...mid]); len += e[2]; v = u;
+              }
+              return { line: steps.reverse().flat().concat([nodes.get(t)]), len, time: g.get(t) || 0 };
+            }
+
+            const $ = id => document.getElementById(id);
+            const fmt = s => s >= 3600 ? Math.floor(s / 3600) + " h " + Math.round(s % 3600 / 60) + " min" : Math.max(1, Math.round(s / 60)) + " min";
+            function setPoint(k, ll) {
+              pts[k] = [ll.lng, ll.lat];
+              if (marks[k]) marks[k].remove();
+              marks[k] = new maplibregl.Marker({ color: k === "s" ? "#2e9e5b" : "#e5484d" }).setLngLat(pts[k]).addTo(map);
+            }
+            async function go() {
+              if (!pts.s || !pts.t) return;
+              $("rinfo").textContent = "Finding route…";
+              try {
+                const s = await snap(mode, ...pts.s), t = await snap(mode, ...pts.t);
+                if (s == null || t == null) { $("rinfo").textContent = "No " + mode + " road near a point."; return draw([]); }
+                const r = await route(mode, s, t);
+                if (!r) { $("rinfo").textContent = "No route found for this mode."; return draw([]); }
+                draw(r.line);
+                $("rinfo").textContent = (r.len / 1000).toFixed(1) + " km · " + fmt(r.time);
+                const b = new maplibregl.LngLatBounds();
+                r.line.forEach(p => b.extend(p));
+                map.fitBounds(b, { padding: 60, maxZoom: 16 });
+              } catch (err) { console.error(err); $("rinfo").textContent = "Routing failed."; }
+            }
+            function draw(line) {
+              map.getSource("route").setData({ type: "Feature", geometry: { type: "LineString", coordinates: line }, properties: {} });
+            }
+            function ui() {
+              const box = document.createElement("div");
+              box.className = "panel";
+              box.style.cssText = "top:auto;bottom:64px;left:10px";
+              box.innerHTML = '<details><summary>Directions</summary>' +
+                '<select id="rmode" style="width:100%;margin:6px 0;padding:6px;font:inherit;color:inherit;background:transparent;border:1px solid var(--line);border-radius:6px">' +
+                '<option value="car">Car</option><option value="motorcycle">Motorcycle</option><option value="bike">Bicycle</option>' +
+                '<option value="walk">Walking</option><option value="truck">Truck</option><option value="bus">Bus</option>' +
+                '<option value="wheelchair">Wheelchair</option></select>' +
+                '<div style="display:flex;gap:6px"><button id="rs" type="button">Start</button><button id="rt" type="button">End</button>' +
+                '<button id="rc" type="button">Clear</button></div></details><small id="rinfo">Tap Start, then tap the map.</small>';
+              document.body.appendChild(box);
+              $("rmode").onchange = e => { mode = e.target.value; go(); };
+              $("rs").onclick = () => { pick = "s"; $("rinfo").textContent = "Tap the start point on the map."; };
+              $("rt").onclick = () => { pick = "t"; $("rinfo").textContent = "Tap the end point on the map."; };
+              $("rc").onclick = () => { pts = { s: null, t: null }; for (const k in marks) marks[k].remove(); marks = {}; draw([]); $("rinfo").textContent = "Tap Start, then tap the map."; };
+              map.on("click", e => {
+                if (!pick) return;
+                setPoint(pick, e.lngLat);
+                const next = pick === "s" && !pts.t ? "t" : null;
+                pick = next;
+                if (next) $("rinfo").textContent = "Now tap the end point."; else go();
+              });
+            }
+            function start() {
+              map = window.__map;
+              const init = () => {
+                map.addSource("route", { type: "geojson", data: { type: "FeatureCollection", features: [] } });
+                map.addLayer({ id: "route-line", type: "line", source: "route",
+                  layout: { "line-cap": "round", "line-join": "round" }, paint: { "line-color": "#e5484d", "line-width": 5, "line-opacity": 0.9 } });
+                ui();
+              };
+              map.loaded() || map.isStyleLoaded() ? init() : map.once("load", init);
+            }
+            fetch(R + "manifest.json").then(r => r.json()).then(m => {
+              M = m;
+              const t = setInterval(() => { if (window.__map) { clearInterval(t); start(); } }, 200);
+            }).catch(() => {});
           })();
           JSEOF
-          # strip heredoc indentation
-          sed -i 's/^          //' site/routing/router.js
-          du -sh site/routing/*
+
+          cat > build/patch_index.py <<'PYEOF'
+          import sys
+          p = "public/index.html"
+          h = open(p, encoding="utf-8").read()
+          hook = 'map.addControl(new maplibregl.ScaleControl(), "bottom-left");'
+          if "window.__map" not in h:
+              if hook not in h:
+                  sys.exit("index.html hook not found")
+              h = h.replace(hook, hook + " window.__map = map;")
+          if 'src="routing.js"' not in h:
+              h = h.replace("</body>", '<script src="routing.js"></script>\n</body>')
+          open(p, "w", encoding="utf-8").write(h)
+          PYEOF
+
+      - name: Build routing graph
+        run: python build/route_builder.py
+
+      - name: Add routing to the website
+        run: |
+          test -f public/index.html || { echo "::error::public/index.html missing on main"; exit 1; }
+          cp build/routing.js public/routing.js
+          python build/patch_index.py
 
       - name: Check limits
         run: |
-          find site/routing site/roads -type f -size +95M -print | grep . && { echo "::error::file >95 MB"; exit 1; } || true
+          echo "Routing: $(du -sm public/data/routing | cut -f1) MB, $(find public/data/routing -type f | wc -l) files"
+          echo "Site: $(du -sm public | cut -f1) MB"
+          if find public -type f -size +99M | grep -q .; then echo "::error::File over 100 MB"; exit 1; fi
+          [ "$(du -sm public | cut -f1)" -le 950 ] || echo "::warning::Site nearing the 1 GB Pages limit"
 
-      - name: Publish routing assets to main/public only
-        env:
-          GH_TOKEN: ${{ github.token }}
-          MAIN_BRANCH: ${{ github.event.repository.default_branch }}
+      - name: Commit to main
         run: |
-          git clone --depth 1 --branch "$MAIN_BRANCH" "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" mainrepo
-          mkdir -p mainrepo/public && rm -rf mainrepo/public/routing
-          cp -r site/routing mainrepo/public/routing
-          if [ -d roads_out ]; then
-            rm -rf mainrepo/public/roads
-            mkdir -p mainrepo/public/roads
-            cp -a roads_out/. mainrepo/public/roads/
-          fi
-          cd mainrepo
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config http.postBuffer 524288000
-          git add -A -- public/routing public/roads
-          if git diff --cached --quiet; then
-            echo "No routing changes to publish"
-            exit 0
-          fi
-          git commit -q -m "Routing graphs"
-          # Preserve commits pushed by concurrent UI/deployment work.
-          # Never force-push or overwrite unrelated main-branch files.
-          for attempt in 1 2 3; do
-            if git push -q origin "HEAD:${MAIN_BRANCH}"; then exit 0; fi
-            echo "::warning::main changed concurrently; rebasing routing commit (attempt ${attempt})"
-            git fetch -q origin "${MAIN_BRANCH}"
-            git rebase FETCH_HEAD || { git rebase --abort; echo "::error::Conflicting routing data update; manual reconciliation required"; exit 1; }
-          done
-          echo "::error::Could not push after three safe retries"
-          exit 1
+          git add -A public
+          git commit -q -m "Add routing data and Directions panel" || echo "Nothing to commit"
+          git push -q origin HEAD:main
 
-      - name: Prepare Pages artifact
-        if: ${{ inputs.deploy_pages }}
-        run: rsync -a --exclude .git site/ pages/
       - uses: actions/upload-pages-artifact@v3
-        if: ${{ inputs.deploy_pages }}
+        if: ${{ inputs.deploy_pages || inputs.deploy_pages == null }}
         with:
-          path: pages
+          path: public
 
   deploy:
     needs: build
-    if: ${{ inputs.deploy_pages }}
+    if: ${{ inputs.deploy_pages || inputs.deploy_pages == null }}
     runs-on: ubuntu-latest
     permissions:
       pages: write
