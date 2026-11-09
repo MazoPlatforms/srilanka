@@ -79,7 +79,18 @@ data class MapConfig(
             "polonnaruwa", "puttalam", "ratnapura", "trincomalee", "vavuniya",
         )
 
-        /** Default production config pointing to a hosted tile server. */
+        /** GitHub Pages static frontend hosting (100% serverless). */
+        fun githubPages(owner: String = "MazoPlatforms", repo: String = "srilanka"): MapConfig {
+            val base = "https://$owner.github.io/$repo"
+            return MapConfig(
+                tileServerBaseUrl = base,
+                styleUrl = "$base/style.json",
+                routingEndpoint = "$base/data/routing",
+                searchEndpoint = "$base/data/streets",
+            )
+        }
+
+        /** Default production config pointing to a hosted tile server or GitHub Pages. */
         fun production(tileServerBaseUrl: String): MapConfig =
             MapConfig(tileServerBaseUrl = tileServerBaseUrl)
 

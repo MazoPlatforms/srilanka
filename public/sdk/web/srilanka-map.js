@@ -1,33 +1,37 @@
 /**
- * srilanka-map.js  —  Sri Lanka Map Web SDK
+ * srilanka-map.js  —  Sri Lanka Map Web SDK (100% Frontend Only)
+ * =============================================================
+ * Pure client-side ES-module SDK for Sri Lanka maps, hosted statically
+ * on GitHub Pages with ZERO backend server required.
  *
- * A lightweight ES-module wrapper around MapLibre GL JS that provides a
- * high-level API for Sri Lanka vector maps, street-class filtering, A*
- * routing, and place search.
+ * Features:
+ *   - Direct client-side reading of all 25 district vector tiles (.pmtiles)
+ *     using HTTP Range requests via pmtiles.js
+ *   - Client-side A* routing engine using static JSON cells (data/routing/)
+ *   - Client-side place search using static search shards (data/search/)
+ *   - Street class filtering & styling (motorway, trunk, primary, etc.)
+ *   - Dynamic feature/JSON loading from data/streets/
  *
  * Usage:
  *   import { SriLankaMap } from './srilanka-map.js';
- *   const map = new SriLankaMap({ container: 'map', tileServer: 'http://localhost:8080' });
- *   map.on('ready', () => {
- *     map.showStreets(['motorway', 'primary']);
- *     map.search('Colombo Fort');
- *     map.route({ from: [79.86, 6.93], to: [80.63, 7.29], mode: 'car' });
+ *
+ *   const map = new SriLankaMap({
+ *     container: 'map',
+ *     // dataUrl defaults to auto-detected GitHub Pages / static root
  *   });
  *
- * Requirements:
- *   - MapLibre GL JS (loaded globally as `maplibregl`) or via import map
- *   - pmtiles.js (optional — for direct PMTiles protocol support)
+ *   map.on('ready', () => {
+ *     map.showStreets(['motorway', 'trunk', 'primary']);
+ *     map.route({ from: [79.86, 6.93], to: [80.63, 7.29], mode: 'car' });
+ *     map.search('Kandy');
+ *   });
  */
 
-// ---------------------------------------------------------------------------
-// Constants
-// ---------------------------------------------------------------------------
+export const BBOX = [79.4, 5.8, 82.0, 9.95];
+export const CENTER = [80.7, 7.87];
+export const DEFAULT_ZOOM = 8;
 
-const BBOX        = [79.4, 5.8, 82.0, 9.95];
-const CENTER      = [80.7, 7.87];
-const DEFAULT_ZOOM = 8;
-
-const DISTRICTS = [
+export const DISTRICTS = [
   'ampara','anuradhapura','badulla','batticaloa','colombo',
   'galle','gampaha','hambantota','jaffna','kalutara',
   'kandy','kegalle','kilinochchi','kurunegala','mannar',
@@ -35,316 +39,475 @@ const DISTRICTS = [
   'polonnaruwa','puttalam','ratnapura','trincomalee','vavuniya',
 ];
 
-const ROAD_CLASSES = [
+export const ROAD_CLASSES = [
   'motorway','trunk','primary','secondary','tertiary',
   'residential','living_street','unclassified','service',
   'pedestrian','footway','steps','path','cycleway',
   'bridleway','track','ferry','unknown',
 ];
 
-const CLASS_COLORS = {
-  motorway:      '#e44',
-  trunk:         '#f80',
-  primary:       '#f6cf8a',
-  secondary:     '#ffd',
-  tertiary:      '#ffe',
-  residential:   '#fff',
-  living_street: '#ddd',
-  unclassified:  '#ccc',
-  service:       '#bbb',
-  pedestrian:    '#aaa',
-  footway:       '#999',
-  steps:         '#888',
-  path:          '#777',
-  cycleway:      '#6af',
-  bridleway:     '#a84',
-  track:         '#964',
-  ferry:         '#0af',
-  unknown:       '#ccc',
+export const CLASS_COLORS = {
+  motorway:      '#e44444',
+  trunk:         '#ff8800',
+  primary:       '#ffd700',
+  secondary:     '#ffffff',
+  tertiary:      '#f5f5f5',
+  residential:   '#e8e8e8',
+  living_street: '#dddddd',
+  unclassified:  '#d8d8d8',
+  service:       '#cccccc',
+  pedestrian:    '#aaaaff',
+  footway:       '#aaaaaa',
+  steps:         '#999999',
+  path:          '#999999',
+  cycleway:      '#00aa44',
+  bridleway:     '#886644',
+  track:         '#b8a898',
+  ferry:         '#4488cc',
+  unknown:       '#cccccc',
 };
 
-const CLASS_WIDTHS = {
-  motorway:  [8, 1.5, 14, 7],
-  trunk:     [8, 1,   14, 6],
-  primary:   [8, 0.7, 14, 5],
-  secondary: [9, 0.5, 14, 4],
-  tertiary:  [10,0.4, 14, 3],
+const MODES = {
+  car:        { b: 1,  max: 33 },
+  motorcycle: { b: 2,  max: 30 },
+  truck:      { b: 4,  max: 25 },
+  bus:        { b: 8,  max: 25 },
+  bike:       { b: 16, max: 8  },
+  walk:       { b: 32, max: 1.6},
+  wheelchair: { b: 64, max: 1.2},
+};
+
+const SPEED_CLASS = {
+  motorway: 27, trunk: 20, primary: 16, secondary: 13, tertiary: 11,
+  residential: 8, living_street: 5, unclassified: 9, service: 5, track: 4, unknown: 8
 };
 
 // ---------------------------------------------------------------------------
-// SriLankaMap class
+// Client-side A* Routing Engine (Pure Frontend)
 // ---------------------------------------------------------------------------
+class ClientSideRouter {
+  constructor(dataUrl) {
+    this.R = dataUrl + 'routing/';
+    this.M = null;
+    this.cache = new Map();
+    this.nodes = new Map();
+    this.adj = new Map();
+    this.cellNodes = new Map();
+    this.loaded = new Set();
+  }
 
+  async init() {
+    if (this.M) return;
+    const r = await fetch(this.R + 'manifest.json', { cache: 'no-cache' });
+    this.M = await r.json();
+  }
+
+  cellOf(lon, lat) {
+    const { w, s, cell, nx, ny } = this.M;
+    const x = Math.min(nx - 1, Math.max(0, Math.floor((lon - w) / cell)));
+    const y = Math.min(ny - 1, Math.max(0, Math.floor((lat - s) / cell)));
+    return y * nx + x;
+  }
+
+  cellPath(n) {
+    const { per, depth } = this.M;
+    let l = Math.floor(n / per), s = [];
+    for (let i = 0; i < depth; i++) {
+      s.push(String(l % per + 1).padStart(3, '0'));
+      l = Math.floor(l / per);
+    }
+    return this.R + s.reverse().join('/') + '/' + n + '.json';
+  }
+
+  async loadCell(n) {
+    if (!this.cache.has(n)) {
+      this.cache.set(n, fetch(this.cellPath(n)).then(r => r.ok ? r.json() : { n: {}, e: [] })
+        .catch(() => ({ n: {}, e: [] })).then(d => {
+          for (const k in d.n) this.nodes.set(+k, d.n[k]);
+          const ids = [];
+          for (const e of d.e) {
+            for (const dir of [0, 1]) {
+              const id = e[dir], c = this.nodes.get(id);
+              if (!c || this.cellOf(c[0], c[1]) !== n) continue;
+              let a = this.adj.get(id);
+              if (!a) { this.adj.set(id, a = []); ids.push(id); }
+              a.push([e, dir]);
+            }
+          }
+          this.cellNodes.set(n, ids);
+          this.loaded.add(n);
+        }));
+    }
+    return this.cache.get(n);
+  }
+
+  dist(a, b) {
+    const k = Math.cos((a[1] + b[1]) * Math.PI / 360);
+    return 111320 * Math.hypot((a[0] - b[0]) * k, a[1] - b[1]);
+  }
+
+  async snap(m, lng, lat) {
+    const { nx, ny } = this.M;
+    const c = this.cellOf(lng, lat), cx = c % nx, cy = Math.floor(c / nx), cs = [];
+    for (let dy = -1; dy <= 1; dy++) {
+      for (let dx = -1; dx <= 1; dx++) {
+        const x = cx + dx, y = cy + dy;
+        if (x >= 0 && y >= 0 && x < nx && y < ny) cs.push(y * nx + x);
+      }
+    }
+    await Promise.all(cs.map(cc => this.loadCell(cc)));
+    const b = MODES[m].b, k = Math.cos(lat * Math.PI / 180);
+    let best = null, bd = 1e18;
+    for (const cc of cs) {
+      for (const id of this.cellNodes.get(cc) || []) {
+        if (!this.adj.get(id)?.some(([e, d]) => e[5 + d] & b)) continue;
+        const p = this.nodes.get(id);
+        const d2 = ((p[0] - lng) * k) ** 2 + (p[1] - lat) ** 2;
+        if (d2 < bd) { bd = d2; best = id; }
+      }
+    }
+    return best;
+  }
+
+  speed(m, e) {
+    const c = this.M.classes[e[3]];
+    if (c === 'ferry') return Math.min(5, MODES[m].max);
+    if (m === 'walk') return c === 'steps' ? 0.8 : 1.4;
+    if (m === 'wheelchair') return 1.1;
+    if (m === 'bike') return (c === 'path' || c === 'track') ? 3 : 4.2;
+    const v = e[4] > 0 ? e[4] / 3.6 * 0.85 : (SPEED_CLASS[c] || 8);
+    return Math.max(1, Math.min(v * (m === 'car' || m === 'motorcycle' ? 1 : 0.85), MODES[m].max));
+  }
+
+  async compute(m, s, t) {
+    const b = MODES[m].b, mx = MODES[m].max, T = this.nodes.get(t);
+    const h = id => this.dist(this.nodes.get(id), T) / mx;
+    const g = new Map([[s, 0]]), prev = new Map(), done = new Set();
+    const heap = [[h(s), s]];
+    const pushH = (k, v) => { heap.push([k, v]); heap.sort((x, y) => x[0] - y[0]); };
+    const popH = () => heap.shift();
+
+    let it = 0;
+    while (heap.length) {
+      const [, u] = popH();
+      if (done.has(u)) continue;
+      if (u === t) break;
+      done.add(u);
+      const p = this.nodes.get(u), c = this.cellOf(p[0], p[1]);
+      if (!this.loaded.has(c)) await this.loadCell(c);
+      for (const [e, d] of this.adj.get(u) || []) {
+        if (!(e[5 + d] & b)) continue;
+        const v = e[1 - d], nd = g.get(u) + e[2] / this.speed(m, e);
+        if (nd < (g.get(v) ?? 1e18)) {
+          g.set(v, nd);
+          prev.set(v, [u, e, d]);
+          pushH(nd + h(v), v);
+        }
+      }
+      if (++it > 3e6) break;
+    }
+
+    if (!prev.has(t) && s !== t) return null;
+    const steps = []; let v = t, len = 0;
+    while (v !== s) {
+      const [u, e, d] = prev.get(v);
+      const mid = [];
+      for (let i = 0; e[7] && i < e[7].length; i += 2) mid.push([e[7][i], e[7][i + 1]]);
+      if (d) mid.reverse();
+      steps.push([this.nodes.get(u), ...mid]);
+      len += e[2];
+      v = u;
+    }
+    return {
+      coordinates: steps.reverse().flat().concat([this.nodes.get(t)]),
+      distance_m: len,
+      distance_km: Math.round(len / 100) / 10,
+      duration_sec: Math.round(g.get(t) || 0),
+      mode: m,
+    };
+  }
+}
+
+// ---------------------------------------------------------------------------
+// SriLankaMap class — 100% Frontend Only
+// ---------------------------------------------------------------------------
 export class SriLankaMap extends EventTarget {
   /**
    * @param {object} options
-   * @param {string}  options.container   - DOM element ID or HTMLElement
-   * @param {string}  [options.tileServer='http://localhost:8080'] - Tile server base URL
-   * @param {string}  [options.style]     - Custom MapLibre style URL (overrides auto-build)
-   * @param {number}  [options.zoom]      - Initial zoom
-   * @param {number[]}[options.center]    - Initial [lng, lat]
-   * @param {boolean} [options.hash=true] - Sync map state with URL hash
-   * @param {boolean} [options.routing=true] - Enable routing integration
+   * @param {string|HTMLElement} options.container - DOM container
+   * @param {string} [options.baseUrl] - Base URL of the static GitHub Pages repo
+   * @param {number[]} [options.center=[80.7, 7.87]]
+   * @param {number} [options.zoom=8]
+   * @param {boolean} [options.hash=true]
+   * @param {boolean} [options.routing=true]
    */
   constructor(options = {}) {
     super();
 
+    // Auto-detect static GitHub Pages base path
+    let defaultBase = location.href.replace(/\/[^/]*$/, '/');
+    if (defaultBase.endsWith('/sdk/web/')) {
+      defaultBase = new URL('../../', defaultBase).href;
+    }
+
+    this._base = (options.baseUrl || options.tileServer || defaultBase).replace(/\/$/, '') + '/';
+    this._data = new URL('data/', this._base).href;
+    this._fonts = new URL('fonts/', this._base).href + '{fontstack}/{range}.pbf';
+
     this._opts = {
-      tileServer: 'http://localhost:8080',
-      zoom:       DEFAULT_ZOOM,
-      center:     CENTER,
-      hash:       true,
-      routing:    true,
+      container: options.container,
+      zoom: options.zoom || DEFAULT_ZOOM,
+      center: options.center || CENTER,
+      hash: options.hash !== false,
+      routing: options.routing !== false,
       ...options,
     };
 
-    this._base   = this._opts.tileServer.replace(/\/$/, '');
-    this._map    = null;
-    this._route  = null;          // current route GeoJSON source
-    this._popup  = null;
-    this._shards = new Map();     // search shard cache
-    this._layers = new Set();     // added layer ids
+    this._map = null;
+    this._router = new ClientSideRouter(this._data);
+    this._shards = new Map();
+    this._layers = new Set();
+    this._districtsData = null;
 
     this._init();
   }
 
-  // -------------------------------------------------------------------------
-  // Initialisation
-  // -------------------------------------------------------------------------
-
   async _init() {
-    // Wait for maplibregl global (supports both CDN and module bundler setups)
     const mgl = await this._waitForMapLibre();
 
-    // Register pmtiles protocol if library is available
+    // Register client-side PMTiles protocol handler
     if (typeof pmtiles !== 'undefined') {
       mgl.addProtocol('pmtiles', new pmtiles.Protocol().tile);
     }
 
-    const styleUrl = this._opts.style || `${this._base}/style.json`;
+    // Fetch static districts index to build frontend style
+    try {
+      const res = await fetch(this._data + 'districts.json', { cache: 'no-cache' });
+      this._districtsData = await res.json();
+    } catch (e) {
+      this._districtsData = { bbox: BBOX, districts: [] };
+    }
+
+    const style = this._buildFrontendStyle();
 
     this._map = new mgl.Map({
-      container:  this._opts.container,
-      style:      styleUrl,
-      hash:       this._opts.hash,
-      minZoom:    6,
-      maxBounds:  [[BBOX[0] - 0.5, BBOX[1] - 0.5], [BBOX[2] + 0.5, BBOX[3] + 0.5]],
-      center:     this._opts.center,
-      zoom:       this._opts.zoom,
+      container: this._opts.container,
+      style: style,
+      hash: this._opts.hash,
+      minZoom: 6,
+      maxBounds: [[BBOX[0] - 0.5, BBOX[1] - 0.5], [BBOX[2] + 0.5, BBOX[3] + 0.5]],
+      center: this._opts.center,
+      zoom: this._opts.zoom,
     });
+
+    this._map.addControl(new mgl.NavigationControl(), 'bottom-right');
+    this._map.addControl(new mgl.ScaleControl(), 'bottom-left');
 
     this._map.on('error', ev => {
       this.dispatchEvent(Object.assign(new Event('error'), { detail: ev }));
     });
 
-    this._map.on('load', () => {
-      this._ensureDistrictSources();
-      this._addDefaultLayers();
+    this._map.on('load', async () => {
+      // Add client-side route layer
+      this._map.addSource('sl-route', {
+        type: 'geojson',
+        data: { type: 'FeatureCollection', features: [] }
+      });
+      this._map.addLayer({
+        id: 'sl-route-casing', type: 'line', source: 'sl-route',
+        layout: { 'line-cap': 'round', 'line-join': 'round' },
+        paint: { 'line-color': '#ffffff', 'line-width': 8, 'line-opacity': 0.6 }
+      });
+      this._map.addLayer({
+        id: 'sl-route-line', type: 'line', source: 'sl-route',
+        layout: { 'line-cap': 'round', 'line-join': 'round' },
+        paint: { 'line-color': '#0284c7', 'line-width': 5, 'line-opacity': 0.95 }
+      });
+
+      if (this._opts.routing) {
+        try { await this._router.init(); } catch (e) { /* routing cell cache */ }
+      }
+
       this.dispatchEvent(new Event('ready'));
     });
   }
 
+  _buildFrontendStyle() {
+    const D = this._districtsData.districts || [];
+    const sources = {};
+    const layers = [{ id: 'bg', type: 'background', paint: { 'background-color': '#e2ebdc' } }];
+
+    // 100% Frontend PMTiles sources via HTTP Range requests to GitHub Pages
+    D.forEach(d => {
+      const slug = d.slug;
+      if (d.files?.areas) {
+        sources[`a_${slug}`] = {
+          type: 'vector',
+          url: `pmtiles://${this._data}districts/${slug}/areas.pmtiles`,
+          attribution: '© OpenStreetMap contributors',
+        };
+      }
+      if (d.files?.base) {
+        sources[`o_${slug}`] = {
+          type: 'vector',
+          url: `pmtiles://${this._data}districts/${slug}/base.pmtiles`,
+          attribution: '© OpenStreetMap contributors · Overture Maps',
+        };
+      }
+    });
+
+    // Land use
+    D.forEach(d => {
+      if (d.files?.areas) {
+        layers.push({
+          id: `lu-${d.slug}`, type: 'fill', source: `a_${d.slug}`, 'source-layer': 'land_use',
+          paint: {
+            'fill-opacity': 0.85,
+            'fill-color': ['match', ['get', 'class'],
+              ['park', 'forest', 'wood', 'grass'], '#c9e3bd',
+              ['agriculture', 'farmland'], '#dfe8c3',
+              ['residential'], '#e9ece2', '#e4e8dc'
+            ]
+          }
+        });
+        layers.push({
+          id: `wa-${d.slug}`, type: 'fill', source: `a_${d.slug}`, 'source-layer': 'water',
+          paint: { 'fill-color': '#9fd0dc' }
+        });
+      }
+    });
+
+    // Road casings
+    D.forEach(d => {
+      if (d.files?.base) {
+        layers.push({
+          id: `rc-${d.slug}`, type: 'line', source: `o_${d.slug}`, 'source-layer': 'segment',
+          filter: ['==', ['get', 'subtype'], 'road'],
+          layout: { 'line-cap': 'round', 'line-join': 'round' },
+          paint: { 'line-color': '#b7beb2', 'line-width': ['interpolate', ['linear'], ['zoom'], 8, 0.4, 14, 3] }
+        });
+      }
+    });
+
+    // Street layers color-coded by class
+    ROAD_CLASSES.forEach(cls => {
+      const color = CLASS_COLORS[cls] || '#ffffff';
+      const isMajor = ['motorway', 'trunk', 'primary'].includes(cls);
+      D.forEach(d => {
+        if (d.files?.base) {
+          const id = `rd-${cls}-${d.slug}`;
+          layers.push({
+            id, type: 'line', source: `o_${d.slug}`, 'source-layer': 'segment',
+            filter: ['all', ['==', ['get', 'subtype'], 'road'], ['==', ['get', 'class'], cls]],
+            layout: { 'line-cap': 'round', 'line-join': 'round', visibility: 'visible' },
+            paint: {
+              'line-color': color,
+              'line-width': ['interpolate', ['linear'], ['zoom'], 8, isMajor ? 1.5 : 0.4, 14, isMajor ? 5 : 2]
+            }
+          });
+          this._layers.add(id);
+        }
+      });
+    });
+
+    return {
+      version: 8,
+      name: 'Sri Lanka Map (Frontend)',
+      glyphs: this._fonts,
+      sources,
+      layers,
+    };
+  }
+
   _waitForMapLibre(retries = 50) {
     return new Promise((resolve, reject) => {
-      const check = (n) => {
+      const check = n => {
         if (typeof maplibregl !== 'undefined') return resolve(maplibregl);
-        if (n <= 0) return reject(new Error('maplibregl not found. Load it before srilanka-map.js'));
+        if (n <= 0) return reject(new Error('maplibregl not found'));
         setTimeout(() => check(n - 1), 100);
       };
       check(retries);
     });
   }
 
-  _ensureDistrictSources() {
-    for (const slug of DISTRICTS) {
-      const id = `sl_${slug}`;
-      if (this._map.getSource(id)) continue;
-      this._map.addSource(id, {
-        type:        'vector',
-        tiles:       [`${this._base}/tiles/${slug}/{z}/{x}/{y}.pbf`],
-        minzoom:     0,
-        maxzoom:     14,
-        attribution: '© Overture Maps Foundation',
-      });
-    }
-  }
-
-  _addDefaultLayers() {
-    // Road casings (all districts)
-    for (const slug of DISTRICTS) {
-      this._addLayer({
-        id:           `sl-casing-${slug}`,
-        type:         'line',
-        source:       `sl_${slug}`,
-        'source-layer': 'segment',
-        filter:       ['==', ['get', 'subtype'], 'road'],
-        layout:       { 'line-cap': 'round', 'line-join': 'round' },
-        paint: {
-          'line-color': '#b7beb2',
-          'line-width': ['interpolate', ['linear'], ['zoom'], 8, 0.4, 14, 3],
-        },
-      });
-    }
-    // Major roads by default
-    this.showStreets(['motorway', 'trunk', 'primary', 'secondary', 'tertiary']);
-  }
-
-  _addLayer(spec) {
-    if (this._map.getLayer(spec.id)) return;
-    this._map.addLayer(spec);
-    this._layers.add(spec.id);
-  }
-
-  // -------------------------------------------------------------------------
-  // Public API: event emitter shortcuts
-  // -------------------------------------------------------------------------
-
-  /** Register a one-shot or persistent event listener. */
-  on(event, handler) {
-    this.addEventListener(event, handler);
-    return this;
-  }
-
-  off(event, handler) {
-    this.removeEventListener(event, handler);
-    return this;
-  }
-
-  // -------------------------------------------------------------------------
-  // Public API: Street layers
-  // -------------------------------------------------------------------------
+  on(event, handler) { this.addEventListener(event, handler); return this; }
+  off(event, handler) { this.removeEventListener(event, handler); return this; }
 
   /**
-   * Show (and add if not present) layers for the specified road classes.
-   * @param {string[]} classes - e.g. ['motorway', 'primary']
+   * Filter visible street classes.
+   * @param {string[]} classes - Array of class names to show
    */
   showStreets(classes) {
-    for (const cls of classes) {
-      for (const slug of DISTRICTS) {
-        const id = `sl-${cls}-${slug}`;
-        if (!this._map.getLayer(id)) {
-          const color = CLASS_COLORS[cls] || '#ccc';
-          const w = CLASS_WIDTHS[cls];
-          const widthExpr = w
-            ? ['interpolate', ['linear'], ['zoom'], w[0], w[1], w[2], w[3]]
-            : 1.5;
-          this._addLayer({
-            id,
-            type:           'line',
-            source:         `sl_${slug}`,
-            'source-layer': 'segment',
-            filter: ['all',
-              ['==', ['get', 'subtype'], 'road'],
-              ['==', ['get', 'class'],   cls],
-            ],
-            layout: { 'line-cap': 'round', 'line-join': 'round' },
-            paint:  { 'line-color': color, 'line-width': widthExpr },
-          });
-        } else {
-          this._map.setLayoutProperty(id, 'visibility', 'visible');
-        }
-      }
-    }
-    return this;
-  }
-
-  /**
-   * Hide layers for the specified road classes.
-   * @param {string[]} classes
-   */
-  hideStreets(classes) {
-    for (const cls of classes) {
-      for (const slug of DISTRICTS) {
-        const id = `sl-${cls}-${slug}`;
+    const showSet = new Set(classes);
+    ROAD_CLASSES.forEach(cls => {
+      const visible = showSet.has(cls);
+      (this._districtsData.districts || []).forEach(d => {
+        const id = `rd-${cls}-${d.slug}`;
         if (this._map.getLayer(id)) {
-          this._map.setLayoutProperty(id, 'visibility', 'none');
+          this._map.setLayoutProperty(id, 'visibility', visible ? 'visible' : 'none');
         }
-      }
-    }
+      });
+    });
     return this;
   }
 
-  /** Toggle a road class layer on/off. Returns the new visibility state. */
-  toggleStreets(cls) {
-    const id = `sl-${cls}-${DISTRICTS[0]}`;
-    const vis = this._map.getLayoutProperty(id, 'visibility');
-    if (vis === 'none') {
-      this.showStreets([cls]); return true;
-    } else {
-      this.hideStreets([cls]); return false;
-    }
-  }
-
-  // -------------------------------------------------------------------------
-  // Public API: Routing
-  // -------------------------------------------------------------------------
-
   /**
-   * Request and draw a route.
-   *
-   * @param {object}   opts
-   * @param {number[]} opts.from   - [lon, lat] origin
-   * @param {number[]} opts.to     - [lon, lat] destination
-   * @param {string}   [opts.mode='car']
-   * @returns {Promise<object|null>} Route GeoJSON Feature
+   * Compute and draw a route 100% in the frontend.
+   * @param {object} opts
+   * @param {number[]} opts.from - [lon, lat]
+   * @param {number[]} opts.to - [lon, lat]
+   * @param {string} [opts.mode='car']
    */
   async route({ from, to, mode = 'car' } = {}) {
-    const url = `${this._base}/routing/route.json` +
-      `?from=${from.join(',')}&to=${to.join(',')}&mode=${encodeURIComponent(mode)}`;
-    try {
-      const res = await fetch(url);
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      const data = await res.json();
-      this._drawRoute(data);
-      this.dispatchEvent(Object.assign(new Event('route'), { detail: data }));
-      return data;
-    } catch (err) {
-      this.dispatchEvent(Object.assign(new Event('error'), { detail: err }));
+    if (!this._router.M) await this._router.init();
+    this.dispatchEvent(new CustomEvent('routing:start', { detail: { from, to, mode } }));
+
+    const [s, t] = await Promise.all([
+      this._router.snap(mode, from[0], from[1]),
+      this._router.snap(mode, to[0], to[1]),
+    ]);
+
+    if (s == null || t == null) {
+      this.clearRoute();
+      this.dispatchEvent(new CustomEvent('routing:error', { detail: 'No road near point' }));
       return null;
     }
+
+    const result = await this._router.compute(mode, s, t);
+    if (!result) {
+      this.clearRoute();
+      this.dispatchEvent(new CustomEvent('routing:error', { detail: 'No route found' }));
+      return null;
+    }
+
+    this._drawRoute(result);
+    this.dispatchEvent(new CustomEvent('routing:success', { detail: result }));
+    return result;
   }
 
   _drawRoute(data) {
-    this.clearRoute();
-    const geojson = {
-      type: 'FeatureCollection',
-      features: [{
-        type: 'Feature',
-        geometry: { type: 'LineString', coordinates: data.coordinates || [] },
-        properties: { mode: data.mode, distance_km: data.distance_km },
-      }],
-    };
-    this._map.addSource('sl-route', { type: 'geojson', data: geojson });
-    this._map.addLayer({
-      id: 'sl-route-line', type: 'line', source: 'sl-route',
-      layout: { 'line-cap': 'round', 'line-join': 'round' },
-      paint: { 'line-color': '#007aff', 'line-width': 5, 'line-opacity': 0.9 },
+    if (!this._map?.getSource('sl-route')) return;
+    this._map.getSource('sl-route').setData({
+      type: 'Feature',
+      geometry: { type: 'LineString', coordinates: data.coordinates || [] },
+      properties: data,
     });
-    this._map.addLayer({
-      id: 'sl-route-casing', type: 'line', source: 'sl-route',
-      layout: { 'line-cap': 'round', 'line-join': 'round' },
-      paint: { 'line-color': '#fff', 'line-width': 9, 'line-opacity': 0.4 },
-    }, 'sl-route-line');
+    // Fit bounds to route
+    const bounds = new maplibregl.LngLatBounds();
+    data.coordinates.forEach(p => bounds.extend(p));
+    this._map.fitBounds(bounds, { padding: 60, maxZoom: 16 });
   }
 
-  /** Remove the route polyline from the map. */
   clearRoute() {
-    for (const id of ['sl-route-line', 'sl-route-casing']) {
-      if (this._map.getLayer(id)) this._map.removeLayer(id);
+    if (this._map?.getSource('sl-route')) {
+      this._map.getSource('sl-route').setData({ type: 'FeatureCollection', features: [] });
     }
-    if (this._map.getSource('sl-route')) this._map.removeSource('sl-route');
   }
-
-  // -------------------------------------------------------------------------
-  // Public API: Search
-  // -------------------------------------------------------------------------
 
   /**
-   * Search places by name.
-   *
+   * Search places by name using static search shards.
    * @param {string} query
    * @param {number} [limit=8]
-   * @returns {Promise<Array>} Array of [name, lon, lat, id, folder, districtIdx]
    */
   async search(query, limit = 8) {
     const SEP = /[\s,.;:()\[\]/\\-_&'"]+/;
@@ -352,12 +515,10 @@ export class SriLankaMap extends EventTarget {
     const lead = tokens.find(t => [...t].length >= 2);
     if (!lead) return [];
 
-    const cps = [...lead].slice(0, 2).map(c => c.codePointAt(0).toString(16));
-    const key = cps.join('-');
-
+    const key = [...lead].slice(0, 2).map(c => c.codePointAt(0).toString(16)).join('-');
     if (!this._shards.has(key)) {
       try {
-        const r = await fetch(`${this._base}/data/search/${key}.json`);
+        const r = await fetch(`${this._data}search/${key}.json`);
         this._shards.set(key, r.ok ? await r.json() : []);
       } catch { this._shards.set(key, []); }
     }
@@ -366,83 +527,30 @@ export class SriLankaMap extends EventTarget {
       .filter(x => tokens.every(t => x[0].toLowerCase().includes(t)))
       .slice(0, limit);
 
-    this.dispatchEvent(Object.assign(new Event('search'), { detail: { query, hits } }));
+    this.dispatchEvent(new CustomEvent('search:results', { detail: { query, hits } }));
     return hits;
   }
 
-  // -------------------------------------------------------------------------
-  // Public API: Data fetching
-  // -------------------------------------------------------------------------
+  flyTo(lngLat, zoom = 14) {
+    this._map?.flyTo({ center: lngLat, zoom });
+    return this;
+  }
 
-  /** Fetch the streets master index. */
+  /** Fetch any static street JSON file */
   async getStreetsIndex() {
-    return this._fetchJson(`${this._base}/streets/index.json`);
+    const r = await fetch(this._data + 'streets/index.json');
+    return r.ok ? r.json() : null;
   }
 
-  /** Fetch data for a road class. */
   async getStreetClass(cls) {
-    return this._fetchJson(`${this._base}/streets/by-class/${cls}.json`);
+    const r = await fetch(`${this._data}streets/by-class/${cls}.json`);
+    return r.ok ? r.json() : null;
   }
 
-  /** Fetch street data for a district. */
-  async getStreetDistrict(slug) {
-    return this._fetchJson(`${this._base}/streets/by-district/${slug}.json`);
+  async getDistrictStreets(slug) {
+    const r = await fetch(`${this._data}streets/by-district/${slug}.json`);
+    return r.ok ? r.json() : null;
   }
-
-  /** Fetch the routing manifest. */
-  async getRoutingManifest() {
-    return this._fetchJson(`${this._base}/routing/manifest.json`);
-  }
-
-  async _fetchJson(url) {
-    try {
-      const r = await fetch(url);
-      return r.ok ? r.json() : null;
-    } catch { return null; }
-  }
-
-  // -------------------------------------------------------------------------
-  // Public API: Map controls
-  // -------------------------------------------------------------------------
-
-  /** Fly the map to a [lon, lat] position. */
-  flyTo(center, zoom) {
-    this._map.flyTo({ center, zoom: zoom ?? this._map.getZoom() });
-    return this;
-  }
-
-  /** Add a popup at [lon, lat] with HTML content. */
-  popup(lngLat, html) {
-    if (this._popup) this._popup.remove();
-    this._popup = new maplibregl.Popup({ maxWidth: '280px' })
-      .setLngLat(lngLat)
-      .setHTML(html)
-      .addTo(this._map);
-    return this;
-  }
-
-  /** Close any open popup. */
-  closePopup() {
-    if (this._popup) { this._popup.remove(); this._popup = null; }
-    return this;
-  }
-
-  /** Expose the underlying MapLibre GL Map instance. */
-  get rawMap() { return this._map; }
-
-  /** List of all available road classes. */
-  static get ROAD_CLASSES() { return ROAD_CLASSES; }
-
-  /** Road class → default hex colour map. */
-  static get CLASS_COLORS() { return CLASS_COLORS; }
-
-  /** List of district slugs. */
-  static get DISTRICTS() { return DISTRICTS; }
 }
 
-// ---------------------------------------------------------------------------
-// Auto-export for non-module environments
-// ---------------------------------------------------------------------------
-if (typeof window !== 'undefined') {
-  window.SriLankaMap = SriLankaMap;
-}
+export default SriLankaMap;

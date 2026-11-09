@@ -1,10 +1,63 @@
 # Sri Lanka Map — Android SDK
 
-Kotlin SDK and integration guide for embedding Sri Lanka streets, vector tiles (PBF), raster tiles (PNG), and routing into Android apps using **MapLibre Android SDK** or **Google Maps Android SDK**.
+Kotlin SDK and integration guide for embedding Sri Lanka streets, vector tiles (PBF), and routing into Android apps.
+
+> **100% FRONTEND ONLY ARCHITECTURE (GitHub Pages)**
+> This platform runs **completely serverless on GitHub Pages**.
+> There are no backend servers to manage, no API limits, and no third-party API fees.
+> All road data, tiles, routing cells, and place searches are fetched as static assets using HTTP byte-range and standard GET requests.
 
 ---
 
-## Google Maps Android SDK Integration (Raster PNG Tiles)
+## Option 1 (Zero Server): `SriLankaMapView` (100% Frontend via GitHub Pages)
+
+The simplest, zero-backend way to embed Sri Lanka maps into any Android application. It connects directly to your static GitHub Pages site with full interactive gestures, street filtering, and client-side routing.
+
+### 1. Copy `SriLankaMapView.kt` to your project
+Copy [`SriLankaMapView.kt`](./SriLankaMapView.kt) into your Android module (`app/src/main/java/com/srilanka/map/`).
+
+### 2. Add to your Layout XML
+```xml
+<com.srilanka.map.SriLankaMapView
+    android:id="@+id/sriLankaMap"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+```
+
+### 3. Use in your Activity (Kotlin)
+```kotlin
+class MainActivity : AppCompatActivity() {
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+
+        val mapView = findViewById<SriLankaMapView>(R.id.sriLankaMap)
+        // Loads directly from static GitHub Pages
+        mapView.loadMap("https://MazoPlatforms.github.io/srilanka/")
+
+        mapView.onMapReady = {
+            // Filter street classes
+            mapView.showStreets(listOf("motorway", "trunk", "primary", "secondary"))
+
+            // Compute client-side A* route
+            mapView.route(
+                startLat = 6.9271, startLon = 79.8612, // Colombo
+                endLat = 7.2906, endLon = 80.6337,     // Kandy
+                mode = "car"
+            )
+        }
+
+        mapView.onRouteCalculated = { distanceKm, durationSec ->
+            Log.d("Map", "Route found: $distanceKm km, ${durationSec / 60} mins")
+        }
+    }
+}
+```
+
+---
+
+## Option 2: Native MapLibre Android SDK (Vector PMTiles)
 
 If your app already uses **Google Maps Android SDK** (`com.google.android.gms:play-services-maps`), you can display all Sri Lanka streets by adding a custom `TileOverlay` powered by this tile server.
 

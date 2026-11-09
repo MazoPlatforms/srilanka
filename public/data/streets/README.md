@@ -112,17 +112,17 @@ python scripts/build_osm_map.py --export-streets-only
 | `ferry` | `route=ferry` | 30 km/h | all |
 | `unknown` | *(various)* | 20 km/h | all |
 
-## Tile Server
+## 100% Frontend Only Architecture (GitHub Pages)
 
-The streets data is also served via the tile server:
+This entire platform is **100% frontend only**, hosted statically on GitHub Pages with ZERO backend server required:
 
-```
-GET /streets/index.json
-GET /streets/by-class/{class}.json
-GET /streets/by-district/{district}.json
-```
+* **Static Hosting**: All JSON files in `public/data/streets/` and `public/data/routing/` are served directly as static files by GitHub Pages with native CORS enabled.
+* **Adding New JSON Files**: You can create new `.json` files in `public/data/streets/by-class/`, `public/data/streets/by-district/`, or new custom subfolders (e.g. `public/data/streets/custom/my_features.json`). As soon as you commit and push to `main`, GitHub Pages automatically publishes them at `https://<owner>.github.io/<repo>/data/streets/...`.
+* **Zero Backend Costs**: No servers to manage, no server downtime, and no monthly hosting bills.
 
-Start the tile server with:
+## Developer Tile Server (Optional)
+
+For local development or offline proxying, an optional local Python tile server is included:
 
 ```bash
 python scripts/tile_server.py --port 8080

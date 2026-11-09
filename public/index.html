@@ -201,6 +201,20 @@ function init(index) {
   const total = D.reduce((a, d) => a + (d.places.total || 0), 0);
   document.getElementById("meta").textContent =
     `${D.length} of 25 districts built · ${total.toLocaleString()} places · OSM + Mazo Maps migration`;
+
+  // Bridge helpers for Android WebView & Web SDK
+  window.__districts = D;
+  window.showStreets = function(classes) {
+    const show = new Set(classes);
+    D.forEach(d => {
+      ["rc-", "rd-", "rl-", "rt-"].forEach(p => {
+        const id = p + d.slug;
+        if (map.getLayer(id)) {
+          map.setLayoutProperty(id, "visibility", (!classes || classes.length === 0 || classes.some(c => G["Roads"].includes(id))) ? "visible" : "none");
+        }
+      });
+    });
+  };
 }
 </script>
 <script src="routing.js"></script>

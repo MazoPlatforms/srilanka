@@ -186,17 +186,16 @@
   </div>
 
   <details style="margin-top:14px;">
-    <summary style="font-size:12px;font-weight:700;color:var(--muted);cursor:pointer;">API ENDPOINTS & SDK USAGE</summary>
+    <summary style="font-size:12px;font-weight:700;color:var(--muted);cursor:pointer;">100% FRONTEND / GITHUB PAGES DATA</summary>
     <div class="endpoints-list">
-      <div><strong>Vector PBF:</strong><br>/tiles/{z}/{x}/{y}.pbf</div>
-      <div><strong>Raster PNG:</strong><br>/tiles/{z}/{x}/{y}.png</div>
-      <div><strong>Style JSON:</strong><br>/style.json</div>
-      <div><strong>Streets API:</strong><br>/streets/index.json</div>
-      <div><strong>Routing API:</strong><br>/routing/manifest.json</div>
+      <div><strong>Static Vector (PMTiles):</strong><br>data/districts/{district}/base.pmtiles</div>
+      <div><strong>Static Style JSON:</strong><br><a href="../../style.json" target="_blank" style="color:var(--accent)">style.json</a></div>
+      <div><strong>Static Streets API:</strong><br><a href="../../data/streets/index.json" target="_blank" style="color:var(--accent)">data/streets/index.json</a></div>
+      <div><strong>Static Routing Graph:</strong><br><a href="../../data/routing/manifest.json" target="_blank" style="color:var(--accent)">data/routing/manifest.json</a></div>
+      <div><strong>Static Places Search:</strong><br>data/search/{key}.json</div>
     </div>
     <div style="font-size:11px;color:var(--muted);margin-top:6px;">
-      Google Maps Android SDK: add <code>UrlTileProvider(256, 256)</code> pointing to <code>/tiles/{z}/{x}/{y}.png</code>.
-      MapLibre Android SDK: add <code>VectorSource</code> pointing to <code>/tiles/{z}/{x}/{y}.pbf</code>.
+      100% serverless frontend architecture hosted on GitHub Pages. Android apps can load this view directly via <code>WebView</code> (zero server) or use MapLibre Android SDK reading static PMTiles via HTTP Range requests.
     </div>
   </details>
 </div>
@@ -206,11 +205,9 @@
 <script type="module">
   import { SriLankaMap } from './srilanka-map.js';
 
-  // Support both PMTiles direct file serving (default) or tile server
-  const tileServer = location.origin;
+  // 100% frontend static initialization on GitHub Pages
   const sdk = new SriLankaMap({
     container: 'map-container',
-    tileServer: tileServer,
     center: [80.7, 7.8],
     zoom: 8
   });
