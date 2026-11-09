@@ -351,7 +351,7 @@ export class SriLankaMap extends EventTarget {
         sources[`o_${slug}`] = {
           type: 'vector',
           url: `pmtiles://${this._data}districts/${slug}/base.pmtiles`,
-          attribution: '© OpenStreetMap contributors · Overture Maps',
+          attribution: '© OpenStreetMap contributors · Mazo Maps',
         };
       }
     });

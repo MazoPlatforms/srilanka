@@ -341,7 +341,7 @@ def build_style_json(base_url: str) -> dict:
         "tiles": [f"{base_url}/tiles/{{z}}/{{x}}/{{y}}.pbf"],
         "minzoom": 0,
         "maxzoom": 14,
-        "attribution": "© OpenStreetMap contributors · Overture Maps",
+        "attribution": "© OpenStreetMap contributors · Mazo Maps",
     }
 
     # Per-district sources
@@ -352,7 +352,7 @@ def build_style_json(base_url: str) -> dict:
             "tiles": [f"{base_url}/tiles/{slug}/{{z}}/{{x}}/{{y}}.pbf"],
             "minzoom": 0,
             "maxzoom": 14,
-            "attribution": "© OpenStreetMap contributors · Overture Maps",
+            "attribution": "© OpenStreetMap contributors · Mazo Maps",
         }
 
     # Road casing
@@ -413,7 +413,7 @@ def build_combined_tilejson(base_url: str) -> dict:
         "name": "Sri Lanka Map (All Streets)",
         "description": "Full vector & raster tiles for all Sri Lanka streets, compatible with Android SDK & Web",
         "version": "1.0.0",
-        "attribution": "© OpenStreetMap contributors · Overture Maps",
+        "attribution": "© OpenStreetMap contributors · Mazo Maps",
         "scheme": "xyz",
         "tiles": [f"{base_url}/tiles/{{z}}/{{x}}/{{y}}.pbf"],
         "raster_tiles": [f"{base_url}/tiles/{{z}}/{{x}}/{{y}}.png"],
@@ -459,7 +459,25 @@ class TileHandler(BaseHTTPRequestHandler):
         if not path.exists():
             self._send_json(404, {"error": "not found", "path": str(path)})
             return
-        self._send(200, content_type, path.read_bytes())
+        file_size = path.stat().st_size
+        range_header = self.headers.get("Range")
+        if range_header and range_header.startswith("bytes="):
+            spec = range_header[6:].split(",")[0].strip()
+            if "-" in spec:
+                s, e = spec.split("-", 1)
+                start = int(s) if s else max(0, file_size - int(e))
+                end = min(file_size - 1, int(e)) if e else (file_size - 1)
+                if 0 <= start <= end < file_size:
+                    length = end - start + 1
+                    with open(path, "rb") as f:
+                        f.seek(start)
+                        chunk = f.read(length)
+                    self._send(206, content_type, chunk, {
+                        "Content-Range": f"bytes {start}-{end}/{file_size}",
+                        "Accept-Ranges": "bytes",
+                    })
+                    return
+        self._send(200, content_type, path.read_bytes(), {"Accept-Ranges": "bytes"})
 
     def _not_found(self, msg: str = "not found"):
         self._send_json(404, {"error": msg})

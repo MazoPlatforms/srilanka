@@ -69,7 +69,7 @@ function init(index) {
   const sources = {}, L = [{ id: "bg", type: "background", paint: { "background-color": "#e2ebdc" } }];
   const G = { Roads: [], Buildings: [], Places: [], Water: [], "Land use": [] };
   const add = (g, layer) => { L.push(layer); G[g].push(layer.id); };
-  const src = (id, file, d) => { sources[id] = { type: "vector", url: "pmtiles://" + abs(file), attribution: d.source ? "© OpenStreetMap contributors · Mazo Maps" : "© Overture Maps Foundation" }; };
+  const src = (id, file, d) => { sources[id] = { type: "vector", url: "pmtiles://" + abs(file), attribution: "© OpenStreetMap contributors · Mazo Maps" }; };
   D.forEach(d => {
     if (d.files.areas) src("a_" + d.slug, `districts/${d.slug}/areas.pmtiles`, d);
     if (d.files.base) src("o_" + d.slug, `districts/${d.slug}/base.pmtiles`, d);
@@ -200,7 +200,7 @@ function init(index) {
   }
   const total = D.reduce((a, d) => a + (d.places.total || 0), 0);
   document.getElementById("meta").textContent =
-    `${D.length} of 25 districts built · ${total.toLocaleString()} places · OSM + Mazo Maps migration`;
+    `${D.length} of 25 districts built · ${total.toLocaleString()} places · OpenStreetMap + Mazo Maps (100% Local / Zero 3rd-Party APIs)`;
 
   // Bridge helpers for Android WebView & Web SDK
   window.__districts = D;
